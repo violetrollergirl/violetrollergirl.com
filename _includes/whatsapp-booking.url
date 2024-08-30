@@ -1,0 +1,1 @@
+https://wa.me/{{ site.contact.whatsapp }}?text={{ site.booking.template_txt -}}

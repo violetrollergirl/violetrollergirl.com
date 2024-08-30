@@ -1,89 +1,437 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="refresh" content="0; url=https://linktr.ee/violetrollergirl" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Violet Rollergirl</title>
-    <meta name="description" content="I'm Vi! NYC's manic pixie roller pokégirl, party princess and sweet subby treat!" />
+---
+layout: default
+---
 
-    <meta property="og:url" content="https://violetrollergirl.com" />
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Violet Rollergirl" />
-    <meta property="og:description" content="I'm Vi! NYC's manic pixie roller pokégirl, party princess and sweet subby treat!" />
-    <meta property="og:image" content="https://ugc.production.linktr.ee/60e4545f-9ba7-49ef-8ada-a11eabf83cfa_image.jpeg?io=true&amp;size=thumbnail-feature-v1_0" />
-    <meta property="og:image:width" content="900" />
-    <meta property="og:image:height" content="507" />
-    <meta name="twitter:card" content="summary_large_image">
-    <meta property="twitter:domain" content="VioletRollergirl.com">
-    <meta property="twitter:url" content="https://violetrollergirl.com">
-    <meta name="twitter:title" content="Violet Rollergirl">
-    <meta name="twitter:description" content="I'm Vi! NYC's manic pixie roller pokégirl, party princess and sweet subby treat!">
-    <meta name="twitter:image" content="https://ugc.production.linktr.ee/60e4545f-9ba7-49ef-8ada-a11eabf83cfa_image.jpeg?io=true&amp;size=thumbnail-feature-v1_0">
-<style>
-html,
-body {
-    margin: 0;
-    border: 0;
-    padding: 0;
-    background: linear-gradient(#7F8B99, #1F2431);
-    color: #FFF;
-}
-body {
-    min-height: 100vh;
-    font-family: Inter, sans-serif;
-    text-align: center;
-}
+<div id="wrapper">
 
-/**
- * @group Typography.
- */
-a:link {
-    padding: 0.5rem 3px;
-    color: inherit;
-}
-a:link:hover {
-    border: 1px dotted #FFF;
-    background: #00F;
-    padding-left: 2px;
-    padding-right: 2px;
-}
-abbr {
-    cursor: help;
-}
+    <header id="header">
+        <h1>
+            <a href="index.html">
+                <strong>{{ site.title }}</strong>
+                {{ site.subtitle }}
+            </a>
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="#navpanel" class="icon fa-bars"><span style="display: none;">Pages</span></a></li>
+                <!--
+                <li><a href="https://violetrollergirl.tryst.link/#availability" target="_blank" class="icon fa-plane">Tours</a></li>
+                <li><a href="#rates" class="icon fa-coins">Rates</a></li>
+                <li><a href="#contact" class="icon fa-envelope-open">Contact</a></li>
+                -->
+            </ul>
+        </nav>
+    </header><!-- #header -->
 
-/**
- * @group Main styles.
- */
-main {
-    margin: 0 auto;
-    width: 90%;
-}
-body > footer {
-    padding: 50px 0;
-}
-</style>
-</head>
-<body>
-    <header id="MainHeader">
-        <h1>Violet Rollergirl</h1>
-    </header>
-    <main>
-        <section>
+    <div id="main" data-exif='{{ site.exif }}'>
+        {% for image in site.static_files %}
+        {% if image.path contains 'fulls' %}
+        <article class="thumb">
+            <a href="{{ site.baseurl }}{{ site.image_fulls_loc }}/{{ image.name }}" class="image">
+                <img src="{{ site.baseurl }}{{ site.image_thumbs_loc }}/{{ image.name }}" alt=""
+                     data-name="{{ image.name }}"/></a>
+            <!--<h2></h2>
+            <p></p>-->
+        </article>
+        {% endif %}
+        {% endfor %}
+    </div>
+
+    <section id="navpanel" class="panel">
+        <nav>
+            <ul class="fa-ul">
+                <li><a href="#about"><span class="icon fa-solid fa-circle-info"></span><br />About</a></li>
+                <li><a href="#rates"><span class="icon fa-solid fa-coins"></span><br />Rates</a></li>
+                <li><a href="#contact"><span class="icon fa-solid fa-envelope-open"></span><br />Contact</a></li>
+                <li><a href="https://violetrollergirl.tryst.link/#availability" target="_blank"><span class="icon fa-solid fa-plane"></span><br />Tours</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <section id="about" class="panel">
+        <div class="inner split">
             <div>
-                <a href="https://linktr.ee/violetrollergirl"><img class="photo" style="border-radius: 10px;" src="https://ugc.production.linktr.ee/72cc083f-2aaa-4168-a8f7-57b6645b5b59_347ef40bf790209b8f8fd677ebc22294.jpeg?io=true&amp;size=avatar-v3_0" alt="" /></a>
-                <p>If you are not <a href="https://linktr.ee/violetrollergirl">redirected automatically, please click here</a>.</p>
-
-
+                <h2>{{ site.title }}</h2>
+                <P>I'm Vi (pronounced like "eye" but with a V), a bubbly, sweet, and adventurous trans girlfriend experience with an optional kinky, submissive twist. Equal parts whip-smart and whipping girl, I'm fit and athletic, with soft, curly red ringlets and a natural aesthetic that can be hard femme, curious kitten, sexy librarian, cyberpunk hentai seductress, or a fantasy somewhere in between.</p>
+                <p>I frequently host at convenient, private incall spaces in NYC 🗽 and Boston. 🏙️</p>
+                <p>While my candy coating comes in a couple flavors that help me seamlessly shape shift between a fun loving hippie at rave festival campgrounds to a smirking pool shark bending over the billiards table, on the inside I love nothing more than being your good girl, a shameless and free-spirited companion with whom it's easy to relax. I'm drawn to the intimacy of sharing myself and learning about others while gazing at skyline views from rooftop lounges just as much as to the thrill of making out in dark corners of the club, or even through the bars of a dungeon cage.</p>
+                <p>I'm often rollerblading when in the city, or hiking when in the woods. I'm multilingual, having went to Jewish grade school where I was that soft spoken, nerdy, bookish student reading STEM texts and sci-fi stories (one of my favorite genres). Geeking out together or getting to see your niche competencies always excites me!</p>
+                <p>For sweeter cravings, I offer an oasis full of affection, connection, and intimate moments that will make you feel absolutely adored. Let's go to a beach and listen to the waves, get in cold water and then make each other hot, or sail into a sunset like lovers in a movie! Let's cuddle on a balcony and watch a cityscape sparkle in the sky, or go to a comedy show to laugh and get just this side of inappropriately drunk together. I love a fancy cocktail and white tablecloth dinner but I'll smile just as much at a dive bar bending over a pool table and making bets on trick shots, snuggling in the back of a movie theater, or in the kitchen lady-and-the-tramp'ing our way through a home-cooked meal before enjoying bedroom desserts.</p>
+                <p>For spicier desires, I relish being a very, very good girl, the kind daddy (or mommy) can spank to make me better! If you're new to taking charge, I can tease out the dominance from you. It's a particular specialty of mine; I want to hear all about your kinks!</p>
+                <p>Ultimately, I'm a nice girl who purrs appreciately when she's pet, yet also cheerfully turns naughty when given the right commands. <a href="#contact" title="Contact me">Are you ready</a> for me to be your shape shifting vixen and compassionate companion?</p>
             </div>
-        </section>
-    </main>
+            <div>
+                <h2>Tech specs</h2>
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>
+                                Height
+                            </th>
+                            <td>
+                                5 feet, 7 inches (169cm)
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                Body type
+                            </th>
+                            <td>
+                                Athletic, toned
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Cup size</th>
+                            <td>AA</td>
+                        </tr>
+                        <tr>
+                            <th>Tattoos</th>
+                            <td><span class="icon fa-solid fa-qrcode"></span> One</td>
+                        </tr>
+                        <tr>
+                            <th>Piercings</th>
+                            <td>Ears, nipples</td>
+                        </tr>
+                        <tr>
+                            <th>Home cities</th>
+                            <td>
+                                <ul class="fa-ul">
+                                    <li><span class="fa-li fa-solid fa-city"></span>New York, NY, USA</li>
+                                    <li><span class="fa-li fa-solid fa-tree-city"></span>Boston, MA, USA</li>
+                                </ul>
+                                <a href="#contact">Inquire</a> about <acronym title="Fly-Me-To-You">FMTY</acronym> options.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Passport-ready</th>
+                            <td>Yes</td>
+                        </tr>
+                        <tr>
+                            <th>NDA-ready</th>
+                            <td>Yes</td>
+                        </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+                </table>
+                {% include social-urls.html %}
+                <p class="copyright">
+                    &copy; {{ site.author }}
+                </p>
+            </div>
+        </div>
+    </section><!-- #about -->
 
-    <!-- Tryst banner. -->
-    <div><a href="https://violetrollergirl.tryst.link/" rel="noopener" target="_blank" title="Violet Rollergirl's Tryst.link profile" style="border: none"><img src="https://tryst.link/embed/banner/violetrollergirl.jpg" alt="Violet Rollergirl's Tryst.link profile" style="width: 300px; height: 150px; max-width: 100%; height: auto;"></img></a></div>
+    <section id="rates" class="panel">
+        <h2>Customize your order</h2>
+        <p>My rates for incalls and outcalls are the same, except a $100 flat-rate incall fee may apply, and any applicable transportation costs for outcalls are not included in the fee schedules below. Each in-date extension equals my base hourly rate. Please <a href="#contact">inquire</a> about rates for content shoots, collaborations, longer multi-day dates, or long-term arrangements.</p>
+        <div class="inner split">
+            <div>
+                <table>
+                    <caption>
+                        GFE/vanilla full service
+                    </caption>
+                    <tbody>
+                        <tr>
+                            <th>1 hour</th>
+                            <td>
+                                <p>$400 USD</p>
+                                <details name="gfe-details">
+                                    <summary>Details</summary>
+                                        Dedicated playdate. Discounted rates available for longer bookings as shown. Does not include incall fee or transportation cost.
+                                </details>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>90 minutes</th>
+                            <td>
+                                <p>$540 USD</p>
+                                <details name="gfe-details">
+                                    <summary>Details</summary>
+                                    10% off, recommended minimum.
+                                </details>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>2 hours</th>
+                            <td>
+                                <p>$700 USD</p>
+                                <details name="gfe-details">
+                                    <summary>Details</summary>
+                                    12.5% off
+                                </details>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>3 hours</th>
+                            <td>
+                                <p>$960 USD</p>
+                                <details name="gfe-details">
+                                    <summary>Details</summary>
+                                    20% off, minimum required for travel outside <a href="#about">my home cities</a> when not touring.
+                                </details>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>4 hours</th>
+                            <td>
+                                <p>$1,200 USD</p>
+                                <details name="gfe-details">
+                                    <summary>Details</summary>
+                                    25% off, requires outing.
+                                </details>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Overnight (12 hours)</th>
+                            <td>
+                                <p>$2,400 USD</p>
+                                <details name="gfe-details">
+                                    <summary>Details</summary>
+                                    50% discount off my hourly rate. Perfect for an evening full of cuddles, or sprinkled with light fetishes like spanking and modest restraints. Requires outing, shared meal, and beauty sleep.
+                                </details>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Getaway weekend</th>
+                            <td>
+                                <p>$4,000 USD</p>
+                                <details name="gfe-details">
+                                    <summary>Details</summary>
+                                    Party hard, play harder! I'll be all yours for two full days (except for some solo moments to let us freshen up for one another in our mysterious ways), so you can enjoy a weekend escape with me. Requires outings for some fresh air! Ask about fly-me-to-you options!
+                                </details>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div>
+                <table>
+                    <caption>
+                        Pro-submissive/BDSM full service
+                    </caption>
+                    <tbody>
+                        <tr>
+                            <th>1 hour</th>
+                            <td>
+                                <p>$600 USD</p>
+                                <details name="pro-sub-details">
+                                    <summary>Details</summary>
+                                    Make me vulnerable, or watch me bruise. Available only to returning friends after our first date. Discounted rates available for longer bookings as shown. Does not include incall fee or transportation cost.
+                                </details>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>2 hours</th>
+                            <td>
+                                <p>$1,000 USD</p>
+                                <details name="pro-sub-details">
+                                    <summary>Details</summary>
+                                    16.7% off, recommended minimum.
+                                </details>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>3 hours</th>
+                            <td>
+                                <p>$1,440 USD</p>
+                                <details name="pro-sub-details">
+                                    <summary>Details</summary>
+                                    20% off, requires time for warmup and cool down/after care.
+                                </details>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div>
+                <table>
+                    <caption>
+                        Add-ons and other services
+                    </caption>
+                    <tbody>
+                        <tr>
+                            <th>Custom photo (1 photo base rate)</th>
+                            <td>
+                                <p>$20 USD</p>
+                                <details name="add-on-details">
+                                    <summary>Details</summary>
+                                    A pic taken just for you. Price is subject to change based on photo request.
+                                </details>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Texting (30 minutes)</th>
+                            <td>
+                                <p>$40 USD</p>
+                                <details name="add-on-details">
+                                    <summary>Details</summary>
+                                    Perfect for dipping one's toe into what our unique chemistry is like.
+                                </details>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Introductory phone call (30 minutes)</th>
+                            <td>
+                                <p>$50 USD</p>
+                                <details name="add-on-details">
+                                    <summary>Details</summary>
+                                    Friendly, casual audio call to help you decide whether you'd like to book an in-person session, prepare for our date by chatting, discussing any logistics, or simply to quell any concerns. Price of the call is deducted from your deposit if you do choose to book.
+                                </details>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Video date (1 hour)</th>
+                            <td>
+                                <p>$150 USD</p>
+                                <details name="add-on-details">
+                                    <summary>Details</summary>
+                                    Virtual tryst over private video chat.
+                                </details>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Social-only date (charged per hour)</th>
+                            <td>
+                                <p>$150 USD</p>
+                                <details name="add-on-details">
+                                    <summary>Details</summary>
+                                    ☕️🍻 Casual, zero-pressure meet and greet/meet cute; 🍝 dinner date, 🏸 sporting activity, 🧺 picnic, etcetera. Does not include transportation or activity cost.
+                                </details>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="inner split">
+            <h2>Policies</h2>
+            <div>
+                <h3>Deposits</h3>
+                <p>I accept deposits via payment apps or gift cards. Always leave the payment app's transaction note/memo field blank!</p>
+                <ul class="fa-ul">
+                    <li><span class="fa-li fa-solid fa-house"></span>One-quarter (25%) of the total booking cost while in my hometown.</li>
+                    <li><span class="fa-li fa-solid fa-plane"></span>One-third (33%) of the total booking cost while touring.</li>
+                </ul>
+                <p>Deposits are non-refundable and non-transferable, except when cancelling in certain cases. (See <a href="#cancellations">my cancellation policy</a> for details.) Your date is not confirmed until its deposit is confirmed.</p>
+            </div>
+            <div>
+                <h3 id="cancellations">Cancellations</h3>
+                <p>It's okay, you can always cancel or reschedule a date for any reason, no questions asked. If you cancel with:</p>
+                <ul>
+                    <li>3 or more days (72 hours) notice, the full amount (100%) of your non-refundable deposit can be applied to another date.</li>
+                    <li>3 to 1 days (72-24 hours) notice, half (50%) of your non-refundable deposit can be applied one time only to another date.</li>
+                    <li>1 day or less (24 hours) notice, your non-refundable deposit will be forfeited.</li>
+                </ul>
+                <p>When applying the deposit for a cancelled date towards the next, that next date must be no later than 3 months after your original booking.</p>
+                <p>In the unlikely event that I have to cancel our date, you'll promptly have your full deposit returned to you.</p>
+            </div>
+        </div>
+    </section><!-- #rates -->
 
-    <!-- Slixa advertisement. -->
-    <div style="text-align: center;min-width: 120px !important;min-height: 60px !important;"><a href="https://www.slixa.com/new-york/new-york/violet-rollergirl" target="_top" style="display: inline-block;white-space: nowrap;min-width: 120px !important;min-height: 60px !important;margin: 0px auto;"><img src="https://badge.slixa.com/violet-rollergirl/slixa_badge120x60.jpg" alt="Slixa" width="120" height="60"></a></div>
+    <section id="contact" class="panel">
+        <h2 id="connection-methods">Connection methods</h2>
+        <p>Are you ready for me to be your <a href="#about">shape shifting vixen and compassionate companion</a>? Please be sure you understand my <a href="#rates">rates and policies</a> before writing. When you're ready, I can be reached via any of the following communication channels. I strongly prefer <a href="{% include whatsapp-booking.url %}">WhatsApp</a> if feasible for you, otherwise <a href="{% include mailto-booking.url %}">directly via email</a>, and finally <a href="{% include sms-booking.url %}">via text/SMS</a> if necessary.</p>
+        <ul class="icons text-center">
+            <li>
+                <a class="icon fa-whatsapp fa-5x" href="{% include whatsapp-booking.url %}" title="WhatsApp">
+                    <span class="label">WhatsApp</label>
+                </a>
+            </li>
+            <li>
+                <a class="icon fa-envelope fa-5x" href="{% include mailto-booking.url %}" title="Email">
+                    <span class="label">Email</label>
+                </a>
+            </li>
+            <li>
+                <a class="icon fa-comment-sms fa-5x" href="{% include sms-booking.url %}" title="Text/SMS">
+                    <span class="label">Text/SMS</label>
+                </a>
+            </li>
+        </ul>
+        <p style="text-align: center;">Please be patient as it may take several days for me to reply. Thank you!</p>
+        <div class="inner split">
+            <div>
+                <h2 id="availability">Availability</h2>
+                <p>I'm fortunate to have flexibility in my schedule, and can usually be available at most times of the day or night. That said, <strong>I'm not a morning kitten, and planning our date 2 or more days in advance will give us the best experience together.</strong> Same-day trysts are <em>sometimes</em> possible, if seeing one another is convenient for me.</p>
+                <p>With advanced scheduling, I'm also passport-ready and available:</p>
+                <ul class="fa-ul">
+                    <li><span class="fa-li fa-solid fa-train"></span>anywhere with train access in the tri-state area for bookings of 3 hours or more.</li>
+                    <li><span class="fa-li fa-solid fa-plane"></span>domestically (within the continental United States) for bookings of 6 hours or more.</li>
+                    <li><span class="fa-li fa-solid fa-earth-europe"></span>some international locales.</li>
+                </ul>
+            </div>
+            <div>
+                <h2 id="contact-instructions">In your first message</h2>
+                <p>Whenever you contact me, always tell me:</p>
+                <ul class="fa-ul">
+                    <li><span class="fa-li fa-solid fa-signature"></span>Your name.</li>
+                    <li><span class="fa-li fa-solid fa-calendar"></span>When you're hoping to see me.</li>
+                    <li><span class="fa-li fa-solid fa-hourglass"></span>How long you'd like to see me for.</li>
+                    <li><span class="fa-li fa-solid fa-map"></span>Where you want to meet: my place/"incall," your place/"outcall," or a venue for a social date/meet and greet.</li>
+                    <li><span class="fa-li fa-solid fa-id-card"></span>If this is our first contact, choose a <a href="#screening-options">screening method</a> you're comfortable using.</li>
+                </ul>
+            </div>
+            <div>
+                <h2 id="contact-dos-and-donts">Do's and don'ts</h2>
+                <p>I respond best to respectful inquiries from individuals or couples who are fueled by my energy, are hungry for intimacy, or eager to shed lingering shames. Please reach out without fear of your gender, race, ethnicity, size, or religion.</p>
+                <p>When writing me, please:</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>do not&hellip;</th>
+                            <th>do&hellip;</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <span class="icon fa-solid fa-heart-crack"></span> use sexually explicit language.
+                            </td>
+                            <td>
+                                <span class="icon fa-solid fa-heart"></span> mention any specific needs, desires, or concerns you have in a respectful, professional tone.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="icon fa-solid fa-people-group"></span> speak for anyone other than yourself in your party if you are part of a couple or group.
+                            </td>
+                            <td>
+                                <span class="icon fa-solid fa-person"></span> speak only for yourself, even if you are part of a couple or group; each member of your party must contact me individually so I know everyone is on the same page and consenting.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div>
+                <h2 id="screening-options">Screening options</h2>
+                <p>If you're <a href="#contact-instructions">reaching out to me for the first time</a>, you'll need to provide some lightweight screening info. I treat your information with the utmost confidentiality, as discretion and screening helps assure our mutual safety and comfort. You can successfully screen with any <em>one</em> of the following options:</p>
+                <ul class="fa-ul">
+                    <li><span class="fa-li fa-solid fa-image-portrait"></span>A selfie plus am media profile link plus a non-burner phone number, <em>or</em></li>
+                    <li><span class="fa-li fa-solid fa-id-card"></span>a selfie of yourself holding a valid government-issued photo ID card, <em>or</em></li>
+                    <li><span class="fa-li fa-solid fa-handshake"></span>a meet-and-greet/social date with deposit at my social <a href="#rates">rate</a>.</li>
+                </ul>
+                <p>I'm looking forward to hearing from you! <span class="icon fa-solid fa-heart"></span> <a href="#connection-methods">Write me a love note!</a></p>
+            </div>
+        </div><!-- .inner.split -->
+        <!-- TODO: Get the form working. -->
+        <!--
+        <h2>Booking form</h2>
+        <form method="post" action="#">
+            <div class="field half first">
+                <input type="text" name="name" id="name" placeholder="Name"/>
+            </div>
+            <div class="field half">
+                <input type="text" name="email" id="email" placeholder="Email"/>
+            </div>
+            <div class="field">
+                <textarea name="message" id="message" rows="4" placeholder="Message"></textarea>
+            </div>
+            <ul class="actions">
+                <li><input type="submit" value="Send" class="special"/></li>
+                <li><input type="reset" value="Reset"/></li>
+            </ul>
+        </form>
+        -->
+    </section><!-- #contact -->
 
-</body>
-</html>
+</div><!-- #wrapper -->

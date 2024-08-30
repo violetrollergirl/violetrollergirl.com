@@ -1,0 +1,1 @@
+mailto:{{ site.contact.email }}?subject={{ site.booking.subject }}&amp;body={{ site.booking.template_txt -}}
