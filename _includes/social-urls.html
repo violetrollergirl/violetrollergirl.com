@@ -1,11 +1,21 @@
 <section id="social-links">
     <h2 id="links">Links</h2>
-    <p>Want to see more of me first? Find me being me online:</p>
+    <p>Want to see more of me? Find and follow me online:</p>
     <ul class="icons text-center">
-        {% if site.social_urls.facebook %}
+        {% comment %} Link trees. {% endcomment %}
+        {% if site.social_urls.linktree %}
             <li>
-                <a target="_blank" href="{{ site.social_urls.facebook }}" class="icon fa-5x fa-facebook">
-                    <span class="label">Facebook</span>
+                <a target="_blank" href="{{ site.social_urls.linktree }}" class="icon fa-5x fa-link" title="Linktr.ee">
+                    <span class="label">Linktr.ee</span>
+                </a>
+            </li>
+        {% endif %}
+
+        {% comment %} Social media. {% endcomment %}
+        {% if site.social_urls.bluesky %}
+            <li>
+                <a target="_blank" href="{{ site.social_urls.bluesky }}" class="icon fa-5x fa-bluesky" title="Bluesky">
+                    <span class="label">Bluesky</span>
                 </a>
             </li>
         {% endif %}
@@ -13,6 +23,13 @@
             <li>
                 <a target="_blank" href="{{ site.social_urls.twitter }}" class="icon fa-5x fa-x-twitter" title="X/Twitter">
                     <span class="label">X/Twitter</span>
+                </a>
+            </li>
+        {% endif %}
+        {% if site.social_urls.facebook %}
+            <li>
+                <a target="_blank" href="{{ site.social_urls.facebook }}" class="icon fa-5x fa-facebook">
+                    <span class="label">Facebook</span>
                 </a>
             </li>
         {% endif %}
@@ -30,6 +47,7 @@
                 </a>
             </li>
         {% endif %}
+        {% comment %} Professional or business-y profiles. {% endcomment %}
         {% if site.social_urls.github %}
             <li>
                 <a target="_blank" href="{{ site.social_urls.github }}" class="icon fa-5x fa-github">
@@ -44,13 +62,8 @@
                 </a>
             </li>
         {% endif %}
-        {% if site.social_urls.linktree %}
-            <li>
-                <a target="_blank" href="{{ site.social_urls.linktree }}" class="icon fa-5x fa-link" title="Linktr.ee">
-                    <span class="label">Linktr.ee</span>
-                </a>
-            </li>
-        {% endif %}
+
+        {% comment %} Wishlists. {% endcomment %}
         {% if site.social_urls.wishlist %}
             <li>
                 <a target="_blank" href="{{ site.social_urls.wishlist }}" class="icon fa-5x fa-gift" title="Wishlist">
