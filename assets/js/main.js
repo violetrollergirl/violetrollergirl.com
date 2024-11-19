@@ -40,6 +40,16 @@
                 window.setTimeout(function () {
                     $body.removeClass('loading');
                 }, 100);
+                var fragment = window.location.hash;
+                switch (fragment) {
+                    case '#about':
+                    case '#contact':
+                    case '#rates':
+                    case '#tours':
+                        $(fragment).triggerHandler('---toggle');
+                    default:
+                        break;
+                }
             });
 
             // Prevent transitions/animations on resize.
