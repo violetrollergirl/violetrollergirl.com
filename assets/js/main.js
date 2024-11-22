@@ -44,6 +44,7 @@
                 switch (fragment) {
                     case '#about':
                     case '#contact':
+                    case '#links':
                     case '#rates':
                     case '#tours':
                         $(fragment).triggerHandler('---toggle');

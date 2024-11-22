@@ -20,11 +20,50 @@ contact:
 # Tag is the actual exif tag, icon is a fontawesome icon. Use JSON notation without line breaks
 #exif: '[{"tag": "Model", "icon": "camera-retro"}, {"tag": "FNumber", "icon": "dot-circle-o"}, {"tag": "ExposureTime", "icon": "clock-o"}, {"tag": "ISOSpeedRatings", "icon": "info-circle"}]'
 social_urls:
-  bluesky: https://bsky.app/profile/violetrollergirl.com
-  instagram: https://www.instagram.com/violetrollergirl
-  linktree: https://linktr.ee/violetrollergirl
-  wishlist: https://throne.com/violetrollergirl
-  #twitter: https://x.com/ViRollergirl
-  #dribbble: "https://dribbble.com/rampatra"
-  #linkedin: "https://in.linkedin.com/in/ram-patra"
-  #github: "https://www.github.com/rampatra"
+  - group_name: Tip me
+    items:
+    - label: CashApp
+      title: CashApp
+      icon: dollar-sign
+      url: https://cash.app/$VioletRollergirl
+
+  - group_name: Socials &amp; Content
+    items:
+    - label: Bluesky
+      title: Bluesky
+      icon: bluesky
+      url: https://bsky.app/profile/violetrollergirl.com
+    - label: OnlyFans
+      title: OnlyFans
+      icon: video
+      url: https://onlyfans.com/violetrollergirl
+    - label: Fansly
+      title: Fansly
+      icon: video
+      url: https://fansly.com/violetrollergirl
+    - label: ManyVids
+      title: ManyVids
+      icon: store
+      url: https://violetrollergirl.manyvids.com/
+
+  - group_name: Ad listings
+    items:
+    - label: Tryst
+      title: Tryst
+      icon: heart
+      url: https://violetrollergirl.tryst.link/
+    - label: TS4Rent
+      title: TS4Rent
+      icon: heart
+      url: https://ts4rent.eu/violetrollergirl
+
+  - group_name: Even more
+    items:
+    - label: Wishlist
+      title: Throne
+      icon: gift
+      url: https://throne.com/violetrollergirl
+    - label: Additional health and safety guide (requires <a href="https://torproject.org/">Tor Browser</a>)
+      title: In-person info
+      icon: shield-halved
+      url: http://ylyznmvgswureorc3tzc555trtjdtzgvkfjba5xkkkqcun55q3ny3yqd.onion/
