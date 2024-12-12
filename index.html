@@ -350,8 +350,14 @@ layout: default
 
     <section id="contact" class="panel">
         <h2 id="connection-methods">Connection methods</h2>
-        <p>Are you ready for me to be <a href="#about">your shape shifting vixen or kinky companion</a>? Please be sure you understand my <a href="#rates">rates, policies</a>, and <a href="#tours">when I can be available</a> for you <em>before</em> writing to me. When you're ready, I can be reached via any of the following communication channels. I strongly prefer <a href="{% include whatsapp-booking.url %}">WhatsApp</a> if feasible for you, otherwise <a href="{% include mailto-booking.url %}">directly via email</a>, and finally <a href="{% include sms-booking.url %}">via text/SMS</a> if necessary.</p>
+        <p>Are you ready for me to be <a href="#about">your shape shifting vixen or kinky companion</a>? Please be sure you understand my <a href="#rates">rates, policies</a>, and <a href="#tours">when I can be available</a> for you <em>before</em> writing to me. When you're ready, I can be reached via any of the following communication channels. I strongly prefer <a href="{% include signal-booking.url %}">Signal Private Messenger</a> if feasible for you, followed by <a href="{% include whatsapp-booking.url %}">WhatsApp</a>. Otherwise, you may also contact me <a href="{% include mailto-booking.url %}">directly via email</a>, and finally <a href="{% include sms-booking.url %}">via text/SMS</a> if necessary.</p>
+        <p><a href="{% include signal-booking.url %}">Contacting me via Signal Private Messenger</a> earns you $40 USD discount as a thank you for helping to protect your privacy and mine.</p>
         <ul class="icons text-center">
+            <li style="display: inline-block; padding-right: 1em;">
+                <a class="icon fa-brands fa-signal-messenger fa-5x" href="{% include signal-booking.url %}" title="Signal">
+                    <!--<span class="label">Signal Private Messenger</label>-->
+                </a>
+            </li>
             <li style="display: inline-block; padding-right: 1em;">
                 <a class="icon fa-whatsapp fa-5x" href="{% include whatsapp-booking.url %}" title="WhatsApp">
                     <!--<span class="label">WhatsApp</label>-->
