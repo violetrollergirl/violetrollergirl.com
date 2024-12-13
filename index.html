@@ -356,50 +356,113 @@ layout: default
                 <ol>
                     <li>First, ensure you understand my <a href="#tours">availability</a>, <a href="#rates">rates, and policies</a>.</li>
                     <li>Next, review <a href="#contact-dos-and-donts">my "do's and don'ts"</a> for making first contact.</li>
-                    <li>Then <strong>complete my booking form</strong>, below.</li>
+                    <li>Then <strong>complete the below form</strong> to help draft your first message to me. (Or, if you're not a fan of filling forms, <a href="#connection-methods">compose a bespoke love note yourself</a>.)
                 </ol>
-                <p>Not a fan of booking forms? <a href="#connection-methods">Compose a bespoke love note</a>.</p>
                 <form name="booking_inquiry_form" id="booking-inquiry-form" action="#" method="GET" class="row row-cols-lg-auto g-3 align-items-center">
                     <blockquote>
                         <p>Hi, Violet.</p>
-                        <p>
-                            <label for="booking-inquiry-prospect-name" class="form-label">My name is</label>
-                            <input type="text" class="form-input" id="booking-inquiry-prospect-name" name="booking_inquiry_prospect_name" required="required" placeholder="Write your name here" />.
+                        <fieldset class="form-group"><legend>Please allow me to introduce myself.</legend>
+                            <p>
+                                <label for="booking-inquiry-prospect-name" class="form-label">My name is</label>
+                                <input type="text" class="form-input" id="booking-inquiry-prospect-name" name="booking_inquiry_prospect_name" required="required" placeholder="Write your name here" />.
 
-                            <label for="booking-inquiry-prospect-attraction" class="form-label">I read your Web site and I like</label>
-                            <textarea name="booking_inquiry_prospect_attraction" id="booking-inquiry-prospect-attraction"
+                                <label for="booking-inquiry-prospect-preferred-contact-method" class="form-label">I prefer that we communicate using</label>
+                                <select name="booking_inquiry_prospect_preferred_contact_method" id="booking-inquiry-prospect-preferred-contact-method"
+                                    class="form-select"
+                                    required="required"
+                                >
+                                    <option value="" disabled="disabled" selected="selected">Choose your preferred contact method</option>
+                                    <option value="signal">Signal Private Messenger</option>
+                                    <option value="whatsapp">WhatsApp</option>
+                                    <option value="email">email</email>
+                                    <option value="sms">SMS/text message</option>
+                                </select>.
+                            </p>
+                            <p>
+                            <label for="booking-inquiry-prospect-preferred-screening-method" class="form-label">I have read your <a href="#screening-options">screening requirements</a> and am comfortable being screened by sending you</label>
+                                <select name="booking_inquiry_prospect_preferred_screening_method" id="booking-inquiry-prospect-preferred-screening-method"
+                                    class="form-select"
+                                    required="required"
+                                >
+                                    <option value="" disabled="disabled" selected="selected">Choose how you will verify yourself</option>
+                                    <option value="employment-information">employment information</option>
+                                    <option value="idcard">government-issued identity document</option>
+                                    <option value="social-date">a deposit for a social date at a public venue</option>
+                                </select>.
+                            </p>
+                        </fieldset>
 
-                                class="form-input"
-                                placeholder="Write a few words about what compelled you to want to book with me. Use a professional tone avoiding sexually explicit language."></textarea>
-                        </p>
-                        <p>
-                            <label for="booking-inquiry-prospect-call-type" class="form-label">I'd love to reserve an</label>
-                            <select name="booking_inquiry_prospect_call_type" id="booking-inquiry-prospect-call-type"
-                                class="form-select"
-                                required="required"
-                                aria-label="Booking call type (incall or outcall)"
-                            >
-                                <option value="" disabled="disabled" selected="selected">Choose INCALL or OUTCALL</option> 
-                                <option name="incall">incall</option>
-                                <option name="outcall">outcall</option>
-                            </select>
+                        <fieldset class="form-group"><legend>I've been drawn to you since&hellip;</legend>
+                            <p>
+                                <label for="booking-inquiry-prospect-source-referral" class="form-label">I found your Web site via</label>
+                                <select name="booking_inquiriy_prospect_source_referral" id="booking-inquiry-prospect-source-referral"
+                                    class="form-select"
+                                    required="required"
+                                >
+                                    <option value="" disabled="disabled" selected="selected">Share where you first learned about me</option>
+                                    <option>Bluesky</option>
+                                    <option>Fansly</option>
+                                    <option>ManyVids</option>
+                                    <option>OnlyFans</option>
+                                    <option>TER board/review</option>
+                                    <option>TS4Rent</option>
+                                    <option>Tryst</option>
+                                    <option>X/Twitter</option>
+                                    <option>a content collaboration I saw you in</option>
+                                    <option>another provider</option>
+                                    <option>directly from you (we've met!)</option>
+                                    <option>search engine results</option>
+                                    <option>word of mouth</option>
+                                </select>.
+                            </p>
+                            <p>
+                                <label for="booking-inquiry-prospect-attraction" class="form-label">I really like your&hellip;</label>
+                                <textarea name="booking_inquiry_prospect_attraction" id="booking-inquiry-prospect-attraction"
 
-                            <label for="booking-inquiry-prospect-duration" class="form-label">for a duration of</label>
-                            <input type="number" name="booking_inquiry_prospect_duration" id="booking-inquiry-prospect-duration" class="form-input" min="1" max="8" required="required" placeholder="2"> hour(s)
+                                    class="form-input"
+                                    placeholder="Photos? Vibe? Write what compelled you to book with me. Use a professional tone avoiding sexually explicit language."></textarea>
+                            </p>
+                        </fieldset>
 
-                            <label for="booking-inquiry-prospect-location" class="form-label">when I will be in</label>
-                            <input type="text" name="booking_inquiry_prospect_location" id="booking-inquiry-prospect-location"
-                            class="form-input" placeholder="New York City, NY" required="required" />
+                        <fieldset class="form-group"><legend>I'm ready to plan a date!</legend>
+                            <p>
+                                <label for="booking-inquiry-prospect-call-type" class="form-label">May I reserve an</label>
+                                <select name="booking_inquiry_prospect_call_type" id="booking-inquiry-prospect-call-type"
+                                    class="form-select"
+                                    required="required"
+                                    aria-label="Booking call type (incall or outcall)"
+                                >
+                                    <option value="" disabled="disabled" selected="selected">Choose INCALL or OUTCALL</option>
+                                    <option value="incall">incall (provider hosts)</option>
+                                    <option value="outcall">outcall (client hosts)</option>
+                                </select>
 
-                            <label for="booking-inquiry-prospect-preferred-datetime" class="form-label">on</label>
-                            <input type="datetime-local" class="form-input" name="booking_inquiry_prospect_preferred_datetime" id="booking-inquiry-prospect-preferred-datetime" required="required" />
+                                <label for="booking-inquiry-prospect-duration" class="form-label">for a duration of</label>
+                                <input type="number" name="booking_inquiry_prospect_duration" id="booking-inquiry-prospect-duration" class="form-input" min="1" max="8" required="required" placeholder="2"> hour(s)
 
-                            <label for="booking-inquiry-prospect-alternate-datetime" class="form-label">or, alternatively on</label>
-                            <input type="datetime-local" class="form-input" name="booking_inquiry_prospect_alternate_datetime" id="booking-inquiry-prospect-alternate-datetime" required="required" />.
-                        </p>
-                        <p>Would either of these options allow us to meet?</p>
+                                <label for="booking-inquiry-prospect-location" class="form-label">when I will be in</label>
+                                <input type="text" name="booking_inquiry_prospect_location" id="booking-inquiry-prospect-location"
+                                class="form-input" placeholder="New York City, NY" required="required" />
+
+                                <label for="booking-inquiry-prospect-preferred-datetime" class="form-label">on</label>
+                                <input type="datetime-local" class="form-input" name="booking_inquiry_prospect_preferred_datetime" id="booking-inquiry-prospect-preferred-datetime" required="required" />
+
+                                <label for="booking-inquiry-prospect-alternate-datetime" class="form-label">or, alternatively, on</label>
+                                <input type="datetime-local" class="form-input" name="booking_inquiry_prospect_alternate_datetime" id="booking-inquiry-prospect-alternate-datetime" required="required" />.
+                                Would either of these options allow us to meet?
+                            </p>
+                        </fieldset>
+                        <fieldset><legend>I'm excited to hear from you!</legend>
+                            <p>
+                                <input type="checkbox" class="form-check-input" name="booking_inquiry_confirmed_fine_print" id="booking-inquiry-confirmed-fine-print" value="yes" required="required" />
+                                <label for="booking-inquiry-confirmed-fine-print">I have read and understood the information on your Web site, including your <a href="#rates">rates, policies</a>, and <a href="#tours">availability</a>.</label>
+                            </p>
+
+                            <p class="text-center">
+                                <button type="submit">Send inquiry</button>
+                            </p>
+                        </fieldset>
                     </blockquote>
-                    <button type="submit">Send using</button>
                 </form>
             </div>
             <div>
