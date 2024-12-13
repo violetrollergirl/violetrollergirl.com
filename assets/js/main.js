@@ -40,6 +40,10 @@
                 window.setTimeout(function () {
                     $body.removeClass('loading');
                 }, 100);
+            });
+
+            // Ensure panels are also "permalinks" in a way.
+            $window.on('load', function () {
                 var fragment = window.location.hash;
                 switch (fragment) {
                     case '#about':
@@ -48,8 +52,17 @@
                     case '#rates':
                     case '#tours':
                         $(fragment).triggerHandler('---toggle');
-                    default:
                         break;
+                    default:
+                        // Show my "About" page by default.
+                        $('#about').triggerHandler('---toggle');
+                        break;
+                }
+            });
+
+            $window.on('hashchange', function () {
+                if ( '#gallery' === window.location.hash ) {
+                    $('.closer').click(); // Close all Panels.
                 }
             });
 
@@ -116,6 +129,9 @@
 
                     // Activate body.
                     $body.addClass('content-active');
+
+                    // Change location fragment.
+                    window.location.hash = '#' + $this.attr('id');
 
                 })
                 .on('---hide', function () {
