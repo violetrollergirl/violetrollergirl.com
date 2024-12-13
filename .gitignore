@@ -31,6 +31,9 @@ crashlytics-build.properties
 .DS_Store
 */**/.DS_Store
 
+### Editor temporary files.
+*.swp
+
 ### Jekyll template
 _site/
 .sass-cache/

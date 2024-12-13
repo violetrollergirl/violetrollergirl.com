@@ -349,32 +349,88 @@ layout: default
     </section><!-- #rates -->
 
     <section id="contact" class="panel">
-        <h2 id="connection-methods">Connection methods</h2>
-        <p>Are you ready for me to be <a href="#about">your shape shifting vixen or kinky companion</a>? Please be sure you understand my <a href="#rates">rates, policies</a>, and <a href="#tours">when I can be available</a> for you <em>before</em> writing to me. When you're ready, I can be reached via any of the following communication channels. I strongly prefer <a href="{% include signal-booking.url %}">Signal Private Messenger</a> if feasible for you, followed by <a href="{% include whatsapp-booking.url %}">WhatsApp</a>. Otherwise, you may also contact me <a href="{% include mailto-booking.url %}">directly via email</a>, and finally <a href="{% include sms-booking.url %}">via text/SMS</a> if necessary.</p>
-        <p><a href="{% include signal-booking.url %}">Bookings made via Signal Private Messenger</a> earn you a $40 USD discount as a thank you for helping to protect your privacy and mine.</p>
-        <ul class="icons text-center">
-            <li style="display: inline-block; padding-right: 1em;">
-                <a class="icon fa-brands fa-signal-messenger fa-5x" href="{% include signal-booking.url %}" title="Signal">
-                    <!--<span class="label">Signal Private Messenger</label>-->
-                </a>
-            </li>
-            <li style="display: inline-block; padding-right: 1em;">
-                <a class="icon fa-whatsapp fa-5x" href="{% include whatsapp-booking.url %}" title="WhatsApp">
-                    <!--<span class="label">WhatsApp</label>-->
-                </a>
-            </li>
-            <li style="display: inline-block; padding-right: 1em;">
-                <a class="icon fa-envelope fa-5x" href="{% include mailto-booking.url %}" title="Email">
-                    <!--<span class="label">Email</label>-->
-                </a>
-            </li>
-            <li style="display: inline-block;">
-                <a class="icon fa-comment-sms fa-5x" href="{% include sms-booking.url %}" title="Text/SMS">
-                    <!--<span class="label">Text/SMS</label>-->
-                </a>
-            </li>
-        </ul>
-        <p><strong>Please be patient as it may take several days for me to reply.</strong> Planning our date 2 or more days in advance will give us the best exprience together.</p>
+        <div class="inner split">
+            <div>
+                <h2 id="booking-form">Booking Form</h2>
+                <p>Are you ready for me to be <a href="#about">your shape shifting vixen or kinky companion</a>?</p>
+                <ol>
+                    <li>First, ensure you understand my <a href="#tours">availability</a>, <a href="#rates">rates, and policies</a>.</li>
+                    <li>Next, review <a href="#contact-dos-and-donts">my "do's and don'ts"</a> for making first contact.</li>
+                    <li>Then <strong>complete my booking form</strong>, below.</li>
+                </ol>
+                <p>Not a fan of booking forms? <a href="#connection-methods">Compose a bespoke love note</a>.</p>
+                <form name="booking_inquiry_form" id="booking-inquiry-form" action="#" method="GET" class="row row-cols-lg-auto g-3 align-items-center">
+                    <blockquote>
+                        <p>Hi, Violet.</p>
+                        <p>
+                            <label for="booking-inquiry-prospect-name" class="form-label">My name is</label>
+                            <input type="text" class="form-input" id="booking-inquiry-prospect-name" name="booking_inquiry_prospect_name" required="required" placeholder="Write your name here" />.
+
+                            <label for="booking-inquiry-prospect-attraction" class="form-label">I read your Web site and I like</label>
+                            <textarea name="booking_inquiry_prospect_attraction" id="booking-inquiry-prospect-attraction"
+
+                                class="form-input"
+                                placeholder="Write a few words about what compelled you to want to book with me. Use a professional tone avoiding sexually explicit language."></textarea>
+                        </p>
+                        <p>
+                            <label for="booking-inquiry-prospect-call-type" class="form-label">I'd love to reserve an</label>
+                            <select name="booking_inquiry_prospect_call_type" id="booking-inquiry-prospect-call-type"
+                                class="form-select"
+                                required="required"
+                                aria-label="Booking call type (incall or outcall)"
+                            >
+                                <option value="" disabled="disabled" selected="selected">Choose INCALL or OUTCALL</option> 
+                                <option name="incall">incall</option>
+                                <option name="outcall">outcall</option>
+                            </select>
+
+                            <label for="booking-inquiry-prospect-duration" class="form-label">for a duration of</label>
+                            <input type="number" name="booking_inquiry_prospect_duration" id="booking-inquiry-prospect-duration" class="form-input" min="1" max="8" required="required" placeholder="2"> hour(s)
+
+                            <label for="booking-inquiry-prospect-location" class="form-label">when I will be in</label>
+                            <input type="text" name="booking_inquiry_prospect_location" id="booking-inquiry-prospect-location"
+                            class="form-input" placeholder="New York City, NY" required="required" />
+
+                            <label for="booking-inquiry-prospect-preferred-datetime" class="form-label">on</label>
+                            <input type="datetime-local" class="form-input" name="booking_inquiry_prospect_preferred_datetime" id="booking-inquiry-prospect-preferred-datetime" required="required" />
+
+                            <label for="booking-inquiry-prospect-alternate-datetime" class="form-label">or, alternatively on</label>
+                            <input type="datetime-local" class="form-input" name="booking_inquiry_prospect_alternate_datetime" id="booking-inquiry-prospect-alternate-datetime" required="required" />.
+                        </p>
+                        <p>Would either of these options allow us to meet?</p>
+                    </blockquote>
+                    <button type="submit">Send using</button>
+                </form>
+            </div>
+            <div>
+                <h2 id="connection-methods">Connection Methods</h2>
+                <p>I can be reached directly via any of the following channels. I strongly prefer messaging over <a href="{% include signal-booking.url %}">Signal Private Messenger</a>. <small>(Bookings made via Signal Private Messenger earn you a $40 USD discount as a thank you for helping to protect your privacy and mine.)</small> Otherwise, you may also contact me using <a href="{% include whatsapp-booking.url %}">WhatsApp</a> or via <a href="{% include mailto-booking.url %}">email</a>, and finally by <a href="{% include sms-booking.url %}">text/SMS</a> if necessary.</p>
+                <p>How would you like to book? Tap the icon to choose:</p>
+                <ul class="icons text-center">
+                    <li style="display: inline-block; padding-right: 1em;">
+                        <a class="icon fa-brands fa-signal-messenger fa-5x" href="{% include signal-booking.url %}" title="Signal">
+                            <!--<span class="label">Signal Private Messenger</label>-->
+                        </a>
+                    </li>
+                    <li style="display: inline-block; padding-right: 1em;">
+                        <a class="icon fa-whatsapp fa-5x" href="{% include whatsapp-booking.url %}" title="WhatsApp">
+                            <!--<span class="label">WhatsApp</label>-->
+                        </a>
+                    </li>
+                    <li style="display: inline-block; padding-right: 1em;">
+                        <a class="icon fa-envelope fa-5x" href="{% include mailto-booking.url %}" title="Email">
+                            <!--<span class="label">Email</label>-->
+                        </a>
+                    </li>
+                    <li style="display: inline-block;">
+                        <a class="icon fa-comment-sms fa-5x" href="{% include sms-booking.url %}" title="Text/SMS">
+                            <!--<span class="label">Text/SMS</label>-->
+                        </a>
+                    </li>
+                </ul>
+                <p>Please be patient as <strong>it may take several days for me to reply.</strong> Explore the <a href="https://goodclientguide.com/" target="_blank">Good Client Guide</a> for more helpful advice about how to successfully book providers like me.</p>
+            </div>
+        </div><!-- .inner.split -->
         <div class="inner split">
             <div>
                 <h2 id="contact-instructions">In your first message</h2>
@@ -444,25 +500,6 @@ layout: default
                 <p>I'm looking forward to hearing from you! <span class="icon fa-solid fa-heart"></span> <a href="#connection-methods">Write me a love note!</a></p>
             </div>
         </div><!-- .inner.split -->
-        <!-- TODO: Get the form working. -->
-        <!--
-        <h2>Booking form</h2>
-        <form method="post" action="#">
-            <div class="field half first">
-                <input type="text" name="name" id="name" placeholder="Name"/>
-            </div>
-            <div class="field half">
-                <input type="text" name="email" id="email" placeholder="Email"/>
-            </div>
-            <div class="field">
-                <textarea name="message" id="message" rows="4" placeholder="Message"></textarea>
-            </div>
-            <ul class="actions">
-                <li><input type="submit" value="Send" class="special"/></li>
-                <li><input type="reset" value="Reset"/></li>
-            </ul>
-        </form>
-        -->
     </section><!-- #contact -->
 
     <section id="tours" class="panel">

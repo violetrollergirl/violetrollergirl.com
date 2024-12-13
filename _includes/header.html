@@ -5,6 +5,9 @@
 <link rel="icon" type="image/png" sizes="32x32" href="{% link favicon-32x32.png %}"/>
 <link rel="icon" type="image/png" sizes="16x16" href="{% link favicon-16x16.png %}"/>
 <link rel="manifest" href="{% link site.webmanifest %}"/>
+{% comment %}<!-- Bootstrap CSS, if we want it. -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+{% endcomment %}
 <!--[if lte IE 8]>
 <script src="{% link assets/js/ie/html5shiv.js %}"></script><![endif]-->
 <link rel="stylesheet" href="{% link assets/css/main.min.css %}"/>
@@ -79,5 +82,15 @@ h6:target {
 }
 .fa-minus18:before {
         content: "\1F51E";
+}
+
+#booking-inquiry-form .form-label,
+#booking-inquiry-form .form-input,
+#booking-inquiry-form .form-select {
+    display: inline;
+    width: auto;
+}
+#booking-inquiry-form textarea.form-input {
+    width: 100%;
 }
 </style>
