@@ -46,6 +46,9 @@
             $window.on('load', function () {
                 var fragment = window.location.hash;
                 switch (fragment) {
+                    case '#gallery':
+                        $('.closer').click(); // Close all Panels.
+                        break;
                     case '#about':
                     case '#contact':
                     case '#links':
