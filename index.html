@@ -368,7 +368,7 @@ layout: default
                 <ol>
                     <li>First, ensure you understand my <a href="#tours">availability</a>, <a href="#rates">rates, and policies</a>.</li>
                     <li>Next, review <a href="#contact-dos-and-donts">my "do's and don'ts"</a> for making first contact.</li>
-                    <li>Then <strong>complete the form below</strong> to help draft your first message to me. (Or, if you're not a fan of filling forms, <a href="#connection-methods">compose a bespoke love note yourself</a>.)
+                    <li>Then <strong>complete the form below</strong> to help draft <a href="#contact-instructions">your first message to me</a>. (Or, if you're not a fan of filling forms, <a href="#connection-methods">compose a bespoke love note yourself</a>.)
                 </ol>
                 <form name="booking_inquiry_form" id="booking-inquiry-form" action="#" method="GET" class="row row-cols-lg-auto g-3 align-items-center">
                     <blockquote>
@@ -450,17 +450,27 @@ layout: default
                                 </select>
 
                                 <label for="booking-inquiry-prospect-duration" class="form-label">for a duration of</label>
-                                <input type="number" name="booking_inquiry_prospect_duration" id="booking-inquiry-prospect-duration" class="form-input" min="1" max="8" required="required" placeholder="#"> hour(s)
+                                <input type="number" name="booking_inquiry_prospect_duration" id="booking-inquiry-prospect-duration" class="form-input" min="1" max="14" required="required" placeholder="#"> hour(s)
 
                                 <label for="booking-inquiry-prospect-location" class="form-label">when I will be in</label>
                                 <input type="text" name="booking_inquiry_prospect_location" id="booking-inquiry-prospect-location"
                                 class="form-input" placeholder="Anytown, USA" required="required" />
 
                                 <label for="booking-inquiry-prospect-preferred-datetime" class="form-label">on</label>
-                                <input type="datetime-local" class="form-input" name="booking_inquiry_prospect_preferred_datetime" id="booking-inquiry-prospect-preferred-datetime" required="required" />
+                                <input type="datetime-local" class="form-input"
+                                    name="booking_inquiry_prospect_preferred_datetime"
+                                    id="booking-inquiry-prospect-preferred-datetime"
+                                    min="{{ "now" | date: "%Y-%m-%dT00:00" }}"
+                                    required="required"
+                                />
 
                                 <label for="booking-inquiry-prospect-alternate-datetime" class="form-label">or, alternatively, on</label>
-                                <input type="datetime-local" class="form-input" name="booking_inquiry_prospect_alternate_datetime" id="booking-inquiry-prospect-alternate-datetime" required="required" />.
+                                <input type="datetime-local" class="form-input"
+                                    name="booking_inquiry_prospect_alternate_datetime"
+                                    id="booking-inquiry-prospect-alternate-datetime"
+                                    min="{{ "now" | date: "%Y-%m-%dT00:00" }}"
+                                    required="required"
+                                />.
                                 Would either of these options allow us to meet?
                             </p>
                         </fieldset>
@@ -471,8 +481,8 @@ layout: default
                             </p>
 
                             <p class="text-center">
-                                <button type="reset">Copy inquiry to clipboard</button>
-                                <button type="submit">Send inquiry</button>
+                                <button type="reset">1. Copy inquiry to clipboard</button>
+                                <button type="submit">2. Send inquiry</button>
                             </p>
                         </fieldset>
                     </blockquote>
@@ -511,7 +521,7 @@ layout: default
         <div class="inner split">
             <div>
                 <h2 id="contact-instructions">In your first message</h2>
-                <p>Whenever you contact me, always tell me:</p>
+                <p><a href="#booking-form">My booking form</a> can help you write a message with all the information I need. When writing me, always include:</p>
                 <ul class="fa-ul">
                     <li><span class="fa-li fa-solid fa-signature"></span>Your preferred name.</li>
                     <li><span class="fa-li fa-solid fa-calendar"></span>When you're hoping to see me; supply <em>both</em> a preferred and an alternate date and time.</li>
