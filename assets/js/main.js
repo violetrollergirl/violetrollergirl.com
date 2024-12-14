@@ -92,6 +92,62 @@
         // Fix: Placeholder polyfill.
         $('form').placeholder();
 
+        // Booking form.
+        $('#booking-inquiry-form').on('submit reset', function (e) {
+            e.preventDefault();
+            formData = $(this).serializeArray();
+            var inquiryData = formData.reduce(function (accumulator, currentValue) {
+                accumulator[currentValue.name] = currentValue.value;
+                return accumulator;
+            }, {} );
+            var templateText = `Hi Violet,
+
+Please allow me to introduce myself. My name is ${inquiryData.booking_inquiry_prospect_name}. I have read your screening requirements and am comfortable being screened by sending you ${inquiryData.booking_inquiry_prospect_preferred_screening_method}.
+
+I've been drawn to you since I found your website via ${inquiryData.booking_inquiry_prospect_source_referral}. I really like your ${inquiryData.booking_inquiry_prospect_attraction}
+
+I'm ready to plan a date! May I reserve an ${inquiryData.booking_inquiry_prospect_call_type} for a duration of ${inquiryData.booking_inquiry_prospect_duration} hours when I will be in ${inquiryData.booking_inquiry_prospect_location} on ${new Date(inquiryData.booking_inquiry_prospect_preferred_datetime)}, or alternatively, on ${new Date(inquiryData.booking_inquiry_prospect_alternate_datetime)}. Would either of these options allow us to meet?
+
+I'm excited to hear from you!
+
+Sincerely,
+-${inquiryData.booking_inquiry_prospect_name}`;
+
+            // If the user just wants to copy to clipboard...
+            if ( 'reset' === e.type ) {
+                try {
+                    navigator.clipboard.writeText(templateText);
+                    $(this)
+                        .find('button[type="reset"]')
+                        .text('Copied! (Click to copy again.)');
+                } catch (err) {
+                    console.error(err);
+                }
+                // ...don't rewrite links.
+                return false;
+            }
+
+            var method = inquiryData.booking_inquiry_prospect_preferred_contact_method;
+            var el     = $('#' + method + '-contact-link');
+            var oldUrl = el.attr('href'); // Read hyperlink.
+            var url    = new URL(oldUrl);
+            var params = url.searchParams;
+            switch ( method ) {
+                case 'whatsapp':
+                    params.set('text', templateText);
+                case 'sms':
+                case 'email':
+                    params.set('body', templateText);
+                    break;
+                default:
+                    break;
+            }
+            url.search = params.toString();
+            el.attr('href', url.toString()); // Rewrite hyperlink.
+            el[0].click(); // Click DOM element, not jQuery object.
+            el.attr('href', oldUrl); // Restore original.
+        });
+
         // Panels.
         var $panels = $('.panel');
 

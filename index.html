@@ -397,9 +397,9 @@ layout: default
                                     required="required"
                                 >
                                     <option value="" disabled="disabled" selected="selected">Choose how you will verify yourself</option>
-                                    <option value="employment-information">employment information</option>
-                                    <option value="idcard">government-issued identity document</option>
-                                    <option value="social-date">a deposit for a social date at a public venue</option>
+                                    <option>employment information</option>
+                                    <option>my government-issued identity document</option>
+                                    <option>a deposit for a social date at a public venue</option>
                                 </select>.
                             </p>
                         </fieldset>
@@ -407,7 +407,7 @@ layout: default
                         <fieldset class="form-group"><legend>I've been drawn to you since&hellip;</legend>
                             <p>
                                 <label for="booking-inquiry-prospect-source-referral" class="form-label">I found your Web site via</label>
-                                <select name="booking_inquiriy_prospect_source_referral" id="booking-inquiry-prospect-source-referral"
+                                <select name="booking_inquiry_prospect_source_referral" id="booking-inquiry-prospect-source-referral"
                                     class="form-select"
                                     required="required"
                                 >
@@ -471,6 +471,7 @@ layout: default
                             </p>
 
                             <p class="text-center">
+                                <button type="reset">Copy to clipboard</button>
                                 <button type="submit">Send inquiry</button>
                             </p>
                         </fieldset>
@@ -483,22 +484,22 @@ layout: default
                 <p>How would you like to book? Tap the icon to choose:</p>
                 <ul class="icons text-center">
                     <li style="display: inline-block; padding-right: 1em;">
-                        <a class="icon fa-brands fa-signal-messenger fa-5x" href="{% include signal-booking.url %}" title="Signal">
+                        <a id="signal-contact-link" class="icon fa-brands fa-signal-messenger fa-5x" href="{% include signal-booking.url %}" title="Signal">
                             <!--<span class="label">Signal Private Messenger</label>-->
                         </a>
                     </li>
                     <li style="display: inline-block; padding-right: 1em;">
-                        <a class="icon fa-whatsapp fa-5x" href="{% include whatsapp-booking.url %}" title="WhatsApp">
+                        <a id="whatsapp-contact-link" class="icon fa-whatsapp fa-5x" href="{% include whatsapp-booking.url %}" title="WhatsApp">
                             <!--<span class="label">WhatsApp</label>-->
                         </a>
                     </li>
                     <li style="display: inline-block; padding-right: 1em;">
-                        <a class="icon fa-envelope fa-5x" href="{% include mailto-booking.url %}" title="Email">
+                        <a id="email-contact-link" class="icon fa-envelope fa-5x" href="{% include mailto-booking.url %}" title="Email">
                             <!--<span class="label">Email</label>-->
                         </a>
                     </li>
                     <li style="display: inline-block;">
-                        <a class="icon fa-comment-sms fa-5x" href="{% include sms-booking.url %}" title="Text/SMS">
+                        <a id="sms-contact-link" class="icon fa-comment-sms fa-5x" href="{% include sms-booking.url %}" title="Text/SMS">
                             <!--<span class="label">Text/SMS</label>-->
                         </a>
                     </li>
