@@ -123,7 +123,7 @@ Sincerely,
                 } catch (err) {
                     console.error(err);
                 }
-                // ...don't rewrite links.
+                // ...end processing, don't rewrite links.
                 return false;
             }
 
@@ -131,18 +131,22 @@ Sincerely,
             var el     = $('#' + method + '-contact-link');
             var oldUrl = el.attr('href'); // Read hyperlink.
             var url    = new URL(oldUrl);
-            var params = url.searchParams;
             switch ( method ) {
                 case 'whatsapp':
-                    params.set('text', templateText);
+                    url.searchParams.set('text', templateText);
+                    break;
                 case 'sms':
+                    url.searchParams.set('body', templateText);
+        break;
                 case 'email':
-                    params.set('body', templateText);
+                    // Avoid dealing with URLSearchParams interface
+                    // because of encoding complexness.
+                    url.search = `?subject=Booking%20inquiry%20from%20${inquiryData.booking_inquiry_prospect_name}&body=${encodeURIComponent(templateText)}`;
                     break;
                 default:
                     break;
             }
-            url.search = params.toString();
+            console.log(url.toString());
             el.attr('href', url.toString()); // Rewrite hyperlink.
             el[0].click(); // Click DOM element, not jQuery object.
             el.attr('href', oldUrl); // Restore original.

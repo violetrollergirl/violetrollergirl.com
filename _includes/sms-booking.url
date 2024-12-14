@@ -1,1 +1,1 @@
-sms:{{ site.contact.sms }}?body={{ site.booking.template_txt -}}
+sms:{{ site.contact.sms | url_encode}}?body={{ site.booking.template_txt | url_encode -}}
