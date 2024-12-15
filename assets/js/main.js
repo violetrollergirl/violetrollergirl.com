@@ -92,6 +92,13 @@
         // Fix: Placeholder polyfill.
         $('form').placeholder();
 
+        // Links from Rates page auto-populate some fields in the booking form.
+        $('a[data-booking-inquiry-prospect-duration]').on('click', function (e) {
+            $('#booking-inquiry-prospect-duration').val(
+                $(this).data('booking-inquiry-prospect-duration')
+            );
+        });
+
         // Booking form.
         $('#booking-inquiry-form').on('submit reset', function (e) {
             e.preventDefault();
