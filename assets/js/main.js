@@ -64,8 +64,13 @@
             });
 
             $window.on('hashchange', function () {
-                if ( '#gallery' === window.location.hash ) {
-                    $('.closer').click(); // Close all Panels.
+                switch ( window.location.hash ) {
+                    case '#gallery':
+                        $('.closer').click(); // Close all Panels.
+                        break;
+                    default:
+                        $(window.location.hash).triggerHandler('---show');
+                        break;
                 }
             });
 
