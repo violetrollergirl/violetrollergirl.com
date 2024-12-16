@@ -76,7 +76,7 @@ defaults:
     values:
       gallery_image: true
   - scope:
-      path: "images/gallery/fulls/cyberpunk-kneeling-bondage-wall-Violet-Rollergirl-9108_124341~2.jpg"
+      path: "images/gallery/fulls/020-cyberpunk-kneeling-bondage-wall-Violet-Rollergirl-9108_124341~2.jpg"
     values:
       position: top
 
