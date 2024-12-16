@@ -30,7 +30,8 @@ layout: default
         {% for image in gallery_images %}
         <article class="thumb">
             <a href="{{ site.baseurl }}{{ image_base_path }}/fulls/{{ image.name }}" class="image">
-                <img src="{{ site.baseurl }}{{ image_base_path }}/thumbs/{{ image.name }}" alt=""
+                <img loading="lazy" src="{{ site.baseurl }}{{ image_base_path }}/thumbs/{{ image.name }}"
+                     alt=""
                      data-name="{{ image.name }}"
                      data-position="{{ image.position }}"
                  /></a>
@@ -59,7 +60,7 @@ layout: default
             <h3>A bubbly, kinky, rollerblading cyberpunk hentai trans femmebot fantasy for hire. <a href="#{{ site.title | slugify }}">Welcome to my website</a>.</h3>
             <p class="text-center">
                 <a href="#{{ site.title | slugify }}" title="Enter my Web site">
-                    <img src="{% link images/rollergirl-cyberpunk-hero.jpg %}" alt="" />
+                    <img loading="lazy" src="{% link images/rollergirl-cyberpunk-hero.jpg %}" alt="" />
                 </a>
             </p>
         </header>
