@@ -42,25 +42,36 @@
                 }, 100);
             });
 
-            // Ensure panels are also "permalinks" in a way.
+            // Ensure panels are also "permalinks" navigable through
+            // matching against the URI's fragment identifier.
             $window.on('load', function () {
                 var fragment = window.location.hash;
-                switch (fragment) {
-                    case '#gallery':
-                        $('.closer').click(); // Close all Panels.
-                        break;
-                    case '#about':
-                    case '#contact':
-                    case '#links':
-                    case '#rates':
-                    case '#tours':
+                var el       = document.getElementById(fragment.slice(1));
+                // If the page is loaded with the Gallery,
+                // just close all the panels.
+                if ( '#gallery' == fragment ) {
+                    $('.closer').click(); // Close all Panels.
+                } else {
+                    if ( 1 === $(`${fragment}.panel`).length ) {
+                        // First, check if the loaded fragment
+                        // matches an ID of a Panel. We'll just
+                        // open it in that case.
                         $(fragment).triggerHandler('---toggle');
-                        break;
-                    default:
-                        // Show my "About" page by default.
+                    } else if ( el ) {
+                        // Otherwise, if the fragment matches an
+                        // element's ID at all find the Panel it is in.
+                        var p = el.closest('.panel');
+                        // Then, open that panel first.
+                        $(p).triggerHandler('---toggle');
+                        // Then return to the original fragment.
+                        window.location.hash = fragment;
+                    } else {
+                        // If none of the above matches, then just
+                        // show my "About" page by default.
                         $('#about').triggerHandler('---toggle');
-                        break;
+                    }
                 }
+
             });
 
             $window.on('hashchange', function () {
