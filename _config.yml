@@ -1,13 +1,15 @@
-# Base configs
+# Jekyll Configuration File.
+# https://jekyllrb.com/docs/configuration/
+---
 baseurl: https://violetrollergirl.com
 #baseurl: "" # Comment the above line and uncomment this to test the website locally
-image_fulls_loc: "/images/fulls"
-image_thumbs_loc: "/images/thumbs"
 
-# UI configs
+# Basic site and authorship information.
 title: Violet Rollergirl
 subtitle: Kinky trans companion
 author: Violet Rollergirl
+
+# Contact details and templates.
 booking:
   subject: Booking inquiry
   template_txt: |-
@@ -17,9 +19,8 @@ contact:
   email: violetrollergirl@protonmail.com
   sms: "+13473157531"
   whatsapp: "+16467296205"
-# Configure which exif data to display
-# Tag is the actual exif tag, icon is a fontawesome icon. Use JSON notation without line breaks
-#exif: '[{"tag": "Model", "icon": "camera-retro"}, {"tag": "FNumber", "icon": "dot-circle-o"}, {"tag": "ExposureTime", "icon": "clock-o"}, {"tag": "ISOSpeedRatings", "icon": "info-circle"}]'
+
+# Links and social URLs, for the "Links" page.
 social_urls:
   - group_name: Tip me
     items:
@@ -68,3 +69,18 @@ social_urls:
       title: In-person info
       icon: shield-halved
       url: http://ylyznmvgswureorc3tzc555trtjdtzgvkfjba5xkkkqcun55q3ny3yqd.onion/
+
+defaults:
+  - scope:
+      path: "images/gallery/fulls"
+    values:
+      gallery_image: true
+  - scope:
+      path: "images/gallery/fulls/cyberpunk-kneeling-bondage-wall-Violet-Rollergirl-9108_124341~2.jpg"
+    values:
+      position: top
+
+# Gallery.
+# Configure which exif data to display
+# Tag is the actual exif tag, icon is a fontawesome icon. Use JSON notation without line breaks
+#exif: '[{"tag": "Model", "icon": "camera-retro"}, {"tag": "FNumber", "icon": "dot-circle-o"}, {"tag": "ExposureTime", "icon": "clock-o"}, {"tag": "ISOSpeedRatings", "icon": "info-circle"}]'

@@ -23,19 +23,22 @@ layout: default
         </nav>
     </header><!-- #header -->
 
-    <div id="main" data-exif='{{ site.exif }}'>
-        {% for image in site.static_files %}
-        {% if image.path contains 'fulls' %}
+    <main id="main" data-exif='{{ site.exif }}'>
+        {% assign gallery_images = site.static_files | where: "gallery_image", true %}
+        {% assign first_image = gallery_images | first %}
+        {% assign image_base_path = first_image.path | split: "/" | slice: 0, 3 | join: "/" %}
+        {% for image in gallery_images %}
         <article class="thumb">
-            <a href="{{ site.baseurl }}{{ site.image_fulls_loc }}/{{ image.name }}" class="image">
-                <img src="{{ site.baseurl }}{{ site.image_thumbs_loc }}/{{ image.name }}" alt=""
-                     data-name="{{ image.name }}"/></a>
+            <a href="{{ site.baseurl }}{{ image_base_path }}/fulls/{{ image.name }}" class="image">
+                <img src="{{ site.baseurl }}{{ image_base_path }}/thumbs/{{ image.name }}" alt=""
+                     data-name="{{ image.name }}"
+                     data-position="{{ image.position }}"
+                 /></a>
             <!--<h2></h2>
             <p></p>-->
         </article>
-        {% endif %}
         {% endfor %}
-    </div>
+    </main>
 
     <section id="navpanel" class="panel">
         <nav>
