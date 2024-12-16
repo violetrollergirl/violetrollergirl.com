@@ -70,6 +70,7 @@
                         break;
                     default:
                         $(window.location.hash).triggerHandler('---show');
+                        $(window.location.hash).scrollTop(0);
                         break;
                 }
             });
