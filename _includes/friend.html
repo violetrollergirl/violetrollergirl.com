@@ -1,0 +1,5 @@
+{% comment %}
+This template renders a single duo partner's bio.
+{% endcomment %}
+<h2 id="partner-{{ include.partner.name | slugify }}">{{ include.partner.name }}</h2>
+<p>{{ include.partner.bio }}</p>

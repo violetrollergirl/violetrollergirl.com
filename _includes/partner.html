@@ -1,0 +1,23 @@
+{% comment %}
+This template renders a single duo partner's bio.
+{% endcomment %}
+<article class="partner h-card">
+    <header>
+        <h2 id="partner-{{ include.partner.name | slugify }}">
+            <a href="{{ include.partner.url }}" class="p-name u-url">{{ include.partner.name }}</a>
+        </h2>
+        <h3>
+            {{ include.partner.tagline }}
+        </h3>
+        {% if include.partner.image %}
+        <img class="p-photo"
+            src="{{ site.baseurl }}{{ include.partner.image | relative_url }}"
+            alt="Profile photo of {{ include.partner.name }}"
+            />
+        {% endif %}
+    </header>
+    <p>{{ include.partner.bio }}</p>
+    <p class="text-center">
+    <a href="{{ include.partner.url }}" class="button"><span class="fa-solid fa-globe"></span> {{ include.partner.name  }}'s Website</a>
+    </p>
+</article>

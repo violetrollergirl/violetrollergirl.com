@@ -50,6 +50,8 @@ layout: default
                 <li><a href="#contact"><span class="icon fa-solid fa-envelope-open"></span><br />Contact</a></li>
                 <li><a href="#tours"><span class="icon fa-solid fa-plane"></span><br />Tours</a></li>
                 <li><a href="#links"><span class="icon fa-solid fa-chain"></span><br />Links</a></li>
+                <li><a href="#faq"><span class="icon fa-solid fa-circle-question"></span><br /><abbr title="Frequently Asked Questions">FAQ</abbr></a></li>
+                <li><a href="#friends"><span class="icon fa-solid fa-people-group"></span><br />Friends</a></li>
             </ul>
         </nav>
     </section>
@@ -569,7 +571,7 @@ layout: default
             </div>
             <div>
                 <h2 id="contact-dos-and-donts">Do's and don'ts</h2>
-                <p>I respond best to respectful inquiries from individuals or couples who are fueled by my energy, are hungry for intimacy, or eager to shed lingering shames. Please reach out without fear of your gender, race, ethnicity, size, or religion.</p>
+                <p>Please reach out without fear of your gender, race, ethnicity, size, or religion. I respond best to respectful inquiries from individuals or couples who are fueled by my energy, are hungry for intimacy, or eager to shed lingering shames.</p>
                 <p>When writing me, please:</p>
                 <table>
                     <thead>
@@ -684,6 +686,70 @@ layout: default
             </div>
             {% endfor %}
         </div>
+    </section>
+
+    <!--
+    <section id="faq" class="panel">
+        <div class="inner split">
+            <div>
+                <h2>FAQ Answer 1</h2>
+                <p>Some text.</p>
+            </div>
+            <div>
+                <h2>FAQ Answer 2</h2>
+                <p>Some text.</p>
+            </div>
+            <div>
+                <h2>FAQ Answer 3</h2>
+                <p>Some text.</p>
+            </div>
+        </div>
+        <div class="inner split">
+            <div>
+                <h2>FAQ Answer 4</h2>
+                <p>Some text.</p>
+            </div>
+            <div>
+                <h2>FAQ Answer 5</h2>
+                <p>Some text.</p>
+            </div>
+            <div>
+                <h2>FAQ Answer 6</h2>
+                <p>Some text.</p>
+            </div>
+        </div>
+        <div class="inner split">
+            <div>
+                <h2>FAQ Answer 7</h2>
+                <p>Some text.</p>
+            </div>
+            <div>
+                <h2>FAQ Answer 8</h2>
+                <p>Some text.</p>
+            </div>
+            <div>
+                <h2>FAQ Answer 9</h2>
+                <p>Some text.</p>
+            </div>
+        </div>
+    </section>
+    -->
+
+    <section id="friends" class="panel">
+{% comment %}
+{% endcomment -%}
+        {% for partner in site.data.partners %}
+        {% assign modulo = forloop.index | modulo: 3 %}
+        {% if modulo == 1 %}
+        <div class="inner split">
+        {% endif %}
+            <div>
+                {% include partner.html partner=partner %}
+            </div>
+        {% if modulo == 0 or forloop.last %}
+        </div><!-- .inner.split -->
+        {% endif %}
+        {% endfor %}
     </section>
 
 </div><!-- #wrapper -->
