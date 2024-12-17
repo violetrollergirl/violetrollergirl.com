@@ -2,14 +2,15 @@
 Content for the "FAQ" Panel.
 {% endcomment %}
 
-{% for q in site.data.faq %}
+{% assign faqs = site.faq | sort: "name" %}
+{% for q in faqs %}
 {% assign modulo = forloop.index | modulo: 3 %}
 {% if modulo == 1 %}
 <div class="inner split">
 {% endif %}
     <div>
-        <h2 id="faq-{{ q.title | slugify }}">{{ q.title }}</h2>
-        {{ q.body | markdownify }}
+        <h2 id="faq-{{ q.name | slugify }}">{{ q.name }}</h2>
+        {{ q.content }}
     </div>
 {% if modulo == 0 or forloop.last %}
 </div><!-- .inner.split -->

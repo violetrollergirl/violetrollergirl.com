@@ -80,6 +80,9 @@ defaults:
     values:
       position: top
 
+collections:
+  faq:
+
 # Gallery.
 # Configure which exif data to display
 # Tag is the actual exif tag, icon is a fontawesome icon. Use JSON notation without line breaks
