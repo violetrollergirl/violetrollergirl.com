@@ -2,7 +2,7 @@
 Content for the "FAQ" Panel.
 {% endcomment %}
 
-{% assign faqs = site.faq | sort: "name" %}
+{% assign faqs = site.faq | where_exp: "item", "item.publish != false" | sort: "name" %}
 {% for q in faqs %}
 {% assign modulo = forloop.index | modulo: 3 %}
 {% if modulo == 1 %}

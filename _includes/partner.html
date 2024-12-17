@@ -11,20 +11,22 @@ This template renders a single duo partner's (Microformat'ed) h-card.
         </h4>
     </header>
     {% if include.partner.photo %}
-    <img class="p-photo"
+    <a href="{{ include.partner.url }}"><img class="p-photo"
         src="{{ site.baseurl }}{{ include.partner.photo | relative_url }}"
         alt="Profile photo of {{ include.partner.name }}"
-        />
+        /></a>
     {% endif %}
     <p class="p-note">
         {{- include.partner.bio -}}
     </p>
-    <p class="text-center">
+    <p class="button-container">
         <a href="{{ include.partner.url }}" class="button">
             <span class="fa-solid fa-globe"></span> {{ include.partner.name  }}'s Website
         </a>
     </p>
-    {% for pic in include.partner.images %}
-    <img src="{{ site.baseurl }}{{ pic.url }}" alt="" />
-    {% endfor %}
+    <div class="duo-photos">
+        {% for pic in include.partner.images %}
+        <img src="{{ site.baseurl }}{{ pic.url }}" alt="{{ pic.alt }}" />
+        {% endfor %}
+    </div><!-- .duo-photos -->
 </article>
