@@ -1,14 +1,14 @@
 {% comment %}
-This template renders a single duo partner's bio.
+This template renders a single duo partner's (Microformat'ed) h-card.
 {% endcomment %}
 <article class="partner h-card">
     <header>
-        <h2 id="partner-{{ include.partner.name | slugify }}">
+        <h3 id="partner-{{ include.partner.name | slugify }}">
             <a href="{{ include.partner.url }}" class="p-name u-url">{{ include.partner.name }}</a>
-        </h2>
-        <h3>
-            {{ include.partner.tagline }}
         </h3>
+        <h4>
+            {{- include.partner.tagline -}}
+        </h4>
         {% if include.partner.image %}
         <img class="p-photo"
             src="{{ site.baseurl }}{{ include.partner.image | relative_url }}"
@@ -16,8 +16,12 @@ This template renders a single duo partner's bio.
             />
         {% endif %}
     </header>
-    <p>{{ include.partner.bio }}</p>
+    <p class="p-note">
+        {{- include.partner.bio -}}
+    </p>
     <p class="text-center">
-    <a href="{{ include.partner.url }}" class="button"><span class="fa-solid fa-globe"></span> {{ include.partner.name  }}'s Website</a>
+        <a href="{{ include.partner.url }}" class="button">
+            <span class="fa-solid fa-globe"></span> {{ include.partner.name  }}'s Website
+        </a>
     </p>
 </article>

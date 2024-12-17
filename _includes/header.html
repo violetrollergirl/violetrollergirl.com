@@ -125,11 +125,13 @@ a[data-booking-inquiry-prospect-duration] {
     width: 50%;
     max-width: 400px;
 }
-#friends .partner h2,
-#friends .partner h3 {
+
+header h2,
+header:not(#Hero) h3,
+header h4,
+header:not(#Hero) h2 + h3::before,
+header h3 + h4::before {
     display: inline-block;
-}
-#friends .partner h3::before {
     content: " - ";
 }
 </style>

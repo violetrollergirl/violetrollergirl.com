@@ -1,0 +1,26 @@
+{% comment %}
+Content for the "Friends" Panel.
+{% endcomment -%}
+
+<div class="inner">
+    <div>
+        <header>
+            <h2 id="friends-and-duo-partners">Friends and Duo Partners</h2>
+            <h3>Plug and play</h3>
+        </header>
+        <p>Spending quality one-on-one time is lovely, but if you're looking for some more <em>plug and play</em> fun, or to roll up with a crew, I got you, boo. I do so very much love sharing, and being shared. Here, you'll find a range of options for having fun in various configurations. And do let me know if you'd like to see me with a provider who isn't listed. Let's develop an expansion pack together&hellip;.</p>
+    </div>
+</div>
+
+{% for partner in site.data.partners %}
+{% assign modulo = forloop.index | modulo: 3 %}
+{% if modulo == 1 %}
+<div class="inner split">
+{% endif %}
+    <div>
+        {% include partner.html partner=partner %}
+    </div>
+{% if modulo == 0 or forloop.last %}
+</div><!-- .inner.split -->
+{% endif %}
+{% endfor %}

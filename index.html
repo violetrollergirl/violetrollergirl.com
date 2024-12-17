@@ -59,7 +59,7 @@ layout: default
     <section id="about" class="panel">
         <header id="Hero">
             <h2>Hi, I'm Violet.</h2>
-            <h3>A bubbly, kinky, rollerblading cyberpunk hentai trans femmebot fantasy for hire. <a href="#{{ site.title | slugify }}">Hello, friend! Ready to enter?</a></h3>
+            <h3>A bubbly, kinky, rollerblading cyberpunk hentai trans femmebot fantasy for hire. <a href="#{{ site.title | slugify }}">Hello, friend. Ready to jack in?</a></h3>
             <p class="text-center">
                 <a href="#{{ site.title | slugify }}" title="Enter my Web site">
                     <img loading="lazy" src="{% link images/rollergirl-cyberpunk-hero.jpg %}" alt="" />
@@ -75,10 +75,9 @@ layout: default
                 <p>While my candy coating comes in a couple flavors that help me seamlessly shape shift between a fun loving hippie at rave festival campgrounds to a smirking pool shark bending over the billiards table, on the inside I love nothing more than being your good girl, a shameless and free-spirited companion with whom it's easy to relax. Play your cards right and I would thoroughly enjoy being your:</p>
                 <ul>
                     <li>sweet trans kitten,</li>
+                    <li>cyberpunk hentai succubus,</li>
                     <li>eager bondage bunny,</li>
-                    <!--
                     <li>slutty degenerate girlfriend,</li>
-                    -->
                     <li>sporty skater chic, or</li>
                     <li>obedient good girl.</li>
                 </ul>
@@ -628,7 +627,7 @@ layout: default
                 <p>If we're not yet acquainted, such as when you're <a href="#contact-instructions">writing to me for the first time</a>, you'll need to complete my lightweight screening process. I treat your information with the utmost confidentiality, as discretion and screening helps assure our mutual safety and comfort.</p>
                 <p>You can successfully screen by completing any <em>one</em> of the following requirements:</p>
                 <ul class="fa-ul">
-                    <li><span class="fa-li fa-solid fa-image-portrait"></span>attaching a selfie plus a LinkedIn profile link plus a non-burner phone number to the message you send when you contact me, <em>or</em></li>
+                    <li><span class="fa-li fa-solid fa-image-portrait"></span>attaching a selfie plus a LinkedIn profile link plus a real phone number (not a texting app or burner/<abbr title="Voice over Internet Protocol">VoIP</abbr> number) to the message you send when you contact me, <em>or</em></li>
                     <li><span class="fa-li fa-solid fa-id-card"></span>attaching a selfie of yourself holding a valid government-issued photo ID card to the message you send when you contact me, <em>or</em></li>
                     <li><span class="fa-li fa-solid fa-handshake"></span>scheduling and sending a deposit for a meet-and-greet/social-only date (at <a href="#rates">my social rate</a>) where we will physically meet in a public venue.</li>
                 </ul>
@@ -641,115 +640,19 @@ layout: default
     </section><!-- #contact -->
 
     <section id="tours" class="panel">
-        <div class="inner split">
-            <div>
-                <h2 id="tours-and-travel-loations">Tours and Travel locations</h2>
-                <p>I often travel for my own pleasure, so book early to ensure I can carve out some time for your pleasure, too. 💖 Your city's not listed? Bring me to your city by <a href="#contact">booking me</a> for a <acronym title="Fly-Me-To-You">FMTY</acronym>!</p>
-                <iframe id="tours-and-travel-calendar"
-                    loading="lazy"
-                    src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;ctz=America%2FNew_York&amp;showPrint=0&amp;title=Violet%20Rollergirl&rsquo;s%20Tours%20and%20Travel%20Locations&amp;src=N2MzOGRhNDE4ZTE5MmM2NGZjMGFhOTQwM2U3YWY0YTNjOTQzNTMwMDFkYTE2ZWNjZTJhODk5MGZmZGMyZmU3OUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%239E69AF&amp;color=%230B8043"
-                    style="border:solid 1px #777"
-                    width="100%" height="600"
-                    frameborder="0"
-                    scrolling="no"></iframe>
-            </div>
-            <div>
-                <h2 id="availability">Availability</h2>
-                <p>I'm fortunate to be quite flexible and can usually be available at most times of the day or night. That said, <strong>I'm not a morning kitten, and planning our date 2 or more days in advance will give us the best experience together.</strong> Same-day trysts are <em>sometimes</em> possible with a rush fee of $100 USD, <abbr title="If and Only If">IFF</abbr> seeing one another is feasible and you complete the required screening process promptly. See my <a href="#rates">Rates</a> page for more complete information about my considerations.</p>
-                <p>With advanced scheduling, I'm also passport-ready and available:</p>
-                <ul class="fa-ul">
-                    <li><span class="fa-li fa-solid fa-train"></span>anywhere with train access in the tri-state area for bookings of 3 hours or more.</li>
-                    <li><span class="fa-li fa-solid fa-plane"></span>domestically (within the continental United States) for bookings of 6 hours or more.</li>
-                    <li><span class="fa-li fa-solid fa-earth-europe"></span>some international locales.</li>
-                </ul>
-                <p class="text-center">
-                    <a href="#rates" class="button">Rates &amp; Policies</a>
-                    <a href="#contact" class="button">Bookings</a>
-                </p>
-            </div>
+        {% include panel-tours.html %}
     </section>
 
     <section id="links" class="panel">
-        <div class="inner split">
-            {% for group in site.social_urls %}
-            <div class="text-center">
-                <h2>{{ group.group_name }}</h2>
-                <ul class="icons">
-                    {% for item in group.items %}
-                    <li>
-                        <a target="_blank" href="{{ item.url }}" class="icon fa-2x fa-{{ item.icon | downcase }}" title="{{ item.title }}">
-                            <span class="label">{{ item.label }}</span>
-                        </a>
-                    </li>
-                    {% endfor %}
-                </ul>
-            </div>
-            {% endfor %}
-        </div>
+        {% include panel-links.html %}
     </section>
 
-    <!--
     <section id="faq" class="panel">
-        <div class="inner split">
-            <div>
-                <h2>FAQ Answer 1</h2>
-                <p>Some text.</p>
-            </div>
-            <div>
-                <h2>FAQ Answer 2</h2>
-                <p>Some text.</p>
-            </div>
-            <div>
-                <h2>FAQ Answer 3</h2>
-                <p>Some text.</p>
-            </div>
-        </div>
-        <div class="inner split">
-            <div>
-                <h2>FAQ Answer 4</h2>
-                <p>Some text.</p>
-            </div>
-            <div>
-                <h2>FAQ Answer 5</h2>
-                <p>Some text.</p>
-            </div>
-            <div>
-                <h2>FAQ Answer 6</h2>
-                <p>Some text.</p>
-            </div>
-        </div>
-        <div class="inner split">
-            <div>
-                <h2>FAQ Answer 7</h2>
-                <p>Some text.</p>
-            </div>
-            <div>
-                <h2>FAQ Answer 8</h2>
-                <p>Some text.</p>
-            </div>
-            <div>
-                <h2>FAQ Answer 9</h2>
-                <p>Some text.</p>
-            </div>
-        </div>
+        {% include panel-faq.html %}
     </section>
-    -->
 
     <section id="friends" class="panel">
-{% comment %}
-{% endcomment -%}
-        {% for partner in site.data.partners %}
-        {% assign modulo = forloop.index | modulo: 3 %}
-        {% if modulo == 1 %}
-        <div class="inner split">
-        {% endif %}
-            <div>
-                {% include partner.html partner=partner %}
-            </div>
-        {% if modulo == 0 or forloop.last %}
-        </div><!-- .inner.split -->
-        {% endif %}
-        {% endfor %}
+        {% include panel-friends.html %}
     </section>
 
 </div><!-- #wrapper -->
