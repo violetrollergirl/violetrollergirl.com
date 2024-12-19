@@ -67,23 +67,62 @@
                         window.location.hash = fragment;
                     } else {
                         // If none of the above matches, then just
-                        // show my "About" page by default.
+                        // set the hash to the About panel.
+                        window.location.hash = '#about';
+                        // And then show my "About" page by default.
                         $('#about').triggerHandler('---toggle');
                     }
                 }
 
             });
 
-            $window.on('hashchange', function () {
-                switch ( window.location.hash ) {
-                    case '#gallery':
-                        $('.closer').click(); // Close all Panels.
-                        break;
-                    default:
-                        $(window.location.hash).triggerHandler('---show');
-                        $(window.location.hash).scrollTop(0);
-                        break;
+            // Handle hash changes like permalinks.
+            $window.on('hashchange', function (event) {
+
+                // Special case for the Gallery "page."
+                if ( '#gallery' === window.location.hash ) {
+                    $('.closer').click(); // Close all Panels.
+                    return;
                 }
+
+                var fragment = window.location.hash.slice(1);
+                var targetEl = document.getElementById(fragment);
+
+                // If the targeted element doesn't exist...
+                if ( ! targetEl ) {
+                    // ...we can just stop now.
+                    return;
+                }
+
+                // Figure out if we need to change Panels.
+                var oldPanel, newPanel;
+                var oldHash = new URL(event.originalEvent.oldURL).hash;
+                var newHash = new URL(event.originalEvent.newURL).hash;
+
+                // If the new hash is a Panel, we have already
+                // handled it via the `$toggles`, so...
+                if ( $(newHash).hasClass('panel') ) {
+                    $(newHash).scrollTop(0); // ...just scroll up.
+                    return;
+                }
+
+                // If the old hash is a Panel, we just note it.
+                if ( $(oldHash).hasClass('panel') ) {
+                    oldPanel = $(oldHash)[0];
+                } else {
+                    oldPanel = $(oldHash).parents('.panel')[0];
+                }
+
+                // In which Panel is the new hash?
+                newPanel = $(newHash).parents('.panel')[0];
+
+                // Change visible Panels, if needed.
+                if ( oldPanel && newPanel && oldPanel !== newPanel ) {
+                    $(newPanel).triggerHandler('---toggle');
+                }
+
+                $(newHash).scrollTop(0); // Display target.
+
             });
 
             // Prevent transitions/animations on resize.
@@ -217,9 +256,6 @@ Sincerely,
                     // Activate body.
                     $body.addClass('content-active');
 
-                    // Change location fragment.
-                    window.location.hash = '#' + $this.attr('id');
-
                 })
                 .on('---hide', function () {
 
@@ -242,6 +278,9 @@ Sincerely,
                     event.stopPropagation();
 
                     $this.trigger('---toggle');
+
+                    // Change location fragment.
+                    window.location.hash = '#' + $this.attr('id');
 
                 });
 
