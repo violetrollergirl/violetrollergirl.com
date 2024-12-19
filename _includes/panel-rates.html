@@ -1,0 +1,70 @@
+{% comment %}
+{% endcomment %}
+
+
+<header>
+    <h2 id="rates-and-policies">Rates and <a href="#policies">Policies</a></h2>
+    <h3>Customize your order</h3>
+</header>
+<p>I offer <a href="#rates-add-ons-and-online">social-only or virtual (online)</a>, <a href="#rates-gfe-vanilla">(vanilla) <abbr title="Girlfriend Experience">GFE</abbr></a>, and <a href="#rates-pro-sub-bdsm">(fetish-focused) submissive kink/BDSM</a> companionship.</p>
+<p class="button-container">
+    <a href="#rates-add-ons-and-online" class="button">Social &amp; Virtual rates</a>
+    <a href="#rates-gfe-vanilla" class="button">GFE/vanilla FS rates</a>
+    <a href="#rates-pro-sub-bdsm" class="button">Pro-sub/BDSM rates</a>
+</p>
+<p>My rates for incalls and outcalls are the same. A $100 flat-rate incall fee <em>may</em> apply, and any applicable transportation costs for outcalls are not included in the fee schedules below. Each in-date extension equals my base hourly rate. Please <a href="#contact">inquire</a> about rates for content shoots, collaborations, longer multi-day dates, or long-term arrangements.</p>
+<div class="inner split">
+    {% for menu in site.data.fee_schedule %}
+    <div>
+        <table id="{{ menu.id | slugify | prepend: "rates-" }}">
+            <caption>{{ menu.name }}</caption>
+            <tbody>
+                {% for item in menu.items %}
+                <tr id="rate-{{ menu.id | slugify }}-{{ item.name | slugify }}">
+                    <th>
+                        {{ item.name }}
+                        {% if item.duration_in_hours %}<a href="#contact" data-booking-inquiry-prospect-duration="1">Book Now</a>
+                        {% endif %}
+                    </th>
+                    <td>
+                        <p>{{ item.currency_symbol | default: "$" }}{{ item.rate }}{{ item.currency | default: "USD" | prepend: " " }}</p>
+                        <details name="rate-details">
+                            <summary>Details</summary>
+                            {{ item.details | markdownify }}
+                        </details>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% endfor %}
+</div>
+<p class="button-container">
+    <a href="#tours" class="button">Check Availability</a>
+    <a href="#contact" class="button">Ready to book?</a>
+    <a href="#gallery" class="button">View Gallery</a>
+</p>
+<div class="inner split">
+    <h2 id="policies">Policies</h2>
+    <div>
+        <h3 id="deposit-policy">Deposit Policy</h3>
+        <p>I accept deposits via payment apps or gift cards. Always leave the payment app's transaction note/memo field blank!</p>
+        <ul class="fa-ul">
+            <li><span class="fa-li fa-solid fa-house"></span>One-quarter (25%) of the total booking cost while in my hometown.</li>
+            <li><span class="fa-li fa-solid fa-plane"></span>One-third (33%) of the total booking cost while touring.</li>
+        </ul>
+        <p>Deposits are non-refundable and non-transferable, except when cancelling in certain cases. (See <a href="#cancellation-policy">my cancellation policy</a> for details.) Your date is not confirmed until its deposit is confirmed.</p>
+    </div>
+    <div>
+        <h3 id="cancellation-policy">Cancellation Policy</h3>
+        <p>It's okay, you can always cancel or reschedule a date for any reason, no questions asked. If you cancel with:</p>
+        <ul>
+            <li>3 or more days (72 hours) notice, the full amount (100%) of your non-refundable deposit can be applied to another date.</li>
+            <li>3 to 1 days (72-24 hours) notice, half (50%) of your non-refundable deposit can be applied one time only to another date.</li>
+            <li>1 day or less (24 hours) notice, your non-refundable deposit will be forfeited.</li>
+        </ul>
+        <p>When applying the deposit for a cancelled date towards the next, that next date must be no later than 3 months after your original booking.</p>
+        <p>In the unlikely event that I have to cancel our date, you'll promptly have your full deposit returned to you.</p>
+    </div>
+</div>

@@ -1,0 +1,138 @@
+a:has(> img) {
+    border-bottom: 0;
+}
+acronym {
+    cursor: help;
+}
+.text-center {
+    text-align: center;
+}
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+}
+.button-container .button {
+    flex-grow: 1;
+    padding: 0 0.25em;
+}
+.split-even {
+    display: flex;
+}
+.split-even > div {
+    flex: 1;
+}
+.split-even > div:not(:last-child) {
+    border-right: 1px dotted;
+    margin-right: 10px;
+    margin-bottom: 1em;
+}
+#navpanel ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#navpanel a {
+    display: block;
+    padding: 1em;
+    text-align: center;
+    border: 0;
+}
+#navpanel a:hover {
+    background: #34a58e;
+    color: #fff !important;
+}
+#rates details {
+    font-size: smaller;
+    text-align: left;
+}
+#rates summary,
+#rates td {
+    text-align: right;
+}
+
+*:not(.panel):target {
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px white;
+    padding-left: 10px;
+    transition: box-shadow 2s;
+}
+
+.fa-plus18 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-size: 80%;
+    font-weight: bold;
+}
+.fa-plus18:before {
+        content: "18+";
+}
+.fa-minus18:before {
+        content: "\1F51E";
+}
+
+section img {
+    border-radius: 10px;
+    max-width: 100%;
+    transition: box-shadow 1s;
+}
+section img:hover {
+    box-shadow: green -5px 5px 25px;
+}
+#Hero h3 {
+    text-transform: initial;
+}
+#Hero img {
+    max-width: 100%;
+}
+
+a[data-booking-inquiry-prospect-duration] {
+    display: block;
+    width: fit-content;
+}
+#booking-inquiry-form .form-label,
+#booking-inquiry-form .form-input,
+#booking-inquiry-form .form-select {
+    display: inline;
+    width: auto;
+}
+#booking-inquiry-form textarea.form-input {
+    width: 100%;
+}
+
+#main article.thumb a {
+    position: relative;
+}
+#main article.thumb a:hover::after {
+    font-family: "Font Awesome 6 Free";
+    font-size: xxx-large;
+    font-weight: 900;
+    content: "\f00e";
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+    color: #FFF;
+}
+
+#friends .p-photo {
+    float: left;
+    margin-right: 1em;
+    width: 20%;
+    border-radius: 50%;
+}
+#friends .duo-pics {
+    clear: left;
+}
+
+header h2,
+header:not(#Hero) h3,
+header h4,
+header:not(#Hero) h2 + h3::before,
+header h3 + h4::before {
+    display: inline-block;
+    content: " - ";
+    margin-right: .25em;
+}

@@ -1,0 +1,85 @@
+# Data for various service price points.
+---
+- name: Social-only, add-ons, and online
+  id: add-ons-and-online
+  items:
+    - name: Social-only date
+      rate: 150
+      details: |-
+        ☕️🍻 Casual, zero-pressure meet and greet/meet cute; 🍝 dinner date, 🏸 sporting activity, 🧺 picnic, etcetera. Does not include transportation or activity cost. Charged per hour.
+
+        Booking a social-only date can also serve as one of your [(pre-)screening options](#screening-options).
+    - name: Custom photo
+      rate: 20
+      details: >-
+        A pic taken just for you. Price is subject to change based on photo request, and is listed as one (1) photo's base rate.
+    - name: Texting (30 minutes)
+      rate: 40
+      details: >-
+        Perfect for dipping one's toe into what our unique chemistry is like.
+    - name: Introductory phone call (30 minutes)
+      rate: 50
+      details: >-
+        Friendly, casual audio call to help you decide whether you'd like to book an in-person session, prepare for our date by chatting, discussing any logistics, or simply to quell any concerns. Price of the call is deducted from your deposit if you do choose to book.
+    - name: Video date (1 hour)
+      rate: 150
+      details: >-
+        Virtual tryst over private video chat.
+
+- name: GFE/vanilla full service
+  id: gfe-vanilla
+  items:
+    - name: 1 hour
+      rate: 400
+      duration_in_hours: 1
+      details: >-
+        Dedicated playdate. Discounted rates available for longer bookings as shown. Does not include incall fee or transportation cost.
+    - name: 90 minutes
+      rate: 540
+      duration_in_hours: 1.5
+      details: >-
+        10% off, recommended minimum.
+    - name: 2 hours
+      rate: 700
+      duration_in_hours: 2
+      details: >-
+        12.5% off
+    - name: 3 hours
+      rate: 960
+      duration_in_hours: 3
+      details: >-
+        20% off, minimum required for travel outside [my home cities](#tech-spec-home-cities) when not touring.
+    - name: 4 hours
+      rate: "1,200"
+      duration_in_hours: 4
+      details: >-
+        25% off, requires outing.
+    - name: 6 hours
+      rate: "1,680"
+      duration_in_hours: 6
+      details: >-
+        30% off, requires outing and shared meal.
+    - name: Overnight (~14 hours)
+      rate: "2,400"
+      details: >-
+        50% discount off my hourly rate. Perfect for an evening full of cuddles, or sprinkled with light fetishes like spanking and modest restraints. Requires outing, shared meal, and beauty sleep.
+    - name: Getaway weekend
+      rate: "4000"
+      details: >-
+        Party hard, play harder! I'll be all yours for two full days (except for some solo moments to let us freshen up for one another in our mysterious ways), so you can enjoy a weekend escape with me. Requires outings for some fresh air! Ask about fly-me-to-you options!
+
+- name: Pro-submissive/BDSM full service
+  id: pro-sub-bdsm
+  items:
+    - name: 1 hour
+      rate: 600
+      details: >-
+        Make me vulnerable, watch me bruise; full service with BDSM is available when negotiated. Available only to returning friends after our first date. Discounted rates available for longer bookings as shown. Does not include incall fee or transportation cost.
+    - name: 2 hours
+      rate: "1,000"
+      details: >-
+        16.7% off, recommended minimum.
+    - name: 3 hours
+      rate: "1,440"
+      details: >-
+        20% off, requires time for warmup and cool down/after care.
