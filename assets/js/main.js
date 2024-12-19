@@ -99,10 +99,10 @@
                 var oldHash = new URL(event.originalEvent.oldURL).hash;
                 var newHash = new URL(event.originalEvent.newURL).hash;
 
-                // If the new hash is a Panel, we have already
-                // handled it via the `$toggles`, so...
+                // If the new hash is a Panel, we need to `show` it.
                 if ( $(newHash).hasClass('panel') ) {
-                    $(newHash).scrollTop(0); // ...just scroll up.
+                    $(newHash).triggerHandler('---show');
+                    $(newHash).scrollTop(0);
                     return;
                 }
 
