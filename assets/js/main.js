@@ -1,3 +1,6 @@
+---
+layout: none
+---
 /*
  Multiverse by HTML5 UP
  html5up.net | @ajlkn
@@ -156,6 +159,20 @@
         });
 
         // Booking form.
+        $('#booking-inquiry-form').on('change', function (e) {
+            switch ( e.target.id ) {
+                case 'booking-inquiry-prospect-preferred-screening-method':
+                    let select_call_type = $('#booking-inquiry-prospect-call-type');
+                    if ( 'a deposit for a social date at a public venue' === e.target.value ) {
+                        select_call_type
+                            .val('a social-only date');
+                    }
+                    break;
+                default:
+                    break
+            }
+        });
+
         $('#booking-inquiry-form').on('submit reset', function (e) {
             e.preventDefault();
             formData = $(this).serializeArray();
@@ -163,13 +180,13 @@
                 accumulator[currentValue.name] = currentValue.value;
                 return accumulator;
             }, {} );
-            var templateText = `Hi Violet,
+            var templateText = `Hi {{ site.author | split: " " | first }},
 
 Please allow me to introduce myself. My name is ${inquiryData.booking_inquiry_prospect_name}. I have read your screening requirements and am comfortable being screened by sending you ${inquiryData.booking_inquiry_prospect_preferred_screening_method}.
 
 I've been drawn to you since I found your website via ${inquiryData.booking_inquiry_prospect_source_referral}. I really like your ${inquiryData.booking_inquiry_prospect_attraction}
 
-I'm ready to plan a date! May I reserve an ${inquiryData.booking_inquiry_prospect_call_type} for a duration of ${inquiryData.booking_inquiry_prospect_duration} hours when I will be in ${inquiryData.booking_inquiry_prospect_location} on ${new Date(inquiryData.booking_inquiry_prospect_preferred_datetime)}, or alternatively, on ${new Date(inquiryData.booking_inquiry_prospect_alternate_datetime)}. Would either of these options allow us to meet?
+I'm ready to plan a date! May I reserve your time for ${inquiryData.booking_inquiry_prospect_call_type} for a duration of ${inquiryData.booking_inquiry_prospect_duration} hours when I will be in ${inquiryData.booking_inquiry_prospect_location} on ${new Date(inquiryData.booking_inquiry_prospect_preferred_datetime)}, or alternatively, on ${new Date(inquiryData.booking_inquiry_prospect_alternate_datetime)}. Would either of these options allow us to meet?
 
 I'm excited to hear from you!
 

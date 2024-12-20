@@ -51,16 +51,18 @@ layout: default
 <section id="contact" class="panel">
     <div class="inner split">
         <div>
-            <h2 id="booking-form">Booking Form</h2>
+            <h2 id="first-contact">First contact</h2>
             <p>Are you ready for me to be <a href="#about">your shape shifting vixen or kinky companion</a>?</p>
             <ol>
                 <li>First, ensure you understand my <a href="#tours">availability</a>, <a href="#rates">rates</a>, and <a href="#policies">policies</a>.</li>
                 <li>Next, review <a href="#contact-dos-and-donts">my "do's and don'ts"</a> for making first contact.</li>
-                <li>Then <strong>complete the form below</strong> to help draft <a href="#contact-instructions">your first message to me</a>. (Or, if you're not a fan of filling forms, <a href="#connection-methods">compose a bespoke love note yourself</a>.)
+                <li>Then <strong>complete <a href="#booking-inquiry-form">the form</a> below</strong> to help draft <a href="#contact-instructions">your first message to me</a>.</li>
             </ol>
+            <p>If you're not a fan of filling forms, or if we are already acquianted, you may also <a href="#connection-methods">compose a bespoke love note yourself</a>.</p>
+            <h2 id="booking-form">Booking Form</h2>
             <form name="booking_inquiry_form" id="booking-inquiry-form" action="#" method="GET" class="row row-cols-lg-auto g-3 align-items-center">
                 <blockquote>
-                    <p>Hi, Violet.</p>
+                    <p>Hi, {{ site.author | split: " " | first }}.</p>
                     <fieldset class="form-group"><legend>Please allow me to introduce myself.</legend>
                         <p>
                             <label for="booking-inquiry-prospect-name" class="form-label">My name is</label>
@@ -79,7 +81,7 @@ layout: default
                             </select>.
                         </p>
                         <p>
-                        <label for="booking-inquiry-prospect-preferred-screening-method" class="form-label">I have read your <a href="#screening-options">screening requirements</a> and am comfortable being screened by sending you</label>
+                            <label for="booking-inquiry-prospect-preferred-screening-method" class="form-label">I have read your <a href="#screening-options">screening requirements</a> and am comfortable being screened by sending you</label>
                             <select name="booking_inquiry_prospect_preferred_screening_method" id="booking-inquiry-prospect-preferred-screening-method"
                                 class="form-select"
                                 required="required"
@@ -120,21 +122,23 @@ layout: default
                             <textarea name="booking_inquiry_prospect_attraction" id="booking-inquiry-prospect-attraction"
 
                                 class="form-input"
-                                placeholder="Photos? Vibe? Write what compelled you to book with me. Use a professional tone avoiding sexually explicit language."></textarea>
+                                placeholder="Photos? Vibe? Say why you want to meet me. Use a professional tone. Avoid sexually explicit language."></textarea>
                         </p>
                     </fieldset>
 
                     <fieldset class="form-group"><legend>I'm ready to plan a date!</legend>
                         <p>
-                            <label for="booking-inquiry-prospect-call-type" class="form-label">May I reserve an</label>
+                            <label for="booking-inquiry-prospect-call-type" class="form-label">May I reserve your time for</label>
                             <select name="booking_inquiry_prospect_call_type" id="booking-inquiry-prospect-call-type"
                                 class="form-select"
                                 required="required"
-                                aria-label="Booking call type (incall or outcall)"
+                                aria-label="Booking type (incall, outcall, or travel)"
                             >
-                                <option value="" disabled="disabled" selected="selected">Choose INCALL or OUTCALL</option>
-                                <option value="incall">incall (provider hosts)</option>
-                                <option value="outcall">outcall (client hosts)</option>
+                                <option value="" disabled="disabled" selected="selected">Choose booking type</option>
+                                <option value="an incall">an incall (provider hosts)</option>
+                                <option value="an outcall">an outcall (client hosts)</option>
+                                <option value="a FMTY">a FMTY (travel with or to you)</option>
+                                <option value="a social-only date">a social date (platonic/pre-screening only)</option>
                             </select>
 
                             <label for="booking-inquiry-prospect-duration" class="form-label">for a duration of</label>
@@ -142,7 +146,7 @@ layout: default
 
                             <label for="booking-inquiry-prospect-location" class="form-label">when I will be in</label>
                             <input type="text" name="booking_inquiry_prospect_location" id="booking-inquiry-prospect-location"
-                            class="form-input" placeholder="Anytown, USA" required="required" />
+                            class="form-input" placeholder="Anytown, USA (City, Country)" required="required" />
 
                             <label for="booking-inquiry-prospect-preferred-datetime" class="form-label">on</label>
                             <input type="datetime-local" class="form-input"
@@ -165,7 +169,7 @@ layout: default
                     <fieldset><legend>I'm excited to hear from you!</legend>
                         <p>
                             <input type="checkbox" class="form-check-input" name="booking_inquiry_confirmed_fine_print" id="booking-inquiry-confirmed-fine-print" value="yes" required="required" />
-                            <label for="booking-inquiry-confirmed-fine-print">I have read and understood the information on your Web site, including your <a href="#rates">rates, policies</a>, and <a href="#tours">availability</a>.</label>
+                            <label for="booking-inquiry-confirmed-fine-print">I have read and understood the information on your Web site, including your <a href="#rates">rates</a>, <a href="#policies">policies</a>, and <a href="#tours">availability</a>.</label>
                         </p>
 
                         <p class="button-container">
@@ -210,20 +214,19 @@ layout: default
     <div class="inner split">
         <div>
             <h2 id="contact-instructions">In your first message</h2>
-            <p><a href="#booking-form">My booking form</a> can help you write a message with all the information I need. When writing me, always include:</p>
+            <p><a href="#booking-form">My booking form</a> can help you write a message that includes all the information I need to meet with you. When writing me, always include:</p>
             <ul class="fa-ul">
                 <li><span class="fa-li fa-solid fa-signature"></span>Your preferred name.</li>
                 <li><span class="fa-li fa-solid fa-calendar"></span>When you're hoping to see me; supply <em>both</em> a preferred and an alternate date and time.</li>
                 <li><span class="fa-li fa-solid fa-hourglass"></span>How long you'd like to see me for. See my <a href="#rates">rates</a> for helpful guidance in selecting a duration.</li>
-                <li><span class="fa-li fa-solid fa-map"></span>Where you want to meet: my place/"incall," your place/"outcall," or a venue for a social date/meet and greet. Look up <a href="#tours">my travel dates</a> if you're not sure where I'll be.</li>
-                <li><span class="fa-li fa-solid fa-id-card"></span>If this is our first contact, choose a <a href="#screening-options">screening method</a> you're comfortable using. Screening is easy and mandatory.</li>
+                <li><span class="fa-li fa-solid fa-map"></span>Where you want to meet: my place/"incall," your place/"outcall," or indicate a social date/meet and greet. Look up <a href="#tours">my travel dates</a> if you're not sure where I'll be.</li>
+                <li><span class="fa-li fa-solid fa-id-card"></span>If this is our first contact, choose a <a href="#screening-options">screening method</a> you're comfortable using. <a href="#faq-how-do-i-pass-your-screening-process">Screening is easy and mandatory</a>.</li>
             </ul>
             <p class="text-center"><img src="{% link images/gallery-originals/pool-table-orange-and-black.jpg %}" alt="" /></p>
         </div>
         <div>
             <h2 id="contact-dos-and-donts">Do's and don'ts</h2>
-            <p>Please reach out without fear of your gender, race, ethnicity, size, or religion. I respond best to respectful inquiries from individuals or couples who are fueled by my energy, are hungry for intimacy, or eager to shed lingering shames.</p>
-            <p>When writing me, please:</p>
+            <p>Here are some things to keep in mind when writing me. Please:</p>
             <table>
                 <thead>
                     <tr>
@@ -272,6 +275,7 @@ layout: default
                     </tr>
                 </tbody>
             </table>
+            <p>Please do reach out without fear of your gender, race, ethnicity, size, or religion. I respond best to respectful inquiries from individuals or couples who are fueled by my energy, are hungry for intimacy, or eager to shed lingering shames.</p>
             <p>Explore the <a href="https://goodclientguide.com/" target="_blank">Good Client Guide</a> for more communication tips and generally useful information.</p>
         </div>
         <div>
@@ -279,7 +283,7 @@ layout: default
             <p>If we're not yet acquainted, such as when you're <a href="#contact-instructions">writing to me for the first time</a>, you'll need to complete my lightweight screening process. I treat your information with the utmost confidentiality, as discretion and screening helps assure our mutual safety and comfort.</p>
             <p>You can successfully screen by completing any <em>one</em> of the following requirements:</p>
             <ul class="fa-ul">
-                <li><span class="fa-li fa-solid fa-image-portrait"></span>attaching a selfie plus a LinkedIn profile link plus a real phone number (not a texting app or burner/<abbr title="Voice over Internet Protocol">VoIP</abbr> number) to the message you send when you contact me, <em>or</em></li>
+                <li><span class="fa-li fa-solid fa-image-portrait"></span>attaching a selfie plus a LinkedIn profile link plus a carrier phone number (not a texting app or burner/<abbr title="Voice over Internet Protocol">VoIP</abbr> number) to the message you send when you contact me, <em>or</em></li>
                 <li><span class="fa-li fa-solid fa-id-card"></span>attaching a selfie of yourself holding a valid government-issued photo ID card to the message you send when you contact me, <em>or</em></li>
                 <li><span class="fa-li fa-solid fa-handshake"></span>scheduling and sending a deposit for a meet-and-greet/social-only date (at <a href="#rate-add-ons-and-online-social-only-date">my social rate</a>) where we will physically meet in a public venue.</li>
             </ul>

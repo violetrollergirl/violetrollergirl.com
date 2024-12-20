@@ -53,6 +53,9 @@ acronym {
 #rates td {
     text-align: right;
 }
+#rates summary + p {
+    text-align: justify;
+}
 
 *:not(.panel):target {
     border-radius: 10px;
@@ -92,6 +95,9 @@ section img:hover {
 a[data-booking-inquiry-prospect-duration] {
     display: block;
     width: fit-content;
+}
+#booking-inquiry-form blockquote {
+    padding: .5em .5em 0 .25em;
 }
 #booking-inquiry-form .form-label,
 #booking-inquiry-form .form-input,
