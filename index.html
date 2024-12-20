@@ -2,438 +2,307 @@
 layout: default
 ---
 
-<div id="wrapper">
+<header id="header">
+    <h1>
+        <a href="index.html">
+            <strong>{{ site.title }}</strong><br />
+            {{ site.subtitle }}
+        </a>
+    </h1>
+    <nav>
+        <ul>
+            <li><a href="#navpanel" class="icon fa-bars"><span>Menu</span></a></li>
+            <!--
+            <li><a href="https://violetrollergirl.tryst.link/#availability" target="_blank" class="icon fa-plane">Tours</a></li>
+            <li><a href="#rates" class="icon fa-coins">Rates</a></li>
+            <li><a href="#contact" class="icon fa-envelope-open">Contact</a></li>
+            -->
+        </ul>
+    </nav>
+</header><!-- #header -->
 
-    <header id="header">
-        <h1>
-            <a href="index.html">
-                <strong>{{ site.title }}</strong><br />
-                {{ site.subtitle }}
-            </a>
-        </h1>
-        <nav>
-            <ul>
-                <li><a href="#navpanel" class="icon fa-bars"><span>Menu</span></a></li>
-                <!--
-                <li><a href="https://violetrollergirl.tryst.link/#availability" target="_blank" class="icon fa-plane">Tours</a></li>
-                <li><a href="#rates" class="icon fa-coins">Rates</a></li>
-                <li><a href="#contact" class="icon fa-envelope-open">Contact</a></li>
-                -->
-            </ul>
-        </nav>
-    </header><!-- #header -->
+<main id="main" data-exif='{{ site.exif }}'>
+    {% include gallery.html %}
+</main>
 
-    <main id="main" data-exif='{{ site.exif }}'>
-        {% assign gallery_images = site.static_files | where: "gallery_image", true %}
-        {% assign first_image = gallery_images | first %}
-        {% assign image_base_path = first_image.path | split: "/" | slice: 0, 3 | join: "/" %}
-        {% for image in gallery_images %}
-        <article class="thumb">
-            <a href="{{ site.baseurl }}{{ image_base_path }}/fulls/{{ image.name }}" class="image">
-                <img loading="lazy" src="{{ site.baseurl }}{{ image_base_path }}/thumbs/{{ image.name }}"
-                     alt=""
-                     data-name="{{ image.name }}"
-                     data-position="{{ image.position }}"
-                 /></a>
-            <!--<h2></h2>
-            <p></p>-->
-        </article>
-        {% endfor %}
-    </main>
+<section id="navpanel" class="panel">
+    <nav>
+        <ul class="fa-ul">
+            <li><a href="#about"><span class="icon fa-solid fa-circle-info"></span><br />About</a></li>
+            <li><a href="#gallery"><span class="icon fa-solid fa-image-portrait"></span><br />Gallery</a></li>
+            <li><a href="#rates"><span class="icon fa-solid fa-coins"></span><br />Rates</a></li>
+            <li><a href="#contact"><span class="icon fa-solid fa-envelope-open"></span><br />Contact</a></li>
+            <li><a href="#tours"><span class="icon fa-solid fa-plane"></span><br />Tours</a></li>
+            <li><a href="#links"><span class="icon fa-solid fa-chain"></span><br />Links</a></li>
+            <li><a href="#faq"><span class="icon fa-solid fa-circle-question"></span><br /><abbr title="Frequently Asked Questions">FAQ</abbr></a></li>
+            <li><a href="#friends"><span class="icon fa-solid fa-people-group"></span><br />Friends</a></li>
+        </ul>
+    </nav>
+</section>
 
-    <section id="navpanel" class="panel">
-        <nav>
-            <ul class="fa-ul">
-                <li><a href="#about"><span class="icon fa-solid fa-circle-info"></span><br />About</a></li>
-                <li><a href="#gallery"><span class="icon fa-solid fa-image-portrait"></span><br />Gallery</a></li>
-                <li><a href="#rates"><span class="icon fa-solid fa-coins"></span><br />Rates</a></li>
-                <li><a href="#contact"><span class="icon fa-solid fa-envelope-open"></span><br />Contact</a></li>
-                <li><a href="#tours"><span class="icon fa-solid fa-plane"></span><br />Tours</a></li>
-                <li><a href="#links"><span class="icon fa-solid fa-chain"></span><br />Links</a></li>
-                <li><a href="#faq"><span class="icon fa-solid fa-circle-question"></span><br /><abbr title="Frequently Asked Questions">FAQ</abbr></a></li>
-                <li><a href="#friends"><span class="icon fa-solid fa-people-group"></span><br />Friends</a></li>
-            </ul>
-        </nav>
-    </section>
+<section id="about" class="panel">
+    {% include panel-about.html %}
+</section><!-- #about -->
 
-    <section id="about" class="panel">
-        <header id="Hero">
-            <h2>Hello, friend. I'm Violet.</h2>
-            <h3>A bubbly, kinky, rollerblading, cyberpunk hentai trans femmebot fantasy for hire. <a href="#{{ site.title | slugify }}">Ready to jack in?</a></h3>
-            <p class="text-center">
-                <a href="#{{ site.title | slugify }}" title="Enter my Web site">
-                    <img loading="lazy" src="{% link images/rollergirl-cyberpunk-hero.jpg %}" alt="" />
-                </a>
-            </p>
-        </header>
-        <div class="inner split">
-            <div>
-                <h2 id="{{ site.title | slugify }}">{{  site.title }}</h2>
-                <p>Also known as &ldquo;the girl with <a href="#faq-what-does-your-qr-code-tramp-stamp-go-to">the QR code tattoo</a>,&rdquo; I'm Vi (pronounced like "eye" but with a V), a bubbly, sweet, and adventurous trans girlfriend experience with an optional kinky, submissive twist.</p>
-                <p>Equal parts whip-smart and whipping girl, I'm fit and athletic, with soft, curly red ringlets and a natural aesthetic that can be hard femme, curious kitten, sexy librarian, cyberpunk hentai seductress, or a fantasy somewhere in between.</p>
-                <p>I host at convenient and well-equipped private incall spaces in and around NYC 🗽 and Boston. 🏙️</p>
-                <p class="text-center"><img src="{% link images/gallery-originals/cityscape-window-red-and-black.jpg %}" alt="" /></p>
-                <p>While my candy coating comes in a couple flavors that help me seamlessly shape shift between a fun loving hippie at rave festival campgrounds to a smirking pool shark bending over the billiards table, on the inside I love nothing more than being your good girl, a shameless and free-spirited companion with whom it's easy to relax. Play your cards right and I would thoroughly enjoy being your:</p>
-                <ul>
-                    <li>sweet trans kitten,</li>
-                    <li>cyberpunk hentai succubus,</li>
-                    <li>eager bondage bunny,</li>
-                    <li>slutty degenerate girlfriend,</li>
-                    <li>sporty skater chic, or</li>
-                    <li>obedient good girl.</li>
-                </ul>
-                <p>I'm often rollerblading when in the city, or hiking when in the woods. In grade school I was that soft spoken, nerdy, bookish student reading STEM texts and sci-fi stories (one of my favorite genres). I'm drawn to the intimacy of sharing time together while gazing at skyline views from rooftop lounges just as much as to the thrill of making out in dark corners of the club, or even through the bars of a dungeon cage.</p>
-                <p>For sweeter cravings, I offer an oasis full of affection, connection, and intimate moments that will make you feel absolutely adored. Let's go to a beach and listen to the waves, get in cold water and then make each other hot, or sail into a sunset like lovers in a movie! Let's cuddle on a balcony and watch a cityscape sparkle in the sky, or go to a comedy show to laugh and get just this side of inappropriately drunk together. I love a fancy cocktail and white tablecloth dinner but I'll smile just as much at a dive bar bending over a pool table and making bets on trick shots, snuggling in the back of a movie theater, or goofing off in the kitchen, eating dinner by lady-and-the-tramp'ing our way through a home-cooked meal before enjoying bedroom desserts.</p>
-                <p>For spicier desires, I relish being a very, very good girl, the kind daddy (or mommy) can spank to make me better! If you're new to taking charge, I can tease out the dominance from you. It's a particular specialty of mine; I want to hear all about your kinks! I enjoy a very wide range of fetishes; see my <a href="#rates">Rates</a> for BDSM/kink considerations.</p>
-                <p>I'm the girl who purrs appreciately when she's pet, yet also cheerfully turns naughty when given the right commands. <a href="#contact" title="Contact me">Are you ready</a> for me to be your shape shifting vixen and compassionate companion?</p>
-                <p class="button-container">
-                    <a href="#gallery" class="button">Gallery</a>
-                    <a href="#rates" class="button">Rates &amp; Policies</a>
-                    <a href="#contact" class="button">Bookings</a>
-                </p>
-            </div>
-            <div>
-                <h2 id="tech-specs">Tech specs</h2>
-                <table>
-                    <tbody>
-                        <tr id="tech-spec-height">
-                            <th>
-                                Height
-                            </th>
-                            <td>
-                                5 feet, 7 inches (169cm)
-                            </td>
-                        </tr>
-                        <tr id="tech-spec-body-type">
-                            <th>
-                                Body type
-                            </th>
-                            <td>
-                                Athletic, toned
-                            </td>
-                        </tr>
-                        <tr id="tech-spec-cup-size">
-                            <th>Cup size</th>
-                            <td>AA</td>
-                        </tr>
-                        <tr id="tech-spec-sexual-orientation">
-                            <th>Sexual orientation</th>
-                            <td>Enthusiastically bisexual</td>
-                        </tr>
-                        <tr id="tech-spec-tattoos">
-                            <th>Tattoos</th>
-                            <td><span class="icon fa-solid fa-qrcode"></span> One</td>
-                        </tr>
-                        <tr id="tech-spec-piercings">
-                            <th>Piercings</th>
-                            <td>Ears, nipples</td>
-                        </tr>
-                        <tr id="tech-spec-languages">
-                            <th>Languages</th>
-                            <td>English, Hebrew, JavaScript, Shell 👩🏻‍💻</td>
-                        </tr>
-                        <tr id="tech-spec-home-cities">
-                            <th>Home cities</th>
-                            <td>
-                                <ul class="fa-ul">
-                                    <li><span class="fa-li fa-solid fa-city"></span>New York, NY, USA</li>
-                                    <li><span class="fa-li fa-solid fa-tree-city"></span>Boston, MA, USA</li>
-                                </ul>
-                                <a href="#contact">Inquire</a> about <acronym title="Fly-Me-To-You">FMTY</acronym> options.
-                            </td>
-                        </tr>
-                        <tr id="tech-spec-passport-ready">
-                            <th>Passport-ready</th>
-                            <td>Yes</td>
-                        </tr>
-                        <tr id="tech-spec-nda-ready">
-                            <th>NDA-ready</th>
-                            <td>Yes</td>
-                        </tr>
-                    </tbody>
-                    <tfoot></tfoot>
-                </table>
+<section id="rates" class="panel">
+    {% include panel-rates.html %}
+</section><!-- #rates -->
 
-                <div>
-                    <h2 id="all-my-links"><a href="#links">All My Links</a></h2>
-                    <p>Want to see more of me? Find and follow me online via <a href="#links">my Links page</a>.</p>
-                    <p class="text-center">
-                        <a href="#links" class="button">All my links</a>
-                    </p>
-                </div>
+<section id="contact" class="panel">
+    <div class="inner split">
+        <div>
+            <h2 id="booking-form">Booking Form</h2>
+            <p>Are you ready for me to be <a href="#about">your shape shifting vixen or kinky companion</a>?</p>
+            <ol>
+                <li>First, ensure you understand my <a href="#tours">availability</a>, <a href="#rates">rates</a>, and <a href="#policies">policies</a>.</li>
+                <li>Next, review <a href="#contact-dos-and-donts">my "do's and don'ts"</a> for making first contact.</li>
+                <li>Then <strong>complete the form below</strong> to help draft <a href="#contact-instructions">your first message to me</a>. (Or, if you're not a fan of filling forms, <a href="#connection-methods">compose a bespoke love note yourself</a>.)
+            </ol>
+            <form name="booking_inquiry_form" id="booking-inquiry-form" action="#" method="GET" class="row row-cols-lg-auto g-3 align-items-center">
+                <blockquote>
+                    <p>Hi, Violet.</p>
+                    <fieldset class="form-group"><legend>Please allow me to introduce myself.</legend>
+                        <p>
+                            <label for="booking-inquiry-prospect-name" class="form-label">My name is</label>
+                            <input type="text" class="form-input" id="booking-inquiry-prospect-name" name="booking_inquiry_prospect_name" required="required" placeholder="Write your name here" />.
 
-                <div>
-                    <p class="text-center"><img src="{% link images/gallery-originals/some-girls-have-heels.jpg %}" alt="" /></p>
-                    <p class="copyright">
-                        &copy; {{ site.author }}
-                    </p>
-                </div>
+                            <label for="booking-inquiry-prospect-preferred-contact-method" class="form-label">I prefer that we communicate using</label>
+                            <select name="booking_inquiry_prospect_preferred_contact_method" id="booking-inquiry-prospect-preferred-contact-method"
+                                class="form-select"
+                                required="required"
+                            >
+                                <option value="" disabled="disabled" selected="selected">Choose your preferred contact method</option>
+                                <option value="signal">Signal Private Messenger</option>
+                                <option value="whatsapp">WhatsApp</option>
+                                <option value="email">email</email>
+                                <option value="sms">SMS/text message</option>
+                            </select>.
+                        </p>
+                        <p>
+                        <label for="booking-inquiry-prospect-preferred-screening-method" class="form-label">I have read your <a href="#screening-options">screening requirements</a> and am comfortable being screened by sending you</label>
+                            <select name="booking_inquiry_prospect_preferred_screening_method" id="booking-inquiry-prospect-preferred-screening-method"
+                                class="form-select"
+                                required="required"
+                            >
+                                <option value="" disabled="disabled" selected="selected">Choose how you will verify yourself</option>
+                                <option>employment information</option>
+                                <option>my government-issued identity document</option>
+                                <option>a deposit for a social date at a public venue</option>
+                            </select>.
+                        </p>
+                    </fieldset>
 
-            </div>
+                    <fieldset class="form-group"><legend>I've been drawn to you since&hellip;</legend>
+                        <p>
+                            <label for="booking-inquiry-prospect-source-referral" class="form-label">I found your Web site via</label>
+                            <select name="booking_inquiry_prospect_source_referral" id="booking-inquiry-prospect-source-referral"
+                                class="form-select"
+                                required="required"
+                            >
+                                <option value="" disabled="disabled" selected="selected">Share where you first learned about me</option>
+                                <option>Bluesky</option>
+                                <option>Fansly</option>
+                                <option>ManyVids</option>
+                                <option>OnlyFans</option>
+                                <option>TER board/review</option>
+                                <option>TS4Rent</option>
+                                <option>Tryst</option>
+                                <option>X/Twitter</option>
+                                <option>a content collaboration I saw you in</option>
+                                <option>another provider</option>
+                                <option>directly from you (we've met!)</option>
+                                <option>search engine results</option>
+                                <option>word of mouth</option>
+                            </select>.
+                        </p>
+                        <p>
+                            <label for="booking-inquiry-prospect-attraction" class="form-label">I really like your&hellip;</label>
+                            <textarea name="booking_inquiry_prospect_attraction" id="booking-inquiry-prospect-attraction"
+
+                                class="form-input"
+                                placeholder="Photos? Vibe? Write what compelled you to book with me. Use a professional tone avoiding sexually explicit language."></textarea>
+                        </p>
+                    </fieldset>
+
+                    <fieldset class="form-group"><legend>I'm ready to plan a date!</legend>
+                        <p>
+                            <label for="booking-inquiry-prospect-call-type" class="form-label">May I reserve an</label>
+                            <select name="booking_inquiry_prospect_call_type" id="booking-inquiry-prospect-call-type"
+                                class="form-select"
+                                required="required"
+                                aria-label="Booking call type (incall or outcall)"
+                            >
+                                <option value="" disabled="disabled" selected="selected">Choose INCALL or OUTCALL</option>
+                                <option value="incall">incall (provider hosts)</option>
+                                <option value="outcall">outcall (client hosts)</option>
+                            </select>
+
+                            <label for="booking-inquiry-prospect-duration" class="form-label">for a duration of</label>
+                            <input type="number" name="booking_inquiry_prospect_duration" id="booking-inquiry-prospect-duration" class="form-input" value="" min="1" max="14" step=".5" required="required" placeholder="#"> hour(s)
+
+                            <label for="booking-inquiry-prospect-location" class="form-label">when I will be in</label>
+                            <input type="text" name="booking_inquiry_prospect_location" id="booking-inquiry-prospect-location"
+                            class="form-input" placeholder="Anytown, USA" required="required" />
+
+                            <label for="booking-inquiry-prospect-preferred-datetime" class="form-label">on</label>
+                            <input type="datetime-local" class="form-input"
+                                name="booking_inquiry_prospect_preferred_datetime"
+                                id="booking-inquiry-prospect-preferred-datetime"
+                                min="{{ "now" | date: "%Y-%m-%dT00:00" }}"
+                                required="required"
+                            />
+
+                            <label for="booking-inquiry-prospect-alternate-datetime" class="form-label">or, alternatively, on</label>
+                            <input type="datetime-local" class="form-input"
+                                name="booking_inquiry_prospect_alternate_datetime"
+                                id="booking-inquiry-prospect-alternate-datetime"
+                                min="{{ "now" | date: "%Y-%m-%dT00:00" }}"
+                                required="required"
+                            />.
+                            Would either of these options allow us to meet?
+                        </p>
+                    </fieldset>
+                    <fieldset><legend>I'm excited to hear from you!</legend>
+                        <p>
+                            <input type="checkbox" class="form-check-input" name="booking_inquiry_confirmed_fine_print" id="booking-inquiry-confirmed-fine-print" value="yes" required="required" />
+                            <label for="booking-inquiry-confirmed-fine-print">I have read and understood the information on your Web site, including your <a href="#rates">rates, policies</a>, and <a href="#tours">availability</a>.</label>
+                        </p>
+
+                        <p class="button-container">
+                            <button type="reset">1. Copy inquiry to clipboard</button>
+                            <button type="submit">2. Send inquiry</button>
+                        </p>
+                    </fieldset>
+                </blockquote>
+            </form>
         </div>
-    </section><!-- #about -->
+        <div>
+            <h2 id="connection-methods">Connection Methods</h2>
+            <p>I can be reached directly via any of the following channels. I strongly prefer messaging over <a href="{% include signal-booking.url %}">Signal Private Messenger</a>. <small>(Bookings made via Signal Private Messenger earn you a $40 USD discount as a thank you for helping to protect your privacy and mine.)</small></p>
+            <p>Otherwise, you may also contact me using <a href="{% include whatsapp-booking.url %}">WhatsApp</a> or via <a href="{% include mailto-booking.url %}">email addressed to <code>{{ site.contact.email }}</code></a>, and finally by <a href="{% include sms-booking.url %}">text/SMS to {{ site.contact.sms }}</a> if necessary.</p>
+            <p>How would you like to book? Tap the icon to choose:</p>
+            <ul class="icons text-center">
+                <li style="display: inline-block; padding-right: 1em;">
+                    <a id="signal-contact-link" class="icon fa-brands fa-signal-messenger fa-5x" href="{% include signal-booking.url %}" title="Signal">
+                        <!--<span class="label">Signal Private Messenger</label>-->
+                    </a>
+                </li>
+                <li style="display: inline-block; padding-right: 1em;">
+                    <a id="whatsapp-contact-link" class="icon fa-whatsapp fa-5x" href="{% include whatsapp-booking.url %}" title="WhatsApp">
+                        <!--<span class="label">WhatsApp</label>-->
+                    </a>
+                </li>
+                <li style="display: inline-block; padding-right: 1em;">
+                    <a id="email-contact-link" class="icon fa-envelope fa-5x" href="{% include mailto-booking.url %}" title="Email">
+                        <!--<span class="label">Email</label>-->
+                    </a>
+                </li>
+                <li style="display: inline-block;">
+                    <a id="sms-contact-link" class="icon fa-comment-sms fa-5x" href="{% include sms-booking.url %}" title="Text/SMS">
+                        <!--<span class="label">Text/SMS</label>-->
+                    </a>
+                </li>
+            </ul>
+            <p>Please be patient as <strong>it may take several days for me to reply.</strong> In the meantime, explore the <a href="https://goodclientguide.com/" target="_blank">Good Client Guide</a> for more helpful advice about how to prepare for your date with a provider like me, or have a look at some of <a href="#friends">my hot friends</a>.</p>
+            <p class="text-center"><img src="{% link images/gallery-originals/stay-warm-on-a-snowy-day.jpg %}" alt="" /></p>
+        </div>
+    </div><!-- .inner.split -->
+    <div class="inner split">
+        <div>
+            <h2 id="contact-instructions">In your first message</h2>
+            <p><a href="#booking-form">My booking form</a> can help you write a message with all the information I need. When writing me, always include:</p>
+            <ul class="fa-ul">
+                <li><span class="fa-li fa-solid fa-signature"></span>Your preferred name.</li>
+                <li><span class="fa-li fa-solid fa-calendar"></span>When you're hoping to see me; supply <em>both</em> a preferred and an alternate date and time.</li>
+                <li><span class="fa-li fa-solid fa-hourglass"></span>How long you'd like to see me for. See my <a href="#rates">rates</a> for helpful guidance in selecting a duration.</li>
+                <li><span class="fa-li fa-solid fa-map"></span>Where you want to meet: my place/"incall," your place/"outcall," or a venue for a social date/meet and greet. Look up <a href="#tours">my travel dates</a> if you're not sure where I'll be.</li>
+                <li><span class="fa-li fa-solid fa-id-card"></span>If this is our first contact, choose a <a href="#screening-options">screening method</a> you're comfortable using. Screening is easy and mandatory.</li>
+            </ul>
+            <p class="text-center"><img src="{% link images/gallery-originals/pool-table-orange-and-black.jpg %}" alt="" /></p>
+        </div>
+        <div>
+            <h2 id="contact-dos-and-donts">Do's and don'ts</h2>
+            <p>Please reach out without fear of your gender, race, ethnicity, size, or religion. I respond best to respectful inquiries from individuals or couples who are fueled by my energy, are hungry for intimacy, or eager to shed lingering shames.</p>
+            <p>When writing me, please:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>do&hellip;</th>
+                        <th>do not&hellip;</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <span class="icon fa-solid fa-clipboard-list"></span> include <em>all</em> the <a href="#contact-instructions">information I require of you</a> to schedule your booking in your very <em>first</em> message</a>.
+                        </td>
+                        <td>
+                            <span class="icon fa-solid fa-clipboard-question"></span> write only &ldquo;hey,&rdquo; or omit any of the requested information. If you're wondering why I'm not replying, it&rsquo;s most likely because you didn't include something I asked you for. If you're not sure what to write, <a href="#booking-inquiry-form">fill in my booking inquiry form</a> to draft a complete first message to me.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="icon fa-solid fa-heart"></span> mention any specific needs, desires, or concerns you have in a respectful, professional tone.
+                        </td>
+                        <td>
+                            <span class="icon fa-solid fa-heart-crack"></span> use sexually explicit language.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="icon fa-solid fa-person"></span> speak only for yourself, even if you are part of a couple or group; each member of your party must contact me individually so I know everyone is on the same page and consenting.
+                        </td>
+                        <td>
+                            <span class="icon fa-solid fa-people-group"></span> speak for anyone other than yourself in your party if you are part of a couple or group.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="fa-stack">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <span class="fa fa-stack-1x fa-inverse fa-plus18"></span>
+                            </span> be past the age of majority, usually eighteen years of age or older. I only ever see people who are legally considered adults.
+                        </td>
+                        <td>
+                            <span class="fa-stack">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <span class="fa fa-stack-1x fa-inverse fa-minus18"></span>
+                            </span> under any circumstances, ever contact me if you are or on behalf of a minor. I will cease correspondence with you immediately upon learning that a minor is in any way involved.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>Explore the <a href="https://goodclientguide.com/" target="_blank">Good Client Guide</a> for more communication tips and generally useful information.</p>
+        </div>
+        <div>
+            <h2 id="screening-options">Screening options</h2>
+            <p>If we're not yet acquainted, such as when you're <a href="#contact-instructions">writing to me for the first time</a>, you'll need to complete my lightweight screening process. I treat your information with the utmost confidentiality, as discretion and screening helps assure our mutual safety and comfort.</p>
+            <p>You can successfully screen by completing any <em>one</em> of the following requirements:</p>
+            <ul class="fa-ul">
+                <li><span class="fa-li fa-solid fa-image-portrait"></span>attaching a selfie plus a LinkedIn profile link plus a real phone number (not a texting app or burner/<abbr title="Voice over Internet Protocol">VoIP</abbr> number) to the message you send when you contact me, <em>or</em></li>
+                <li><span class="fa-li fa-solid fa-id-card"></span>attaching a selfie of yourself holding a valid government-issued photo ID card to the message you send when you contact me, <em>or</em></li>
+                <li><span class="fa-li fa-solid fa-handshake"></span>scheduling and sending a deposit for a meet-and-greet/social-only date (at <a href="#rate-add-ons-and-online-social-only-date">my social rate</a>) where we will physically meet in a public venue.</li>
+            </ul>
+            <p>I consider messages that lack screening information to be incomplete. I may not reply to them. If you need help writing an inquiry, <a href="#booking-form">use my booking form</a> to draft a completed one. I'm looking forward to hearing from you!</p>
+            <p class="text-center">
+                <a href="#booking-inquiry-form" class="button"><span class="icon fa-solid fa-pen-nib"></span> Booking Form</a>
+            </p>
+        </div>
+    </div><!-- .inner.split -->
+</section><!-- #contact -->
 
-    <section id="rates" class="panel">
-        {% include panel-rates.html %}
-    </section><!-- #rates -->
+<section id="tours" class="panel">
+    {% include panel-tours.html %}
+</section>
 
-    <section id="contact" class="panel">
-        <div class="inner split">
-            <div>
-                <h2 id="booking-form">Booking Form</h2>
-                <p>Are you ready for me to be <a href="#about">your shape shifting vixen or kinky companion</a>?</p>
-                <ol>
-                    <li>First, ensure you understand my <a href="#tours">availability</a>, <a href="#rates">rates</a>, and <a href="#policies">policies</a>.</li>
-                    <li>Next, review <a href="#contact-dos-and-donts">my "do's and don'ts"</a> for making first contact.</li>
-                    <li>Then <strong>complete the form below</strong> to help draft <a href="#contact-instructions">your first message to me</a>. (Or, if you're not a fan of filling forms, <a href="#connection-methods">compose a bespoke love note yourself</a>.)
-                </ol>
-                <form name="booking_inquiry_form" id="booking-inquiry-form" action="#" method="GET" class="row row-cols-lg-auto g-3 align-items-center">
-                    <blockquote>
-                        <p>Hi, Violet.</p>
-                        <fieldset class="form-group"><legend>Please allow me to introduce myself.</legend>
-                            <p>
-                                <label for="booking-inquiry-prospect-name" class="form-label">My name is</label>
-                                <input type="text" class="form-input" id="booking-inquiry-prospect-name" name="booking_inquiry_prospect_name" required="required" placeholder="Write your name here" />.
+<section id="links" class="panel">
+    {% include panel-links.html %}
+</section>
 
-                                <label for="booking-inquiry-prospect-preferred-contact-method" class="form-label">I prefer that we communicate using</label>
-                                <select name="booking_inquiry_prospect_preferred_contact_method" id="booking-inquiry-prospect-preferred-contact-method"
-                                    class="form-select"
-                                    required="required"
-                                >
-                                    <option value="" disabled="disabled" selected="selected">Choose your preferred contact method</option>
-                                    <option value="signal">Signal Private Messenger</option>
-                                    <option value="whatsapp">WhatsApp</option>
-                                    <option value="email">email</email>
-                                    <option value="sms">SMS/text message</option>
-                                </select>.
-                            </p>
-                            <p>
-                            <label for="booking-inquiry-prospect-preferred-screening-method" class="form-label">I have read your <a href="#screening-options">screening requirements</a> and am comfortable being screened by sending you</label>
-                                <select name="booking_inquiry_prospect_preferred_screening_method" id="booking-inquiry-prospect-preferred-screening-method"
-                                    class="form-select"
-                                    required="required"
-                                >
-                                    <option value="" disabled="disabled" selected="selected">Choose how you will verify yourself</option>
-                                    <option>employment information</option>
-                                    <option>my government-issued identity document</option>
-                                    <option>a deposit for a social date at a public venue</option>
-                                </select>.
-                            </p>
-                        </fieldset>
+<section id="faq" class="panel">
+    {% include panel-faq.html %}
+</section>
 
-                        <fieldset class="form-group"><legend>I've been drawn to you since&hellip;</legend>
-                            <p>
-                                <label for="booking-inquiry-prospect-source-referral" class="form-label">I found your Web site via</label>
-                                <select name="booking_inquiry_prospect_source_referral" id="booking-inquiry-prospect-source-referral"
-                                    class="form-select"
-                                    required="required"
-                                >
-                                    <option value="" disabled="disabled" selected="selected">Share where you first learned about me</option>
-                                    <option>Bluesky</option>
-                                    <option>Fansly</option>
-                                    <option>ManyVids</option>
-                                    <option>OnlyFans</option>
-                                    <option>TER board/review</option>
-                                    <option>TS4Rent</option>
-                                    <option>Tryst</option>
-                                    <option>X/Twitter</option>
-                                    <option>a content collaboration I saw you in</option>
-                                    <option>another provider</option>
-                                    <option>directly from you (we've met!)</option>
-                                    <option>search engine results</option>
-                                    <option>word of mouth</option>
-                                </select>.
-                            </p>
-                            <p>
-                                <label for="booking-inquiry-prospect-attraction" class="form-label">I really like your&hellip;</label>
-                                <textarea name="booking_inquiry_prospect_attraction" id="booking-inquiry-prospect-attraction"
-
-                                    class="form-input"
-                                    placeholder="Photos? Vibe? Write what compelled you to book with me. Use a professional tone avoiding sexually explicit language."></textarea>
-                            </p>
-                        </fieldset>
-
-                        <fieldset class="form-group"><legend>I'm ready to plan a date!</legend>
-                            <p>
-                                <label for="booking-inquiry-prospect-call-type" class="form-label">May I reserve an</label>
-                                <select name="booking_inquiry_prospect_call_type" id="booking-inquiry-prospect-call-type"
-                                    class="form-select"
-                                    required="required"
-                                    aria-label="Booking call type (incall or outcall)"
-                                >
-                                    <option value="" disabled="disabled" selected="selected">Choose INCALL or OUTCALL</option>
-                                    <option value="incall">incall (provider hosts)</option>
-                                    <option value="outcall">outcall (client hosts)</option>
-                                </select>
-
-                                <label for="booking-inquiry-prospect-duration" class="form-label">for a duration of</label>
-                                <input type="number" name="booking_inquiry_prospect_duration" id="booking-inquiry-prospect-duration" class="form-input" value="" min="1" max="14" step=".5" required="required" placeholder="#"> hour(s)
-
-                                <label for="booking-inquiry-prospect-location" class="form-label">when I will be in</label>
-                                <input type="text" name="booking_inquiry_prospect_location" id="booking-inquiry-prospect-location"
-                                class="form-input" placeholder="Anytown, USA" required="required" />
-
-                                <label for="booking-inquiry-prospect-preferred-datetime" class="form-label">on</label>
-                                <input type="datetime-local" class="form-input"
-                                    name="booking_inquiry_prospect_preferred_datetime"
-                                    id="booking-inquiry-prospect-preferred-datetime"
-                                    min="{{ "now" | date: "%Y-%m-%dT00:00" }}"
-                                    required="required"
-                                />
-
-                                <label for="booking-inquiry-prospect-alternate-datetime" class="form-label">or, alternatively, on</label>
-                                <input type="datetime-local" class="form-input"
-                                    name="booking_inquiry_prospect_alternate_datetime"
-                                    id="booking-inquiry-prospect-alternate-datetime"
-                                    min="{{ "now" | date: "%Y-%m-%dT00:00" }}"
-                                    required="required"
-                                />.
-                                Would either of these options allow us to meet?
-                            </p>
-                        </fieldset>
-                        <fieldset><legend>I'm excited to hear from you!</legend>
-                            <p>
-                                <input type="checkbox" class="form-check-input" name="booking_inquiry_confirmed_fine_print" id="booking-inquiry-confirmed-fine-print" value="yes" required="required" />
-                                <label for="booking-inquiry-confirmed-fine-print">I have read and understood the information on your Web site, including your <a href="#rates">rates, policies</a>, and <a href="#tours">availability</a>.</label>
-                            </p>
-
-                            <p class="button-container">
-                                <button type="reset">1. Copy inquiry to clipboard</button>
-                                <button type="submit">2. Send inquiry</button>
-                            </p>
-                        </fieldset>
-                    </blockquote>
-                </form>
-            </div>
-            <div>
-                <h2 id="connection-methods">Connection Methods</h2>
-                <p>I can be reached directly via any of the following channels. I strongly prefer messaging over <a href="{% include signal-booking.url %}">Signal Private Messenger</a>. <small>(Bookings made via Signal Private Messenger earn you a $40 USD discount as a thank you for helping to protect your privacy and mine.)</small></p>
-                <p>Otherwise, you may also contact me using <a href="{% include whatsapp-booking.url %}">WhatsApp</a> or via <a href="{% include mailto-booking.url %}">email addressed to <code>{{ site.contact.email }}</code></a>, and finally by <a href="{% include sms-booking.url %}">text/SMS to {{ site.contact.sms }}</a> if necessary.</p>
-                <p>How would you like to book? Tap the icon to choose:</p>
-                <ul class="icons text-center">
-                    <li style="display: inline-block; padding-right: 1em;">
-                        <a id="signal-contact-link" class="icon fa-brands fa-signal-messenger fa-5x" href="{% include signal-booking.url %}" title="Signal">
-                            <!--<span class="label">Signal Private Messenger</label>-->
-                        </a>
-                    </li>
-                    <li style="display: inline-block; padding-right: 1em;">
-                        <a id="whatsapp-contact-link" class="icon fa-whatsapp fa-5x" href="{% include whatsapp-booking.url %}" title="WhatsApp">
-                            <!--<span class="label">WhatsApp</label>-->
-                        </a>
-                    </li>
-                    <li style="display: inline-block; padding-right: 1em;">
-                        <a id="email-contact-link" class="icon fa-envelope fa-5x" href="{% include mailto-booking.url %}" title="Email">
-                            <!--<span class="label">Email</label>-->
-                        </a>
-                    </li>
-                    <li style="display: inline-block;">
-                        <a id="sms-contact-link" class="icon fa-comment-sms fa-5x" href="{% include sms-booking.url %}" title="Text/SMS">
-                            <!--<span class="label">Text/SMS</label>-->
-                        </a>
-                    </li>
-                </ul>
-                <p>Please be patient as <strong>it may take several days for me to reply.</strong> In the meantime, explore the <a href="https://goodclientguide.com/" target="_blank">Good Client Guide</a> for more helpful advice about how to prepare for your date with a provider like me, or have a look at some of <a href="#friends">my hot friends</a>.</p>
-                <p class="text-center"><img src="{% link images/gallery-originals/stay-warm-on-a-snowy-day.jpg %}" alt="" /></p>
-            </div>
-        </div><!-- .inner.split -->
-        <div class="inner split">
-            <div>
-                <h2 id="contact-instructions">In your first message</h2>
-                <p><a href="#booking-form">My booking form</a> can help you write a message with all the information I need. When writing me, always include:</p>
-                <ul class="fa-ul">
-                    <li><span class="fa-li fa-solid fa-signature"></span>Your preferred name.</li>
-                    <li><span class="fa-li fa-solid fa-calendar"></span>When you're hoping to see me; supply <em>both</em> a preferred and an alternate date and time.</li>
-                    <li><span class="fa-li fa-solid fa-hourglass"></span>How long you'd like to see me for. See my <a href="#rates">rates</a> for helpful guidance in selecting a duration.</li>
-                    <li><span class="fa-li fa-solid fa-map"></span>Where you want to meet: my place/"incall," your place/"outcall," or a venue for a social date/meet and greet. Look up <a href="#tours">my travel dates</a> if you're not sure where I'll be.</li>
-                    <li><span class="fa-li fa-solid fa-id-card"></span>If this is our first contact, choose a <a href="#screening-options">screening method</a> you're comfortable using. Screening is easy and mandatory.</li>
-                </ul>
-                <p class="text-center"><img src="{% link images/gallery-originals/pool-table-orange-and-black.jpg %}" alt="" /></p>
-            </div>
-            <div>
-                <h2 id="contact-dos-and-donts">Do's and don'ts</h2>
-                <p>Please reach out without fear of your gender, race, ethnicity, size, or religion. I respond best to respectful inquiries from individuals or couples who are fueled by my energy, are hungry for intimacy, or eager to shed lingering shames.</p>
-                <p>When writing me, please:</p>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>do&hellip;</th>
-                            <th>do not&hellip;</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>
-                                <span class="icon fa-solid fa-clipboard-list"></span> include <em>all</em> the <a href="#contact-instructions">information I require of you</a> to schedule your booking in your very <em>first</em> message</a>.
-                            </td>
-                            <td>
-                                <span class="icon fa-solid fa-clipboard-question"></span> write only &ldquo;hey,&rdquo; or omit any of the requested information. If you're wondering why I'm not replying, it&rsquo;s most likely because you didn't include something I asked you for. If you're not sure what to write, <a href="#booking-inquiry-form">fill in my booking inquiry form</a> to draft a complete first message to me.
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <span class="icon fa-solid fa-heart"></span> mention any specific needs, desires, or concerns you have in a respectful, professional tone.
-                            </td>
-                            <td>
-                                <span class="icon fa-solid fa-heart-crack"></span> use sexually explicit language.
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <span class="icon fa-solid fa-person"></span> speak only for yourself, even if you are part of a couple or group; each member of your party must contact me individually so I know everyone is on the same page and consenting.
-                            </td>
-                            <td>
-                                <span class="icon fa-solid fa-people-group"></span> speak for anyone other than yourself in your party if you are part of a couple or group.
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <span class="fa-stack">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <span class="fa fa-stack-1x fa-inverse fa-plus18"></span>
-                                </span> be past the age of majority, usually eighteen years of age or older. I only ever see people who are legally considered adults.
-                            </td>
-                            <td>
-                                <span class="fa-stack">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <span class="fa fa-stack-1x fa-inverse fa-minus18"></span>
-                                </span> under any circumstances, ever contact me if you are or on behalf of a minor. I will cease correspondence with you immediately upon learning that a minor is in any way involved.
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-                <p>Explore the <a href="https://goodclientguide.com/" target="_blank">Good Client Guide</a> for more communication tips and generally useful information.</p>
-            </div>
-            <div>
-                <h2 id="screening-options">Screening options</h2>
-                <p>If we're not yet acquainted, such as when you're <a href="#contact-instructions">writing to me for the first time</a>, you'll need to complete my lightweight screening process. I treat your information with the utmost confidentiality, as discretion and screening helps assure our mutual safety and comfort.</p>
-                <p>You can successfully screen by completing any <em>one</em> of the following requirements:</p>
-                <ul class="fa-ul">
-                    <li><span class="fa-li fa-solid fa-image-portrait"></span>attaching a selfie plus a LinkedIn profile link plus a real phone number (not a texting app or burner/<abbr title="Voice over Internet Protocol">VoIP</abbr> number) to the message you send when you contact me, <em>or</em></li>
-                    <li><span class="fa-li fa-solid fa-id-card"></span>attaching a selfie of yourself holding a valid government-issued photo ID card to the message you send when you contact me, <em>or</em></li>
-                    <li><span class="fa-li fa-solid fa-handshake"></span>scheduling and sending a deposit for a meet-and-greet/social-only date (at <a href="#rate-add-ons-and-online-social-only-date">my social rate</a>) where we will physically meet in a public venue.</li>
-                </ul>
-                <p>I consider messages that lack screening information to be incomplete. I may not reply to them. If you need help writing an inquiry, <a href="#booking-form">use my booking form</a> to draft a completed one. I'm looking forward to hearing from you!</p>
-                <p class="text-center">
-                    <a href="#booking-inquiry-form" class="button"><span class="icon fa-solid fa-pen-nib"></span> Booking Form</a>
-                </p>
-            </div>
-        </div><!-- .inner.split -->
-    </section><!-- #contact -->
-
-    <section id="tours" class="panel">
-        {% include panel-tours.html %}
-    </section>
-
-    <section id="links" class="panel">
-        {% include panel-links.html %}
-    </section>
-
-    <section id="faq" class="panel">
-        {% include panel-faq.html %}
-    </section>
-
-    <section id="friends" class="panel">
-        {% include panel-friends.html %}
-    </section>
-
-</div><!-- #wrapper -->
+<section id="friends" class="panel">
+    {% include panel-friends.html %}
+</section>
