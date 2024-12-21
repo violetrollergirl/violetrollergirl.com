@@ -7,4 +7,4 @@ I religiously maintain <a href="#tours">my public travel calendar</a>, which wil
 {% include availability-minimums.html %}
 
 {:.button-container}
-[View Rates](#rates){:.button} [Booking Form](#contact){:.button}
+[<span class="icon fa-solid fa-coins"></span> View Rates](#rates){:.button} [<span class="icon fa-solid fa-pen-nib"></span> Booking Form](#contact){:.button}
