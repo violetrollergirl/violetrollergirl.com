@@ -1,5 +1,5 @@
 {% comment %}
-Content for the "FAQ" Panel.
+Content for the "FAQ"/Q&amp;A Panel.
 {% endcomment %}
 
 {% assign faqs = site.faq | where_exp: "item", "item.publish != false" | sort: "name" %}
