@@ -92,6 +92,9 @@
 
 - name: Pro-submissive/BDSM full service
   id: pro-sub-bdsm
+  image:
+    src: images/gallery-originals/bdsm-wall-from-below.jpg
+    alt:
   items:
     - name: 1 hour
       rate: 600

@@ -37,6 +37,9 @@
                 {% endfor %}
             </tbody>
         </table>
+        {% if menu.image %}
+        <p><img src="{{ menu.image.src }}" alt="menu.image.alt" /></p>
+        {% endif %}
     </div>
     {% endfor %}
 </div>
