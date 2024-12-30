@@ -45,6 +45,14 @@ acronym {
     background: #34a58e;
     color: #fff !important;
 }
+#navpanel span.icon {
+    display: block;
+}
+#navpanel a::after {
+    display: block;
+    content: "(" attr(title) ")";
+    font-size: x-small;
+}
 #rates details {
     font-size: smaller;
     text-align: left;
