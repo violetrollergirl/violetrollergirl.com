@@ -160,3 +160,10 @@ ul.icons .icon.fa-2x img {
     border-radius: 0;
     box-shadow: none;
 }
+#google-calendar-appointment-booking-form {
+    display: none;
+    padding-right: 10px;
+}
+#google-calendar-appointment-booking-form:target {
+    display: block;
+}
