@@ -1,0 +1,56 @@
+# Links and social URLs, for the "Links" panel.
+---
+- group_name: Tip me
+  items:
+  - label: CashApp
+    title: CashApp
+    icon: dollar-sign
+    url: https://cash.app/$VioletRollergirl
+
+- group_name: Socials &amp; Content
+  items:
+  - label: Bluesky
+    title: Bluesky
+    icon: bluesky
+    url: https://bsky.app/profile/violetrollergirl.com
+  - label: OnlyFans
+    title: OnlyFans
+    svg: images/logo.onlyfans.svg
+    url: https://onlyfans.com/violetrollergirl
+  - label: Fansly
+    title: Fansly
+    svg: images/logo.fansly.svg
+    url: https://fansly.com/violetrollergirl
+  - label: ManyVids
+    title: ManyVids
+    svg: images/logo.manyvids-heart.svg
+    url: https://violetrollergirl.manyvids.com/
+
+- group_name: Ad listings
+  items:
+  - label: Tryst
+    title: Tryst
+    svg: images/logo.tryst.svg
+    show_label: false
+    url: https://violetrollergirl.tryst.link/
+  - label: TS4Rent
+    title: TS4Rent
+    svg: images/logo.ts4r.svg
+    show_label: false
+    url: https://ts4rent.eu/violetrollergirl
+  - label: "TER ID: 401195"
+    title: The Erotic Review
+    svg: images/logo.the-erotic-review.svg
+    url: https://www.theeroticreview.com/reviews/show.asp?id=401195
+
+- group_name: Even more
+  items:
+  - label: Wishlist
+    title: Throne
+    icon: gift
+    url: https://throne.com/violetrollergirl
+  - label: Additional health and safety guide (requires <a href="https://torproject.org/">Tor Browser</a>)
+    title: In-person info
+    icon: shield-halved
+    url: http://ylyznmvgswureorc3tzc555trtjdtzgvkfjba5xkkkqcun55q3ny3yqd.onion/
+

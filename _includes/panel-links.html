@@ -2,15 +2,22 @@
 Content for the "Links" Panel.
 {% endcomment %}
 <div class="inner split">
-    {% for group in site.social_urls %}
+    {% for group in site.data.social_urls %}
     <div class="text-center">
         <h2>{{ group.group_name }}</h2>
         <ul class="icons">
             {% for item in group.items %}
             <li>
+                {% if item.icon %}
                 <a target="_blank" href="{{ item.url }}" class="icon fa-2x fa-{{ item.icon | downcase }}" title="{{ item.title }}">
                     <span class="label">{{ item.label }}</span>
                 </a>
+                {% elsif item.svg %}
+                <a target="_blank" href="{{ item.url }}" class="icon fa-2x">
+                    <img src="{{ item.svg }}" alt="{{ item.title }}" />
+                    <span class="label">{{ item.label }}</span>
+                </a>
+                {% endif %}
             </li>
             {% endfor %}
         </ul>
