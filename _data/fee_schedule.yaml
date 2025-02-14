@@ -11,6 +11,12 @@
         * Rate shown is per hour.
         * Booking a social-only date can also serve as your [(pre-)screening option](#screening-options).
         * Does not include transportation or activity cost.
+    - name: Screening call and deposit (10 minutes)
+      rate: 50
+      details: |-
+        Friendly, casual audio call to help you decide whether you'd like to book an in-person session, prepare for our date by chatting, discussing any logistics, or simply to quell any concerns.
+
+        * Price of the call can be applied towards your deposit if you book within one (1) month.
     - name: Custom photo
       rate: 20
       details: |-
@@ -22,12 +28,6 @@
       rate: 40
       details: |-
         Perfect for dipping one's toe into what our unique chemistry is like.
-    - name: Introductory phone call (30 minutes)
-      rate: 50
-      details: |-
-        Friendly, casual audio call to help you decide whether you'd like to book an in-person session, prepare for our date by chatting, discussing any logistics, or simply to quell any concerns.
-
-        * Price of the call can be applied towards your deposit if you book within one (1) month.
     - name: Video date
       rate: 150
       details: |-
@@ -97,6 +97,7 @@
     alt:
   items:
     - name: 1 hour
+      duration_in_hours: 1
       rate: 600
       details: |-
         Make me vulnerable, watch me bruise.
@@ -106,11 +107,13 @@
         * Discounted rates available for longer bookings as shown.
         * Does not include incall fee or transportation cost.
     - name: 2 hours
+      duration_in_hours: 2
       rate: "1,000"
       details: |-
         * 16.7% off
         * Recommended minimum.
     - name: 3 hours
+      duration_in_hours: 3
       rate: "1,440"
       details: |-
         * 20% off

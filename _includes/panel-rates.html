@@ -23,7 +23,9 @@
                 <tr id="rate-{{ menu.id | slugify }}-{{ item.name | slugify }}">
                     <th>
                         {{ item.name }}
-                        {% if item.duration_in_hours %}<a href="#contact" data-booking-inquiry-prospect-duration="1">Book Now</a>
+                        {% if item.duration_in_hours %}<a href="#contact"
+                            data-booking-inquiry-prospect-service-type="{% if "GFE/vanilla full service" == menu.name %}GFE/vanilla services{% else %}pro-sub/BDSM services{% endif %}"
+                            data-booking-inquiry-prospect-duration="{{ item.duration_in_hours }}">Book Now</a>
                         {% endif %}
                     </th>
                     <td>

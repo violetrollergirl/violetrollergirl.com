@@ -156,6 +156,9 @@ layout: none
             $('#booking-inquiry-prospect-duration').val(
                 $(this).data('booking-inquiry-prospect-duration')
             );
+            $('#booking-inquiry-prospect-service-type').val(
+                $(this).data('booking-inquiry-prospect-service-type')
+            );
         });
 
         // Booking form.
@@ -186,7 +189,7 @@ Please allow me to introduce myself. My name is ${inquiryData.booking_inquiry_pr
 
 I've been drawn to you since I found your website via ${inquiryData.booking_inquiry_prospect_source_referral}. I really like your ${inquiryData.booking_inquiry_prospect_attraction}
 
-I'm ready to plan a date! May I reserve your time for ${inquiryData.booking_inquiry_prospect_call_type} for a duration of ${inquiryData.booking_inquiry_prospect_duration} hours when I will be in ${inquiryData.booking_inquiry_prospect_location} on ${new Date(inquiryData.booking_inquiry_prospect_preferred_datetime)}, or alternatively, on ${new Date(inquiryData.booking_inquiry_prospect_alternate_datetime)}. Would either of these options allow us to meet?
+I'm ready to plan a date! May I reserve your time for ${inquiryData.booking_inquiry_prospect_call_type} for your ${inquiryData.booking_inquiry_prospect_service_type} for a duration of ${inquiryData.booking_inquiry_prospect_duration} hours when I will be in ${inquiryData.booking_inquiry_prospect_location} on ${new Date(inquiryData.booking_inquiry_prospect_preferred_datetime)}, or alternatively, on ${new Date(inquiryData.booking_inquiry_prospect_alternate_datetime)}. Would either of these options allow us to meet?
 
 I'm excited to hear from you!
 
