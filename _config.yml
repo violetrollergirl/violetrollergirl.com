@@ -33,6 +33,10 @@ defaults:
       path: "images/gallery/fulls/020-cyberpunk-kneeling-bondage-wall-Violet-Rollergirl-9108_124341~2.jpg"
     values:
       position: top
+  - scope:
+      type: posts
+    values:
+      layout: post
 
 collections:
   faq:

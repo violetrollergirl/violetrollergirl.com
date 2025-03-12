@@ -1,12 +1,51 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    {% include header.html %}
+    {% include head.html %}
 </head>
 <body>
 <div id="wrapper">
+{% include header.html %}
+
+<main id="main" data-exif='{{ site.exif }}'>
+    {% include gallery.html %}
+</main>
+
 {{ content }}
-</div>
+
+<section id="navpanel" class="panel">
+    {% include main-navpanel.html %}
+</section>
+
+<section id="about" class="panel">
+    {% include panel-about.html %}
+</section>
+
+<section id="rates" class="panel">
+    {% include panel-rates.html %}
+</section>
+
+<section id="contact" class="panel">
+    {% include panel-contact.html %}
+</section>
+
+<section id="tours" class="panel">
+    {% include panel-tours.html %}
+</section>
+
+<section id="links" class="panel">
+    {% include panel-links.html %}
+</section>
+
+<section id="faq" class="panel">
+    {% include panel-faq.html %}
+</section>
+
+<section id="friends" class="panel">
+    {% include panel-friends.html %}
+</section>
+
+</div><!-- #wrapper -->
 {% include footer.html %}
 </body>
 </html>
