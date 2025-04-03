@@ -21,8 +21,9 @@ booking:
   template: "" # TODO: A more complete text template.
 contact:
   email: violetrollergirl@protonmail.com
+  signal: https://signal.me/#eu/hXeV89EMDRGessR7BjUl9x0sRr4XA6LoQ_I9YIT--TRduWmPwy9H7bPWLFx6M6xw
   sms: "+13473157531"
-  whatsapp: "+16467296205"
+  whatsapp: "+19174407408"
 
 defaults:
   - scope:
