@@ -4,20 +4,21 @@ Content for the "Links" Panel.
 <div class="inner split">
     {% for group in site.data.social_urls %}
     <div class="text-center">
-        <h2>{{ group.group_name }}</h2>
+        <h2 id="links-{{ group.group_name | slugify }}">{{ group.group_name }}</h2>
         <ul class="icons">
             {% for item in group.items %}
-            <li>
+            <li id="links-{{ item.title | slugify }}">
                 {% if item.icon %}
                 <a target="_blank" href="{{ item.url }}" class="icon fa-2x fa-{{ item.icon | downcase }}" title="{{ item.title }}">
                     <span class="label">{{ item.label }}</span>
                 </a>
                 {% elsif item.svg %}
                 <a target="_blank" href="{{ item.url }}" class="icon fa-2x">
-                    <img src="{{ item.svg }}" alt="{{ item.title }}" />
-                    <span class="label">{{ item.label }}</span>
+                    <img src="{{ item.svg }}" alt="{{ item.title }}"{% if item.style %} style="{{ item.style }}"{% endif%} />
+                    {% if item.show_label != false %}<span class="label">{{ item.label }}</span>{% endif %}
                 </a>
                 {% endif %}
+                {% if item.description %}{{ item.description | markdownify }}{% endif %}
             </li>
             {% endfor %}
         </ul>

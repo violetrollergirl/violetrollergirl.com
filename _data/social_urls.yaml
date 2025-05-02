@@ -6,6 +6,18 @@
     title: CashApp
     icon: dollar-sign
     url: https://cash.app/$VioletRollergirl
+    description: >
+      Send me a tip or donation via CashApp.
+  - label: Zcash
+    title: Zcash
+    svg: images/logo.zcash.yellow.svg
+    url: zcash:u1mhgwfzmjks8d2kgwh7nrrycljzzfuhl5fak6efvnqazxwu2f4ssftlf5snpgavfx649ztp5l2lzwzqsrhu5jf4x97jzu6a37qysjvjwq8ffcspd46dg99s4mctaagq73n823edhza3s8mxytur48lnuprad8j4avhvymsxv38u7t5rhdsc449fyk70d9zjjqvrln4lzaeghwcmxn2du
+    description: |
+      Send me a tip or donation with privacy-enhanced cryptocurrency.
+
+      [![QR code for Zcash shielded address](images/qr.zcash.violetrollergirl.gif)](zcash:u1mhgwfzmjks8d2kgwh7nrrycljzzfuhl5fak6efvnqazxwu2f4ssftlf5snpgavfx649ztp5l2lzwzqsrhu5jf4x97jzu6a37qysjvjwq8ffcspd46dg99s4mctaagq73n823edhza3s8mxytur48lnuprad8j4avhvymsxv38u7t5rhdsc449fyk70d9zjjqvrln4lzaeghwcmxn2du)
+
+      [Learn more about Zcash](https://z.cash/learn/){: target="_blank"}.
 
 - group_name: Socials &amp; Content
   items:
@@ -13,34 +25,51 @@
     title: Bluesky
     icon: bluesky
     url: https://bsky.app/profile/violetrollergirl.com
+    description: >
+      The freer X/Twitter alternative.
   - label: OnlyFans
     title: OnlyFans
     svg: images/logo.onlyfans.svg
     url: https://onlyfans.com/violetrollergirl
-  - label: Fansly
-    title: Fansly
-    svg: images/logo.fansly.svg
-    url: https://fansly.com/violetrollergirl
+    description: >
+      Subscribe for access to my full archive of spicy content.
+      (No <acronym title="Pay-Per-View">PPV</acronym>.)
   - label: ManyVids
     title: ManyVids
     svg: images/logo.manyvids-heart.svg
+    style: >
+      filter: invert();
     url: https://violetrollergirl.manyvids.com/
+    description:
+      Buy my standalone solo, <abbr title="boy/girl">b/g</abbr>, <abbr title="girl/girl">g/g</abbr>, threesome, fetish, and bondage clips and videos.
+  - label: QueerCrush
+    title: QueerCrush
+    show_label: false
+    svg: images/logo.queercrush.blue.png
+    url: https://queercrush.com/models/violet-rollergirl-she
+    description: >
+      Watch me in unscripted lesbian porn produced by an all-Sapphic team, and
+      [sign up via my referral link](https://register.queercrush.com/track/MzAwMDE0ODEuMy4xNTMuMzQyLjAuMC4wLjAuMA){: target="_blank"}.
+  #- label: Fansly
+  #  title: Fansly
+  #  svg: images/logo.fansly.svg
+  #  url: https://fansly.com/violetrollergirl
 
 - group_name: Ad listings
   items:
   - label: Tryst
     title: Tryst
     svg: images/logo.tryst.svg
-    show_label: false
     url: https://violetrollergirl.tryst.link/
   - label: TS4Rent
     title: TS4Rent
     svg: images/logo.ts4r.svg
-    show_label: false
     url: https://ts4rent.eu/violetrollergirl
   - label: "TER ID: 401195"
     title: The Erotic Review
     svg: images/logo.the-erotic-review.svg
+    style: >
+      filter: invert();
     url: https://www.theeroticreview.com/reviews/show.asp?id=401195
 
 - group_name: Even more
@@ -49,8 +78,12 @@
     title: Throne
     icon: gift
     url: https://throne.com/violetrollergirl
-  - label: Additional health and safety guide (requires <a href="https://torproject.org/">Tor Browser</a>)
-    title: In-person info
+    description:
+      Why spare the rod when you can also just spoil the girl?
+  - label: Additional Health and Safety Guide
+    title: Additional Health and Safety Guide
     icon: shield-halved
     url: http://ylyznmvgswureorc3tzc555trtjdtzgvkfjba5xkkkqcun55q3ny3yqd.onion/
-
+    description: >
+      More information for in-person meets.
+      Requires [Tor Browser](https://torproject.org/){: target="_blank"} to view.

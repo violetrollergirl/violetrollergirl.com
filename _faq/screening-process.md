@@ -5,7 +5,7 @@ name: How do I pass your screening process?
 My screening process is like many other providers&rsquo; and is required for our mutual safety and comfort. There are no exceptions. <em>Everyone must screen.</em> The [Contact](#contact) page on my site offers a summary of [your screening options](#screening-options). Two are remote and one is in person. Briefly once more, those options are:
 
 * Attach a selfie plus a well-established LinkedIn profile link plus a carrier phone number (not a number from a texting app or burner phone) to your next message to me.
-* Attach a selfie of yourself holding a valid government-issued photo ID to your next message to me.
+* Attach a selfie of yourself holding a valid government-issued photo ID plus a carrier phone number (not a number from a texting app or burner phone) to your next message to me.
 * [Book me](#contact) for a platonic, meet-and-greet/social-only date. My usual deposit and cancellation policies will apply.
 
 Keep these points in mind when screening:
