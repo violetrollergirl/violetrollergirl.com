@@ -70,10 +70,10 @@ layout: none
                         window.location.hash = fragment;
                     } else {
                         // If none of the above matches, then just
-                        // set the hash to the About panel.
-                        window.location.hash = '#about';
+                        // set the hash to the Gallery panel.
+                        window.location.hash = '#gallery';
                         // And then show my "About" page by default.
-                        $('#about').triggerHandler('---toggle');
+                        $('#gallery').triggerHandler('---toggle');
                     }
                 }
 
