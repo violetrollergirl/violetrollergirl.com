@@ -56,6 +56,9 @@
 	input[type="tel"],
 	input[type="search"],
 	input[type="url"],
+	input[type="number"],
+	input[type="datetime"],
+	input[type="datetime-local"],
 	select,
 	textarea {
 		@include vendor('appearance', 'none');
