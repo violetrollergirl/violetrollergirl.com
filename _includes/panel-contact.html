@@ -30,19 +30,8 @@ along with a bunch of additional instruction.
                     <p>
                         <label for="booking-inquiry-prospect-name" class="form-label">My name is</label>
                         <input type="text" class="form-input" id="booking-inquiry-prospect-name" name="booking_inquiry_prospect_name" required="required" placeholder="Write your name here" />.
-
-                        <label for="booking-inquiry-prospect-preferred-contact-method" class="form-label">I prefer that we communicate using</label>
-                        <select name="booking_inquiry_prospect_preferred_contact_method" id="booking-inquiry-prospect-preferred-contact-method"
-                            class="form-select"
-                            required="required"
-                        >
-                            <option value="" disabled="disabled" selected="selected">Choose your preferred contact method</option>
-                            <option value="signal">Signal Private Messenger</option>
-                            <option value="whatsapp">WhatsApp</option>
-                            <option value="email">email</email>
-                            <option value="sms">SMS/text message</option>
-                        </select>.
                     </p>
+
                     <p>
                         <label for="booking-inquiry-prospect-preferred-screening-method" class="form-label">I have read your <a href="#screening-options">screening requirements</a> and am comfortable being screened by sending you</label>
                         <select name="booking_inquiry_prospect_preferred_screening_method" id="booking-inquiry-prospect-preferred-screening-method"
@@ -50,10 +39,37 @@ along with a bunch of additional instruction.
                             required="required"
                         >
                             <option value="" disabled="disabled" selected="selected">Choose how to verify yourself</option>
-                            <option>employment information</option>
                             <option>my legal ID document</option>
+                            <option>employment information</option>
                             <option>a deposit for a social date at a public venue</option>
                         </select>.
+                    </p>
+
+                    <p>
+                        <label>My carrier phone number (for your screening purposes only) is</label>
+                        <input type="tel" class="form-input" id="booking-inquiry-prospect-carrier-phone" name="booking_inquiry_prospect_carrier_phone" required="true" placeholder="+1-555-123-4567" />.
+                    </p>
+
+                    <p>
+                        <label for="booking-inquiry-prospect-preferred-contact-method" class="form-label">I prefer that we communicate using</label>
+                        <select name="booking_inquiry_prospect_preferred_contact_method" id="booking-inquiry-prospect-preferred-contact-method"
+                            class="form-select"
+                            required="required"
+                            onchange="
+                                ('sms' === this.value)
+                                ? $('#contact-method-reliability-warning').show()
+                                : $('#contact-method-reliability-warning').hide();"
+                        >
+                            <option value="" disabled="disabled" selected="selected">Choose your preferred contact method</option>
+                            <option value="signal">Signal Private Messenger</option>
+                            <option value="whatsapp">WhatsApp</option>
+                            <option value="email">email</email>
+                            <option value="sms">SMS/text message</option>
+                        </select>.
+                        <span id="contact-method-reliability-warning" style="display: none;">
+                            <br />
+                            (<span class="fa-solid fa-triangle-exclamation"></span> SMS text messages are occasionally <em>very unreliable</em>. If you don&rsquo;t hear back from me, consider trying again using another contact method.)
+                        </span>
                     </p>
                 </fieldset>
 
@@ -85,6 +101,7 @@ along with a bunch of additional instruction.
                         <textarea name="booking_inquiry_prospect_attraction" id="booking-inquiry-prospect-attraction"
 
                             class="form-input"
+                            minlength="160"
                             placeholder="Photos? Vibe? Use a professional tone. Avoid vulgar language."></textarea>
                     </p>
                 </fieldset>
@@ -145,7 +162,12 @@ along with a bunch of additional instruction.
                 <fieldset><legend>I'm excited to hear from you!</legend>
                     <p>
                         <input type="checkbox" class="form-check-input" name="booking_inquiry_confirmed_fine_print" id="booking-inquiry-confirmed-fine-print" value="yes" required="required" />
-                        <label for="booking-inquiry-confirmed-fine-print">I have read and understood the information on your Web site, including your <a href="#rates">rates</a>, <a href="#policies">policies</a>, and <a href="#tours">availability</a>.</label>
+                        <label for="booking-inquiry-confirmed-fine-print">Yes, I have read, understood, and fully agree to abide by the information on your Web site, including your <a href="#rates">rates</a>, <a href="#policies">policies</a>, and <a href="#tours">availability</a>.</label>
+                    </p>
+
+                    <p>
+                        <input type="checkbox" class="form-check-input" name="booking_inquiry_confirmed_screening_attachment" id="booking-inquiry-confirmed-screening-attachment" value="yes" required="required" />
+                        <label for="booking-inquiry-confirmed-screening-attachment">Yes, I will attach all relevant screening information. I understand that incomplete inquiries, such as those without screening information, may not receive a reply.</label>
                     </p>
 
                     <p class="button-container">
