@@ -181,31 +181,32 @@ along with a bunch of additional instruction.
     </div>
     <div>
         <h2 id="connection-methods">Connection Methods</h2>
-        <p>I can be reached directly via any of the following channels. How would you like to book? Tap the icon to choose:</p>
-        <ul class="icons text-center">
-            <li style="display: inline-block; padding-right: 1em;">
+        <p>I can be reached via any of the following channels. I strongly prefer encrypted messaging via <a href="{% include signal-booking.url %}">Signal Private Messenger</a>. <small>(I offer a $40 USD discount as a thank you for helping to protect your privacy and mine if you book entirely over Signal.)</small></p>
+        <ul class="icons labels-list text-center">
+            <li>
                 <a id="signal-contact-link" class="icon fa-brands fa-signal-messenger fa-5x" href="{% include signal-booking.url %}" title="Signal">
-                    <!--<span class="label">Signal Private Messenger</span>-->
+                    <span class="label icon-label">Signal Private Messenger</span>
                 </a>
             </li>
-            <li style="display: inline-block; padding-right: 1em;">
-                <a id="whatsapp-contact-link" class="icon fa-whatsapp fa-5x" href="{% include whatsapp-booking.url %}" title="WhatsApp">
-                    <!--<span class="label">WhatsApp</span>-->
+            <li>
+                <a id="email-contact-link" class="icon fa-brands fa-envelope fa-5x" href="{% include mailto-booking.url %}" title="Email">
+                    <span class="label icon-label">Email</span>
                 </a>
             </li>
-            <li style="display: inline-block; padding-right: 1em;">
-                <a id="email-contact-link" class="icon fa-envelope fa-5x" href="{% include mailto-booking.url %}" title="Email">
-                    <!--<span class="label">Email</span>-->
+            <li>
+                <a id="whatsapp-contact-link" class="icon fa-brands fa-whatsapp fa-5x" href="{% include whatsapp-booking.url %}" title="WhatsApp">
+                    <span class="label icon-label">WhatsApp</span>
                 </a>
             </li>
-            <li style="display: inline-block;">
-                <a id="sms-contact-link" class="icon fa-comment-sms fa-5x" href="{% include sms-booking.url %}" title="Text/SMS">
-                    <!--<span class="label">Text/SMS</span>-->
+            <li>
+                <a id="sms-contact-link" class="icon fa-brands fa-comment-sms fa-5x" href="{% include sms-booking.url %}" title="Text/SMS">
+                    <span class="label icon-label">Text/SMS</span>
                 </a>
             </li>
         </ul>
-        <p>I strongly prefer messaging over <a href="{% include signal-booking.url %}">Signal Private Messenger</a>. <small>(Bookings made entirely via Signal Private Messenger earn you a $40 USD discount as a thank you for helping to protect your privacy and mine.)</small> Otherwise, you may also contact me using <a href="{% include whatsapp-booking.url %}">WhatsApp</a> or via <a href="{% include mailto-booking.url %}">email addressed to <code>{{ site.contact.email }}</code></a>, and finally by <a href="{% include sms-booking.url %}">text/SMS to {{ site.contact.sms }}</a> if necessary.</p>
-        <p>Please be patient as <strong>it may take a day for me to reply.</strong> In the meantime, explore the <a href="https://goodclientguide.com/" target="_blank">Good Client Guide</a> for more helpful advice about how to prepare for your date with a provider like me, or have a look at some of <a href="#friends">my hot friends</a>.</p>
+        <p>Otherwise, you may also contact me via <a href="{% include mailto-booking.url %}">email addressed to <code>{{ site.contact.email }}</code></a>, using <a href="{% include whatsapp-booking.url %}">WhatsApp</a>, and finally by <a href="{% include sms-booking.url %}">text/SMS to {{ site.contact.sms }}</a> if necessary.</p>
+        <p>Please be patient as <strong>it may take a day for me to reply.</strong></p>
+        <p>In the meantime, explore the <a href="https://goodclientguide.com/" target="_blank">Good Client Guide</a> for more helpful advice about how to prepare for your date with a provider like me, or have a look at some of <a href="#friends">my hot friends</a>.</p>
         <p class="text-center"><img loading="lazy" src="{% link images/gallery-originals/balcony-view-as-voyeur-through-window.jpg %}" alt="" /></p>
     </div>
 </div><!-- .inner.split -->

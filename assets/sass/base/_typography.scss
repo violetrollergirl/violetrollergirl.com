@@ -170,3 +170,15 @@
 	.align-right {
 		text-align: right;
 	}
+
+    ul.icons.labels-list > li {
+        display: inline-block;
+        margin-right: 1em;
+    }
+    ul.icons.labels-list > li:last-child {
+        margin-right: 0;
+    }
+    .icons span.label.icon-label {
+        font-size: xx-small;
+        line-height: 50px
+    }
