@@ -8,22 +8,10 @@ along with a bunch of additional instruction.
 <div class="inner split">
     <div>
         <header>
-            <h2 id="first-contact">First contact</h2>
-            <h3>Ready to meet <a href="#about" title="About {{ site.title }}">me</a>?</h3>
+            <h2 id="booking-form">Booking Form</h2>
         </header>
-        <p class="text-center"><img loading="lazy" src="{% link images/gallery-originals/red-lingerie-with-laptop-on-bed-smirking.jpg %}" alt=""/></p>
-        <ol id="first-contact-instructions">
-            <li>
-                <p>First, please ensure you understand my <a href="#tours">availability</a>, <a href="#rates">rates</a>, and <a href="#policies">policies</a>. You may also want to review <a href="#contact-dos-and-donts">my "do's and don'ts"</a> for making first contact or <a href="#faq">my Q&amp;A page</a> to allay any remaining concerns you have.</p>
-            </li>
-            <li>
-                <p>Next, fill in <a href="#booking-inquiry-form">my mad lib style booking form</a>, below, to draft your first message to me. Alternatively, <a href="#google-calendar-appointment-booking-form">request a booking via Google Calendar</a>.</p>
-            </li>
-            <li>
-                <p>Then click the form&rsquo;s &ldquo;<code>Copy inquiry to clipboard</code>&rdquo; button, and finally the &ldquo;<code>Send inquiry</code>&rdquo; button to open your chosen messaging app where you can paste and send your inquiry. <small>(If you're not a fan of filling forms, or if we are already acquianted, you may also <a href="#connection-methods">compose a bespoke love note yourself</a>)</small>.
-            </li>
-        </ol>
-        <h2 id="booking-form">Booking Form</h2>
+        <p class="align-center" style="margin-bottom: 1em;"><img loading="lazy" src="{% link images/gallery-originals/red-lingerie-with-laptop-on-bed-smirking.jpg %}" alt=""/></p>
+        <p>I&rsquo;m driven by novelty and curiosity, so I&rsquo;m already eager to meet you. Yes, <em>you</em>. <a href="#booking-inquiry-form">My booking form</a>, below, will help you draft an inquiry and make the perfect first impression! (I also wrote you <a href="#first-contact">more tips for making a good first impression</a>.)</p>
         <form name="booking_inquiry_form" id="booking-inquiry-form" action="#" method="GET" class="row row-cols-lg-auto g-3 align-items-center">
             <blockquote>
                 <p>Hi, {{ site.author | split: " " | first }}.</p>
@@ -34,12 +22,12 @@ along with a bunch of additional instruction.
                     </p>
 
                     <p>
-                        <label for="booking-inquiry-prospect-preferred-screening-method" class="form-label">I have read your <a href="#screening-options">screening requirements</a> and am comfortable being screened by sending you</label>
+                        <label for="booking-inquiry-prospect-preferred-screening-method" class="form-label">I read your <a href="#screening-options">screening requirements</a> and am comfortable being screened by sending you</label>
                         <select name="booking_inquiry_prospect_preferred_screening_method" id="booking-inquiry-prospect-preferred-screening-method"
                             class="form-select"
                             required="required"
                         >
-                            <option value="" disabled="disabled" selected="selected">Choose how to verify yourself</option>
+                            <option value="" disabled="disabled" selected="selected">How you&rsquo;ll screen</option>
                             <option>my legal ID document</option>
                             <option>employment information</option>
                             <option>a deposit for a social date at a public venue</option>
@@ -47,7 +35,7 @@ along with a bunch of additional instruction.
                     </p>
 
                     <p>
-                        <label>My carrier phone number (for your screening purposes only) is</label>
+                        <label for="booking-inquiry-prospect-carrier-phone">My carrier phone number (for your screening purposes only) is</label>
                         <input type="tel" class="form-input" id="booking-inquiry-prospect-carrier-phone" name="booking_inquiry_prospect_carrier_phone" required="true" placeholder="+1-555-123-4567" />.
                     </p>
 
@@ -61,7 +49,7 @@ along with a bunch of additional instruction.
                                 ? $('#contact-method-reliability-warning').show()
                                 : $('#contact-method-reliability-warning').hide();"
                         >
-                            <option value="" disabled="disabled" selected="selected">Choose your preferred contact method</option>
+                            <option value="" disabled="disabled" selected="selected">Your preferred contact method</option>
                             <option value="signal">Signal Private Messenger</option>
                             <option value="whatsapp">WhatsApp</option>
                             <option value="email">email</email>
@@ -81,7 +69,7 @@ along with a bunch of additional instruction.
                             class="form-select"
                             required="required"
                         >
-                            <option value="" disabled="disabled" selected="selected">Share where you learned of me</option>
+                            <option value="" disabled="disabled" selected="selected">Where you found me</option>
                             <option>Bluesky</option>
                             <option>Fansly</option>
                             <option>ManyVids</option>
@@ -98,7 +86,7 @@ along with a bunch of additional instruction.
                         </select>.
                     </p>
                     <p>
-                        <label for="booking-inquiry-prospect-attraction" class="form-label">I really like your&hellip;</label>
+                        <label for="booking-inquiry-prospect-attraction" class="form-label">I like your&hellip;</label>
                         <textarea name="booking_inquiry_prospect_attraction" id="booking-inquiry-prospect-attraction"
 
                             class="form-input"
@@ -119,7 +107,7 @@ along with a bunch of additional instruction.
                             <option value="an incall">an incall (provider hosts)</option>
                             <option value="an outcall">an outcall (client hosts)</option>
                             <option value="a FMTY">a FMTY (travel with or to you)</option>
-                            <option value="a social-only date">a social date (platonic/pre-screening only)</option>
+                            <option value="a social-only date">a social date (platonic/screening only)</option>
                             <option value="a virtual video date">a virtual video date (online)</option>
                             <option value="a texting/sexting session">a texting/sexting session (online)</option>
                         </select>
@@ -181,8 +169,8 @@ along with a bunch of additional instruction.
     </div>
     <div>
         <h2 id="connection-methods">Connection Methods</h2>
-        <p>I can be reached via any of the following channels. I strongly prefer encrypted messaging via <a href="{% include signal-booking.url %}">Signal Private Messenger</a>. <small>(I offer a $40 USD discount as a thank you for helping to protect your privacy and mine if you book entirely over Signal.)</small></p>
-        <ul class="icons labels-list text-center">
+        <p>I can be reached via any of the following channels. I strongly prefer encrypted messaging via <a href="{% include signal-booking.url %}">Signal Private Messenger</a>. <small>(You&rsquo;ll earn a $40 USD discount for booking entirely over Signal as a thank you for helping to protect your privacy and mine.)</small></p>
+        <ul class="icons labels-list align-center">
             <li>
                 <a id="signal-contact-link" class="icon fa-brands fa-signal-messenger fa-5x" href="{% include signal-booking.url %}" title="Signal">
                     <span class="label icon-label">Signal Private Messenger</span>
@@ -206,14 +194,36 @@ along with a bunch of additional instruction.
         </ul>
         <p>Otherwise, you may also contact me via <a href="{% include mailto-booking.url %}">email addressed to <code>{{ site.contact.email }}</code></a>, using <a href="{% include whatsapp-booking.url %}">WhatsApp</a>, and finally by <a href="{% include sms-booking.url %}">text/SMS to {{ site.contact.sms }}</a> if necessary.</p>
         <p>Please be patient as <strong>it may take a day for me to reply.</strong></p>
+        <p class="align-center"><img loading="lazy" src="{% link images/gallery-originals/balcony-view-as-voyeur-through-window.jpg %}" alt="" /></p>
         <p>In the meantime, explore the <a href="https://goodclientguide.com/" target="_blank">Good Client Guide</a> for more helpful advice about how to prepare for your date with a provider like me, or have a look at some of <a href="#friends">my hot friends</a>.</p>
-        <p class="text-center"><img loading="lazy" src="{% link images/gallery-originals/balcony-view-as-voyeur-through-window.jpg %}" alt="" /></p>
     </div>
 </div><!-- .inner.split -->
+<div class="inner">
+    <h2 id="first-contact">First Contact</h2>
+    <ul id="first-contact-instructions">
+        <li>
+            <p>Please read my <a href="#policies">etiquette policies</a> and be sure you understand my <a href="#tours">availability</a> and <a href="#rates">rates</a> before writing.</p>
+        </li>
+        <li>
+            <p>You may also want to review <a href="#contact-dos-and-donts">my "do's and don'ts"</a> for making first contact. My <a href="#faq">my Q&amp;A page</a> can also allay any concerns you may have.</p>
+        </li>
+        <li>
+            <p>If you're not a fan of filling forms, you may also <a href="#connection-methods">email or message me a bespoke love note</a> instead.
+        </li>
+        <li>
+            <p>Especially generic messages are likely to trigger my auto-reply, and I won&rsquo;t see them.</p>
+        </li>
+{% comment %}
+        <li>
+            <p>Next, fill in <a href="#booking-inquiry-form">my mad lib style booking form</a> to draft your first message to me. Alternatively, <a href="#google-calendar-appointment-booking-form">request a booking via Google Calendar</a>.</p>
+        </li>
+{% endcomment %}
+    </ul>
+</div><!-- .inner -->
 <div class="inner split">
     <div>
         <h2 id="contact-instructions">In your first message</h2>
-        <p><a href="#booking-form">My booking form</a> can help you write a message that includes all the information I need to meet with you. When writing me, always include:</p>
+        <p><a href="#booking-form">My booking form</a> can help you write a message that includes all the information I need from you for us to meet. When writing me, always include:</p>
         <ul class="fa-ul">
             <li><span class="fa-li fa-solid fa-signature"></span>Your preferred name.</li>
             <li><span class="fa-li fa-solid fa-calendar"></span>When you're hoping to see me; supply <em>both</em> a preferred and an alternate date and time.</li>
@@ -221,7 +231,7 @@ along with a bunch of additional instruction.
             <li><span class="fa-li fa-solid fa-map"></span>Where you want to meet: my place/"incall," your place/"outcall," or indicate a social date/meet and greet. Look up <a href="#tours">my travel dates</a> if you're not sure where I'll be.</li>
             <li><span class="fa-li fa-solid fa-id-card"></span>If this is our first contact, choose a <a href="#screening-options">screening method</a> you're comfortable using. <a href="#faq-how-do-i-pass-your-screening-process">Screening is easy and mandatory</a>.</li>
         </ul>
-        <p class="text-center"><img loading="lazy" src="{% link images/gallery-originals/pool-table-orange-and-black.jpg %}" alt="" /></p>
+        <p class="align-center"><img loading="lazy" src="{% link images/gallery-originals/pool-table-orange-and-black.jpg %}" alt="" /></p>
     </div>
     <div>
         <h2 id="contact-dos-and-donts">Do's and don'ts</h2>
@@ -274,7 +284,7 @@ along with a bunch of additional instruction.
                 </tr>
             </tbody>
         </table>
-        <p>Please do reach out without fear of your gender, race, ethnicity, size, or religion. I respond best to respectful inquiries from individuals or couples who are fueled by my energy, are hungry for intimacy, or eager to shed lingering shames.</p>
+        <p>Please do reach out <a href="#faq-is-it-okay-if-i-am-older-need-a-wheelchair-black-genderqueer-etc">without fear of your gender, race, ethnicity, size, or religion</a>. I respond best to respectful inquiries from individuals or couples who are fueled by my energy, are hungry for intimacy, or eager to shed lingering shames.</p>
         <p>Explore the <a href="https://goodclientguide.com/" target="_blank">Good Client Guide</a> for more communication tips and generally useful information.</p>
     </div>
     <div>
@@ -287,9 +297,9 @@ along with a bunch of additional instruction.
             <li><span class="fa-li fa-solid fa-handshake"></span>scheduling and sending a deposit for a meet-and-greet/social-only date (at <a href="#rate-add-ons-and-online-social-only-date">my social rate</a>) where we will physically meet in a public venue.</li>
         </ul>
         <p>I consider messages that lack screening information to be incomplete. I may not reply to them. If you need help writing an inquiry, <a href="#booking-form">use my booking form</a> to draft a completed one. I'm looking forward to hearing from you!</p>
-        <p class="text-center">
+        <p class="align-center">
             <a href="#booking-inquiry-form" class="button"><span class="icon fa-solid fa-pen-nib"></span> Booking Form</a>
         </p>
-        <p class="text-center"><img loading="lazy" src="{% link images/gallery-originals/hotel-window.jpg %}" alt="" /></p>
+        <p class="align-center"><img loading="lazy" src="{% link images/gallery-originals/hotel-window.jpg %}" alt="" /></p>
     </div>
 </div><!-- .inner.split -->

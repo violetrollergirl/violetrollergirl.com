@@ -3,7 +3,7 @@ Content for the "Links" Panel.
 {% endcomment %}
 <div class="inner split">
     {% for group in site.data.social_urls %}
-    <div class="text-center" id="links-group-{{ group.group_name | slugify }}">
+    <div class="align-center" id="links-group-{{ group.group_name | slugify }}">
         <h2 id="links-{{ group.group_name | slugify }}">{{ group.group_name }}</h2>
         <ul class="icons">
             {% for item in group.items %}
