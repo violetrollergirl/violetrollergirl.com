@@ -27,18 +27,12 @@
     url: https://bsky.app/profile/violetrollergirl.com
     description: >
       The freer X/Twitter alternative.
-  - label: X/Twitter
-    title: X/Twitter
-    icon: x-twitter
-    url: https://x.com/ViRollergirl
-    description: >
-      (I'm here, too, but I'm more active on [Bluesky](#links-bluesky).)
   - label: OnlyFans
     title: OnlyFans
     svg: images/logo.onlyfans.svg
     url: https://onlyfans.com/violetrollergirl/c1
     description: >
-      Subscribe for access to my full archive of spicy content.
+      Subscribe for access to my archive of spicy content.
       (No <acronym title="Pay-Per-View">PPV</acronym>.)
   - label: ManyVids
     title: ManyVids
@@ -47,7 +41,7 @@
       filter: invert();
     url: https://violetrollergirl.manyvids.com/
     description:
-      Buy my standalone solo, <abbr title="boy/girl">b/g</abbr>, <abbr title="girl/girl">g/g</abbr>, threesome, fetish, and bondage clips and videos.
+      Buy my solo, <abbr title="boy/girl">b/g</abbr>, <abbr title="girl/girl">g/g</abbr>, threesome, fetish, and bondage videos.
   - label: QueerCrush
     title: QueerCrush
     show_label: false
@@ -56,6 +50,12 @@
     description: >
       Watch me in unscripted lesbian porn produced by an all-Sapphic team, and
       [sign up via my referral link](https://register.queercrush.com/track/MzAwMDE0ODEuMy4xNTMuMzQyLjAuMC4wLjAuMA){: target="_blank"}.
+  - label: X/Twitter
+    title: X/Twitter
+    icon: x-twitter
+    url: https://x.com/ViRollergirl
+    description: >
+      (I'm here, too, but I'm more active on [Bluesky](#links-bluesky).)
   #- label: Fansly
   #  title: Fansly
   #  svg: images/logo.fansly.svg
