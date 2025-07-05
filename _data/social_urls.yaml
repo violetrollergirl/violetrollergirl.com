@@ -27,6 +27,12 @@
     url: https://bsky.app/profile/violetrollergirl.com
     description: >
       The freer X/Twitter alternative.
+  - label: X/Twitter
+    title: X/Twitter
+    icon: x-twitter
+    url: https://x.com/ViRollergirl
+    description: >
+      (I'm here, too, but I'm more active on [Bluesky](#links-bluesky).)
   - label: OnlyFans
     title: OnlyFans
     svg: images/logo.onlyfans.svg
