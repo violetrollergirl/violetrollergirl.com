@@ -40,6 +40,10 @@ acronym {
     content: "(" attr(title) ")";
     font-size: x-small;
 }
+#rates th > a {
+    display: block;
+    width: fit-content;
+}
 #rates details {
     font-size: smaller;
     text-align: left;
@@ -89,10 +93,6 @@ section img:hover {
 
 #first-contact-instructions li p {
     margin: 0;
-}
-a[data-booking-inquiry-prospect-duration] {
-    display: block;
-    width: fit-content;
 }
 #booking-inquiry-form blockquote {
     padding: .5em .5em 0 .25em;

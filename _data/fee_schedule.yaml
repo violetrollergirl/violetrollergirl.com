@@ -5,6 +5,9 @@
   items:
     - name: Social-only date
       rate: 150
+      booking_type: a social-only date
+      screening_method: a deposit for a social date at a public venue
+      duration_in_hours: 1
       details: |-
         ☕️🍻 Casual, zero-pressure meet and greet/meet cute; 🍝 dinner date, 🏸 sporting activity, 🧺 picnic, etcetera.
 
@@ -17,19 +20,28 @@
         Friendly, casual audio call to help you decide whether you'd like to book an in-person session, prepare for our date by chatting, discussing any logistics, or simply to quell any concerns.
 
         * Price of the call can be applied towards your deposit if you book within one (1) month.
-    - name: Custom photo
-      rate: 20
+    - name: Custom photo/video
+      rate: 50
+      url: https://www.manyvids.com/Profile/1008389797/violetrollergirl/Store/Custom
       details: |-
-        A pic taken just for you.
+        A photo or video made just the way you like it.
 
-        * Price is subject to change based on photo request.
-        * Rate shown is one (1) photo's base.
+        * Choose softcore, vanilla, hardcore, or kink/fetish content.
+        * Some of my favorite toys including handcuffs and collars can be added for free.
+        * Price is subject to change based on production complexity and video length.
+        * Rush production and delivery available for an additional fee.
     - name: Texting (30 minutes)
       rate: 40
+      booking_type: a texting/sexting session
+      location: a remote location
+      duration_in_hours: 0.5
       details: |-
         Perfect for dipping one's toe into what our unique chemistry is like.
     - name: Video date
       rate: 150
+      booking_type: a virtual video date
+      location: a remote location
+      duration_in_hours: 1
       details: |-
         Virtual tryst over private video chat.
 

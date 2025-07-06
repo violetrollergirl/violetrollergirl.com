@@ -22,9 +22,15 @@
                 <tr id="rate-{{ menu.id | slugify }}-{{ item.name | slugify }}">
                     <th>
                         {{ item.name }}
-                        {% if item.duration_in_hours %}<a href="#contact"
-                            data-booking-inquiry-prospect-service-type="{% if "GFE/vanilla full service" == menu.name %}GFE/vanilla services{% else %}pro-sub/BDSM services{% endif %}"
-                            data-booking-inquiry-prospect-duration="{{ item.duration_in_hours }}">Book Now</a>
+                        {% if item.url %}<a href="{{ item.url }}">Order now</a>
+                        {% elsif item.duration_in_hours %}<a href="#booking-inquiry-prospect-name" class="booking-link"
+                            data-booking-inquiry-prospect-preferred-screening-method="{{ item.screening_method }}"
+                            data-booking-inquiry-prospect-booking-type="{{ item.booking_type }}"
+                            data-booking-inquiry-prospect-service-type="{% case menu.id %}{% when "pro-sub-bdsm" %}pro-sub/BDSM services{% else %}GFE/vanilla services{% endcase %}"
+                            data-booking-inquiry-prospect-duration="{{ item.duration_in_hours }}"
+                            data-booking-inquiry-prospect-location="{{ item.location }}">Reserve now</a>
+                        {% else %}
+                        <a href="#contact">Inquire now</a>
                         {% endif %}
                     </th>
                     <td>
@@ -76,3 +82,4 @@
         <p>In the unlikely event that I have to cancel our date, you'll promptly have your full deposit returned to you and I will do my best to offer you another opportunity to meet.</p>
     </div>
 </div>
+<p class="align-center"><small>(Please note that I accept patronage for my time and companionship only.)</small></p>
