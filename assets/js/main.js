@@ -257,7 +257,7 @@ Sincerely,
 
             // Closer.
             $closer
-                .on('click', function (event) {
+                .on('click', function ( event ) {
                     $this.trigger('---hide');
                 });
 
@@ -268,10 +268,11 @@ Sincerely,
                 })
                 .on('---toggle', function () {
 
-                    if ($this.hasClass('active'))
+                    if ($this.hasClass('active')) {
                         $this.triggerHandler('---hide');
-                    else
+                    } else {
                         $this.triggerHandler('---show');
+                    }
 
                 })
                 .on('---show', function () {
@@ -374,6 +375,29 @@ Sincerely,
 
                 });
 
+        });
+
+        // Main navigation button.
+        const menuButtonObserver = new MutationObserver(function ( mutations ) {
+            mutations.forEach(function ( mutation ) {
+                $t = $(mutation.target);
+                if ($t.hasClass('active')) {
+                    $t.removeClass('fa-bars')
+                        .addClass('fa-x')
+                        .find('span').text('Close');
+                } else {
+                    $t.removeClass('fa-x')
+                        .addClass('fa-bars')
+                        .find('span').text('Menu');
+                }
+            });
+        });
+        menuButtonObserver.observe(document.querySelector('#main-menu-button'), {
+            subtree: false,
+            childList: false,
+            attributes: true,
+            attributeFilter: [ 'class' ],
+            attributeOldValue: true
         });
 
         // Footer.
