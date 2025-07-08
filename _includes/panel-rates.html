@@ -45,7 +45,7 @@
             </tbody>
         </table>
         {% if menu.image %}
-        <p><img loading="lazy" src="{{ menu.image.src }}" alt="menu.image.alt" /></p>
+        <p><img loading="lazy" src="{{ menu.image.src }}" alt="{{ menu.image.alt }}" /></p>
         {% endif %}
     </div>
     {% endfor %}

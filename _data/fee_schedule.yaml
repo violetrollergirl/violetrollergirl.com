@@ -2,6 +2,9 @@
 ---
 - name: Social-only, add-ons, and online
   id: add-ons-and-online
+  image:
+    src: images/gallery-originals/bikini-swimsuit-at-above-ground-pool.jpg
+    alt: Violet Rollergirl lounges on the railing of a pool in a country setting wearing a floral bikini.
   items:
     - name: Social-only date
       rate: 150
@@ -106,7 +109,7 @@
   id: pro-sub-bdsm
   image:
     src: images/gallery-originals/cyberpunk-kneeling-bondage-wall-Violet-Rollergirl-9108_124341~2.jpg
-    alt:
+    alt: Violet Rollergirl kneels on a sectional in front of a walls of kinky toys including collars, cuffs, and gags. She is wearing a miniskirt and a fishnet top.
   items:
     - name: 1 hour
       duration_in_hours: 1
