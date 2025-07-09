@@ -65,13 +65,14 @@ along with a bunch of additional instruction.
                 <fieldset class="form-group"><legend>I've been drawn to you since&hellip;</legend>
                     <p>
                         <label for="booking-inquiry-prospect-source-referral" class="form-label">I found your Web site via</label>
-                        <select name="booking_inquiry_prospect_source_referral" id="booking-inquiry-prospect-source-referral"
-                            class="form-select"
-                            required="required"
-                        >
-                            <option value="" disabled="disabled" selected="selected">Where you found me</option>
+                        <input list="referral-source-list" class="form-input"
+                            id="booking-inquiry-prospect-source-referral"
+                            name="booking_inquiry_prospect_source_referral"
+                            required="true"
+                            maxlength="64"
+                            placeholder="Where you found me" />.
+                        <datalist id="referral-source-list">
                             <option>Bluesky</option>
-                            <option>Fansly</option>
                             <option>ManyVids</option>
                             <option>OnlyFans</option>
                             <option>TER board/review</option>
@@ -83,7 +84,7 @@ along with a bunch of additional instruction.
                             <option>directly from you (we've met!)</option>
                             <option>search engine results</option>
                             <option>word of mouth</option>
-                        </select>.
+                        </datalist>
                     </p>
                     <p>
                         <label for="booking-inquiry-prospect-attraction" class="form-label">I like your&hellip;</label>
