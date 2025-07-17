@@ -3,8 +3,8 @@
 - name: Social-only, add-ons, and online
   id: add-ons-and-online
   image:
-    src: images/gallery-originals/bikini-swimsuit-at-above-ground-pool.jpg
-    alt: Violet Rollergirl lounges on the railing of a pool in a country setting wearing a floral bikini.
+    src: images/gallery-originals/lounging-poolside-in-bikini.jpg
+    alt: Violet Rollergirl lounges in a bikini at the side of a pool in a tropical villa.
   items:
     - name: Social-only date
       rate: 150
