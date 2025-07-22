@@ -222,7 +222,7 @@ Sincerely,
             }
 
             var method = inquiryData.booking_inquiry_prospect_preferred_contact_method;
-            var el     = $('#' + method + '-contact-link');
+            var el     = $('#contact-link-' + method);
             var oldUrl = el.attr('href'); // Read hyperlink.
             var url    = new URL(oldUrl);
             switch ( method ) {
