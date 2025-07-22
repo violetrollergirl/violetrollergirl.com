@@ -23,6 +23,14 @@
         }
     }
 
+    #contact-method-step-3 {
+        display: none;
+        width: fit-content;
+        margin: 0 auto;
+        font-style: normal;
+        text-transform: uppercase;
+    }
+
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],

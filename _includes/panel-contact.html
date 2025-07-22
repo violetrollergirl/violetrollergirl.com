@@ -47,7 +47,11 @@ along with a bunch of additional instruction.
                             onchange="
                                 ('sms' === this.value)
                                 ? $('#contact-method-reliability-warning').show()
-                                : $('#contact-method-reliability-warning').hide();"
+                                : $('#contact-method-reliability-warning').hide();
+                                ('signal' === this.value)
+                                ? $('#contact-method-step-3').show()
+                                : $('#contact-method-step-3').hide();
+                            "
                         >
                             <option value="" disabled="disabled" selected="selected">Your preferred contact method</option>
                             <option value="signal">Signal Private Messenger</option>
@@ -163,6 +167,10 @@ along with a bunch of additional instruction.
                     <p class="button-container">
                         <button type="reset">1. Copy inquiry to clipboard</button>
                         <button type="submit">2. Send inquiry</button>
+                    </p>
+                    <p id="contact-method-step-3">
+                        <span class="fa-solid fa-circle-exclamation fa-2x" style="float: left; margin-right: 10px"></span>
+                        3. Paste your inquiry message text into the Signal chat!
                     </p>
                 </fieldset>
             </blockquote>
