@@ -106,6 +106,14 @@ section img:hover {
 #booking-inquiry-form textarea.form-input {
     width: 100%;
 }
+.dos-and-donts-DO::after {
+    content: " do ";
+    text-transform: uppercase;
+}
+.dos-and-donts-DONT::after {
+    content: " don't ";
+    text-transform: uppercase;
+}
 
 #main article.thumb a {
     position: relative;

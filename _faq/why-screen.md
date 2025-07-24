@@ -13,4 +13,6 @@ The thing about balance is that it's very comfortable. After all, what is grace 
 
 And no one wants that. Right?
 
+Moreover, before you screen, I simply cannot know who I may be speaking with. Since literally anyone might contact me, screning confirms that you are a consenting adult and is unconditionally <em>required</em> to interact with me in any meaningful way. For my safety and comfort, I am simply not comfortable significantly engaging with you otherwise.
+
 [Screening is easy](#screening-options) and you can be done with it after your very [first message](#contact-instructions) to me.
