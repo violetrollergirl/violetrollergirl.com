@@ -10,7 +10,7 @@ My innate confidence, boisterous joy, and shamelessly eager sexuality makes me a
 
 If you are simply looking for a one-on-one session with a traditional pro-domme to bottom to or receive specific sensations from, I can refer you to one of my very hot dominant [partners](#friends).
 
-Otherwise, consider that many kinds of play are enhanced by the presence of a fellow submissive like me. These include cuck sessions, co-bottoming, group play, or creative “sub4sub” vibes.
+Otherwise, consider that many kinds of play are enhanced by the presence of a fellow submissive like me. These include cuck sessions, co-bottoming, tandem bondage buddies, group play, or creative “sub4sub” vibes.
 
 As part of a [duo or group](#friends), I thoroughly enjoy contributing to your demise under the direction of a dominant to whom we are both submitting. Or maybe we are simply exploring as two submissives? Maybe we tie our wrists together, then tug and touch each other all over; let's egg each other on in an endless game of truth or dare; we can amplify our kinks in unexpected ways! Perhaps we'll even invite some friends to watch us—and, perhaps, to touch us. The more creative, the better!
 
