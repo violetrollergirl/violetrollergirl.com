@@ -18,6 +18,14 @@
       [![QR code for Zcash shielded address](images/qr.zcash.violetrollergirl.gif)](zcash:u1mhgwfzmjks8d2kgwh7nrrycljzzfuhl5fak6efvnqazxwu2f4ssftlf5snpgavfx649ztp5l2lzwzqsrhu5jf4x97jzu6a37qysjvjwq8ffcspd46dg99s4mctaagq73n823edhza3s8mxytur48lnuprad8j4avhvymsxv38u7t5rhdsc449fyk70d9zjjqvrln4lzaeghwcmxn2du)
 
       [Learn more about Zcash](https://z.cash/learn/){: target="_blank"}.
+  - label: Monero
+    title: Monero
+    svg: images/logo.monero.transparent.480x480.png
+    url: monero:8AtoQWkqUouCGuYVZm9XFaK2xXm36PAG7i9jD7hHojwwKnJc6tezsvojdak85jFBYfGdWuLYFEn8Mb9zTdeUWUQyBCiJctG?recipient_name=Violet%20Rollergirl
+    description: |
+      [![QR code for Monero address](images/qr.monero.violetrollergirl.gif)](monero:8AtoQWkqUouCGuYVZm9XFaK2xXm36PAG7i9jD7hHojwwKnJc6tezsvojdak85jFBYfGdWuLYFEn8Mb9zTdeUWUQyBCiJctG?recipient_name=Violet%20Rollergirl)
+
+      [Learn more about Monero](https://www.getmonero.org/get-started/what-is-monero/){: target="_blank"}.
 
 - group_name: Socials &amp; Content
   items:

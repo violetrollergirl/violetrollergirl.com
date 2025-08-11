@@ -1,7 +1,8 @@
 a:has(> img) {
     border-bottom: 0;
 }
-acronym {
+acronym,
+abbr {
     cursor: help;
 }
 .split-even {
