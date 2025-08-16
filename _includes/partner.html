@@ -29,7 +29,7 @@ This template renders a single duo partner's (Microformat'ed) h-card.
     </p>
     <div class="duo-photos">
         {% for pic in include.partner.images %}
-        <img src="{{ site.baseurl }}{{ pic.url }}" alt="{{ pic.alt }}" />
+        <img src="{{ site.baseurl }}{{ pic.url | relative_url }}" alt="{{ pic.alt }}" />
         {% endfor %}
     </div><!-- .duo-photos -->
 </article>
