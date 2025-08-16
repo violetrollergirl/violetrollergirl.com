@@ -1,0 +1,12 @@
+#friends {
+	& .p-photo {
+	float: left;
+	margin-right: 1em;
+	width: 20%;
+	border-radius: 50%;
+	}
+
+	& .duo-pics {
+		clear: left;
+	}
+}

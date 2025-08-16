@@ -2,11 +2,11 @@
 layout: page
 ---
 
-{% assign default_post_summary = page.content | truncatewords: 50 %}
 <article id="post-content" class="h-entry">
     <header>
         <h1 class="p-name">{{ page.title }}</h1>
 
+        {% assign default_post_summary = page.content | strip_html | truncatewords: 50 %}
         <p class="p-summary">{{ page.summary | default: default_post_summary }}</p>
     </header>
 
@@ -15,6 +15,6 @@ layout: page
     </div>
 
     <footer>
-        <p>Published by <span class="p-author">{{ post.author | default: site.author }}</span> on <time class="dt-published" datetime="{{ post.date | default: page.date | date_to_xmlschema }}">{{ post.date | default: page.date | date_to_long_string }}</time></p>
+        <p>Published by <span class="p-author">{{ page.author | default: site.author }}</span> on <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_long_string }}</time>.</p>
     </footer>
 </article><!-- #post-content -->

@@ -32,6 +32,15 @@
 			border-bottom-color: transparent;
 			color: _palette(accent1) !important;
 		}
+
+		&:has(> img) {
+			border-bottom: 0;
+		}
+	}
+
+	acronym,
+	abbr {
+		cursor: help;
 	}
 
 	strong, b {
@@ -83,6 +92,10 @@
 
 	h6 {
 		font-size: 0.7em;
+	}
+
+	#Hero h3 {
+		text-transform: initial;
 	}
 
 	@include breakpoint(small) {
@@ -171,14 +184,61 @@
 		text-align: right;
 	}
 
-    ul.icons.labels-list > li {
-        display: inline-block;
-        margin-right: 1em;
-    }
-    ul.icons.labels-list > li:last-child {
-        margin-right: 0;
-    }
-    .icons span.label.icon-label {
-        font-size: xx-small;
-        line-height: 50px
-    }
+	ul.icons.labels-list > li {
+		display: inline-block;
+		margin-right: 1em;
+	}
+	ul.icons.labels-list > li:last-child {
+		margin-right: 0;
+	}
+	.icons span.label.icon-label {
+		font-size: xx-small;
+		line-height: 50px
+	}
+
+	*:not(.panel):target {
+		border-radius: 10px;
+		box-shadow: 0px 0px 50px white;
+		padding: 0 10px 0;
+		transition: box-shadow 2s;
+	}
+
+	.fa-plus18 {
+		font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		text-align: center;
+		font-size: 80%;
+		font-weight: bold;
+	}
+	.fa-plus18:before {
+			content: "18+";
+	}
+	.fa-minus18:before {
+			content: "\1F51E";
+	}
+
+	header h2,
+	header:not(#Hero) h3,
+	header h4,
+	header:not(#Hero) h2 + h3::before,
+	header h3 + h4::before {
+		display: inline-block;
+		content: " - ";
+		margin-right: .25em;
+	}
+
+	ul.icons .icon.fa-2x img {
+		height: 1.5em;
+		margin-top: .5em;
+		border-radius: 0;
+		box-shadow: none;
+	}
+
+	section img {
+		border-radius: 10px;
+		max-width: 100%;
+		transition: box-shadow 1s;
+
+		&:hover {
+			box-shadow: _palette(bg-shadow) -5px 5px 25px;
+		}
+	}

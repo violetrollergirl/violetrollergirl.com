@@ -1,0 +1,19 @@
+#rates {
+	& th > a {
+		display: block;
+		width: fit-content;
+	}
+
+	& details {
+		font-size: smaller;
+		text-align: left;
+	}
+	& summary,
+	& td {
+		text-align: right;
+	}
+
+	& summary + p {
+		text-align: justify;
+	}
+}

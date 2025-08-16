@@ -45,3 +45,17 @@
 			}
 
 	}
+
+	.split-even {
+		display: flex;
+
+		& > div {
+			flex: 1;
+
+			&:not(:last-child) {
+				border-right: 1px dotted;
+				margin-right: 10px;
+				margin-bottom: 1em;
+			}
+		}
+	}

@@ -37,7 +37,7 @@
 			font-size: 1em;
 			line-height: 1;
 			margin: .5em 0 0 0;
-            vertical-align: middle;
+			vertical-align: middle;
 			a {
 				border: 0;
 				color: inherit;
@@ -49,9 +49,9 @@
 		}
 
 		nav {
-            position: absolute;
-            top: 0;
-            right: 0;
+			position: absolute;
+			top: 0;
+			right: 0;
 
 			> ul {
 				list-style: none;
@@ -123,4 +123,8 @@
 				}
 			}
 		}
+	}
+
+	#Hero img {
+		max-width: 100%;
 	}

@@ -175,3 +175,20 @@
 			}
 
 	}
+
+    #main {
+        & article.thumb a {
+            position: relative;
+
+            &:hover::after {
+                font-family: "Font Awesome 6 Free";
+                font-size: xxx-large;
+                font-weight: 900;
+                content: "\f00e";
+                position: absolute;
+                bottom: 20px;
+                right: 40px;
+                color: #FFF;
+            }
+        }
+    }

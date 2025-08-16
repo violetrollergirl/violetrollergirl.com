@@ -57,6 +57,17 @@
 
 	@import 'layout/wrapper';
 	@import 'layout/header';
+	@import 'layout/navpanel';
 	@import 'layout/main';
 	@import 'layout/main-content-wrapper';
 	@import 'layout/footer';
+
+// Panels.
+
+	@import 'panels/rates';
+	@import 'panels/contact';
+	@import 'panels/friends';
+
+// Skins.
+
+	@import 'skins/cyberpunk';
