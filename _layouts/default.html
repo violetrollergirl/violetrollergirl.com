@@ -7,11 +7,11 @@
 <div id="wrapper">
 {% include header.html %}
 
+{% comment %}EXIF data is for gallery only.{% endcomment %}
 <main id="main" data-exif='{{ site.exif }}'>
+    {{ content }}
     {% include gallery.html %}
 </main>
-
-{{ content }}
 
 <section id="navpanel" class="panel">
     {% include main-navpanel.html %}

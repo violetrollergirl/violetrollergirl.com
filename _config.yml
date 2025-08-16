@@ -26,6 +26,8 @@ contact:
   whatsapp: "+19174407408"
 
 defaults:
+  - values:
+      layout: page
   - scope:
       path: "images/gallery/fulls"
     values:
