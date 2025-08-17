@@ -1,8 +1,8 @@
 # Jekyll Configuration File.
 # https://jekyllrb.com/docs/configuration/
 ---
-#baseurl: https://violetrollergirl.com
-baseurl: "" # Comment the above line and uncomment this to test the website locally
+baseurl: https://violetrollergirl.com
+#baseurl: "" # Comment the above line and uncomment this to test the website locally
 
 # Basic site and authorship information.
 title: Violet Rollergirl
