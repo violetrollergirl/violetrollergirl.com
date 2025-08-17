@@ -51,9 +51,9 @@
 		display: inline-block;
 		font-size: 0.9em;
 		font-weight: _font(weight-bold);
-		height: _size(element-height) * (1 / 0.9);
+		height: _size(element-height) * (calc(1 / 0.9));
 		letter-spacing: _font(kerning-alt);
-		line-height: _size(element-height) * (1 / 0.9);
+		line-height: _size(element-height) * (calc(1 / 0.9));
 		padding: 0 2.5em;
 		text-align: center;
 		text-decoration: none;
@@ -80,7 +80,7 @@
 
 		&.fit {
 			display: block;
-			margin: 0 0 (_size(element-margin) * 0.5) 0;
+			margin: 0 0 (calc(_size(element-margin) * 0.5)) 0;
 			width: 100%;
 		}
 

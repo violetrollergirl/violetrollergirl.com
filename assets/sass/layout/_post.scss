@@ -1,0 +1,25 @@
+#post-content {
+    max-width: 50em;
+    margin: 0 auto;
+
+    img {
+        max-width: 100%;
+    }
+
+    & header {
+        border-bottom: 2px solid _palette(border-bg-alt);
+        margin-bottom: 2em;
+        
+        & .p-summary {
+            font-size: larger;
+            margin-bottom: 1em;
+        }
+    }
+
+    & footer {
+        padding-top: 1em;
+        border-top: 2px solid _palette(border-bg-alt);
+        margin-top: 1em;
+        font-size: smaller;
+    }
+}

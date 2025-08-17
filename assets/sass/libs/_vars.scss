@@ -56,8 +56,8 @@
 		family:				('Source Sans Pro', Helvetica, sans-serif),
 		family-fixed:		('Courier New', monospace),
 		weight:				300,
-		weight-bold:		300,
-		weight-extrabold:	400,
+		weight-bold:		400,
+		weight-extrabold:	900,
 		kerning:			0.025em,
 		kerning-alt:		0.1em
 	);
@@ -68,6 +68,7 @@
 		bg-alt:				#1f2224,
 		bg-overlay:			transparentize(#242629, 0.75),
 		bg-overlay-alt:		transparentize(#242629, 0.5),
+		bg-overlay-alt-min:	transparentize(#242629, 0.1),
 		bg-ie-overlay:		transparentize(#242629, 0.45),
 		bg-ie-overlay-alt:	transparentize(#242629, 0.2),
 		fg:					#e6e6e6,
