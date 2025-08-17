@@ -73,10 +73,6 @@
 		text-decoration: none;
 		width: 100%;
 
-		&:invalid {
-			box-shadow: none;
-		}
-
 		&:focus {
 			box-shadow: inset 0 0 0 2px _palette(accent1);
 		}
@@ -183,6 +179,16 @@
 			&:before {
 				border-radius: 100%;
 			}
+		}
+	}
+
+	input,
+	select,
+	textarea {
+		&:invalid {
+			box-shadow: none;
+			background: transparentize(red, .7);
+			border: 1px dotted red;
 		}
 	}
 
