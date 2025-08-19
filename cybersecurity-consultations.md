@@ -26,13 +26,13 @@ You can think of this service as half therapy for your relationship with technol
 
 This is the same service I offer for civ clients, but at much reduced (sliding scale) rates for fellow verified SWers. I also occasionally teach groups in workshop settings, but the one-on-one consultations are highly personalized, and kept strictly confidential. It can be as revealing or intimate as you are comfortable, without any pressure to disclose anything you don't want to.
 
-## It's like a booking, but only computers get vulnerable
+## It's like a booking, but only our computers start vulnerable
 
 If you want to discuss meeting with me for this purpose, the only way to get in touch is via [Signal Private Messenger](https://signal.org/). If you don't have that, you're going to need it, so go get that now. I don't discuss the details of this over any other messaging channel.
 
 Signal is also a tool I'll refer to over and over again. You're going to want it, trust me.
 
-If you already have Signal, you can [contact me via my Signal](#contact-link-signal) link on this very website. If we're not already acquainted, I'll ask you to verify that you are a sex worker through either a mutual (previously verified) friend of mine, or an age-verified Web presence. You need not give me your legal identity, just your working persona.
+If you already have Signal, you can [contact me](#contact) via the Signal link on this very website. If we're not already acquainted, I'll ask you to verify that you are a sex worker through either a mutual (previously verified) friend of mine, or an age-verified Web presence. You need not give me your legal identity, just your working persona.
 
 To start, tell me:
 
