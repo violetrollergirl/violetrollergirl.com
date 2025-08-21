@@ -1,4 +1,13 @@
 # Data for various service price points.
+#
+# In general, my rate structure is as follows:
+#
+#     hourly rate * number of hours * (1 - (percentage discount as decimal))
+#
+# For example, for a base hourly rate of three hours where three
+# hours offers a 20% discount, the equation is:
+#
+#     500 * 3 * (1 - 0.2) = 1,200
 ---
 - name: Social-only, add-ons, and online
   id: add-ons-and-online
@@ -7,7 +16,7 @@
     alt: Violet Rollergirl lounges in a bikini at the side of a pool in a tropical villa.
   items:
     - name: Social-only date
-      rate: 150
+      rate: 200
       booking_type: a social-only date
       screening_method: a deposit for a social date at a public venue
       duration_in_hours: 1
@@ -17,12 +26,21 @@
         * Rate shown is per hour.
         * Booking a social-only date can also serve as your [(pre-)screening option](#screening-options).
         * Does not include transportation or activity cost.
-    - name: Screening call and deposit (10 minutes)
-      rate: 50
+    - name: Intro call and deposit (20 minutes)
+      rate: 60
       details: |-
         Friendly, casual audio call to help you decide whether you'd like to book an in-person session, prepare for our date by chatting, discussing any logistics, or simply to quell any concerns.
 
         * Price of the call can be applied towards your deposit if you book within one (1) month.
+    - name: Video date
+      rate: 200
+      booking_type: a virtual video date
+      location: a remote location
+      duration_in_hours: 1
+      details: |-
+        Virtual tryst over private video chat.
+
+        * Rate shown is per hour.
     - name: Custom photo/video
       rate: 50
       url: https://www.manyvids.com/Profile/1008389797/violetrollergirl/Store/Custom
@@ -33,6 +51,11 @@
         * Some of my favorite toys including handcuffs and collars can be added for free.
         * Price is subject to change based on production complexity and video length.
         * Rush production and delivery available for an additional fee.
+    - name: Fan site (monthly subscription)
+      rate: 15
+      url: "#links-group-socials-amp-content"
+      details: |-
+        Access to exclusive content on my 🌶️ sites.
     - name: Texting (30 minutes)
       rate: 40
       booking_type: a texting/sexting session
@@ -40,21 +63,14 @@
       duration_in_hours: 0.5
       details: |-
         Perfect for dipping one's toe into what our unique chemistry is like.
-    - name: Video date
-      rate: 150
-      booking_type: a virtual video date
-      location: a remote location
-      duration_in_hours: 1
-      details: |-
-        Virtual tryst over private video chat.
 
-        * Rate shown is per hour.
+        I also offer longer texting packages for those who appreciate a good textual tease. Start here and inquire within. :)
 
 - name: GFE/vanilla full service
   id: gfe-vanilla
   items:
     - name: 1 hour
-      rate: 400
+      rate: 500
       duration_in_hours: 1
       details: |-
         Dedicated playdate.
@@ -62,43 +78,43 @@
         * Discounted rates available for longer bookings as shown.
         * Does not include incall fee or transportation cost.
     - name: 90 minutes
-      rate: 540
+      rate: 675
       duration_in_hours: 1.5
       details: |-
         * 10% off.
         * Recommended minimum.
     - name: 2 hours
-      rate: 700
+      rate: 875
       duration_in_hours: 2
       details: |-
         * 12.5% off.
     - name: 3 hours
-      rate: 960
+      rate: "1,200"
       duration_in_hours: 3
       details: |-
         * 20% off.
         * Minimum required for travel outside [my home cities](#tech-spec-home-cities) when not touring.
     - name: 4 hours
-      rate: "1,200"
+      rate: "1,500"
       duration_in_hours: 4
       details: |-
         * 25% off.
         * Requires outing.
     - name: 6 hours
-      rate: "1,680"
+      rate: "2,100"
       duration_in_hours: 6
       details: |-
         * 30% off.
         * Requires outing and shared meal.
     - name: Overnight (~14 hours)
-      rate: "2,400"
+      rate: "3,500"
       details: |-
         Perfect for an evening full of cuddles, or sprinkled with light fetishes like spanking and modest restraints.
 
         * 50% discount off my hourly rate.
         * Requires outing, shared meal, and beauty sleep.
     - name: Getaway weekend
-      rate: "4000"
+      rate: "5,000"
       details: |-
         Party hard, play harder! I'll be all yours for two full days (except for some solo moments to let us freshen up for one another in our mysterious ways), so you can enjoy a weekend escape with me.
 
@@ -113,7 +129,7 @@
   items:
     - name: 1 hour
       duration_in_hours: 1
-      rate: 600
+      rate: 700
       details: |-
         Make me vulnerable, watch me bruise.
 
@@ -123,13 +139,13 @@
         * Does not include incall fee or transportation cost.
     - name: 2 hours
       duration_in_hours: 2
-      rate: "1,000"
+      rate: "1,225"
       details: |-
-        * 16.7% off
+        * 12.5% off
         * Recommended minimum.
     - name: 3 hours
       duration_in_hours: 3
-      rate: "1,440"
+      rate: "1,680"
       details: |-
         * 20% off
         * Requires time for warmup and cool down/after care.
