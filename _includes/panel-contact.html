@@ -149,7 +149,8 @@ along with a bunch of additional instruction.
                         <input type="datetime-local" class="form-input"
                             name="booking_inquiry_prospect_preferred_datetime"
                             id="booking-inquiry-prospect-preferred-datetime"
-                            min="{{ "now" | date: "%Y-%m-%dT00:00" }}"
+                            min="{{ "now" | date: "%Y-%m-%dT%H:%M" }}"
+                            value="{{ "now" | date: "%Y-%m-%dT%H:%M" }}"
                             required="required"
                         />
 
@@ -157,7 +158,8 @@ along with a bunch of additional instruction.
                         <input type="datetime-local" class="form-input"
                             name="booking_inquiry_prospect_alternate_datetime"
                             id="booking-inquiry-prospect-alternate-datetime"
-                            min="{{ "now" | date: "%Y-%m-%dT00:00" }}"
+                            min="{{ "now" | date: "%Y-%m-%dT%H:%M" }}"
+                            value="{{ "now" | date: "%Y-%m-%dT%H:%M" }}"
                             required="required"
                         />.
                         Would either of these options allow us to meet?
