@@ -115,6 +115,7 @@ along with a bunch of additional instruction.
                             <option value="a social-only date">a social date (platonic/screening only)</option>
                             <option value="a virtual video date">a virtual video date (online)</option>
                             <option value="a texting/sexting session">a texting/sexting session (online)</option>
+                            <option value="an introductory call">an introductory call (phone)</option>
                         </select>
 
                         <label for="booking-inquiry-prospect-service-type" class="form-label">for your</label>
@@ -129,11 +130,20 @@ along with a bunch of additional instruction.
                         </select>
 
                         <label for="booking-inquiry-prospect-duration" class="form-label">for a duration of</label>
-                        <input type="number" name="booking_inquiry_prospect_duration" id="booking-inquiry-prospect-duration" class="form-input" value="" min="1" max="14" step=".5" required="required" placeholder="#"> hour(s)
+                        <input type="number" name="booking_inquiry_prospect_duration" id="booking-inquiry-prospect-duration" class="form-input" value="" min=".5" max="14" step=".5" required="required" placeholder="#"> hour(s)
 
                         <label for="booking-inquiry-prospect-location" class="form-label">when I will be in</label>
-                        <input type="text" name="booking_inquiry_prospect_location" id="booking-inquiry-prospect-location"
-                        class="form-input" placeholder="Anytown, USA (City, Country)" required="required" />
+                        <input list="prospect-location-list" class="form-input"
+                            id="booking-inquiry-prospect-location"
+                            name="booking_inquiry_prospect_location"
+                            required="required"
+                            placeholder="Anytown, USA (City, Country)" required="required" />
+                        <datalist id="prospect-location-list">
+                            <option>Brooklyn, NY</option>
+                            <option>Manhattan, NY</option>
+                            <option>Boston, MA</option>
+                            <option>an online/remote location</option>
+                        </datalist>
 
                         <label for="booking-inquiry-prospect-preferred-datetime" class="form-label">on</label>
                         <input type="datetime-local" class="form-input"

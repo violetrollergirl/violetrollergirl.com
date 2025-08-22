@@ -28,6 +28,8 @@
         * Does not include transportation or activity cost.
     - name: Intro call and deposit (20 minutes)
       rate: 60
+      booking_type: an introductory call
+      duration_in_hours: .5
       details: |-
         Friendly, casual audio call to help you decide whether you'd like to book an in-person session, prepare for our date by chatting, discussing any logistics, or simply to quell any concerns.
 
