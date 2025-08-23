@@ -4,6 +4,8 @@ in both mad-lib and Google Calendar style,
 along with a bunch of additional instruction.
 {% endcomment %}
 
+{% assign datetime_default_value = site.time | date: "%s" | minus: 120 %}
+
 {% include google-calendar-appointment-booking-form.html %}
 <div class="inner split">
     <div>
@@ -150,7 +152,7 @@ along with a bunch of additional instruction.
                             name="booking_inquiry_prospect_preferred_datetime"
                             id="booking-inquiry-prospect-preferred-datetime"
                             min="{{ "now" | date: "%Y-%m-%dT%H:%M" }}"
-                            value="{{ "now" | date: "%Y-%m-%dT%H:%M" }}"
+                            value="{{ datetime_default_value | date: "%Y-%m-%dT%H:%M" }}"
                             required="required"
                         />
 
@@ -159,7 +161,7 @@ along with a bunch of additional instruction.
                             name="booking_inquiry_prospect_alternate_datetime"
                             id="booking-inquiry-prospect-alternate-datetime"
                             min="{{ "now" | date: "%Y-%m-%dT%H:%M" }}"
-                            value="{{ "now" | date: "%Y-%m-%dT%H:%M" }}"
+                            value="{{ datetime_default_value | date: "%Y-%m-%dT%H:%M" }}"
                             required="required"
                         />.
                         Would either of these options allow us to meet?
