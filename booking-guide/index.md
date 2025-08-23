@@ -4,7 +4,7 @@ title: Booking Guide
 
 # Booking Guide
 
-Many people are attracted to trans women like me, but few get the chance to get intimate with one of us. One of my favorite things about being a trans provider is sharing in that moment of discovery with you, and relishing the joy, relief, and opening of possibility that comes with it.
+Many people are attracted to trans women like me, but few get the chance to get intimate with us. One of my favorite things about being a trans provider is sharing in that moment of discovery with you, and relishing the joy, relief, and opening of possibility that comes with it.
 
 To experience that, of course, you must first book me.
 
