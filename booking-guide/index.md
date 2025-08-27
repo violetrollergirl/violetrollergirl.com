@@ -33,10 +33,14 @@ The point of this is not not to ensure that you do it perfectly, but rather to g
     1. [Booking form field: alternate date and time](#booking-form-field-alternate-date-and-time)
     1. [Booking form field: confirm policy agreement](#booking-form-field-confirm-policy-agreement)
     1. [Booking form field: confirm screening attachment](#booking-form-field-confirm-screening-attachment)
-1. [Submit my booking form](#submit-my-booking-form)
-1. [Attach your screening information to the templated message](#attach-your-screening-information-to-the-templated-message)
-1. [Send your inquiry via your chosen app](#send-your-inquiry-via-your-chosen-app)
+1. [Submit my booking form to send your inquiry](#submit-my-booking-form-to-send-your-inquiry)
+    1. [Review and confirm your inquiry is as you desire](#review-and-confirm-your-inquiry-is-as-you-desire)
+    1. [Attach your screening information to the templated message](#attach-your-screening-information-to-the-templated-message)
+    1. [Send your inquiry via your chosen app](#send-your-inquiry-via-your-chosen-app)
 1. [Patiently wait for my reply](#patiently-wait-for-my-reply)
+    1. [If you don't receive a reply](#if-you-dont-receive-a-reply)
+1. [Confirm date details by sending a deposit](#confirm-date-details-by-sending-a-deposit)
+    1. [About extensive or synchronous correspondence](#about-extensive-or-synchronous-correspondence)
 
 ## Who should read this page
 
@@ -58,8 +62,8 @@ This page is *not* for:
 
 If the above describes you, I recommend the following blog posts on the Tryst Blog instead of this page:
 
-- [A First-time Client's Guide to Escort Booking Etiquette](https://tryst.link/blog/a-first-time-clients-guide-to-escort-booking-etiquette-tryst-sex-work-blog/)
-- ['What if it's a scam?' How to have a successful date with a pro, by doing your homework.](https://tryst.link/blog/what-if-its-a-scam-find-escort/)
+- [A First-time Client's Guide to Escort Booking Etiquette](https://tryst.link/blog/a-first-time-clients-guide-to-escort-booking-etiquette-tryst-sex-work-blog/){:target="_blank"}
+- ['What if it's a scam?' How to have a successful date with a pro, by doing your homework.](https://tryst.link/blog/what-if-its-a-scam-find-escort/){:target="_blank"}
 
 I also suggest spending a bit of time perusing the [Good Client Guide](https://goodclientguide.com/), a companion website that has compiled much of the same information.
 
@@ -87,7 +91,7 @@ Filling out my booking form is a bare minimum show of good faith you must comple
 
 In case it wasn't obvious yet, you have to fill in my booking form in order to spend time with me. :)
 
-My booking form is styled as a mad lib game that you fill out. Remember [mad libs](https://madlibs.com/){:target="_blank"}? They are those fun little story templates that have blank spots asking you choose parts of speech like adjectives or verbs. By the end, you create a cute story or poem or something. My booking form works the same way.
+My booking form is styled as a mad lib game that you fill out. Remember [mad libs](https://madlibs.com/){:target="_blank"}? They are those fun little story templates that have blank spots asking you to choose parts of speech like adjectives or verbs. By the end, you create a cute story or poem or something. My booking form works the same way.
 
 In place of a string of underscores, there's a form field, such as a text box or drop-down menu. Each field has a bit of placeholder text that explains what's expected there. For example, the first field is a text input box whose placeholder text reads, "Write your name here." So, if your name is Joe Smith, you would write, `Joe Smith` into that box.
 
@@ -99,7 +103,7 @@ Remember:
 - If you aren't willing to provide some of the information my form asks for, then you aren't ready to meet. Wait until you are ready and willing to provide that information before continuing. It's okay to not be ready. I'll (probably?) wait for you, too.
 - If you don't know where I'll be or where you'll be or when you want to meet, you need to at least make a best-effort guess to start the conversation with me. If you can't do that, you may just need to shore up your own itinerary before contacting me. I promise I'm more flexible than you and I want to make a meeting work out, but it takes two to tango.
 
-For your refenrece, here is a detailed breakdown of what I expect in each and every field of the form.
+For your reference, here is a detailed breakdown of what I expect in each and every field of the form.
 
 #### Booking form field: your name
 
@@ -157,11 +161,11 @@ The fourth field in my booking form is a drop-down menu for you to choose how yo
     * Choose `Signal Private Messenger` if you'd like the booking form to send your message to [my Signal Private Messenger account]({{ site.contact.signal }}){:target="_blank"}.
         * This is my preferred contact method, so you'll definitely earn some bonus points for messaging me this way!
         * You will need the Signal app installed on the device you are filling out the form from.
-    * Choose `WhatsApp` if you'd like the booking form to send me your message to my [WhatsApp](https://www.whatsapp.com/){:target="_blank"} Business account.
+    * Choose `WhatsApp` if you'd like the booking form to send your message to my [WhatsApp](https://www.whatsapp.com/){:target="_blank"} Business account.
         * You will need the WhatsApp app installed on the device you are filling out the form from.
-    * Choose `email` if you'd like the booking form to send me an email to my ProtonMail address ([`violetrollergirl@protonmail.com`]({{ site.contact.email }})).
+    * Choose `email` if you'd like the booking form to send an email to my ProtonMail address ([`violetrollergirl@protonmail.com`](mailto:{{ site.contact.email }})).
         * You will need to have an email client or a webmail site installed on or registered with the device you are filling out the form from.
-    * Choose `SMS/text message` if you'd like the booking form to send me your message to my own plain text messaging number. You will need to have an SMS/text messaging app installed on the device you are filling out the form from.
+    * Choose `SMS/text message` if you'd like the booking form to send your message to my own plain text messaging number. You will need to have an SMS/text messaging app installed on the device you are filling out the form from.
         * You probably don't want to use this option if you are filling in my form from a laptop. (Consider email instead.)
         * Even from a phone, this option is not always reliable, and a warning to this effect will show up on the booking form when you select this option.
 
@@ -305,45 +309,117 @@ The fourteenth field in my booking form is a checkbox that you must check to con
 
 You must check this box to submit my booking form and continue to the next step. By checking this box, you acknowledge that you will go through my lightweight screening process. Note that nowhere did you actually provide the screening information yet. This means if you do not provide the screening information in the next step, your inquiry will likely not receive a reply.
 
-### Submit my booking form
+## Submit my booking form to send your inquiry
 
-Once you think you've completed filling in all the fields in the form, you can press the buttons at the bottom to submit it. There are two buttons:
+Once you think you've completed filling in all the fields in the form, you can press the buttons at the bottom to submit it. There are two buttons, numbered 1 and 2.
 
 1. Click or tap the first button, which reads "`Copy inquiry to clipboard`". The text of the button will change to "`Copied! (Click to copy again.)`"
-    * Pressing this button reads your entries in my booking form and places a copy of its text in your device clipboard.
-1. Click or tap the second button, which reads "`Send inquiry`".
+    * Pressing this button reads your entries in my booking form and places a copy of its text in your device's clipboard.
+1. If the second button reads "`Check form fields`," it means you omitted a required field, or entered information I won't accept, such as a date or time in the past. Otherwise, the button will read "`Send inquiry`." Click or tap this second button to continue.
+    * If the button still said "`Check form fields`" when you pressed it, you'll be refocused on the first form field whose value needs correction.
+    * If the button read, "`Send inquiry`," pressing it will progress you to the next step.
 
-If you have entered valid data in all the form fields, your chosen communication method will activate. Your browser may also show you a dialogue box informing you that another app will open to handle this action, so click **Ok** to open that other app.
-
-If you omitted a field, even by accident, you won't be able to submit the form and the browser will alert you to the missing field by showing a small tooltip hovering near the field you missed. The field will also be highlighted in red. Enter the requested data in the field until the red highlight disappears and try submitting the form with the two buttons again.
+When you press the `Send inquiry` button, your chosen communication method (email, Signal, WhatsApp, etcetera) will activate. Your browser might also show you a dialogue box informing you that another app will open to handle this action, so click **Ok** to open that other app.
 
 ### Review and confirm your inquiry is as you desire
 
-After you fill all the fields in my booking form and press the `Send inquiry` button on my booking form, the corresponding app for the contact method you chose earlier will open directly to a conversation thead or draft message with all the information you entered in my booking form written out for you.
+After you fill all the fields in my booking form and press the `Send inquiry` button on my booking form, the corresponding app for the contact method you chose earlier will open directly to a conversation thead or draft message with all the information you entered in my booking form written out for you. The exception to this is if you chose Signal Private Messenger. In this case, use the clip/pasteboard feature (such as by pressing Control-V on your keyboard), to paste the form's message into the Signal conversation that was opened with me.
 
-The one exception is if you chose Signal Private Messenger. In this case, use your device's built-in clipboard paste feature (such as by pressing Control-V on your keyboard when using a Windows computer), to paste the form's message into the Signal conversation with me.
+Now's a good time to review your inquiry to me before you commit to sending it. My booking form composed what I consider [an *ideal initial inquiry*]({% link index.html %}#contact-instructions) for you. (In fact, if you ask around, I'm sure many other providers will largely agree that they'd find it hot to get a first message written like this, too!) Make sure it says what you want, and that you entered the information you intended to.
 
-In either case, consider re-reading the inquiry text anew. This is written as [an *ideal initial inquiry*]({% link index.html %}#contact-instructions) to me (and, if you ask around, I'm sure many other providers will largely agree that they'd find it hot to get a first message written like this, too). Make sure it says what you want, and that you entered the information you intended to correctly.
-
-You can also optionally extend any part of the inquiry by simply editing the drafted message at this point. Get as creative as you like, but keep the professional tone and don't start asking highly explicit questions or using overtly sexualized language. Save that for after you are screened.
+Since the message you're about to send is just text, you can also extend any part of the inquiry by simply editing the drafted message at this point. Please feel free to get as creative as you like, but keep the tone professional and don't start asking highly explicit questions or using overtly sexualized language. Save that for after you screen.
 
 ### Attach your screening information to the templated message
 
-The only thing missing from your message now is your screening information, which is absolutely required if you have never screened with me before. This detail is also required of you if you expect to receive a reply from me.
+The only thing missing from your message now is your screening information, which you'll need to send me if you've never screened with me before and are inquiring about anything other than a social meet-and-greet.
 
-In order to ensure the utmost confidentiality, your screening information is *never* entered into my Web site booking form. Instead, I expect it to be directly attached to this pre-written message. Regardless of which app you're using, you have the option of attaching an image or file to this message.
+[My booking form is designed to  carefully protect your privacy at this early stage]({% link colophon.md %}#privacy-guarantees-of-first-contact), which is why you're expected to directly attach it to this pre-written message rather than via the Web form. Regardless of which app you're now using to contact me (Signal, WhatsApp, email, or txt message), you have the option of attaching or sending images to screen yourself with:
 
 * If you chose Signal Private Messenger, [tap or click the plus (`+`) icon or the paperclip icon to attach a photo](https://support.signal.org/hc/en-us/articles/360007060212-Send-a-message#:~:text=to%20attach%20a%20photo){:target="_blank"}.
 * If you chose WhatsApp, [follow these instructions to attach a photo](https://faq.whatsapp.com/453914586839706/){:target="_blank"}.
 * If you chose email, use your email's built-in attachment feature as usual.
 * If you chose SMS/text message, you can also use your messenger's built-in attachment feature just like normal.
 
-Make sure the screening photo you attach is legible and is high-quality enough to be read clearly. Sometimes, SMS/text messages downgrade the quality of photos, so be prepared to re-send it if necessary, possibly through a different communication channel. Signal is, once again, the most private and most reliable communiation mechanism. Please consider using it if you aren't already.
+Make sure the screening photo you attach is clear, recent, and is high-quality enough to be read clearly. Sometimes, SMS/text messages downgrade the quality of photos, so be prepared to re-send it if I ask you to, possibly through a different communication channel. Once again, Signal Private Messenger is the most private and most reliable communiation mechanism. Please consider using it if you aren't already.
 
 ### Send your inquiry via your chosen app
 
-Once you have attached your screening information to the pre-drafted message, press the **Send** button in your chosen app.
+Once you have attached your screening information to the pre-drafted message, **Send** the message!
 
-Voila. Now, we wait.
+Voila! You've sent your inquiry. Take a break from the screen, put your phone down, enjoy a walk, go to the gym, or just enjoy the building anticipation of knowing that I'm going to squee with pleasure when I see it!
 
 ### Patiently wait for my reply
+
+Please be patient awaiting my reply. Under normal circumstances, it can take me up to a day or two to reply to even the most tempting inquiries. If I'm currently traveling, it can take even longer. I can promise you that well-crafted inquiries, such as those composed by my booking form, are all but guanrateed to receive an excited reply in short order!
+
+At this point, we're in contact, and the goal is simply to work out any remaining details.
+
+My reply will:
+
+* reiterate my understanding of your expectations and desires, so that we're both on the same page. 
+* propose that we act on one of the two date and time options you initially suggested.
+* maybe ask for follow-up information, such as any further screening information or logisitcal details, if necessary.
+* probably contain a lot of happy words and a fair number of heart emojis.
+
+#### If you don't receive a reply
+
+If you don't receive a reply, it can be because of any of the following reasons:
+
+* You omitted screening information.
+* You requested a session on very short notice, or for the same day.
+    * While I can sometimes accomodate a same-day appointment, this is rare and I may not reply if I can't.
+    * You are still expected to screen, even for same-day requests.
+* You entered sexually explicit language in one or more of the fields.
+* Your email was filtered to my spam folder. I do check my spam folder on occasion, but I also have an extremely strict spam filter that will flag your message if:
+    * your email address looks like a bot's.
+    * your email was recently created.
+    * your email was sent from an anonymous mailing service.
+    * you attached a file type other than a single-frame image, such as a ZIP archive, PDF, video, animated GIF, audio file, or executable program. I delete these instantly.
+* You used txt/SMS, especially from a burner, texting app, or VoIP number.
+    * It's okay to communicate with me from these apps, but they are extremely unreliable and I may not have received it.
+    * Consider just installing [Signal Private Messenger](https://Signal.org/){:target="_blank"} on your burner phone and registering it to your burner number, instead.
+
+### Confirm date details by sending a deposit
+
+When you receive my reply, read it closely!
+
+In the simplest case, I'll simply confirm my understanding of your expectations, pick one of the two date and time options you suggested in your initial inquiry, and supply you with instructions for how to send your deposit for the session. Sending your deposit is what confirms your appointment, so be sure to send it as soon as you can to reserve the time in my calendar.
+
+For more information, see my [deposit policy]({% link index.html %}#deposit-policy).
+
+#### About extensive or synchronous correspondence
+
+In an ideal case, it should take no more than three to five messages to inquire, confirm, and realize a date.
+
+1. Message one: you send your complete inquiry with screening information.
+1. Message two: I reply with a confirmation of your expectations, date details including the chosen date/time from your suggested options, and deposit information.
+1. Message three: you confirm these details and send your deposit to reserve time in my calendar.
+
+Real life is often messier, and it's possible that I'll need to ask you about, say, food allergies or preferences if we're going out, or clarify something in your inquiry. There is no strict limit to how many messages we'll exchange, but you'll undoubtedly notice my attention to detail and thoroughness in each and every one that I send. My goal is to handle logistics quickly so that we can get on to the really fun stuff equally quickly!
+
+If we find ourselves unable to plan for and set a specific date, time, or place for your appointment in more than five back-and-forth messages, it may mean you aren't quite ready to book, and I'll probably suggest you send a new inquiry when you're more ready. It's not a big deal, I just need to move on to other inquiries.
+
+Otherwise, if you feel like you need extensive correspondence or a real-time conversation, you can:
+
+* schedule [an introductory call]({% link index.html %}#rate-add-ons-and-online-intro-call-and-deposit-20-minutes) so we can get on the phone and talk things out or settle any pre-date nerves.
+* demonstrate good etiquette by [sending me a tip]({% link index.html %}#links-group-tip-me) or buying me a gift off [my wishlist]({% link index.html %}#links-throne) as a show of good faith and to compensate me for the additional time.
+
+## Enjoy the anticipation of our date
+
+Once we've worked out the details, you can simply enjoy the building anticipation of our time together!
+
+### The day before our date
+
+On the day before our date, I'll send you a reminder message. The reminder will re-confirm all the details we've already worked out (date, time, duration, and so on). It'll also provide more specific instructions for exactly how to meet, including things like where to park if you're driving, which intersection to meet at, a specific address with instructions on how to use the buzzer, and so on.
+
+If you haven't met a companion before, this part can feel a bit like spycraft, but don't worry. That's just pre-date jitters and butterflies.
+
+### If you need to reschedule or cancel
+
+As the time for our date comes closer, it's important that you stay in touch with me if our plans need to change. Rescheduling or even cancelling is perfectly acceptable, and normal, but you need to communicate this to me so we can make other arrangements without stressing.
+
+For more information, see my [cancellation policy](% link index.html %#cancellation-policy).
+
+## Show up
+
+This step is the most fun: show up, and let me take care of the rest. ;)

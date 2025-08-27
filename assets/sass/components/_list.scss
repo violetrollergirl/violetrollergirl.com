@@ -14,6 +14,11 @@
 		li {
 			padding-left: 0.25em;
 		}
+
+		ol {
+			list-style-type: lower-alpha;
+			margin-bottom: 0;
+		}
 	}
 
 	ul {
@@ -23,6 +28,10 @@
 
 		li {
 			padding-left: 0.5em;
+		}
+
+		ul {
+			margin-bottom: 0;
 		}
 
 		&.alt {
