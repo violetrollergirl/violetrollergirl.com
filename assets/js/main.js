@@ -185,6 +185,13 @@ layout: none
             }
         });
 
+        document.getElementById('booking-inquiry-form').addEventListener('input', function (e) {
+            var submitButton = document.getElementById('booking-inquiry-send-button');
+            submitButton.textContent = ( e.currentTarget.checkValidity() )
+                ? "2. Send inquiry"
+                : "2. Check form fields";
+        });
+
         $('#booking-inquiry-form').on('submit reset', function (e) {
             e.preventDefault();
             formData = $(this).serializeArray();
