@@ -1,18 +1,23 @@
 ---
 title: Booking Guide
+description: >
+    Many people are attracted to trans women like me, but few get the chance to get intimate with us.
+    This page thoroughly (over-)explains the booking process to offer you clarity, should you seek it.
 ---
 
-# Booking Guide
+# {{ site.title }}'s Booking Guide
 
 Many people are attracted to trans women like me, but few get the chance to get intimate with us. One of my favorite things about being a trans provider is sharing in that moment of discovery with you, and relishing the joy, relief, and opening of possibility that comes with it.
 
 To experience that, of course, you must first book me.
 
-The booking process can feel daunting, especially if you are "new to all this," but it really just boils down to being communicative. The more information you give me about your situation, the more likely I will be able to align some stars for us.
+The booking process can feel daunting, especially if you're "new to all this," but **it really just boils down to being communicative.** The more information you give me about your situation, the more likely I will be able to align some stars for us.
 
-I wrote this page to help those of you who want a meticulously crafted step-by-step guide to walk through booking with me. It explains how to start and what to do at every step of the way, in extraordinary detail that may be overkill for many of you, but provides a thorough reference regardless.
+## About this guide
 
-The point of this is not not to ensure that you do it perfectly, but rather to give you clarity should you seek it. While this guide is specific to booking *me*, you will probably find it useful for booking any companion, as most of what I require is rather standard across the industry.
+I wrote this page to help those of you who want a meticulously crafted step-by-step guide to walk through booking time with me. It explains how to start and what to do at every step of the way. Its extraordinary detail may be overkill for many of you, but provides a thorough reference regardless.
+
+The point of this is not not to ensure perfection, but rather to give you clarity during the process should you seek it. While this guide is specific to booking *me*, you'll probably find it useful for booking any companion, as most of what I ask for is standard across the industry.
 
 ## Table of contents
 
