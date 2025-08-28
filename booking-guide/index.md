@@ -414,7 +414,9 @@ Once we've worked out the details, you can simply enjoy the building anticipatio
 
 ### The day before our date
 
-On the day before our date, I'll send you a reminder message. The reminder will re-confirm all the details we've already worked out (date, time, duration, and so on). It'll also provide more specific instructions for exactly how to meet, including things like where to park if you're driving, which intersection to meet at, a specific address with instructions on how to use the buzzer, and so on.
+On the day before our date, I'll send you a reminder message. The reminder will re-confirm all the details we've already worked out (date, time, duration, and so on).
+
+In this reminder message, I'll also provide more specific instructions for exactly how to meet, including things like where to park if you're driving, which intersection to meet at, a specific address with instructions on how to use the buzzer, and so on.
 
 If you haven't met a companion before, this part can feel a bit like spycraft, but don't worry. That's just pre-date jitters and butterflies.
 
@@ -422,7 +424,7 @@ If you haven't met a companion before, this part can feel a bit like spycraft, b
 
 As the time for our date comes closer, it's important that you stay in touch with me if our plans need to change. Rescheduling or even cancelling is perfectly acceptable, and normal, but you need to communicate this to me so we can make other arrangements without stressing.
 
-For more information, see my [cancellation policy](% link index.html %#cancellation-policy).
+For more information, see my [cancellation policy]({% link index.html %}#cancellation-policy).
 
 ## Show up
 
