@@ -185,6 +185,13 @@ layout: none
             }
         });
 
+        // Form help text should also close the Contact panel.
+        document.querySelectorAll('#booking-inquiry-form small.form-text a.closer').forEach(function (el) {
+            el.addEventListener('click', function (e) {
+                e.target.closest('section.panel').querySelector('div.closer').click();
+            });
+        });
+
         document.getElementById('booking-inquiry-form').addEventListener('input', function (e) {
             var submitButton = document.getElementById('booking-inquiry-send-button');
             submitButton.textContent = ( e.currentTarget.checkValidity() )

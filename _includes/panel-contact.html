@@ -21,6 +21,13 @@ along with a bunch of additional instruction.
                     <p>
                         <label for="booking-inquiry-prospect-name" class="form-label">My name is</label>
                         <input type="text" class="form-input" id="booking-inquiry-prospect-name" name="booking_inquiry_prospect_name" required="required" placeholder="Write your name here" />.
+                        <sup>
+                            <small class="form-text">
+                                <a class="closer"
+                                    title="Read help for this field"
+                                    href="{% link booking-guide/index.md %}#booking-form-field-your-name">?</a>
+                            </small>
+                        </sup>
                     </p>
 
                     <p>
@@ -34,11 +41,25 @@ along with a bunch of additional instruction.
                             <option>employment information</option>
                             <option>a deposit for a social date at a public venue</option>
                         </select>.
+                        <sup>
+                            <small class="form-text">
+                                <a class="closer"
+                                    title="Read help for this field"
+                                    href="{% link booking-guide/index.md %}#booking-form-field-screening-method">?</a>
+                            </small>
+                        </sup>
                     </p>
 
                     <p>
                         <label for="booking-inquiry-prospect-carrier-phone">My carrier phone number (for your screening purposes only) is</label>
                         <input type="tel" class="form-input" id="booking-inquiry-prospect-carrier-phone" name="booking_inquiry_prospect_carrier_phone" required="required" placeholder="+1-555-123-4567" />.
+                        <sup>
+                            <small class="form-text">
+                                <a class="closer"
+                                    title="Read help for this field"
+                                    href="{% link booking-guide/index.md %}#booking-form-field-phone-number">?</a>
+                            </small>
+                        </sup>
                     </p>
 
                     <p>
@@ -61,6 +82,13 @@ along with a bunch of additional instruction.
                             <option value="email">email</email>
                             <option value="sms">SMS/text message</option>
                         </select>.
+                        <sup>
+                            <small class="form-text">
+                                <a class="closer"
+                                    title="Read help for this field"
+                                    href="{% link booking-guide/index.md %}#booking-form-field-preferred-contact-method">?</a>
+                            </small>
+                        </sup>
                         <span id="contact-method-reliability-warning" style="display: none;">
                             <br />
                             (<span class="fa-solid fa-triangle-exclamation"></span> SMS text messages are occasionally <em>very unreliable</em>. If you don&rsquo;t hear back from me, consider trying again using another contact method.)
@@ -91,6 +119,13 @@ along with a bunch of additional instruction.
                             <option>search engine results</option>
                             <option>word of mouth</option>
                         </datalist>
+                        <sup>
+                            <small class="form-text">
+                                <a class="closer"
+                                    title="Read help for this field"
+                                    href="{% link booking-guide/index.md %}#booking-form-field-source-referral">?</a>
+                            </small>
+                        </sup>
                     </p>
                     <p>
                         <label for="booking-inquiry-prospect-attraction" class="form-label">I like your&hellip;</label>
@@ -99,6 +134,13 @@ along with a bunch of additional instruction.
                             class="form-input"
                             minlength="20{% comment %}160{% endcomment %}"
                             placeholder="Photos? Vibe? Use a professional tone. Avoid vulgar language."></textarea>
+                        <sup>
+                            <small class="form-text">
+                                <a class="closer"
+                                    title="Read help for this field"
+                                    href="{% link booking-guide/index.md %}#booking-form-field-free-form-notes">?</a>
+                            </small>
+                        </sup>
                     </p>
                 </fieldset>
 
@@ -119,6 +161,13 @@ along with a bunch of additional instruction.
                             <option value="a texting/sexting session">a texting/sexting session (online)</option>
                             <option value="an introductory call">an introductory call (phone)</option>
                         </select>
+                        <sup>
+                            <small class="form-text">
+                                <a class="closer"
+                                    title="Read help for this field"
+                                    href="{% link booking-guide/index.md %}#booking-form-field-booking-type">?</a>
+                            </small>
+                        </sup>
 
                         <label for="booking-inquiry-prospect-service-type" class="form-label">for your</label>
                         <select name="booking_inquiry_prospect_service_type" id="booking-inquiry-prospect-service-type"
@@ -130,9 +179,24 @@ along with a bunch of additional instruction.
                             <option>GFE/vanilla services</option>
                             <option>pro-sub/BDSM services</option>
                         </select>
+                        <sup>
+                            <small class="form-text">
+                                <a class="closer"
+                                    title="Read help for this field"
+                                    href="{% link booking-guide/index.md %}#booking-form-field-service-type">?</a>
+                            </small>
+                        </sup>
 
                         <label for="booking-inquiry-prospect-duration" class="form-label">for a duration of</label>
-                        <input type="number" name="booking_inquiry_prospect_duration" id="booking-inquiry-prospect-duration" class="form-input" value="" min=".5" max="14" step=".5" required="required" placeholder="#"> hour(s)
+                        <input type="number" name="booking_inquiry_prospect_duration" id="booking-inquiry-prospect-duration" class="form-input" value="" min=".5" max="14" step=".5" required="required" placeholder="#">
+                        <sup>
+                            <small class="form-text">
+                                <a class="closer"
+                                    title="Read help for this field"
+                                    href="{% link booking-guide/index.md %}#booking-form-field-duration">?</a>
+                            </small>
+                        </sup>
+                        hour(s)
 
                         <label for="booking-inquiry-prospect-location" class="form-label">when I will be in</label>
                         <input list="prospect-location-list" class="form-input"
@@ -146,6 +210,13 @@ along with a bunch of additional instruction.
                             <option>Boston, MA</option>
                             <option>an online/remote location</option>
                         </datalist>
+                        <sup>
+                            <small class="form-text">
+                                <a class="closer"
+                                    title="Read help for this field"
+                                    href="{% link booking-guide/index.md %}#booking-form-field-location">?</a>
+                            </small>
+                        </sup>
 
                         <label for="booking-inquiry-prospect-preferred-datetime" class="form-label">on</label>
                         <input type="datetime-local" class="form-input"
@@ -155,6 +226,13 @@ along with a bunch of additional instruction.
                             value="{{ datetime_default_value | date: "%Y-%m-%dT%H:%M" }}"
                             required="required"
                         />
+                        <sup>
+                            <small class="form-text">
+                                <a class="closer"
+                                    title="Read help for this field"
+                                    href="{% link booking-guide/index.md %}#booking-form-field-preferred-date-and-time">?</a>
+                            </small>
+                        </sup>
 
                         <label for="booking-inquiry-prospect-alternate-datetime" class="form-label">or, alternatively, on</label>
                         <input type="datetime-local" class="form-input"
@@ -164,6 +242,13 @@ along with a bunch of additional instruction.
                             value="{{ datetime_default_value | date: "%Y-%m-%dT%H:%M" }}"
                             required="required"
                         />.
+                        <sup>
+                            <small class="form-text">
+                                <a class="closer"
+                                    title="Read help for this field"
+                                    href="{% link booking-guide/index.md %}#booking-form-field-alternate-date-and-time">?</a>
+                            </small>
+                        </sup>
                         Would either of these options allow us to meet?
                     </p>
                 </fieldset>
@@ -171,11 +256,25 @@ along with a bunch of additional instruction.
                     <p>
                         <input type="checkbox" class="form-check-input" name="booking_inquiry_confirmed_fine_print" id="booking-inquiry-confirmed-fine-print" value="yes" required="required" />
                         <label for="booking-inquiry-confirmed-fine-print">Yes, I have read, understood, and fully agree to abide by the information on your Web site, including your <a href="#rates">rates</a>, <a href="#policies">policies</a>, and <a href="#tours">availability</a>.</label>
+                        <sup>
+                            <small class="form-text">
+                                <a class="closer"
+                                    title="Read help for this field"
+                                    href="{% link booking-guide/index.md %}#booking-form-field-confirm-policy-agreement">?</a>
+                            </small>
+                        </sup>
                     </p>
 
                     <p>
                         <input type="checkbox" class="form-check-input" name="booking_inquiry_confirmed_screening_attachment" id="booking-inquiry-confirmed-screening-attachment" value="yes" required="required" />
                         <label for="booking-inquiry-confirmed-screening-attachment">Yes, I will attach all relevant screening information. I understand that incomplete inquiries, such as those without screening information, may not receive a reply.</label>
+                        <sup>
+                            <small class="form-text">
+                                <a class="closer"
+                                    title="Read help for this field"
+                                    href="{% link booking-guide/index.md %}#booking-form-field-confirm-screening-attachment">?</a>
+                            </small>
+                        </sup>
                     </p>
 
                     <p class="button-container">
