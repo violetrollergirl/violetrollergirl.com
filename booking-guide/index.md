@@ -41,6 +41,10 @@ The point of this is not not to ensure that you do it perfectly, but rather to g
     1. [If you don't receive a reply](#if-you-dont-receive-a-reply)
 1. [Confirm date details by sending a deposit](#confirm-date-details-by-sending-a-deposit)
     1. [About extensive or synchronous correspondence](#about-extensive-or-synchronous-correspondence)
+1. [Enjoy the building anticipation of our upcoming date](#enjoy-the-building-anticipation-of-our-upcoming-date)
+    1. [The day before our date](#the-day-before-our-date)
+    1. [If you need to reschedule or cancel](#if-you-need-to-reschedule-or-cancel)
+1. [Show up](#show-up)
 
 ## Who should read this page
 
@@ -67,7 +71,7 @@ If the above describes you, I recommend the following blog posts on the Tryst Bl
 
 I also suggest spending a bit of time perusing the [Good Client Guide](https://goodclientguide.com/), a companion website that has compiled much of the same information.
 
-## Start here: once you know you want to meet
+## Start here: once you know you want to meet me
 
 Everyone I meet begins at my [booking form]({% link index.html %}#contact). Additionally, my booking form offers some [rather novel privacy-preserving features]({% link colophon.md %}#privacy-guarantees-of-first-contact) that you may find valuable if you need extra levels of discretion, so it behooves you to use it.
 
@@ -404,7 +408,7 @@ Otherwise, if you feel like you need extensive correspondence or a real-time con
 * schedule [an introductory call]({% link index.html %}#rate-add-ons-and-online-intro-call-and-deposit-20-minutes) so we can get on the phone and talk things out or settle any pre-date nerves.
 * demonstrate good etiquette by [sending me a tip]({% link index.html %}#links-group-tip-me) or buying me a gift off [my wishlist]({% link index.html %}#links-throne) as a show of good faith and to compensate me for the additional time.
 
-## Enjoy the anticipation of our date
+## Enjoy the building anticipation of our upcoming date
 
 Once we've worked out the details, you can simply enjoy the building anticipation of our time together!
 
