@@ -1,0 +1,29 @@
+/**
+ * Alternate stylesheet ("skin") for the
+ * "Sweet Trans Kitten" color scheme.
+ */
+@use "sass:map";
+
+$palette: (
+    bg:					#ea548c,
+    bg-alt:				#1f2224,
+    bg-overlay:			transparentize(#ea548c, 0.75),
+    bg-overlay-alt:		transparentize(#ea548c, 0.5),
+    bg-overlay-alt-min:	transparentize(#ea548c, 0.1),
+    bg-ie-overlay:		transparentize(#ea548c, 0.45),
+    bg-ie-overlay-alt:	transparentize(#ea548c, 0.2),
+    fg:					#000000,
+    fg-bold:			#000000,
+    fg-medium:			#000000,
+    fg-light:			#000000,
+    border:				#36383c,
+    border-bg:			#34363b,
+    border-bg-alt:		#44464b,
+    accent1:			#34a58e,
+    bg-shadow:			green
+);
+
+/* Type */
+body, input, select, textarea {
+    color: map.get($palette, "fg");
+}

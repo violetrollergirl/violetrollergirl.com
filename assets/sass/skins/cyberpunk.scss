@@ -1,0 +1,30 @@
+/**
+ * Alternate stylesheet ("skin") for the
+ * "Cyberpunk Hentai Succubus" color scheme.
+ */
+@use "sass:map";
+
+// Palette.
+$palette: (
+    bg:					#242629,
+    bg-alt:				#1f2224,
+    bg-overlay:			transparentize(#242629, 0.75),
+    bg-overlay-alt:		transparentize(#242629, 0.5),
+    bg-overlay-alt-min:	transparentize(#242629, 0.1),
+    bg-ie-overlay:		transparentize(#242629, 0.45),
+    bg-ie-overlay-alt:	transparentize(#242629, 0.2),
+    fg:					#e6e6e6,
+    fg-bold:			#ffffff,
+    fg-medium:			#707071,
+    fg-light:			#505051,
+    border:				#36383c,
+    border-bg:			#34363b,
+    border-bg-alt:		#44464b,
+    accent1:			#34a58e,
+    bg-shadow:			green
+);
+
+/* Type */
+body, input, select, textarea {
+    color: map.get($palette, "fg");
+}

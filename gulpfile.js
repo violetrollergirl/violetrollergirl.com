@@ -27,6 +27,14 @@ gulp.task('resize-images', function () {
 
 // compile scss to css
 gulp.task('sass', function () {
+    gulp.src('./assets/sass/skins/sweet.scss')
+        .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+        .pipe(rename({basename: 'sweet.min'}))
+        .pipe(gulp.dest('./assets/css'));
+    gulp.src('./assets/sass/skins/cyberpunk.scss')
+        .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+        .pipe(rename({basename: 'cyberpunk.min'}))
+        .pipe(gulp.dest('./assets/css'));
     return gulp.src('./assets/sass/main.scss')
         .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
         .pipe(rename({basename: 'main.min'}))
