@@ -91,8 +91,18 @@ Zashi even has a "Request" button in its "Receive" screen that lets you enter an
 
 ## On-ramping: Acquiring cryptocurrency funds
 
-Now that you have a privacy-preserving cryptocurrency wallet app and can receive funds in a privacy coin like Zcash or Monero, you should start acquiring some funds. The cryptocurrency world calls this "on-ramping," using the analogy of a highway on-ramp from one place (the fiat economy) to another (the so-called "crypto-native" economy, or whatever).
+Now that you have a privacy-preserving cryptocurrency wallet app and can receive funds in a privacy coin like Zcash or Monero, it's time to start acquiring some funds. The cryptocurrency world calls this "on-ramping," using the analogy of a highway on-ramp from one place (the fiat economy) to another (the so-called "crypto-native" economy, or whatever).
 
 I'll be blunt: the easiest way for many of us to do this is to just get a client or customer to pay us in cryptocurrency. This is also arguably one of the most private ways, because as far as we're concerned, it means we simply avoid any interaction with the fiat economy entirely. This is of course even better and more private if we get paid directly in a privacy coin.
 
-For some of us, however, this seems like a stretch. Our clients or customers are wary of cryptocurrency, they don't have the technical skill to do it, they have no existing cryptocurrency funds, or they don't have the same cryptocurrencies that we want to accept. I'll address all of these points in my next guide, ["How and why to convince clients and customers to pay us in cryptocurrency"]({% link resources/for-providers/using-cryptocurrency/convince-clients.md %}) but, for now, let's talk about on-ramping in other ways.
+For some of us, however, this seems like a stretch. Our clients or customers are wary of cryptocurrency, they don't have the technical skill to do it, they have no existing cryptocurrency funds themselves, or they don't have the same cryptocurrencies that we want to accept payments in. I'll address all of these points in my next guide, ["How and why to convince clients and customers to pay us in cryptocurrency"]({% link resources/for-providers/using-cryptocurrency/convince-clients.md %}) but, for now, let's talk about on-ramping in other ways.
+
+### Buy ZEC in Zashi via Coinbase
+
+If you have existing fiat currency, like US Dollars (USD), Euros (EUR), or whatever, the simplest way to acquire Zcash funds ("ZEC") is to buy it with some of your existing other currency. You can do this using any number of fiat-to-Zcash cryptocurrency exchanges. Today, the biggest and most famous of these are Coinbase, Krakken, and Binance.
+
+It's important to note that buying ZEC from one of these big exchanges and sending it directly to your Zashi wallet app is not the same as buying ZEC and then keeping it in the cryptocurrency bank account you created at the exchange from which you bought the ZEC. By moving your funds directly from the exchange into your Zashi wallet app, you are doing the equivalent of withdrawing your money from the bank so you can hold onto it (and protect it) by yourself.
+
+For regulatory compliance reasons, most big exchanges don't support Zcash's shielded mode, which means this is one of a very small number of situations in which you may need to provide your transparent address (sometimes called a "taddr") to the exchange to buy your ZEC. However, once purchased and sent directly to your Zashi wallet, the app will automatically shield your funds, making it private again.
+
+At Zashi's main screen, there's a "More" button with an ellipsis. Tapping on it will reveal a number of additional options, one of which reads "Buy ZEC with Coinbase." Tap that to open your Web browser to the Coinbase Onramp website, where you can pay for ZEC with your credit, debit, or other fiat electronic payment app.
