@@ -11,11 +11,22 @@
 	min-height: 100%;
 	background: _palette(bg-overlay-alt-min);
 
-    & h2,
-    & h3,
-    & h4,
-    & h5,
-    & h6 {
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
         scroll-margin-top: 100px;
+    }
+
+    footer:last-child {
+        text-align: center;
+        padding-top: 1em;
+        border-top: 2px dotted _palette(border-bg-alt);
+        margin-bottom: 4em;
+    }
+
+    footer:last-child p {
+        font-size: smaller;
     }
 }
