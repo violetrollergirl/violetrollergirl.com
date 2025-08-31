@@ -1,5 +1,8 @@
 ---
 title: Using Cryptocurrency (for Sex Workers)
+description: >
+    A series of articles written for providers about why and how
+    to use privacy-preserving cryptocurrencies like Zcash and Monero.
 ---
 
 # {{ site.title }}'s Resources for Providers Using Cryptocurrency
@@ -10,5 +13,4 @@ I hope these short, stand alone articles help you better understand why there ar
 
 1. [{{ site.title }}'s cryptocurrency primer for providers]({% link resources/for-providers/using-cryptocurrency/primer.md %})
 1. [How to start using cryptocurrency as a sex worker]({% link resources/for-providers/using-cryptocurrency/how-to-start.md %})
-1. [How and why to convince clients and customers to pay us in cryptocurrency]({% link resources/for-providers/using-cryptocurrency/convince-clients.md %})
-1. [How to use cryptocurrency to pay for things (like your ad) completely anonymously]({% link resources/for-providers/using-cryptocurrency/paying-anonymously.md %})
+1. [How and why to convince clients and customers to pay us in cryptocurrency]({% link resources/for-providers/using-cryptocurrency/convincing-clients.md %})

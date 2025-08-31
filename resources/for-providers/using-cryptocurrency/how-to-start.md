@@ -1,5 +1,8 @@
 ---
 title: How to start using cryptocurrency as a sex worker
+description: >
+    A practical introduction to using privacy coins like Zcash
+    to do everything from get paid to pay for ads.
 ---
 
 # Start using cryptocurrency today, as a sex worker
@@ -28,6 +31,7 @@ A lot of people think getting started with cryptocurrency is hard. That might ha
         1. [Paying in Bitcoin when you only have Zcash](#paying-in-bitcoin-when-you-only-have-zcash)
     1. [Off-ramp by using crypto-to-fiat sites](#off-ramp-by-using-crypto-to-fiat-sites)
     1. [Off-ramp by using Flexa in Zashi](#off-ramp-by-using-flexa-in-zashi)
+1. [What's next: convincing clients and customers](#whats-next-convincing-clients-and-customers)
 
 ## Choose and install your wallet app
 
@@ -115,7 +119,7 @@ Zashi even has a "Request" button in its "Receive" screen that lets you enter an
 
 You can think of this "request via QR code" feature like a simplistic point-of-sale system. I love it because it's perfect for us as providers since we're so often interactively requesting payment from customers and clients who need things to be as easy as "scan-and-send."
 
-For some of us, however, getting paid directly in crypto seems like a stretch. Our clients or customers are wary of cryptocurrency, they don't have the technical skill to do it, they have no existing cryptocurrency funds themselves, or they don't have the same cryptocurrencies that we want to accept payments in. I'll address all of these points in my next guide, ["How and why to convince clients and customers to pay us in cryptocurrency"]({% link resources/for-providers/using-cryptocurrency/convince-clients.md %}) but, for now, let's talk about on-ramping in other ways.
+For some of us, however, getting paid directly in crypto seems like a stretch. Our clients or customers are wary of cryptocurrency, they don't have the technical skill to do it, they have no existing cryptocurrency funds themselves, or they don't have the same cryptocurrencies that we want to accept payments in. I'll address all of these points in my next guide, ["How and why to convince clients and customers to pay us in cryptocurrency"]({% link resources/for-providers/using-cryptocurrency/convincing-clients.md %}) but, for now, let's talk about on-ramping in other ways.
 
 ### On-ramp by converting fiat currency to cryptocurrency
 
@@ -222,3 +226,15 @@ Another way to spend your hard-earned cryptocurrency is to use dedicated service
 ### Off-ramp by using Flexa in Zashi
 
 > I need to write this up, too. Basically it's just Flexa integration within Zashi, so you can buy, like, Chipotle meals or whatever else Flexa supports by paying with ZEC from within the app. It's cool, but generic.
+
+## What's next: convincing clients and customers
+
+Hopefully by now you've seen how quickly you can get set up with privacy coins like Zcash using private-by-default wallet apps like Zashi. Over time, you'll surely find more and more opportunities to use this private economic technology with one another. But I especially hope you'll start to convince clients and customers to use it, too.
+
+I know that's not necessarily going to be easy. But it is going to be important. Privacy is very famously a "network problem," meaning our privacy is only as safe as the person least willing to protect it on our behalf. While there are absolutely things we can do to protect ourselves, at the end of the day, we are all safer if everyone participates in this private-by-default economy as often as possible.
+
+To that end, have a read through my next article, "[How and why to convince clients and customers to pay us in cryptocurrency]({% link resources/for-providers/using-cryptocurrency/convincing-clients.md %})."
+
+Finally, if you are a fellow provider and need help, have suggestions to improve this guide, or just want to talk cool privacy tech, please feel free to [contact me](#contact) or to [find me on any of my socials]({% link index.html %}#links-group-socials-amp-content).
+
+Now go out there and free your money!

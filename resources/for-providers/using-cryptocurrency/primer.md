@@ -1,12 +1,15 @@
 ---
 title: Cryptocurrency Primer for Sex Workers
+description: >
+    Violet Rollergirl's cryptocurrency primer gives you a
+    foundation for understanding privacy-preserving finance tech.
 ---
 
 # {{ site.title }}'s cryptocurrency primer for providers
 
 If you're reading this, I hope it means you're going to give me the chance to convince you to start using cryptocurrency. As I write this, a lot of sex workers don't. And I get why.
 
-Cryptocurrency has a reputation problem. It's often maligned for social reasons ("cryptobros"), ecological reasons ("blockchains are killing the planet"), and political reasons ("money is made up bullshit and a tool of the oppresor"). I'm not going to refute any of these points, except maybe the second one; both of the cryptocurrency technologies I'm going to recommend are moving away from compute-intensive Proof-of-Work (PoW) schemes to ecologically-friendly Proof-of-Stake (PoS) schemes.
+Cryptocurrency has a reputation problem. It's often maligned for social reasons ("cryptobros"), ecological reasons ("blockchains are killing the planet"), and political reasons ("money is made up bullshit and a tool of the oppressor"). I'm not going to refute any of these points, except maybe the second one; both of the cryptocurrency technologies I'm going to recommend are moving away from compute-intensive Proof-of-Work (PoW) schemes to ecologically-friendly Proof-of-Stake (PoS) schemes.
 
 This article is for my colleagues who are willing to give cryptocurrency a chance.
 
@@ -37,13 +40,13 @@ As a sex worker, I just want a way to pay for things (like [my ads]({% link inde
 
 Using cryptocurrency correctly solves every single one of these problems. That's why I use it.
 
-Since cryptocurrency can function like digital cash, I don't need to sign up to a big tech service or open an account at the cryptocurrency equivalent of a bank to use it. Since it's not actually physical, but rather "mathemtical" money, there's no chance at all of a client giving me counterfeit bills or coins. For the same reason, once a client or customer sends me money in a cryptocurrency transaction, there's no way for that sender to initiate a reversal or punish me with a chargeback.
+Since cryptocurrency can function like digital cash, I don't need to sign up to a big tech service or open an account at the cryptocurrency equivalent of a bank to use it. Since it's not actually physical, but rather "mathematical" money, there's no chance at all of a client giving me counterfeit bills or coins. For the same reason, once a client or customer sends me money in a cryptocurrency transaction, there's no way for that sender to initiate a reversal or punish me with a chargeback.
 
 There are also some additional benefits that using cryptocurrency has over fiat currency. I think the most awe-inspiring of these is how I can cross an international border with absolutely no physical device on my person, and yet still travel with all my money. In other words, cryptocurrency changes money from something you have (physical cash) into something you know (a secret pass phrase). If you memorize your cryptocurrency wallet's secret phrase, you'll always have access to your money in a way that no one can take away from you, even if you're traveling with nothing but your birthday suit.
 
 ## Two kinds of cryptocurrencies: private and not private
 
-Some of the above, like the way cryptocurrency makes counterfeits impossible (cryptographers would say, "mathemtically infeasible") is made possible regardless of which cryptocurrency you use. Bitcoin is the famous cryptocurrency, and it's had this counterfeit-proof characteristic since its inception. But some of the other things I talk about above are only possible if you strictly limit yourself to certain cryptocurrency technologies that are broadly classified as *privacy coins*.
+Some of the above, like the way cryptocurrency makes counterfeits impossible (cryptographers would say, "mathematically infeasible") is made possible regardless of which cryptocurrency you use. Bitcoin is the famous cryptocurrency, and it's had this counterfeit-proof characteristic since its inception. But some of the other things I talk about above are only possible if you strictly limit yourself to certain cryptocurrency technologies that are broadly classified as *privacy coins*.
 
 A privacy coin is a cryptocurrency that keeps transaction data, such as a payment's sender, recipient, and amount, secret. Technically, privacy coins use math known as zero-knowledge proofs (*ZKPs*) to encrypt the details of each transaction so that only the sender and intended recipient know what's up. Only privacy coins do this. In contrast, using Bitcoin literally broadcasts your financial dealings for the world to see. I don't want to be doing that, nor do my clients.
 
