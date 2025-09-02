@@ -293,25 +293,25 @@ along with a bunch of additional instruction.
         <h2 id="connection-methods">Connection Methods</h2>
         <p>I can be reached via any of the following channels, though I strongly prefer encrypted messaging via <a href="{% include signal-booking.url %}">Signal Private Messenger</a>. <small>(You&rsquo;ll earn a $40 USD discount for booking entirely over Signal as a thank you for helping to protect your privacy and mine.)</small></p>
         <p>When reaching out to book a session, <strong>only messages that include <em>all</em> of the same information that <a href="#booking-inquiry-form">my booking form</a> asks you to provide will receive a reply</strong>. If you don't receive a reply, this is likely why.</p>
-        <ul class="icons labels-list align-center">
+        <ul id="contact-links-list"  class="icons labels-list">
             <li>
                 <a id="contact-link-signal" class="icon fa-brands fa-signal-messenger fa-5x" href="{% include signal-booking.url %}" title="Signal">
-                    <span class="label icon-label">Signal Private Messenger</span>
+                    <span class="label icon-label">Signal Private Messenger<br />({{ site.contact.signal.username }})</span>
                 </a>
             </li>
             <li>
                 <a id="contact-link-email" class="icon fa-brands fa-envelope fa-5x" href="{% include mailto-booking.url %}" title="Email">
-                    <span class="label icon-label">Email</span>
+                    <span class="label icon-label">Email<br />({{ site.contact.email }})</span>
                 </a>
             </li>
             <li>
                 <a id="contact-link-whatsapp" class="icon fa-brands fa-whatsapp fa-5x" href="{% include whatsapp-booking.url %}" title="WhatsApp">
-                    <span class="label icon-label">WhatsApp</span>
+                    <span class="label icon-label">WhatsApp<br />({{ site.contact.whatsapp }})</span>
                 </a>
             </li>
             <li>
                 <a id="contact-link-sms" class="icon fa-brands fa-comment-sms fa-5x" href="{% include sms-booking.url %}" title="Text/SMS">
-                    <span class="label icon-label">Text/SMS</span>
+                    <span class="label icon-label">Text/SMS<br />({{ site.contact.sms }})</span>
                 </a>
             </li>
         </ul>

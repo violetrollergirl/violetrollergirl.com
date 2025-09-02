@@ -1,0 +1,1 @@
+[{{ include.anchor_text }}]({% if include.url == "../" %}{{ include.url }}{% else %}{{ include.url | relative_url }}{% endif %}){:.button{% if include.target %} target="{{ include.target | default: "_blank" }}"{% endif %}}{{ "" -}}

@@ -3,4 +3,4 @@ This is a Signal "Encrypted Username" (EU) Link intended for integration with th
 See also:
 https://signal.miraheze.org/wiki/Signal.me_URLs
 {% endcomment -%}
-{{ site.contact.signal }}{{ "" -}}
+{{ site.contact.signal.url }}{{ "" -}}

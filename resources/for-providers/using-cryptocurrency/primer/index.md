@@ -3,6 +3,7 @@ title: Cryptocurrency Primer for Sex Workers
 description: >
     Violet Rollergirl's cryptocurrency primer gives you a
     foundation for understanding privacy-preserving finance tech.
+next: resources/for-providers/using-cryptocurrency/wallet-apps/
 ---
 
 # {{ site.title }}'s cryptocurrency primer for providers
@@ -60,7 +61,7 @@ A lot of people who have been in the cryptocurrency space for a while have a lot
 
 Most people who rag on Zcash will tell you that it's "not private by default." This is just not true anymore. They are saying this because Zcash actually supports both a private and a non-private mode. In Zcash parlance, we call this "shielded" (private) and "transparent" (non-private/public) addresses and transactions. Back in the day, most apps that supported Zcash's currency token, called *ZEC (the Zcash Electric Coin)*, didn't support the shielded functionality, but that's since changed.
 
-Good apps like [Zashi Wallet](https://electriccoin.co/zashi/){:target="_blank"} exist that not only fully support and default to Zcash's shielded mode, they also automatically convert non-private/public/transparent Zcash funds into their shielded/private equivalents. Zashi in particular also prevents you from spending unshielded funds, and even goes so far as to help protect your privacy from all kinds of other deanonymization techniques by making it dead-simple to use the famous privacy-enhancing anonymizing proxy called Tor from right within the app. Zashi is made by the same team that built Zcash itself. It's [my favorite wallet app for Zcash]({% link resources/for-providers/using-cryptocurrency/how-to-start.md %}#zashi-privacy-focused-zcash-wallet-app).
+Good apps like [Zashi Wallet](https://electriccoin.co/zashi/){:target="_blank"} exist that not only fully support and default to Zcash's shielded mode, they also automatically convert non-private/public/transparent Zcash funds into their shielded/private equivalents. Zashi in particular also prevents you from spending unshielded funds, and even goes so far as to help protect your privacy from all kinds of other deanonymization techniques by making it dead-simple to use the famous privacy-enhancing anonymizing proxy called Tor from right within the app. Zashi is made by the same team that built Zcash itself. It's [my favorite wallet app for Zcash]({% link resources/for-providers/using-cryptocurrency/wallet-apps/index.md %}#zashi-privacy-focused-zcash-wallet-app).
 
 Some critics of Zcash will also describe it as having "too small an anonymity set," which is fancy-speak for "not enough people are using it to make it really private." That's a bit like saying you shouldn't use Signal Private Messenger because using it will look suspicious, and while that may be true(-ish) for some people in some circumstances some of the time, it's just not a convincing argument. If you have the choice between two tools, and one protects you while the others don't, just use the one protecting you.
 
@@ -98,6 +99,5 @@ Hopefully, this gives you enough of a foundation to understand why I use cryptoc
 
 The biggest downside to cryptocurrency is that it's still not used by a lot of clients and customers. But, hopefully, as more providers learn to accept and use it, that will change, too.
 
-So that's basically all you need to know to get a sense of what to ignore and what to pay attention to in the crypto space as a sex worker.
-
-Next, [learn how to actually start using cryptocurrency today]({% link resources/for-providers/using-cryptocurrency/how-to-start.md %}).
+{:.align-center}
+{% include link-as-button.md anchor_text="Next: Wallet apps" url=page.next %} {% include link-as-button.md anchor_text="Up" url="../" %}

@@ -168,7 +168,7 @@ The fourth field in my booking form is a drop-down menu for you to choose how yo
     * I prefer that we communicate using
 * The field's placeholder reads: `Your preferred contact method`
 * You are expected to choose one from the following options:
-    * Choose `Signal Private Messenger` if you'd like the booking form to send your message to [my Signal Private Messenger account]({{ site.contact.signal }}){:target="_blank"}.
+    * Choose `Signal Private Messenger` if you'd like the booking form to send your message to [my Signal Private Messenger account]({{ site.contact.signal.url }}){:target="_blank"}.
         * This is my preferred contact method, so you'll definitely earn some bonus points for messaging me this way!
         * You will need the Signal app installed on the device you are filling out the form from.
     * Choose `WhatsApp` if you'd like the booking form to send your message to my [WhatsApp](https://www.whatsapp.com/){:target="_blank"} Business account.
