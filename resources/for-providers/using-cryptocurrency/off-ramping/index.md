@@ -65,14 +65,44 @@ This is in fact how I pay for [my Tryst membership]({% link index.html %}#links-
 
 ## Use specialty gift card and exchange service providers
 
-Another way to spend your hard-earned cryptocurrency is to use dedicated services at sites designed for off-ramping. These include:
+Today, among the most common ways to spend your hard-earned cryptocurrency is by bridging it into the massive "gift card economy" for making various kinds of retail purchases. One thing that's nice about this for us as sex workers in particular is that many of us are already very familiar with gift cards and similar store credit services. We may even have regular business expenses such as a prepaid mobile phone (<acronym title="electronic subscriber identity module">eSIM</acronym>) line or hotel bookings we need to make to run our business.
 
-- [Bitrefill](https://www.bitrefill.com/){:target="_blank"}, a site that sells gift cards to a plethory of well-known brands by accepting cryptocurrency as payment for them
-- [Travala](https://www.travala.com/){:target="_blank"}, a site designed for booking hotels, flights, tours, and other activities with crypto
+Since gift cards and store credit systems are already a certain kind of alternative digital local currency, cryptocurrency is a natural fit. As a result, an entire *crypto gift card marketplace* (sometimes also called the broader "peer-to-peer (P2P) crypto marketplace") industry has emerged to support this way of off-ramping cryptocurrency funds. While different crypto-to-gift-card exchange service providers support different currencies, [Zashi's built-in decentralized exchange ZEC off-ramp](#paying-in-bitcoin-when-you-only-have-zcash) solves that problem, so the main considerations for those of us who want to use this method to spend our cryptocurrency funds are:
+
+- finding a crypto to gift card exchange provider that partners with a brand we want to spend on, and
+- ensuring that the exchange provider's terms of use and their ["Know Your Customer" rules]({% link resources/for-providers/using-cryptocurrency/kyc/index.md %}) doesn't risk our privacy more than we are comfortable with.
+
+I strongly suggest talking to your friends and colleagues about what services they like and feel safe using, and why. But if you're just starting from scratch, read on to learn about my favorite services.
 
 ### Pay for stuff via Flexa in Zashi
 
-> I need to write this up, too. Basically it's just Flexa integration within Zashi, so you can buy, like, Chipotle meals or whatever else Flexa supports by paying with ZEC from within the app. It's cool, but generic.
+One crypto gift card marketplace vendor in particular deserves a special mention, [Flexa](https://flexa.co/){:target="_blank"}, because you can use them directly from [my favorite Zcash wallet app, Zashi]({% link resources/for-providers/using-cryptocurrency/wallet-apps/index.md %}#zashi-privacy-focused-zcash-wallet-app). If you've installed the mainstream version of Zashi (i.e., from the Google Play Store or the Apple App Store, but *not* from the [F-Droid strictly free software app repository](https://f-droid.org/en/packages/co.electriccoin.zcash.foss/){:target="_blank"}), you'll have the option to spend your shielded ZEC from within your Zashi wallet by converting it directly to a Flexa account balance, which is basically a multi-store gift card manager mini-app inside Zashi itself.
+
+As of this writing, some Flexa partners include [Ulta Beauty](https://www.ulta.com/){:target="_blank"} and [Kiehl's](https://www.kiehls.com/){:target="_blank"} (cosmetic and skincare product brands, useful for the obvious reasons), [Sheetz](https://www.sheetz.com/){:target="_blank"} (a convenience store and gas station chain, useful if you often drive yourself to outcalls), and [Chipotle](https://www.chipotle.com/){:target="_blank"}, which I guess is mostly noteworthy for personal reasons because one of my partners loves Mexican food, so I get to treat them here often. :)
+
+First, set up Zashi to work with Flexa as privately as possible by [enabling Zashi's built-in Tor network privacy features](https://electriccoin.co/blog/zashi-2-1-enhanced-privacy-with-tor-beta/){:target="_blank"}. Once that's set up **do this to use Flexa from within Zashi:**
+
+1. Open your Zashi wallet app. Make sure have some ZEC in it, enough to cover the cost of the thing you're about to buy in the local fiat currency where you're buying it (such as in US Dollars if you're in the United States).
+1. Tap the "More&hellip;" button in the Zashi main screen.
+1. Tap the "Pay with Flexa" item in the resulting list.
+1. If this is the first time you've used Flexa, you'll be asked to complete a brief registration process where you are asked for your name and email address. At this point, there are a few things you should know:
+    - While Flexa will have this information, none of it will end up on the Zcash blockchain network nor with the ultimate merchant from which you are buying something.
+    - At the moment, [Flexa limits your spending to $750 USD per week](https://support.flexa.co/en/articles/3142914-how-much-can-i-spend-using-flexa){:target="_blank"}. As a result, [Flexa is not required to share any of your off-ramping activity with the US government's Internal Revenue Service (IRS, the tax man)](https://support.flexa.co/en/articles/3142914-how-much-can-i-spend-using-flexa){:target="_blank"}.
+    - I signed up with Flexa using a name that is not my legal name and an email address that is not one I use for my legal identity, and I was still able to buy stuff by funding it with my Zcash balance. You can do the same. (Try using [Firefox Relay](https://relay.firefox.com/){:target="_blank"} for your masked email address.)
+1. Once you have a Flexa account, you'll be given a "Flexa QR code" that is basically just a barcode that participating brands can scan as a native payment. It's that easy. But you'll also see a "More instant payments" box at the bottom of your screen. These are "legacy Flexa brands," which are the stores at which you need to tell the cashier that you want to pay using a "gift card" or "store credit." To use these:
+    1. Tap the logo icon for the brand you want to pay for, such as Chipotle. This will let you create a one-time use virtual gift card and load it up using your Zcash funds.
+    1. Enter the amount you owe at the register. If the cashier tells you that your total is $20 USD, enter that amount under the Chipotle logo.
+    1. Press or tap the *Confirm* button. A new brand-specific virtual gift card QR code will appear.
+    1. Tell the cashier you have your gift card ready. They will ask you to scan it. Do so, and you'll have paid!
+
+I have successfully used Flexa this way and, while it's currently limited to supported business partners, it is by far the easiest way to spend my ZEC on real, physical stuff.
+
+Of course, if you need something from a store that doesn't have a Flexa partnership, you can still maybe find it from another cryptocurrency to gift card exchange provider.
+
+### Recommended crypto gift card marketplace vendors
+
+- [Bitrefill](https://www.bitrefill.com/){:target="_blank"}, a site that sells gift cards to a plethora of well-known brands by accepting cryptocurrency as payment for them
+- [Travala](https://www.travala.com/){:target="_blank"}, a site designed for booking hotels, flights, tours, and other activities with crypto
 
 ## Put yourself on a crypto payroll with Opolis
 
