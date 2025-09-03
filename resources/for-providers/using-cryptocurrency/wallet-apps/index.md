@@ -15,14 +15,14 @@ A lot of people think getting started with cryptocurrency is hard. That might ha
     1. [Cake Wallet: Privacy-focused Monero wallet app](#cake-wallet-privacy-focused-monero-wallet-app)
     1. [Using multiple wallet apps](#using-multiple-wallet-apps)
 1. [Open your wallet app and you're good to go](#open-your-wallet-app-and-youre-good-to-go)
-    1. [Quick safety note: backups and recover phrases](#quick-safety-note-backups-and-recovery-phrases)
+    1. [Quick safety note: backups and recovery phrases](#quick-safety-note-backups-and-recovery-phrases)
 
 ## Choose and install your wallet app
 
 Choosing a wallet app is really important. In some ways, it's a bit like choosing a Web browser. Different people have different needs, preferences, and even aesthetic choices. For me, as a sex worker and as a technologist, the most important considerations are which wallet:
 
-- supports the private cryptocurrencies (Zcash and/or Monero) I need to use, and
-- operates in a self-custodial way so I'm not re-introducing the risks of being de-banked by using a third-party service.
+- supports the [private cryptocurrencies]({% link resources/for-providers/using-cryptocurrency/primer/index.md %}#two-kinds-of-cryptocurrencies-private-and-not-private) (Zcash and/or Monero) I need to use, and
+- operates in a [self-custodial]({% link resources/for-providers/using-cryptocurrency/primer/index.md %}#self-custody-or-bust) way so I'm not re-introducing the risks of being de-banked by using a third-party service.
 
 These are my two deal-breakers. If the wallet app doesn't support Zcash or Monero, then it's basically useless to me because it won't support the privacy-preserving technologies I rely on to keep my financial data private. Similarly, if the wallet app doesn't work in a self-custody manner, then it's not really a wallet, it's a teller window at a bank, which means I don't actually have any of my money on my person. (The bank is holding on to it for me.)
 
@@ -32,7 +32,7 @@ The cryptocurrency ecosystem evolves quickly, but as of this writing there are t
 
 ### Zashi: Privacy-focused Zcash wallet app
 
-If you're going to use Zcash (and I think you should; Zcash is the gold standard in private cryptocurrency technologies), the best wallet app to use is [Zashi Wallet](https://electriccoin.co/zashi/){:target="_blank"}. Zashi is a mobile phone app that can run on Apple iOS or Android devices, including [GrapheneOS](https://grapheneos.org/), the privacy-focused, de-Google-ified Android alternative. It is by far one of the easiest and most privacy-protecting Zcash wallet app.
+If you're going to use Zcash (and I think you should; Zcash is the gold standard in private cryptocurrency technologies), the best wallet app to use is [Zashi Wallet](https://electriccoin.co/zashi/){:target="_blank"}. Zashi is a mobile phone app that can run on Apple iOS or Android devices, including [GrapheneOS](https://grapheneos.org/), the privacy-focused, de-Google-ified Android alternative. It is by far one of the easiest and most privacy-protecting Zcash wallet apps.
 
 {:.align-center}
 {% include link-as-button.md anchor_text="Go install Zashi now" url="https://electriccoin.co/zashi/" target="_blank" %}
@@ -41,7 +41,7 @@ Zashi has some special features that make it especially attractive for sex worke
 
 - if you ever make a mistake and share your non-private (unshielded, or transparent) receive address for a client or customer to send you funds, Zashi automatically shields (makes private) your money for you. In the privacy coin ecosystem, we call this behavior "auto-shielding."
 - every time you share your address with a client or customer from the app, Zashi automatically rotates your address for you and then keeps track of which addresses received money. We call this address auto-rotation, and it's yet another way to help you avoid revealing information about who you are in case you ever communicate about your cryptocurrency addresses over unsecured communication channels (like texting).
-- your money will stay securely hidden and "private at rest" in the Zcash shielded pool, and yet whenever you need to pay for something in crypto, like your ads, you can send that payment in a huge range of cryptocurrencies (yes, including Bitcoin) directly out of your Zcash balance without leaving Zashi. What's even better is that your payment has no digital link at all to your wallet even when you're paying in non-private cryptocurrencies like Bitcoin because of the underlying decentralized exchange (DEX) protocol that automatically swaps your ZEC into the needed payment currency automatically and anonymously. [More on this later](#paying-in-bitcoin-when-you-only-have-zcash).
+- your money will stay securely hidden and "private at rest" in the Zcash shielded pool, and yet whenever you need to pay for something in crypto, like your ads, you can send that payment in a huge range of cryptocurrencies (yes, including Bitcoin) directly out of your Zcash balance without leaving Zashi. What's even better is that your payment has no digital link at all to your wallet even when you're paying in non-private cryptocurrencies like Bitcoin because of the underlying decentralized exchange (DEX) protocol that automatically swaps your ZEC into the needed payment currency automatically and anonymously. [More on this later]({% link resources/for-providers/using-cryptocurrency/off-ramping/index.md %}#paying-in-bitcoin-when-you-only-have-zcash).
 - you can "set and forget" extra and powerful privacy protections provided by the [Tor Project](https://torproject.org/){:target="_blank"} from within the app itself. I highly recommend enabling this; the Electric Coin blog shows you [how to enable Tor within Zashi](https://electriccoin.co/blog/zashi-2-1-enhanced-privacy-with-tor-beta/){:target="_blank"}.
 
 I think Zashi is fast becoming the killer app for anyone who's at risk of being de-banked from the traditional financial system. As a self-custodial, auto-shielding, address-rotating, Torified, Zcash wallet with a fully private decentralized off-ramp to literally dozens upon dozens of supported cryptocurrencies, including Bitcoin, it's the one wallet we as sex workers should be using today if we can only use one wallet app.

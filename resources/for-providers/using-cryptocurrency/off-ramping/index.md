@@ -14,9 +14,9 @@ In the traditional financial system, spending money comes with a privacy trade-o
 
 ## In this article
 
-1. [Paying directly in cryptocurrency](#paying-directly-with-cryptocurrency)
+1. [Paying directly in cryptocurrency](#paying-directly-in-cryptocurrency)
     1. [Paying in Bitcoin when you only have Zcash](#paying-in-bitcoin-when-you-only-have-zcash)
-1. [Use specialty gift card and exchange service providers](#use-speciality-gift-card-and-exchange-service-providers)
+1. [Use specialty gift card and exchange service providers](#use-specialty-gift-card-and-exchange-service-providers)
     1. [Pay for stuff via Flexa in Zashi](#pay-for-stuff-via-flexa-in-zashi)
 1. [Put yourself on a crypto payroll with Opolis](#put-yourself-on-a-crypto-payroll-with-opolis)
 1. [Convert crypto back to fiat currency](#convert-crypto-back-to-fiat-currency)

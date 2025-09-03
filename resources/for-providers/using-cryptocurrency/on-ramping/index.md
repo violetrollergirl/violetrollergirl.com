@@ -17,7 +17,7 @@ Now that you have a privacy-preserving [cryptocurrency wallet app]({% link resou
 
 ### Getting paid directly in crypto
 
-I'll be blunt: the easiest way for many of us to start getting crypto is to just get a client or customer to pay or tip us in cryptocurrency. This is also arguably one of the most private ways because it simply avoids any interaction with the fiat economy entirely. This is of course even better and more private if we get paid with a privacy coin like Zcash or Monero and don't have to do convert, exchange, or swap it into one of these privacy-preserving cryptocurrencies.
+I'll be blunt: the easiest way for many of us to start getting crypto is to just get a client or customer to pay or tip us in cryptocurrency. This is also arguably one of the most private ways because it simply avoids any interaction with the fiat economy entirely. This is of course even better and more private if we get paid with a privacy coin like Zcash or Monero and don't have to convert, exchange, or swap the money we make into one of these privacy-preserving cryptocurrencies.
 
 To get paid this way, find the "Receive" button in your wallet app. Every wallet app makes this button very big and clear, because everyone likes getting paid and that's what wallet apps are for. Tap or click the Receive button and you'll be presented with options to reveal the full address, a QR code of the address, and sometimes also other ways to share the address such as by sharing a link. (This is exactly [how my own cryptocurrency tips and donation links work]({% link colophon.md %}#cryptocurrency-tips-and-donation-links), by the way.)
 
