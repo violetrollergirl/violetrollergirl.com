@@ -226,6 +226,10 @@
 		margin-right: .25em;
 	}
 
+	img {
+		max-width: 100%;
+	}
+
 	ul.icons .icon.fa-2x img {
 		height: 1.5em;
 		margin-top: .5em;
@@ -235,7 +239,6 @@
 
 	section img {
 		border-radius: 10px;
-		max-width: 100%;
 		transition: box-shadow 1s;
 
 		&:hover {

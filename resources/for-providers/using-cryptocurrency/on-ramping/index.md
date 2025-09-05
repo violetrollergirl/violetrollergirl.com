@@ -2,6 +2,7 @@
 title: "On-ramping: acquiring cryptocurrency funds"
 prev: resources/for-providers/using-cryptocurrency/wallet-apps/
 next: resources/for-providers/using-cryptocurrency/off-ramping/
+last_modified: Thu Sep  4 20:22:14 EDT 2025
 ---
 
 # On-ramping: acquiring cryptocurrency funds
@@ -55,5 +56,5 @@ It's important to note that buying ZEC from one of these big exchanges and sendi
 
 > I still need to write this section. It's basically the same as the above; go into Cake Wallet, hit the "Buy" button, and get some XMR into your wallet via whatever exchange they support.
 
-{:.align-center}
+{:.button-container}
 {% include link-as-button.md anchor_text="Previous: Wallet apps" url=page.prev %} {% include link-as-button.md anchor_text="Up" url="../" %} {% include link-as-button.md anchor_text="Next: Off-ramping" url=page.next %}

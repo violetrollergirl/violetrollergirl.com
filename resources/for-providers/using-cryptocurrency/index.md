@@ -5,6 +5,7 @@ description: >
     to use privacy-preserving cryptocurrencies like Zcash and Monero.
 next: resources/for-providers/using-cryptocurrency/primer/
 prev: resources/for-providers/
+last_modified: Thu Sep  4 20:21:32 EDT 2025
 ---
 
 # {{ site.title }}'s Resources for Providers Using Cryptocurrency

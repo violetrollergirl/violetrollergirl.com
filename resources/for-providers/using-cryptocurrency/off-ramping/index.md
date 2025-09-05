@@ -2,6 +2,7 @@
 title: "Off-ramping: where and how to spend your cryptocurrency"
 prev: resources/for-providers/using-cryptocurrency/on-ramping/
 next: resources/for-providers/using-cryptocurrency/convincing-clients/
+last_modified: Thu Sep  4 20:22:14 EDT 2025
 ---
 
 # Off-ramping: where and how to spend your cryptocurrency
@@ -18,6 +19,8 @@ In the traditional financial system, spending money comes with a privacy trade-o
     1. [Paying in Bitcoin when you only have Zcash](#paying-in-bitcoin-when-you-only-have-zcash)
 1. [Use specialty gift card and exchange service providers](#use-specialty-gift-card-and-exchange-service-providers)
     1. [Pay for stuff via Flexa in Zashi](#pay-for-stuff-via-flexa-in-zashi)
+    1. [Common cryptocurrency to gift card off-ramps (for sex workers)](#common-cryptocurrency-to-gift-card-off-ramps-for-sex-workers)
+    1. [Recommended crypto gift card marketplace vendors](#recommended-crypto-gift-card-marketplace-vendors)
 1. [Put yourself on a crypto payroll with Opolis](#put-yourself-on-a-crypto-payroll-with-opolis)
 1. [Convert crypto back to fiat currency](#convert-crypto-back-to-fiat-currency)
 
@@ -99,10 +102,27 @@ I have successfully used Flexa this way and, while it's currently limited to sup
 
 Of course, if you need something from a store that doesn't have a Flexa partnership, you can still maybe find it from another cryptocurrency to gift card exchange provider.
 
+### Common cryptocurrency to gift card off-ramps (for sex workers)
+
+When you're using the gift card economy to spend your cryptocurrency, the first challenge is figuring out which service can get you a gift card from a brand you want to purchase from. To help you get started, here's a few of the more useful items I've been able to find off-ramps for, and where I found them.
+
+- [Digital pre-paid Visa credit card (via Bitrefill)](https://www.bitrefill.com/us/en/gift-cards/virtual-prepaid-visa-usa/) - Perhaps the most generically useful crypto off-ramp via the gift card economy is simply a pre-paid credit card. You pay in crypto and get a legitimate digital pre-paid credit card number that has a fiat balance you paid for using your cryptocurrency balance. You can also get [physical pre-paid credit cards](https://www.bitrefill.com/us/en/gift-cards/physical-prepaid-visa-usa/) mailed to you.
+- [Amazon Gift Card (via Bitrefill)](https://www.bitrefill.com/us/en/gift-cards/amazon_com-usa/) - This gift card is good for anything sold at Amazon.com, not that I'm trying to encourge you to give Daddy Bezos more money, but, y'know&hellip;.
+- [Ulta Beauty Gift Card (via Bitrefill)](https://www.bitrefill.com/us/en/gift-cards/ulta-beauty-usa/) - Ever since I started using cryptocurrency more in my everyday life, this cosmetics retailer has become my go-to for makeup and simple skincare needs. [Flexa from within the Zashi wallet app](#pay-for-stuff-with-flexa-in-zashi) also supports filling Ulta Beauty gift cards.
+- [Amtrak Gift Card (via Bitrefill)](https://www.bitrefill.com/us/en/gift-cards/amtrak-usa/) - Since I service clients in numerous cities clustered along Amtrak lines on the United States' East Coast, this is a particularly convenient off-ramp for me and I imagine other <abbr title="Train Me To You">TMTY</abbr> providers would want to know about it, too.
+- [Lyft Gift Card](https://www.bitrefill.com/us/en/gift-cards/lyft-usa/) or [Uber Gift Card](https://www.bitrefill.com/us/en/gift-cards/uber-usa/) (via Bitrefill) - For the obvious reasons.
+- [Hotel bookings (via Travala)](https://www.travala.com/?tab=hotels) - Sometimes, such as [when I'm on tour](#tours), I need to book hotels or otherwise make [hotel arrangements]({% link index.html %}#hotel-arrangements) to coordinate an incall, and Travala comes in clutch. It works like you'd expect any other hotel booking platform does, but watch what happens at the payment screen:
+    - [Travala's payment options](https://www.travala.com/payment-options) includes direct cryptocurrency transfer with dozens upon dozens of different supported cryptocurrencies, including the popular ones. While Travala doesn't support Zcash, remember you can still [use Zashi's decentralized off-ramp to pay in Bitcoin](#paying-in-bitcoin-when-you-only-have-zcash) directly from your Zcash balance. Here's a screenshot of a reservation about to be paid in Bitcoin.
+        ![Screenshot of the Travala hotel booking payment method selection screen.](screenshot.travala.hotel-booking.payment-method.png)
+    - And here's what happens when you press the "Complete Reservation" button.
+        ![Screenshot of the Travala hotel booking payment request screen.](screenshot.travala.hotel-booking.cryptocurrency-payment.png)
+        Kinda looks like Tryst's payment screen, doesn't it?
+- [Flight reservations (via Travala)](https://www.travala.com/?tab=flights) - You can also buy airline tickets this same way.
+
 ### Recommended crypto gift card marketplace vendors
 
-- [Bitrefill](https://www.bitrefill.com/){:target="_blank"}, a site that sells gift cards to a plethora of well-known brands by accepting cryptocurrency as payment for them
-- [Travala](https://www.travala.com/){:target="_blank"}, a site designed for booking hotels, flights, tours, and other activities with crypto
+- [Bitrefill](https://www.bitrefill.com/){:target="_blank"}, one of the largest gift card cryptocurrency off-boarding sites, and the one I've mentioned more than any other already. Bitrefill sells gift cards to a plethora of well-known brands by accepting cryptocurrency as payment for them.
+- [Travala](https://www.travala.com/){:target="_blank"}, a site designed for booking hotels, flights, tours, and other activities by paying in your cryptocurrency of choice, mentioned above as well.
 
 ## Put yourself on a crypto payroll with Opolis
 
@@ -112,5 +132,5 @@ Of course, if you need something from a store that doesn't have a Flexa partners
 
 > I need to write this up, too. Basically it's just going back to an exchange where you are okay KYC'ing to your fiat identity.
 
-{:.align-center}
+{:.button-container}
 {% include link-as-button.md anchor_text="Previous: On-ramping" url=page.prev %} {% include link-as-button.md anchor_text="Up" url="../" %} {% include link-as-button.md anchor_text="Next: Convincing clients" url=page.next %}

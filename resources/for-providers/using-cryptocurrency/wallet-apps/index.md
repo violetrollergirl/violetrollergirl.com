@@ -2,6 +2,7 @@
 title: Cryptocurrency wallet apps for sex workers
 next: resources/for-providers/using-cryptocurrency/on-ramping/
 prev: resources/for-providers/using-cryptocurrency/primer/
+last_modified: Thu Sep  4 20:22:14 EDT 2025
 ---
 
 # Everything (and only) what you need to know about cryptocurrency wallets
@@ -95,5 +96,5 @@ If you memorize the words of your wallet's seed phrase in the right order, you c
 
 This seed phrase is actually the input to a cryptographic algorithm that's used to deterministically generate a multitude of cryptocurrency addresses that you fully control. Only you can see the value they store, and only you have the power to spend from those addresses. (That's why you don't want to share this secret phrase with anyone else; anyone who knows the secret phrase will have the same power you do.) Despite generating a ton of addresses that may, over time, contain different amounts, your wallet app sums them all to show you a single, total balance.
 
-{:.align-center}
+{:.button-container}
 {% include link-as-button.md anchor_text="Previous: Primer" url=page.prev %} {% include link-as-button.md anchor_text="Up" url="../" %} {% include link-as-button.md anchor_text="Next: On-ramping" url=page.next %}

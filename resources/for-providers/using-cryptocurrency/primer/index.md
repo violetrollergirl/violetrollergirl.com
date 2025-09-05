@@ -4,6 +4,7 @@ description: >
     Violet Rollergirl's cryptocurrency primer gives you a
     foundation for understanding privacy-preserving finance tech.
 next: resources/for-providers/using-cryptocurrency/wallet-apps/
+last_modified: Thu Sep  4 20:22:14 EDT 2025
 ---
 
 # {{ site.title }}'s cryptocurrency primer for providers
@@ -99,5 +100,5 @@ Hopefully, this gives you enough of a foundation to understand why I use cryptoc
 
 The biggest downside to cryptocurrency is that it's still not used by a lot of clients and customers. But, hopefully, as more providers learn to accept and use it, that will change, too.
 
-{:.align-center}
+{:.button-container}
 {% include link-as-button.md anchor_text="Next: Wallet apps" url=page.next %} {% include link-as-button.md anchor_text="Up" url="../" %}
