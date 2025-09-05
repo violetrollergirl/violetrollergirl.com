@@ -35,37 +35,61 @@ Community's always been important but it'll become more so very rapidly. If the 
 
 So if you're a sex worker with such skills, share that fact with friends you trust. Build a local economy, and stay surveillance-free by using Zcash to sustain it! The true revolutionary potential of this truly cannot be overstated.
 
-One way to think about this is: Zcash in Zashi is to money what Signal Private Messenger is to speech. Vive la révolution!
+One way to think about this is: [Zcash](https://z.cash/){:target="_blank"} in [Zashi](https://electriccoin.co/zashi/){:target="_blank"} is to money what [Signal Private Messenger](https://signal.org/){:target="_blank"} is to speech. Vive la révolution!
 
 ### Paying in Bitcoin when you only have Zcash
 
-One very common need we have is to pay for our escort ads. Many escort directories and mall sites will accept payment in Bitcoin, but I'm aware of none who accept Zcash. (Obviously, if you know of one, please [contact](#contact) me to tell me about it!) Thankfully, once again Zashi comes to the rescue with a [decentralized off-ramp for shielded ZEC built into Zashi itself](https://electriccoin.co/blog/live-in-zashi-decentralized-off-ramp-for-shielded-zec/){:target="_blank"}.
+Although Zcash is a superior private currency, most of the crypto world still relies on other systems, like Bitcoin. Thankfully, cryptocurrencies can be easily converted from one to another so it's easy to pay in a vendor's cryptocurrency of choice even if you only keep a balance in Zcash. You just have to be careful about exchange rates, conversion fees, and payment processing times.
 
-Let's say you have some ZEC and you want to [load up your Tryst TLC balance](https://help.tryst.link/en-gb/22-payments-accounts/86-managing-your-membership){:target="_blank"}. Here's what you can do:
+Let's work through a common use case I have one step at a time.
 
-1. First, since you already have ZEC in Zashi, it's shielded and private. This means no matter how you got it, it bears no digital link back to your legal identity. This is a much better place to start than any other Bitcoin address.
-1. Log in to your Tryst account and access their "[Add credits](https://app.tryst.link/members/orders/new){:target="_blank"}" screen.
-1. Since this is your first time paying in ZEC, choose to purchase a small "Custom" amount of TLC, maybe 15 or so.
+One very common need I have is to pay for my escort ads. Many escort directories and mall sites will accept payment in Bitcoin, but I'm aware of none who accept Zcash. (Obviously, if you know of one, please [contact](#contact) me to tell me about it!) Thankfully, once again my Zashi wallet app comes in handy here, because it has a [decentralized off-ramp for shielded ZEC built into Zashi itself](https://electriccoin.co/blog/live-in-zashi-decentralized-off-ramp-for-shielded-zec/){:target="_blank"}.
+
+Suppose you have some ZEC and you want to [load up your Tryst TLC balance](https://help.tryst.link/en-gb/22-payments-accounts/86-managing-your-membership){:target="_blank"}. Here's what you can do. And remember that since you already have ZEC in Zashi, it's already shielded and private, meaning no matter how you got it, it bears no digital link back to your legal identity. This is a much better place to start than any other Bitcoin address.
+
+1. First, [log in to your Tryst account](https://app.tryst.link/log_in){:target="_blank"} and access their "[Add credits](https://app.tryst.link/members/orders/new){:target="_blank"}" screen.
+
+    ![Screenshot from Tryst's support knowledge base showing how to access the 'Add credits' screen from their navigation menu.](https://web.archive.org/web/20250830091358if_/https://help.tryst.link/api/v1/attachments/2879563)
+
+1. Since this is your first time paying in ZEC, choose to purchase a small "Custom" amount of TLC, maybe `15` or so.
 1. Make sure you indicate that you want to pay in Bitcoin. You're actually going to be paying directly from your shielded Zcash, but Tryst will nevertheless receive Bitcoin anyway.
+
+    ![Screenshot from Tryst's support knowledge base showing their TLC credit purchase order screen.](https://web.archive.org/web/20250830091358if_/https://help.tryst.link/api/v1/attachments/2879564)
+
 1. Click the "Next" button to proceed to [the Tryst order summary screen](https://help.tryst.link/en-gb/22/146){:target="_blank"}.
-1. Review your purchase order and press the "Pay Now" button to reveal the Bitcoin pay window. Tryst will show you a QR code that's similar to Zashi's "Request" screen, with an amount already embedded in it. That's nice, but we're not going to use it.
-1. Click on the "Copy" tab to reveal just the Bitcoin address that Tryst is expecting to receive your payment at.
-1. Click on the address itself (*not* the "payment link") to copy the Bitcoin address to your clipboard. Keep a note of this address somewhere, like a text window or just in your clipboard. We'll need it later.
+1. Review your purchase order for correctness and press the "Pay Now" button to reveal the Bitcoin pay window.
+
+    ![Screenshot from Tryst's support knowledge base showing what their 'Pay Now' button looks like.](https://web.archive.org/web/20250905184347if_/https://help.tryst.link/api/v1/attachments/2879526)
+
+1. Tryst will show you a QR code that's similar to Zashi's "Request" screen, with an amount already embedded in it. That's nice, but we're not going to use it because that QR code is intended for Bitcoin wallet apps, and we're using a Zcash wallet app.
+1. Click on the "Copy" tab to reveal just the Bitcoin address that Tryst wants you to send your payment to. It'll look like the *right* screenshot in the image below.
+
+    ![Screenshot from Tryst's support knowledge base showing a side-by-side comparison of their two Bitcoin payment processing screens, the left with a QR code and the right with plain text Bitcoin addresses.](https://web.archive.org/web/20250905184624if_/https://help.tryst.link/api/v1/attachments/2095928)
+
+1. Click on the address itself (*not* the "payment link") to copy the Bitcoin address to your clipboard. Keep a note of this address somewhere, like a text window or just in your clipboard. We'll need it later. I like to use [Signal's "Note to self" feature](https://support.signal.org/hc/en-us/articles/360043272451-Note-to-Self){:target="_blank"}, which is also a secure way to send it to my other devices if I'm not already doing this all from one device.
 1. Now, open Zashi.
 1. Click on Zashi's "More&hellip;" button to reveal its menu of advanced options.
-1. Choose "Swap ZEC with NEAR Intents," which is currently the first (top) item in the resulting menu.
-1. Enter an amount slightly *more* than the amount of the purchase order you requested from Tryst. For example, if you asked for 15 TLC (which maps directly to 15 Euro), enter an amount of ZEC equivalent to 20 Euros. Zashi will show you the current exchange rate, and you can also tap the up-and-down-arrows icon underneath the payment entry amount field to switch from entering ZEC to entering your chosen fiat currency.
+1. Choose "Swap ZEC with NEAR Intents," which is currently the first (top) item in the resulting menu. Here's what that looks like for me.
+
+    ![Screenshot of the Zashi wallet app's 'More&hellip;' menu.](screenshot.zashi.more-menu.png)
+
+1. Enter an amount slightly *more* than the amount of the purchase order you requested from Tryst. For example, if you asked for 15 TLC (which maps directly to 15 Euro), enter an amount of ZEC equivalent to 20 Euros. By default, you'll be entering an amount in ZEC, but you can also tap the up-and-down-arrows icon underneath the payment entry amount field to switch to entering your chosen fiat currency. Zashi will show you the current exchange rate either way.
 1. Beneath this field is a drop-down menu for selecting the currency we are going to pay in. Find `BTC` from the list of options; it will have a small Bitcoin logo on top of a larger, second, identical Bitcoin logo. This means we're using our shielded ZEC, but paying in Bitcoin.
 1. Make sure the fiat amount of BTC shows up as larger than the purchase order amount you requested from Tryst.
 1. In the `Address` field, paste the Bitcoin payment address you copied from Tryst earlier.
-1. Click "Get a quote" at the bottom of the Zashi Swap with NEAR screen.
+1. Click "Get a quote" at the bottom of the Zashi Swap with NEAR screen. Here's an annotated screenshot of what it looks like.
+
+    ![Annotated screenshot of Zashi's decentralized exchange off-ramp powered by NEAR Intents with various functionality explained with bright text and arrows.](screenshot.zashi.swap-with-near.annotated.png)
+
 1. Confirm you want to make the exchange, and send the transaction.
 
-In my experience, it takes about 5 to 10 minutes for the transaction to complete.
+In my experience, it takes about 5 to 10 minutes for the transaction to complete, so make sure you have at least that much time on the Tryst payment timer before you confirm your transaction, or you may not be able to get your account credited before your purchase order expires and you'll have to speak with support about hopefully getting a refund.
 
-There's a lot happening here, but what's extra cool about this is that at no point do you need a Bitcoin wallet, nor does any remnant of digital cruft exist anywhere in the blockchain that can be linked back to you. You can keep your cryptocurrency assets in the Zcash shielded pool, completely privately, and now pay any vendor who accepts any denomination of cryptocurrency that's supported in this neat little feature equally privately.
+There's a lot of sparkle-emoji technology sparkle-emoji happening here, but what's extra cool about this is that at no point do you ever need a Bitcoin wallet! Moreover, no remnant of digital cruft exist anywhere in the various blockchains that can be meaningfully linked back to you. While the vendor you're purchasing from may know who you are (and Tryst certainly does), they don't know where your funds came from, and they don't care.
 
-This is in fact how I pay for [my Tryst membership]({% link index.html %}#links-tryst).
+Practically, this enables you to safely keep your cryptocurrency assets in the Zcash shielded pool, where they stay completely private, and still be able to pay any vendor who accepts any denomination of a supported cryptocurrency equally privately. If you do this, no one can know how rich (or poor) you really are. In contrast, if you keep your holdings in a transparent ledger system like Bitcoin, the whole world can tally your real net worth without ever asking you questions.
+
+This is not a hypothetical example. This is in fact how I pay for [my Tryst membership and other ads]({% link index.html %}#links-group-ad-listings). Consider trying it out for your next cryptocurrency payment, too.
 
 ## Piggyback on the gift card economy
 
