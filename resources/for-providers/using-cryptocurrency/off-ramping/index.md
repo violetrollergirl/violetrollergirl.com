@@ -17,10 +17,11 @@ In the traditional financial system, spending money comes with a privacy trade-o
 
 1. [Paying directly in cryptocurrency](#paying-directly-in-cryptocurrency)
     1. [Paying in Bitcoin when you only have Zcash](#paying-in-bitcoin-when-you-only-have-zcash)
-1. [Use specialty gift card and exchange service providers](#use-specialty-gift-card-and-exchange-service-providers)
+1. [Piggyback on the gift card economy](#piggyback-on-the-gift-card-economy)
     1. [Pay for stuff via Flexa in Zashi](#pay-for-stuff-via-flexa-in-zashi)
     1. [Common cryptocurrency to gift card off-ramps (for sex workers)](#common-cryptocurrency-to-gift-card-off-ramps-for-sex-workers)
-    1. [Recommended crypto gift card marketplace vendors](#recommended-crypto-gift-card-marketplace-vendors)
+1. [Use specialty exchange service providers](#use-specialty-exchange-service-providers)
+    1. [Booking hotel stays and air travel with cryptocurrency](#booking-hotel-stays-and-air-travel-with-cryptocurrency)
 1. [Put yourself on a crypto payroll with Opolis](#put-yourself-on-a-crypto-payroll-with-opolis)
 1. [Convert crypto back to fiat currency](#convert-crypto-back-to-fiat-currency)
 
@@ -66,13 +67,13 @@ There's a lot happening here, but what's extra cool about this is that at no poi
 
 This is in fact how I pay for [my Tryst membership]({% link index.html %}#links-tryst).
 
-## Use specialty gift card and exchange service providers
+## Piggyback on the gift card economy
 
-Today, among the most common ways to spend your hard-earned cryptocurrency is by bridging it into the massive "gift card economy" for making various kinds of retail purchases. One thing that's nice about this for us as sex workers in particular is that many of us are already very familiar with gift cards and similar store credit services. We may even have regular business expenses such as a prepaid mobile phone (<acronym title="electronic subscriber identity module">eSIM</acronym>) line or hotel bookings we need to make to run our business.
+Among the most common ways to spend your hard-earned cryptocurrency today is by piggybacking on the massive gift card economy for making various kinds of retail purchases. One thing that's nice about this for us as sex workers in particular is that many of us are already very familiar with gift cards and similar store credit services. We may even have regular business expenses such as a prepaid mobile phone (<acronym title="electronic subscriber identity module">eSIM</acronym>) line or hotel bookings we need to make to run our business.
 
-Since gift cards and store credit systems are already a certain kind of alternative digital local currency, cryptocurrency is a natural fit. As a result, an entire *crypto gift card marketplace* (sometimes also called the broader "peer-to-peer (P2P) crypto marketplace") industry has emerged to support this way of off-ramping cryptocurrency funds. While different crypto-to-gift-card exchange service providers support different currencies, [Zashi's built-in decentralized exchange ZEC off-ramp](#paying-in-bitcoin-when-you-only-have-zcash) solves that problem, so the main considerations for those of us who want to use this method to spend our cryptocurrency funds are:
+Since gift cards and store credit systems are already a certain kind of alternative digital local currency, cryptocurrency is a natural fit. As a result, an entire *crypto gift card marketplace* industry has emerged to support this particular off-ramp. While different crypto-to-gift-card exchange service providers support different currencies, [Zashi's built-in decentralized exchange ZEC off-ramp](#paying-in-bitcoin-when-you-only-have-zcash) solves that problem, so the main considerations for those of us who want to use this method to spend our cryptocurrency funds are:
 
-- finding a crypto to gift card exchange provider that partners with a brand we want to spend on, and
+- finding a crypto to gift card exchange provider that partners with a brand we want to buy from, and
 - ensuring that the exchange provider's terms of use and their ["Know Your Customer" rules]({% link resources/for-providers/using-cryptocurrency/kyc/index.md %}) doesn't risk our privacy more than we are comfortable with.
 
 I strongly suggest talking to your friends and colleagues about what services they like and feel safe using, and why. But if you're just starting from scratch, read on to learn about my favorite services.
@@ -93,36 +94,48 @@ First, set up Zashi to work with Flexa as privately as possible by [enabling Zas
     - At the moment, [Flexa limits your spending to $750 USD per week](https://support.flexa.co/en/articles/3142914-how-much-can-i-spend-using-flexa){:target="_blank"}. As a result, [Flexa is not required to share any of your off-ramping activity with the US government's Internal Revenue Service (IRS, the tax man)](https://support.flexa.co/en/articles/3142914-how-much-can-i-spend-using-flexa){:target="_blank"}.
     - I signed up with Flexa using a name that is not my legal name and an email address that is not one I use for my legal identity, and I was still able to buy stuff by funding it with my Zcash balance. You can do the same. (Try using [Firefox Relay](https://relay.firefox.com/){:target="_blank"} for your masked email address.)
 1. Once you have a Flexa account, you'll be given a "Flexa QR code" that is basically just a barcode that participating brands can scan as a native payment. It's that easy. But you'll also see a "More instant payments" box at the bottom of your screen. These are "legacy Flexa brands," which are the stores at which you need to tell the cashier that you want to pay using a "gift card" or "store credit." To use these:
-    1. Tap the logo icon for the brand you want to pay for, such as Chipotle. This will let you create a one-time use virtual gift card and load it up using your Zcash funds.
-    1. Enter the amount you owe at the register. If the cashier tells you that your total is $20 USD, enter that amount under the Chipotle logo.
+    1. Tap the logo icon for the brand you want to pay for. This will let you create a one-time use virtual gift card and load it up using your Zcash funds.
+    1. Enter the amount you owe at the register. If the cashier tells you that your total is $20 USD, enter that amount under the brand's logo.
     1. Press or tap the *Confirm* button. A new brand-specific virtual gift card QR code will appear.
     1. Tell the cashier you have your gift card ready. They will ask you to scan it. Do so, and you'll have paid!
 
 I have successfully used Flexa this way and, while it's currently limited to supported business partners, it is by far the easiest way to spend my ZEC on real, physical stuff.
 
-Of course, if you need something from a store that doesn't have a Flexa partnership, you can still maybe find it from another cryptocurrency to gift card exchange provider.
+If you need something from a store that doesn't have a Flexa partnership, you can still maybe find it from another cryptocurrency to gift card vendor.
 
 ### Common cryptocurrency to gift card off-ramps (for sex workers)
 
-When you're using the gift card economy to spend your cryptocurrency, the first challenge is figuring out which service can get you a gift card from a brand you want to purchase from. To help you get started, here's a few of the more useful items I've been able to find off-ramps for, and where I found them.
+When you're using the gift card economy to spend your cryptocurrency, the first challenge is figuring out which service can get you a gift card from a brand you want to purchase from.
 
-- [Digital pre-paid Visa credit card (via Bitrefill)](https://www.bitrefill.com/us/en/gift-cards/virtual-prepaid-visa-usa/) - Perhaps the most generically useful crypto off-ramp via the gift card economy is simply a pre-paid credit card. You pay in crypto and get a legitimate digital pre-paid credit card number that has a fiat balance you paid for using your cryptocurrency balance. You can also get [physical pre-paid credit cards](https://www.bitrefill.com/us/en/gift-cards/physical-prepaid-visa-usa/) mailed to you.
-- [Amazon Gift Card (via Bitrefill)](https://www.bitrefill.com/us/en/gift-cards/amazon_com-usa/) - This gift card is good for anything sold at Amazon.com, not that I'm trying to encourge you to give Daddy Bezos more money, but, y'know&hellip;.
-- [Ulta Beauty Gift Card (via Bitrefill)](https://www.bitrefill.com/us/en/gift-cards/ulta-beauty-usa/) - Ever since I started using cryptocurrency more in my everyday life, this cosmetics retailer has become my go-to for makeup and simple skincare needs. [Flexa from within the Zashi wallet app](#pay-for-stuff-with-flexa-in-zashi) also supports filling Ulta Beauty gift cards.
-- [Amtrak Gift Card (via Bitrefill)](https://www.bitrefill.com/us/en/gift-cards/amtrak-usa/) - Since I service clients in numerous cities clustered along Amtrak lines on the United States' East Coast, this is a particularly convenient off-ramp for me and I imagine other <abbr title="Train Me To You">TMTY</abbr> providers would want to know about it, too.
-- [Lyft Gift Card](https://www.bitrefill.com/us/en/gift-cards/lyft-usa/) or [Uber Gift Card](https://www.bitrefill.com/us/en/gift-cards/uber-usa/) (via Bitrefill) - For the obvious reasons.
-- [Hotel bookings (via Travala)](https://www.travala.com/?tab=hotels) - Sometimes, such as [when I'm on tour](#tours), I need to book hotels or otherwise make [hotel arrangements]({% link index.html %}#hotel-arrangements) to coordinate an incall, and Travala comes in clutch. It works like you'd expect any other hotel booking platform does, but watch what happens at the payment screen:
-    - [Travala's payment options](https://www.travala.com/payment-options) includes direct cryptocurrency transfer with dozens upon dozens of different supported cryptocurrencies, including the popular ones. While Travala doesn't support Zcash, remember you can still [use Zashi's decentralized off-ramp to pay in Bitcoin](#paying-in-bitcoin-when-you-only-have-zcash) directly from your Zcash balance. Here's a screenshot of a reservation about to be paid in Bitcoin.
-        ![Screenshot of the Travala hotel booking payment method selection screen.](screenshot.travala.hotel-booking.payment-method.png)
-    - And here's what happens when you press the "Complete Reservation" button.
-        ![Screenshot of the Travala hotel booking payment request screen.](screenshot.travala.hotel-booking.cryptocurrency-payment.png)
-        Kinda looks like Tryst's payment screen, doesn't it?
-- [Flight reservations (via Travala)](https://www.travala.com/?tab=flights) - You can also buy airline tickets this same way.
+The cryptocurrency to gift card vendor I know most about is [Bitrefill](https://www.bitrefill.com/){:target="_blank"}, because they're one of the largest. Bitrefill sells gift cards to a plethora of well-known brands by accepting cryptocurrency as payment for them. Bitrefill is easy to navigate, but I've nevertheless compiled the below list of useful items to help you imagine what's possible.
 
-### Recommended crypto gift card marketplace vendors
+- [Digital pre-paid Visa credit card (via Bitrefill)](https://www.bitrefill.com/us/en/gift-cards/virtual-prepaid-visa-usa/){:target="_blank"} - Perhaps the most generically useful crypto off-ramp via the gift card economy is simply a pre-paid credit card. You pay in crypto and get a legitimate digital pre-paid credit card number that has a fiat balance you paid for using your cryptocurrency balance. You can also get [physical pre-paid credit cards](https://www.bitrefill.com/us/en/gift-cards/physical-prepaid-visa-usa/){:target="_blank"} mailed to you.
+- [Amazon Gift Card (via Bitrefill)](https://www.bitrefill.com/us/en/gift-cards/amazon_com-usa/){:target="_blank"} - This gift card is good for anything sold at Amazon.com, not that I'm trying to encourge you to give Daddy Bezos more money, but, y'know&hellip;.
+- [Ulta Beauty Gift Card (via Bitrefill)](https://www.bitrefill.com/us/en/gift-cards/ulta-beauty-usa/){:target="_blank"} - Ever since I started using cryptocurrency more in my everyday life, this cosmetics retailer has become my go-to for makeup and simple skincare needs. [Flexa from within the Zashi wallet app](#pay-for-stuff-with-flexa-in-zashi) also supports filling Ulta Beauty gift cards.
+- [Amtrak Gift Card (via Bitrefill)](https://www.bitrefill.com/us/en/gift-cards/amtrak-usa/){:target="_blank"} - Since I service clients in numerous cities clustered along Amtrak lines on the United States' East Coast, this is a particularly convenient off-ramp for me and I imagine other <abbr title="Train Me To You">TMTY</abbr> providers would want to know about it, too.
+- [Lyft Gift Card](https://www.bitrefill.com/us/en/gift-cards/lyft-usa/){:target="_blank"} or [Uber Gift Card](https://www.bitrefill.com/us/en/gift-cards/uber-usa/){:target="_blank"} (via Bitrefill) - For the obvious reasons.
 
-- [Bitrefill](https://www.bitrefill.com/){:target="_blank"}, one of the largest gift card cryptocurrency off-boarding sites, and the one I've mentioned more than any other already. Bitrefill sells gift cards to a plethora of well-known brands by accepting cryptocurrency as payment for them.
-- [Travala](https://www.travala.com/){:target="_blank"}, a site designed for booking hotels, flights, tours, and other activities by paying in your cryptocurrency of choice, mentioned above as well.
+You can also find gift cards for other common sex worker business needs, including airline and hotel bookings. However, remember that the gift card economy is still actually part of the fiat economy. When possible, it's best to avoid converting your cryptocurrency back to fiat currency, whether to avoid privacy incursions or simply due to the inconvenience. That's where [specialty services](#use-specialty-exchange-service-providers) come in.
+
+## Use specialty exchange service providers
+
+Instead of gift cards, which is really just a roundabout way to help fiat economy vendors accept cryptocurrency without actually accepting cryptocurrency payments, there are also a class of business-to-consumer middlemen that will accept payments in cryptocurrency and interface with vendors on your behalf.
+
+### Booking hotel stays and air travel with cryptocurrency
+
+[When I'm on tour](#tours), I often need to buy airline tickets or make [hotel arrangements]({% link index.html %}#hotel-arrangements) to coordinate an incall. This is where [Travala](https://www.travala.com/){:target="_blank"} comes in clutch. It works like you'd expect any other flight and hotel booking platform does, but watch what happens at the payment screen:
+
+[Travala's payment options](https://www.travala.com/payment-options) includes direct cryptocurrency transfer with dozens upon dozens of different supported cryptocurrencies, including the popular ones. While Travala doesn't support Zcash, remember you can still [use Zashi's decentralized off-ramp to pay in Bitcoin](#paying-in-bitcoin-when-you-only-have-zcash) directly from your Zcash balance. Here's a screenshot of a reservation about to be paid in Bitcoin.
+
+![Screenshot of the Travala hotel booking payment method selection screen.](screenshot.travala.hotel-booking.payment-method.png)
+
+And here's what happens when you press the "Complete Reservation" button.
+
+![Screenshot of the Travala hotel booking payment request screen.](screenshot.travala.hotel-booking.cryptocurrency-payment.png)
+
+Kinda looks like Tryst's payment screen, doesn't it?
+
+You can also [buy airline tickets on Travala](https://www.travala.com/?tab=flights){:target="_blank"} this same way.
 
 ## Put yourself on a crypto payroll with Opolis
 
