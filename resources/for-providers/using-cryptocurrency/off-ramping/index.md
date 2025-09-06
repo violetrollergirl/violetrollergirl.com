@@ -2,7 +2,7 @@
 title: "Off-ramping: where and how to spend your cryptocurrency"
 prev: resources/for-providers/using-cryptocurrency/on-ramping/
 next: resources/for-providers/using-cryptocurrency/convincing-clients/
-last_modified: Thu Sep  4 20:22:14 EDT 2025
+last_modified: Sat Sep  6 13:56:18 EDT 2025
 ---
 
 # Off-ramping: where and how to spend your cryptocurrency
@@ -22,7 +22,8 @@ In the traditional financial system, spending money comes with a privacy trade-o
     1. [Common cryptocurrency to gift card off-ramps (for sex workers)](#common-cryptocurrency-to-gift-card-off-ramps-for-sex-workers)
 1. [Use specialty exchange service providers](#use-specialty-exchange-service-providers)
     1. [Booking hotel stays and air travel with cryptocurrency](#booking-hotel-stays-and-air-travel-with-cryptocurrency)
-1. [Put yourself on a crypto payroll with Opolis](#put-yourself-on-a-crypto-payroll-with-opolis)
+1. [Join a digital employment cooperative that accepts cryptocurrency](#join-a-digital-employment-cooperative-that-accepts-cryptocurrency)
+    1. [Opolis: a crypto-native independent employment platform](#opolis-a-crypto-native-independent-employment-platform)
 1. [Convert crypto back to fiat currency](#convert-crypto-back-to-fiat-currency)
 
 ## Paying directly in cryptocurrency
@@ -161,9 +162,41 @@ Kinda looks like Tryst's payment screen, doesn't it?
 
 You can also [buy airline tickets on Travala](https://www.travala.com/?tab=flights){:target="_blank"} this same way.
 
-## Put yourself on a crypto payroll with Opolis
+## Join a digital employment cooperative that accepts cryptocurrency
 
-> This needs a write up, as well. It basically involves engaging the services of an independent worker's cooperative such as [Opolis](https://opolis.co/){:target="_blank"} and then paying them crypto for which they will give you fiat currency in exchange, as an employed worker. This also means you can get health benefits with their plan, and so on. More to come about this exciting option!
+So far, the cryptocurrency off-ramping options I've described largely avoid unnecessary interaction with the fiat economy. Turning away from traditional financial and governmental systems is becoming increasingly important. However, it can also brand us illegitimate to individuals or institutions who do interact with that world and who, for whatever reason, we are also forced to interact with.
+
+Unfortunately, lacking traditional legitimacy often means lacking important safety nets that come with traditional employment like medical/health insurance and retirement plan benefits. It also means struggling to show proof of income in many situations where we still need it, such as taking out a fiat loan or renting from a landlord. Importantly, this frustration isn't unique to sex workers! While stigma against sex work makes even more obstacles for us in these situations, on paper these challenges are similar to those faced by freelancers more generally.
+
+Let me be absolutely clear about this: I firmly believe the current system is unredeemable. As the fiat world continues failing to provide many of us our most basic needs, alternatives will be urgent sooner rather than later. On a personal level, I don't even care why this empire is crumbling; whether my government failed me because it hates who I am as a trans woman or whether it failed me because it's flat out incompetent isn't something I have the luxury of thoroughly investigating. I just need a solution, and I need it yesterday.
+
+One novel angle to attack this problem comes in the form of digital employment cooperatives, sometimes also called a freelancer's union (not to be confused with [The Freelancer's Union](https://www.freelancersunion.org/){:target="_blank"}). If you can join these institutions, they offer a way to legitimize your income, whether from fiat or cryptocurrency earnings. This means you get some of the benefits of traditional employment while letting you retain the freedom of being an independent worker.
+
+While not suitable or available to everyone, this kind of thing is absolutely worth knowing about. So let's look at one such off-ramp.
+
+### Opolis: a crypto-native independent employment platform
+
+*Opolis* is a novel digital employment cooperative you may be able to join (if you meet certain minimum income or eligibility requirements based on your needs, see below) that can offer a way to legitimize your income, including any earnings you make from cryptocurrency transactions. After reading this, you can help me if you want to join Opolis yourself by joining via my referral link:
+
+{:.align-center}
+{% include link-as-button.md anchor_text="Join Opolis (via referral)" url="https://partner.opolis.co/VioletRollergirl" target="_blank" %}
+
+Rather than work "under the table," you set things up like like a traditional business. In plain language, it works like this.
+
+1. [Register a legal business entity, such as an S-Corp](https://opolis.co/explore/entity/){:target="_blank"} that, obviously, provides high-quality "consulting," "coaching," "personal continuing education," or similar kinds of services. I'm being perfectly honest when I say I've discussed nuances of the JavaScript programming language with some of my clients! My state of dress during those discussions is neither here nor there.
+1. You then hire yourself as an employee of that business, so you can [pay yourself a salary out of the business's future revenue](https://opolis.co/explore/payroll/){:target="_blank"}.
+1. Your business entity then partners (joins) with the Opolis business cooperative, which [collectively negotiates employee benefits like health insurance plans](https://opolis.co/explore/benefits/){:target="_blank"}.
+1. Finally, your business in turn offers those employment benefits to you, the "human resource" (employee).
+
+Yes, this tactic introduces complexity to your work. It means you have to go through the process of registering a business, like picking a name and [choosing which State is best for you to register your business in](https://opolis.co/entity/the-best-states-for-llc-formation-where-to-plant-your-roots/){:target="_blank"}. But the rubber meets the road when on-ramping same as it did before: you [show a client a QR code from a cryptocurrency wallet to get paid]({% link resources/for-providers/using-cryptocurrency/on-ramping/index.md %}#getting-paid-directly-in-crypto). The difference now is that you'll need to record those funds in some accounting software (I prefer to use [GnuCash](https://www.gnucash.org/){:target="_blank"} for this), so you can treat it as your business's *taxable income* for reporting purposes when your business pays member dues in the supported cryptocurrencies. Yes, it also means you're now going to pay taxes; that's the cost of fiat legitimacy.
+
+As a trans sex worker, my main motivation for looking into this option is [my need for safe and reliable <abbr title="Hormone Replacement Therapy">HRT</abbr> medicine (it's expensive to be trans in America)](https://bsky.app/profile/violetrollergirl.com/post/3lb3dhxcwvk2l){:target="_blank"}. Unfortunately, [Opolis has minimum income requirements](https://web.archive.org/web/20240901041819if_/https://opolis.co/wp-content/uploads/2024/05/2024-OPOLIS_map_minimum_earning_by_state_web_1200px.pdf){:target="_blank"} that puts it out of my reach, at least for now. But when (not if!) I eventually make enough to meaningfully benefit from further professionalizing my independent business this way, this approach seems like a good one.
+
+I will personally vouch for Opolis being as sex worker friendly as they need to be for someone like me to join. They're not tracking your hours or looking into the specifics of your business or clientelle. When meeting with their agents, I was *not subtle* about what industry I'm in. The agent I spoke with did not bat an eye, and didn't pry.
+
+Also, you don't need to be earning *all* of your income from sex work to join. What matters is how much you're making so that you (as a business) can run payroll and still cover operating expenses, employee compensation (salary and benefits), and pay taxes and any other applicable fees. No, this is not likely to be feasible for survival sex workers, but for some mid-range or higher-end escorts, part-time workers, or sex workers who also freelance in civilian industries as gig workers, joining a digital employment cooperative like this one could both level up and further integrate them with the cryptocurrency economy.
+
+I'd love to hear about your experience if you try something like this so please don't hesitate to [reach out to me](#contact) if you do!
 
 ## Convert crypto back to fiat currency
 
