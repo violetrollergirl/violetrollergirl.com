@@ -132,7 +132,12 @@ If you need something from a store that doesn't have a Flexa partnership, you ca
 
 When you're using the gift card economy to spend your cryptocurrency, the first challenge is figuring out which service can get you a gift card from a brand you want to purchase from.
 
-The cryptocurrency to gift card vendor I know most about is [Bitrefill](https://www.bitrefill.com/){:target="_blank"}, because they're one of the largest. Bitrefill sells gift cards to a plethora of well-known brands by accepting cryptocurrency as payment for them. Bitrefill is easy to navigate, but I've nevertheless compiled the below list of useful items to help you imagine what's possible.
+The cryptocurrency to gift card vendor I know most about is [Bitrefill (referral link)]({{ site.data.affiliates.bitrefill }}){:target="_blank"}, because they're one of the largest. Bitrefill sells gift cards to a plethora of well-known brands by accepting cryptocurrency as payment for them. You can do this anonymously via [Tor Browser](https://torproject.org/){:target="_blank"}, or create a "basic account" by signing up with any name and any working email you like to get [decently large spending limits ($10,000 USD per month)](https://help.bitrefill.com/hc/en-us/articles/360019385360-Is-there-a-purchasing-top-up-limit){:target="_blank"}. If you want to give them a try, signing up with my referral link will also earn you (and me!) a $5 USD rebate after you spend $200 USD.
+
+{:.align-center}
+{% include link-as-button.md anchor_text="Join Bitrefill (via referral)" url=site.data.affiliates.bitrefill target="_blank" %}
+
+I've also compiled the below list of useful items to help you get a sense of what's available via this particular gift card off-ramping site.
 
 - [Digital pre-paid Visa credit card (via Bitrefill)](https://www.bitrefill.com/us/en/gift-cards/virtual-prepaid-visa-usa/){:target="_blank"} - Perhaps the most generically useful crypto off-ramp via the gift card economy is simply a pre-paid credit card. You pay in crypto and get a legitimate digital pre-paid credit card number that has a fiat balance you paid for using your cryptocurrency balance. You can also get [physical pre-paid credit cards](https://www.bitrefill.com/us/en/gift-cards/physical-prepaid-visa-usa/){:target="_blank"} mailed to you.
 - [Amazon Gift Card (via Bitrefill)](https://www.bitrefill.com/us/en/gift-cards/amazon_com-usa/){:target="_blank"} - This gift card is good for anything sold at Amazon.com, not that I'm trying to encourge you to give Daddy Bezos more money, but, y'know&hellip;.
@@ -148,9 +153,16 @@ Instead of gift cards, which is really just a roundabout way to help fiat econom
 
 ### Booking hotel stays and air travel with cryptocurrency
 
-[When I'm on tour](#tours), I often need to buy airline tickets or make [hotel arrangements]({% link index.html %}#hotel-arrangements) to coordinate an incall. This is where [Travala](https://www.travala.com/){:target="_blank"} comes in clutch. It works like you'd expect any other flight and hotel booking platform does, but watch what happens at the payment screen:
+[When I'm on tour](#tours), I often need to buy airline tickets or make [hotel arrangements]({% link index.html %}#hotel-arrangements) to coordinate an incall. This is where [Travala (referral link)]({{ site.data.affiliates.travala }}){:target="_blank"} comes in clutch. It works like you'd expect any other flight and hotel booking platform does but you can pay for your booking with cryptocurrency. They also have a loyalty proram where you can earn extra rewards (and help me do the same) by signing up via my referral link.
 
-[Travala's payment options](https://www.travala.com/payment-options) includes direct cryptocurrency transfer with dozens upon dozens of different supported cryptocurrencies, including the popular ones. While Travala doesn't support Zcash, remember you can still [use Zashi's decentralized off-ramp to pay in Bitcoin](#paying-in-bitcoin-when-you-only-have-zcash) directly from your Zcash balance. Here's a screenshot of a reservation about to be paid in Bitcoin.
+{:.align-center}
+{% include link-as-button.md anchor_text="Join Travala (via referral)" url=site.data.affiliates.travala target="_blank" %}
+
+Perhaps the fastest way to demonstrate this service is to just watch what happens at the payment screen.
+
+[Travala's payment options](https://www.travala.com/payment-options) includes direct cryptocurrency transfer with dozens upon dozens of different supported cryptocurrencies, including the popular ones. While Travala doesn't support Zcash, remember you can still [use Zashi's decentralized off-ramp to pay in Bitcoin](#paying-in-bitcoin-when-you-only-have-zcash) directly from your Zcash balance.
+
+Here's a screenshot of a reservation about to be paid in Bitcoin.
 
 ![Screenshot of the Travala hotel booking payment method selection screen.](screenshot.travala.hotel-booking.payment-method.png)
 
@@ -179,7 +191,7 @@ While not suitable or available to everyone, this kind of thing is absolutely wo
 *Opolis* is a novel digital employment cooperative you may be able to join (if you meet certain minimum income or eligibility requirements based on your needs, see below) that can offer a way to legitimize your income, including any earnings you make from cryptocurrency transactions. After reading this, you can help me if you want to join Opolis yourself by joining via my referral link:
 
 {:.align-center}
-{% include link-as-button.md anchor_text="Join Opolis (via referral)" url="https://partner.opolis.co/VioletRollergirl" target="_blank" %}
+{% include link-as-button.md anchor_text="Join Opolis (via referral)" url=site.data.affiliates.opolis target="_blank" %}
 
 Rather than work "under the table," you set things up like a traditional business. In plain language, it works like this.
 
