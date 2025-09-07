@@ -35,6 +35,7 @@
     url: https://bsky.app/profile/violetrollergirl.com
     description: >
       The freer X/Twitter alternative.
+      (You'll want to [enable NSFW content](https://fedica.com/blog/bluesky-adult-content-nsfw/ "Learn how to disable adult and erotic content moderation on Bluesky."){:target="_blank"}, trust me.)
   - label: OnlyFans
     title: OnlyFans
     svg: images/logo.onlyfans.svg
@@ -58,12 +59,12 @@
     description: >
       Watch me in unscripted lesbian porn produced by an all-Sapphic team, and
       [sign up via my referral link](https://register.queercrush.com/track/MzAwMDE0ODEuMy4xNTMuMzQyLjAuMC4wLjAuMA){: target="_blank"}.
-  - label: X/Twitter
-    title: X/Twitter
-    icon: x-twitter
-    url: https://x.com/ViRollergirl
-    description: >
-      (I'm here, too, but I'm more active on [Bluesky](#links-bluesky).)
+  #- label: X/Twitter
+  #  title: X/Twitter
+  #  icon: x-twitter
+  #  url: https://x.com/ViRollergirl
+  #  description: >
+  #    (I'm here, too, but I'm more active on [Bluesky](#links-bluesky).)
   #- label: Fansly
   #  title: Fansly
   #  svg: images/logo.fansly.svg
