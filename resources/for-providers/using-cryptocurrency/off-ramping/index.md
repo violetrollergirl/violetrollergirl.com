@@ -111,7 +111,7 @@ As of this writing, some Flexa partners include [Ulta Beauty](https://www.ulta.c
 
 First, set up Zashi to work with Flexa as privately as possible by [enabling Zashi's built-in Tor network privacy features](https://electriccoin.co/blog/zashi-2-1-enhanced-privacy-with-tor-beta/){:target="_blank"}. Once that's set up **do this to use Flexa from within Zashi:**
 
-1. Open your Zashi wallet app. Make sure have some ZEC in it, enough to cover the cost of the thing you're about to buy in the local fiat currency where you're buying it (such as in US Dollars if you're in the United States).
+1. Open your Zashi wallet app. Make sure you have some ZEC in it, enough to cover the cost of the thing you're about to buy in the local fiat currency where you're buying it (such as in US Dollars if you're in the United States).
 1. Tap the "More&hellip;" button in the Zashi main screen.
 1. Tap the "Pay with Flexa" item in the resulting list.
 1. If this is the first time you've used Flexa, you'll be asked to complete a brief registration process where you are asked for your name and email address. At this point, there are a few things you should know:
@@ -132,12 +132,12 @@ If you need something from a store that doesn't have a Flexa partnership, you ca
 
 When you're using the gift card economy to spend your cryptocurrency, the first challenge is figuring out which service can get you a gift card from a brand you want to purchase from.
 
-The cryptocurrency to gift card vendor I know most about is [Bitrefill (referral link)]({{ site.data.affiliates.bitrefill }}){:target="_blank"}, because they're one of the largest. Bitrefill sells gift cards to a plethora of well-known brands by accepting cryptocurrency as payment for them. You can do this anonymously via [Tor Browser](https://torproject.org/){:target="_blank"}, or create a "basic account" by signing up with any name and any working email you like to get [decently large spending limits ($10,000 USD per month)](https://help.bitrefill.com/hc/en-us/articles/360019385360-Is-there-a-purchasing-top-up-limit){:target="_blank"}. If you want to give them a try, signing up with my referral link will also earn you (and me!) a $5 USD rebate after you spend $200 USD.
+The cryptocurrency to gift card vendor I know most about is [Bitrefill (referral link)]({{ site.data.affiliates.bitrefill }}){:target="_blank"}, because they're one of the largest. Bitrefill sells gift cards to a plethora of well-known brands by accepting cryptocurrency as payment for them. You can buy these even more privately by browsing the site via [Tor Browser](https://torproject.org/){:target="_blank"}, or create a "basic account" with Bitrefill to get [decently large spending limits ($10,000 USD per month)](https://help.bitrefill.com/hc/en-us/articles/360019385360-Is-there-a-purchasing-top-up-limit){:target="_blank"}. Signing up with any name and any working email you like will work fine. (I didn't use a legal identity to sign up and have no trouble using the site.) If you want to give Bitrefill a try, signing up with my referral link will also earn you (and me) a $5 USD rebate after you spend your first $200 USD.
 
 {:.align-center}
 {% include link-as-button.md anchor_text="Join Bitrefill (via referral)" url=site.data.affiliates.bitrefill target="_blank" %}
 
-I've also compiled the below list of useful items to help you get a sense of what's available via this particular gift card off-ramping site.
+Since there's so much there, I've also compiled the below list to help you get a sense of what's available and may be particularly useful for us as sex workers via this particular gift card off-ramping site.
 
 - [Digital pre-paid Visa credit card (via Bitrefill)](https://www.bitrefill.com/us/en/gift-cards/virtual-prepaid-visa-usa/){:target="_blank"} - Perhaps the most generically useful crypto off-ramp via the gift card economy is simply a pre-paid credit card. You pay in crypto and get a legitimate digital pre-paid credit card number that has a fiat balance you paid for using your cryptocurrency balance. You can also get [physical pre-paid credit cards](https://www.bitrefill.com/us/en/gift-cards/physical-prepaid-visa-usa/){:target="_blank"} mailed to you.
 - [Amazon Gift Card (via Bitrefill)](https://www.bitrefill.com/us/en/gift-cards/amazon_com-usa/){:target="_blank"} - This gift card is good for anything sold at Amazon.com, not that I'm trying to encourge you to give Daddy Bezos more money, but, y'know&hellip;.
@@ -145,24 +145,24 @@ I've also compiled the below list of useful items to help you get a sense of wha
 - [Amtrak Gift Card (via Bitrefill)](https://www.bitrefill.com/us/en/gift-cards/amtrak-usa/){:target="_blank"} - Since I service clients in numerous cities clustered along Amtrak lines on the United States' East Coast, this is a particularly convenient off-ramp for me and I imagine other <abbr title="Train Me To You">TMTY</abbr> providers would want to know about it, too.
 - [Lyft Gift Card](https://www.bitrefill.com/us/en/gift-cards/lyft-usa/){:target="_blank"} or [Uber Gift Card](https://www.bitrefill.com/us/en/gift-cards/uber-usa/){:target="_blank"} (via Bitrefill) - For the obvious reasons.
 
-You can also find gift cards for other common sex worker business needs, including airline and hotel bookings. However, remember that the gift card economy is still actually part of the fiat economy. When possible, it's best to avoid converting your cryptocurrency back to fiat currency, whether to avoid privacy incursions or simply due to the inconvenience. That's where [specialty services](#use-specialty-exchange-service-providers) come in.
+You can also find gift cards for other common sex worker needs, including airline and hotel bookings. However, remember that the gift card economy is still actually part of the fiat economy. When possible, it's best to avoid converting your cryptocurrency back to fiat currency, whether to avoid privacy incursions or simply due to the inconvenience. That's where [specialty services](#use-specialty-exchange-service-providers) come in.
 
 ## Use specialty exchange service providers
 
-Instead of gift cards, which is really just a roundabout way to help fiat economy vendors accept cryptocurrency without actually accepting cryptocurrency payments, there are also a class of business-to-consumer middlemen that will accept payments in cryptocurrency and interface with vendors on your behalf.
+Instead of gift cards, which is really just a roundabout way to help fiat economy vendors accept cryptocurrency without actually accepting cryptocurrency payments, there are also a class of business-to-consumer (B2C) middlemen that will accept payments in cryptocurrency and interface with vendors on your behalf.
 
 ### Booking hotel stays and air travel with cryptocurrency
 
-[When I'm on tour](#tours), I often need to buy airline tickets or make [hotel arrangements]({% link index.html %}#hotel-arrangements) to coordinate an incall. This is where [Travala (referral link)]({{ site.data.affiliates.travala }}){:target="_blank"} comes in clutch. It works like you'd expect any other flight and hotel booking platform does but you can pay for your booking with cryptocurrency. They also have a loyalty proram where you can earn extra rewards (and help me do the same) by signing up via my referral link.
+[When I'm on tour](#tours), I often need to buy airline tickets to travel or make [hotel arrangements]({% link index.html %}#hotel-arrangements) to coordinate an incall. This is where [Travala (referral link)]({{ site.data.affiliates.travala }}){:target="_blank"} comes in clutch. It works like you'd expect any other flight and hotel booking platform to work, but you can pay directly in cryptocurrency. They also have a loyalty proram, so you you can earn extra rewards, and help me do the same if you sign up via my referral link.
 
 {:.align-center}
 {% include link-as-button.md anchor_text="Join Travala (via referral)" url=site.data.affiliates.travala target="_blank" %}
 
-Perhaps the fastest way to demonstrate this service is to just watch what happens at the payment screen.
+Perhaps the fastest way to demonstrate how this service works is to just watch what happens at its payment screen.
 
-[Travala's payment options](https://www.travala.com/payment-options) includes direct cryptocurrency transfer with dozens upon dozens of different supported cryptocurrencies, including the popular ones. While Travala doesn't support Zcash, remember you can still [use Zashi's decentralized off-ramp to pay in Bitcoin](#paying-in-bitcoin-when-you-only-have-zcash) directly from your Zcash balance.
+[Travala's payment options](https://www.travala.com/payment-options){:target="_blank"} includes direct cryptocurrency transfer with dozens upon dozens of different supported cryptocurrencies, including the popular ones. While Travala doesn't support Zcash directly, remember you can still [use Zashi's decentralized off-ramp to pay in Bitcoin](#paying-in-bitcoin-when-you-only-have-zcash) or whatever other cryptocurrency you like directly from your Zcash balance.
 
-Here's a screenshot of a reservation about to be paid in Bitcoin.
+Here's a screenshot of a reservation made on their site about to get paid in Bitcoin.
 
 ![Screenshot of the Travala hotel booking payment method selection screen.](screenshot.travala.hotel-booking.payment-method.png)
 
@@ -178,40 +178,46 @@ You can also [buy airline tickets on Travala](https://www.travala.com/?tab=fligh
 
 So far, the cryptocurrency off-ramping options I've described largely avoid unnecessary interaction with the fiat economy. Turning away from traditional financial and governmental systems is becoming increasingly important. However, it can also brand us illegitimate to individuals or institutions who do interact with that world and who, for whatever reason, we are also forced to interact with.
 
-Unfortunately, lacking traditional legitimacy often means lacking important safety nets that come with traditional employment like medical/health insurance and retirement plan benefits. It also means struggling to show proof of income in many situations where we still need it, such as taking out a fiat loan or renting from a landlord. Importantly, this frustration isn't unique to sex workers! While stigma against sex work makes even more obstacles for us in these situations, on paper these challenges are similar to those faced by freelancers more generally.
+Unfortunately, lacking traditional legitimacy often means lacking important safety nets that come with traditional employment, like medical/health insurance and retirement plan benefits. It also means struggling to show proof of income in many situations where we still need it, such as taking out a fiat loan or renting from a landlord. Crucially, we as sex workers are not alone in this frustration! While stigma against sex work puts up even more obstacles for us in these situations, on paper at least these challenges are similar to those faced by freelancers more generally.
 
-Let me be absolutely clear about this: I firmly believe the current system is unredeemable. As the fiat world continues failing to provide many of us our most basic needs, alternatives will be urgent sooner rather than later. On a personal level, I don't even care why this empire is crumbling; whether my government failed me because it hates who I am as a trans woman or whether it failed me because it's flat out incompetent isn't something I have the luxury of thoroughly investigating. I just need a solution, and I need it yesterday.
+Let me be absolutely clear: I firmly believe the current system is unredeemable. As the fiat world continues failing to provide many of us our most basic needs, alternatives will be urgent sooner rather than later. On a personal level, I don't even care why this empire is crumbling; whether my government failed me out of malice or whether it failed me because it's incompetent is not something I have the luxury of thoroughly investigating. I just need a solution, and I need it yesterday.
 
-One novel angle to attack this problem comes in the form of digital employment cooperatives, sometimes also called a freelancer's union (not to be confused with [The Freelancer's Union](https://www.freelancersunion.org/){:target="_blank"}). If you can join these institutions, they offer a way to legitimize your income, whether from fiat or cryptocurrency earnings. This means you get some of the benefits of traditional employment while letting you retain the freedom of being an independent worker.
+One novel angle from which to attack this problem comes in the form of digital employment cooperatives, sometimes also called a freelancer's union (not to be confused with [The Freelancer's Union](https://www.freelancersunion.org/){:target="_blank"}). If you can join these institutions, they offer a way to legitimize your income, whether fiat or cryptocurrency. This means you get some of the benefits of traditional employment while retaining the freedom of being an independent worker.
 
-While not suitable or available to everyone, this kind of thing is absolutely worth knowing about. So let's look at one such off-ramp.
+Despite not being suitable for or available to everyone, this kind of thing is still worth knowing about. So, let's look at one such off-ramp next.
 
 ### Opolis: a crypto-native independent employment platform
 
-*Opolis* is a novel digital employment cooperative you may be able to join (if you meet certain minimum income or eligibility requirements based on your needs, see below) that can offer a way to legitimize your income, including any earnings you make from cryptocurrency transactions. After reading this, you can help me if you want to join Opolis yourself by joining via my referral link:
+[*Opolis* (referral link)]({{ site.data.affiliates.opolis }}){:target="_blank"} is a novel digital employment cooperative you may be able to join (if you meet minimum income or eligibility requirements based on your needs, see below) that can offer a way to legitimize your income, including any earnings from cryptocurrency transactions. With Opolis, rather than work "under the table," you set things up like a traditional business, funnel your earnings through that business, and then pay yourself back as a salaried employee.
+
+After reading this, if you want to join Opolis, you can help me by joining via my referral link:
 
 {:.align-center}
 {% include link-as-button.md anchor_text="Join Opolis (via referral)" url=site.data.affiliates.opolis target="_blank" %}
 
-Rather than work "under the table," you set things up like a traditional business. In plain language, it works like this.
+In plain language, the whole setup works like this.
 
 1. [Register a legal business entity, such as an S-Corp](https://opolis.co/explore/entity/){:target="_blank"} that, obviously, provides high-quality "consulting," "coaching," "personal continuing education," or similar kinds of services. I'm being perfectly honest when I say I've discussed nuances of the JavaScript programming language with some of my clients! My state of dress during those discussions is neither here nor there.
 1. You then hire yourself as an employee of that business, so you can [pay yourself a salary out of the business's future revenue](https://opolis.co/explore/payroll/){:target="_blank"}.
 1. Your business entity then partners (joins) with the Opolis business cooperative, which [collectively negotiates employee benefits like health insurance plans](https://opolis.co/explore/benefits/){:target="_blank"}.
 1. Finally, your business in turn offers those employment benefits to you, the "human resource" (employee).
 
-Yes, this tactic introduces complexity to your work. It means you have to go through the process of registering a business, like picking a name and [choosing which State is best for you to register your business in](https://opolis.co/entity/the-best-states-for-llc-formation-where-to-plant-your-roots/){:target="_blank"}. But the rubber meets the road when on-ramping same as it did, or even better than, before.
+Yes, this tactic introduces complexity to your work. It means you have to go through the process of registering a business, like picking a name and [choosing which State is best for you to register your business in](https://opolis.co/entity/the-best-states-for-llc-formation-where-to-plant-your-roots/){:target="_blank"}. But the rubber meets the road when on-ramping same as it did before, if not even better.
 
 - [Getting paid directly in crypto]({% link resources/for-providers/using-cryptocurrency/on-ramping/index.md %}#getting-paid-directly-in-crypto) is no different, just show a client your QR code from a cryptocurrency wallet.
-- You can use your registered business as a further shield for your individual privacy when using your corporate bank account linked to fiat payment apps, notably [Zelle](https://www.zelle.com/){:target="_blank"}. Just make sure you've registered your business in a privacy-friendly state like Delaware, Nevada, or Wyoming, and via a third-party registered agent.
+- You can use your registered business as a further shield to protect your individual privacy for accepting fiat payments like deposits when using your corporate bank account linked to fiat payment apps, notably [Zelle](https://www.zelle.com/){:target="_blank"}. Just make sure you've registered your business in a privacy-friendly state like Delaware, Nevada, or Wyoming, and via a third-party registered agent so that you don't have to list your legal identity as a publicly disclosed member of the corporation.
 
-Now that you're earning revenue on behalf of your business, you'll need to record those funds in some accounting software. (I prefer to use [GnuCash](https://www.gnucash.org/){:target="_blank"} for this, but I've also heard good things about [Rotki](https://rotki.com/){:target="_blank"}.) This way, you can treat it as your business's *taxable income* for reporting purposes when your business pays member dues in cryptocurrencies Opolis supports. Yes, it also means you're now going to pay taxes; that's the cost of fiat legitimacy.
+Now that you're earning revenue on behalf of your business, you'll need to record those funds in some accounting software. (I prefer to use [GnuCash](https://www.gnucash.org/){:target="_blank"} for this, but I've also heard good things about [Rotki](https://rotki.com/){:target="_blank"}.) This way, you can treat it as your business's *taxable income* for reporting when your business pays member dues in the cryptocurrencies Opolis supports. Yes, it also means you're now going to pay taxes; that's the cost of fiat legitimacy.
 
-As a trans sex worker, my main motivation for looking into this option is [my need for safe and reliable <abbr title="Hormone Replacement Therapy">HRT</abbr> medicine (it's expensive to be trans in America)](https://bsky.app/profile/violetrollergirl.com/post/3lb3dhxcwvk2l){:target="_blank"}. Unfortunately, [Opolis has minimum income requirements](https://web.archive.org/web/20240901041819if_/https://opolis.co/wp-content/uploads/2024/05/2024-OPOLIS_map_minimum_earning_by_state_web_1200px.pdf){:target="_blank"} that puts it out of my reach, at least for now. But when (not if!) I eventually make enough to meaningfully benefit from further professionalizing my independent business this way, this approach seems like a good one.
+As a trans sex worker, my main motivation for looking into this option is [my need for safe and reliable <abbr title="Hormone Replacement Therapy">HRT</abbr> medicine (it's expensive to be trans in America)](https://bsky.app/profile/violetrollergirl.com/post/3lb3dhxcwvk2l){:target="_blank"}. Unfortunately, [Opolis has minimum income requirements](https://web.archive.org/web/20240901041819if_/https://opolis.co/wp-content/uploads/2024/05/2024-OPOLIS_map_minimum_earning_by_state_web_1200px.pdf){:target="_blank"} that puts it out of my reach, at least for now. But when (not if 🙏🏻) I eventually make enough to meaningfully benefit from further professionalizing my independent business this way, this business cooperative approach seems like a good one.
 
-I will personally vouch for Opolis being as sex worker friendly as they need to be for someone like me to join. They're not tracking your hours or looking into the specifics of your business or clientelle. When meeting with their agents, I was *not subtle* about what industry I'm in. The agent I spoke with did not bat an eye, and didn't pry.
+A few other points to know about this off-ramp:
 
-Also, you don't need to be earning *all* of your income from sex work to join. What matters is how much you're making so that you (as a business) can run payroll and still cover operating expenses, employee compensation (salary and benefits), and pay taxes and any other applicable fees. No, this is not likely to be feasible for survival sex workers, but for some mid-range or higher-end escorts, part-time workers, or sex workers who also freelance in civilian industries as gig workers, joining a digital employment cooperative like this one could both level up and further integrate them with the cryptocurrency economy.
+- I will personally vouch for Opolis being as sex worker friendly as they need to be for someone like me to join.
+    - They're not tracking your hours or looking into the specifics of your business or clientelle.
+    - When meeting with their agents, I was *not subtle* about what industry I'm in. The agent I spoke with did not bat an eye, and didn't pry.
+- Also, you don't need to be earning *all* of your income from sex work to join. What matters is how much you're making in total so that you (as a business) can afford to run payroll while covering operating expenses, employee compensation (salary and benefits), and paying taxes or other applicable fees.
+- No, this is not likely to be feasible for survival sex workers. For some mid-range or higher-end escorts, part-time workers, or sex workers who also freelance in civilian industries as gig workers, however, joining a digital employment cooperative like this one could both level up their business and further integrate them with the cryptocurrency economy.
 
 I'd love to hear about your experience if you try something like this so please don't hesitate to [reach out to me](#contact) if you do!
 
