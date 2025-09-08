@@ -36,6 +36,7 @@ If you already have Signal, you can [contact me](#contact) via the Signal link o
 
 To start, tell me:
 
+- how you learned about me. Expect me to be a bit circumspect in conversation until I can establish you are a provider, too.
 - what your concerns are, as succinctly but clearly as you can. Many people ask about:
     - identity correlation, risk of being doxxed, or how they can keep their civ life separate from their spicy personas
     - how to mitigate the risks of phishing emails or more reliably catch scams from people claiming to be clients,

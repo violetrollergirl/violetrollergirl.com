@@ -373,50 +373,50 @@ My reply will:
 
 #### If you don't receive a reply
 
-If you don't receive a reply, it can be because of any of the following reasons:
+If you don't receive a reply from me, it can be because of any of the following reasons:
 
 * You omitted screening information.
 * You requested a session on very short notice, or for the same day.
     * While I can sometimes accomodate a same-day appointment, this is rare and I may not reply if I can't.
     * You are still expected to screen, even for same-day requests.
-* You entered sexually explicit language in one or more of the fields.
-* Your email was filtered to my spam folder. I do check my spam folder on occasion, but I also have an extremely strict spam filter that will flag your message if:
+* You used sexually explicit language somewhere in your inquiry.
+* Your email was filtered to my spam folder. I do check my spam folder, but I maintain an extremely strict spam filter that will flag your message if:
     * your email address looks like a bot's.
     * your email was recently created.
     * your email was sent from an anonymous mailing service.
-    * you attached a file type other than a single-frame image, such as a ZIP archive, PDF, video, animated GIF, audio file, or executable program. I delete these instantly.
+    * you attached a file type other than a single-frame image (JPEG, PNG, or non-animated WEBP). Any email with other types of attachments will get deleted instantly. (Attaching [OpenPGP](https://www.openpgp.org/){:target="_blank"} keys is also acceptable.)
 * You used txt/SMS, especially from a burner, texting app, or VoIP number.
     * It's okay to communicate with me from these apps, but they are extremely unreliable and I may not have received it.
-    * Consider just installing [Signal Private Messenger](https://Signal.org/){:target="_blank"} on your burner phone and registering it to your burner number, instead.
+    * Consider just using [Signal Private Messenger](https://signal.org/){:target="_blank"} on your burner phone, insead.
 
 ### Confirm date details by sending a deposit
 
 When you receive my reply, read it closely!
 
-In the simplest case, I'll simply confirm my understanding of your expectations, pick one of the two date and time options you suggested in your initial inquiry, and supply you with instructions for how to send your deposit for the session. Sending your deposit is what confirms your appointment, so be sure to send it as soon as you can to reserve the time in my calendar.
+In the simplest case, I'll confirm my understanding of your expectations, pick one of the two date and time options you suggested in your initial inquiry, and supply you with instructions for how to send your deposit for our session. Sending your deposit is what holds your appointment in my calendar, so send it promptly to reserve our time together.
 
 For more information, see my [deposit policy]({% link index.html %}#deposit-policy).
 
 #### About extensive or synchronous correspondence
 
-In an ideal case, it should take no more than three to five messages to inquire, confirm, and realize a date.
+It rarely takes more than three to five messages to inquire, confirm, and realize a date.
 
 1. Message one: you send your complete inquiry with screening information.
-1. Message two: I reply with a confirmation of your expectations, date details including the chosen date/time from your suggested options, and deposit information.
+1. Message two: I reply with a confirmation of your expectations, date details including the chosen date/time from your suggested options, and instructions for sending your deposit.
 1. Message three: you confirm these details and send your deposit to reserve time in my calendar.
 
 Real life is often messier, and it's possible that I'll need to ask you about, say, food allergies or preferences if we're going out, or clarify something in your inquiry. There is no strict limit to how many messages we'll exchange, but you'll undoubtedly notice my attention to detail and thoroughness in each and every one that I send. My goal is to handle logistics quickly so that we can get on to the really fun stuff equally quickly!
 
-If we find ourselves unable to plan for and set a specific date, time, or place for your appointment in more than five back-and-forth messages, it may mean you aren't quite ready to book, and I'll probably suggest you send a new inquiry when you're more ready. It's not a big deal, I just need to move on to other inquiries.
+If we find ourselves unable to plan for and set a specific date, time, or place for your appointment in more than five back-and-forth messages, it may mean you aren't quite ready to book, and I'll probably suggest you send a new inquiry when you are. It's no big deal, I just need to move on to other inquiries.
 
-Otherwise, if you feel like you need extensive correspondence or a real-time conversation, you can:
+Otherwise, if you feel like you need more correspondence or a real-time conversatiop to iron out logistics or communicate and set expectations, you can:
 
 * schedule [an introductory call]({% link index.html %}#rate-add-ons-and-online-intro-call-and-deposit-20-minutes) so we can get on the phone and talk things out or settle any pre-date nerves.
-* demonstrate good etiquette by [sending me a tip]({% link index.html %}#links-group-tip-me) or buying me a gift off [my wishlist]({% link index.html %}#links-throne) as a show of good faith and to compensate me for the additional time.
+* demonstrate good etiquette by [sending me a tip]({% link index.html %}#links-group-tip-me) or buying me a gift off [my wishlist]({% link index.html %}#links-throne) as a show of good faith recognition for the additional planning time.
 
 ## Enjoy the building anticipation of our upcoming date
 
-Once we've worked out the details, you can simply enjoy the building anticipation of our time together!
+Anticipation is an often overlooked part of foreplay, so this is frequently more fun than you may at first think! Once we've worked out the details, you can simply enjoy the building anticipation of our time together.
 
 ### The day before our date
 
@@ -424,11 +424,11 @@ On the day before our date, I'll send you a reminder message. The reminder will 
 
 In this reminder message, I'll also provide more specific instructions for exactly how to meet, including things like where to park if you're driving, which intersection to meet at, a specific address with instructions on how to use the buzzer, and so on.
 
-If you haven't met a companion before, this part can feel a bit like spycraft, but don't worry. That's just pre-date jitters and butterflies.
+If you haven't met a companion before, this part can feel a bit like spycraft, but don't worry. That's just pre-date jitters and butterflies. Once we see one another, everything will start to feel much more comfortable!
 
 ### If you need to reschedule or cancel
 
-As the time for our date comes closer, it's important that you stay in touch with me if our plans need to change. Rescheduling or even cancelling is perfectly acceptable, and normal, but you need to communicate this to me so we can make other arrangements without stressing.
+As the time for our date comes closer, it's important that you stay in touch with me if plans need to change. Rescheduling is perfectly acceptable, and normal, but you need to communicate this to me so we can make other arrangements without stressing.
 
 For more information, see my [cancellation policy]({% link index.html %}#cancellation-policy).
 
