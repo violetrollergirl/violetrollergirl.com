@@ -70,9 +70,8 @@ layout: none
                         window.location.hash = fragment;
                     } else {
                         // If none of the above matches, then just
-                        // set the hash to the Gallery panel.
-                        window.location.hash = '#gallery';
-                        // And then show my "About" page by default.
+                        // show my Gallery, which closes all panels.
+                        // This also ensures text fragments still work.
                         $('#gallery').triggerHandler('---toggle');
                     }
                 }
