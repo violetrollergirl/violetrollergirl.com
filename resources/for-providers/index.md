@@ -14,3 +14,6 @@ Cryptocurrency gets a bad rap and, in many situations, it's deserved. Most of th
 I hope these short, stand alone articles help you better understand why there are real benefits to using the good parts of what cryptocurrency makes possible, what those benefits are, and how to capitalize on them in your day-to-day dealings as a sex worker.
 
 [Read my cryptocurrency articles for sex workers]({% link resources/for-providers/using-cryptocurrency/index.md %}).
+
+{:.button-container}
+{% include link-as-button.md anchor_text="Up" url="../" %}
