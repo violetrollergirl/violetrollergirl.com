@@ -82,7 +82,7 @@ In every wallet app, you'll see a button labelled "Receive." This is the button 
 
 ### Quick safety note: backups and recovery phrases
 
-Wallet apps are *truly* like physical wallets, not bank accounts: if you uninstall the wallet app, or your phone is lost or gets stolen, and you don't have a backup somewhere, all the money in your cryptocurrency wallet is lost, too.
+Self-custody wallet apps are *truly* like physical wallets, not bank accounts: if you uninstall the wallet app, or your phone is lost or gets stolen, and you don't have a backup somewhere, all the money in your cryptocurrency wallet is lost, too.
 
 Another useful analogy, at least for those of us who have physical safe vaults at our our incalls, is that you should think of your self-custody wallet app like a physical vault in which you keep your cold, hard cash. Lose the key to the safe, and you lose access to the money inside. There is no bank teller you can go to beg for help from.
 

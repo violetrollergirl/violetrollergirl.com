@@ -2,7 +2,7 @@
 title: "Off-ramping: where and how to spend your cryptocurrency"
 prev: resources/for-providers/using-cryptocurrency/on-ramping/
 next: resources/for-providers/using-cryptocurrency/convincing-clients/
-last_modified: Sat Sep  6 13:56:18 EDT 2025
+last_modified: Sat Sep 22 00:21:03 EDT 2025
 ---
 
 # Off-ramping: where and how to spend your cryptocurrency
@@ -132,12 +132,14 @@ If you need something from a store that doesn't have a Flexa partnership, you ca
 
 When you're using the gift card economy to spend your cryptocurrency, the first challenge is figuring out which service can get you a gift card from a brand you want to purchase from.
 
-The cryptocurrency to gift card vendor I know most about is [Bitrefill (referral link)]({{ site.data.affiliates.bitrefill }}){:target="_blank"}, because they're one of the largest. Bitrefill sells gift cards to a plethora of well-known brands by accepting cryptocurrency as payment for them. You can buy these even more privately by browsing the site via [Tor Browser](https://torproject.org/){:target="_blank"}, or create a "basic account" with Bitrefill to get [decently large spending limits ($10,000 USD per month)](https://help.bitrefill.com/hc/en-us/articles/360019385360-Is-there-a-purchasing-top-up-limit){:target="_blank"}. Signing up with any name and any working email you like will work fine. (I didn't use a legal identity to sign up and have no trouble using the site.) If you want to give Bitrefill a try, signing up with my referral link will also earn you (and me) a $5 USD rebate after you spend your first $200 USD.
+The cryptocurrency to gift card vendor I know most about is [Bitrefill (referral link)]({{ site.data.affiliates.bitrefill }}){:target="_blank"}, because they're one of the largest. Another popular one I use is [Piggy.Cards (referral link)]({{ site.data.affiliates.piggycards }}){:target="_blank"}.
+
+Both Bitrefill and Piggy.Cards sells gift cards to a plethora of well-known brands by accepting cryptocurrency as payment for them. You can buy these even more privately by browsing the sites via [Tor Browser](https://torproject.org/){:target="_blank"}. If or when you hit purchase limits, you can create a "basic account" with Bitrefill to get [decently large spending limits ($10,000 USD per month)](https://help.bitrefill.com/hc/en-us/articles/360019385360-Is-there-a-purchasing-top-up-limit){:target="_blank"}. Signing up with any name and any working email you like will work fine. (I didn't use a legal identity to sign up and have no trouble using the site.) If you want to give Bitrefill or Piggy.Cards a try, signing up with my referral links will also earn you (and me) additional discounts and initial spending money.
 
 {:.align-center}
-{% include link-as-button.md anchor_text="Join Bitrefill (via referral)" url=site.data.affiliates.bitrefill target="_blank" %}
+{% include link-as-button.md anchor_text="Join Bitrefill (via referral)" url=site.data.affiliates.bitrefill target="_blank" %} {% include link-as-button.md anchor_text="Join Piggy.Cards (via referral)" url=site.data.affiliates.piggycards target="_blank" %}
 
-Since there's so much there, I've also compiled the below list to help you get a sense of what's available and may be particularly useful for us as sex workers via this particular gift card off-ramping site.
+Since there are so many purchases available at these sites, I've also compiled the below list to help you get a sense of what's available and may be particularly useful for us as sex workers via this particular gift card off-ramping site.
 
 - [Digital pre-paid Visa credit card (via Bitrefill)](https://www.bitrefill.com/us/en/gift-cards/virtual-prepaid-visa-usa/){:target="_blank"} - Perhaps the most generically useful crypto off-ramp via the gift card economy is simply a pre-paid credit card. You pay in crypto and get a legitimate digital pre-paid credit card number that has a fiat balance you paid for using your cryptocurrency balance. You can also get [physical pre-paid credit cards](https://www.bitrefill.com/us/en/gift-cards/physical-prepaid-visa-usa/){:target="_blank"} mailed to you.
 - [Amazon Gift Card (via Bitrefill)](https://www.bitrefill.com/us/en/gift-cards/amazon_com-usa/){:target="_blank"} - This gift card is good for anything sold at Amazon.com, not that I'm trying to encourge you to give Daddy Bezos more money, but, y'know&hellip;.
@@ -145,7 +147,7 @@ Since there's so much there, I've also compiled the below list to help you get a
 - [Amtrak Gift Card (via Bitrefill)](https://www.bitrefill.com/us/en/gift-cards/amtrak-usa/){:target="_blank"} - Since I service clients in numerous cities clustered along Amtrak lines on the United States' East Coast, this is a particularly convenient off-ramp for me and I imagine other <abbr title="Train Me To You">TMTY</abbr> providers would want to know about it, too.
 - [Lyft Gift Card](https://www.bitrefill.com/us/en/gift-cards/lyft-usa/){:target="_blank"} or [Uber Gift Card](https://www.bitrefill.com/us/en/gift-cards/uber-usa/){:target="_blank"} (via Bitrefill) - For the obvious reasons.
 
-You can also find gift cards for other common sex worker needs, including airline and hotel bookings. However, remember that the gift card economy is still actually part of the fiat economy. When possible, it's best to avoid converting your cryptocurrency back to fiat currency, whether to avoid privacy incursions or simply due to the inconvenience. That's where [specialty services](#use-specialty-exchange-service-providers) come in.
+You can also find gift cards for other common sex worker needs, including airline and hotel bookings, at gift card off-ramping sites like these. However, remember that the gift card economy is still actually part of the fiat economy. When possible, it's best to avoid converting your cryptocurrency back to fiat currency, whether to avoid privacy incursions or simply due to the inconvenience. That's where [specialty services](#use-specialty-exchange-service-providers) come in.
 
 ## Use specialty exchange service providers
 
