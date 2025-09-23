@@ -410,7 +410,7 @@ Real life is often messier, and it's possible that I'll need to ask you about, s
 
 If we find ourselves unable to plan for and set a specific date, time, or place for your appointment in more than five back-and-forth messages, it may mean you aren't quite ready to book, and I'll probably suggest you send a new inquiry when you are. It's no big deal, I just need to move on to other inquiries.
 
-Otherwise, if you feel like you need more correspondence or a real-time conversatiop to iron out logistics or communicate and set expectations, you can:
+Otherwise, if you feel like you need more correspondence or a real-time conversation to iron out logistics, test our chemistry, or communicate and set expectations, you can:
 
 * schedule [an introductory call]({% link index.html %}#rate-add-ons-and-online-intro-call-and-deposit-20-minutes) so we can get on the phone and talk things out or settle any pre-date nerves.
 * demonstrate good etiquette by [sending me a tip]({% link index.html %}#links-group-tip-me) or buying me a gift off [my wishlist]({% link index.html %}#links-throne) as a show of good faith recognition for the additional planning time.
