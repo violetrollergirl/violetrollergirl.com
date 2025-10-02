@@ -136,7 +136,7 @@ Your provider will send you back one of several things. It will either be:
 
     ![]({% link images/qr.zcash.violetrollergirl.gif %})
 
-The above are examples of my own [donation addresses]({% link colophon.md %}#cryptocurrency-tips-and-donation-links).
+The above are examples of my own [donation addresses]({% link colophon/index.md %}#cryptocurrency-tips-and-donation-links).
 
 ## Send ZEC to your provider
 

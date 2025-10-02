@@ -80,7 +80,7 @@ I also suggest spending a bit of time perusing the [Good Client Guide](https://g
 
 ## Start here: once you know you want to meet me
 
-Everyone I meet begins at my [booking form]({% link index.html %}#contact). Additionally, my booking form offers some [rather novel privacy-preserving features]({% link colophon.md %}#privacy-guarantees-of-first-contact) that you may find valuable if you need extra levels of discretion, so it behooves you to use it.
+Everyone I meet begins at my [booking form]({% link index.html %}#contact). Additionally, my booking form offers some [rather novel privacy-preserving features]({% link colophon/index.md %}#privacy-guarantees-of-first-contact) that you may find valuable if you need extra levels of discretion, so it behooves you to use it.
 
 To be clear:
 
@@ -344,7 +344,7 @@ Since the message you're about to send is just text, you can also extend any par
 
 The only thing missing from your message now is your screening information, which you'll need to send me if you've never screened with me before and are inquiring about anything other than a social meet-and-greet.
 
-[My booking form is designed to  carefully protect your privacy at this early stage]({% link colophon.md %}#privacy-guarantees-of-first-contact), which is why you're expected to directly attach it to this pre-written message rather than via the Web form. Regardless of which app you're now using to contact me (Signal, WhatsApp, email, or txt message), you have the option of attaching or sending images to screen yourself with:
+[My booking form is designed to  carefully protect your privacy at this early stage]({% link colophon/index.md %}#privacy-guarantees-of-first-contact), which is why you're expected to directly attach it to this pre-written message rather than via the Web form. Regardless of which app you're now using to contact me (Signal, WhatsApp, email, or txt message), you have the option of attaching or sending images to screen yourself with:
 
 * If you chose Signal Private Messenger, [tap or click the plus (`+`) icon or the paperclip icon to attach a photo](https://support.signal.org/hc/en-us/articles/360007060212-Send-a-message#:~:text=to%20attach%20a%20photo){:target="_blank"}.
 * If you chose WhatsApp, [follow these instructions to attach a photo](https://faq.whatsapp.com/453914586839706/){:target="_blank"}.

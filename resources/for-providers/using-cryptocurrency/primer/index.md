@@ -52,7 +52,7 @@ Some of the above, like the way cryptocurrency makes counterfeits impossible (cr
 
 A privacy coin is a cryptocurrency that keeps transaction data, such as a payment's sender, recipient, and amount, secret. Technically, privacy coins use math known as zero-knowledge proofs (*ZKPs*) to encrypt the details of each transaction so that only the sender and intended recipient know what's up. Only privacy coins do this. In contrast, using Bitcoin literally broadcasts your financial dealings for the world to see. I don't want to be doing that, nor do my clients.
 
-There are a lot of privacy coins out there, but the only two that I'm going to talk about are the two most reputable and proven ones, the ones [I prefer to accept: Zcash and Monero]({% link colophon.md %}#cryptocurrency-tips-and-donation-links).
+There are a lot of privacy coins out there, but the only two that I'm going to talk about are the two most reputable and proven ones, the ones [I prefer to accept: Zcash and Monero]({% link colophon/index.md %}#cryptocurrency-tips-and-donation-links).
 
 ### Zcash in a nutshell
 
