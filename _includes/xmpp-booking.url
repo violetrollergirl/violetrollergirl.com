@@ -1,0 +1,1 @@
+xmpp:{{ site.contact.xmpp.jid | url_encode }}?message;subject={{ site.booking.subject | url_encode }};body={{ site.booking.template_txt | url_encode -}}

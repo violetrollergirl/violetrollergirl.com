@@ -81,6 +81,7 @@ along with a bunch of additional instruction.
                             <option value="whatsapp">WhatsApp</option>
                             <option value="email">email</email>
                             <option value="sms">SMS/text message</option>
+                            <option value="xmpp">Jabber/XMPP instant message</option>
                         </select>.
                         <sup>
                             <small class="form-text">
@@ -339,8 +340,13 @@ along with a bunch of additional instruction.
                     <span class="label icon-label">Text/SMS<br />({{ site.contact.sms.vanity }})</span>
                 </a>
             </li>
+            <li>
+                <a id="contact-link-xmpp" class="icon masked-svg-icon fa-solid fa-xmpp fa-5x" href="{% include xmpp-booking.url %}" title="Jabber/XMPP">
+                    <span class="label icon-label">Jabber/XMPP<br />({{ site.contact.xmpp.jid }})</span>
+                </a>
+            </li>
         </ul>
-        <p>Otherwise, you may also contact me via <a href="{% include mailto-booking.url %}">email addressed to <code>{{ site.contact.email }}</code></a>, using <a href="{% include whatsapp-booking.url %}">WhatsApp</a>, and finally by <a href="{% include sms-booking.url %}">text/SMS to {{ site.contact.sms.vanity }}</a> if necessary.</p>
+        <p>Otherwise, you may also contact me via <a href="{% include mailto-booking.url %}">email addressed to <code>{{ site.contact.email }}</code></a>, using <a href="{% include whatsapp-booking.url %}">WhatsApp</a>, over <a href="{% include xmpp-booking.url %}">Jabber/XMPP instant message</a>, and finally by <a href="{% include sms-booking.url %}">text/SMS to {{ site.contact.sms.vanity }}</a> if necessary.</p>
         <p>Please be patient as <strong>it may take a day for me to reply.</strong></p>
         <p class="align-center"><img loading="lazy" src="{% link images/gallery-originals/balcony-view-as-voyeur-through-window.jpg %}" alt="" /></p>
         <p>In the meantime, explore the <a href="https://goodclientguide.com/" target="_blank">Good Client Guide</a> for more helpful advice about how to prepare for your date with a provider like me, or have a look at some of <a href="#friends">my hot friends</a>.</p>

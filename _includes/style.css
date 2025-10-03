@@ -1,3 +1,8 @@
 /**
  * Oh, baby, I've got all the style I need. ;)
  */
+
+/* A single custom, quick 'n' dirty font hack. */
+.icon.fa-xmpp::before {
+    mask: url("{% link images/logo.xmpp.currentColor.svg %}") center/contain no-repeat;
+}

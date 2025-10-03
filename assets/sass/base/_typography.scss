@@ -187,6 +187,19 @@
 	ul.icons.labels-list > li {
 		display: inline-block;
 		margin-right: 1em;
+
+        /* Custom "Font Awesome" icons. */
+        .icon.masked-svg-icon::before {
+            content: "";
+            display: inline-block;
+            width: 1em;
+            height: 1em;
+            background-color: _palette(fg);
+            transition: background-color 0.5s;
+        }
+        .icon.masked-svg-icon:hover::before {
+            background-color: _palette(accent1);
+        }
 	}
 	ul.icons.labels-list > li:last-child {
 		margin-right: 0;

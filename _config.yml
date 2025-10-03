@@ -17,7 +17,7 @@ description: >-
 booking:
   subject: Booking inquiry
   template_txt: |-
-    Hi Violet, my name is __. I found you via your website and would like to book an INCALL/OUTCALL on __ for __ hours. Thanks!
+    Hi Violet, my name is __. I found you via your website and would like to book an INCALL/OUTCALL on __ for __ hours in CITY. Thanks!
   template: "" # TODO: A more complete text template.
 contact:
   email: violetrollergirl@protonmail.com
@@ -28,6 +28,8 @@ contact:
     tel: "+19295547784"
     vanity: "+1 929-5-KISS-VI"
   whatsapp: "+19174407408"
+  xmpp:
+    jid: violet@violetrollergirl.snikket.chat
 
 defaults:
   - values:

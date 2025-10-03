@@ -244,16 +244,21 @@ Sincerely,
                     break;
                 case 'sms':
                     url.searchParams.set('body', templateText);
-        break;
+                    break;
                 case 'email':
                     // Avoid dealing with URLSearchParams interface
                     // because of encoding complexness.
                     url.search = `?subject=Booking%20inquiry%20from%20${inquiryData.booking_inquiry_prospect_name}&body=${encodeURIComponent(templateText)}`;
                     break;
+                case 'xmpp':
+                    // According to XEP-0147, XMPP URI Scheme Query Components
+                    // require different parameter handling than normal URIs.
+                    var xmppAction = 'message';
+                    url.search = `?${xmppAction};subject=Booking%20inquiry%20from%20${inquiryData.booking_inquiry_prospect_name};body=${encodeURIComponent(templateText)}`;
+                    break;
                 default:
                     break;
             }
-            console.log(url.toString());
             el.attr('href', url.toString()); // Rewrite hyperlink.
             el[0].click(); // Click DOM element, not jQuery object.
             el.attr('href', oldUrl); // Restore original.
