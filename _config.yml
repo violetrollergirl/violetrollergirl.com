@@ -24,7 +24,9 @@ contact:
   signal:
     url: https://signal.me/#eu/hXeV89EMDRGessR7BjUl9x0sRr4XA6LoQ_I9YIT--TRduWmPwy9H7bPWLFx6M6xw
     username: VioletRollergirl.69
-  sms: "+16466641228"
+  sms:
+    tel: "+19295547784"
+    vanity: "+1 929-5-KISS-VI"
   whatsapp: "+19174407408"
 
 defaults:
