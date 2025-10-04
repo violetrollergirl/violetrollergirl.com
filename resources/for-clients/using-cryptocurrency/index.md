@@ -5,7 +5,7 @@ description: >
     and companions with cryptocurrency.
 prev: resources/for-clients/
 next: resources/for-clients/using-cryptocurrency/quick-start/
-#last_modified: Thu Sep  4 20:21:32 EDT 2025
+last_modified: Sat Oct  4 15:48:04 EDT 2025
 ---
 
 # {{ site.title }}'s guide to paying your provider in crypto
@@ -52,12 +52,12 @@ Choose the option that best describes you from the list below.
     Start at [my "Quick(est) Start" guide]({% link resources/for-clients/using-cryptocurrency/quick-start/index.md %}), which explains how to sign up for one of the largest cryptocurrency exchanges, Coinbase, where you can buy crypto and make payments.
 
 - "I have an existing digital payment app." - Great! Which do you have?
-    - [PayPal]({% link resources/for-clients/using-cryptocurrency/paypal.md %}) - TODO
-    - [CashApp]({% link resources/for-clients/using-cryptocurrency/cashapp.md %}) - TODO
+    - [PayPal]({% link resources/for-clients/using-cryptocurrency/paypal/index.md %}) - TODO
+    - [CashApp]({% link resources/for-clients/using-cryptocurrency/cashapp/index.md %}) - TODO
 - "I have an account at a cryptocurrency exchange." - Great, which one?
-    - [Coinbase]({% link resources/for-clients/using-cryptocurrency/coinbase.md %}) - TODO
-    - [Kraken]({% link resources/for-clients/using-cryptocurrency/kraken.md %}) - TODO
-    - [Binance]({% link resources/for-clients/using-cryptocurrency/binance.md %}) - TODO
+    - [Coinbase]({% link resources/for-clients/using-cryptocurrency/coinbase/index.md %}) - TODO
+    - [Kraken]({% link resources/for-clients/using-cryptocurrency/kraken/index.md %}) - TODO
+    - [Binance]({% link resources/for-clients/using-cryptocurrency/binance/index.md %}) - TODO
 
 {:.button-container}
 {% include link-as-button.md anchor_text="Previous: Resources for Clients" url=page.prev %} {% include link-as-button.md anchor_text="Home" url="/" %} {% include link-as-button.md anchor_text="Next: Quick(est) Start" url=page.next %}

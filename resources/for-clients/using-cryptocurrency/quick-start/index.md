@@ -4,7 +4,7 @@ description: >
     Brand new to crypto? Start here to learn how to quickly get and
     send payments to your providers directly in crypto.
 prev: resources/for-clients/using-cryptocurrency/
-last_modified: Wed Oct  1 18:41:11 EDT 2025
+last_modified: Sat Oct  4 15:48:20 EDT 2025
 ---
 
 # Violet Rollergirl's Cryptocurrency Quick(est) Start
