@@ -20,9 +20,9 @@ I wrote this booking guide to help those of you who want a meticulously crafted 
 {% comment %}
 ## [Using cryptocurrency]({% link resources/for-clients/using-cryptocurrency/index.md %})
 
-Cryptocurrency is increasingly becoming a popular way to pay providers. Some providers, like me, even prefer it over every other form of payment. If you've never used cryptocurrency before, though, it can feel a little daunting to figure out.
+Cryptocurrency is now a popular way to pay providers. Some providers, like me, even prefer it over every other form of payment. If you're new to using cryptocurrency, it can feel a little daunting the first time, but using it smartly can offer some really helpful privacy and security benefits. Besides, you only need to set things up once.
 
-This cryptocurrency explainer is designed to help you get set up and ready to send payments from your digital wallet as quickly and simply as possible.
+My cryptocurrency explainers are designed to help you get set up and ready to send payments from your digital wallet or crypto account(s) as quickly and simply as possible.
 
 {:.align-center}
 [Read my cryptocurrency guide for clients]({% link resources/for-clients/using-cryptocurrency/index.md %}){:.button}
