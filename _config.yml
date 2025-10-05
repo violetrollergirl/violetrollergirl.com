@@ -50,6 +50,7 @@ defaults:
 
 collections:
   faq:
+  testimonials:
 
 # Gallery.
 # Configure which exif data to display
