@@ -60,7 +60,7 @@ For more specific help, choose the option that best describes you from the list 
     No stress! Start at [my "Quick(est) Start" guide]({% link resources/for-clients/using-cryptocurrency/quick-start/index.md %}), which explains how to sign up for one of the largest cryptocurrency exchanges, Coinbase, where you can buy crypto and make payments.
 
 - "I already use a digital payment app."
-    - [PayPal]({% link resources/for-clients/using-cryptocurrency/paypal/index.md %}) - TODO
+    - [PayPal]({% link resources/for-clients/using-cryptocurrency/paypal/index.md %})
     - [CashApp]({% link resources/for-clients/using-cryptocurrency/cashapp/index.md %}) - TODO
 - "I have an account at a cryptocurrency exchange."
     - [Coinbase]({% link resources/for-clients/using-cryptocurrency/coinbase/index.md %})

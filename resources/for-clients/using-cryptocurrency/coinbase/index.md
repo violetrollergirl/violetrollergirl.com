@@ -6,6 +6,7 @@ description: >
     or favorite creator.
 prev: resources/for-clients/
 next: /resources/for-clients/using-cryptocurrency/paying-your-provider/
+last_modified: Sat Oct  4 21:22:21 EDT 2025
 ---
 
 # {{ site.title }}'s guide to using cryptocurrency via Coinbase
@@ -53,7 +54,7 @@ Once you [create your Coinbase account](#create-your-coinbase-account) and [add 
 {:.align-center}
 {% include link-as-button.md anchor_text="How to Buy Crypto on Coinbase" url="https://help.coinbase.com/en/coinbase/trading-and-funding/buying-selling-or-converting-crypto/how-do-i-buy-digital-currency" target="_blank" %}
 
-At this point, Coinbase will show you that you have a positive crypto balance in your "wallet" (which is really a bank account, not a true wallet). You can now use that balance to pay your worker in crypto!
+At this point, Coinbase will show you that you have a positive crypto balance in your "wallet" (which is really a bank account, not a true wallet). You can now use that balance to [pay your worker in crypto]({% link resources/for-clients/using-cryptocurrency/paying-your-provider/index.md %})!
 
 {:.button-container}
 {% include link-as-button.md anchor_text="Previous: Resources for Clients" url=page.prev %} {% include link-as-button.md anchor_text="Up" url="../" %} {% include link-as-button.md anchor_text="Next: Paying your Provider" url=page.next %}
