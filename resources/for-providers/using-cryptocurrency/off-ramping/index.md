@@ -90,7 +90,7 @@ There's a lot of sparkle-emoji technology sparkle-emoji happening here, but what
 
 Practically, this enables you to safely keep your cryptocurrency assets in the Zcash shielded pool, where they stay completely private, and still be able to pay any vendor who accepts any denomination of a supported cryptocurrency equally privately. If you do this, no one can know how rich (or poor) you really are. In contrast, if you keep your holdings in a transparent ledger system like Bitcoin, the whole world can tally your real net worth without ever asking you questions.
 
-This is not a hypothetical example. This is in fact how I pay for [my Tryst membership and other ads]({% link index.html %}#links-group-ad-listings). Consider trying it out for your next cryptocurrency payment, too.
+This is not a hypothetical example. This is in fact how I pay for [my Tryst membership and other ads]({% link index.html %}#links-group-ad-listings), as well as for the VoIP phone [number I use for SMS inquiries]({% link resources/for-clients/booking-guide/index.md %}#contact-link-sms). Consider trying it out for your next cryptocurrency payment, too.
 
 ## Piggyback on the gift card economy
 
