@@ -182,6 +182,22 @@ layout: none
                 default:
                     break
             }
+
+            // At the end of each fired `change` event, write the
+            // current values of all fields into sessionStorage so
+            // that they can be restored when opened.
+            document.querySelectorAll('#booking-inquiry-form [id^="booking-inquiry-prospect-"]').forEach(function (x) {
+                sessionStorage.setItem(x.id, x.value);
+            });
+        });
+
+        // When loading the window, make sure any info in the booking
+        // form saved in sessionStorage is restored.
+        $window.on('load', function (e) {
+            document.querySelectorAll('#booking-inquiry-form [id^="booking-inquiry-prospect-"]').forEach(function (x) {
+                var v = sessionStorage.getItem(x.id);
+                document.getElementById(x.id).value = (v) ? v : "";
+            });
         });
 
         // Form help text should also close the Contact panel.
@@ -262,6 +278,9 @@ Sincerely,
             el.attr('href', url.toString()); // Rewrite hyperlink.
             el[0].click(); // Click DOM element, not jQuery object.
             el.attr('href', oldUrl); // Restore original.
+
+            // If we have any form field data saved in sessionStorage, clear it.
+            sessionStorage.clear(); // THIS CLEARS EVERYTHING. No one else is using it, right?
         });
 
         // Panels.
