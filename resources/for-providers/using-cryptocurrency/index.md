@@ -18,7 +18,7 @@ I hope these short, stand alone articles help you better understand why there ar
 
 If you, like me, participate in any part of the economy that risks your ability to safely engage with traditional banking systems&mdash;even legal sex work like modeling on OnlyFans can get your bank account flagged or shut down&mdash;you might want to explore more independent financial options like those available with privacy-preserving cryptocurrencies.
 
-The following is a series of articles I've written in the hopes of helping you gradually move more and more of your financial life towards safe and private cryptocurrencies and away from (often discriminatory) traditional banking institutions and the implicit surveillance they subject you and the people closest to you to.
+The following is a series of articles I've written in the hopes of helping you gradually move more and more of your financial life towards safe and private cryptocurrencies and away from (often discriminatory) traditional banking institutions and the implicit surveillance they subject you and all the people you transact with to.
 
 1. [{{ site.title }}'s cryptocurrency primer for providers]({% link resources/for-providers/using-cryptocurrency/primer/index.md %})
 
