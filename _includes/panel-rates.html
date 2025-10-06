@@ -12,7 +12,7 @@
     <a href="#rates-pro-sub-bdsm" class="button"><span class="icon fa-solid fa-handcuffs"></span> Pro-sub/BDSM rates</a>
 </p>
 <p>My rates for <a href="#incall-availability">incalls</a> and <a href="#outcall-availability">outcalls</a> are the same. An incall fee <em>may</em> apply at some of my incall locations or for hotel arrangements&mdash;<a href="#tours">see my tours and availability page for more information</a>. Transportation costs for outcalls are not included in the fee schedule below.</p>
-<p>Each in-date extension equals my base hourly rate for the booked service (e.g., <a href="#rate-gfe-vanilla-1-hour">1 hour</a>). Please <a href="#contact">inquire</a> about rates for <a href="#links-group-socials-amp-content">content shoots or collaborations</a>, longer multi-day dates, travel to/with you (&ldquo;<acronym title="Fly-Me-To-You">FMTY</acronym>&rdquo;) bookings, or ongoing arrangements.</p>
+<p>Each in-date extension equals my base hourly rate for the booked service (e.g., <a href="#rate-gfe-vanilla-1-hour">1 hour</a>). Please <a href="{% link resources/for-clients/booking-guide/index.md %}#contact">inquire</a> about rates for <a href="#links-group-socials-amp-content">content shoots or collaborations</a>, longer multi-day dates, travel to/with you (&ldquo;<acronym title="Fly-Me-To-You">FMTY</acronym>&rdquo;) bookings, or ongoing arrangements.</p>
 <div class="inner split">
     {% for menu in site.data.fee_schedule %}
     <div>
@@ -24,14 +24,14 @@
                     <th>
                         {{ item.name }}
                         {% if item.url %}<a href="{{ item.url }}">Order now</a>
-                        {% elsif item.duration_in_hours %}<a href="#booking-inquiry-prospect-name" class="booking-link"
+                        {% elsif item.duration_in_hours %}<a href="{% link resources/for-clients/booking-guide/index.md %}#booking-inquiry-prospect-name" class="booking-link"
                             data-booking-inquiry-prospect-preferred-screening-method="{{ item.screening_method }}"
                             data-booking-inquiry-prospect-booking-type="{{ item.booking_type }}"
                             data-booking-inquiry-prospect-service-type="{% case menu.id %}{% when "pro-sub-bdsm" %}pro-sub/BDSM services{% else %}GFE/vanilla services{% endcase %}"
                             data-booking-inquiry-prospect-duration="{{ item.duration_in_hours }}"
                             data-booking-inquiry-prospect-location="{{ item.location }}">Reserve now</a>
                         {% else %}
-                        <a href="#contact">Inquire now</a>
+                        <a href="{% link resources/for-clients/booking-guide/index.md %}#contact">Inquire now</a>
                         {% endif %}
                     </th>
                     <td>
@@ -53,7 +53,7 @@
 </div>
 <p class="button-container">
     <a href="#tours" class="button"><span class="icon fa-solid fa-calendar-check"></span> Check Availability</a>
-    <a href="#contact" class="button"><span class="icon fa-solid fa-pen-nib"></span> Ready to book?</a>
+    <a href="{% link resources/for-clients/booking-guide/index.md %}#contact" class="button"><span class="icon fa-solid fa-pen-nib"></span> Ready to book?</a>
     <a href="{% link index.html %}#gallery" class="button"><span class="icon fa-solid fa-images"></span> View Gallery</a>
 </p>
 <div class="inner split">
