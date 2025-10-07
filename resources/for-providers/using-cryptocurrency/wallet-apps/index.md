@@ -1,5 +1,8 @@
 ---
 title: Cryptocurrency wallet apps for sex workers
+description: >
+    Wallet apps make it possible to get and spend cryptocurrency.
+    This page shows you which are the safest and most private to use.
 next: resources/for-providers/using-cryptocurrency/on-ramping/
 prev: resources/for-providers/using-cryptocurrency/primer/
 last_modified: Thu Sep  4 20:22:14 EDT 2025
