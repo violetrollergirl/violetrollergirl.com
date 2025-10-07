@@ -2,7 +2,7 @@
 title: "On-ramping: acquiring cryptocurrency funds"
 prev: resources/for-providers/using-cryptocurrency/wallet-apps/
 next: resources/for-providers/using-cryptocurrency/off-ramping/
-last_modified: Thu Sep  4 20:22:14 EDT 2025
+last_modified: Mon Oct  6 20:09:17 EDT 2025
 ---
 
 # On-ramping: acquiring cryptocurrency funds

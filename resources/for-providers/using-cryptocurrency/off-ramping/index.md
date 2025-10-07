@@ -2,7 +2,7 @@
 title: "Off-ramping: where and how to spend your cryptocurrency"
 prev: resources/for-providers/using-cryptocurrency/on-ramping/
 next: resources/for-providers/using-cryptocurrency/convincing-clients/
-last_modified: Sat Sep 22 00:21:03 EDT 2025
+last_modified: Mon Oct  6 20:03:44 EDT 2025
 ---
 
 # Off-ramping: where and how to spend your cryptocurrency
@@ -20,8 +20,9 @@ In the traditional financial system, spending money comes with a privacy trade-o
 1. [Piggyback on the gift card economy](#piggyback-on-the-gift-card-economy)
     1. [Pay for stuff via Flexa in Zashi](#pay-for-stuff-via-flexa-in-zashi)
     1. [Common cryptocurrency to gift card off-ramps (for sex workers)](#common-cryptocurrency-to-gift-card-off-ramps-for-sex-workers)
-1. [Use specialty exchange service providers](#use-specialty-exchange-service-providers)
+1. [Use crypto-native service providers](#use-crypto-native-service-providers)
     1. [Booking hotel stays and air travel with cryptocurrency](#booking-hotel-stays-and-air-travel-with-cryptocurrency)
+    1. [Buying VoIP phone services with cryptocurrency](#buying-voip-phone-services-with-cryptocurrency)
 1. [Join a digital employment cooperative that accepts cryptocurrency](#join-a-digital-employment-cooperative-that-accepts-cryptocurrency)
     1. [Opolis: a crypto-native independent employment platform](#opolis-a-crypto-native-independent-employment-platform)
 1. [Convert crypto back to fiat currency](#convert-crypto-back-to-fiat-currency)
@@ -143,11 +144,11 @@ Since there are so many purchases available at these sites, I've also compiled t
 - [Amtrak Gift Card (via Bitrefill)](https://www.bitrefill.com/us/en/gift-cards/amtrak-usa/){:target="_blank"} - Since I service clients in numerous cities clustered along Amtrak lines on the United States' East Coast, this is a particularly convenient off-ramp for me and I imagine other <abbr title="Train Me To You">TMTY</abbr> providers would want to know about it, too.
 - [Lyft Gift Card](https://www.bitrefill.com/us/en/gift-cards/lyft-usa/){:target="_blank"} or [Uber Gift Card](https://www.bitrefill.com/us/en/gift-cards/uber-usa/){:target="_blank"} (via Bitrefill) - For the obvious reasons.
 
-You can also find gift cards for other common sex worker needs, including airline and hotel bookings, at gift card off-ramping sites like these. However, remember that the gift card economy is still actually part of the fiat economy. When possible, it's best to avoid converting your cryptocurrency back to fiat currency, whether to avoid privacy incursions or simply due to the inconvenience. That's where [specialty services](#use-specialty-exchange-service-providers) come in.
+You can also find gift cards for other common sex worker needs, including airline and hotel bookings, at gift card off-ramping sites like these. However, remember that the gift card economy is still actually part of the fiat economy. When possible, it's best to avoid converting your cryptocurrency back to fiat currency, whether to avoid privacy incursions or simply due to the inconvenience. That's where [crypto-native services](#use-crypto-native-service-providers) come in.
 
-## Use specialty exchange service providers
+## Use crypto-native service providers
 
-Instead of gift cards, which is really just a roundabout way to help fiat economy vendors accept cryptocurrency without actually accepting cryptocurrency payments, there are also a class of business-to-consumer (B2C) middlemen that will accept payments in cryptocurrency and interface with vendors on your behalf.
+Instead of gift cards, which is really just a roundabout way to help fiat economy vendors accept cryptocurrency without actually accepting cryptocurrency payments, there are also a class of business-to-consumer (B2C) middlemen that will accept payments in cryptocurrency and either interface with vendors on your behalf or provide services paid for in crypto themselves.
 
 ### Booking hotel stays and air travel with cryptocurrency
 
@@ -171,6 +172,14 @@ And here's what happens when you press the "Complete Reservation" button.
 Kinda looks like Tryst's payment screen, doesn't it?
 
 You can also [buy airline tickets on Travala](https://www.travala.com/?tab=flights){:target="_blank"} this same way.
+
+### Buying VoIP phone services with cryptocurrency
+
+Earlier, I showed you how to [off-ramp using the gift card economy](#piggyback-on-the-gift-card-economy), which is one way you can buy prepaid phone and data plans. However, there are also some VoIP providers that will accept payment directly in crypto. Here's a short list:
+
+- [JMP.chat](https://jmp.chat){:target="_blank"} - This VoIP provider is really a hosted Jabber/XMPP (instant messaging) service with a paid VoIP gateway. You give them Bitcoin, they give you a phone number. You can even sign up and use the service over Tor for more privacy. JMP.chat deserves its own exposition, but for now, just know it's an option if you are comfortable getting through an unusual sign-up process.
+
+Please [contact me](#contact) to let me know if you found any more quality VoIP providers that accept crypto payments!
 
 ## Join a digital employment cooperative that accepts cryptocurrency
 
