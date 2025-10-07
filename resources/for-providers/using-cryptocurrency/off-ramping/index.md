@@ -23,6 +23,7 @@ In the traditional financial system, spending money comes with a privacy trade-o
 1. [Use crypto-native service providers](#use-crypto-native-service-providers)
     1. [Booking hotel stays and air travel with cryptocurrency](#booking-hotel-stays-and-air-travel-with-cryptocurrency)
     1. [Buying VoIP phone services with cryptocurrency](#buying-voip-phone-services-with-cryptocurrency)
+    1. [Buying VPN services with cryptocurrency](#buying-vpn-services-with-cryptocurrency)
 1. [Join a digital employment cooperative that accepts cryptocurrency](#join-a-digital-employment-cooperative-that-accepts-cryptocurrency)
     1. [Opolis: a crypto-native independent employment platform](#opolis-a-crypto-native-independent-employment-platform)
 1. [Convert crypto back to fiat currency](#convert-crypto-back-to-fiat-currency)
@@ -180,6 +181,14 @@ Earlier, I showed you how to [off-ramp using the gift card economy](#piggyback-o
 - [JMP.chat](https://jmp.chat){:target="_blank"} - This VoIP provider is really a hosted Jabber/XMPP (instant messaging) service with a paid VoIP gateway. You give them Bitcoin, they give you a phone number. You can even sign up and use the service over Tor for more privacy. JMP.chat deserves its own exposition, but for now, just know it's an option if you are comfortable getting through an unusual sign-up process.
 
 Please [contact me](#contact) to let me know if you found any more quality VoIP providers that accept crypto payments!
+
+### Buying VPN services with cryptocurrency
+
+Another common service many of us have need for is a reliable VPN. I have a lot of thoughts on the topic of private network technologies, which can mostly be summed up by preference for using [Tor](https://TorProject.org/){:target="_blank"} over a VPN but with that said, if you're going to use a VPN, you should probably stick to a reputable one that you can pay for in cryptocurrency. Here are my favorite options for that:
+
+- [MullvadVPN](https://mullvad.net/){:target="_blank"} - Based on a traditional VPN technology called Wireguard, [Mullvad also accepts payments in Bitcoin](https://mullvad.net/pricing){:target="_blank"}.
+- [NymVPN](https://nym.com/){:target="_blank"} - Nym is a novel VPN technology that requires a subscription to use, but not only is it reputable, you can [pay for Nym with shielded Zcash](https://support.nym.com/hc/articles/38626320242833-Paying-for-NymVPN-with-ZEC-Zcash){:target="_blank"}.
+- [ProtonVPN](https://protonvpn.com/support/vpn-bitcoin-payments){:target="_blank"} - Many providers know this company for their ProtonMail service, but [Proton also accepts Bitcoin for their VPN product](https://protonvpn.com/support/vpn-bitcoin-payments){:taret="_blank"}, which can implement either a Wireguard or SSL/TLS-based VPN.
 
 ## Join a digital employment cooperative that accepts cryptocurrency
 
