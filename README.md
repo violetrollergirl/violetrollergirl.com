@@ -8,7 +8,7 @@ A website for Vi, based on [Photography](https://github.com/rampatra/photography
     ```shell
     brew install graphicsmagick
     ```
-1. Drop your full size images into [the `images/fulls` directory](images/fulls).
+1. Drop your full size images into [the `images/gallery/fulls` directory](images/gallery/fulls).
 1. Run the following shell snippet:
     ```shell
     for file in $(ls images/gallery/fulls); do
