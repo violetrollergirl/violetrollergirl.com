@@ -143,7 +143,7 @@ You may not leave this field blank. If you have already screened with me, simply
 
 I very rarely require re-screening; it's required if you change numbers or contact me through a channel we've previously not used, so that I can re-verify your contact information and confirm that I'm speaking with the person I expect to be speaking with. You may also need to re-screen if it's been a very long time since our last correspondence (like a year or so).
 
-For more information about screening, see my [FAQ: Why must I screen?/Screening makes me nervous.]({% link index.html %}#faq-why-must-i-screen-screening-makes-me-nervous).
+For more information about screening, see my [FAQ: Why must I screen?/Screening makes me nervous]({% link index.html %}#faq-why-must-i-screen-screening-makes-me-nervous).
 
 #### Booking form field: phone number
 
@@ -167,7 +167,7 @@ The fourth field in my booking form is a drop-down menu for you to choose how yo
 
 * The field's label is:
     * I prefer that we communicate using
-* The field's placeholder reads: `Your preferred contact method`
+* The field's placeholder reads: `Choose contact method`
 * You are expected to choose one from the following options:
     * Choose `Signal Private Messenger` if you'd like the booking form to send your message to [my Signal Private Messenger account]({{ site.contact.signal.url }}){:target="_blank"}.
         * This is my preferred contact method, so you'll definitely earn some bonus points for messaging me this way!
@@ -179,6 +179,8 @@ The fourth field in my booking form is a drop-down menu for you to choose how yo
     * Choose `SMS/text message` if you'd like the booking form to send your message to my own plain text messaging number. You will need to have an SMS/text messaging app installed on the device you are filling out the form from.
         * You probably don't want to use this option if you are filling in my form from a laptop. (Consider email instead.)
         * Even from a phone, this option is not always reliable, and a warning to this effect will show up on the booking form when you select this option.
+    * Choose `Jabber/XMPP instant message` if you'd like the booking form to send your message to my Jabber/XMPP identity (`{{ site.contact.xmpp.jid }}`).
+        * You will need an [XMPP client app](https://xmpp.org/software/?platform=all-platforms){:target="_blank"} installed on the device you are filling out the form from.
 
 You may not leave this field blank, because I can't reply to you if you do.
 
