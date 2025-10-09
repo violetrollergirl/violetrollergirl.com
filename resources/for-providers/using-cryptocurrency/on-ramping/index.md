@@ -1,11 +1,16 @@
 ---
 title: "On-ramping: acquiring cryptocurrency funds"
+description: >
+    Learn about various ways you can get crypto (as a sex worker).
+    Getting paid in crypto is easiest, but there are other ways!
 prev: resources/for-providers/using-cryptocurrency/wallet-apps/
 next: resources/for-providers/using-cryptocurrency/off-ramping/
 last_modified: Mon Oct  6 20:09:17 EDT 2025
 ---
 
 # On-ramping: acquiring cryptocurrency funds
+
+> &#128161; This is part of [{{ site.title }}'s Guide to Using Cryptocurrency (as a Sex Worker)]({% link resources/for-providers/using-cryptocurrency/index.md %}). If you haven't yet read the primer, consider starting there!
 
 Now that you have a privacy-preserving [cryptocurrency wallet app]({% link resources/for-providers/using-cryptocurrency/wallet-apps/index.md %}) and can receive funds in a privacy coin like Zcash or Monero, it's time to start acquiring some funds. The cryptocurrency world calls this "on-ramping," using the analogy of a highway on-ramp from one place (the fiat economy) to another (the so-called "crypto-native" economy, or whatever).
 
