@@ -55,7 +55,10 @@ Fans and customers can send you tips using their debit or credit card, and when 
 
 Withdrawing your MintPay balance to a [self-custodial crypto wallet such as Cake Wallet]({% link resources/for-providers/using-cryptocurrency/wallet-apps/index.md %}#cake-wallet-privacy-focused-monero-wallet-app) means you can avoid the need for a bank account, with the caveat that you need to have some Polygon (POL) coins so you can actually use your USDC tokens. But if you do, this makes MintStars an attractive on-ramping option for sex workers who are already de-banked or cannot otherwise access traditional banking services in their countries, including for me in the United States.
 
-If you'd like to try the tipping experience out, consider sending me a tip [via my MintStars tip page]({{ mintpay.url }} "{{ mintpay.description }}"). If you'd like to see what it looks like from the creator's side, see [MintStars Help: How to withdraw using crypto](https://mintstars.frontkb.com/en/articles/1967553).
+If you'd like to try the tipping experience out, consider sending me a tip [via my MintStars tip page]({{ mintpay.url }} "{{ mintpay.description }}"). To see what it looks like from the creator's side, see [MintStars Help: How to withdraw using crypto](https://mintstars.frontkb.com/en/articles/1967553). When or you want to sign up, I'd appreciate it greatly if you used my [MintStars creator referral link]({{ site.data.affiliates.mintstars }} "Sign up to MintStars via my referral link")!
+
+{:.align-center}
+{% include link-as-button.md anchor_text="Join MintStars (via Referral)" url=site.data.affiliates.mintstars target="_blank" %}
 
 ## Converting fiat currency to cryptocurrency
 
