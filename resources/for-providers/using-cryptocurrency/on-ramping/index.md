@@ -15,8 +15,9 @@ Now that you have a privacy-preserving [cryptocurrency wallet app]({% link resou
 1. [Converting fiat currency to cryptocurrency](#converting-fiat-currency-to-cryptocurrency)
     1. [Buy ZEC via cryptocurrency exchanges](#buy-zec-via-cryptocurrency-exchanges)
     1. [Buy Monero in Cake Wallet](#buy-monero-in-cake-wallet)
+1. [MintPay: Fiat income with cryptocurrency withdrawals](#mintpay-fiat-income-with-cryptocurrency-withdrawals)
 
-### Getting paid directly in crypto
+## Getting paid directly in crypto
 
 I'll be blunt: the easiest way for many of us to start getting crypto is to just get a client or customer to pay or tip us in cryptocurrency. This simply avoids any interaction with the fiat economy entirely. This is of course even better and more private if we get paid directly in a privacy coin like Zcash or Monero and don't have to convert, exchange, or swap the money we make into one of these privacy-preserving cryptocurrencies.
 
@@ -35,7 +36,20 @@ You can think of this "request via QR code" feature like a simplistic point-of-s
 
 For some of us, however, getting paid directly in crypto seems like a stretch. Our clients or customers are wary of cryptocurrency, they don't have the technical skill to do it, they have no existing cryptocurrency funds themselves, or they don't have the same cryptocurrencies that we want to accept payments in. I'll address all of these points in one of my other articles, ["How and why to convince clients and customers to pay us in cryptocurrency"]({% link resources/for-providers/using-cryptocurrency/convincing-clients/index.md %}) but, for now, let's talk about on-ramping in other ways.
 
-### Converting fiat currency to cryptocurrency
+## MintPay: Fiat income with cryptocurrency withdrawals
+
+One newer option available specifically for online creators, including adult creators, is *MintPay*, or the "tip" feature available via [MintStars.com](https://mintstars.com/){:target="_blank"}. If you're familiar with content sites like OnlyFans, you can think of MintStars as a crypto-friendly alternative except, unlike OnlyFans, people who want to send you money don't need to make an account or subscribe to you before tipping you.
+
+Fans and customers can send you tips using their debit or credit card, and when you receive a tip on MintStars it arrives instantaneously to your MintPay balance. You can then withdraw that balance to either a traditional bank account, or a cryptocurrency wallet that supports the token MintStars pays out in. At the time of this writing, you can only withdraw USDC when choosing the crypto withdrawal option.
+
+Withdrawing your MintPay balance to a [self-custodial crypto wallet such as Cake Wallet]({% link resources/for-providers/using-cryptocurrency/wallet-apps/index.md %}#cake-wallet-privacy-focused-monero-wallet-app) means you can avoid the need for a bank account entirely. This makes MintStars an attractive on-ramping option for sex workers who are already de-banked or cannot otherwise access traditional banking services in their countries, including for me in the United States.
+
+{% assign x = site.data.social_urls | find: "group", "Tip me" | first %}
+{% assign v = x.items | where: "label", "MintStars" | first %}
+
+If you'd like to try it out, visit [my MintStars tip page]({{ v.url }} "{{ v.description }}"). If you'd like to see what it looks like from the creator's side, see [MintStars Help: How to withdraw using crypto](https://mintstars.frontkb.com/en/articles/1967553).
+
+## Converting fiat currency to cryptocurrency
 
 If you have existing fiat currency, like US Dollars (USD), Euros (EUR), or whatever, the simplest way to acquire Zcash funds ("ZEC") or Monero ("XMR") is to buy it. This works like any other foreign currency conversion. By way of analogy, when you're converting fiat currencies from one to another, you go to a currency exchange counter such as those that are at airports. There, you ask the person at the currency exchange service counter for an equivalent amount of the local currency given your available foreign currency.
 
@@ -45,7 +59,7 @@ While this method is very easy, the downside is that in *some* situations, you m
 
 The good news is that it's in no way shady to be buying privacy coins. These are just currencies and securities like any other. But by choosing to purchase a privacy coin, once you receive your ZEC or XMR, you can move it about freely and privately. You've effectively freed your money.
 
-#### Buy ZEC via cryptocurrency exchanges
+### Buy ZEC via cryptocurrency exchanges
 
 If you already have some fiat currency like US Dollars and want to enter the cryptocurrency ecosystem, you can treat cryptocurrency like money from another country. Just as you might convert your dollars into Euros at a foreign currency exchange service desk when you visit France, so too can you convert your dollars into ZEC (or another cryptocurrency).
 
@@ -62,7 +76,7 @@ For regulatory compliance reasons, most big exchanges don't support Zcash's shie
 
 It's important to note that buying ZEC from one of these big exchanges and sending it directly to your Zashi wallet app is not the same as buying ZEC and then keeping it in the account you created at the exchange from which you bought the ZEC. By moving your funds out of the exchange and into your Zashi wallet app immediately, you are doing the equivalent of withdrawing your money from the bank so you can hold onto it (and protect it) yourself.
 
-#### Buy Monero in Cake Wallet
+### Buy Monero in Cake Wallet
 
 > I still need to write this section. It's basically the same as the above; go into Cake Wallet, hit the "Buy" button, and get some XMR into your wallet via whatever exchange they support.
 
