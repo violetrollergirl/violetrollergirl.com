@@ -12,10 +12,10 @@ Now that you have a privacy-preserving [cryptocurrency wallet app]({% link resou
 ## In this article
 
 1. [Getting paid directly in crypto](#getting-paid-directly-in-crypto)
+1. [MintPay: Fiat income with cryptocurrency withdrawals](#mintpay-fiat-income-with-cryptocurrency-withdrawals)
 1. [Converting fiat currency to cryptocurrency](#converting-fiat-currency-to-cryptocurrency)
     1. [Buy ZEC via cryptocurrency exchanges](#buy-zec-via-cryptocurrency-exchanges)
     1. [Buy Monero in Cake Wallet](#buy-monero-in-cake-wallet)
-1. [MintPay: Fiat income with cryptocurrency withdrawals](#mintpay-fiat-income-with-cryptocurrency-withdrawals)
 
 ## Getting paid directly in crypto
 
