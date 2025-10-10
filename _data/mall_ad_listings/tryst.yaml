@@ -1,0 +1,110 @@
+# This file models the Tryst.link profile page for various values.
+# Keys are the HTML ID values of the input fields.
+---
+# General
+profile_name: Violet Rollergirl
+profile_slug: violetrollergirl
+profile_profile_type: escort
+profile_gender: female
+profile_pronoun:
+  - she
+  - her
+  - hers
+profile_transgender_status: yes
+profile_appear_exclusively_in_trans_only_searches: false
+profile_caters_to_male: true
+profile_caters_to_female: true
+profile_caters_to_nonbinary: true
+profile_caters_to_couples: true
+profile_age: 31
+profile_age_display: 30s
+profile_location_ids:
+  - 139 # New York, NY, US
+  - 149 # Philadelphia, PA, US
+  - 391 # Stamford, CT, US
+profile_appear_on_other_profiles: true
+profile_inactive_after_days: 150
+
+# Profile
+profile_about: |
+  Save a pregnancy test, breed a trans girl! 🍑🏳️‍⚧️
+
+  Hi! I'm Vi! Bubbly and witty, confident and kind, I'm unapologetically curious about everything, but especially about you. I offer an intimate trans girlfriend experience with a playful, kinky edge.
+
+  My candy coating comes in a couple flavors, but my biggest turn-on is being your good girl, inviting you to relax and unwind in my uninhibited, free-spirited presence where you can enjoy my special talents.
+
+  Equal parts whip-smart and whipping girl, I'm fit and athletic, with soft hair in curly red ringlets and a natural aesthetic that can be hard femme, bondage bunny, curious kitten, sexy librarian, cyberpunk hentai succubus, sporty skater chic, obedient good girl, or another fantasy vibe you have in mind that just needs the perfectly flirty adventure partner I'd love to be for you!
+
+  With a background in sex ed, party hostessing, and event planning, I'm an expert at setting the mood for a range of experiences that bring your favorite fantasies to life! And I host at well-equipped, private incalls.
+
+  Are you craving sweetness? I'll be your oasis full of affection, connection, and unhurried intimacy. Time with me will leave you feeling unrushed, carefree, and absolutely adored!
+
+  Are you craving more…spice? I have an extraordinary range. My favorite way to spark the fire? When daddy (or mommy) knows how to hold and spank me to make it better!
+
+  I'm drawn to those who can meet my intellect, my appetites, or both. (The more eccentric, the better.) Because life is for living! For being present without feeling pressure. For enjoying each other's enthusiasm without imposing expectations. And for more such… 🫦 …wordplay.
+
+  🩵 🤍 🩷
+
+  Likes:
+
+  • discussing polemical essays over 🥂 filled flutes of champagne
+  • the shock of cool water after a ✨vigorous✨ exercise
+  • tours of unusual toy collections
+  • the sounds of your relaxed sighs when my skin is softer than silk
+
+profile_tagline: Whip smart affectionate kitten
+profile_height: 169
+profile_ethnicity: white
+profile_ethnicity_category:
+  - white
+  - other
+profile_language_codes:
+  - eng # English
+profile_cup_size: B
+profile_hair_colour: red
+profile_eye_colour: hazel
+profile_body_type: Athletic, natural
+profile_body_type_category: toned
+profile_shoe_size: 29cm (usually 11-12 US)
+profile_fourtwenty_friendly: true
+
+# Rates
+profile_base_currency: usd # United States Dollar
+profile_base_hourly_rate: 500
+
+# Policies
+profile_deposit_policy: |
+  One-quarter (25%) of the total booking cost + any applicable incall or travel expenses.
+
+  I prefer to receive deposits via any dozens of cryptocurrencies (including BTC, ETH, SOL, XMR, ZEC). I also accept major debit or credit cards, some gift cards, or certain payment apps.
+
+  Deposits are non-refundable except in the rare case I must cancel our date, but they can be transferred to another date should you need to reschedule.
+profile_cancellation_policy: |
+  "Time is the most valuable thing one can spend." —Diogenes
+
+  You may always cancel or reschedule a date for any reason, no questions asked.
+
+  If you cancel on the same day as your date (i.e., with less than 24 hours notice), your deposit is forfeit and treated as a cancellation fee. If you cancel with notice, you can apply a portion of your deposit to a future date.
+
+  In the unlikely event that I have to cancel our date, you'll promptly have your full deposit returned to you.
+
+# Availability
+profile_availability_text: |
+  As an extrovert with a chronic case of wanderlust, I travel frequently and sometimes suddenly, so you'll want to plan in advance or risk rolling the dice on our stars aligning.
+
+  I'm most often in New York City, but will happily visit nearby New Jersey, Westchester, or Pennsylvania to meet you. I can even be available along further points anywhere with train access from the Washington, DC to Boston, MA area for bookings of 3 hours or more, including Philadelphia, upstate NY, Western New Jersey, and Connecticut.
+
+  INCALL LOCATIONS: I can privately host us.
+  * NYC: a luxury condo near several city public transit lines
+  * Boston/North Shore: a private house with a dedicated play room
+    Showers 🚿 and easy street parking 🅿️ is available at my incall locations in both cities.
+
+  OUTCALL/HOTEL ARRANGEMENTS: If you would like to host us…
+  * I'm happy to arrange a hotel meet (with minimum 24 hours notice) at cost for the hotel reservation.
+
+  TOURS:
+  Subscribe to the calendar on my website for the most advance notice of travel dates and locations. 🗓️✈️
+
+  SHORT NOTICE SESSIONS:
+  * While occasionally possible, I strongly advise you to pre-screen if you often need spontaneity of less than 24 hours notice.
+  * Same-day outcalls may also incur a rush fee.

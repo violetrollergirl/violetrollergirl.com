@@ -5,7 +5,7 @@ description: >
     and companions with cryptocurrency.
 prev: resources/for-clients/
 next: resources/for-clients/using-cryptocurrency/quick-start/
-last_modified: Sat Oct  4 15:48:04 EDT 2025
+last_modified: Fri Oct 10 14:57:47 EDT 2025
 ---
 
 # {{ site.title }}'s guide to paying your provider in crypto
