@@ -1,5 +1,9 @@
 ---
 title: Resources for Clients
+description: >
+    From booking to payment, Violet Rollergirl's resources for clients
+    are a series of articles that help you stay safe and have fun with
+    your favorite sex workers.
 prev: resources/
 next: resources/for-clients/booking-guide
 ---
