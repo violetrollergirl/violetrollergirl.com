@@ -24,4 +24,7 @@ Nevertheless, sometimes we can't avoid them and, thanks to privacy coin technolo
 Here's how you do it:
 
 1. When you're buying cryptocurrency
+
+
+- Most important thing to know is that self-custody does not require KYC!
 {% endcomment %}
