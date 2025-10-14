@@ -153,7 +153,7 @@ Instead of gift cards, which is really just a roundabout way to help fiat econom
 
 ### Booking hotel stays and air travel with cryptocurrency
 
-[When I'm on tour](#tours), I often need to buy airline tickets to travel or make [hotel arrangements]({% link index.html %}#hotel-arrangements) to coordinate an incall. This is where [Travala (referral link)]({{ site.data.affiliates.travala }}){:target="_blank"} comes in clutch. It works like you'd expect any other flight and hotel booking platform to work, but you can pay directly in cryptocurrency. They also have a loyalty proram, so you you can earn extra rewards, and help me do the same if you sign up via my referral link.
+[When I'm on tour](#tours), I often need to buy airline tickets to travel or make [hotel arrangements]({% link index.html %}#hotel-arrangements) to coordinate an incall. This is where [Travala (referral link)]({{ site.data.affiliates.travala }}){:target="_blank"} comes in clutch. It works like you'd expect any other flight and hotel booking platform to work, but you can pay directly in cryptocurrency. They also have a loyalty program, so you can earn extra rewards, and help me do the same if you sign up via my referral link.
 
 {:.align-center}
 {% include link-as-button.md anchor_text="Join Travala (via referral)" url=site.data.affiliates.travala target="_blank" %}
