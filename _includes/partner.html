@@ -1,8 +1,8 @@
 {% comment %}
 This template renders a single duo partner's (Microformat'ed) h-card.
 {% endcomment %}
-<article>
-    <header id="partner-{{ include.partner.name | slugify }}" class="partner h-card">
+<article id="partner-{{ include.partner.name | slugify }}" class="partner h-card">
+    <header>
         <h3>
             <a href="{{ include.partner.urls[0].url }}" class="p-name u-url">{{ include.partner.name }}</a>
         </h3>
