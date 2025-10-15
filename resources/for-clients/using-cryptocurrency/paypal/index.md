@@ -5,7 +5,7 @@ description: >
     and then spend cryptocurrency to pay your provider, companion,
     or favorite creator.
 prev: resources/for-clients/
-next: /resources/for-clients/using-cryptocurrency/paying-your-provider/
+next: resources/for-clients/using-cryptocurrency/paying-your-provider/
 last_modified: Sat Oct  4 18:21:12 EDT 2025
 ---
 
@@ -25,7 +25,7 @@ This makes PayPal a very convenient app with which to pay your provider *even if
 
 ## Sign up for PayPal
 
-Just in case you don't already have a PayPal account, you can make one very easily. Either type of PayPal (Personal or Business) will work, but if you're making an account anew, I suggest a Personal account because business accounts require extra eligibility criteria. Click the button below to sign up for PayPal:
+Just in case you don't already have a PayPal account, you can make one very easily. Either type of PayPal account (Personal or Business) will work, but if you're making an account anew, I suggest a Personal account because business accounts require extra eligibility criteria. Click the button below to sign up for PayPal:
 
 {:.align-center}
 {% include link-as-button.md anchor_text="Sign up for PayPal" url="https://www.paypal.com/webapps/mpp/account-selection" target="_blank" %}
@@ -37,7 +37,8 @@ Once your PayPal account is created and activated, you can proceed to adding a p
 With a PayPal account, you can use all their payment and exchange services but you still need to supply PayPal with payment information so that you can swap your existing US Dollars (or other local currency) into cryptocurrencies. PayPal enforces different purchase limits on different payment methods, but in general any payment method you have like a debit card or bank account will work. They also have good guides to help you add payment methods, so follow those instructions now:
 
 {:.align-center}
-{% include link-as-button.md anchor_text="Link a card to PayPal" url="https://www.paypal.com/myaccount/money/cards/new/manual" target="_blank" %} {% include link-as-button.md anchor_text="Link a bank account to PayPal" url="https://www.paypal.com/myaccount/money/banks/new" target="_blank" %}
+{% include link-as-button.md anchor_text="Link a card to PayPal" url="https://www.paypal.com/myaccount/money/cards/new/manual" target="_blank" %}
+{% include link-as-button.md anchor_text="Link a bank account to PayPal" url="https://www.paypal.com/myaccount/money/banks/new" target="_blank" %}
 
 Depending on the payment method you chose and how you linked it, you may be able to buy crypto immediately or you may need to validate the method with a confirmation loop of some kind. Either way, once linked and activated, you will see your purchase limits on PayPal increase and are ready to get your first crypto coins.
 

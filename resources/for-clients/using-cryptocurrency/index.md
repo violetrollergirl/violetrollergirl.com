@@ -61,7 +61,7 @@ For more specific help, choose the option that best describes you from the list 
 
 - "I already use a digital payment app."
     - [PayPal]({% link resources/for-clients/using-cryptocurrency/paypal/index.md %})
-    - [CashApp]({% link resources/for-clients/using-cryptocurrency/cashapp/index.md %}) - TODO
+    - [CashApp]({% link resources/for-clients/using-cryptocurrency/cashapp/index.md %})
 - "I have an account at a cryptocurrency exchange."
     - [Coinbase]({% link resources/for-clients/using-cryptocurrency/coinbase/index.md %})
     - [Kraken]({% link resources/for-clients/using-cryptocurrency/kraken/index.md %}) - TODO
