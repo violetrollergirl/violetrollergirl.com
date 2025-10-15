@@ -23,9 +23,11 @@ No matter what crypto app you use, you'll need your provider's wallet address to
 
 Once you have some crypto you'd like to spend on your provider, companion, or creator, you'll need to know where to send this payment so that they receive it.
 
+> <span class="fa fa-solid fa-icon fa-triangle-exclamation"></span> Depending on the technology your provider uses, **each payment may have a unique receipt address so you should always ask your worker for the current address they are expecting you to send to!**
+
 Ask your provider:
 
-> What's the address of your (Bitcoin, Ethereum, Zcash, or Monero) wallet?
+> What's the (Bitcoin, Ethereum, Zcash, Monero, etc.) receive address for this payment?
 
 {% assign links_group_donations = site.data.social_urls | find: "group_name", "Tip me" | first %}
 {% assign zcash_donation_data = links_group_donations.items | where: "label", "Zcash" | first %}

@@ -124,6 +124,13 @@
     title: Throne
     icon: gift
     url: https://throne.com/violetrollergirl
+  - label: Payment Guides
+    title: Payment Guides
+    icon: money-bill-transfer
+    url: /resources/for-clients/using-cryptocurrency/
+    description: >
+      Quick explainers that help you get started with cryptocurrency
+      and its privacy benefits as a client or customer.
   - label: Additional Health and Safety Guide
     title: Additional Health and Safety Guide
     icon: shield-halved
