@@ -36,7 +36,7 @@ There are a lot of reasons you may want to pay your worker in crypto:
 - **Provider incentives:** Some providers, like me, offer incentives such as small discounts for using various kinds of privacy-preserving technology. [Ask me about this when you contact me]({% link resources/for-clients/booking-guide/index.md %}#contact)!
 - **Volatility can be a windfall**: You can take advantage of crypto's volatility to treat yourself and pay your worker when the price of crypto is high if you bought it when it was low.
 
-Some of these benefits require you to install what's called a self-custodial wallet app ([I like Zashi Wallet](https://electriccoin.co/zashi/){:target="_blank"}) as opposed to using a third-party crypto payment service but in general you can just think of cryptocurrency like digital cash.
+Some of these benefits require you to install what's called a self-custodial wallet app ([I like Zashi Wallet](https://electriccoin.co/zashi/){:target="_blank"} and [Cake Wallet](https://cakewallet.com/){:target="_blank"}) as opposed to using a third-party crypto payment service but, in general, you can just think of cryptocurrency like digital cash.
 
 One thing is certain: moving forward, far more providers will be using cryptocurrency than any other payment method. For some providers, cryptocurrency may even be the only remote/online payment option. Consider preparing for that now!
 
