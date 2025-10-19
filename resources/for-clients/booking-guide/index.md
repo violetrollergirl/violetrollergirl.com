@@ -241,8 +241,9 @@ The eigth field in my booking form is a drop down menu for you to choose the ser
     * for your
 * The field's placeholder reads: `Choose service type`
 * You are expected to choose one from the following options:
-    * Choose `GFE/vanilla services` for almost all needs, including platonic, intimate companionship, and any other form of attention except specific fetishes.
-    * Choose `pro-sub/BDSM services` to prepare me for entertaining specific kinks and fetishes, power play, or specialized roleplay scenarios.
+    * Choose `cuddling services` for a reduced-rate, platonic but physically close experience with plenty of affectionate touch.
+    * Choose `GFE services` for almost all needs, including intimate companionship attention except specific fetishes.
+    * Choose `pro-sub/kinky GFE services` to prepare me for entertaining specific kinks and fetishes, power play, or specialized roleplay scenarios.
 
 You may not leave this field blank. It's okay if you're not sure which of these options to choose, we can talk about it at some detail once you complete screening.
 

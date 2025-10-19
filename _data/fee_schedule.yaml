@@ -26,6 +26,12 @@
         * Rate shown is per hour.
         * Booking a social-only date can also serve as your [(pre-)screening option](#screening-options).
         * Does not include transportation or activity cost.
+    - name: Cuddle date
+      rate: 300
+      service_type: cuddling services
+      duration_in_hours: 1
+      details: |-
+        Big spoon, little spoon, or both? Platonic physical intimacy and genuine friendship vibes without any expectation or pressure for more.
     - name: Intro call and deposit (20 minutes)
       rate: 60
       booking_type: an introductory call
@@ -68,8 +74,8 @@
 
         I also offer longer texting packages for those who appreciate a good textual tease. Start here and inquire within. :)
 
-- name: GFE/vanilla full service
-  id: gfe-vanilla
+- name: GFE full service
+  id: gfe-fs
   items:
     - name: 1 hour
       rate: 500
@@ -122,8 +128,8 @@
         * Requires outings for some fresh air.
         * Ask about fly-me-to-you options!
 
-- name: Pro-submissive/BDSM full service
-  id: pro-sub-bdsm
+- name: Pro-submissive/kinky GFE full service
+  id: pro-sub-kinky
   image:
     src: images/gallery-originals/cyberpunk-kneeling-bondage-wall-Violet-Rollergirl-9108_124341~2.jpg
     alt: Violet Rollergirl kneels on a sectional in front of a walls of kinky toys including collars, cuffs, and gags. She is wearing a miniskirt and a fishnet top.

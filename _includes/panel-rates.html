@@ -5,14 +5,14 @@
     <h2 id="rates-and-policies">Rates and <a href="#policies">Policies</a></h2>
     <h3>Customize your order</h3>
 </header>
-<p>I offer <a href="#rates-add-ons-and-online">social-only or virtual (online)</a>, <a href="#rates-gfe-vanilla"><abbr title="Girlfriend Experience">GFE</abbr> ("vanilla")</a>, and <a href="#rates-pro-sub-bdsm">pro-submissive BDSM/kinky GFE</a> companionship.</p>
+<p>I offer <a href="#rates-add-ons-and-online">social-only or virtual (online)</a>, <a href="#rates-gfe-fs"><abbr title="Girlfriend Experience">GFE</abbr></a>, and <a href="#rates-pro-sub-kinky">pro-submissive/kinky GFE</a> companionship.</p>
 <p class="button-container">
     <a href="#rates-add-ons-and-online" class="button"><span class="icon fa-solid fa-coffee"></span> Social &amp; Virtual rates</a>
-    <a href="#rates-gfe-vanilla" class="button"><span class="icon fa-solid fa-venus"></span> GFE/vanilla FS rates</a>
-    <a href="#rates-pro-sub-bdsm" class="button"><span class="icon fa-solid fa-handcuffs"></span> Pro-sub/BDSM rates</a>
+    <a href="#rates-gfe-fs" class="button"><span class="icon fa-solid fa-venus"></span> GFE FS rates</a>
+    <a href="#rates-pro-sub-kinky" class="button"><span class="icon fa-solid fa-handcuffs"></span> Pro-sub/kinky GFE rates</a>
 </p>
 <p>My rates for <a href="#incall-availability">incalls</a> and <a href="#outcall-availability">outcalls</a> are the same. An incall fee <em>may</em> apply at some of my incall locations or for hotel arrangements&mdash;<a href="#tours">see my tours and availability page for more information</a>. Transportation costs for outcalls are not included in the fee schedule below.</p>
-<p>Each in-date extension equals my base hourly rate for the booked service (e.g., <a href="#rate-gfe-vanilla-1-hour">1 hour</a>). Please <a href="{% link resources/for-clients/booking-guide/index.md %}#contact">inquire</a> about rates for <a href="#links-group-socials-amp-content">content shoots or collaborations</a>, longer multi-day dates, travel to/with you (&ldquo;<acronym title="Fly-Me-To-You">FMTY</acronym>&rdquo;) bookings, or ongoing arrangements.</p>
+<p>Each in-date extension equals my base hourly rate for the booked service (e.g., <a href="#rate-gfe-fs-1-hour">1 hour</a>). Please <a href="{% link resources/for-clients/booking-guide/index.md %}#contact">inquire</a> about rates for <a href="#links-group-socials-amp-content">content shoots or collaborations</a>, longer multi-day dates, travel to/with you (&ldquo;<acronym title="Train-Me-To-You">TMTY</acronym>/<acronym title="Fly-Me-To-You">FMTY</acronym>&rdquo;) bookings, or ongoing arrangements.</p>
 <div class="inner split">
     {% for menu in site.data.fee_schedule %}
     <div>
@@ -24,14 +24,14 @@
                     <th>
                         {{ item.name }}
                         {% if item.url %}<a href="{{ item.url }}">Order now</a>
-                        {% elsif item.duration_in_hours %}<a href="{% link resources/for-clients/booking-guide/index.md %}#booking-inquiry-prospect-name" class="booking-link"
+                        {% elsif item.duration_in_hours %}<a href="#booking-inquiry-prospect-name" class="booking-link"
                             data-booking-inquiry-prospect-preferred-screening-method="{{ item.screening_method }}"
                             data-booking-inquiry-prospect-booking-type="{{ item.booking_type }}"
-                            data-booking-inquiry-prospect-service-type="{% case menu.id %}{% when "pro-sub-bdsm" %}pro-sub/BDSM services{% else %}GFE/vanilla services{% endcase %}"
+                            data-booking-inquiry-prospect-service-type="{% if item.service_type %}{{ item.service_type }}{% else %}{% case menu.id %}{% when "pro-sub-kinky" %}pro-sub/kinky GFE services{% else %}GFE services{% endcase %}{% endif %}"
                             data-booking-inquiry-prospect-duration="{{ item.duration_in_hours }}"
                             data-booking-inquiry-prospect-location="{{ item.location }}">Reserve now</a>
                         {% else %}
-                        <a href="{% link resources/for-clients/booking-guide/index.md %}#contact">Inquire now</a>
+                        <a href="#contact">Inquire now</a>
                         {% endif %}
                     </th>
                     <td>
