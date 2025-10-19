@@ -2,7 +2,7 @@
 title: "Off-ramping: where and how to spend your cryptocurrency"
 prev: resources/for-providers/using-cryptocurrency/on-ramping/
 next: resources/for-providers/using-cryptocurrency/convincing-clients/
-last_modified: Mon Oct  6 20:03:44 EDT 2025
+last_modified: Sun Oct 19 15:18:05 EDT 2025
 ---
 
 # Off-ramping: where and how to spend your cryptocurrency
@@ -19,11 +19,14 @@ In the traditional financial system, spending money comes with a privacy trade-o
     1. [Paying in Bitcoin when you only have Zcash](#paying-in-bitcoin-when-you-only-have-zcash)
 1. [Piggyback on the gift card economy](#piggyback-on-the-gift-card-economy)
     1. [Pay for stuff via Flexa in Zashi](#pay-for-stuff-via-flexa-in-zashi)
+    1. [Pay for stuff via Cake Pay in Cake Wallet](#pay-for-stuff-via-cake-pay-in-cake-wallet)
     1. [Common cryptocurrency to gift card off-ramps (for sex workers)](#common-cryptocurrency-to-gift-card-off-ramps-for-sex-workers)
 1. [Use crypto-native service providers](#use-crypto-native-service-providers)
     1. [Booking hotel stays and air travel with cryptocurrency](#booking-hotel-stays-and-air-travel-with-cryptocurrency)
     1. [Buying VoIP phone services with cryptocurrency](#buying-voip-phone-services-with-cryptocurrency)
     1. [Buying VPN services with cryptocurrency](#buying-vpn-services-with-cryptocurrency)
+1. [Fund a traditional payment card using cryptocurrency](#fund-a-traditional-payment-card-using-cryptocurrency)
+    1. [Apply for a Payy Card, a crypto-backed Visa payment card](#apply-for-a-payy-card-a-crypto-backed-visa-payment-card)
 1. [Join a digital employment cooperative that accepts cryptocurrency](#join-a-digital-employment-cooperative-that-accepts-cryptocurrency)
     1. [Opolis: a crypto-native independent employment platform](#opolis-a-crypto-native-independent-employment-platform)
 1. [Convert crypto back to fiat currency](#convert-crypto-back-to-fiat-currency)
@@ -94,16 +97,16 @@ This is not a hypothetical example. This is in fact how I pay for [my Tryst memb
 
 Among the most common ways to spend your hard-earned cryptocurrency today is by piggybacking on the massive gift card economy for making various kinds of retail purchases. One thing that's nice about this for us as sex workers in particular is that many of us are already very familiar with gift cards and similar store credit services. We may even have regular business expenses such as a prepaid mobile phone (<acronym title="electronic subscriber identity module">eSIM</acronym>) line or hotel bookings we need to make to run our business.
 
-Since gift cards and store credit systems are already a certain kind of alternative digital local currency, cryptocurrency is a natural fit. As a result, an entire *crypto gift card marketplace* industry has emerged to support this particular off-ramp. While different crypto-to-gift-card exchange service providers support different currencies, [Zashi's built-in decentralized exchange ZEC off-ramp](#paying-in-bitcoin-when-you-only-have-zcash) solves that problem, so the main considerations for those of us who want to use this method to spend our cryptocurrency funds are:
+Since gift cards and store credit systems are already a certain kind of alternative digital local currency, cryptocurrency is a natural fit. As a result, an entire *crypto gift card marketplace* industry has emerged to support this particular kind of off-ramp. While different crypto-to-gift-card vendors support different currencies, [Zashi's built-in decentralized exchange](#paying-in-bitcoin-when-you-only-have-zcash) solves that problem, so the main considerations for those of us who want to use this method to spend our cryptocurrency funds are:
 
 - finding a crypto to gift card exchange provider that partners with a brand we want to buy from, and
 - ensuring that the exchange provider's terms of use and their ["Know Your Customer" rules]({% link resources/for-providers/using-cryptocurrency/kyc/index.md %}) doesn't risk our privacy more than we are comfortable with.
 
-I strongly suggest talking to your friends and colleagues about what services they like and feel safe using, and why. But if you're just starting from scratch, read on to learn about my favorite services.
+I strongly suggest talking to your friends and colleagues about what services they like and feel safe using, and why. But if you're just starting from scratch, read on to learn about my favorite vendors. Two of them conveniently, are built into the same self-custody wallets I've already recommended.
 
 ### Pay for stuff via Flexa in Zashi
 
-One crypto gift card marketplace vendor in particular deserves a special mention, [Flexa](https://flexa.co/){:target="_blank"}, because you can use them directly from [my favorite Zcash wallet app, Zashi]({% link resources/for-providers/using-cryptocurrency/wallet-apps/index.md %}#zashi-privacy-focused-zcash-wallet-app). If you've installed the mainstream version of Zashi (i.e., from the Google Play Store or the Apple App Store, but *not* from the [F-Droid strictly free software app repository](https://f-droid.org/en/packages/co.electriccoin.zcash.foss/){:target="_blank"}), you'll have the option to spend your shielded ZEC from within your Zashi wallet by converting it directly to a Flexa account balance, which is basically a multi-store gift card manager mini-app inside Zashi itself.
+The gift card vendor directly integrated with the Zcash wallet app I use is called [Flexa](https://flexa.co/){:target="_blank"}, which is basically a multi-store gift card manager mini-app inside the [Zashi]({% link resources/for-providers/using-cryptocurrency/wallet-apps/index.md %}#zashi-privacy-focused-zcash-wallet-app) wallet app itself. If you've installed the mainstream version of Zashi (i.e., from the Google Play Store or the Apple App Store, but *not* from the [F-Droid strictly free software app repository](https://f-droid.org/en/packages/co.electriccoin.zcash.foss/){:target="_blank"}), you'll have the option to spend your shielded ZEC at partnered Flexa brands from within your Zashi wallet.
 
 As of this writing, some Flexa partners include [Ulta Beauty](https://www.ulta.com/){:target="_blank"} and [Kiehl's](https://www.kiehls.com/){:target="_blank"} (cosmetic and skincare product brands, useful for the obvious reasons), [Sheetz](https://www.sheetz.com/){:target="_blank"} (a convenience store and gas station chain, useful if you often drive yourself to outcalls), and [Chipotle](https://www.chipotle.com/){:target="_blank"}, which I guess is mostly noteworthy for personal reasons because one of my partners loves Mexican food, so I get to treat them here often. :)
 
@@ -125,6 +128,14 @@ First, set up Zashi to work with Flexa as privately as possible by [enabling Zas
 I have successfully used Flexa this way and, while it's currently limited to supported business partners, it is by far the easiest way to spend my ZEC on real, physical stuff.
 
 If you need something from a store that doesn't have a Flexa partnership, you can still maybe find it from another cryptocurrency to gift card vendor.
+
+### Pay for stuff via Cake Pay in Cake Wallet
+
+The gift card vendor directly integrated with the Monero wallet app I use is called [Cake Pay](https://cakepay.com/).
+
+> TK-TODO: This section is not yet written, but it functions almost identically to Flexa in Zashi: sign up with a KYC-lite email address, either on the Cake Pay website or in the Cake Wallet app itself, and then choose a giftcard, pay for it from a Cake Wallet's balance **using Monero, since Monero is the one private cryptocurrency Cake Wallet supports**, and then use the gift card as you normally would.
+>
+> Note that as of this writing, Cake Pay is not compatible with Tor; you must disable Tor from within Cake Wallet's settings to use Cake Pay.
 
 ### Common cryptocurrency to gift card off-ramps (for sex workers)
 
@@ -189,6 +200,44 @@ Another common service many of us have need for is a reliable VPN. I have a lot 
 - [MullvadVPN](https://mullvad.net/){:target="_blank"} - Based on a traditional VPN technology called Wireguard, [Mullvad also accepts payments in Bitcoin](https://mullvad.net/pricing){:target="_blank"}.
 - [NymVPN](https://nym.com/){:target="_blank"} - Nym is a novel VPN technology that requires a subscription to use, but not only is it reputable, you can [pay for Nym with shielded Zcash](https://support.nym.com/hc/articles/38626320242833-Paying-for-NymVPN-with-ZEC-Zcash){:target="_blank"}.
 - [ProtonVPN](https://protonvpn.com/support/vpn-bitcoin-payments){:target="_blank"} - Many providers know this company for their ProtonMail service, but [Proton also accepts Bitcoin for their VPN product](https://protonvpn.com/support/vpn-bitcoin-payments){:taret="_blank"}, which can implement either a Wireguard or SSL/TLS-based VPN.
+
+## Fund a traditional payment card using cryptocurrency
+
+If you don't need the more complete privacy guarantees of off-ramps available via KYC-lite options such as gift cards, you can also apply for (and hopefully receive) a refillable, cryptocurrency-backed, payment card with a major traditional card issuer.
+
+Since these are the equivalent of physical credit cards, you will have to upload your legal identity documents during the application process, meaning this off-ramp only provides partial privacy. Still, its convenience may be useful for workers who only need privacy from individual clients, rather than also from corporate or government institutions, or who simply need an off-ramp to spend their more private cryptocurrency earnings.
+
+The biggest advantage of these cards is:
+
+- they can be used for anything a normal credit card can be used for, like rent and utilities payments, which are situations in which even prepaid Visa gift cards may not always work.
+- they don't require a bank account to pay off, making this option especially attractive for sex workers who have already suffered banking discrimination and are having trouble using or opening a traditional checking or savings account.
+
+By [on-ramping directly in crypto]({% link resources/for-providers/using-cryptocurrency/on-ramping/index.md %}) and then funding a payment card like this, you simply don't need to deposit your earnings into a bank account before you can fund the balance of your crypto-backed payment card.
+
+### Apply for a Payy Card, a crypto-backed Visa payment card
+
+[Payy (referral link)]({{ site.data.affiliates.payy }}){:target="_blank"} is a self-custodial, privacy-centered cryptocurrency wallet *and* payment gateway able to interface with Visa's payment processing network. This makes Payy two things at the same time:
+
+- a digital payment app, much like a cryptocurrency version of CashApp, Venmo, or PayPal, which makes it easy to do the kinds of things you might currently be using those apps for in your civilian life (pay back friends for dinner, for example).
+- a Visa payment card paid for with cryptocurrency, but usable anywhere traditional Visa credit cards are accepted.
+
+What's appealing about Payy is that you can fund your Payy Card's balance using either fiat currencies, such as from traditional bank accounts, or cryptocurrency sources, such as other crypto wallets or exchanges, by converting whatever cryptocurrency you have into USDC on Polygon (the same currency that [MintPay]({% link resources/for-providers/using-cryptocurrency/on-ramping/index.md %}#mintpay-fiat-income-with-cryptocurrency-withdrawals) lets you withdraw). This makes it feasible for debanked individuals to buy things the way most of the banked population does, without needing to get a bank account, which is no small feat.
+
+It's important to remember that payments you make using a Payy Card *are* associated with your legal identity. From that perspective, it's not more private than a regular credit card. However, it is a lot more private than just using Bitcoin, Ethereum, or other transparent-ledger cryptocurrency systems directly, because your payments aren't published publicly for the entire Internet to see.
+
+Payy itself communicates what data is public and what data stays private when you sign up for a Payy Card. Here's the infographic I was shown when I applied for my Payy Card:
+
+{:.align-center}
+![Screenshot of the Payy Card privacy notice depicting what is and is not visible to other actors when you make payments with it.]({% link resources/for-providers/using-cryptocurrency/off-ramping/screenshot.payy.payy-card-privacy-infographic.png %})
+
+I would not recommend using your Payy Card or the Payy network for your sex worker needs if you can avoid it; do your best to stick with Zcash and Monero for that. However, if your friends are unwilling to adopt the stronger privacy protections offered by Zcash in Zashi, are scared of the volatility of actual privacy coins, or have otherwise succummbed to the propaganda that stablecoins are somehow superior (even though we know they're not), Payy can be a convincing half-step to at least get them using cryptocurrency with *you*.
+
+Your Payy Card can make you look more like a "normal" civilian in your personal life. And you can still keep your wealth private by having it in and moving it through the Zcash shielded pool (i.e., Zashi) at every opportunity.
+
+If you'd like to try Payy, using my invitation link will net me "Payy Points," which act a bit like a credit card loyalty program:
+
+{:.align-center}
+{% include link-as-button.md anchor_text="Apply for Payy (via referral)" url=site.data.affiliates.payy target="_blank" %}
 
 ## Join a digital employment cooperative that accepts cryptocurrency
 
