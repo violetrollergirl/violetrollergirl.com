@@ -6,14 +6,18 @@ Content for the "Links" Panel.
     <div class="align-center" id="links-group-{{ group.group_name | slugify }}">
         <h2 id="links-{{ group.group_name | slugify }}">{{ group.group_name }}</h2>
         <ul class="icons">
-            {% for item in group.items %}
+            {% for item in group.items %}{% assign item_url_first_char = item.url | slice: 0, 1 %}
             <li id="links-{{ item.title | slugify }}">
                 {% if item.icon %}
-                <a target="_blank" href="{{ item.url }}" class="icon fa-2x fa-{{ item.icon | downcase }}" title="{{ item.title }}">
+                <a href="{{ item.url }}" title="{{ item.title }}"
+                    class="icon fa-2x fa-{{ item.icon | downcase }}"
+                    {% unless "/" == item_url_first_char %}target="_blank"{% endunless %}>
                     <span class="label">{{ item.label }}</span>
                 </a>
                 {% elsif item.svg %}
-                <a target="_blank" href="{{ item.url }}" class="icon fa-2x">
+                <a href="{{ item.url }}" title="{{ item.title }}"
+                    class="icon fa-2x"
+                    {% unless "/" == item_url_first_char %}target="_blank"{% endunless %}>
                     <img src="{{ site.baseurl }}{{ item.svg | relative_url }}" alt="{{ item.title }}"{% if item.style %} style="{{ item.style }}"{% endif%} />
                     {% if item.show_label != false %}<span class="label">{{ item.label }}</span>{% endif %}
                 </a>
