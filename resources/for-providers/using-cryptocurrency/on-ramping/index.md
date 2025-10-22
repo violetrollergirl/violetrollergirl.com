@@ -17,6 +17,7 @@ Now that you have a privacy-preserving [cryptocurrency wallet app]({% link resou
 ## In this article
 
 1. [Getting paid directly in crypto](#getting-paid-directly-in-crypto)
+    1. [Receiving the same cryptocurrency being sent](#receiving-the-same-cryptocurrency-being-sent)
     1. [Getting paid in Zcash when your client or customer only has Bitcoin](#getting-paid-in-zcash-when-your-client-or-customer-only-has-bitcoin)
 1. [MintPay: Fiat income with cryptocurrency withdrawals](#mintpay-fiat-income-with-cryptocurrency-withdrawals)
 1. [Converting fiat currency to cryptocurrency](#converting-fiat-currency-to-cryptocurrency)
@@ -25,11 +26,13 @@ Now that you have a privacy-preserving [cryptocurrency wallet app]({% link resou
 
 ## Getting paid directly in crypto
 
-I'll be blunt: the easiest way for many of us to start getting crypto is to just get a client or customer to pay or tip us in cryptocurrency. This simply avoids any interaction with the fiat economy entirely. This is of course even better if we get paid directly in a privacy coin like Zcash or Monero and don't have to convert, exchange, or swap the money we make into one of these privacy-preserving cryptocurrencies, but [my favorite Zcash wallet app, Zashi]({% link resources/for-providers/using-cryptocurrency/wallet-apps/index.md %}#zashi-privacy-focused-zcash-wallet-app), even makes it easy to [receive deposits in Zcash from a range of cryptocurrencies](#getting-paid-in-zcash-when-your-client-only-has-bitcoin).
+I'll be blunt: the easiest way for many of us to start getting crypto is to just get a client or customer to pay or tip us in cryptocurrency. This simply avoids any interaction with the fiat economy entirely. This is of course even better if we get paid directly in a privacy coin like Zcash or Monero and don't have to convert, exchange, or swap the money we make into one of these privacy-preserving cryptocurrencies, but [my favorite Zcash wallet app, Zashi]({% link resources/for-providers/using-cryptocurrency/wallet-apps/index.md %}#zashi-privacy-focused-zcash-wallet-app), even makes it easy to [receive deposits in Zcash from a range of cryptocurrencies](#getting-paid-in-zcash-when-your-client-or-customer-only-has-bitcoin).
 
 ### Receiving the same cryptocurrency being sent
 
-The simplest way to get paid in crypto is to simply receive the same cryptocurrency your client or customer has to send you. More often than not, this is likely to be Bitcoin, because all of the major cryptocurrency exchanges support that. My more privacy-conscious clients actually prefer paying directly in Zcash, though, which is why I have both Zashi (the most private Zcash wallet app) and Cake Wallet (a privacy-focused wallet app that supports most other major currencies, but not yet Zcash); together, these two wallets let me accept dozens upon dozens of cryptocurrencies without needing to swap or exchange one currency for another.
+The simplest way to get paid in crypto is to simply receive the same cryptocurrency your client or customer has to send you. More often than not, this is likely to be Bitcoin, because all of the major cryptocurrency exchanges support that.
+
+My more privacy-conscious clients actually prefer paying directly in Zcash, though, which is why I have both Zashi (the most private Zcash wallet app) and Cake Wallet (a privacy-focused wallet app that supports most other major currencies, but not yet Zcash); together, these two wallets let me accept dozens upon dozens of cryptocurrencies without needing to swap or exchange one currency for another.
 
 To get paid in this situation when you don't need to perform a currency swap, find the "Receive" button in your wallet app. Every wallet app makes this button very big and clear, because everyone likes getting paid and that's what wallet apps are for. Tap or click the Receive button and you'll be presented with options to reveal the full address, a QR code of the address, and sometimes also other ways to share the address of your wallet such as by sharing a link. (This is exactly [how my own cryptocurrency tips and donation links work]({% link colophon/index.md %}#cryptocurrency-tips-and-donation-links), by the way.)
 
@@ -89,7 +92,7 @@ When your client or customer actually sends those funds to the exchange's deposi
 
 - If the swap trade **succeeds**:
     - your Zashi wallet app will see the receipt of exactly the amount you've requested and will immediately auto-shield it, making your funds completely private.
-    - your Cake Wallet app will see any overage paid, i.e., the difference betweent the slippage tolerance you set and the actual realized slippage of the trade as it was made, "refunded" to you from the exchange. This amount is also now yours, completely immune from chargebacks.
+    - your Cake Wallet app will see any overage paid, i.e., the difference between the slippage tolerance you set and the actual realized slippage of the trade as it was made, "refunded" to you from the exchange. This amount is also now yours, completely immune from chargebacks.
 - If the swap trade **fails**:
     - your Zashi wallet app will report the trade as unsuccessful for whatever reason, but&hellip;
     - &hellip;your Cake Wallet app will see *all* of the original currency (Bitcoin, in this example), received as a "refund" and is completely immune from chargebacks. You can now try the swap again or use another exchange to swap into Monero. (I like Cake Wallet because [Trocador, a centralized exchange aggregator and proxy site](https://noscript.trocador.app/){:target="_blank"} is built into Cake Wallet!)
