@@ -45,7 +45,7 @@ Your provider will send you back one of several things. It will either be:
 
 The above are examples of my own [Zcash donation addresses]({% link colophon/index.md %}#cryptocurrency-tips-and-donation-links).
 
-Do not use these specific addresses unless you intend to send *me, specifically,* tips or donations! Instead, use the one that your provider gives you.
+Do not use these specific addresses unless you intend to send *me, {{ site.title }}, specifically,* tips or donations! Instead, use the one that your provider gives you.
 
 ## Send crypto to your provider
 
