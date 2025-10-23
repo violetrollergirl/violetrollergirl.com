@@ -48,8 +48,37 @@ defaults:
       author: *author
       layout: post
 
+  # FAQ groups.
+  - scope:
+      path: ""
+      type: faq
+    values:
+      layout: faq-page
+  - scope:
+      path: "_faq/about-me"
+    values:
+      group_name: About me
+  - scope:
+      path: "_faq/about-you"
+    values:
+      group_name: About you
+  - scope:
+      path: "_faq/meetings"
+    values:
+      group_name: Meetings
+  - scope:
+      path: "_faq/screening"
+    values:
+      group_name: Screening
+  - scope:
+      path: "_faq/services"
+    values:
+      group_name: Services
+
 collections:
   faq:
+    output: true
+    permalink: /:collection/:path/
   testimonials:
 
 # Gallery.

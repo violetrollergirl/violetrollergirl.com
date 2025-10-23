@@ -1,5 +1,5 @@
 ---
-title: "On-ramping: acquiring cryptocurrency funds"
+title: "On-ramping: acquiring cryptocurrency funds (as a sex worker)"
 description: >
     Learn about various ways you can get crypto (as a sex worker).
     Getting paid in crypto is easiest, but there are other ways!
@@ -8,9 +8,11 @@ next: resources/for-providers/using-cryptocurrency/off-ramping/
 last_modified: Wed Oct 22 16:59:12 EDT 2025
 ---
 
-# On-ramping: acquiring cryptocurrency funds
+# On-ramping: acquiring cryptocurrency funds (as a sex worker)
 
 > &#128161; This is part of [{{ site.title }}'s Guide to Using Cryptocurrency (as a Sex Worker)]({% link resources/for-providers/using-cryptocurrency/index.md %}). If you haven't yet read the primer, consider starting there!
+
+> **&#9432; This page is for providers, companions, or creators.** If you are a client or customer, you should instead read [{{ site.title }}'s Guide to Paying your Provider in Crypto]({% link resources/for-clients/using-cryptocurrency/index.md %}).
 
 Now that you have a privacy-preserving [cryptocurrency wallet app]({% link resources/for-providers/using-cryptocurrency/wallet-apps/index.md %}) and can receive funds in a privacy coin like Zcash or Monero, it's time to start acquiring some funds. The cryptocurrency world calls this "on-ramping," using the analogy of a highway on-ramp from one place (the fiat economy) to another (the so-called "crypto-native" economy, or whatever).
 
@@ -82,9 +84,10 @@ The way we do this is by initiating a currency swap trade, but we'll have the cl
 1. Show, share, or send this payment information to your client or customer.
     - Tell your client or customer that they have about 1 hour to confirm the send.
     - The payment address shown here is *ephemeral* (temporary), much like other cryptocurrency shopping cart checkout pages. You cannot reuse it ever again.
+    - (If you're using this technique to swap (i.e., "convert" or "exchange") your own non-private Bitcoin into private shielded Zcash, rather than using this technique to get a client or customer to pay you, this is when you go to your other Bitcoin wallet app or log in to your exchange service account and send your own cryptocurrency funds to the address Zashi showed you.)
 1. Tap the **I've sent the funds** button.
 
-At this point, the swap trade is "`pending deposit`." Remember, it's actually *your client or customer* who's sending funds, not you. Moreover, they're not sending funds directly to you, but rather to the decentralized exchange to which you've requested a currency swap from their currency into yours.
+At this point, the swap trade is "`pending deposit`." Remember, when using this technique to collect a crypto deposit or payment, it's actually *your client or customer* who's sending funds, not you. Moreover, they're not sending funds directly to you, but rather to the decentralized exchange to which you've requested a currency swap from their currency into yours.
 
 The address shown in the quote confirmation isn't your address, but rather a deposit address for the underlying DEX associated with the currency swap trade you were quoted. This is why the address will eventually expire and why your client or customer needs to send the funds sooner rather than later.
 

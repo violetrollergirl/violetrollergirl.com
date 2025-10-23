@@ -10,4 +10,4 @@ Please always feel comfortable requesting something specific, but remember that 
 
 ![]({% link images/gallery-originals/polkadot-outfit-over-a-railing.jpg %}){: style="max-width: 100%;" loading="lazy"}
 
-See also: "[What should I wear for our date?](#faq-what-should-i-wear-for-our-date)"
+See also: "[What should I wear for our date?]({% link _faq/meetings/what-should-i-wear-for-our-date.md %})"

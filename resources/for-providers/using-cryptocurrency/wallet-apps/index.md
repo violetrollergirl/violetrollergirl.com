@@ -10,6 +10,8 @@ last_modified: Thu Sep  4 20:22:14 EDT 2025
 
 # Everything (and only) what you need to know about cryptocurrency wallets
 
+> &#128161; This is part of [{{ site.title }}'s Guide to Using Cryptocurrency (as a Sex Worker)]({% link resources/for-providers/using-cryptocurrency/index.md %}). If you haven't yet read the primer, consider starting there!
+
 A lot of people think getting started with cryptocurrency is hard. That might have been true a number of years ago, but it's not anymore. There are really good, easy to use apps, often called "wallets" or, more precisely, "wallet apps," that make setting up your cryptocurrency "accounts" really fast.
 
 ## In this article

@@ -3,7 +3,7 @@ name: How do I pass your screening process?
 weight: 15
 ---
 
-My screening process is like many other providers&rsquo; and is required for our mutual safety and comfort. There are no exceptions. <em>Everyone must screen.</em> ([Why?](#faq-why-must-i-screen-screening-makes-me-nervous))
+My screening process is like many other providers&rsquo; and is required for our mutual safety and comfort. There are no exceptions. <em>Everyone must screen.</em> ([Why?]({% link _faq/screening/why-screen.md %}))
 
 The [Contact page](#contact) on my site offers a summary of your [screening options](#screening-options). Only <em>one (1)</em> of the listed items is required to successfully pass screening, <em>not</em> all of them. Two of your options are remote and one is in person. Briefly once more, those options are:
 

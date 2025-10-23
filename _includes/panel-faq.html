@@ -2,29 +2,24 @@
 Content for the "FAQ"/Q&amp;A Panel.
 {% endcomment %}
 
-{% assign faqs = site.faq | where_exp: "item", "item.publish != false" | sort: "weight", "last" %}
+{% assign faq_groups = site.faq | group_by: "group_name" %}
 
 <h1 id="frequently-asked-questions-and-answers">Frequently Asked Questions (and Answers)</h1>
-<p>When choosing a companion, especially for the first time, you may have a lot of questions. A lot of these questions get asked very frequently, so I&rsquo;ve gathered them here to make my answers easier for you to find, and easier for me to reference when needed.</p>
+<p>When choosing a companion, especially for the first time, you may have some questions! A lot of these questions get asked very frequently, so I&rsquo;ve gathered them here to make my answers easier for you to find, and easier for me to reference when needed.</p>
 <p style="float: right; max-width: 50vw; margin: 0 0 2em 2em;"><img loading="lazy" src="{% link images/gallery-originals/back-arch-on-the-beach-in-bikini.jpg %}" alt="Violet relaxes in the sands of a beach on all fours as she enjoys the waves.">
+
+{% for g in faq_groups %}
+<h2 id="faq-{{ g.name | slugify }}">{{ g.name }}</h2>
+
+{% assign desc_item = g.items | where: "slug", "DESCRIPTION" | first %}
+{{ desc_item.content }}
+
 <ol>
-{% for q in faqs %}
-    <li><a href="#faq-{{ q.name | slugify }}">{{ q.name }}</a></li>
+{% assign group_items = g.items | where_exp: "item", "item.publish != false" | sort: "weight", "last" %}
+{% for q in group_items %}
+    <li>
+        <a href="{{ q.url }}">{{ q.name }}</a>
+    </li>
 {% endfor %}
 </ol>
-
-{% for q in faqs %}
-{% assign modulo = forloop.index | modulo: 3 %}
-{% if modulo == 1 %}
-<div class="inner split">
-{% endif %}
-    <div class="faq-item-wrapper">
-        <div id="faq-{{ q.name | slugify }}" class="faq-item-container">
-            <h2>{{ q.name }}</h2>
-            {{ q.content | smartify }}
-        </div>
-    </div>
-{% if modulo == 0 or forloop.last %}
-</div><!-- .inner.split -->
-{% endif %}
 {% endfor %}
