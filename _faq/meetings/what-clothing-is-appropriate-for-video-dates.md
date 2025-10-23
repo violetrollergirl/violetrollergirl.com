@@ -1,5 +1,6 @@
 ---
 name: What clothing is appropriate for video dates?
+weight: 20
 ---
 
 For video dates, the biggest difference from [clothing for in-person dates]({% link _faq/meetings/what-should-i-wear-for-our-date.md %}) (for me anyway), is that they tend to have this feel of, like, "dropping in" to whatever part of our day is happening. This tends to make video dates either have a very premeditated intention or the exact opposite, where we discover the vibe together.

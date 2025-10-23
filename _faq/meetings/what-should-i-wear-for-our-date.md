@@ -1,5 +1,6 @@
 ---
 name: What should I wear for our date?
+weight: 10
 ---
 
 The short answer is: **wear whatever you're comfortable in. Yes, for real!**
