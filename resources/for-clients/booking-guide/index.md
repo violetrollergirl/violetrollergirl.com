@@ -265,7 +265,7 @@ The tenth field in my booking form is a text suggestion box for you to fill in t
 * The field's label is:
     * when I will be in
 * The field's placeholder reads: `Anytown, USA (City, Country)`
-* You are expected to enter the name of a city, a neighborhood, or just enter "`an online/remote location`" or something to that effect to indicate that the service you want can be fulfilled without physically meeting.
+* You are expected to enter the name of a city, a neighborhood, the address of a hotel/venue (for outcalls), or just enter "`an online/remote location`" or something to that effect to indicate that the service you want can be fulfilled without physically meeting.
     * Cities that I service regularly will be available as suggestions in browsers that support this feature.
     * When I'm touring, you also may find those cities listed here, too.
     * Even if you don't see your city in this list, you can propose to meet anywhere you know you'll be and I'll try to align some stars for us.
