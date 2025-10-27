@@ -43,6 +43,18 @@ defaults:
     values:
       position: top
   - scope:
+      path: "images/gallery/fulls/black-and-white-polka-dots-on-rattan-chair.jpg"
+    values:
+      position: top
+  - scope:
+     path: "images/gallery/fulls/cutie-in-bay-windows.jpg"
+    values:
+      position: top
+  - scope:
+      path: "images/gallery/fulls/hello-kitty-panties.jpg"
+    values:
+      position: top
+  - scope:
       type: posts
     values:
       author: *author
