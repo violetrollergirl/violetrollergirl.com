@@ -21,6 +21,15 @@ I wrote this booking guide to help those of you who want a meticulously crafted 
 {:.align-center}
 [Booking guide for clients]({% link resources/for-clients/booking-guide/index.md %}){:.button}
 
+## [Messaging discreetly]({% link resources/for-clients/messaging-discreetly/index.md %})
+
+I'm not here to judge your need to keep what happens in Vegas, well, in Vegas. In fact, as a trans sex worker, I’m here for it. Unfortunately, a lot of uninformed clients are making some rookie mistakes when trying to keep our messages between us.
+
+There are two techniques that make messaging discreetly easier: plausible deniability, and (true end-to-end) encryption and, in this guide, I'll introduce you to my favorite ways to keep messages private and our remote interactions discreet.
+
+{:.align-center}
+[Learn to message discreetly]({% link resources/for-clients/messaging-discreetly/index.md %}){:.button}
+
 ## [Using cryptocurrency]({% link resources/for-clients/using-cryptocurrency/index.md %})
 
 Cryptocurrency is now a popular way to pay providers. Some providers, like me, even prefer it over every other form of payment. If you're new to using cryptocurrency, it can feel a little daunting the first time, but using it smartly can offer some really helpful privacy and security benefits. Besides, you only need to set things up once.
