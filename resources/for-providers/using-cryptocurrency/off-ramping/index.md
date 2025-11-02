@@ -7,6 +7,8 @@ last_modified: Sun Oct 19 15:18:05 EDT 2025
 
 # Off-ramping: where and how to spend your cryptocurrency
 
+> &#128161; This is part of [{{ site.title }}'s Guide to Using Cryptocurrency (as a Sex Worker)]({% link resources/for-providers/using-cryptocurrency/index.md %}). If you haven't yet read the primer, consider starting there!
+
 At the end of the day, cryptocurrency is just currency. You can't breathe it, you can't eat it, you can't drink it. It won't provide companionship, fulfillment, inspiration, or joy. A number in a bank account, or a cryptocurrency wallet, won't keep you alive. Sooner or later, you're going to have to spend it on something.
 
 The cryptocurrency world calls this "off-ramping," the complement to "on-ramping." In this case, it means turning your cryptocurrency assets into something else, whether digital or physical.

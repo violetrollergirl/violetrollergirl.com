@@ -440,5 +440,9 @@ For more information, see my [cancellation policy]({% link index.html %}#cancell
 
 This step is the most fun: show up, and let me take care of the rest. ;)
 
+{% comment %}
+https://www.thedannygoldexperience.com/post/grooming-for-a-date-with-a-sw
+{% endcomment %}
+
 {:.button-container}
 {% include link-as-button.md anchor_text="Up" url="../" %}
