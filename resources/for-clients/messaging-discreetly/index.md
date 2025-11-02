@@ -18,7 +18,7 @@ I hear it *all* the time:
 
 I'm not here to judge your need to keep what happens in Vegas, well, in Vegas. In fact, as a trans sex worker, I'm here for it. But whenever I hear statements like the ones above, I shake my head a little on the inside.
 
-If descretion is what you need, oh baby, let me show you better ways.
+If discretion is what you need, oh baby, let me show you better ways.
 
 ## In this article
 
@@ -59,7 +59,7 @@ For example, if you already have and use WhatsApp, then please don't install a b
 
 Unfortunately, many uninformed clients think using a burner number or an extra texting app is more discreet. Their rationale is that by keeping messages in a dedicated app and out of their main text message or email inbox, messages will be harder to spot.
 
-However, if someone is already looking at your phone's screen, which do you think is harder to explain: a bit of text with an innocent subject line buried in the torrent of your normal, personal email inbox, or a whole new app icon visible to anyone flipping across the pages of your home screen? Meanwhile, logging into "spicy" email accounts means risking getting caught by a plethora of auto-fill, account switcher, and history features; are you sure you've disabled *all* of that?
+However, if someone is already looking at your phone's screen, which do you think is harder to explain: a bit of text with an innocent subject line buried in the torrent of your normal, personal email inbox, or a whole new app icon visible to anyone flipping across the pages of your home screen? Meanwhile, logging into "spicy" email accounts means risking being exposed by a plethora of auto-fill, account switcher, and history features; are you sure you've disabled *all* of that?
 
 This is the same reason why having a second phone is also instantly suspicious; unless you're someone who *already* has a second phone for an alternative reason, getting caught switching between two phones is probably the least discreet thing you can do.
 
@@ -86,7 +86,7 @@ Here's [how WhatsApp themselves introduced their Chat Lock feature](https://blog
 
 I'm not sure if WhatsApp had sex workers in mind when they designed this feature, but I'd be surprised if they *didn't* given how perfectly suited to us this feature is.
 
-If you've been paying particularly close attention, you may notice that while this keeps individual chats locked, the presence of the Locked Chats folder itself can raise suspicion. But don't worry, WhatsApp's Locked Chats folder can itself be hidden by opening the Locked Chats Folder and from there selecting Settings &rarr; Hide Locked Chats
+If you've been paying particularly close attention, you may notice that while this keeps individual chats locked, the presence of the Locked Chats folder itself can raise suspicion. But don't worry, WhatsApp's Locked Chats folder can itself be hidden by opening the Locked Chats Folder and from there selecting Settings &rarr; Hide Locked Chats.
 
 Read more about Chat Lock in the WhatsApp support pages for iPhone and Android, respectively:
 
@@ -98,7 +98,7 @@ It's hard to beat WhatsApp's Chat Lock feature for discretion. Its combination o
 
 ### Ultimate privacy: Signal Private Messenger with Screen Lock
 
-While not as one-stop-shop as [WhatsApp's Chat Lock feature](#using-whatsapps-chat-lock-feature), if you need absolute privacy, [Signal Private Messenger](https://signal.org/){:target="_blank"} is the ultimate choice because Signal's superior metadata encryption means that when you message your provider on Signal, not even Signal is aware that the two of you are communicating. The same can't be said of WhatsApp.
+While not as one-stop-shop as [WhatsApp's Chat Lock feature](#using-whatsapps-chat-lock-feature), if you need absolute privacy, [Signal Private Messenger](https://signal.org/){:target="_blank"} is the ultimate choice. Signal's superior metadata encryption means that when you message a provider who has enabled ["Sealed Sender" messages on Signal](https://signal.org/blog/sealed-sender/){:target="_blank"}, as I have, not even Signal is aware that the two of you are communicating. The same can't be said of WhatsApp.
 
 However, to approximate the plausible deniability of WhatsApp's Chat Lock, use the following combination of Signal Private Messenger features:
 
