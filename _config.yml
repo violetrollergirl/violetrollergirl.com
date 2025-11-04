@@ -91,6 +91,8 @@ collections:
   faq:
     output: true
     permalink: /:collection/:path/
+  posts:
+    permalink: /blog/:year/:month/:day/:title/
   testimonials:
 
 # Gallery.
