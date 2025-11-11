@@ -424,7 +424,7 @@ Once we've worked out logistical details, you can simply enjoy the building anti
 
 The two things to remember during this period of time are simply to remain patient and, especially as the date nears, to stay communicative. Even if we're not in touch every day, rest assured, I'm not forgetting about the date. I also welcome brief notes letting me know you're thinking of me, and I may send you some of the same. These short "heartbeat" messages simply ensure our line of communication is open and helps build up that spark of excitement before we see each other!
 
-If you find that you're craving more attention than that, it is respectful to send tips or gifts along with your messages! Another option is to simply inquire about a more ongoing texting arrangement, book a remote (online phone/video) date in the interim, or [engage parasocially on my socials or content sites]({% link index.md %}#links-group-socials-amp-content).
+If you find that you're craving more attention than that, it is respectful to send tips or gifts along with your messages! Another option is to simply inquire about a more ongoing texting arrangement, book a remote (online phone/video) date in the interim, or [engage parasocially on my socials or content sites]({% link index.html %}#links-group-socials-amp-content).
 
 ### The day before our date
 
