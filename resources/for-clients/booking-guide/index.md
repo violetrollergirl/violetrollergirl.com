@@ -409,7 +409,7 @@ It rarely takes more than three to five messages to inquire, confirm, and realiz
 1. Message two: I reply with a confirmation of your expectations, date details including the chosen date/time from your suggested options, and instructions for sending your deposit.
 1. Message three: you confirm these details and send your deposit to reserve time in my calendar.
 
-Real life is often messier, and it's possible that I'll need to ask you about, say, food allergies or preferences if we're going out, or clarify something in your inquiry. There is no strict limit to how many messages we'll exchange, but you'll undoubtedly notice my attention to detail and thoroughness in each and every one that I send. My goal is to handle logistics quickly so that we can get on to the really fun stuff equally quickly!
+Real life is often messier, and it's possible that I'll need to ask you about, say, food allergies or preferences if we're going out, or clarify something in your inquiry. There's no set number to how many messages we'll exchange, but you'll undoubtedly notice my attention to detail and thoroughness in each and every one that I send. My goal is to handle logistics quickly and with as few rounds of back-and-forth messaging as necessary so that we can get on to the really fun stuff equally quickly!
 
 If we find ourselves unable to plan for and set a specific date, time, or place for your appointment in more than five back-and-forth messages, it may mean you aren't quite ready to book, and I'll probably suggest you send a new inquiry when you are. It's no big deal, I just need to move on to other inquiries.
 
@@ -420,7 +420,11 @@ Otherwise, if you feel like you need more correspondence or a real-time conversa
 
 ## Enjoy the building anticipation of our upcoming date
 
-Anticipation is an often overlooked part of foreplay, so this is frequently more fun than you may at first think! Once we've worked out the details, you can simply enjoy the building anticipation of our time together.
+Once we've worked out logistical details, you can simply enjoy the building anticipation of our time together. Anticipation is an often overlooked part of foreplay, so this is frequently more fun than you may at first think!
+
+The two things to remember during this period of time are simply to remain patient and, especially as the date nears, to stay communicative. Even if we're not in touch every day, rest assured, I'm not forgetting about the date. I also welcome brief notes letting me know you're thinking of me, and I may send you some of the same. These short "heartbeat" messages simply ensure our line of communication is open and helps build up that spark of excitement before we see each other!
+
+If you find that you're craving more attention than that, it is respectful to send tips or gifts along with your messages! Another option is to simply inquire about a more ongoing texting arrangement, book a remote (online phone/video) date in the interim, or [engage parasocially on my socials or content sites]({% link index.md %}#links-group-socials-amp-content).
 
 ### The day before our date
 
