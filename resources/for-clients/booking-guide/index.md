@@ -428,7 +428,7 @@ If you find that you're craving more attention than that, it is respectful to se
 
 ### The day before our date
 
-On the day before our date, I'll send you a reminder message. The reminder will re-confirm all the details we've already worked out (date, time, duration, and so on).
+On the day before our date, I'll send you a reminder message. The reminder will re-confirm all the details we've already worked out (date, time, duration, and so on). **You must reply affirmatively confirming receipt of this message to move forward with the date.** If you ghost, I can't be confident we're still on and will consider the date cancelled. (This is another reason I strongly suggest booking via Signal Private Messenger, as it is the most reliable messaging channel.)
 
 In this reminder message, I'll also provide more specific instructions for exactly how to meet, including things like where to park if you're driving, which intersection to meet at, a specific address with instructions on how to use the buzzer, and so on.
 
