@@ -41,7 +41,7 @@ It's worth pointing out that, as sex workers, we are actually quite a skilled bu
 
 Community's always been important but it'll become more so very rapidly. If the quality is there, I'd rather get my blouse sewn by a fellow sex worker I know or one who is recommended to me by a friend. And, guess what, if they're willing to accept payment for that service in Zcash, I've got my perfect off-ramp right there!
 
-So if you're a sex worker with such skills, share that fact with friends you trust. Build a local economy, and stay surveillance-free by using Zcash to sustain it! The true revolutionary potential of this truly cannot be overstated.
+So if you're a sex worker with such skills, share that fact with friends you trust. Or maybe you've got a car, time, and need cash? Consider offering a [Homobiles](https://en.wikipedia.org/wiki/Homobiles){:target="_blank"}-style car service for your fellow workers and accept payments in ZEC or another privacy coin! Build a local economy, and stay surveillance-free by using Zcash to sustain it! The true revolutionary potential of this truly cannot be overstated.
 
 One way to think about this is: [Zcash](https://z.cash/){:target="_blank"} in [Zashi](https://electriccoin.co/zashi/){:target="_blank"} is to money what [Signal Private Messenger](https://signal.org/){:target="_blank"} is to speech. Vive la révolution!
 
