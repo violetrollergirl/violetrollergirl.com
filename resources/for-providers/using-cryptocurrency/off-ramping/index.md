@@ -133,7 +133,10 @@ If you need something from a store that doesn't have a Flexa partnership, you ca
 
 ### Pay for stuff via Cake Pay in Cake Wallet
 
-The gift card vendor directly integrated with the Monero wallet app I use is called [Cake Pay](https://cakepay.com/).
+The gift card vendor directly integrated with the Monero wallet app I use is called [Cake Pay](https://cakepay.com/). If you use their Web site instead of the in-app wallet integration, you can also [use shielded Zcash to pay for the gift cards they offer](https://x.com/cakewallet/status/1988338435879506011){:target="_blank"}.
+
+{:style="margin: auto; max-width: 500px;"}
+[![Screenshot of the CakePay.com checkout screen showing a Zcash option to pay for a gift card purchase.](http://web.archive.org/web/20251114221317if_/https://pbs.twimg.com/media/G5f-OFhaUAAT_SS?format=jpg&name=large)](https://x.com/cakewallet/status/1988338435879506011){:target="_blank"}
 
 > TK-TODO: This section is not yet written, but it functions almost identically to Flexa in Zashi: sign up with a KYC-lite email address, either on the Cake Pay website or in the Cake Wallet app itself, and then choose a giftcard, pay for it from a Cake Wallet's balance **using Monero, since Monero is the one private cryptocurrency Cake Wallet supports**, and then use the gift card as you normally would.
 >
