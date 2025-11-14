@@ -2,6 +2,9 @@
 name: Will you dominate me?
 ---
 
+{:style="float: right; max-width: 50%; margin-left: 1em;"}
+![]({% link images/gallery-originals/bunny-tie-in-pink-outfit.jpg %})
+
 In brief: no, I don't offer services in which I play a stereotypically dominant role. The one exception to this is chastity keyholding when part of an established dynamic; I do love to please via tease!
 
 A more nuanced answer: I am exclusively submissive but, make no mistake, my submission is far from meek. I'm more of a power princess than pillow princess, and I adore co-creating unique dynamics tailor-made to specific fantasies. This can take time and will surely feel intensely intimate (because it is), but the rewards are literally once-in-a-lifetime experiences that turn fantasies into realities in otherwise impossible ways.

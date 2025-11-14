@@ -94,6 +94,9 @@ collections:
   posts:
     permalink: /blog/:year/:month/:day/:title/
   testimonials:
+    # TODO:
+    #output: true
+    #permalink: ?
 
 # Gallery.
 # Configure which exif data to display
