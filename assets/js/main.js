@@ -127,6 +127,16 @@ layout: none
 
             });
 
+            // Open menu details when permalinked to them.
+            $window.on('load hashchange', function (event) {
+                if (window.location.hash.startsWith('#rate-')) {
+                    var el = document.getElementById(window.location.hash.substring(1));
+                    if (el) {
+                        el.querySelector('details').open = true;
+                    }
+                }
+            });
+
             // Prevent transitions/animations on resize.
             var resizeTimeout;
 
