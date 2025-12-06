@@ -59,7 +59,8 @@ The way we do this is by initiating a currency swap trade, but we'll have the cl
 
 > Note: In the following step-by-step walkthrough, Cake Wallet and Bitcoin are just examples. You can replace Cake Wallet with whatever other self-custodial cryptocurrency wallet you are comfortable using, and Bitcoin with whatever cryptocurrency your client or customer wants to send you that your chosen self-custodial wallet app supports holding.
 
-**Do this** to get paid from a client or customer by performing a swap deposit in Zashi using your Cake Wallet as the "refund" address for the Bitcoin he's paying in:
+{:#how-to-do-a-swap-deposit-with-zashi}
+**Do this** to get paid from a client or customer by performing a swap deposit in Zashi using your Cake Wallet as the "refund" address for the Bitcoin your client is paying in:
 
 1. Open Cake Wallet to the wallet of the cryptocurrency your client is sending you, such as Bitcoin.
 1. Tap the **Receive** button. This reveals your own Bitcoin wallet's address.
@@ -110,7 +111,10 @@ For some of us, however, getting paid directly in crypto seems like a stretch. O
 {% assign x = site.data.social_urls | find: "group", "Tip me" | first %}
 {% assign mintpay = x.items | where: "label", "MintStars" | first %}
 
-One newer option available specifically for online creators, including adult creators, is *MintPay*, or the "tip" feature available via [MintStars.com](https://mintstars.com/){:target="_blank"}. If you're familiar with content sites like OnlyFans, you can think of MintStars as a crypto-friendly alternative except, unlike OnlyFans, people who want to send you money don't need to make an account or subscribe to you before tipping you.
+One newer option available specifically for online creators, including adult creators, is *MintPay*, or the "tip" feature available via [MintStars.com (referral link)]({{ site.data.affiliates.mintstars }}){:target="_blank"}. If you're familiar with content sites like OnlyFans, you can think of MintStars as a crypto-friendly alternative except, unlike OnlyFans, people who want to send you money don't need to make an account or subscribe to you before tipping you.
+
+{:.align-center}
+{% include link-as-button.md anchor_text="Join MintStars (via Referral)" url=site.data.affiliates.mintstars target="_blank" %}
 
 Fans and customers can send you tips using their debit or credit card, and when you receive a tip on MintStars it arrives instantaneously to your MintPay balance. You can then withdraw that balance to either a traditional bank account, or a cryptocurrency wallet that supports the token MintStars pays out in. At the time of this writing, you can only withdraw USDC (on the Polygon network) when choosing the crypto withdrawal option.
 
@@ -121,18 +125,15 @@ Withdrawing your MintPay balance to a [self-custodial crypto wallet such as Cake
 
 If you'd like to try the tipping experience out, consider sending me a tip [via my MintStars tip page]({{ mintpay.url }} "{{ mintpay.description }}"). To see what it looks like from the creator's side, see [MintStars Help: How to withdraw using crypto](https://mintstars.frontkb.com/en/articles/1967553). When or you want to sign up, I'd appreciate it greatly if you used my [MintStars creator referral link]({{ site.data.affiliates.mintstars }} "Sign up to MintStars via my referral link")!
 
-{:.align-center}
-{% include link-as-button.md anchor_text="Join MintStars (via Referral)" url=site.data.affiliates.mintstars target="_blank" %}
-
 ## Converting fiat currency to cryptocurrency
 
-If you have existing fiat currency, like US Dollars (USD), Euros (EUR), or whatever, the simplest way to acquire Zcash funds ("ZEC") or Monero ("XMR") is to buy it. This works like any other foreign currency conversion. By way of analogy, when you're converting fiat currencies from one to another, you go to a currency exchange counter such as those that are at airports. There, you ask the person at the currency exchange service counter for an equivalent amount of the local currency given your available foreign currency.
+If you have existing fiat currency, like US Dollars (USD), Euros (EUR), or whatever, the simplest way to acquire cryptocurrency of any kind is to buy it. This works like any other foreign currency conversion. By way of analogy, when you're converting fiat currencies from one to another, you go to a currency exchange counter such as those that are at airports. There, you ask the person at the currency exchange service counter for an equivalent amount of the local currency given your available foreign currency.
 
-Fiat-to-cryptocurrency conversions work just like that, except instead of going up to a physical counter, you visit the currency conversion service's website. Many such fiat-to-cryptocurrency exchanges exist. Today, the biggest and most famous of these are Coinbase, Kraken, and Binance, all of which will convert your fiat currency to Zcash.
+Fiat-to-cryptocurrency conversions work just like that, except instead of going up to a physical counter, you visit the currency conversion service's website. Many such fiat-to-cryptocurrency exchanges exist. Today, the biggest and most famous of these are Coinbase, Kraken, and Binance, although both CashApp and PayPal also function as cryptocurrency exchanges, albeit for a smaller array of cryptocurrencies.
 
-While this method is very easy, the downside is that in *some* situations, you may be asked to show your government ID to the exchange, especially if you're trying to convert currencies in large amounts. This can be a big privacy risk if you've previously used that exchange's services to make other kinds of transactions that you don't want linked to you legal identity. In this case, consider creating a brand-new account from scratch.
+While this method is very easy, the downside is that you will likely be asked to show your government ID to the exchange, especially if you're trying to convert currencies in large amounts. This can be a big privacy risk if you've previously used that exchange's services to make other kinds of transactions that you don't want linked to you legal identity. In this case, consider creating a brand-new account from scratch.
 
-The good news is that it's in no way shady to be buying privacy coins. These are just currencies and securities like any other. But by choosing to purchase a privacy coin, once you receive your ZEC or XMR, you can move it about freely and privately. You've effectively freed your money.
+The good news here is that it's in no way shady to be buying cryptocurrency. These are just currencies and securities like any other. However, doing so at a cryptocurrency exchange means the exchange is still holding your funds for you, so I'd suggest that sooner rather than later you move your funds out of the exchange account and into a self-custodial wallet, like Zashi or Cake Wallet.
 
 ### Buy ZEC via cryptocurrency exchanges
 
@@ -145,11 +146,17 @@ Since our clients face way less banking discrimination than we do, it's far more
 {:.align-center}
 [Crypto Quick(est) Start]({% link resources/for-clients/using-cryptocurrency/quick-start/index.md %}){:.button}
 
-For regulatory compliance reasons, most big exchanges don't support Zcash's shielded mode, which means buying ZEC with fiat currency is one of a very small number of situations in which you may need to provide your transparent address (sometimes called a "t-addr") to the exchange to buy your ZEC. However, once purchased and sent directly to your Zashi wallet, the app will automatically shield your funds, making them private again.
+One very important thing to remember is that buying Zcash at a cryptocurrency exchange is *not* private; you're buying transparent ZEC, not shielded ZEC.
+
+For regulatory compliance reasons, most big exchanges don't support Zcash's shielded mode, which means buying ZEC with fiat currency is one of a very small number of situations in which you may need to provide your transparent address (sometimes called a "t-addr") to the exchange to move your ZEC into your Zashi wallet app. However, once purchased and held in your Zashi wallet, the app will automatically shield your funds, making them private again.
+
+This is why, if you intend to use Zcash, my advice is to simply buy Bitcoin or Ethereum, and then [use the swap deposit method in Zashi](#how-to-do-a-swap-deposit-with-zashi) that I described above to convert those funds from your crypto exchange account to Zcash in your Zashi wallet app.
 
 > &#x1F4A1; As of this writing (August 2025), [Gemini is the one cryptocurrency exchange I'm aware of that supports Zcash's shielded addresses](https://www.gemini.com/blog/youre-one-step-closer-to-financial-freedom-with-shielded-zec-withdrawals){:target="_blank"}, including the universal address format that Zashi uses.
 
-It's important to note that buying ZEC from one of these big exchanges and sending it directly to your Zashi wallet app is not the same as buying ZEC and then keeping it in the account you created at the exchange from which you bought the ZEC. By moving your funds out of the exchange and into your Zashi wallet app immediately, you are doing the equivalent of withdrawing your money from the bank so you can hold onto it (and protect it) yourself.
+It's extremely important to understand that buying ZEC from one of these big exchanges and sending it directly to your Zashi wallet app is not the same as buying ZEC and then keeping it in the account you created at the exchange. By moving your funds out of the exchange and into your Zashi wallet app immediately, you are doing the equivalent of withdrawing your money from the bank so you can hold onto it (and protect it) yourself.
+
+The important takeaway is that by choosing to hold a privacy coin, once you receive your ZEC or XMR in your self-custodial wallet app, you can move it about freely and privately. That's the only way to effectively free your money from others' control.
 
 ### Buy Monero in Cake Wallet
 
