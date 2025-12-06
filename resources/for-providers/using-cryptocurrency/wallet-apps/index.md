@@ -5,14 +5,16 @@ description: >
     This page shows you which are the safest and most private to use.
 next: resources/for-providers/using-cryptocurrency/on-ramping/
 prev: resources/for-providers/using-cryptocurrency/primer/
-last_modified: Thu Sep  4 20:22:14 EDT 2025
+last_modified: Sat Dec  6 17:43:23 EST 2025
 ---
 
 # Everything (and only) what you need to know about cryptocurrency wallets
 
 > &#128161; This is part of [{{ site.title }}'s Guide to Using Cryptocurrency (as a Sex Worker)]({% link resources/for-providers/using-cryptocurrency/index.md %}). If you haven't yet read the primer, consider starting there!
 
-A lot of people think getting started with cryptocurrency is hard. That might have been true a number of years ago, but it's not anymore. There are really good, easy to use apps, often called "wallets" or, more precisely, "wallet apps," that make setting up your cryptocurrency "accounts" really fast.
+> **&#9432; This page is for providers, companions, or creators.** If you are a client or customer, you should instead read [{{ site.title }}'s Guide to Paying your Provider in Crypto]({% link resources/for-clients/using-cryptocurrency/index.md %}).
+
+A lot of people think getting started with cryptocurrency is hard. That might have been true years ago, but it's not anymore. There are really good, easy to use apps, often called "wallets" or, more precisely, "wallet apps," that make setting up your cryptocurrency "accounts" shockingly fast.
 
 ## In this article
 
@@ -31,9 +33,7 @@ Choosing a wallet app is really important. In some ways, it's a bit like choosin
 - supports the [private cryptocurrencies]({% link resources/for-providers/using-cryptocurrency/primer/index.md %}#two-kinds-of-cryptocurrencies-private-and-not-private) (Zcash and/or Monero) I need to use, and
 - operates in a [self-custodial]({% link resources/for-providers/using-cryptocurrency/primer/index.md %}#self-custody-or-bust) way so I'm not re-introducing the risks of being de-banked by using a third-party service.
 
-These are my two deal-breakers. If the wallet app doesn't support Zcash or Monero, then it's not very useful to me because it won't support the privacy-preserving technologies I rely on to keep my financial data private. Similarly, if the wallet app doesn't work in a self-custody manner, then it's not really a wallet, it's a teller window at a bank, which means I don't actually have any of my money on my person. (The bank is holding on to it for me, which means they can unilaterally deny me access to my own money.)
-
-In addition to the two above considerations, I would also like my wallet app to work with some other time-tested privacy tools so that not only my financial transactions but also my use of the Internet is kept private and secure.
+These are my two deal-breakers. If the wallet app doesn't support Zcash or Monero, then it's not very useful to me because it won't support the privacy-preserving technologies I rely on to keep my financial data private. Similarly, if the wallet app doesn't work in a self-custody manner, then it's not really a wallet, it's a teller window at a bank, which means I don't actually have any of my money on my person. (The bank is holding on to it for me, which means they can unilaterally deny me access to my own money should they ever choose, for whatever reason, to do so.)
 
 The cryptocurrency ecosystem evolves quickly, but as of this writing there are two very clear winners. I'll show you both.
 
@@ -46,22 +46,24 @@ If you're going to use Zcash (and I think you should; Zcash is the gold standard
 
 Zashi has some special features that make it especially attractive for sex workers:
 
-- **Auto-shielding:** if you ever share your non-private (unshielded, or transparent) receive address for any reason, such as for a client or customer to send you funds, Zashi automatically shields (makes private) your money for you.
-- **Address auto-rotation:** every time you share your shielded address with a client or customer from the app, Zashi automatically rotates your address for you and then keeps track of which addresses received money. This is yet another way to help you avoid revealing information about who you are by creating and managing multiple, independent, unique, unlinked cryptocurrency identities for you in a simple, nearly invisible-to-you interface.
+- **Auto-shielding:** if you ever share your public (non-private, unshielded, or transparent) wallet address for any reason, such as for a client or customer to send you funds, Zashi automatically shields (makes private) your money for you.
+- **Address auto-rotation:** every time you share your private (shielded) address with a client or customer from the app, Zashi automatically gives you a new private address and then keeps track of which addresses received money. This is yet another way to help you avoid revealing information about who you are: by creating and managing multiple, independent, unique, unlinked cryptocurrency identities for you in a simple interface that is nearly invisible-to-you, it's even harder for someone who paid you once in the past from knowing who paid you next.
 - **Crosspay:** this feature means whenever you need to pay for something in crypto (like your ads), you can send that payment in a huge range of cryptocurrencies (yes, including Bitcoin) directly out of your private (shielded) Zcash balance, making permissionless, cross-cryptocurrency payments amazingly easy. [More on this later]({% link resources/for-providers/using-cryptocurrency/off-ramping/index.md %}#paying-in-bitcoin-when-you-only-have-zcash).
-- **Permissionless deposit swaps:** this feature is the opposite of *Crosspay*, enabling you to *receive* Zcash even if your client or customer pays you in another currency, like Bitcoin. Together with Crosspay, it means you can use Zashi as the single and most secure wallet app for almost all of your cryptocurrency needs, and it's built on NEAR's Intents, a decentralized exchange, or DEX, protocol that ensures no one party can cut you off from the broader crypto ecosystem.
+- **Permissionless deposit swaps:** this feature is the opposite of *Crosspay*, enabling you to [*receive* Zcash even if your client or customer pays you in another currency]({% link resources/for-providers/using-cryptocurrency/on-ramping/index.md %}#getting-paid-in-zcash-when-your-client-or-customer-only-has-bitcoin), like Bitcoin.
 - **Built-in Tor protection:** you can "set and forget" extra and powerful privacy protections provided by the [Tor Project](https://torproject.org/){:target="_blank"} from within the app itself, which makes it way, way harder for anyone to know that you're even using Zcash in the first place. I highly recommend enabling this; the Electric Coin blog shows you [how to enable Tor within Zashi](https://electriccoin.co/blog/zashi-2-1-enhanced-privacy-with-tor-beta/){:target="_blank"}.
+
+Taken together, these features mean you can use Zashi as the single and most secure wallet app for almost all of your cryptocurrency needs. By holding shielded ZEC, your money stays entirely private. Because Crosspay and its swap features are built on a permissionless, decentralized exchange (DEX) protocol called NEAR Intents, you still have access to the broader crypto ecosystem in a way no one can ban you from.
 
 I think Zashi is fast becoming the killer app for anyone who's at risk of being de-banked from the traditional financial system. As a self-custodial, auto-shielding, address-rotating, optionally Torified, Zcash wallet with a fully private decentralized on- and off-ramp to literally dozens upon dozens of supported cryptocurrencies, including Bitcoin, it's the one wallet we as sex workers should be using today if we can only use one wallet app.
 
 ### Cake Wallet: Privacy-focused Monero wallet app
 
-If you want to use Monero instead of (or in addition to) Zcash, or if you need a privacy-focused wallet app that can accept something other than the currencies supported by Zashi and NEAR together (like Monero), I suggest you look at [Cake Wallet](https://cakewallet.com/){:target="_blank"}.
+If you want to use Monero instead of (or in addition to) Zcash, or if you need a privacy-focused wallet app that can hold something other than the currencies supported by Zashi and NEAR together (like Monero), I suggest you look at [Cake Wallet](https://cakewallet.com/){:target="_blank"}.
 
 {:.align-center}
 {% include link-as-button.md anchor_text="Go install Cake Wallet now" url="https://docs.cakewallet.com/get-started/#installing-cake-wallet" target="_blank" %}
 
-Cake Wallet is perhaps most popular within the Monero community because, like Zashi, it is a self-custodial wallet app (although they call themselves "non-custodial," which means the same thing) that also supports address auto-rotation and has Tor integration built-in. Unlike Zashi, Cake Wallet supports a whole slew of different cryptocurrencies without needing a DEX, including non-private cryptocurrencies like old school Bitcoin proper. This means that you need to know a little bit more about what you're doing when you're using Cake Wallet than when you're using Zashi, but it's still pretty easy to figure out.
+Cake Wallet is perhaps most popular within the Monero community because, like Zashi, it is a self-custodial wallet app (although they call themselves "non-custodial," which means the same thing) that also supports address auto-rotation (for Monero) and has Tor integration built-in. Unlike Zashi, Cake Wallet supports holding a whole slew of different cryptocurrencies, including non-private cryptocurrencies like old school Bitcoin proper. This means that you need to know a little bit more about what you're doing when you're using Cake Wallet than when you're using Zashi, but it's still pretty easy to figure out.
 
 Cake Wallet does support in-app currency swaps provided by [Trocador](https://noscript.trocador.app){:target="_blank"}, a currency exchange proxy site. If you need to turn your Monero into Bitcoin, or your Bitcoin into Monero, you can use Trocador's service from directly within the Cake Wallet app to do this easily. And you can turn on Cake Wallet's built-in Tor support for extra protection when using Trocador.
 
@@ -69,8 +71,8 @@ Cake Wallet does support in-app currency swaps provided by [Trocador](https://no
 
 Although I find that the majority of my needs are met with just Zashi wallet, once you start learning about cryptocurrency you'll find it both easy and useful to at least dabble in other cryptocurrencies and wallet apps. There are multiple reasons for this:
 
-- Sometimes, it's easier to get paid if you can "meet clients where they are" by using a wallet app that more natively supports whatever currency theirs does, so you don't have to use a (possibly clunkier) decentralized exchange.
-- Once you start amassing some wealth, you may want to mitigate some of your risk by spreading your funds out across multiple wallet apps, cryptocurrencies, or both.
+- Sometimes, it's easier to get paid if you can "meet clients where they are" by using a wallet app that more natively supports whatever currency theirs does, without going through a decentralized exchange that may delay receiving your funds from less cooperative clients.
+- Once you start amassing some wealth, you may want to mitigate some of your risk by spreading your holdings out across multiple wallet apps, cryptocurrencies, or both.
 - Occasionally, you may run into a technical limitation that requires you to use another wallet app to get something done. This is becoming much rarer, but does still happen.
 
 As I write this, the cryptocurrency ecosystem is also still very fragmented. Different wallet apps work with different cryptocurrencies, and different "coins" are available on different "chains" (sometimes called "networks") as "tokens." It's all very confusing and can get annoying and rather jargon-filled quickly.
@@ -81,7 +83,7 @@ I personally use Zashi most often. After that, I use Cake Wallet. For what it's 
 
 ## Open your wallet app and you're good to go
 
-This is the surprising part for a lot of people: once you open your self-custodial wallet app, you're immediately able to receive payments. That's literally all there is to it. No need to enter a name, make an account, verify your age, or prove your government identity. Get the right kind of wallet app, and you're instantly set up to make sales and accept deposits or payments interactively.
+This is the surprising part for a lot of people: once you open your self-custodial wallet app, you're immediately able to receive payments. That's literally all there is to it. No need to enter a name, make an account, verify your age, or prove your government identity. Get the right kind of wallet app (always self-custodial or non-custodial), and you're instantly set up to make sales and accept deposits or payments interactively.
 
 In every wallet app, you'll see a button labelled "Receive." This is the button you press to, you guessed it, reveal the way other people send you whatever cryptocurrency the wallet app supports. That's what we'll need to start getting crypto.
 
@@ -89,7 +91,7 @@ In every wallet app, you'll see a button labelled "Receive." This is the button 
 
 Self-custody wallet apps are *truly* like physical wallets, not bank accounts: if you uninstall the wallet app, or your phone is lost or gets stolen, and you don't have a backup somewhere then all the money in your cryptocurrency wallet is lost, too.
 
-Another useful analogy, at least for those of us who have physical safe vaults at our our incalls, is that you should think of your self-custody wallet app like a physical vault in which you keep your cold, hard cash. Lose the key to the safe, and you lose access to the money inside. There is no bank teller you can go to beg for help from, even though the money is still right there, sitting just out of reach.
+Another useful analogy, at least for those of us who have physical safe vaults at our incalls, is that you should think of your self-custody wallet app like a physical vault in which you keep your cold, hard cash. Lose the key to the safe, and you lose access to the money inside. There is no bank teller you can go to beg for help from, even though the money is still right there, sitting just out of reach.
 
 Thankfully, it's very easy to protect yourself from this kind of financial loss. To understand how it works, you should know a tiny little bit more about what happens when you open a self-custody wallet app on your phone for the first time.
 
@@ -97,7 +99,7 @@ Thankfully, it's very easy to protect yourself from this kind of financial loss.
 
 When you install your wallet app of choice, it automatically generated what's called a wallet seed phrase, or recovery phrase, or BIP32/BIP39/BIP44 mnemonic code, or something to that effect. This is a fancy way of saying "the wallet app made up a secret passphrase that gives you control over your money." All of those terms mean the same thing.
 
-Your wallet's seed phrase is usually a sequence of 12 to 24 words that, as soon as you start caring about your funds, you should probably write down somewhere safe. (I suggest using a password manager like [Bitwarden](https://bitwarden.com){:target="_blank"}.) Eventually, you may even want to memorize it. This secret recovery seed phrase or whatever you want to call it is your magic money spell, the incantation you can invoke to "magically" conjure your money using any wallet app that supports both your cryptocurrency and your recovery phrase algorithm. Almost all modern wallets support this cool feature, now.
+Your wallet's seed phrase is usually a sequence of 12 to 24 words that, as soon as you start caring about your funds, you should probably write down somewhere safe. (I suggest using a password manager like [Bitwarden](https://bitwarden.com){:target="_blank"}.) Eventually, you may even want to memorize it. This secret recovery seed phrase or whatever you want to call it is your magic money spell, the incantation you can invoke to "magically" conjure your money using any wallet app that supports both your cryptocurrency and your recovery phrase algorithm. Almost all of the good, modern wallets support this cool feature.
 
 If you memorize the words of your wallet's seed phrase in the right order, you can do some amazingly sci-fi-esque shit, like cross international borders carrying nothing at all, and still emerge on the other side able to access your funds again as soon as you get your hands on a smartphone with an Internet connection. It's like you're a mashup of Trinity from The Matrix and Natasha Romanov from the Marvel Cinemantic Universe or something. It's crazy that this works, but it does!
 

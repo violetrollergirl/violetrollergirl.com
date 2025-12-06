@@ -5,7 +5,7 @@ description: >
     Getting paid in crypto is easiest, but there are other ways!
 prev: resources/for-providers/using-cryptocurrency/wallet-apps/
 next: resources/for-providers/using-cryptocurrency/off-ramping/
-last_modified: Wed Oct 22 16:59:12 EDT 2025
+last_modified: Sat Dec  6 18:05:20 EST 2025
 ---
 
 # On-ramping: acquiring cryptocurrency funds (as a sex worker)
@@ -38,7 +38,7 @@ My more privacy-conscious clients actually prefer paying directly in Zcash, thou
 
 To get paid in this situation when you don't need to perform a currency swap, find the "Receive" button in your wallet app. Every wallet app makes this button very big and clear, because everyone likes getting paid and that's what wallet apps are for. Tap or click the Receive button and you'll be presented with options to reveal the full address, a QR code of the address, and sometimes also other ways to share the address of your wallet such as by sharing a link. (This is exactly [how my own cryptocurrency tips and donation links work]({% link colophon/index.md %}#cryptocurrency-tips-and-donation-links), by the way.)
 
-Send the address or the generated QR code to your client or customer however you're already talking with them. Ideally, you're communicating over [Signal Private Messenger](https://Signal.org/){:target="_blank"} but any method of sending them some text or an image, including email or text message, will work. Have them press the complementary "Send" button in their wallet app, enter the address you gave them, whether via copy-and-paste or by scanning the QR code you showed them, and you'll have your money a few moments after they confirm the transaction on their side.
+Send the address or the generated QR code to your client or customer however you're already talking with them. Ideally, you're [messaging discreetly]({% link resources/for-clients/messaging-discreetly/index.md %} "Read Violet's guide to messaging sex workers discreetly."), such as over [Signal Private Messenger](https://Signal.org/){:target="_blank"}, but any method of sending them some text or an image (email, text message, whatever), will work. Have them press the complementary "Send" button in their wallet app, enter the address you gave them, whether via copy-and-paste or by scanning the QR code you showed them, and you'll have your money a few moments after they confirm the transaction on their side.
 
 I've also written a complementary guide to this one for clients that explains the whole process from the client perspective, so feel free to point your client or customer at that page on my site:
 
@@ -51,29 +51,30 @@ You can think of Zashi's "request via QR code" feature like a simplistic point-o
 
 ### Getting paid in Zcash when your client or customer only has Bitcoin
 
-Zashi also has a neat feature worth knowing about that makes it possible for you to receive cryptocurrency deposits (or even payments!) regardless of whether your client or customer will send you Zcash directly. It's called a "swap deposit," and it's one way I make paying me in cryptocurrency easy for clients who won't deal with anything except Bitcoin, Ethereum, or whatever their cryptocurrency of choice is.
+Zashi also has a neat feature worth knowing about that makes it possible for you to receive cryptocurrency deposits (or even payments!) regardless of whether your client or customer will send you shielded Zcash directly. It's called a "swap deposit," and it's one way I make paying me in cryptocurrency easy for clients who won't deal with anything except Bitcoin, Ethereum, or whatever their cryptocurrency of choice is.
 
 To perform a swap deposit you'll ideally need a second wallet that supports the currency your client or customer wants to pay you in; this is why I use a combination of Zashi with Cake Wallet. In the example below, let's assume your client wants to pay in Bitcoin, but you want to receive the most private currency you can as quickly as you can, which is shielded Zcash in Zashi.
 
-The way we do this is by initiating a currency swap trade, but we'll have the client play the role of the seller while we act as the buyer. Put another way, we are where failed trades will be refunded, and we'll also be where successful trades are sent. This means the "trade" actually serves as a full cross-currency, cross-chain payment in one fell swoop.
+The way we do this is by initiating a currency swap trade, but we'll have the client play the role of the seller while we act as the buyer. Put another way, even though our client is sending the funds, we will receive his failed trade's refund, and we'll also be where his successfully traded funds are sent. This means the "trade" actually serves as a full cross-currency, cross-chain payment in one fell swoop.
 
-**Do this** to get paid from a client or customer by performing a swap deposit in Zashi using your Cake Wallet as the "refund" address:
+> Note: In the following step-by-step walkthrough, Cake Wallet and Bitcoin are just examples. You can replace Cake Wallet with whatever other self-custodial cryptocurrency wallet you are comfortable using, and Bitcoin with whatever cryptocurrency your client or customer wants to send you that your chosen self-custodial wallet app supports holding.
+
+**Do this** to get paid from a client or customer by performing a swap deposit in Zashi using your Cake Wallet as the "refund" address for the Bitcoin he's paying in:
 
 1. Open Cake Wallet to the wallet of the cryptocurrency your client is sending you, such as Bitcoin.
-1. Tap the **Receive** button. This reveals your own wallet's recipient address.
-1. Copy your own wallet's recipient address and make a note of it somewhere. We'll use this as the "refund" address in Zashi's Swap feature.
+1. Tap the **Receive** button. This reveals your own Bitcoin wallet's address.
+1. Copy your own Bitcoin wallet's address and make a note of it somewhere. We'll use this as the "refund" address in Zashi's Swap feature.
     - I like to send this to myself using [Signal Private Messenger's "Note to self" feature](https://support.signal.org/hc/en-us/articles/360043272451-Note-to-Self){:target="_blank"}.
 1. Open your Zashi wallet.
-1. Tap the **More&hellip;** button to reveal Zashi's advanced wallet functionality drawer.
-1. Tap **Swap ZEC with NEAR Intents** to open Zashi's decentralized exchange (DEX) integration.
-1. In the **From** cryptocurrency selection drop-down menu, choose the currency (and network) your client or customer wants to send. In this example, we'll choose `BTC` (Bitcoin on the main Bitcoin network).
-1. In the **Refund Address** field, paste the receive address of your own self-custodial wallet that you noted earlier.
+1. Tap **Swap** to open Zashi's decentralized exchange (DEX) integration.
+1. In the **From** cryptocurrency selection drop-down menu, choose the currency (and network) your client or customer wants to send. In this example, we'll choose `BTC` (Bitcoin on the main Bitcoin network, also known as "Bitcoin mainnet").
+1. In the **Refund Address** field, paste the Bitcoin address of your own self-custodial wallet, like Cake Wallet, that you noted earlier.
 1. In the **Amount** field, enter how much you're asking your client or customer to pay.
     - This is the exact amount you expect to receive in ZEC. Any additional funds will be sent to the Refund Address you entered earlier.
     - You don't need to calculate transaction fees yourself; you'll get an automated estimate for this shortly.
 1. In the **To** section, choose a **slippage tolerance**, that is, how much *more* than the target price your client or customer is likely comfortable paying.
     - I tell clients that this covers "all transaction and payment processing fees, inclusive."
-    - I usually leave this at its default of `1%`. This is low enough that it's usually a much cheaper option than many fiat services such as wishlists or tipping sites.
+    - I usually leave this at its default of `1%`. This is low enough that it's usually a much cheaper option than many fiat services such as wishlists or [tipping sites](#mintpay-fiat-income-with-cryptocurrency-withdrawals).
     - You can set a custom slippage tolerance if you want to be extra sure the swap succeeds and you think your client or customer will not care much about the increase in total price.
 1. Tap the **Get a quote** button to generate a swap trade quote with a total estimate, including fees and any extra price slippage.
 1. Review the quote. It'll look something like what's shown in the screenshot below:
@@ -82,8 +83,8 @@ The way we do this is by initiating a currency swap trade, but we'll have the cl
 
 1. Tap **Confirm** to generate the swap trade's address, amount, and QR code.
 1. Show, share, or send this payment information to your client or customer.
-    - Tell your client or customer that they have about 1 hour to confirm the send.
-    - The payment address shown here is *ephemeral* (temporary), much like other cryptocurrency shopping cart checkout pages. You cannot reuse it ever again.
+    - Tell your client or customer that they have about 1 hour to confirm the send. This is a very common grace period to hold a quoted price in cryptocurrency ecommerce systems such as [BTCPay Server](https://btcpayserver.org/){:target="_blank"}.
+    - The swap deposit's "payment" address shown here is *ephemeral* (temporary), much like other cryptocurrency shopping cart checkout pages. You cannot reuse it ever again.
     - (If you're using this technique to swap (i.e., "convert" or "exchange") your own non-private Bitcoin into private shielded Zcash, rather than using this technique to get a client or customer to pay you, this is when you go to your other Bitcoin wallet app or log in to your exchange service account and send your own cryptocurrency funds to the address Zashi showed you.)
 1. Tap the **I've sent the funds** button.
 
@@ -100,7 +101,7 @@ When your client or customer actually sends those funds to the exchange's deposi
     - your Zashi wallet app will report the trade as unsuccessful for whatever reason, but&hellip;
     - &hellip;your Cake Wallet app will see *all* of the original currency (Bitcoin, in this example), received as a "refund" and is completely immune from chargebacks. You can now try the swap again or use another exchange to swap into Monero. (I like Cake Wallet because [Trocador, a centralized exchange aggregator and proxy site](https://noscript.trocador.app/){:target="_blank"} is built into Cake Wallet!)
 
-What's clever about this is that no matter what happens, *you* receive the money the client or customer sends. Moreover, you are never interacting directly with the client's wallet; there's no next-neighbor connection between you and them. You only ever interact with the currency exchanges, keeping any digital association between you and your client or customer to an absolute minimum for ultimate discretion.
+What's clever about this is that no matter what happens, *you* receive the money the client or customer sends. Moreover, you are never interacting directly with the client's wallet; there's no next-neighbor connection between you and them. You only ever interact with the currency exchanges, keeping any digital association between you and your client or customer to an absolute minimum, providing ultimate payment discretion.
 
 For some of us, however, getting paid directly in crypto seems like a stretch. Our clients or customers are wary of cryptocurrency, they don't have the technical skill to do it, they have no existing cryptocurrency funds themselves, or they don't have the same cryptocurrencies that we want to accept payments in. I'll address all of these points in one of my other articles, ["How and why to convince clients and customers to pay us in cryptocurrency"]({% link resources/for-providers/using-cryptocurrency/convincing-clients/index.md %}) but, for now, let's talk about on-ramping in other ways.
 
