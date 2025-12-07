@@ -53,11 +53,18 @@ You can think of Zashi's "request via QR code" feature like a simplistic point-o
 
 Zashi also has a neat feature worth knowing about that makes it possible for you to receive cryptocurrency deposits (or even payments!) regardless of whether your client or customer will send you shielded Zcash directly. It's called a "swap deposit," and it's one way I make paying me in cryptocurrency easy for clients who won't deal with anything except Bitcoin, Ethereum, or whatever their cryptocurrency of choice is.
 
-To perform a swap deposit you'll ideally need a second wallet that supports the currency your client or customer wants to pay you in; this is why I use a combination of Zashi with Cake Wallet. In the example below, let's assume your client wants to pay in Bitcoin, but you want to receive the most private currency you can as quickly as you can, which is shielded Zcash in Zashi.
+As swap deposits require entering a "refund" address for cases where the currency swap fails, there are two ways to perform one with Zashi.
+
+- The simpler option, if your only means of accessing cryptocurrency is the Zashi wallet app itself, causes failed swaps to get refunded to the client's address. I'd only recommend this in situations where you trust your client to try again, and where your client is not likely to become fatigued by trouble ensuring you have been paid.
+- The second option requires you to have another cryptocurrency wallet app that supports holding the same cryptocurrency that your client is sending you, such as using Zashi and Cake Wallet together. This way you can ensure all the funds from failed swaps are still sent to *you*, not back to your client, just not have your money immediately show up in Zashi as shielded ZEC.
+
+This second method is one of the main reasons why I use a combination of Zashi with Cake Wallet.
+
+In the example below, let's assume your client wants to pay in Bitcoin, but you want to receive the most private currency you can as quickly as you can, which is shielded Zcash in Zashi.
 
 The way we do this is by initiating a currency swap trade, but we'll have the client play the role of the seller while we act as the buyer. Put another way, even though our client is sending the funds, we will receive his failed trade's refund, and we'll also be where his successfully traded funds are sent. This means the "trade" actually serves as a full cross-currency, cross-chain payment in one fell swoop.
 
-> Note: In the following step-by-step walkthrough, Cake Wallet and Bitcoin are just examples. You can replace Cake Wallet with whatever other self-custodial cryptocurrency wallet you are comfortable using, and Bitcoin with whatever cryptocurrency your client or customer wants to send you that your chosen self-custodial wallet app supports holding.
+> Note: In the following step-by-step walkthrough of how Zashi lets us perform a swap deposit, Cake Wallet and Bitcoin are just examples. You can replace Cake Wallet with whatever other self-custodial cryptocurrency wallet you are comfortable using, and Bitcoin with whatever cryptocurrency your client or customer wants to send you that your chosen self-custodial wallet app supports holding.
 
 {:#how-to-do-a-swap-deposit-with-zashi}
 **Do this** to get paid from a client or customer by performing a swap deposit in Zashi using your Cake Wallet as the "refund" address for the Bitcoin your client is paying in:
