@@ -131,6 +131,14 @@
     description: >
       Quick explainers that help you get started with cryptocurrency
       and its privacy benefits as a client or customer.
+  - label: Resources
+    title: Resources
+    icon: scroll
+    url: /resources/
+    description: >
+      Complete booking guide, digital security information, and plenty
+      of additional privacy, discretion, and other resources for clients
+      and providers.
   - label: Additional Health and Safety Guide
     title: Additional Health and Safety Guide
     icon: shield-halved
