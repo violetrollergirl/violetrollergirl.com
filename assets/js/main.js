@@ -306,6 +306,7 @@ Sincerely,
             $closer
                 .on('click', function ( event ) {
                     $this.trigger('---hide');
+                    window.history.pushState({}, '', window.location.href.toString().replace(/#.*/, ''));
                 });
 
             // Events.

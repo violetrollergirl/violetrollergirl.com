@@ -11,7 +11,10 @@ prev: resources/for-clients/
 
 Many people are attracted to trans women like me, but few get the chance to get intimate with us. One of my favorite things about being a trans provider is sharing in that moment of discovery with you, and relishing the joy, relief, and opening of possibility that comes with it.
 
-To experience that, of course, you must first book me.
+To experience that, of course, you must first book me by filling out my booking form:
+
+{:.align-center}
+{% include link-as-button.md anchor_text="Open Booking Form" url="/resources/for-clients/booking-guide/#contact" %}
 
 The booking process can feel daunting, especially if you're "new to all this," but **it really just boils down to being communicative.** The more information you give me about your situation, the more likely I will be able to align some stars for us.
 
@@ -60,7 +63,7 @@ This page is for:
 - clients who already know they want to meet or speak with me privately.
 - clients looking for absolute clarity on how to book me.
 
-If you aren't yet sure whether I'm the girl for you, then you might want to have a look at the rest of my site before returning here. My [gallery]({% link index.html %}#gallery) shows you what I look like. (Yes, I really do look like that.) My ["tech specs" (about page)]({% link index.html %}#about) describe my vitals and my vibe. My [FAQ]({% link index.html %}#faq) has the answers to numerous questions about me and my offerings. My [rates page]({% link index.html %}#rates) provides a breakdown of considerations for my offerings. And my [tours and availability]({% link index.html %}#tours) page gives you details about where I'm traveling and when, along with some detail about how to bring me to your city for a special date. You can also learn about me from my prolific [social media posts and my softcore (and hardcore) content]({% link index.html %}#links-group-socials-amp-content).
+If you aren't yet sure whether I'm the girl for you, then you might want to have a look at the rest of my site before returning here. My [gallery](#gallery) shows you what I look like. (Yes, I really do look like that.) My ["tech specs" (about page)](#about) describe my vitals and my vibe. My [FAQ](#faq) has the answers to numerous questions about me and my offerings. My [rates page](#rates) provides a breakdown of considerations for my offerings. And my [tours and availability](#tours) page gives you details about where I'm traveling and when, along with some detail about how to bring me to your city for a special date. You can also learn about me from my prolific [social media posts and my softcore (and hardcore) content]({% link index.html %}#links-group-socials-amp-content).
 
 And if you're still not sure? You can schedule [a brief introductory call]({% link index.html %}#rate-add-ons-and-online-intro-call-and-deposit-20-minutes) with me, the cost of which can be directly applied to your deposit if you choose to book. For that, however, you'll need to schedule some time with me. This page can help you with that!
 
@@ -69,7 +72,7 @@ This page is *not* for:
 - clients who are looking for information on how to research escorts generally.
 - clients who need advice on general booking etiquette.
 - clients who are looking for proof of my legitimacy or need help avoiding scams.
-- clients who want assurance that I want to meet them. (The answer is always yes, [I absolutely do]({% link index.html %}#faq-is-it-okay-if-i-am-older-need-a-wheelchair-black-genderqueer-etc) want to meet you.)
+- clients who want assurance that I want to meet them. (The answer is always yes, [I absolutely do]({% link _faq/about-you/is-it-okay-if-i-am.md %}) want to meet you.)
 
 If the above describes you, I recommend the following blog posts on the Tryst Blog instead of this page:
 
@@ -80,7 +83,7 @@ I also suggest spending a bit of time perusing the [Good Client Guide](https://g
 
 ## Start here: once you know you want to meet me
 
-Everyone I meet begins at my [booking form]({% link index.html %}#contact). Additionally, my booking form offers some [rather novel privacy-preserving features]({% link colophon/index.md %}#privacy-guarantees-of-first-contact) that you may find valuable if you need extra levels of discretion, so it behooves you to use it.
+Everyone I meet begins at my [booking form](#contact). Additionally, my booking form offers some [rather novel privacy-preserving features]({% link colophon/index.md %}#privacy-guarantees-of-first-contact) that you may find valuable if you need extra levels of discretion, so it behooves you to use it.
 
 To be clear:
 
@@ -88,7 +91,7 @@ To be clear:
 - If we are already communicating some other way, I'm going to ask you to fill in my booking form when it comes time to schedule a specific date.
 - If you're not sure whether we can meet at a given time or place, use my booking form to find out.
 - If you don't know exactly when you want to meet, use my booking form to suggest some options.
-- If you want to know when I'm available, I'll direct you to [my calendar]({% link index.html %}#tours) and then I'll ask you to fill in my booking form.
+- If you want to know when I'm available, I'll direct you to [my calendar](#tours) and then I'll ask you to fill in my booking form.
 - If you're not sure whether or not I offer a service you want and need to speak with me about that, use my booking form to start the conversation about it.
 - If all you want to do is have [a short introductory call]({% link index.html %}#rate-add-ons-and-online-intro-call-and-deposit-20-minutes), use my booking form to schedule time for it with me.
 - If you merely want to see me for a quick visit such as for a half hour appointment, I will still ask you to fill in my booking form.
@@ -101,6 +104,9 @@ Filling out my booking form is a bare minimum show of good faith you must comple
 ### Fill in my mad-lib style booking form
 
 In case it wasn't obvious yet, you have to fill in my booking form in order to spend time with me. :)
+
+{:.align-center}
+{% include link-as-button.md anchor_text="Open Booking Form" url="/resources/for-clients/booking-guide/#contact" %}
 
 My booking form is styled as a mad lib game that you fill out. Remember [mad libs](https://madlibs.com/){:target="_blank"}? They are those fun little story templates that have blank spots asking you to choose parts of speech like adjectives or verbs. By the end, you create a cute story or poem or something. My booking form works the same way.
 
@@ -143,7 +149,7 @@ You may not leave this field blank. If you have already screened with me, simply
 
 I very rarely require re-screening; it's required if you change numbers or contact me through a channel we've previously not used, so that I can re-verify your contact information and confirm that I'm speaking with the person I expect to be speaking with. You may also need to re-screen if it's been a very long time since our last correspondence (like a year or so).
 
-For more information about screening, see my [FAQ: Why must I screen?/Screening makes me nervous]({% link index.html %}#faq-why-must-i-screen-screening-makes-me-nervous).
+For more information about screening, see my [FAQ: Why must I screen?/Screening makes me nervous]({% link _faq/screening/why-screen.md %}).
 
 #### Booking form field: phone number
 
@@ -159,7 +165,7 @@ The third field in my booking form is a text box for entering your carrier (non-
 
 You may not leave this field blank. I require it for each and every new friend who wants to book, regardless of which screening method you choose.
 
-For more information about screening, see my [FAQ: How do I pass your screening process?]({% link index.html %}#faq-how-do-i-pass-your-screening-process).
+For more information about screening, see my [FAQ: How do I pass your screening process?]({% link _faq/screening/screening-process.md %}).
 
 #### Booking form field: preferred contact method
 
@@ -209,7 +215,7 @@ The sixth field in my booking form is a multi-line text area where you can write
 * You are expected to write a brief description of why you want to see *me* and/or share any information about yourself that you think is relevant for our date.
     * You are encouraged to [express specific needs or desires in a respectful manner]({% link index.html %}#dos-and-donts-mention-needs-professionally).
     * If you are [booking as part of a couple or group]({% link index.html %}#dos-and-donts-speak-for-yourself), mention that here with enough detail for me to recognize which other half of the couple or members of the group you're referring to.
-    * If you would like to book me and another provider together as a [duo]({% link index.html %}#friends), mention your interest in that here and name the other provider.
+    * If you would like to book me and another provider together as a [duo](#friends), mention your interest in that here and name the other provider.
 
 You may leave this field blank if you like, but this is your chance to make a unique first impression, so I encourage you to make the most of it.
 
@@ -223,7 +229,7 @@ The seventh field in my booking form is a drop down menu for you to choose the c
 * You are expected to choose one from the following options:
     * Choose `an incall (provider hosts)` if you'd like to visit me at one of [my incall spaces]({% link index.html %}#incall-availability) or have me make [hotel arrangements]({% link index.html %}#hotel-arrangements) for us.
     * Choose `an outcall (client hosts)` if you'd like me to visit you at a hotel room, residence, or other venue you will arrange yourself.
-    * Choose `a FMTY (travel with or to you)` if you'd like me to travel to a destination outside of my posted [tours]({% link index.html %}#tours) or home cities.
+    * Choose `a FMTY (travel with or to you)` if you'd like me to travel to a destination outside of my posted [tours](#tours) or home cities.
         * This is the option you want if you need to meet me in a place I don't normally go, or don't currently have any plans to visit.
     * Choose `a social date (platonic/screening only)` if you just want to meet for a vibe check, to test our compatibility in person, or if you want to screen by meeting in person.
         * This is not a free meeting; deposit and cancellation policies will apply as normal at my [social-only rate]({% link index.html %}#rate-add-ons-and-online-social-only-date).
@@ -306,7 +312,7 @@ You may not leave this field blank because all bookings must be performed at *so
 The thirteenth field in my booking form is a checkbox that you must check to confirm that you have read and agree to my published [policies]({% link index.html %}#policies).
 
 * The field's label is:
-    * Yes, I have read, understood, and fully agree to abide by the information on your Web site, including your [rates]({% link index.html %}#rates), [policies]({% link index.html %}#policies), and [availability]({% link index.html %}#tours).
+    * Yes, I have read, understood, and fully agree to abide by the information on your Web site, including your [rates](#rates), [policies]({% link index.html %}#policies), and [availability](#tours).
 * The field's default value is *unchecked*.
 * You are expected to check the box.
 
