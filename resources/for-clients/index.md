@@ -19,7 +19,7 @@ Many people are attracted to trans women like me, but few get the chance to get 
 I wrote this booking guide to help those of you who want a meticulously crafted step-by-step walk through to follow for booking time with me. It explains how to start and what to do at every step of the way. Its extraordinary detail may be overkill for many of you, but provides a thorough reference regardless.
 
 {:.align-center}
-[Booking guide for clients]({% link resources/for-clients/booking-guide/index.md %}){:.button}
+[Read my booking guide]({% link resources/for-clients/booking-guide/index.md %}){:.button}
 
 ## [Messaging discreetly]({% link resources/for-clients/messaging-discreetly/index.md %})
 
@@ -28,7 +28,7 @@ I'm not here to judge your need to keep what happens in Vegas, well, in Vegas. I
 There are two techniques that make messaging discreetly easier: plausible deniability, and (true end-to-end) encryption and, in this guide, I'll introduce you to my favorite ways to keep messages private and our remote interactions discreet.
 
 {:.align-center}
-[Learn to message discreetly]({% link resources/for-clients/messaging-discreetly/index.md %}){:.button}
+[How to message discreetly]({% link resources/for-clients/messaging-discreetly/index.md %}){:.button}
 
 ## [Using cryptocurrency]({% link resources/for-clients/using-cryptocurrency/index.md %})
 
@@ -37,7 +37,7 @@ Cryptocurrency is now a popular way to pay providers. Some providers, like me, e
 My cryptocurrency explainers are designed to help you get set up and ready to send payments from your digital wallet or crypto account(s) as quickly and simply as possible.
 
 {:.align-center}
-[Cryptocurrency guide for clients]({% link resources/for-clients/using-cryptocurrency/index.md %}){:.button}
+[Paying with crypto]({% link resources/for-clients/using-cryptocurrency/index.md %}){:.button}
 
 {:.button-container}
 {% include link-as-button.md anchor_text="Up" url="../" %}

@@ -3,8 +3,9 @@ title: Booking Guide
 description: >
     Many people are attracted to trans women like me, but few get the chance to get intimate with us.
     This page thoroughly (over-)explains the booking process to offer you clarity, should you seek it.
-last_modified: Sat Aug 30 11:02:20 EDT 2025
+last_modified: Tue Dec 16 14:02:55 EST 2025
 prev: resources/for-clients/
+next: resources/for-clients/messaging-discreetly/
 ---
 
 # {{ site.title }}'s Booking Guide
@@ -446,13 +447,22 @@ As the time for our date comes closer, it's important that you stay in touch wit
 
 For more information, see my [cancellation policy]({% link index.html %}#cancellation-policy).
 
+## On the day of our date
+
+The day we're meeting is going to be exhilerating, and that excitement can make it easy to forget some important details. Here's a quick checklist you can refer to in order to make sure everything is in order!
+
+- Be certain to acknowledge [my reminder message](#the-day-before-our-date) if you haven't already!
+- If you're offering your donation in cash, make sure you have counted it correctly and tucked it away discreetly inside an envelope, greeting card, or other small gift.
+- Wash your body thoroughly. Read [Grooming for a date with a sex worker](https://www.thedannygoldexperience.com/post/grooming-for-a-date-with-a-sw){:target="_blank"} for an excellent, short guide on this, specifically.
+- Depart with plenty of time to account for travel, potential traffic, and other unexpected delays.
+
+Finally, don't sweat the small stuff. You're human. I'm human. Let's enjoy our life and our bodies together!
+
 ## Show up
 
 This step is the most fun: show up, and let me take care of the rest. ;)
 
-{% comment %}
-https://www.thedannygoldexperience.com/post/grooming-for-a-date-with-a-sw
-{% endcomment %}
-
 {:.button-container}
-{% include link-as-button.md anchor_text="Up" url="../" %}
+{% include link-as-button.md anchor_text="Previous: Client Resources" url=page.prev %}
+{% include link-as-button.md anchor_text="Home" url="/" %}
+{% include link-as-button.md anchor_text="Next: Messaging Discreetly" url=page.next %}

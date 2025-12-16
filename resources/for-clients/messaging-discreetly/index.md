@@ -4,7 +4,8 @@ description: >
     Need to keep what happens in Vegas, y'know, in Vegas?
     As a trans sex worker, Violet shares the best ways to
     keep your spicy texts private.
-prev: resources/for-clients/
+prev: resources/for-clients/booking-guide/
+next: resources/for-clients/using-cryptocurrency/
 last_modified: Sat Nov  1 22:24:46 EDT 2025
 ---
 
@@ -117,4 +118,6 @@ That's why [I designed my booking form with some unique privacy guarantees]({% l
 Have questions? As always, ask your provider, or [contact me](#contact) directly&mdash;and discreetly!
 
 {:.button-container}
-{% include link-as-button.md anchor_text="Previous: Resources for Clients" url=page.prev %} {% include link-as-button.md anchor_text="Home" url="/" %}
+{% include link-as-button.md anchor_text="Previous: Booking Guide" url=page.prev %}
+{% include link-as-button.md anchor_text="Home" url="/" %}
+{% include link-as-button.md anchor_text="Next: Using Cryptocurrency" url=page.next %}
