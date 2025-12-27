@@ -4,7 +4,7 @@ description: >
     Learn how to get and send crypto to your provider's wallet
     address.
 prev: resources/for-clients/using-cryptocurrency/
-last_modified: Sat Oct  4 18:21:12 EDT 2025
+last_modified: Sat Dec 27 15:40:09 EST 2025
 ---
 
 # {{ site.title }}'s guide to paying your provider in crypto
@@ -27,7 +27,7 @@ Once you have some crypto you'd like to spend on your provider, companion, or cr
 
 Ask your provider:
 
-> What's the (Bitcoin, Ethereum, Zcash, Monero, etc.) receive address for this payment?
+> What's the (Bitcoin, Ethereum, Zcash, Monero, etc.) address for this payment?
 
 {% assign links_group_donations = site.data.social_urls | find: "group_name", "Tip me" | first %}
 {% assign zcash_donation_data = links_group_donations.items | where: "label", "Zcash" | first %}
@@ -59,14 +59,14 @@ Exactly how you do this depends on the specific crypto app you're using but rega
     1. the second send is the remainder.
 - Regardless of how you send, be sure to send enough to cover any possible transaction fees. (The crypto app will often calculate these for you, but it never hurts to send a little somethin' extra, y'know?)
 
-Click the button corresponding to the app you're using to send from:
+Click the link corresponding to the app you're using to send from:
 
-{:.align-center}
-[Send via Binance](https://www.binance.com/en/support/faq/detail/329c82f07443410b99fc3683ebf07490){:.button target="_blank"}
-[Send via Coinbase](https://help.coinbase.com/en/coinbase/trading-and-funding/cryptocurrency-trading-pairs/steps-to-send-crypto){:.button target="_blank"}
-[Send via CashApp](https://cash.app/help/3106-bitcoin-withdrawals){:.button target="_blank"}
-[Send via Kraken](https://support.kraken.com/articles/360000672763-how-to-withdraw-cryptocurrencies-from-your-kraken-account){:.button target="_blank"}
-[Send via PayPal](https://www.paypal.com/us/cshelp/article/how-do-i-transfer-my-crypto-help822){:.button target="_blank"}
+- [Binance](https://www.binance.com/en/support/faq/detail/329c82f07443410b99fc3683ebf07490){:target="_blank"}
+- [Coinbase](https://help.coinbase.com/en/coinbase/trading-and-funding/cryptocurrency-trading-pairs/steps-to-send-crypto){:target="_blank"}
+- [CashApp](https://cash.app/help/3106-bitcoin-withdrawals){:target="_blank"}
+- [Kraken](https://support.kraken.com/articles/360000672763-how-to-withdraw-cryptocurrencies-from-your-kraken-account){:target="_blank"}
+- [PayPal](https://www.paypal.com/us/cshelp/article/how-do-i-transfer-my-crypto-help822){:target="_blank"}
+- [Venmo](https://help.venmo.com/cs/articles/crypto-transfers-vhel232){:target="_blank"}
 
 ## Ask for confirmation of receipt
 

@@ -5,7 +5,7 @@ description: >
     and companions with cryptocurrency.
 prev: resources/for-clients/
 next: resources/for-clients/using-cryptocurrency/quick-start/
-last_modified: Fri Oct 10 14:57:47 EDT 2025
+last_modified: Sat Dec 27 16:01:07 EST 2025
 ---
 
 # {{ site.title }}'s guide to paying your provider in crypto
@@ -60,8 +60,9 @@ For more specific help, choose the option that best describes you from the list 
     No stress! Start at [my "Quick(est) Start" guide]({% link resources/for-clients/using-cryptocurrency/quick-start/index.md %}), which explains how to sign up for one of the largest cryptocurrency exchanges, Coinbase, where you can buy crypto and make payments.
 
 - "I already use a digital payment app."
-    - [PayPal]({% link resources/for-clients/using-cryptocurrency/paypal/index.md %})
     - [CashApp]({% link resources/for-clients/using-cryptocurrency/cashapp/index.md %})
+    - [PayPal]({% link resources/for-clients/using-cryptocurrency/paypal/index.md %})
+    - [Venmo]({% link resources/for-clients/using-cryptocurrency/venmo/index.md %})
 - "I have an account at a cryptocurrency exchange."
     - [Coinbase]({% link resources/for-clients/using-cryptocurrency/coinbase/index.md %})
     - [Kraken]({% link resources/for-clients/using-cryptocurrency/kraken/index.md %}) - TODO

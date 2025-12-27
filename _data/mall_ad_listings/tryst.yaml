@@ -75,9 +75,9 @@ profile_base_hourly_rate: 500
 
 # Policies
 profile_deposit_policy: |
-  One-fifth (25%) of the total booking cost + any applicable incall or travel expenses.
+  One-fifth (20%) of the total booking cost + any applicable incall or travel expenses.
 
-  I accept many dozens of cryptocurrency options, including Bitcoin, Zcash, Monero, and more. I also accept major debit or credit cards, some gift cards, or certain payment apps.
+  I accept many dozens of cryptocurrency options, including Bitcoin, Zcash, Monero, and more. I also accept major debit or credit cards, some gift cards, or select privacy-preserving payment apps.
 
   Deposits are non-refundable except in the rare case I must cancel our date, but they can be transferred to another date should you need to reschedule.
 profile_cancellation_policy: |
