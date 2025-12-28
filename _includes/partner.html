@@ -12,7 +12,7 @@ This template renders a single duo partner's (Microformat'ed) h-card.
     </header>
     {% if include.partner.photo %}
     <a href="{{ include.partner.urls[0].url }}"><img class="p-photo"
-        src="{{ site.baseurl }}{{ include.partner.photo | relative_url }}"
+        src="{{ site.url }}{{ include.partner.photo | relative_url }}"
         alt="Profile photo of {{ include.partner.name }}"
         /></a>
     {% endif %}
@@ -29,7 +29,7 @@ This template renders a single duo partner's (Microformat'ed) h-card.
     </p>
     <div class="duo-photos">
         {% for pic in include.partner.images %}
-        <img src="{{ site.baseurl }}{{ pic.url | relative_url }}" alt="{{ pic.alt }}" />
+        <img src="{{ site.url }}{{ pic.url | relative_url }}" alt="{{ pic.alt }}" />
         {% endfor %}
     </div><!-- .duo-photos -->
 </article>

@@ -18,7 +18,7 @@ Content for the "Links" Panel.
                 <a href="{{ item.url }}" title="{{ item.title }}"
                     class="icon fa-2x"
                     {% unless "/" == item_url_first_char %}target="_blank"{% endunless %}>
-                    <img src="{{ site.baseurl }}{{ item.svg | relative_url }}" alt="{{ item.title }}"{% if item.style %} style="{{ item.style }}"{% endif%} />
+                    <img src="{{ site.url }}{{ item.svg | relative_url }}" alt="{{ item.title }}"{% if item.style %} style="{{ item.style }}"{% endif%} />
                     {% if item.show_label != false %}<span class="label">{{ item.label }}</span>{% endif %}
                 </a>
                 {% endif %}

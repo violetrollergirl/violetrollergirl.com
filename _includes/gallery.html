@@ -6,8 +6,8 @@
 {% assign image_base_path = first_image.path | split: "/" | slice: 0, 3 | join: "/" %}
 {% for image in gallery_images %}
 <article class="thumb">
-    <a href="{{ site.baseurl }}{{ image_base_path }}/fulls/{{ image.name }}" class="image">
-        <img loading="lazy" src="{{ site.baseurl }}{{ image_base_path }}/thumbs/{{ image.name }}"
+    <a href="{{ site.url }}{{ image_base_path }}/fulls/{{ image.name }}" class="image">
+        <img loading="lazy" src="{{ site.url }}{{ image_base_path }}/thumbs/{{ image.name }}"
              alt=""
              data-name="{{ image.name }}"
              data-position="{{ image.position }}"
