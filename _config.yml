@@ -1,8 +1,14 @@
 # Jekyll Configuration File.
 # https://jekyllrb.com/docs/configuration/
 ---
-#baseurl: https://violetrollergirl.com
-baseurl: "" # Comment the above line and uncomment this to test the website locally
+# These variables are required until GitHub Pages updates
+# its running Jekyll version to the latest (4.0+) which
+# will hopefully finally support the proper functioning of
+# the `absolute_url` filter. We use this for local testing
+# and to dynamically set the Open Graph Image in the `<head>`.
+url: https://violetrollergirl.com
+#url: https://localhost:4000 # Comment the above line and uncomment this to test the website locally
+baseurl: / # For a site in a domain's Web-accessible root directory.
 
 # Basic site and authorship information.
 title: Violet Rollergirl
