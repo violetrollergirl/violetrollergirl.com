@@ -1,10 +1,15 @@
 ---
 title: Colophon
 description: >
-  VioletRollergirl.com makes use of some novel technology. This page describes it in detail.
+  VioletRollergirl.com makes use of some novel technology.
+  This page describes it in detail.
+featured_image:
+  alt:
+  url: images/gallery-originals/violet-in-beige-and-marble-booth.jpg
+last_modified: Sun Dec 28 15:35:13 EST 2025
 ---
 
-# Website Colophon
+# {{ site.title }}'s Website Colophon
 
 > col·​o·​phon
 >
@@ -12,19 +17,39 @@ description: >
 >
 > 2: an identifying mark used by a printer or a publisher
 
-Now that I've been doing this for a while, I'm pretty proud of my Web site. There are some novel things about it that I would like to highlight, like my unique mad-lib style [booking form]({% link index.html %}#booking-inquiry-form), [cryptocurrency options]({% link index.html %}#links-group-tip-me), and deep-linkable anchors. Sometimes, other providers ask me how I made this site. Some clients have, too.
+I'm pretty proud of my Web site. Sometimes, other providers ask me how I made this site. Some clients have, too.
+
+There are some novel things about it that I'm pretty proud of and that I'd like to highlight, like my unique mad-lib style [booking form]({% link index.html %}#booking-inquiry-form), [cryptocurrency options]({% link index.html %}#links-group-tip-me), and deep-linkable anchors.
 
 So here's a bit of technical information regarding how it all works.
+
+## Easter eggs
+
+One thing I love about technology, especially information technology, is that it turns words into spellcraft. Think of me as a modern day witch, if you will: by using technology, I am literally inscribing my desires into the world and using it to bring you to me.
+
+In that spirit, I've sprinkled numerous easter eggs for you to find around my site. Some of them are just for fun and amusement. Others will actually earn you discounts when booking, if you're clever enough to discover them, so it behooves you to read closely and explore boldly.
+
+Happy hunting. ;)
 
 ## Technology stack
 
 My site is built on a very heavily customized rendition of a [Jekyll](https://jekyllrb.com/) template intended for a photography portfolio that I modified myself. The original template provided the gallery view, the panel switching behavior, and the color scheme. I added all other elements and features.
 
+### No server required
+
 Jekyll is a popular *static site generator* written in the [Ruby](https://ruby-lang.org/) programming language. There are many such [static site generators](https://jamstack.org/generators/), but I am personally most familiar with Jekyll. It uses a free templating language called [Liquid](https://shopify.github.io/liquid/) (originally developed by Shopify) to provide basic build-time logic and coalesce static HTML, CSS, and JavaScript page assets from individual reusable snippets.
 
-Since my site is entirely static (c.f., dynamic, such as with a WordPress, Squarespace, Wix, or other site technology whose templates are not pre-rendered), I require no server-side compute cycles to publish it. All I require is a Domain Name System (DNS) registration and a Web (HTTP) server. This makes my site easy for me to migrate from one server to another when I need to, and relatively inexpensive to host.
+Since my site is entirely static (c.f., dynamic, such as with a WordPress, Squarespace, Wix, or other site technology whose templates are not pre-rendered), I require no server-side compute cycles to publish it. All I require is a Domain Name System (DNS) registration and a Web (HTTP) server. This makes my site easy for me to migrate from one server to another when I need to (or if, like most sex workers, I am eventually banned from one platform or another), and also makes it relatively inexpensive to host.
 
 This characteristic also forms the basis of some of the more novel and security-aware features I'm most proud of.
+
+<!-- YOU'VE FOUND AN EASTER EGG!
+## Typography
+
+I have a deep and profound love for language. The words we use literally define our reality, so flowery language, and especially its textual representation, resonate deply with me. For that reason, all of the content pages on my site end in a triple octothorpe: `###`.
+
+For a $100 USD off your next booking, can you tell me the significance of this symbol in triplicate? And for an additional $50 USD off, what is the singular glyph's origin?
+-->
 
 ## Client-side booking form
 
