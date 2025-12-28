@@ -6,7 +6,7 @@ layout: default
     <div id="{{ page.slug }}">
         {% if page.featured_image %}
         <img id="page-featured-image" loading="lazy"
-            alt="{{ page.featured_image.alt | default: "" }}"
+            alt="{{ page.featured_image.alt | default: "" | xml_escape -}}"
             src="{{ page.featured_image.url | relative_url }}"
         />
         {% endif %}

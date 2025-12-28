@@ -5,10 +5,21 @@ description: >
     to use privacy-preserving cryptocurrencies like Zcash and Monero.
 next: resources/for-providers/using-cryptocurrency/primer/
 prev: resources/for-providers/
-last_modified: Thu Sep  4 20:21:32 EDT 2025
+featured_image:
+  alt: >
+    Violet takes a mirror selfie of herself wearing a t-shirt with a
+    cryptocurrency slogan, "Come and take it!"
+  url: images/gallery-originals/come-and-take-it-t-shirt-in-all-black.jpg
+last_modified: Sun Dec 28 17:08:25 EST 2025
 ---
 
 # {{ site.title }}'s Resources for Providers Using Cryptocurrency
+
+> I'm the kind of travel partner who can get by anywhere on just charisma and a passport.
+>
+> Having Bitcoin doesn't hurt, though.
+>
+> &mdash;[Violet (November 19<sup>th</sup>, 2024)](https://bsky.app/profile/violetrollergirl.com/post/3lbcxyi3lrs2b){:target="_blank"}
 
 Cryptocurrency gets a bad rap and, in many situations, it's deserved. Most of the "crypto" sector is just not relevant, not helpful, and not intended for us as sex workers. However, there is a sliver of really powerful stuff in there, and I want to normalize that slice of it because I truly believe that doing so is vital to protecting ourselves, our clients, and our financial futures.
 
