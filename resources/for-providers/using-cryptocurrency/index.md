@@ -60,3 +60,8 @@ The following is a series of articles I've written in the hopes of helping you g
 Found a typo? Have a better way to do something? I've done my best to thoroughly research and test everything in these articles. But this space moves quickly, and there's a lot to know.
 
 If you're a fellow provider and need help, have suggestions to improve this guide, or just want to talk cool privacy tech, please feel free to [contact me](#contact) or to [find me on any of my socials]({% link index.html %}#links-group-socials-amp-content)!
+
+{:.button-container}
+{% include link-as-button.md anchor_text="Previous: For Providers" url=page.prev %}
+[<span class="fa-icon fa-solid fa-house-chimney"></span> Home]({% link index.html %}){:.button}
+{% include link-as-button.md anchor_text="Next: Crypto Primer" url=page.next %}

@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div id="main-content-wrapper">
-    <div id="{{ page.slug }}">
+    <div id="{{ page.slug }}" class="{% unless page.featured_image %}no-featured-image{% endunless %}">
         {% if page.featured_image %}
         <img id="page-featured-image" loading="lazy"
             alt="{{ page.featured_image.alt | default: "" | xml_escape -}}"
