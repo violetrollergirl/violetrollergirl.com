@@ -1,5 +1,10 @@
 ---
 name: When will you be in my city?
+featured_image:
+  url: images/gallery-originals/charcuterie-tequila-coffee-fireplace-winter-wonderland.jpg
+  alt: >
+    Violet relaxes on a couch with a charcuterie board and a bottle
+    of tequila on a coffee table in front of her.
 ---
 
 I religiously maintain <a href="#tours">my public travel calendar</a>, which will show you where I'm planning to be and when.

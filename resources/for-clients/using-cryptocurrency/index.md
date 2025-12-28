@@ -84,4 +84,6 @@ So, let's learn how to do that. Spoiler alert: you just have to ask.
 Have questions? Ask your provider, or [contact me]({% link resources/for-clients/booking-guide/index.md %}#connection-methods) directly! I'm genuinely happy to help you get started using cryptocurrency and would only ask for [a tip or donation]({% link resources/for-clients/booking-guide/index.md %}#links-zcash) as a thank you!
 
 {:.button-container}
-{% include link-as-button.md anchor_text="Previous: Resources for Clients" url=page.prev %} {% include link-as-button.md anchor_text="Home" url="/" %} {% include link-as-button.md anchor_text="Next: Quick(est) Start" url=page.next %}
+{% include link-as-button.md anchor_text="Previous: Resources for Clients" url=page.prev %}
+[<span class="fa-icon fa-solid fa-house-chimney"></span> Home]({% link index.html %}){:.button}
+{% include link-as-button.md anchor_text="Next: Quick(est) Start" url=page.next %}

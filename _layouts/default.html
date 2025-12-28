@@ -3,7 +3,7 @@
 <head>
     {% include head.html %}
 </head>
-<body>
+<body class="collection-{% if page.collection %}{{ page.collection }}{% else %}none{% endif %}">
 <div id="wrapper">
 {% include header.html %}
 

@@ -1,0 +1,5 @@
+{% comment %}
+This include is for the `<head>` of a page where the Open Graph
+Image URL is inserted dynamically.
+{% endcomment -%}
+{% if page.featured_image %}{{ page.featured_image.url | relative_url | prepend: site.url | prepend: site.baseurl }}{% else %}{% link images/rollergirl-cyberpunk-banner.jpg %}{% endif -%}

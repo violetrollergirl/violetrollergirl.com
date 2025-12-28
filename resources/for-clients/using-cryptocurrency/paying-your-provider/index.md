@@ -73,4 +73,5 @@ Click the link corresponding to the app you're using to send from:
 When your provider receives confirmation of your send, they will let you know! If they don't, it's okay to ask them to acknowledge your send.
 
 {:.button-container}
-{% include link-as-button.md anchor_text="Previous: Resources for Clients Using Cryptocurrency" url=page.prev %} {% include link-as-button.md anchor_text="Home" url="/" %}
+{% include link-as-button.md anchor_text="Previous: Cryptocurrency Guide" url=page.prev %}
+[<span class="fa-icon fa-solid fa-house-chimney"></span> Home]({% link index.html %}){:.button}

@@ -6,6 +6,9 @@ description: >
 next: /resources/for-providers/
 prev: /
 last_modified: Tue Nov  4 15:21:12 EST 2025
+featured_image:
+  alt:
+  url: images/gallery-originals/garden-snake-undies-in-bedroom.jpg
 ---
 
 # Resources by {{ site.title }}
@@ -15,9 +18,6 @@ I high-key love doing sex work. For me, sex work is a mix of the hospitality, se
 Now that I've been in this industry for a while, I thought I'd start writing down the things I've learned in an effort to make things better for everyone, clients and fellow providers alike.
 
 {:.button-container}
-[Resources for Clients]({% link resources/for-clients/index.md %}){:.button}
+[For Clients]({% link resources/for-clients/index.md %}){:.button}
 [<span class="fa-icon fa-solid fa-house-chimney"></span> Home]({% link index.html %}){:.button}
-[Resources for Providers]({% link resources/for-providers/index.md %}){:.button}
-
-{:.align-center}
-![]({% link images/gallery-originals/garden-snake-undies-in-bedroom.jpg %})
+[For Providers]({% link resources/for-providers/index.md %}){:.button}
