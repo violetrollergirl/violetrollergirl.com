@@ -57,7 +57,7 @@ My [contact page includes a booking form](#contact) that has some especially uni
 
 ### Mad-lib style form prose
 
-Most obviously, my booking form is written from the perspective of a client's message to me in a "mad-lib style" block quotation with input fields embedded in the prose, rather than being presented as a traditional data entry task. The prose mimics an ideal client inquiry, and my intention in presenting my booking form this way was to help clients learn what a model inquiry reads like by literally writing such an inquiry and simply requiring them to fill in the blanks.
+Most obviously, my booking form is written from the perspective of a client's message to me in a "mad-lib style" block quotation with input fields embedded in the prose, rather than being presented as a traditional data entry task. The prose mimics an ideal client inquiry, and my intention in presenting my booking form this way was to help clients learn what a model inquiry reads like by literally writing such an inquiry and simply requiring them to fill in the blanks. The booking form itself is accompanied by a thorough [booking guide]({% link resources/for-clients/booking-guide/index.md %}), which details each field's purpose and walks through the complete booking process for anyone who desires such handholding.
 
 The form itself is special in several other ways, too.
 
