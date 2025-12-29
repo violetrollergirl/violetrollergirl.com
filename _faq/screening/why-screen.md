@@ -1,6 +1,10 @@
 ---
 name: Why must I screen? / Screening makes me nervous.
 weight: 10
+featured_image:
+  alt: >
+    Violet takes a stroll on a nude beach with black sand.
+  url: images/gallery-originals/black-sands-nude-beach.jpg
 ---
 
 I understand why screening may make you feel anxious. But the thought of spending time alone with me presumably doesn't.
@@ -16,6 +20,3 @@ And no one wants that. Right?
 Moreover, before you screen, I simply cannot know who I may be speaking with. Since literally anyone might contact me, screening confirms that you are a consenting adult and is unconditionally *required* to interact with me in any meaningful way. For my safety and comfort, I am simply not comfortable significantly engaging with you otherwise.
 
 [Screening is easy](#screening-options) and you can be done with it after your very [first message](#in-your-first-message) to me.
-
-{:.align-center}
-![]({% link images/gallery-originals/black-sands-nude-beach.jpg %}){:loading="lazy"}
