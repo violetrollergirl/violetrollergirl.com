@@ -16,6 +16,15 @@ I hope these short, stand alone articles help you better understand why there ar
 {:.align-center}
 [Sex Workers' Crypto Guide]({% link resources/for-providers/using-cryptocurrency/index.md %}){:.button}
 
+## [Using Signal for Sex Work]({% link resources/for-providers/signal-for-sex-work/index.md %})
+
+Communicating discreetly is tantamount to communicating freely. For sex workers, having this capability makes the difference between a viable income or not. While there are innumerable messaging applications out there, Signal Private Messenger has emerged as the clear winner for my needs in terms of balancing client adoption, communications security, and ease of use.
+
+Simply using Signal over any other messenger massively improves the safety of your correspondence, but there are some additional privacy features and advanced settings sex workers who are using Signal for work should take a look at. In this guide, I'll explain them all.
+
+{:.align-center}
+[Signal for Sex Work]({% link resources/for-providers/signal-for-sex-work/index.md %}){:.button}
+
 ## [{{ site.title }}'s Website Colophon]({% link colophon/index.md %})
 
 I'm pretty proud of my Web site. Sometimes, other providers ask me how I made this site. Some clients have, too.

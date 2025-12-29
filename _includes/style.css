@@ -1,6 +1,19 @@
 /**
  * Yes, baby, tell me how much you love my style. ;)
+ *
+ * This is itself (kind of) an easter egg. Happy hunting!
  */
+.easter-egg::before {
+    content: "
+        You'll know if you found an Easter egg because I'll have
+        explicitly denoted it in a textual note, similar to this.
+    ";
+}
+.easter-egg::after {
+    content: "\01F95A\1F575"; /* Generates this sequence: 🥚🕵️ */
+    display: inline-block;
+    margin-left: .5em;
+}
 
 /* A single custom, quick 'n' dirty font hack. */
 .icon.fa-xmpp::before {

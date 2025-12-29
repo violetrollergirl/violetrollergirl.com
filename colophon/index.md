@@ -23,11 +23,16 @@ There are some novel things about it that I'm pretty proud of and that I'd like 
 
 So here's a bit of technical information regarding how it all works.
 
+{:.easter-egg}
 ## Easter eggs
 
 One thing I love about technology, especially information technology, is that it turns words into spellcraft. Think of me as a modern day witch, if you will: by using technology, I am literally inscribing my desires into the world and using it to bring you to me.
 
-In that spirit, I've sprinkled numerous easter eggs for you to find around my site. Some of them are just for fun and amusement. Others will actually earn you discounts when booking, if you're clever enough to discover them, so it behooves you to read closely and explore boldly.
+In that spirit, I've sprinkled numerous easter eggs for you to find around my site.
+
+Some of them are just for fun and amusement. Others will actually earn you discounts when booking, if you're clever enough to discover them, so it behooves you to read closely and explore boldly.
+
+Sometimes, they'll be marked with this sequence: <span class="easter-egg"></span>, encouraging you to look more closely. Other times they'll simply be described as such textually. And sometimes, they'll be hidden somewhere in the site itself, where you'll need to 🤭 go deeper to decode them.
 
 Happy hunting. ;)
 
