@@ -19,14 +19,14 @@ last_modified: Sun Dec 28 15:35:13 EST 2025
 
 I'm pretty proud of my Web site. Sometimes, other providers ask me how I made this site. Some clients have, too.
 
-There are some novel things about it that I'm pretty proud of and that I'd like to highlight, like my unique mad-lib style [booking form]({% link index.html %}#booking-inquiry-form), [cryptocurrency options]({% link index.html %}#links-group-tip-me), and deep-linkable anchors.
+There are some novel things about it that I'd like to highlight, like my unique mad-lib style [booking form](#contact), [cryptocurrency payment integrations]({% link index.html %}#links-group-tip-me), and deep-linkable anchors.
 
-So here's a bit of technical information regarding how it all works.
+So here's a bit of technical information regarding how it all works. But, first&hellip;shall we play a game?
 
 {:.easter-egg}
 ## Easter eggs
 
-One thing I love about technology, especially information technology, is that it turns words into spellcraft. Think of me as a modern day witch, if you will: by using technology, I am literally inscribing my desires into the world and using it to bring you to me.
+One thing I love about technology, especially information technology, is that it turns words into *spellcraft*. Think of me as a modern day witch: by inscribing my desires into electricity and stone, I am invoking my desires into the world and literally *crafting spells* to bring you to me.
 
 In that spirit, I've sprinkled numerous easter eggs for you to find around my site.
 
@@ -51,9 +51,11 @@ This characteristic also forms the basis of some of the more novel and security-
 <!-- YOU'VE FOUND AN EASTER EGG!
 ## Typography
 
-I have a deep and profound love for language. The words we use literally define our reality, so flowery language, and especially its textual representation, resonate deply with me. For that reason, all of the content pages on my site end in a triple octothorpe: `###`.
+I have a deep and profound love for language. The words we use literally define our reality. That's why flowery language, and especially its textual representation, resonate deeply with me. For that reason, all of the content pages on my site end in a triple octothorpe: `###`.
 
-For a $100 USD off your next booking, can you tell me the significance of this symbol in triplicate? And for an additional $50 USD off, what is the singular glyph's origin?
+For $100 USD off your next 3 hours or longer booking, can you tell me the significance of this symbol in triplicate?
+
+And for an additional $50 USD off booking me when I'm traveling on tour, what is the singular glyph's pictographical meaning?
 -->
 
 ## Client-side booking form
