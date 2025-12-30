@@ -1,5 +1,6 @@
 ---
 title: Colophon
+id: colophon
 description: >
   VioletRollergirl.com makes use of some novel technology.
   This page describes it in detail.

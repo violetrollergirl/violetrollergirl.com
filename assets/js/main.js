@@ -579,4 +579,28 @@ Sincerely,
 
     });
 
+    // Console ASCII art.
+    document.addEventListener('DOMContentLoaded', function (e) {
+        const msg = `
+Although fictional, if this underground club existed in NYC,
+Violet would surely be found there! For $100 USD off any skate
+date (street skating, roller rink, or even ice skating), name
+the club in this nostalgia-filled Hollywood movie.
+
+                 .'*.*'.==.            .==.'*.*'.
+                 '*/X@*'  (            )  '*@X\*'
+                  //X@    '.          .'    @X\\
+                  "X@      \          /      @X"
+             ____xX@        '        '        @Xx____
+            (            ____)      (____            )
+            '....------._____|      |_____.------....'
+           ( . )( . )( . )( . )    ( . )( . )( . )( . )
+            \`-'  \`-'  \`-'  \`-'      \`-'  \`-'  \`-'  \`-'
+        `;
+
+        console.groupCollapsed(`Hack the planet... \u{1F95A}\u{1F575}`);
+        console.info(msg);
+        console.groupEnd();
+    });
+
 })(jQuery);
