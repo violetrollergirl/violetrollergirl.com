@@ -1,9 +1,9 @@
 ---
 name: Will you dominate me?
+featured_image:
+  alt:
+  url: images/gallery-originals/bunny-tie-in-pink-outfit.jpg
 ---
-
-{:style="float: right; max-width: 50%; margin-left: 1em;"}
-![]({% link images/gallery-originals/bunny-tie-in-pink-outfit.jpg %})
 
 In brief: no, I don't offer services in which I play a stereotypically dominant role. The one exception to this is chastity keyholding when part of an established dynamic; I do love to please via tease!
 
