@@ -24,17 +24,17 @@
         ☕️🍻 Casual, zero-pressure meet and greet/meet cute; 🍝 dinner date, 🏸 sporting activity, 🧺 picnic, etcetera.
 
         * Rate shown is per hour.
-        * Booking a social-only date can also serve as your [(pre-)screening option](#screening-options).
+        * Meeting this way can also serve as your [(pre-)screening option](#screening-options).
         * Does not include transportation or activity cost.
     - name: Cuddle date
       rate: 300
       service_type: cuddling services
       duration_in_hours: 1
       details: |-
-        Big spoon, little spoon, or both? Platonic physical intimacy and genuine friendship vibes without any expectation or pressure for more.
-    - name: Intro call and deposit (20 minutes)
+        Big spoon, little spoon, or both? Clothing optional touch without expectation or pressure for more.
+    - name: Curiosity call (30 minutes)
       rate: 60
-      booking_type: an introductory call
+      booking_type: a curiosity call
       duration_in_hours: .5
       details: |-
         Friendly, casual audio call to help you decide whether you'd like to book an in-person session, prepare for our date by chatting, discussing any logistics, or simply to quell any concerns.
