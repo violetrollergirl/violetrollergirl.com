@@ -1,5 +1,8 @@
 ---
 name: May I request a specific outfit or makeup?
+featured_image:
+  alt:
+  url: images/gallery-originals/polkadot-outfit-over-a-railing.jpg
 ---
 
 Yes and yes! I love knowing what gets you going! With enough time to prepare, we can make fantasies come to life!
@@ -7,7 +10,5 @@ Yes and yes! I love knowing what gets you going! With enough time to prepare, we
 While my usual look is "casual but kinky," I have a growing collection of leather, lace, and lingerie, including some cute specialty items like garters and chokers good for roleplay or fetish scenes. I also tend to wear only very light amounts of makeup (for that natural "no-makeup makeup" look), unless asked to do otherwise. If you want me to arrive "all done up," don't skimp on a tip for my salon appointment!
 
 Please always feel comfortable requesting something specific, but remember that if I don't already have it on hand, I'll ask you to cover the cost of the item. Otherwise, you may need to acquire it yourself and bring it with you to our date. In fact, bringing gifts like this is an extremely reliable way to ensure a fantastic time with me!
-
-![]({% link images/gallery-originals/polkadot-outfit-over-a-railing.jpg %}){: style="max-width: 100%;" loading="lazy"}
 
 See also: "[What should I wear for our date?]({% link _faq/meetings/what-should-i-wear-for-our-date.md %})"
