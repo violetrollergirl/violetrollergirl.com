@@ -4,9 +4,12 @@ description: >
     Need to keep what happens in Vegas, y'know, in Vegas?
     As a trans sex worker, Violet shares the best ways to
     keep your spicy texts private.
+featured_image:
+  alt:
+  url: images/gallery-originals/privacy-professional-crypto-kitty-girl.jpg
 prev: resources/for-clients/booking-guide/
 next: resources/for-clients/using-cryptocurrency/
-last_modified: Sat Nov  1 22:24:46 EDT 2025
+last_modified: Tue Dec 30 19:59:25 EST 2025
 ---
 
 # {{ site.title }}'s guide to messaging (your sex worker) discreetly
@@ -119,5 +122,5 @@ Have questions? As always, ask your provider, or [contact me](#contact) directly
 
 {:.button-container}
 {% include link-as-button.md anchor_text="Previous: Booking Guide" url=page.prev %}
-{% include link-as-button.md anchor_text="Home" url="/" %}
+[<span class="fa-icon fa-solid fa-house-chimney"></span> Home]({% link index.html %}){:.button}
 {% include link-as-button.md anchor_text="Next: Using Cryptocurrency" url=page.next %}
