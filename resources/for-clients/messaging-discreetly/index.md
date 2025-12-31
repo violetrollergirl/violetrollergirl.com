@@ -38,7 +38,7 @@ If discretion is what you need, oh baby, let me show you better ways.
 
 First, let's be clear that **"being discreet" does *not* mean "no screening."**
 
-Being discreet with me, or any provider, means working together to keep certain interactions we have or arrangements we make private so that they stay between us. It does not mean you get to keep information I use for screening you a secret from me. Put another way, you can hire me to be discreet, but you cannot hire me by remaining an anonymous entity, yourself.
+Being discreet with me, or any provider, means working together to keep certain interactions we have or arrangements we make private so that they stay between us. It does not mean you get to keep information I use for screening you a secret from me. The obvious default assumption in this industry is that you are hiring me to be discreet, but hiring me is quite bluntly not something you can do as an anonymous entity.
 
 In fact, being open and honest with me about why you need to be discreet makes it easier for me to help you successfully keep your secrets secret. Think of it like an improv scene: it's easier to keep the act going when someone is able to "[yes, and](https://en.wikipedia.org/wiki/Yes,_and...){:target="_blank"}" with me.
 
@@ -46,7 +46,7 @@ Put simply, I'm highly motivated to be discreet with you. So, no, I won't be dre
 
 But our shared desire for discretion does not mean you're exempt from [my screening process]({% link _faq/screening/screening-process.md %}).
 
-In other words, if you feel like you need discretion *from* me, rather than discretion *with* me, then we're probably not a good match and this is not the article you're looking for. Sorry, babe!
+In other words, if you feel like you need discretion *from* me, rather than discretion *with* me, then we're probably not a good match and this is not the article you're looking for. "Keeping it on the <acronym title="Down Low">DL</acronym>" is fine, but if you keep yourself on the DL from me, then by definition there's no way we can be together. Sorry, babe!
 
 ## Tradecraft for discretion: plausible deniability and encryption
 

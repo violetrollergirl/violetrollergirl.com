@@ -26,7 +26,7 @@ The booking process can feel daunting, especially if you're "new to all this," b
 
 I wrote this page to help those of you who want a meticulously crafted step-by-step guide to walk through booking time with me. It explains how to start and what to do at every step of the way. Its extraordinary detail may be overkill for many of you, but provides a thorough reference regardless.
 
-The point of this is not not to ensure perfection, but rather to give you clarity during the process should you seek it. While this guide is specific to booking *me*, you'll probably find it useful for booking any companion, as most of what I ask for is standard across the industry.
+The point of this is not to ensure perfection, but rather to give you clarity during the process should you seek it. While this guide is specific to booking *me*, you'll probably find it useful for booking any companion, as most of what I ask for is standard across the industry.
 
 ## Table of contents
 
@@ -69,7 +69,7 @@ This page is for:
 
 If you aren't yet sure whether I'm the girl for you, then you might want to have a look at the rest of my site before returning here. My [gallery](#gallery) shows you what I look like. (Yes, I really do look like that.) My ["tech specs" (about page)](#about) describe my vitals and my vibe. My [FAQ](#faq) has the answers to numerous questions about me and my offerings. My [rates page](#rates) provides a breakdown of considerations for my offerings. And my [tours and availability](#tours) page gives you details about where I'm traveling and when, along with some detail about how to bring me to your city for a special date. You can also learn about me from my prolific [social media posts and my softcore (and hardcore) content]({% link index.html %}#links-group-socials-amp-content).
 
-And if you're still not sure? You can schedule [a brief introductory call]({% link index.html %}#rate-add-ons-and-online-intro-call-and-deposit-20-minutes) with me, the cost of which can be directly applied to your deposit if you choose to book. For that, however, you'll need to schedule some time with me. This page can help you with that!
+And if you're still not sure? You can schedule [a brief curiosity call]({% link index.html %}#rate-add-ons-and-online-curiosity-call-30-minutes) with me, the cost of which can be directly applied to your deposit if you choose to book. For that, however, you'll need to schedule some time with me. This page can help you with that!
 
 This page is *not* for:
 
@@ -97,7 +97,7 @@ To be clear:
 - If you don't know exactly when you want to meet, use my booking form to suggest some options.
 - If you want to know when I'm available, I'll direct you to [my calendar](#tours) and then I'll ask you to fill in my booking form.
 - If you're not sure whether or not I offer a service you want and need to speak with me about that, use my booking form to start the conversation about it.
-- If all you want to do is have [a short introductory call]({% link index.html %}#rate-add-ons-and-online-intro-call-and-deposit-20-minutes), use my booking form to schedule time for it with me.
+- If all you want to do is have [a short curiosity call]({% link index.html %}#rate-add-ons-and-online-curiosity-call-30-minutes), use my booking form to schedule time for it with me.
 - If you merely want to see me for a quick visit such as for a half hour appointment, I will still ask you to fill in my booking form.
 - If you try to get my attention in any way in order to spend some time with you privately, but you didn't use my booking form to do it, I'll ask you to fill in my booking form.
 
@@ -257,7 +257,7 @@ The seventh field in my booking form is a drop down menu for you to choose the c
         * This is not a free meeting; deposit and cancellation policies will apply as normal at my [social-only rate]({% link index.html %}#rate-add-ons-and-online-social-only-date).
     * Choose `a virtual video date (online)` to reserve my time for a (possibly rather steamy) video call.
     * Choose `a texting/sexting session (online)` to reserve my time and attention for us to engage in some luxurious literary libations together.
-    * Choose `an introductory call (phone)` to schedule [an introductory call]({% link index.html %}#rate-add-ons-and-online-intro-call-and-deposit-20-minutes) at a time that's convenient for us both.
+    * Choose `a curiosity call (phone)` to schedule [an exploratory curiosity call]({% link index.html %}#rate-add-ons-and-online-curiosity-call-30-minutes) at a time that's convenient for us both.
 
 You may not leave this field blank. I need to know what you're hoping to book my time for so that we can plan accordingly.
 
@@ -473,7 +473,7 @@ If we find ourselves unable to plan for and set a specific date, time, or place 
 
 Otherwise, if you feel like you need more correspondence or a real-time conversation to iron out logistics, test our chemistry, or communicate and set expectations, you can:
 
-* schedule [an introductory call]({% link index.html %}#rate-add-ons-and-online-intro-call-and-deposit-20-minutes) so we can get on the phone and talk things out or settle any pre-date nerves.
+* schedule [a curiosity call]({% link index.html %}#rate-add-ons-and-online-curiosity-call-30-minutes) so we can get on the phone and talk things out or settle any pre-date nerves.
 * demonstrate good etiquette by [sending me a tip]({% link index.html %}#links-group-tip-me) or buying me a gift off [my wishlist]({% link index.html %}#links-throne) as a show of good faith recognition for the additional planning time.
 
 ## Enjoy the building anticipation of our upcoming date
