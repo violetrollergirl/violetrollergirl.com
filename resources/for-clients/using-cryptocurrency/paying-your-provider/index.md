@@ -3,8 +3,11 @@ title: How to pay your provider in crypto
 description: >
     Learn how to get and send crypto to your provider's wallet
     address.
+featured_image:
+  alt:
+  url: images/gallery-originals/back-arch-on-the-beach-in-bikini.jpg
 prev: resources/for-clients/using-cryptocurrency/
-last_modified: Sat Dec 27 15:40:09 EST 2025
+last_modified: Wed Dec 31 18:14:59 EST 2025
 ---
 
 # {{ site.title }}'s guide to paying your provider in crypto
@@ -17,6 +20,8 @@ No matter what crypto app you use, you'll need your provider's wallet address to
 
 1. [Ask your provider where to send your payment](#ask-your-provider-where-to-send-your-payment)
 1. [Send crypto to your provider](#send-crypto-to-your-provider)
+    - [From payment apps](#from-payment-apps)
+    - [From cryptocurrency exchanges](#from-cryptocurrency-exchanges)
 1. [Ask for confirmation of receipt](#ask-for-confirmation-of-receipt)
 
 ## Ask your provider where to send your payment
@@ -59,14 +64,22 @@ Exactly how you do this depends on the specific crypto app you're using but rega
     1. the second send is the remainder.
 - Regardless of how you send, be sure to send enough to cover any possible transaction fees. (The crypto app will often calculate these for you, but it never hurts to send a little somethin' extra, y'know?)
 
-Click the link corresponding to the app you're using to send from:
+### From payment apps
+
+If you're sending from a payment app, click the link corresponding to the payment app you're using to send from.
+
+{:.fa-ul}
+- [<span class="fa-li fa-brands fa-cash-app"></span> CashApp](https://cash.app/help/3106-bitcoin-withdrawals){:target="_blank"}
+- [<span class="fa-li fa-brands fa-paypal"></span> PayPal](https://www.paypal.com/us/cshelp/article/how-do-i-transfer-my-crypto-help822){:target="_blank"}
+- [<span class="fa-li fa-brands fa-v"></span> Venmo](https://help.venmo.com/cs/articles/crypto-transfers-vhel232){:target="_blank"}
+
+### From cryptocurrency exchanges
+
+If you're sending from a cryptocurrency exchange, click the link corresponding to the cryptocurrency exchange you're using to send from.
 
 - [Binance](https://www.binance.com/en/support/faq/detail/329c82f07443410b99fc3683ebf07490){:target="_blank"}
 - [Coinbase](https://help.coinbase.com/en/coinbase/trading-and-funding/cryptocurrency-trading-pairs/steps-to-send-crypto){:target="_blank"}
-- [CashApp](https://cash.app/help/3106-bitcoin-withdrawals){:target="_blank"}
 - [Kraken](https://support.kraken.com/articles/360000672763-how-to-withdraw-cryptocurrencies-from-your-kraken-account){:target="_blank"}
-- [PayPal](https://www.paypal.com/us/cshelp/article/how-do-i-transfer-my-crypto-help822){:target="_blank"}
-- [Venmo](https://help.venmo.com/cs/articles/crypto-transfers-vhel232){:target="_blank"}
 
 ## Ask for confirmation of receipt
 

@@ -3,6 +3,7 @@ name: Do you take CashApp/PayPal/Venmo?
 featured_image:
   alt:
   url: images/gallery-originals/mansion-villa-at-night.jpg
+last_modified: Wed Dec 31 18:15:18 EST 2025
 ---
 
 Well, **yes, if you use that app's cryptocurrency option.**
@@ -11,9 +12,10 @@ While I do not have a CashApp, PayPal, or Venmo account myself, since I accept m
 
 To make this easy, I've published detailed [cryptocurrency payment guides for clients]({% link resources/for-clients/using-cryptocurrency/index.md %}) to show you how to go about acquiring and transferring crypto from within each of those payment apps:
 
-- [<span class="icon fa-brands fa-cash-app"></span> CashApp]({% link resources/for-clients/using-cryptocurrency/cashapp/index.md %})
-- [<span class="icon fa-brands fa-paypal"></span> PayPal]({% link resources/for-clients/using-cryptocurrency/paypal/index.md %})
-- [<span class="icon fa-brands fa-venmo"></span> Venmo]({% link resources/for-clients/using-cryptocurrency/venmo/index.md %})
+{:.fa-ul}
+- [<span class="fa-li fa-brands fa-cash-app"></span> CashApp]({% link resources/for-clients/using-cryptocurrency/cashapp/index.md %})
+- [<span class="fa-li fa-brands fa-paypal"></span> PayPal]({% link resources/for-clients/using-cryptocurrency/paypal/index.md %})
+- [<span class="fa-li fa-brands fa-v"></span> Venmo]({% link resources/for-clients/using-cryptocurrency/venmo/index.md %})
 
 If for some reason you cannot use these app's crypto options, I also accept:
 
