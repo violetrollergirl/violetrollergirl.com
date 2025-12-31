@@ -1,6 +1,14 @@
 ---
 title: Resources for Providers
+description: >
+  Whether you're a novice sex worker or a veteran, Violet Rollergirl's
+  resources for providers are free informational guides for leveling up
+  your safety, security, and prosperity during your sex work career. 
+featured_image:
+  alt:
+  url: images/gallery-originals/easy-breezy-beautiful-country-girl.jpg
 prev: resources/
+last_modified: Tue Dec 30 20:23:18 EST 2025
 ---
 
 # {{ site.title}}'s Resources for Providers

@@ -4,6 +4,9 @@ description: >
     From booking to payment, Violet Rollergirl's resources for clients
     are a series of articles that help you stay safe and have fun with
     your favorite sex workers.
+featured_image:
+  alt:
+  url: images/gallery-originals/hello-kitty-panties.jpg
 prev: resources/
 next: resources/for-clients/booking-guide
 ---
