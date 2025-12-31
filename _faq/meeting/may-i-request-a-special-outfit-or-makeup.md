@@ -11,4 +11,4 @@ While my usual look is "casual but kinky," I have a growing collection of leathe
 
 Please always feel comfortable requesting something specific, but remember that if I don't already have it on hand, I'll ask you to cover the cost of the item. Otherwise, you may need to acquire it yourself and bring it with you to our date. In fact, bringing gifts like this is an extremely reliable way to ensure a fantastic time with me!
 
-See also: "[What should I wear for our date?]({% link _faq/meetings/what-should-i-wear-for-our-date.md %})"
+See also: "[What should I wear for our date?]({% link _faq/meeting/what-should-i-wear-for-our-date.md %})"

@@ -89,9 +89,9 @@ defaults:
     values:
       group_name: Booking
   - scope:
-      path: "_faq/meetings"
+      path: "_faq/meeting"
     values:
-      group_name: Meetings
+      group_name: Meeting
   - scope:
       path: "_faq/screening"
     values:
