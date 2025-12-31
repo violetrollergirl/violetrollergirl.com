@@ -3,9 +3,12 @@ title: Booking Guide
 description: >
     Many people are attracted to trans women like me, but few get the chance to get intimate with us.
     This page thoroughly (over-)explains the booking process to offer you clarity, should you seek it.
-last_modified: Tue Dec 16 14:02:55 EST 2025
+featured_image:
+  alt:
+  url: images/gallery-originals/kneeling-in-clawfoot-bathtub.jpg
 prev: resources/for-clients/
 next: resources/for-clients/messaging-discreetly/
+last_modified: Tue Dec 16 14:02:55 EST 2025
 ---
 
 # {{ site.title }}'s Booking Guide
