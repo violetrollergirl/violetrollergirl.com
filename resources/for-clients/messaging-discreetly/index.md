@@ -35,7 +35,7 @@ If discretion is what you need, oh baby, let me show you better ways.
 
 First, let's be clear that **"being discreet" does *not* mean "no screening."**
 
-Being discreet with me, or any provider, means working together to keep certain interactions we have or arrangements we make private so that they stay between us. It does not mean you get to keep information I use for screening you a secret from me.
+Being discreet with me, or any provider, means working together to keep certain interactions we have or arrangements we make private so that they stay between us. It does not mean you get to keep information I use for screening you a secret from me. Put another way, you can hire me to be discreet, but you cannot hire me by remaining an anonymous entity, yourself.
 
 In fact, being open and honest with me about why you need to be discreet makes it easier for me to help you successfully keep your secrets secret. Think of it like an improv scene: it's easier to keep the act going when someone is able to "[yes, and](https://en.wikipedia.org/wiki/Yes,_and...){:target="_blank"}" with me.
 

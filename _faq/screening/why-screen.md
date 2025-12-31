@@ -7,9 +7,13 @@ featured_image:
   url: images/gallery-originals/black-sands-nude-beach.jpg
 ---
 
-I understand why screening may make you feel anxious. But the thought of spending time alone with me presumably doesn't.
+Before you screen, I simply cannot know who I may be speaking with. Since literally anyone with an electronic device might contact me, screening confirms that you are a consenting adult and is *unconditionally required* to interact with me in any meaningful way.
 
-Consider that, until we are physically acquainted, the thought of spending time alone with you may make me slightly anxious, but screening you doesn't.
+If you don't tell me who you are, I cannot tell you literally anything about me that is not already published on my public website and ads, making our entire exchange redundant and pointless. Moreover, both my livelihood and my liberty depends on your screening information remaining confidential so I can assure you that I take great steps to ensure it always is.
+
+On another note, I do understand why screening may make you feel anxious or even vulnerable. But the thought of spending time alone with me presumably doesn't.
+
+Consider that, until we are physically acquainted, the thought of spending time alone with you&mdash;especially if you are trying to remain anonymous from me&mdash;may make me slightly anxious, but screening you doesn't.
 
 Screening is *meant* to feel asymmetrical because its purpose is to restore some balance to the way we start out.
 
@@ -17,6 +21,4 @@ The thing about balance is that it's very comfortable. After all, what is grace 
 
 And no one wants that. Right?
 
-Moreover, before you screen, I simply cannot know who I may be speaking with. Since literally anyone might contact me, screening confirms that you are a consenting adult and is unconditionally *required* to interact with me in any meaningful way. For my safety and comfort, I am simply not comfortable significantly engaging with you otherwise.
-
-[Screening is easy](#screening-options) and you can be done with it after your very [first message](#in-your-first-message) to me.
+[Screening is easy]({% link _faq/screening/screening-process.md %}) and you can be done with it after your very first message to me.

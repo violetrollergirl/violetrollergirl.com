@@ -1,0 +1,29 @@
+---
+layout: none
+---
+
+{% assign now = site.time | date: "%s" -%}
+{% assign seconds_in_a_day = 86400 -%}
+{% assign seconds_in_a_nonleap_year = seconds_in_a_day | times: 365 -%}
+
+######################################################################
+#                                                                    #
+# VioletRollergirl's SECURITY.TXT vulnerability disclosure document. #
+#                                                                    #
+# This file conforms to RFC 9116 in structure. See:                  #
+#                                                                    #
+#     https://www.rfc-editor.org/rfc/rfc9116                         #
+#                                                                    #
+######################################################################
+
+# I prefer receiving reports of security issues equally securely, so
+# please use Signal Private Messenger to contact me about them.
+Contact: {{ site.contact.signal.url }}
+# If you must use email, use my public address:
+Contact: mailto:{{ site.contact.email }}
+
+# Consider this content stale after this date:
+Expires: {{ now | plus: seconds_in_a_nonleap_year | date_to_xmlschema }}
+
+# Learn more about my expectations for security disclosures.
+Policy: {% link .security-policy/index.md %}
