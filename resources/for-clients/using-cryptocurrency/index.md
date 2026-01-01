@@ -8,7 +8,7 @@ featured_image:
   url: images/gallery-originals/kneeling-on-the-beach-in-bikini.jpg
 prev: resources/for-clients/
 next: resources/for-clients/using-cryptocurrency/quick-start/
-last_modified: Sat Dec 27 16:01:07 EST 2025
+last_modified: Wed Dec 31 21:47:29 EST 2025
 ---
 
 # {{ site.title }}'s guide to paying your provider in crypto
@@ -82,9 +82,7 @@ No stress! Start at [my "Quick(est) Start" guide]({% link resources/for-clients/
 
 One of the nice things about paying your provider in crypto is that it doesn't really matter what apps the two of you have. If you have crypto, and they accept crypto payments, then you're good to go. No more back-and-forth trying to figure out which app you both have accounts with!
 
-Exactly how you send cryptocurrency to other people will differ slightly from one app to the other, but one thing is always the same: you need to know the crypto address of the intended recipient.
-
-So, let's learn how to do that. Spoiler alert: you just have to ask.
+Exactly how you send cryptocurrency to other people will differ slightly from one app to the other, but one thing is always the same: you need to know the crypto address of the intended recipient. So, let's learn how to do that. Spoiler alert: you just have to ask.
 
 {:.align-center}
 {% include link-as-button.md anchor_text="Paying your provider" url="/resources/for-clients/using-cryptocurrency/paying-your-provider/" %}
