@@ -83,7 +83,7 @@ If the above describes you, I recommend the following blog posts on the Tryst Bl
 - [A First-time Client's Guide to Escort Booking Etiquette](https://tryst.link/blog/a-first-time-clients-guide-to-escort-booking-etiquette-tryst-sex-work-blog/){:target="_blank"}
 - ['What if it's a scam?' How to have a successful date with a pro, by doing your homework.](https://tryst.link/blog/what-if-its-a-scam-find-escort/){:target="_blank"}
 
-I also suggest spending a bit of time perusing the [Good Client Guide](https://goodclientguide.com/), a companion website that has compiled much of the same information.
+I also suggest spending a bit of time perusing the [Good Client Guide](https://goodclientguide.com/){:target="_blank"}, a companion website that has compiled much of the same information.
 
 ## Start here: once you know you want to meet me
 
