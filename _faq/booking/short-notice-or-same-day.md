@@ -1,5 +1,9 @@
 ---
-name: Are you available right now?
+name: &name Are you available right now?
+title: *name
+description: >
+  Independent escorts are rarely actually "available now"
+  and in this FAQ answer, Violet explains why.
 featured_image:
   alt:
   url: images/gallery-originals/hotel-window.jpg
@@ -11,6 +15,6 @@ While I famously enjoy spontaneous adventures, **I am much more likely to be abl
 
 You're looking at no less than a ~3 hour turnaround to accomplish all this, at minimum, even in a rare perfect case. Even when I'm on tour, I *still* probably cannot see you immediately precisely because [the whole reason I'm in your area is because I'm pre-booked]({% link _faq/meeting/when-will-you-be-in-my-city.md %}) and am thus focused on my existing commitment with someone else.
 
-The best thing you can do to snag a date is to inquire ahead of time, pre-screen, and keep a line of communication open. Rescheduling if necessary is also okay.
+The best thing you can do to snag a date opportunistically (or otherwise) is to inquire ahead of time, pre-screen, and keep a line of communication open. [Rescheduling if necessary is also okay]({% link resources/for-clients/booking-guide/index.md %}#if-you-need-to-reschedule-or-cancel), and generally easy to accommodate with minimal fuss as long as you stay communicative.
 
 Put simply, give your life more time, and your life will be more full of pleasure.
