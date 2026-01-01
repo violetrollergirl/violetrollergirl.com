@@ -10,10 +10,10 @@ Content for the "Links" Panel.
             <li id="links-{{ item.title | slugify }}">
                 {% if item.icon %}
                 <a href="{{ item.url }}" title="{{ item.title }}"
-                    class="icon fa-2x fa-{{ item.icon | downcase }}"
+                    class="icon fa-2x fa-solid fa-{{ item.icon | downcase }}"
                     {% unless "/" == item_url_first_char %}target="_blank"{% endunless %}>
-                    <span class="label">{{ item.label }}</span>
                 </a>
+                <div><a class="label icon fa-2x" href="{{ item.url }}">{{ item.label }}</a></div>
                 {% elsif item.svg %}
                 <a href="{{ item.url }}" title="{{ item.title }}"
                     class="icon fa-2x"
