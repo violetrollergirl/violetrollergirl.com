@@ -189,7 +189,7 @@ The fourth field in my booking form is a drop-down menu for you to choose how yo
 * The field's placeholder reads: `Choose contact method`
 * You are expected to choose one from the following options:
     * Choose `Signal Private Messenger` if you'd like the booking form to send your message to [my Signal Private Messenger account]({{ site.contact.signal.url }}){:target="_blank"}.
-        * This is my preferred contact method, so you'll definitely earn some bonus points for messaging me this way!
+        * [Signal is far and away my most preferred contact method]({% link resources/for-providers/signal-for-sex-work/index.md %}), so you'll definitely earn some bonus points for messaging me this way!
         * You will need the Signal app installed on the device you are filling out the form from.
     * Choose `WhatsApp` if you'd like the booking form to send your message to my [WhatsApp](https://www.whatsapp.com/){:target="_blank"} Business account.
         * You will need the WhatsApp app installed on the device you are filling out the form from.
@@ -486,7 +486,11 @@ If you find that you're craving more attention than that, it is respectful to se
 
 ### The day before our date
 
-On the day before our date, I'll send you a reminder message. The reminder will re-confirm all the details we've already worked out (date, time, duration, and so on). **You must reply affirmatively confirming receipt of this message to move forward with the date.** If you ghost, I can't be confident we're still on and will consider the date cancelled. (This is another reason I strongly suggest booking via Signal Private Messenger, as it is the most reliable messaging channel.)
+On the day before our date, I'll send you a reminder message. The reminder will re-confirm all the details we've already worked out (date, time, duration, and so on).
+
+**You must reply affirmatively confirming receipt of this message to move forward with the date.**
+
+If you ghost, I can't be confident we're still on and will consider the date cancelled. (This is another reason I strongly suggest [booking via Signal Private Messenger](#booking-form-field-preferred-contact-method), as it is the most reliable and [discreet messaging]({% link resources/for-clients/messaging-discreetly/index.md %}) channel.)
 
 In this reminder message, I'll also provide more specific instructions for exactly how to meet, including things like where to park if you're driving, which intersection to meet at, a specific address with instructions on how to use the buzzer, and so on.
 
