@@ -1,5 +1,12 @@
 ---
 title: "Off-ramping: where and how to spend your cryptocurrency"
+description: >
+  Cryptocurrency is just money and, actually, you can't eat money.
+  So in this guide, I show you how to turn crypto into the things
+  that actually keep us alive.
+featured_image:
+  alt:
+  url: images/gallery-originals/lounging-poolside-in-bikini.jpg
 prev: resources/for-providers/using-cryptocurrency/on-ramping/
 next: resources/for-providers/using-cryptocurrency/convincing-clients/
 last_modified: Sun Oct 19 15:18:05 EDT 2025

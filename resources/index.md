@@ -3,12 +3,12 @@ title: Resources
 description: >
     Violet's portal page for free cybersecurity, cryptocurrency, and other
     informational resources for sex workers and our clients or customers.
+featured_image:
+  alt:
+  url: images/gallery-originals/bathtub-sitting-with-stained-glass-windows.jpg
 next: /resources/for-providers/
 prev: /
 last_modified: Tue Nov  4 15:21:12 EST 2025
-featured_image:
-  alt:
-  url: images/gallery-originals/garden-snake-undies-in-bedroom.jpg
 ---
 
 # Resources by {{ site.title }}
