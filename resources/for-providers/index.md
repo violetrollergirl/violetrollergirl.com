@@ -26,9 +26,9 @@ I hope these short, stand alone articles help you better understand why there ar
 
 ## [Using Signal for Sex Work]({% link resources/for-providers/signal-for-sex-work/index.md %})
 
-Communicating discreetly is tantamount to communicating freely. For sex workers, having this capability makes the difference between a viable income or not. While there are innumerable messaging applications out there, Signal Private Messenger has emerged as the clear winner for my needs in terms of balancing client adoption, communications security, and ease of use.
+Communicating discreetly is tantamount to communicating freely. For sex workers, having this capability makes the difference between a viable income or not. While there are innumerable messaging apps out there, Signal Private Messenger has emerged as the clear winner for my needs in terms of balancing client adoption, communications security, and ease of use.
 
-Simply using Signal over any other messenger massively improves the safety of your correspondence, but there are some additional privacy features and advanced settings sex workers who are using Signal for work should take a look at. In this guide, I'll explain them all.
+Simply using Signal over any other messenger massively improves the safety of your correspondence and the continuity of your business, but there are some additional privacy features and advanced settings sex workers who are using Signal for work should take a look at. In this guide, I'll explain them all.
 
 {:.align-center}
 [Signal for Sex Work]({% link resources/for-providers/signal-for-sex-work/index.md %}){:.button}
@@ -39,7 +39,7 @@ I'm pretty proud of my Web site. Sometimes, other providers ask me how I made th
 
 There are some novel things about it that I'd like to highlight, like my unique mad-lib style [booking form](#contact), [cryptocurrency payment links]({% link index.html %}#links-group-tip-me), and deep-linkable anchors.
 
-So here's a bit of technical information regarding how it all works.
+So here's a bit of technical information regarding how it all works, in case you want to flatter me with some technical mimicry.
 
 {:.align-center}
 [Site Colophon]({% link colophon/index.md %}){:.button}
