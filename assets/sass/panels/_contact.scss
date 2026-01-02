@@ -3,18 +3,18 @@
 }
 
 #booking-inquiry-form {
-	& blockquote {
+	blockquote {
 		padding: .5em .5em 0 .25em;
 	}
 
-	& .form-label,
-	& .form-input,
-	& .form-select {
+	.form-label,
+	.form-input,
+	.form-select {
 		display: inline;
 		width: auto;
 	}
 
-	& textarea.form-input {
+	textarea.form-input {
 		width: 100%;
 	}
 }
@@ -30,6 +30,10 @@
     }
 }
 
+.dos-and-donts-DO,
+.dos-and-donts-DONT {
+    display: inline;
+}
 .dos-and-donts-DO::after {
 	content: " do ";
 	text-transform: uppercase;
