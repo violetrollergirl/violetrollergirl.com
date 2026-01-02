@@ -42,8 +42,11 @@ contact:
     jid: violet@violetrollergirl.snikket.chat
 
 defaults:
+  # Set layout to `page` by default.
   - values:
       layout: page
+
+  # Gallery images permit special overrides per image.
   - scope:
       path: "images/gallery/fulls"
     values:
