@@ -29,10 +29,12 @@ This article is my attempt to convey why Signal Private Messenger is so useful a
     1. [Getting multiple Signal profiles](#getting-multiple-signal-profiles)
 1. [Filling out your Signal profile](#filling-out-your-signal-profile)
 1. [Keeping your Signal phone number private](#keeping-your-signal-phone-number-private)
+1. [Setting your Signal username](#setting-your-signal-username)
 1. [Setting additional Signal privacy protections](#setting-additional-signal-privacy-protections)
     1. [Always relay calls](#always-relay-calls)
     1. [Allow sealed sender from anyone](#allow-sealed-sender-from-anyone)
 1. [Publicizing your Signal profile to clients](#publicizing-your-signal-profile-to-clients)
+1. [Verifying your Signal Safety Number with clients you meet](#verifying-your-signal-safety-number-with-clients-you-meet)
 1. [Using built-in Signal organization and productivity features](#using-built-in-signal-organization-and-productivity-features)
 
 ## The problem with texting apps
@@ -88,12 +90,29 @@ My recommendations:
 
 If you are using a dedicated phone for work and you want clients to be able to find your Signal profile from your publicly listed work phone number, you can ignore this section. However, if you have a personal Signal profile or you simply desire to keep your Signal phone number secret, as I do, then you should [ensure your phone number is never shared with your Signal contacts](https://support.signal.org/hc/en-us/articles/6712070553754-Phone-Number-Privacy-and-Usernames#pnp_settings){:target="_blank"}.
 
-When you do this, you also must create a Signal username so that other Signal users can start a conversation with you. This is how I've set up my work Signal profile, so that clients who read my [Contact](#contact) page have [a Signal link they can click]({% link index.html %}#contact-link-signal) to connect with me, via my Signal username.
+When you do this, you also must [create a Signal username](#setting-your-signal-username) (described next) so that other Signal users can start a conversation with you. This is how I've set up my work Signal profile, so that clients who read my [Contact](#contact) page have [a Signal link they can click]({% link index.html %}#contact-link-signal) to connect with me, via my Signal username.
 
 My recommendations:
 
 - If your Signal phone number is a number associated with your legal identity, hide it from your Signal profile.
 - If your Signal phone number is a public work number you are comfortable sharing with clients, make it discoverable to ease a client's first contact.
+
+## Setting your Signal username
+
+You will almost certainly want a Signal username. If you chose to keep your Signal phone number private, there will be no way for clients to contact you if you don't also choose a username. Even if you allow other users to find your Signal profile by your phone number, it's still a good idea for those of us using Signal to intake inquiries to set a Signal username.
+
+To [create or change your Signal username](https://support.signal.org/hc/en-us/articles/6712070553754-Phone-Number-Privacy-and-Usernames#username_create){:target="_blank"}, open Signal &rarr; tap your profile icon <span class="icon fa-solid fa-circle-user"></span> &rarr; Settings (iOS) &rarr; tap on your profile &rarr; tap by the `@` symbol:
+
+[![Screenshot of where to find the username creation entry form in Signal.](https://web.archive.org/web/20251015135615if_/https://support.signal.org/hc/article_attachments/7856622225306)](https://support.signal.org/hc/en-us/articles/6712070553754-Phone-Number-Privacy-and-Usernames#username_create){:target="_blank"}
+
+In Signal, usernames act very much like a phone number in that they are merely an address that someone can use to initiate contact with you. They are *not* the same as your profile name, which is the name you wrote for yourself when registering in your Signal profile, nor are they [your Safety Number](#verifying-your-signal-safety-number-with-clients-you-meet), which is a unique code that others can use to check if they are really communicating with who they think they are.
+
+Your Signal username can also be encoded as a QR code or a clickable link. Both of these will become unusable if you later change your username, even if you keep your Signal profile name the same.
+
+My recommendations:
+
+- Choose a Signal username that matches your brand. [Signal usernames have certain length and formatting requirements](https://support.signal.org/hc/en-us/articles/6712070553754-Phone-Number-Privacy-and-Usernames#username_req){:target="_blank"} that you must meet.
+- Create a Signal contact link, while you're at it.
 
 ## Setting additional Signal privacy protections
 
@@ -125,13 +144,13 @@ When you enable "sealed sender allow from anyone" for your Signal account, it be
     </video>
 </p>
 
+Learn more about [Signal's sealed sender metadata protection on their blog](https://signal.org/blog/sealed-sender/){:target="_blank"}.
+
 My recommendations:
 
 - If you are open to receiving new clients or customers, ensure sealed sender's allow from anyone is **enabled** for your Signal account.
     - Find this setting in Privacy &rarr; Advanced &rarr; Sealed sender &rarr; Allow from anyone
 - Disable this option for your personal Signal profiles, or if you experience large amounts of harassing messages from unknown senders.
-
-Learn more about [Signal's sealed sender metadata protection on their blog](https://signal.org/blog/sealed-sender/){:target="_blank"}.
 
 ## Publicizing your Signal profile to clients
 
@@ -140,6 +159,46 @@ Once you have Signal set up for work, it's time to gently lean on your clients t
 I would personally love to see Tryst and other escort mall ad sites provide a Signal contact field for us to fill in, but in lieu of that, I've written [my Tryst contact details section](https://tryst.link/escort/{{ site.title | replace: " ", "" | downcase }}#contact){:target="_blank"} like so:
 
 ![Screenshot of the Contact section in {{ site.title }}'s Tryst ad.]({% link resources/for-providers/signal-for-sex-work/screenshot.tryst.violetrollergirl.contact.png %})
+
+My recommendations:
+
+- Display your Signal username anywhere that makes sense to encourage more clients to reach out via Signal.
+- Publish your Signal contact link on your website's contact page. See [how I've done mine]({% link index.html %}#contact-link-signal).
+  - This is also [how my booking form integrates with Signal directly]({% link colophon/index.md %}#privacy-guarantees-of-first-contact)!
+
+## Verifying your Signal Safety Number with clients you meet
+
+Integrity verification is an often overlooked part of the security of a communications platform, but Signal made this process easy.
+
+One good habit to get into is to [verify the Signal Safety Number of your conversation with your client](https://support.signal.org/hc/en-us/articles/360007060632-What-is-a-safety-number-and-why-do-I-see-that-it-changed){:target="_blank"} at some point during your first meeting. A Signal Safety Number is a numeric code that uniquely identifies each one-to-one chat with a Signal contact. If the Safety Number you see for your conversation with a client is the same as what they see, you can be more confident in the security of your messages with one another.
+
+Information security professionals often refer to a concept called the CIA triad. This has nothing to do with the Central Intelligence Agency. Instead, it's a simple framework for evaluating the security of any information system. It stands for confidentiality, integrity, and availability. I prefer to refer to it as the "infosec triforce" because I'm a nerd for triangles, and Zelda.
+
+{:.align-center}
+![Three triangles are arranged together labeled confidentiality, integrity, and availability, such that their center space creates a fourth triangle, labelled CIA triad.]({% link resources/for-providers/signal-for-sex-work/cia-triad.jpg %})
+
+One easy way to think about the difference between confidentiality and integrity:
+
+- Confidentiality ensures the privacy of a given message between *any* two parties.
+- Integrity ensures the two parties in a given conversation are in fact the two parties *you expect* to be in that specific conversation.
+- (Availability simply means that the system can be used when it is needed.)
+
+If a system is confidential but not integrious, it isn't really "secure." I verify Signal Safety Numbers even though it takes a small additional step, because it's different from the automatic and default end-to-end encryption Signal offers by default.
+
+Just to hammer this point home, consider that it's certainly possible for me to be having a conversation over the Internet with someone who turns out to be someone else. As a sex worker, I'm sure you've no doubt been targeted by phishing scams claiming that your Tryst account is under review and you must act now to restore your profile. Well, clients fear a similar thing.
+
+Such impersonation is exactly what Safety Number verification protects both me and my clients from falling victim to *after* we've confirmed the integrity of our Signal conversation.
+
+Verifying Signal Safety Numbers is best to do in person simply because the expense of impersonating someone in the physical world makes it extremely unlikely for anyone to be able to pull it off successfully. In other words, the expense of reproducing all the analog signals it would take to impersonate me in person&mdash;the feel of my hair, the color of my eyes, the way I move, the inflection in my voice when I speak, hell, even the heady scent of sex&mdash;is itself what assures my client of the realness and security of our Signal conversation.
+
+So, usually near the end of our first encounter, or sometimes shortly after we first meet if I remember and if I think it wouldn't be too much of an exercise in digital paranoia for my client to accomodate, I like to ask that we verify Signal Safety Numbers.
+
+My recommendations:
+
+- Always [verify the Signal Safety Number](https://support.signal.org/hc/en-us/articles/360007060632-What-is-a-safety-number-and-why-do-I-see-that-it-changed#verify) of a conversation with contacts when you meet them in person.
+- Do not use Signal Safety Numbers in lieu of [screening]({% link _faq/screening/screening-process.md %}) or other safety protocols. Safety Numbers are solely for ensuring your Signal messages have originated from the expected Signal account, nothing more.
+- Avoid uninstalling Signal or unregistering your Signal account, as this will reset your Signal account identity, and consequently invalidate prior Signal Safety Numbers you've verified.
+    - Instead, if you might find yourself getting digitally strip searched, use [Signal's built-in Storage Management](https://support.signal.org/hc/en-us/articles/360049673331-Storage-Management){:target="_blank"} features to delete conversations and message history to minimize the data retained on your device.
 
 ## Using built-in Signal organization and productivity features
 
