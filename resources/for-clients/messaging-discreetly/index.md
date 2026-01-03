@@ -102,7 +102,7 @@ It's hard to beat WhatsApp's Chat Lock feature for discretion. Its combination o
 
 ### Ultimate privacy: Signal Private Messenger with Screen Lock
 
-While not as one-stop-shop as [WhatsApp's Chat Lock feature](#using-whatsapps-chat-lock-feature), if you need absolute privacy, [Signal Private Messenger](https://signal.org/){:target="_blank"} is the ultimate choice. Signal's superior metadata encryption means that when you message a provider who has enabled ["Sealed Sender" messages on Signal](https://signal.org/blog/sealed-sender/){:target="_blank"}, as I have, not even Signal is aware that the two of you are communicating. The same can't be said of WhatsApp.
+While not as one-stop-shop as [WhatsApp's Chat Lock feature](#using-whatsapps-chat-lock-feature), if you need absolute privacy, [Signal Private Messenger](https://signal.org/){:target="_blank"} is the ultimate choice. Signal's superior metadata encryption means that when you message a provider who has enabled ["Sealed Sender" messages on Signal](https://signal.org/blog/sealed-sender/){:target="_blank"}, as I have and as [I encourage other providers to set up]({% link resources/for-providers/signal-for-sex-work/index.md %}#allow-sealed-sender-from-anyone), not even Signal is aware that the two of you are communicating. The same can't be said of WhatsApp.
 
 However, to approximate the plausible deniability of WhatsApp's Chat Lock, use the following combination of Signal Private Messenger features:
 
