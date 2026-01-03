@@ -24,6 +24,18 @@ There are some novel things about it that I'd like to highlight, like my unique 
 
 So here's a bit of technical information regarding how it all works. But, first&hellip;shall we play a game?
 
+## On this page
+
+1. [Easter eggs](#easter-eggs)
+1. [Technology stack](#technology-stack)
+    1. [No server required](#no-server-required)
+1. [Client-side booking form](#client-side-booking-form)
+    1. [Mad-lib style form prose](#mad-lib-style-form-prose)
+    1. [HTML5 form features](#html5-form-features)
+    1. [Privacy guarantees of first contact](#privacy-guarantees-of-first-contact)
+1. [Targetable deep-links for every anchor](#targetable-deep-links-for-every-anchor)
+1. [Cryptocurrency tips and donation links](#cryptocurrency-tips-and-donation-links)
+
 {:.easter-egg}
 ## Easter eggs
 
@@ -31,7 +43,7 @@ One thing I love about technology, especially information technology, is that it
 
 In that spirit, I've sprinkled numerous easter eggs for you to find around my site.
 
-Some of them are just for fun and amusement. Others will actually earn you discounts when booking, if you're clever enough to discover them, so it behooves you to read closely and explore boldly.
+Some of them are just for fun and amusement. Others will actually earn you [discounts when booking]({% link _faq/booking/redeeming-easter-eggs.md %}), if you're clever enough to discover them, so it behooves you to read closely and explore boldly.
 
 Sometimes, they'll be marked with this sequence: <span class="easter-egg"></span>, encouraging you to look more closely. Other times they'll simply be described as such textually. And sometimes, they'll be hidden somewhere in the site itself, where you'll need to 🤭 go deeper to decode them.
 
@@ -103,7 +115,9 @@ Try it out: see my [incall availability]({% link index.html %}#incall-availabili
 
 ## Cryptocurrency tips and donation links
 
-In keeping with my commitment to privacy, on my [links page is a section listing options for tipping me]({% link index.html %}#links-group-tip-me) using privacy-preserving digital money known as [Zcash](https://z.cash/) and [Monero](https://getmonero.org/). The "z" in Zcash stands for "zero knowledge," which is a branch of cryptography that makes it possible to assert mathematical proofs without having full visibility into the arguments of the proof itself. Practically, this makes it possible to devise electronic payment systems that share some of the beneficial properties of cryptocurrency systems like Bitcoin but without being subjected to its most undesirable requirement of one's financial transactions being fully publicly published on its transparent ledger for all the world to see.
+In keeping with my commitment to privacy, on my [links page is a section listing options for tipping me]({% link index.html %}#links-group-tip-me) using privacy-preserving digital money known as [Zcash](https://z.cash/) and [Monero](https://getmonero.org/). For both of our safety and discretion, I strongly prefer cryptocurrency over fiat payments and have devoted significant time to helping you [learn to use crypto]({% link resources/for-clients/using-cryptocurrency/index.md %}) if doing so is something you haven't done before.
+
+The "z" in Zcash stands for "zero knowledge," which is a branch of cryptography that makes it possible to assert mathematical proofs without having full visibility into the arguments of the proof itself. Practically, this makes it possible to devise electronic payment systems that share some of the beneficial properties of cryptocurrency systems like Bitcoin but without being subjected to its most undesirable requirement of one's financial transactions being fully publicly published on its transparent ledger for all the world to see.
 
 Put another way: Zcash (and other effective "privacy coins" like Monero) are to money what Signal Private Messenger is to speech.
 
