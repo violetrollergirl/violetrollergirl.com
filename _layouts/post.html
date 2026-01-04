@@ -15,6 +15,6 @@ layout: page
     </div>
 
     <footer>
-        <p>Published by <span class="p-author">{{ page.author | default: site.author }}</span> on <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_long_string }}</time>.</p>
+        <p>Published by <span class="p-author">{{ page.author.name | default: site.author.name }}</span> on <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.datePublished | default: site.now |  date_to_long_string }}</time>.</p>
     </footer>
 </article><!-- #post-content -->

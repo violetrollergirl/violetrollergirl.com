@@ -3,6 +3,7 @@ title: "&ldquo;like a reunion with a long-time lover&rdquo;"
 author:
   name: Mr. A
 datePublished:
+layout: post
 ---
 
 Even before our date, we had quickly developed a fun and natural connection over text. Even so, I booked a few hours and brought some takeout for us so we could ease into it if need be, hoping we'd have even half the chemistry in person as we had in 2D.

@@ -13,7 +13,8 @@ baseurl: / # For a site in a domain's Web-accessible root directory.
 # Basic site and authorship information.
 title: Violet Rollergirl
 subtitle: Bubbly trans GFE companion
-author: &author Violet Rollergirl
+author: &author
+  name: Violet Rollergirl
 description: >-
   Brilliant, bubbly, and beautifully nerdy, Violet is your confident,
   kind, trans girlfriend experience where sophistication meets genuine
@@ -111,9 +112,9 @@ collections:
   posts:
     permalink: /blog/:year/:month/:day/:title/
   testimonials:
-    # TODO:
+    # TODO: Uncomment when ready to publish.
     #output: true
-    #permalink: ?
+    permalink: /:collection/:title/
 
 # Gallery.
 # Configure which exif data to display

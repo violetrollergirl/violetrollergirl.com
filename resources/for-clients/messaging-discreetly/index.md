@@ -9,7 +9,7 @@ featured_image:
   url: images/gallery-originals/privacy-professional-crypto-kitty-girl.jpg
 prev: resources/for-clients/booking-guide/
 next: resources/for-clients/using-cryptocurrency/
-last_modified: Tue Dec 30 19:59:25 EST 2025
+last_modified: Sun Jan  4 16:40:37 EST 2026
 ---
 
 # {{ site.title }}'s guide to messaging (your sex worker) discreetly
@@ -57,7 +57,7 @@ There are two techniques that make messaging discreetly easier: plausible deniab
 
 These two techniques work hand-in-glove to keep our remote interactions discreet, and the best messaging systems offer features that let us make use of both techniques.
 
-For example, if you already have and use WhatsApp, then please don't install a burner app to text a sex worker. Why? Because it's instantly more suspicious to any observer, leaves a much larger digital footprint on your phone, is more difficult to explain to a spouse or family member, and is less private because it allows one or more third-parties (e.g., the app developer) to read our texts.
+For example, if you already have and use [WhatsApp](https://www.whatsapp.com/){:target="_blank"}, then please don't install a burner app to text a sex worker. Why? Because it's instantly more suspicious to any observer, leaves a much larger digital footprint on your phone, is more difficult to explain to a spouse or family member, and is less private because it allows one or more third-parties (e.g., the app developer) to read our texts.
 
 ## Common mistakes: burner numbers, extra apps, or even multiple phones
 
@@ -71,7 +71,11 @@ All of these techniques obviously fail the plausible deniability test. But they 
 
 ## Recommended discreet messaging tools
 
-In contrast to burner numbers, extra apps or email addresses, or conspicuously switching between multiple physical phones, my favorite messaging systems, Signal and WhatsApp, offer both end-to-end encryption and plausible deniability in a lot of excellent ways.
+In contrast to burner numbers, extra apps or email addresses, or conspicuously switching between multiple physical phones, my favorite messaging systems, Signal and WhatsApp, offer both end-to-end encryption and plausible deniability in a lot of excellent ways. They are also both free of charge, cross-platform, and globally available.
+
+{:.align-center}
+{% include link-as-button.md anchor_text="<span class='icon fa-brands fa-signal-messenger'></span> Get Signal" url="https://signal.org/install" target="_blank" %}
+{% include link-as-button.md anchor_text="<span class='icon fa-brands fa-whatsapp'></span> Get WhatsApp" url="https://www.whatsapp.com/download" target="_blank" %}
 
 ### Using WhatsApp's Chat Lock feature
 
@@ -95,8 +99,8 @@ If you've been paying particularly close attention, you may notice that while th
 Read more about Chat Lock in the WhatsApp support pages for iPhone and Android, respectively:
 
 {:.align-center}
-{% include link-as-button.md anchor_text="Hide Locked Chats on iPhone" url="https://faq.whatsapp.com/764072925284841/?cms_platform=iphone#hide-locked-chats" target="_blank" %}
-{% include link-as-button.md anchor_text="Hide Locked Chats on Android" url="https://faq.whatsapp.com/764072925284841/?cms_platform=android#view-your-locked-chats-folder" target="_blank" %}
+{% include link-as-button.md anchor_text="<span class='icon fa-brands fa-apple'></span>Hide Locked Chats on iPhone" url="https://faq.whatsapp.com/764072925284841/?cms_platform=iphone#hide-locked-chats" target="_blank" %}
+{% include link-as-button.md anchor_text="<span class='icon fa-brands fa-android'></span>Hide Locked Chats on Android" url="https://faq.whatsapp.com/764072925284841/?cms_platform=android#view-your-locked-chats-folder" target="_blank" %}
 
 It's hard to beat WhatsApp's Chat Lock feature for discretion. Its combination of ease of use, plausible deniability, and sufficiently strong encryption makes it an almost perfect choice for most clients.
 

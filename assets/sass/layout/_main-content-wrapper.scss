@@ -24,15 +24,15 @@
         padding-top: 1em;
         margin-bottom: 4em;
 
-        &::after {
-          content: "###";
-        }
-
         p {
           font-size: smaller;
         }
     }
 
+}
+
+#main-content-wrapper > footer:last-child::after {
+  content: "###";
 }
 
 #main-content-wrapper > div:first-child {
