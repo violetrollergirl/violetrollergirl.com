@@ -1,6 +1,9 @@
 ---
 name: How do I pass your screening process?
 weight: 15
+featured_image:
+  alt:
+  url: images/gallery-originals/kneeling-at-the-crypto-con.jpg
 ---
 
 My screening process is like many other providers&rsquo; and is required for our mutual safety and comfort. There are no exceptions. <em>Everyone must screen.</em> ([Why?]({% link _faq/screening/why-screen.md %}))
