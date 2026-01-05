@@ -3,8 +3,11 @@ title: Cryptocurrency Primer for Sex Workers
 description: >
     Violet Rollergirl's cryptocurrency primer gives you a
     foundation for understanding privacy-preserving finance tech.
+featured_image:
+  alt:
+  url: images/gallery-originals/upskirt-in-car-with-laptop-stickers.jpg
 next: resources/for-providers/using-cryptocurrency/wallet-apps/
-last_modified: Sat Dec  6 17:20:20 EST 2025
+last_modified: Mon Jan  5 16:03:35 EST 2026
 ---
 
 # {{ site.title }}'s cryptocurrency primer for providers
@@ -44,19 +47,21 @@ Using cryptocurrency correctly solves every single one of these problems. That's
 
 Since cryptocurrency can function like digital cash, I don't need to sign up to a big tech service or open an account at the cryptocurrency equivalent of a bank to use it. Since it's not actually physical, but rather "mathematical" money, there's no chance at all of a client giving me counterfeit bills or coins. For the same reason, once a client or customer sends me money in a cryptocurrency transaction, there's no way for that sender to initiate a reversal or punish me with a chargeback.
 
-There are also some additional benefits that using cryptocurrency has over fiat currency. I think the most awe-inspiring of these is how I can cross an international border with absolutely no physical device on my person, and yet still travel with all my money. In other words, cryptocurrency changes money from something you have (physical cash) into something you know (a secret pass phrase). If you memorize your cryptocurrency wallet's secret phrase, you'll always have access to your money in a way that no one can take away from you, even if you're traveling with nothing but your birthday suit.
+There are also some additional benefits that using cryptocurrency has over fiat currency. I think the most awe-inspiring of these is how I can cross an international border with absolutely no physical device on my person, and yet still travel with all my money. In other words, cryptocurrency changes money from something you have (paper money) into something you know (a secret pass phrase). If you memorize your cryptocurrency wallet's secret phrase, you'll always have access to your money in a way that no one can take away from you, even if you're traveling with nothing but your birthday suit.
 
 ## Two kinds of cryptocurrencies: private and not private
 
 Some of the above, like the way cryptocurrency makes counterfeits impossible (cryptographers would say, "mathematically infeasible") is made possible regardless of which cryptocurrency you use. Bitcoin is the famous cryptocurrency, and it's had this counterfeit-proof characteristic since its inception. But some of the other things I talk about above are only possible if you strictly limit yourself to certain cryptocurrency technologies that are broadly classified as *privacy coins*.
 
-A privacy coin is a cryptocurrency that keeps transaction data, such as a payment's sender, recipient, and amount, secret. Technically, privacy coins use math known as zero-knowledge proofs (*ZKPs*) to encrypt the details of each transaction so that only the sender and intended recipient know what's up. Only privacy coins do this. In contrast, using Bitcoin literally broadcasts your financial dealings for the world to see. I don't want to be doing that, nor do my clients. It's the same reason we [use encrypted messaging apps to communicate privately]({% link resources/for-clients/messaging-discreetly/index.md %}).
+A privacy coin is a cryptocurrency that keeps transaction data, such as a payment's sender, recipient, and amount, secret. Technically, privacy coins use math known as zero-knowledge proofs (*ZKPs*) to encrypt the details of each transaction so that only the sender and intended recipient know what's up. Only privacy coins do this. In contrast, using Bitcoin literally broadcasts your financial dealings for the world to see. I don't want to be doing that, nor do my clients. It's the same reason we [use encrypted messaging apps like Signal]({% link resources/for-providers/signal-for-sex-work/index.md %}) to [communicate privately]({% link resources/for-clients/messaging-discreetly/index.md %}).
 
 There are a lot of privacy coins out there, but the only two that I'm going to talk about in detail are the two most reputable and proven ones, the ones [I trust to keep my transactions private: Zcash and Monero]({% link colophon/index.md %}#cryptocurrency-tips-and-donation-links).
 
 ### Zcash in a nutshell
 
-Zcash is the gold standard in cryptocurrency privacy technology. It was also the first privacy coin to popularize the idea of using zero-knowledge proofs to encrypt cryptocurrency transactions. It was super slow when it was first introduced in 2016, but has since become faster and better in so many ways. Today, Zcash is in its sixth major iteration (called a [*network upgrade*](https://z.cash/network/){:target="_blank"}), and now uses a technology called [zk-SNARKs](https://z.cash/learn/what-are-zk-snarks/){:target="_blank"}, which is a funny name that stands for Zero-Knowledge Succinct Non-interactive ARguments of Knowledge, to massively speed up the computation required for the strong privacy guarantees it gives us.
+[Zcash](https://z.cash/){:target="_blank"} is the gold standard in cryptocurrency privacy technology.
+
+It was also the first privacy coin to popularize the idea of using zero-knowledge proofs to encrypt cryptocurrency transactions. It was super slow when it was first introduced in 2016, but has since become faster and better in so many ways. Today, Zcash is in its sixth major iteration (called a [*network upgrade*](https://z.cash/network/){:target="_blank"}), and now uses a technology called [zk-SNARKs](https://z.cash/learn/what-are-zk-snarks/){:target="_blank"}, which is a funny name that stands for Zero-Knowledge Succinct Non-interactive ARguments of Knowledge, to massively speed up the computation required for the strong privacy guarantees it gives us.
 
 A lot of people who have been in the cryptocurrency space for a while have a lot of bad information about Zcash, which stem from an outdated understanding of its technology and app ecosystem.
 
@@ -64,11 +69,13 @@ Most people who rag on Zcash will tell you that it's "not private by default." T
 
 Good apps like [Zashi Wallet](https://electriccoin.co/zashi/){:target="_blank"} exist that not only fully support and default to Zcash's shielded mode, they also automatically convert non-private/public/transparent Zcash funds into their shielded/private equivalents. Zashi in particular also prevents you from spending unshielded funds, and even goes so far as to help protect your privacy from all kinds of other deanonymization techniques by making it dead-simple to use the famous privacy-enhancing anonymizing proxy called [Tor](https://torproject.org/){:target="_blank"} from right within the app. Zashi is made by the same team that built Zcash itself. It's [my favorite wallet app for Zcash]({% link resources/for-providers/using-cryptocurrency/wallet-apps/index.md %}#zashi-privacy-focused-zcash-wallet-app).
 
-Some critics of Zcash will also describe it as having "too small an anonymity set," which is fancy-speak for "not enough people are using it to make it really private." That's a bit like saying you shouldn't use Signal Private Messenger because using it will look suspicious, and while that may be true(-ish) for some people in some circumstances some of the time, it's just not a convincing argument. If you have the choice between two tools, and one protects you while the others don't, just use the one protecting you.
+Some critics of Zcash will also describe it as having "too small an anonymity set," which is fancy-speak for "not enough people are using it to make it really private." That's a bit like saying you shouldn't use Signal Private Messenger because using it will look suspicious, and while that may be true(-ish) for some people in some circumstances some of the time, it's just not a convincing argument.
+
+If you have the choice between two tools, and one protects you while the others don't, just use the one protecting you.
 
 ### Monero in a nutshell
 
-The other privacy coin a lot of people like, and that I'll use, is Monero. This is the bad boy of the privacy coin world, because it's been the cryptocurrency most used by darknet markets and ransomware gangs. A lot of people think Monero is only useful for evil things, but that's also like saying encryption is only useful for evil things.
+The other privacy coin a lot of people like, and that I'll use, is [Monero](https://www.getmonero.org/){:target="_blank"}. This is the bad boy of the privacy coin world, because it's been the cryptocurrency most used by darknet markets and ransomware gangs. A lot of people think Monero is only useful for evil things, but that's also like saying pencils are bad because sometimes people write hateful things with them.
 
 In reality, Monero is just a privacy coin like Zcash, except it uses a different technology than Zcash to offer its privacy. Unlike Zcash, Monero uses a technique called [Ring Confidential Transactions or RingCT](https://www.getmonero.org/resources/moneropedia/ringCT.html){:target="_blank"}, in which your transaction data is mixed with and hidden among a bunch of decoy transactions. This makes it harder (but not impossible) to determine which transaction is your real one and which is not.
 
@@ -76,7 +83,7 @@ There's a famous saying in the cybersecurity world that goes, "security through 
 
 I also like Monero specifically because it doesn't use the same technology as Zcash. Another famous saying in cybersecurity is that all good security measures have "defense in depth." This is sometimes called "layered security," and in this case it means there's only an upside to using both Monero and Zcash together if you want to. I think this is overkill for everyone except the most dedicated or at-risk individuals, but using two technologies that are different from one another means that if disaster strikes and one of the two is later broken, you're still protected because you used the other, too.
 
-My favorite app for Monero is [Cake Wallet](https://cakewallet.com/){:target="_blank"}.
+My [favorite app for Monero is Cake Wallet]({% link resources/for-providers/using-cryptocurrency/wallet-apps/index.md %}#cake-wallet-privacy-focused-monero-wallet-app).
 
 ## Self-custody or bust
 
@@ -84,7 +91,7 @@ Just like there are two broad kinds of cryptocurrencies you could use (private a
 
 The concept of "custody" in cryptocurrency refers to who keeps your money for you. Either you do, *self-custody*, or someone else does, *third-party custody*. This is confusing for a lot of people because both types of apps will call themselves "wallets," which makes people think the money is in their own hands, just like putting money inside of a physical wallet means you keep it on your person. In reality, only self-custody wallets do this. Third-party custodial wallets, such as those offered by Coinbase, CashApp, and many others, are actually more like traditional bank accounts; you need to ask a teller to please give you your money back when you need it, because they're holding on to it for you.
 
-I don't trust third-party custodial wallets. I don't have them. I won't use them. I'll never recommend them for sex workers, although clients can still use them to pay us. (See [my cryptocurrency guides for clients]({% link resources/for-clients/using-cryptocurrency/index.md %}) to learn more about that side.)
+**I don't trust third-party custodial wallets.** I don't have them. I won't use them. I'll never recommend them for sex workers, although clients can still use them to pay us. (See [my cryptocurrency guides for clients]({% link resources/for-clients/using-cryptocurrency/index.md %}) to learn more about that side.)
 
 Self-custodial wallet apps are the way to go. Using a third-party custodial wallet re-introduces most of the risks of the traditional financial system. Put another way, self-custodial wallets are the only sure-fire way to protect yourself from suffering chargebacks, or getting doxed.
 
@@ -98,7 +105,9 @@ I'll talk more about that later when I discuss [wallet app backups and recovery 
 
 Hopefully, this gives you enough of a foundation to understand why I use cryptocurrency and why you might want to, too. By sticking to privacy coins like Zcash and Monero, none of my financial transactions can be linked to my real-world information. By avoiding third-party custodial wallets and services, I never need to show my government ID to a banking institution, and I'm protected from chargebacks because I am effectively my own bank. And using cryptocurrency in the first place protects me from counterfeits.
 
-The biggest downside to cryptocurrency is that it's still not used by the majority of clients or customers, and it's still not accepted by most civilian businesses to pay for ordinary things. Slowly, both of these things are beginning to shift and in the meantime there are an increasing number of ways to [spend your hard-earned crypto on "real world" stuff]({% link resources/for-providers/using-cryptocurrency/off-ramping/index.md %}). As more providers learn to accept and use cryptocurrency, we can accelerate a crypto-native economy while getting more clients on board, too.
+The biggest downside to cryptocurrency is that it's still not used by the majority of clients or customers, and it's still not accepted by most civilian businesses to pay for ordinary things. Slowly, both of these things are beginning to shift and in the meantime there are an increasing number of ways to [spend your hard-earned crypto on "real world" stuff]({% link resources/for-providers/using-cryptocurrency/off-ramping/index.md %}).
+
+As more providers learn to accept and use cryptocurrency, we can accelerate a crypto-native economy while getting more clients on board, too.
 
 {:.button-container}
 {% include link-as-button.md anchor_text="Next: Wallet apps" url=page.next %} {% include link-as-button.md anchor_text="Up" url="../" %}
