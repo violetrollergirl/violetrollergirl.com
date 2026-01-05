@@ -231,7 +231,7 @@ layout: none
                 accumulator[currentValue.name] = currentValue.value;
                 return accumulator;
             }, {} );
-            var templateText = `Hi {{ site.author | split: " " | first }},
+            var templateText = `Hi {{ site.author.name | split: " " | first }},
 
 Please allow me to introduce myself. My name is ${inquiryData.booking_inquiry_prospect_name}. I read your screening requirements and am comfortable being screened by sending you ${inquiryData.booking_inquiry_prospect_preferred_screening_method}.
 
