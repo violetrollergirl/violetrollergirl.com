@@ -20,7 +20,7 @@ My favorite messaging platform as an independent escort is [<span class="icon fa
 
 I use Signal for far more than just my business needs, but its featureset is so uniquely useful for my career as a sex worker that I often find myself lamenting that it isn't already a standard part of every provider and client's toolbox.
 
-This article is my attempt to convey why Signal Private Messenger is so useful and simultaneously show you how to use it in your business. My hope is that by documenting how I use it, more of the industry will shift to communicating this way by default, raising the baseline of security and privacy in our industry that will keep us all safer.
+This article is my attempt to convey why Signal Private Messenger is so useful and simultaneously show you how to use it in your business. My hope is that by documenting how I use it, more of the industry will shift to communicating this way for more if not all of our correspondence, raising the baseline of security and privacy that will keep us all safer.
 
 ## In this article
 
@@ -183,7 +183,7 @@ One easy way to think about the difference between confidentiality and integrity
 - Integrity ensures the two parties in a given conversation are in fact the two parties *you expect* to be in that specific conversation.
 - (Availability simply means that the system can be used when it is needed.)
 
-If a system is confidential but not integrious, it isn't really "secure." I verify Signal Safety Numbers even though it takes a small additional step, because it's different from the automatic and default end-to-end encryption Signal offers by default.
+If a system is confidential but not integrious, it isn't really "secure." I verify Signal Safety Numbers even though it takes a small additional step, because it's different from the automatic and end-to-end encryption Signal offers by default.
 
 Just to hammer this point home, consider that it's certainly possible for me to be having a conversation over the Internet with someone who turns out to be someone else. As a sex worker, I'm sure you've no doubt been targeted by phishing scams claiming that your Tryst account is under review and you must act now to restore your profile. Well, clients fear a similar thing.
 
