@@ -112,9 +112,7 @@ collections:
   posts:
     permalink: /blog/:year/:month/:day/:title/
   testimonials:
-    # TODO: Uncomment when ready to publish.
-    #output: true
-    permalink: /:collection/:title/
+    # Output via loop on `testimonials/index.md` for now.
 
 # Gallery.
 # Configure which exif data to display
