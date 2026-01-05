@@ -114,6 +114,13 @@ collections:
   testimonials:
     # Output via loop on `testimonials/index.md` for now.
 
+plugins:
+  - jekyll-redirect-from
+
+# For Jekyll in Safe Mode.
+whitelist:
+    - jekyll-redirect-from
+
 # Gallery.
 # Configure which exif data to display
 # Tag is the actual exif tag, icon is a fontawesome icon. Use JSON notation without line breaks

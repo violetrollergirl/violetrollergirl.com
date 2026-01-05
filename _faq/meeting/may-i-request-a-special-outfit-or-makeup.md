@@ -3,6 +3,8 @@ name: May I request a specific outfit or makeup?
 featured_image:
   alt:
   url: images/gallery-originals/polkadot-outfit-over-a-railing.jpg
+redirect_from:
+  - /faq/meetings/may-i-request-a-special-outfit-or-makeup/
 ---
 
 Yes and yes! I love knowing what gets you going! With enough time to prepare, we can make fantasies come to life!

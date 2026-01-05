@@ -5,6 +5,8 @@ featured_image:
   alt: >
     Violet relaxes on a couch with a charcuterie board and a bottle
     of tequila on a coffee table in front of her.
+redirect_from:
+  - /faq/meetings/when-will-you-be-in-my-city/
 ---
 
 I religiously maintain <a href="#tours">my public travel calendar</a>, which will show you where I'm planning to be and when.

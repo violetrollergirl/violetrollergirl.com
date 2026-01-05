@@ -3,6 +3,8 @@ name: Do you take CashApp/PayPal/Venmo?
 featured_image:
   alt:
   url: images/gallery-originals/mansion-villa-at-night.jpg
+redirect_from:
+  - /faq/bookings/do-you-take-cashapp-paypal-venmo/
 last_modified: Wed Dec 31 18:15:18 EST 2025
 ---
 

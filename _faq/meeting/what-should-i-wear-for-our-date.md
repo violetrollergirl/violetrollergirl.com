@@ -4,6 +4,8 @@ weight: 10
 featured_image:
   alt:
   url: images/gallery-originals/pool-table-orange-and-black.jpg
+redirect_from:
+  - /faq/meetings/what-should-i-wear-for-our-date/
 ---
 
 The short answer is **wear whatever you're comfortable in. Yes, for real!** This is doubly true for picking [outfits for a video date]({% link _faq/meeting/what-clothing-is-appropriate-for-video-dates.md %}).

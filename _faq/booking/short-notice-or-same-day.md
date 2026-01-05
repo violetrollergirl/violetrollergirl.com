@@ -7,6 +7,9 @@ description: >
 featured_image:
   alt:
   url: images/gallery-originals/hotel-window.jpg
+redirect_from:
+  - /faq/bookings/short-notice-or-same-day/
+last_modified: Mon Jan  5 14:22:29 EST 2026
 ---
 
 Bluntly, probably not.
