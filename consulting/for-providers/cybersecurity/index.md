@@ -7,7 +7,7 @@ description: >
 
 # Cybersecurity Consultations: Digital Safety and Online Privacy for Sex Workers
 
-Hi there. If you're reading this page, you've probably been steered here by a friend, colleague, or directly by me to learn more about my highly personalized cybersecurity consultations for fellow sex workers. This part of my website is a little bit hidden, but not secret.
+Hi there. If you're reading this page, you've probably been steered here by a friend, colleague, or directly by me to learn more about my highly personalized cybersecurity consultations for fellow sex workers. I offer this service as an extension of my [free articles, guides, and other resources for providers]({% link resources/for-providers/index.md %}) and am happy to do so at a sliding scale rate for colleagues in the industry. As a result, this part of my website is a little bit hidden, but not secret.
 
 ## I saw something the Priests of High Tech wanted to keep secret
 
@@ -29,7 +29,7 @@ This is the same service I offer for civ clients, but at much reduced (sliding s
 
 ## It's like a booking, but only our computers start vulnerable
 
-If you want to discuss meeting with me for this purpose, the only way to get in touch is via [Signal Private Messenger](https://signal.org/). If you don't have that, you're going to need it, so go get that now. I don't discuss the details of this over any other messaging channel.
+If you want to discuss meeting with me for this purpose, the only way to get in touch with me for this is via [Signal Private Messenger](https://signal.org/){:target="_blank"}. If you don't have that, you're going to need it&mdash;I've written an entire [guide for sex workers to explain how to set Signal up for work]({% link resources/for-providers/signal-for-sex-work/index.md %})&mdash;so go get that now. I don't discuss the details of this over any other messaging channel.
 
 Signal is also a tool I'll refer to over and over again. You're going to want it, trust me.
 
