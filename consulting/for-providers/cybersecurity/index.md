@@ -3,11 +3,21 @@ title: Cybersecurity Consultations for Providers
 description: >
   For fellow sex workers, Violet offers highly personalized, 1-on-1
   cybersecurity consultations on a sliding scale basis.
+featured_image:
+  alt:
+  url: images/gallery-originals/upskirt-in-car-with-laptop-stickers.jpg
 ---
 
 # Cybersecurity Consultations: Digital Safety and Online Privacy for Sex Workers
 
 Hi there. If you're reading this page, you've probably been steered here by a friend, colleague, or directly by me to learn more about my highly personalized cybersecurity consultations for fellow sex workers. I offer this service as an extension of my [free articles, guides, and other resources for providers]({% link resources/for-providers/index.md %}) and am happy to do so at a sliding scale rate for colleagues in the industry. As a result, this part of my website is a little bit hidden, but not secret.
+
+## On this page
+
+1. [I saw something the Priests of High Tech wanted to keep secret](#i-saw-something-the-priests-of-high-tech-wanted-to-keep-secret)
+1. [A protection spell, not a checklist](#a-protection-spell-not-a-checklist)
+1. [It's like a booking, but only our computers start vulnerable](#its-like-a-booking-but-only-our-computers-start-vulnerable)
+1. [How to reach out for this service](#how-to-reach-out-for-this-service)
 
 ## I saw something the Priests of High Tech wanted to keep secret
 
@@ -34,6 +44,8 @@ If you want to discuss meeting with me for this purpose, the only way to get in 
 Signal is also a tool I'll refer to over and over again. You're going to want it, trust me.
 
 If you already have Signal, you can [contact me](#contact) via the Signal link on this very website. If we're not already acquainted, I'll ask you to verify that you are a sex worker through either a mutual (previously verified) friend of mine, or an age-verified Web presence. You need not give me your legal identity, just your working persona.
+
+## How to reach out for this service
 
 To start, tell me:
 
