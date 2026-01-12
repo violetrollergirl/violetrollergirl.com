@@ -127,12 +127,20 @@ layout: none
 
             });
 
-            // Open menu details when permalinked to them.
             $window.on('load hashchange', function (event) {
+                // Open menu details when permalinked to them.
                 if (window.location.hash.startsWith('#rate-')) {
                     var el = document.getElementById(window.location.hash.substring(1));
                     if (el) {
                         el.querySelector('details').open = true;
+                    }
+                }
+
+                // Open testimonial when permalinked to it.
+                if (document.querySelector('details[name=testimonial-details]')) {
+                    var el = document.getElementById(`testimonial-${window.location.hash.substring(1)}`);
+                    if (el) {
+                        el.open = true;
                     }
                 }
             });

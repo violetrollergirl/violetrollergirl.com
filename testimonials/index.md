@@ -20,7 +20,8 @@ See if you can hear it in the kind words from some of my darlings and sweetheart
 {% for t in site.testimonials %}
 {:style="margin-top: 3em;"}
 ## "{{ t.title }}"
-<details name="testimonial-details"
+<details id="testimonial-{{ t.title | slugify }}"
+    name="testimonial-details"
     {% if forloop.first %}open="open"{% endif %}>
 <summary>
     <a
@@ -31,7 +32,7 @@ See if you can hear it in the kind words from some of my darlings and sweetheart
 <blockquote>
 {{ t.content }}
 
-&mdash;{{ t.author.name }} on {{ t.datePublished | date_to_string }}
+&mdash;{{ t.author.name }}
 </blockquote>
 </details>
 {% endfor %}
