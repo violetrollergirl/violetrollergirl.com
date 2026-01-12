@@ -11,6 +11,10 @@
 	min-height: 100%;
 	background: _palette(bg-overlay-alt-min);
 
+    @include breakpoint(medium) {
+      padding: 1em;
+    }
+
     h2,
     h3,
     h4,
@@ -43,8 +47,9 @@
     background-color: rgba(5, 5, 5, 0.85);
 
     @include breakpoint(medium) {
-      width: 100%;
       margin: 0 auto;
+      padding: 1em;
+      width: 100%;
     }
 
     &.no-featured-image {
