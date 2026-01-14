@@ -27,6 +27,12 @@
     li {
         flex: 1;
         text-align: center;
+        margin: 0 .5em;
+    }
+
+    a {
+      width: 100%;
+      word-break: break-word;
     }
 }
 
