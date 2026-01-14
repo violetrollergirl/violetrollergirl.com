@@ -15,7 +15,7 @@ Content for the "FAQ"/Q&amp;A Panel.
 {{ desc_item.content }}
 
 <ol>
-{% assign group_items = g.items | where_exp: "item", "item.publish != false" | sort: "weight", "last" %}
+{% assign group_items = g.items | where_exp: "item", "item.publish != false" | sort: "weight", "first" %}
 {% for q in group_items %}
     <li>
         <a href="{{ q.url }}">{{ q.name }}</a>

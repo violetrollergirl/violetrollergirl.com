@@ -7,6 +7,7 @@ description: >
 featured_image:
   alt:
   url: images/gallery-originals/vegas-party-girl.jpg
+weight: 90
 redirect_from:
   - /faq/services/do-you-entertain-groups/
 ---

@@ -9,7 +9,10 @@ redirect_from:
   - /faq/meetings/when-will-you-be-in-my-city/
 ---
 
-I religiously maintain <a href="#tours">my public travel calendar</a>, which will show you where I'm planning to be and when.
+I often *tour*, or make myself available for dates while away from my [home cities]({% link index.html %}#tech-spec-home-cities). My [public travel calendar](#tours) will show you where I'm planning to be and when:
+
+{:.button-container}
+[<span class="icon fa-solid fa-calendar-check"></span> Check availability](#tours){:.button}
 
 **I only travel where I want to go, or where I'm pre-booked** for an extended date or tour. If I'm coming to your city and you haven't pre-booked a date with me, it either means someone else has booked me, I'm there for a personal reason, or both! You're much more likely to find me in your city if you bring me to it.
 

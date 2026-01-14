@@ -5,6 +5,7 @@ featured_image:
   url: images/gallery-originals/hacker-terminal-Violet-Rollergirl-9095_124315~2.jpg
 redirect_from:
   - /faq/bookings/redeeming-easter-eggs/
+weight: 90
 last_modified: Fri Jan  2 20:22:13 EST 2026
 ---
 
