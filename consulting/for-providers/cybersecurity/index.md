@@ -58,12 +58,12 @@ To start, tell me:
     - and much more. You tell me what's keeping you up at night! If I can help, I'll let you know.
 - when you can discuss the matter; I have a very flexible schedule, so it helps if you give me a couple different date/time options.
     - You can be as specific as you like; supplying a range is also okay.
+    - Refer to my travel [calendar](#tours) for my current best-guess of which city I'll be in on what dates.
 - how long you want to reserve my time for. It's also okay not to know, in which case I'll make a suggestion based on your initial concerns.
     - Most people need at least 90 minutes for even basic concerns.
     - I'm likely to suggest a minimum of 2 hours. It's often the case that once we start tugging on one thread, we'll find it's connected to many others.
 - where you can meet; the general neighborhood is specific enough. From there, we can find a café that works for us both, or coordinate a more discreet venue if you need additional privacy.
     - I am also available for online consultations but this may dramatically limit some of what I can help with depending on your needs and initial concerns.
-    - Refer to my travel [calendar](#tours) for my current best-guess of which city I'll be in on what dates.
 - how much of a budget you have for this.
     - I am happy to accommodate sliding scale needs. Just let me know your situation and we'll take it from there.
 

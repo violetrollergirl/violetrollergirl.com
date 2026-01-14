@@ -28,9 +28,9 @@ Cryptocurrency is becoming increasingly popular with both providers and our clie
 1. [List of guides](#list-of-guides)
     1. ["I have never used digital payment apps before."](#i-have-never-used-digital-payment-apps-before)
     1. ["I already use a digital payment app."](#i-already-use-a-digital-payment-app)
-        - [<span class="icon fa-brands fa-cash-app"></span> CashApp]({% link resources/for-clients/using-cryptocurrency/cashapp/index.md %})
-        - [<span class="icon fa-brands fa-paypal"></span> PayPal]({% link resources/for-clients/using-cryptocurrency/paypal/index.md %})
-        - [<span class="icon fa-brands fa-v"></span> Venmo]({% link resources/for-clients/using-cryptocurrency/venmo/index.md %})
+        - [<span class="icon fa-brands fa-cash-app"></span> CashApp]({% link resources/for-clients/using-cryptocurrency/cashapp/index.md %}#buy-bitcoin-in-cashapp)
+        - [<span class="icon fa-brands fa-paypal"></span> PayPal]({% link resources/for-clients/using-cryptocurrency/paypal/index.md %}#complete-your-crypto-purchase-via-paypal)
+        - [<span class="icon fa-brands fa-v"></span> Venmo]({% link resources/for-clients/using-cryptocurrency/venmo/index.md %}#complete-your-crypto-purchase-via-venmo)
     1. ["I have an account at a cryptocurrency exchange."](#i-have-an-account-at-a-cryptocurrency-exchange)
 1. [Paying your provider](#paying-your-provider)
 1. [Have questions? I'm here for you!](#have-questions-im-here-for-you)
@@ -56,7 +56,7 @@ The rest of this guide covers a lot of different options. For example, if you al
 **If you have never used a digital payment app of any kind before,** crypto or otherwise, then start at my "[Quick(est) Start]({% link resources/for-clients/using-cryptocurrency/quick-start/index.md %})" guide:
 
 {:.align-center}
-{% include link-as-button.md anchor_text="Crypto Quick(est) Start Guide" url="/resources/for-clients/using-cryptocurrency/quick-start/" %}
+{% include link-as-button.md anchor_text="Crypto Quick(est) Start" url="/resources/for-clients/using-cryptocurrency/quick-start/" %}
 
 Otherwise, if you have a digital payment app or an account at a cryptocurrency exchange, read on.
 
@@ -66,20 +66,24 @@ For more specific help, choose the option that best describes you from the list 
 
 ### "I have never used digital payment apps before."
 
-No stress! Start at [my "Quick(est) Start" guide]({% link resources/for-clients/using-cryptocurrency/quick-start/index.md %}), which explains how to sign up for one of the largest cryptocurrency exchanges, Coinbase, where you can buy crypto and make payments.
+No stress! Start at my ["Quick(est) Start"]({% link resources/for-clients/using-cryptocurrency/quick-start/index.md %}) guide, which explains how to sign up for the most private of the largest cryptocurrency exchanges, Gemini, where you can buy crypto and make payments.
+
+{:.align-center}
+{% include link-as-button.md anchor_text="Crypto Quick(est) Start" url="/resources/for-clients/using-cryptocurrency/quick-start/" %}
 
 ### "I already use a digital payment app."
 
 {:.fa-ul}
-- [<span class="fa-li fa-brands fa-cash-app"></span> CashApp]({% link resources/for-clients/using-cryptocurrency/cashapp/index.md %})
-- [<span class="fa-li fa-brands fa-paypal"></span> PayPal]({% link resources/for-clients/using-cryptocurrency/paypal/index.md %})
-- [<span class="fa-li fa-brands fa-v"></span> Venmo]({% link resources/for-clients/using-cryptocurrency/venmo/index.md %})
+- [<span class="fa-li fa-brands fa-cash-app"></span> CashApp]({% link resources/for-clients/using-cryptocurrency/cashapp/index.md %}#buy-bitcoin-in-cashapp)
+- [<span class="fa-li fa-brands fa-paypal"></span> PayPal]({% link resources/for-clients/using-cryptocurrency/paypal/index.md %}#complete-your-crypto-purchase-via-paypal)
+- [<span class="fa-li fa-brands fa-v"></span> Venmo]({% link resources/for-clients/using-cryptocurrency/venmo/index.md %}#complete-your-crypto-purchase-via-venmo)
 
 ### "I have an account at a cryptocurrency exchange."
 
-- [Coinbase]({% link resources/for-clients/using-cryptocurrency/coinbase/index.md %})
-- [Kraken]({% link resources/for-clients/using-cryptocurrency/kraken/index.md %}) - TODO
+- [Coinbase]({% link resources/for-clients/using-cryptocurrency/coinbase/index.md %}#complete-your-crypto-purchase-via-coinbase)
+- [Gemini]({% link resources/for-clients/using-cryptocurrency/gemini/index.md %}#complete-your-crypto-purchase-via-gemini)
 - [Binance]({% link resources/for-clients/using-cryptocurrency/binance/index.md %}) - TODO
+- [Kraken]({% link resources/for-clients/using-cryptocurrency/kraken/index.md %}) - TODO
 
 ## Paying your provider
 

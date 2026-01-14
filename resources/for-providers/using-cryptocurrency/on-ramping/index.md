@@ -5,7 +5,7 @@ description: >
     Getting paid in crypto is easiest, but there are other ways!
 prev: resources/for-providers/using-cryptocurrency/wallet-apps/
 next: resources/for-providers/using-cryptocurrency/off-ramping/
-last_modified: Sat Dec  6 18:05:20 EST 2025
+last_modified: Wed Jan 14 09:02:10 EST 2026
 ---
 
 # On-ramping: acquiring cryptocurrency funds (as a sex worker)
@@ -24,6 +24,7 @@ Now that you have a privacy-preserving [cryptocurrency wallet app]({% link resou
 1. [MintPay: Fiat income with cryptocurrency withdrawals](#mintpay-fiat-income-with-cryptocurrency-withdrawals)
 1. [Converting fiat currency to cryptocurrency](#converting-fiat-currency-to-cryptocurrency)
     1. [Buy ZEC via cryptocurrency exchanges](#buy-zec-via-cryptocurrency-exchanges)
+        1. [Withdrawing funds privately](#withdrawing-funds-privately)
     1. [Buy Monero in Cake Wallet](#buy-monero-in-cake-wallet)
 
 ## Getting paid directly in crypto
@@ -153,17 +154,17 @@ Since our clients face way less banking discrimination than we do, it's far more
 {:.align-center}
 [Crypto Quick(est) Start]({% link resources/for-clients/using-cryptocurrency/quick-start/index.md %}){:.button}
 
-One very important thing to remember is that buying Zcash at a cryptocurrency exchange is *not* private; you're buying transparent ZEC, not shielded ZEC.
+#### Withdrawing funds privately
 
-For regulatory compliance reasons, most big exchanges don't support Zcash's shielded mode, which means buying ZEC with fiat currency is one of a very small number of situations in which you may need to provide your transparent address (sometimes called a "t-addr") to the exchange to move your ZEC into your Zashi wallet app. However, once purchased and held in your Zashi wallet, the app will automatically shield your funds, making them private again.
+One very important thing to remember is that buying Zcash at a cryptocurrency exchange is *not* private. You're buying transparent ZEC from a custodial account, not shielded ZEC held in a self-custodial wallet app. Moreover, if a cryptocurrency exchange doesn't support [shielded ZEC withdrawals](https://www.gemini.com/blog/youre-one-step-closer-to-financial-freedom-with-shielded-zec-withdrawals){:target="_blank"}, you cannot privately move ZEC to your self-custodial wallet.
 
-This is why, if you intend to use Zcash, my advice is to simply buy Bitcoin or Ethereum, and then [use the swap deposit method in Zashi](#how-to-do-a-swap-deposit-with-zashi) that I described above to convert those funds from your crypto exchange account to Zcash in your Zashi wallet app.
+As I write this guide, [the *only* major cryptocurrency exchange that supports shielded ZEC withdrawals is Gemini](https://electriccoin.co/blog/gemini-sets-the-standard-for-privacy-on-cexs-with-shielded-zec-withdrawals/){:target="_blank"}, a feature they should be praised for. This makes it possible to move ZEC from your Gemini account directly to a Zcash shielded address.
 
-> &#x1F4A1; As of this writing (August 2025), [Gemini is the one cryptocurrency exchange I'm aware of that supports Zcash's shielded addresses](https://www.gemini.com/blog/youre-one-step-closer-to-financial-freedom-with-shielded-zec-withdrawals){:target="_blank"}, including the universal address format that Zashi uses.
+This lack of support for shielded ZEC withdrawals from the cryptocurrency exchanges that support Zcash in the first place is why I often advise buying Bitcoin or Ethereum from those exchanges and then using [the swap deposit method](#complete-your-crypto-purchase-via-gemini) I described above to withdraw those funds from your cryptocurrency exchange account.
 
-It's extremely important to understand that buying ZEC from one of these big exchanges and sending it directly to your Zashi wallet app is not the same as buying ZEC and then keeping it in the account you created at the exchange. By moving your funds out of the exchange and into your Zashi wallet app immediately, you are doing the equivalent of withdrawing your money from the bank so you can hold onto it (and protect it) yourself.
+Another important thing to understand is that buying ZEC from one of these custodial exchanges and sending it directly to your self-custodial wallet app is not the same as buying ZEC and then keeping it in the account you created at the exchange. By moving your funds out of the exchange and into your self-custodial wallet app immediately, you're doing the equivalent of withdrawing your money from the bank so you can hold onto and protect it yourself.
 
-The important takeaway is that by choosing to hold a privacy coin, once you receive your ZEC or XMR in your self-custodial wallet app, you can move it about freely and privately. That's the only way to effectively free your money from others' control.
+The ultimate takeaway is that by choosing to hold a privacy coin, once you receive your ZEC or XMR in your self-custodial wallet app, you can move it about freely and privately. That's the only way to effectively free your money from others' control.
 
 ### Buy Monero in Cake Wallet
 

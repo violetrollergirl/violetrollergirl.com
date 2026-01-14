@@ -52,7 +52,7 @@ Depending on the payment method you chose and how you linked it, you may be able
 Once you [create your Coinbase account](#create-your-coinbase-account) and [add a payment method to it](#add-a-payment-method-to-your-coinbase-account), you can use Coinbase to exchange some of your existing local money into crypto. This is Coinbase's entire purpose for existing, so they make it really easy to do this.
 
 {:.align-center}
-{% include link-as-button.md anchor_text="How to Buy Crypto on Coinbase" url="https://help.coinbase.com/en/coinbase/trading-and-funding/buying-selling-or-converting-crypto/how-do-i-buy-digital-currency" target="_blank" %}
+{% include link-as-button.md anchor_text="Buy Crypto on Coinbase" url="https://help.coinbase.com/en/coinbase/trading-and-funding/buying-selling-or-converting-crypto/how-do-i-buy-digital-currency" target="_blank" %}
 
 At this point, Coinbase will show you that you have a positive crypto balance in your "wallet" (which is really a bank account, not a true wallet). You can now use that balance to [pay your worker in crypto]({% link resources/for-clients/using-cryptocurrency/paying-your-provider/index.md %})!
 

@@ -4,21 +4,24 @@ description: >
     Brand new to crypto? Start here to learn how to quickly get and
     send payments to your providers directly in crypto.
 prev: resources/for-clients/using-cryptocurrency/
-next: resources/for-clients/using-cryptocurrency/coinbase/
-last_modified: Sat Oct  4 15:48:20 EDT 2025
+next: resources/for-clients/using-cryptocurrency/gemini/
+featured_image:
+  alt:
+  url: images/gallery-originals/mansion-villa-at-night.jpg
+last_modified: Wed Jan 14 08:22:05 EST 2026
 ---
 
 # Violet Rollergirl's Cryptocurrency Quick(est) Start
 
 If you're reading this page, you're ready to pay in crypto. Awesome! Only one problem: you don't have any, and haven't done this before.
 
-> **&#9432; This guide presumes you have no existing digital payment services at all.** If you already have a digital payment app that supports cryptocurrency and want to use that one, see my [list of cryptocurrency guides]({% link resources/for-clients/using-cryptocurrency/index.md %}#list-of-guides).
+> **&#9432; This guide presumes you have no existing digital payment services at all.** If you already have a digital payment app that supports cryptocurrency and want to use that one (like [CashApp]({% link resources/for-clients/using-cryptocurrency/cashapp/index.md %}), [PayPal]({%  link resources/for-clients/using-cryptocurrency/paypal/index.md %}), or [Venmo](% link resources/for-clients/using-cryptocurrency/venmo/index.md %)), see my [list of cryptocurrency guides]({% link resources/for-clients/using-cryptocurrency/index.md %}#list-of-guides).
 
 ## In this article
 
 1. [Overview: How to understand what's happening here](#overview-how-to-understand-whats-happening-here)
     1. [Which cryptocurrency should I buy?](#which-cryptocurrency-should-i-buy)
-1. [Next step: get started with Coinbase](#next-step-get-started-with-coinbase)
+1. [Next step: get started with Gemini](#next-step-get-started-with-gemini)
 
 ## Overview: How to understand what's happening here
 
@@ -29,17 +32,19 @@ That's exactly how cryptocurrency works: you start with US Dollars (or whatever 
 So, here's what we'll do:
 
 1. Sign up for an account at a *cryptocurrency exchange*.
-    - This is the crypto equivalent of the foreign currency exchange at the airport.
-    - Some digital payment apps like PayPal or CashApp are *also* cryptocurrency exchanges.
-1. Link your bank account or other traditional payment method (like a debit card) to your crypto exchange account.
-1. Use the exchange to *buy* crypto (really *exchange* fiat money for crypto money) that your companion or creator accepts. If you're not sure, ask your worker what crypto they'd like you to buy.
+    - This is the crypto equivalent of the foreign currency exchange at airports.
+    - Some digital payment apps like PayPal, CashApp, or Venmo are *also* cryptocurrency exchanges.
+1. Link your bank account or other traditional payment method (like a debit card) to your cryptocurrency exchange account.
+1. Use the exchange to *buy* crypto (really *exchange* fiat money for crypto money) that your companion or creator accepts. If you're not sure which to buy, ask your worker what crypto they're willing to accept from you.
 1. Finally, make your payment by sending the crypto you bought to your worker.
 
 Here are some key things to keep in mind:
 
-- If you're doing this for the first time, you will likely need your legal identity documents, such as a driver's license, at the ready.
-- Making your account only takes about 30 minutes, but&hellip;
-- &hellip;you still may not be able to actually pay in crypto for a little while longer. It depends! Being patient and planning ahead will make things go smoother.
+{:.fa-ul}
+- <span class="fa-li fa-solid fa-id-card"></span> If you're doing this for the first time, you'll likely need your legal identity documents, such as a driver's license, at the ready.
+- <span class="fa-li fa-solid fa-user-check"></span> Making your account only takes about 30 minutes, but&hellip;
+- <span class="fa-li fa-solid fa-hourglass-half"></span> &hellip;you still may not be able to actually pay in crypto for a little while longer.
+  - How long exactly you'll need to wait before you can withdraw newly purchased crypto funds depends on a number of factors, so being patient and planning ahead will make things go smoother.
 
 ### Which cryptocurrency should I buy?
 
@@ -55,11 +60,12 @@ Also, keep the following points in mind when buying crypto:
 
 - get enough crypto to cover both the price of the service or good you're paying your worker for as well as covering any service fees, which can and do fluctuate.
     - A good rule of thumb is to buy 20% more crypto than you think you'll actually need, but in practice it rarely amounts to that much overhead.
-- you can make a purchase very quickly after creating an account at a crypto exchange but, if this your first time using that exchange, you may not be able to *send* those funds to your worker until a short waiting period is over, which usually lasts for about a day.
+- you can make a purchase very quickly after creating an account at a crypto exchange but you may not be able to *send* those funds to your worker until a withdrawal hold period is over, which can last between a day to a week. It's best to plan ahead!
 
-## Next step: get started with Coinbase
+## Next step: get started with Gemini
 
-If you don't already have any digital payment app or crypto exchange account, [Coinbase]({% link resources/for-clients/using-cryptocurrency/coinbase/index.md %}) is probably the simplest way to get started, so let's set you up with that now:
+If you don't already have any digital payment app or crypto exchange account, I recommend you set yourself up at [Gemini]({% link resources/for-clients/using-cryptocurrency/gemini/index.md %}) as it is probably the simplest way to get started. Let's do that together next.
 
-{:.align-center}
-{% include link-as-button.md anchor_text="Next: Using Coinbase" url=page.next %}
+{:.button-container}
+{% include link-as-button.md anchor_text="Go Back" url=page.prev %}
+{% include link-as-button.md anchor_text="Next: Using Gemini" url=page.next %}

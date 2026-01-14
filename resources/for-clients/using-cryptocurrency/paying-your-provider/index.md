@@ -79,6 +79,7 @@ If you're sending from a cryptocurrency exchange, click the link corresponding t
 
 - [Binance](https://www.binance.com/en/support/faq/detail/329c82f07443410b99fc3683ebf07490){:target="_blank"}
 - [Coinbase](https://help.coinbase.com/en/coinbase/trading-and-funding/cryptocurrency-trading-pairs/steps-to-send-crypto){:target="_blank"}
+- [Gemini](https://support.gemini.com/hc/en-us/articles/115004710226-How-do-I-withdraw-crypto-from-my-Gemini-account){:target="_blank"}
 - [Kraken](https://support.kraken.com/articles/360000672763-how-to-withdraw-cryptocurrencies-from-your-kraken-account){:target="_blank"}
 
 ## Ask for confirmation of receipt
