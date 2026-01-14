@@ -14,7 +14,7 @@ redirect_from:
 
 Yes, and happily! I am *enthusiastically* bisexual and love joining fun-loving couples for all sorts of adventurous shenanigans! I'm also happy to entertain groups of friends at private parties or similar events.
 
-I love seeing couples because not only is it so sexy to see people who are so into one another, it's a joy and a gift to be invited into slivers of other relationships. Getting to see one's partner through anothers' eyes can also deepen one's own feelings for them. We may be a species who pair-bonds in private, but we still celebrate our relationships with others. I'd be thrilled to celebrate your relationship with you!
+**I love seeing couples** because not only is it so sexy to see people who are so into one another, it's a joy and a gift to be invited into slivers of other relationships. Getting to see one's partner through anothers' eyes can also deepen one's own feelings for them. We may be a species who pair-bonds in private, but we still celebrate our relationships with others. I'd be thrilled to celebrate your relationship with you!
 
 Labels like straight, gay, lesbian, bisexual, or pansexual don't matter all that much to me, because at the end of the day what matters is having fun together.
 

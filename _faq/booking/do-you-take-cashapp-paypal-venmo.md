@@ -22,6 +22,6 @@ To make this easy, I've published detailed [cryptocurrency payment guides for cl
 If for some reason you cannot use these app's crypto options, I also accept:
 
 {:.fa-ul}
-- <span class="fa-li fa-solid fa-credit-card"></span> major credit or debit cards; the charge will show up subtly on your statement
-- <span class="fa-li fa-brands fa-bitcoin"></span> direct (on-chain) cryptocurrency payments from any crypto wallet apps; this is an *extremely* discreet option
-- <span class="fa-li fa-solid fa-gifts"></span> numerous popular gift cards (for [deposits]({% link _faq/booking/what-is-a-deposit.md %}) only); ask me which and we'll work it out together
+- <span class="fa-li fa-solid fa-credit-card"></span> major credit or debit cards; the charge will show up subtly on your statement.
+- <span class="fa-li fa-solid fa-gifts"></span> numerous popular gift cards (for [deposits]({% link _faq/booking/what-is-a-deposit.md %}) only); ask me which and we'll work it out together.
+- <span class="fa-li fa-brands fa-bitcoin"></span> direct (on-chain) cryptocurrency payments from any crypto wallet apps; this is most preferred as it is an *extremely* discreet option.
