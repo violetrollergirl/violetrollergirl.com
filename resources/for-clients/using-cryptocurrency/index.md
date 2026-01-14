@@ -62,7 +62,7 @@ Otherwise, if you have a digital payment app or an account at a cryptocurrency e
 
 ## List of guides
 
-For more specific help, choose the option that best describes you from the list below.
+For more specific help, choose the option that best describes you from the set below.
 
 ### "I have never used digital payment apps before."
 

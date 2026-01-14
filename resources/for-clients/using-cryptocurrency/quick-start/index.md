@@ -33,7 +33,7 @@ So, here's what we'll do:
 
 1. Sign up for an account at a *cryptocurrency exchange*.
     - This is the crypto equivalent of the foreign currency exchange at airports.
-    - Some digital payment apps like PayPal, CashApp, or Venmo are *also* cryptocurrency exchanges.
+    - Some digital payment apps like PayPal, CashApp, or Venmo are *also* cryptocurrency exchanges, so if you already have one of those, you're more prepared than you thought and you can [just use those]({% link resources/for-clients/using-cryptocurrency/index.md %}#i-already-use-a-digital-payment-app).
 1. Link your bank account or other traditional payment method (like a debit card) to your cryptocurrency exchange account.
 1. Use the exchange to *buy* crypto (really *exchange* fiat money for crypto money) that your companion or creator accepts. If you're not sure which to buy, ask your worker what crypto they're willing to accept from you.
 1. Finally, make your payment by sending the crypto you bought to your worker.
