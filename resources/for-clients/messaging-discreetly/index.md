@@ -6,7 +6,7 @@ description: >
     keep your spicy texts private.
 featured_image:
   alt:
-  url: images/gallery-originals/privacy-professional-crypto-kitty-girl.jpg
+  url: images/gallery-originals/black-dress-gold-jewelry-in-rainy-bar-patio.jpg
 prev: resources/for-clients/booking-guide/
 next: resources/for-clients/using-cryptocurrency/
 last_modified: Sun Jan  4 16:40:37 EST 2026

@@ -6,7 +6,7 @@ description: >
     there's more!
 featured_image:
   alt:
-  url: images/gallery-originals/black-dress-gold-jewelry-in-rainy-bar-patio.jpg
+  url: images/gallery-originals/privacy-professional-crypto-kitty-girl.jpg
 prev: resources/for-providers/
 next: colophon/
 last_modified: Thu Jan  1 21:07:43 EST 2026
