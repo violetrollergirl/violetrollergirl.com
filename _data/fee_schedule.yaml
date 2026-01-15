@@ -27,7 +27,7 @@
         * Meeting this way can also serve as your [(pre-)screening option](#screening-options).
         * Does not include transportation or activity cost.
     - name: Cuddle date
-      rate: 300
+      rate: 250
       service_type: cuddling services
       duration_in_hours: 1
       details: |-
@@ -76,6 +76,9 @@
 
 - name: GFE full service
   id: gfe-fs
+  image:
+    src: images/gallery-originals/red-lingerie-on-white-background.jpg
+    alt:
   items:
     - name: 1 hour
       rate: 500
@@ -86,10 +89,10 @@
         * Discounted rates available for longer bookings as shown.
         * Does not include incall fee or transportation cost.
     - name: 90 minutes
-      rate: 675
+      rate: 700
       duration_in_hours: 1.5
       details: |-
-        * 10% off.
+        * 6.67% off.
         * Recommended minimum.
     - name: 2 hours
       rate: 875

@@ -2,7 +2,7 @@
 name: May I request a specific outfit or makeup?
 featured_image:
   alt:
-  url: images/gallery-originals/polkadot-outfit-over-a-railing.jpg
+  url: images/gallery-originals/skater-catgirl.jpg
 weight: 50
 redirect_from:
   - /faq/meetings/may-i-request-a-special-outfit-or-makeup/
