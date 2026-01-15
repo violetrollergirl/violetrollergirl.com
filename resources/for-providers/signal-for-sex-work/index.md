@@ -33,8 +33,10 @@ This article is my attempt to convey why Signal Private Messenger is so useful a
 1. [Setting additional Signal privacy protections](#setting-additional-signal-privacy-protections)
     1. [Always relay calls](#always-relay-calls)
     1. [Allow sealed sender from anyone](#allow-sealed-sender-from-anyone)
+    1. [Disable link previews](#disable-link-previews)
 1. [Publicizing your Signal profile to clients](#publicizing-your-signal-profile-to-clients)
 1. [Verifying your Signal Safety Number with clients you meet](#verifying-your-signal-safety-number-with-clients-you-meet)
+1. [Using Signal to share photos and media](#using-signal-to-share-photos-and-media)
 1. [Using built-in Signal organization and productivity features](#using-built-in-signal-organization-and-productivity-features)
 
 ## The problem with texting apps
@@ -152,6 +154,20 @@ My recommendations:
     - Find this setting in Privacy &rarr; Advanced &rarr; Sealed sender &rarr; Allow from anyone
 - Disable this option for your personal Signal profiles, or if you experience large amounts of harassing messages from unknown senders.
 
+### Disable link previews
+
+When sharing links to Web sites, Signal can generate a preview of the destination as part of the message you send. This is called a *link preview* and you might be familiar with it from sites like Bluesky or other social media that pull a featured photo and a short description from the page you're linking to. Some people enjoy this feature because it can help recipients decide whether they'd like to click through to the link you're sending them.
+
+While link previews in Signal are implemented carefully, the more you ask your apps to do, the more possibility there is that something, at some point, goes wrong. Security professionals call this concept an *attack surface*, and the smaller you make this surface, the safer you are, because the less liklihood there is of something going wrong hurting you.
+
+Learn more about [Signal's link preview](https://support.signal.org/hc/en-us/articles/360022474332-Link-Previews){:target="_blank"} feature.
+
+My recommendations:
+
+- Unless you know that you need link previews, and I'd argue no one really *needs* them, turn this feature off.
+    - Find this option in Signal Settings &rarr; Chats &rarr; Generate link previews, and disable them.
+- If you really like link previews, you can leave them enabled. If you're worried about link security, though, just turn them off.
+
 ## Publicizing your Signal profile to clients
 
 Once you have Signal set up for work, it's time to gently lean on your clients to stop texting you and start messaging you on Signal.
@@ -199,6 +215,22 @@ My recommendations:
 - Do not use Signal Safety Numbers in lieu of [screening]({% link _faq/screening/screening-process.md %}) or other safety protocols. Safety Numbers are solely for ensuring your Signal messages have originated from the expected Signal account, nothing more.
 - Avoid uninstalling Signal or unregistering your Signal account, as this will reset your Signal account identity, and consequently invalidate prior Signal Safety Numbers you've verified.
     - Instead, if you might find yourself getting digitally strip searched, use [Signal's built-in Storage Management](https://support.signal.org/hc/en-us/articles/360049673331-Storage-Management){:target="_blank"} features to delete conversations and message history to minimize the data retained on your device.
+
+## Using Signal to share photos and media
+
+Beyond being a highly secure messenger and video calling application, Signal is also a fantastic way to share photos and some other media with clients. You can use Signal to send individual or bundled photosets, audio files, and even short videos to customers in a way that is safer than uploading your media to Dropbox or Google Drive and then sending a link to your customer.
+
+Signal is a much safer media delivery option because media files can all contain embedded, often invisible information about you or the method you used to create it. For example, pictures you take using your phone <span class="easter-egg">camera may write the GPS coordinates of your location where you took the photo into the image file itself.</span> (A digital sleuth can find this information if they know [where to look]({% link colophon/index.md %}#easter-eggs).) If you took the image at home, you probably want to remove that extra information before you send that image to a customer.
+
+Using Signal, every media file you send will automatically have common metadata such as location data scrubbed out of it. However, to save bandwidth, Signal will also compress media you send to a lower quality unless you ask it not to. If you're using Signal to send digital purchases to customers, you want to enable support for sending high-definition media.
+
+My recommendations:
+
+- Enable Signal's high-definition media sharing option:
+    - Find this option in Signal Settings &rarr; Data and storage management &rarr; Media quality &rarr; Sent media quality &rarr; High.
+- Always scrub metadata out of any media you intend to share outside of Signal by first sending it to yourself via [Signal's Note To Self](https://support.signal.org/hc/en-us/articles/360043272451-Note-to-Self){:target="_blank"} feature.
+- Signal limits media attachments to 100 megabytes per message.
+    - If you need to send a bundle that's larger than this for free, try [Wormhole.app](https://wormhole.app){:target="_blank"} after scrubbing the individual media's metadata as described above.
 
 ## Using built-in Signal organization and productivity features
 
