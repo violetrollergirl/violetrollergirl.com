@@ -9,7 +9,7 @@ featured_image:
   url: images/gallery-originals/privacy-professional-crypto-kitty-girl.jpg
 prev: resources/for-providers/
 next: colophon/
-last_modified: Thu Jan  1 21:07:43 EST 2026
+last_modified: Thu Jan 15 12:51:09 EST 2026
 ---
 
 # {{ site.title }}'s Guide to Using Signal Private Messenger in Sex Work
@@ -33,6 +33,7 @@ This article is my attempt to convey why Signal Private Messenger is so useful a
 1. [Setting additional Signal privacy protections](#setting-additional-signal-privacy-protections)
     1. [Always relay calls](#always-relay-calls)
     1. [Allow sealed sender from anyone](#allow-sealed-sender-from-anyone)
+    1. [Set a default disappearing message timer](#set-a-default-disappearing-message-timer)
     1. [Disable link previews](#disable-link-previews)
 1. [Publicizing your Signal profile to clients](#publicizing-your-signal-profile-to-clients)
 1. [Verifying your Signal Safety Number with clients you meet](#verifying-your-signal-safety-number-with-clients-you-meet)
@@ -153,6 +154,22 @@ My recommendations:
 - If you are open to receiving new clients or customers, ensure sealed sender's allow from anyone is **enabled** for your Signal account.
     - Find this setting in Privacy &rarr; Advanced &rarr; Sealed sender &rarr; Allow from anyone
 - Disable this option for your personal Signal profiles, or if you experience large amounts of harassing messages from unknown senders.
+
+### Set a default disappearing message timer
+
+Every message you send on the Internet, whether email, text message, or Signal message, is delivered as a copy of your original message. This is markedly different from the physical world, where writing a letter and mailing an envelope means you no longer have the original copy yourself. This means when you send a Signal message to a client or customer, there are really at least two (unencrypted) copies of that message in the world: one on your phone, and one on their phone.
+
+Once you've sent a message and a copy has been delivered to your recipient, you can no longer control what they do with it. However, using [Signal's disappearing message timer](https://support.signal.org/hc/en-us/articles/360007320771-Set-and-manage-disappearing-messages){:target="_blank"} feature, you can politely request that they not keep these copies forever. The fewer copies of your correspondence that exist in the world, and the less time they exist for, the less likely one of those copies will end up being seen by people you don't want seeing them.
+
+This is why the first thing I do whenever I start a conversation with someone is set the disappearing message timer to a timeframe that makes me feel comfortable speaking more freely with them.
+
+My recommendations:
+
+- Set Signal to automatically start new conversations with a disappearing message timer.
+    - Find this option in Signal Settings &rarr; Privacy &rarr; Default timer for new chats.
+    - You can always adjust or remove this timer for future messages or other conversations.
+- Remember that this is a *request* and your recipient may still keep their own [chat backups](https://support.signal.org/hc/en-us/articles/360007059752-Backup-and-Restore-Messages){:target="_blank"}.
+    - If you want to [further request that your recipient does not retain copies of your disappearing messages](https://signal.org/blog/introducing-secure-backups/#:~:text=excluding%20view-once%20messages%20and%20messages%20scheduled%20to%20disappear%20within%20the%20next%2024%20hours){:target="_blank"}, your disappearing message timer must be set to a duration shorter than 24 hours.
 
 ### Disable link previews
 
