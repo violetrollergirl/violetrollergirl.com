@@ -13,7 +13,7 @@ featured_image:
 >
 > <cite>&mdash;Hunter S. Thompson</cite>
 
-Each person is different. That alone makes each encounter unique. But, like a beatiful melody, there is an ostinato I repeat during every visit.
+Each person is different. That alone makes each encounter unique. But, like a beautiful melody, there is an ostinato I repeat during every visit.
 
 See if you can hear it in the kind words from some of my darlings and sweethearts, below.
 
