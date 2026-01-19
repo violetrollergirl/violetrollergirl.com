@@ -13,9 +13,13 @@ redirect_from:
 last_modified: Mon Jan  5 14:22:29 EST 2026
 ---
 
-**I usually book between 2 days to 2 weeks in advance** and am rarely available for dates, especially for dates with new friends, on shorter notice than that.
+> Clients who book ahead get more head.
+>
+> &mdash;Ancient heaux proverb
 
-While I famously enjoy spontaneous adventures, I am much more likely to be able to see you "right now," on [short notice, or same-day]({% link index.html %}#short-notice-availability) if we are already acquainted.
+**I usually book between 2 days to 2 weeks in advance** and am rarely available for dates on shorter notice than that, especially with new friends.
+
+While I famously enjoy spontaneous adventures, I'm much more likely to be able to see you "right now," on [short notice, or same-day]({% link index.html %}#short-notice-availability) if we are already acquainted.
 
 This is because it takes time to intake all session details, [complete screening]({% link _faq/screening/screening-process.md %}), send and confirm a [deposit]({% link _faq/booking/what-is-a-deposit.md %}), and actually move our bodies to the same physical place to meet one another. This is to say nothing about possibly needing to also prepare my incall, or at least prepare my body, for your arrival.
 
