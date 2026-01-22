@@ -209,7 +209,7 @@
 		line-height: 25px;
 	}
 
-	*:not(.panel):target {
+	*:not(.panel, #wrapper):target {
 		border-radius: 10px;
 		box-shadow: 0px 0px 50px white;
 		padding: 0 10px 0;
