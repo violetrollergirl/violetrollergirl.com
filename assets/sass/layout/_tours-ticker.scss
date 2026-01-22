@@ -3,8 +3,8 @@
   top: -1rem;
   display: inline-flex;
   max-width: 900px;
-  min-height: 3em;
-  overflow-x: scroll;
+  max-height: 3rem;
+  overflow: scroll;
 
   @include breakpoint(medium) {
     width: 100%;
