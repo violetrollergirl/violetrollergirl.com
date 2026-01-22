@@ -35,9 +35,13 @@
 			color: _palette(fg);
 			display: inline-block;
 			font-size: 1em;
-			line-height: 1;
-			margin: .5em 0 0 0;
-			vertical-align: middle;
+			line-height: 1em;
+			margin: 0 1em 0 0;
+
+			@include breakpoint(medium) {
+			  vertical-align: middle;
+			}
+
 			a {
 				border: 0;
 				color: inherit;

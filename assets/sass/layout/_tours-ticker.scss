@@ -1,0 +1,31 @@
+#tour-ticker {
+  position: relative;
+  top: -1rem;
+  display: inline-flex;
+  max-width: 900px;
+  min-height: 3em;
+  overflow-x: scroll;
+
+  @include breakpoint(medium) {
+    width: 100%;
+  }
+
+  h2 {
+    display: none; /* Element is semantic only. */
+    margin: 0;
+    font-size: 1rem;
+  }
+}
+
+tour-event {
+  flex-basis: 100%;
+  flex-shrink: 1;
+  margin-left: 1em;
+  min-width: 200px;
+}
+
+@include breakpoint(medium) {
+  #header #tour-ticker {
+    display: none;
+  }
+}

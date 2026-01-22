@@ -1,0 +1,24 @@
+<template id="template-tour-event">
+<style>
+h3,
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+</style>
+    <div class="h-event">
+        <h3 class="p-name p-location">
+            <slot name="tour-event-location">Poundtown, USA</slot>
+        </h3>
+        <p>
+            <slot name="tour-event-startdate">Start Date</slot>
+            &ndash;
+            <slot name="tour-event-enddate">End Date</slot>
+        </p>
+        <p class="p-description e-content">
+            <small><slot name="tour-event-description"><!-- Tour notes. Empty string by default. --></slot></small>
+        </p>
+    </div><!-- .h-event -->
+</template>
