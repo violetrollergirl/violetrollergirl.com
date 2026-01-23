@@ -441,7 +441,7 @@ Sincerely,
                     $t.removeClass('fa-bars')
                         .addClass('fa-x')
                         .find('span').text('Close');
-                    if ( 980 > document.documentElement.clientWidth ) {
+                    if ( skel.breakpoint('small').active ) {
                         var ticker = $('#tour-ticker').detach();
                         ticker.insertBefore($('#navpanel > nav'));
                     }

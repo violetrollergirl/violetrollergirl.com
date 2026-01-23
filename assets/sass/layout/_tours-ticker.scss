@@ -2,19 +2,21 @@
   position: relative;
   top: -1rem;
   display: inline-flex;
-  max-width: 900px;
+  max-width: calc(100% - 3em - 300px - 80px);
   max-height: 3rem;
   overflow: scroll;
-
-  @include breakpoint(medium) {
-    width: 100%;
-  }
 
   h2 {
     margin: 0;
     font-size: 1rem;
     white-space: nowrap;
   }
+}
+
+#navpanel #tour-ticker {
+    width: 100%;
+    max-width: none;
+    max-height: 10rem;
 }
 
 tour-event {
@@ -24,7 +26,7 @@ tour-event {
   min-width: 200px;
 }
 
-@include breakpoint(medium) {
+@include breakpoint(xsmall) {
   #header #tour-ticker {
     display: none;
   }
