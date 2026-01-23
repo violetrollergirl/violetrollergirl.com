@@ -60,12 +60,7 @@
     <h2 id="policies">Policies</h2>
     <div>
         <h3 id="deposit-policy">Deposit Policy (<a href="{% link _faq/booking/what-is-a-deposit.md %}"><span class="icon fa-solid fa-circle-question"></span> What's a deposit?</a>)</h3>
-        <p>I accept <a href="{% link resources/for-clients/using-cryptocurrency/index.md %}" title="Learn how to use cryptocurrency to pay your sex worker.">deposits via dozens of cryptocurrencies</a> (e.g., <a href="#links-zcash"><abbr title="Zcash">ZEC</abbr></a> or <a href="#links-monero"><abbr title="Monero">XMR</abbr></a> preferred, <abbr title="Bitcoin">BTC</abbr> or <abbr title="Ethereum">ETH</abbr> accepted), major debit or credit cards, some gift cards, or select privacy-preserving payment apps. Our time together is only confirmed once I receive your deposit.</p>
-        <ul class="fa-ul">
-            <li><span class="fa-li fa-solid fa-house"></span>One-fifth (20%) of the total booking cost while in my hometown(s).</li>
-            <li><span class="fa-li fa-solid fa-plane"></span>One-third (33%) of the total booking cost while traveling on tour.</li>
-        </ul>
-        <p>Deposits are non-refundable, except in the rare case I must cancel our date, but they can be transferred to another date should you need to reschedule. (See <a href="#cancellation-policy">my cancellation policy</a> for details.) </p>
+        {% include policy-deposit.html %}
         <p class="button-container">
             <a href="#faq" class="button"><span class="icon fa-solid fa-circle-info"></span> <acronym title="Frequently Asked Questions">FAQ</acronym></a>
             <a href="#links" class="button"><span class="icon fa-solid fa-chain"></span> Links</a>
@@ -73,14 +68,7 @@
     </div>
     <div>
         <h3 id="cancellation-policy">Cancellation Policy</h3>
-        <p>It's okay, you can always cancel or reschedule a date for any reason, no questions asked. If you cancel with:</p>
-        <ul>
-            <li>3 or more days (72 hours) notice, the full amount (100%) of your non-refundable deposit can be applied to another date.</li>
-            <li>3 to 1 days (72-24 hours) notice, half (50%) of your non-refundable deposit can be applied one time only to another date.</li>
-            <li>1 day or less (24 hours) notice, your non-refundable deposit will be forfeited.</li>
-        </ul>
-        <p>When applying the deposit for a cancelled date towards the next, that next date must be no later than 3 months after your original booking.</p>
-        <p>In the unlikely event that I have to cancel our date, you'll promptly have your full deposit returned to you and I will do my best to offer you another opportunity to meet.</p>
+        {% include policy-cancellation.html %}
     </div>
 </div>
 <p class="align-center">

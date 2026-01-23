@@ -254,7 +254,7 @@ The seventh field in my booking form is a drop down menu for you to choose the c
     * Choose `a FMTY (travel with or to you)` if you'd like me to travel to a destination outside of my posted [tours](#tours) or home cities.
         * This is the option you want if you need to meet me in a place I don't normally go, or don't currently have any plans to visit.
     * Choose `a social date (platonic/screening only)` if you just want to meet for a vibe check, to test our compatibility in person, or if you want to screen by meeting in person.
-        * This is not a free meeting; deposit and cancellation policies will apply as normal at my [social-only rate]({% link index.html %}#rate-add-ons-and-online-social-only-date).
+        * This is not a free meeting; [deposit and cancellation policies]({% link index.html %}#policies) will apply as normal at my [social-only rate]({% link index.html %}#rate-add-ons-and-online-social-only-date).
     * Choose `a virtual video date (online)` to reserve my time for a (possibly rather steamy) video call.
     * Choose `a texting/sexting session (online)` to reserve my time and attention for us to engage in some luxurious literary libations together.
     * Choose `a curiosity call (phone)` to schedule [an exploratory curiosity call]({% link index.html %}#rate-add-ons-and-online-curiosity-call-30-minutes) at a time that's convenient for us both.
@@ -500,7 +500,7 @@ If you haven't met a companion before, this part can feel a bit like spycraft, b
 
 As the time for our date comes closer, it's important that you stay in touch with me if plans need to change. Rescheduling is perfectly acceptable, and normal, but you need to communicate this to me so we can make other arrangements without stressing.
 
-For more information, see my [cancellation policy]({% link index.html %}#cancellation-policy).
+For more information, see my [cancellation policy]({% link _faq/booking/what-is-your-cancellation-policy.md %}).
 
 ## On the day of our date
 
