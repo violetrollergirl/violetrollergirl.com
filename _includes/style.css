@@ -19,3 +19,23 @@
 .icon.fa-xmpp::before {
     mask: url("{% link images/logo.xmpp.currentColor.svg %}") center/contain no-repeat;
 }
+
+.data-table {
+    border-collapse: separate;
+}
+.data-table caption {
+    padding: 2em;
+    text-align: center;
+}
+.data-table th,
+.data-table td {
+    vertical-align: middle;
+    text-align: center;
+}
+.data-table tbody th,
+.data-table tbody td {
+    border: 1px dotted white;
+}
+.data-table tr:nth-child(2n + 1) {
+    background-color: rgba(5,5,5,.85);
+}
