@@ -32,6 +32,8 @@ Cryptocurrency is becoming increasingly popular with both providers and our clie
         - [<span class="icon fa-brands fa-paypal"></span> PayPal]({% link resources/for-clients/using-cryptocurrency/paypal/index.md %}#complete-your-crypto-purchase-via-paypal)
         - [<span class="icon fa-brands fa-v"></span> Venmo]({% link resources/for-clients/using-cryptocurrency/venmo/index.md %}#complete-your-crypto-purchase-via-venmo)
     1. ["I have an account at a cryptocurrency exchange."](#i-have-an-account-at-a-cryptocurrency-exchange)
+        - [Coinbase]({% link resources/for-clients/using-cryptocurrency/coinbase/index.md %}#complete-your-crypto-purchase-via-coinbase)
+        - [Gemini]({% link resources/for-clients/using-cryptocurrency/gemini/index.md %}#complete-your-crypto-purchase-via-gemini)
 1. [Paying your provider](#paying-your-provider)
 1. [Have questions? I'm here for you!](#have-questions-im-here-for-you)
 
@@ -63,6 +65,9 @@ Otherwise, if you have a digital payment app or an account at a cryptocurrency e
 ## List of guides
 
 For more specific help, choose the option that best describes you from the set below.
+
+{:.align-center}
+[Crypto Reference Sheet]({% link resources/for-clients/using-cryptocurrency/on-ramping/index.html %}){:.button}
 
 ### "I have never used digital payment apps before."
 
