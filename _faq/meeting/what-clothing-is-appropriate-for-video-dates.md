@@ -3,7 +3,7 @@ name: What clothing is appropriate for video dates?
 weight: 20
 featured_image:
   alt:
-  src: images/gallery-originals/red-lingerie-with-laptop-on-bed-smirking.jpg
+  url: images/gallery-originals/red-lingerie-with-laptop-on-bed-smirking.jpg
 redirect_from:
   - /faq/meetings/what-clothing-is-appropriate-for-video-dates/
 ---

@@ -1,5 +1,8 @@
 ---
 name: Is it okay if I am older/need a wheelchair/Black/genderqueer/etc.?
+featured_image:
+  alt:
+  url: images/gallery-originals/black-and-red-lingerie-on-white-linen-sheets.jpg
 ---
 
 Absolutely, wholeheartedly, unequivocally <strong>yes, it is okay</strong>, and I am deeply disheartened that the world is still such that it makes you feel the need to ask, although I do understand why you do. What matters to me is the way you treat me. As long as you are of legal age, your race, years of experience, looks, religion, nationality, tax bracket, and other demographic information is in no way a determining factor for whether or not I'll meet with you.

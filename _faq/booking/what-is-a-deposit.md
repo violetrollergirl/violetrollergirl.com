@@ -7,7 +7,7 @@ description: >
   appointment times. This page briefly explains why.
 featured_image:
   alt:
-  url: images/gallery-originals/black-garters-red-bra-showing-peach.jpg
+  url: images/gallery-originals/looking-out-at-ski-village-in-bikini.jpg
 redirect_from:
   - /faq/bookings/what-is-a-deposit/
 last_modified: Mon Jan  5 14:22:47 EST 2026
