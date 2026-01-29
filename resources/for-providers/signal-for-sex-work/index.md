@@ -30,13 +30,13 @@ This article is my attempt to convey why Signal Private Messenger is so useful a
 1. [Filling out your Signal profile](#filling-out-your-signal-profile)
 1. [Keeping your Signal phone number private](#keeping-your-signal-phone-number-private)
 1. [Setting your Signal username](#setting-your-signal-username)
+1. [Enable the Registration Lock for your Signal account](#enable-the-registration-lock-for-your-signal-account)
 1. [Setting additional Signal privacy protections](#setting-additional-signal-privacy-protections)
     1. [Always relay calls](#always-relay-calls)
     1. [Allow sealed sender from anyone](#allow-sealed-sender-from-anyone)
     1. [Set a default disappearing message timer](#set-a-default-disappearing-message-timer)
     1. [Disable link previews](#disable-link-previews)
 1. [Publicizing your Signal profile to clients](#publicizing-your-signal-profile-to-clients)
-1. [Enable the Registration Lock for your Signal account](#enable-the-registration-lock-for-your-signal-account)
 1. [Verifying your Signal Safety Number with clients you meet](#verifying-your-signal-safety-number-with-clients-you-meet)
 1. [Using Signal to share photos and media](#using-signal-to-share-photos-and-media)
 1. [Using built-in Signal organization and productivity features](#using-built-in-signal-organization-and-productivity-features)
@@ -117,6 +117,20 @@ My recommendations:
 
 - Choose a Signal username that matches your brand. [Signal usernames have certain length and formatting requirements](https://support.signal.org/hc/en-us/articles/6712070553754-Phone-Number-Privacy-and-Usernames#username_req){:target="_blank"} that you must meet.
 - Create a Signal contact link, while you're at it.
+
+## Enable the Registration Lock for your Signal account
+
+Registering a new Signal account simply requires an SMS verification code, which is not as secure as Signal messages themselves. This means someone who takes over your phone number can re-register your Signal account to their phone.
+
+If someone does this to you, they will still not see any messages that were previously sent to you, but it does mean that new messages sent to your account will be routed to their phone instead of yours. If your contacts are not careful about [verifying Signal Safety Numbers](#verifying-your-signal-safety-number-with-clients-you-meet) with you, discussed next, they may not notice the hijacking. To prevent this, I strongly recommend you enable Signal's Registration Lock feature.
+
+The Registration Lock feature disallows Signal account transfers without entering a second, extra passcode called a Signal PIN. Treat this Signal PIN like a second password, and store it the same way you save any other password, such as in your password manager. (I like [Bitwarden](https://bitwarden.com/){:target="_blank"}.)
+
+My recommendations:
+
+- Set another, second [Signal PIN](https://support.signal.org/hc/en-us/articles/360007059792-Signal-PIN){:target="_blank"}.
+- Once your Signal PIN is set, [enable Signal's Registration Lock](https://support.signal.org/hc/en-us/articles/360007059792-Signal-PIN#manage_registration_lock){:target="_blank"}.
+    - Find this feature in Signal Settings &rarr; Account &rarr; Registration Lock.
 
 ## Setting additional Signal privacy protections
 
@@ -199,20 +213,6 @@ My recommendations:
 - Display your Signal username anywhere that makes sense to encourage more clients to reach out via Signal.
 - Publish your Signal contact link on your website's contact page. See [how I've done mine]({% link index.html %}#contact-link-signal).
   - This is also [how my booking form integrates with Signal directly]({% link colophon/index.md %}#privacy-guarantees-of-first-contact)!
-
-## Enable the Registration Lock for your Signal account
-
-Registering a new Signal account simply requires an SMS verification code, which is not as secure as Signal messages themselves. This means someone who takes over your phone number can re-register your Signal account to their phone.
-
-If someone does this to you, they will still not see any messages that were previously sent to you, but it does mean that new messages sent to your account will be routed to their phone instead of yours. If your contacts are not careful about [verifying Signal Safety Numbers](#verifying-your-signal-safety-number-with-clients-you-meet) with you, discussed next, they may not notice the hijacking. To prevent this, I strongly recommend you enable Signal's Registration Lock feature.
-
-The Registration Lock feature disallows Signal account transfers without entering a second, extra passcode called a Signal PIN. Treat this Signal PIN like a second password, and store it the same way you save any other password, such as in your password manager. (I like [Bitwarden](https://bitwarden.com/){:target="_blank"}.)
-
-My recommendations:
-
-- Set another, second [Signal PIN](https://support.signal.org/hc/en-us/articles/360007059792-Signal-PIN){:target="_blank"}.
-- Once your Signal PIN is set, [enable Signal's Registration Lock](https://support.signal.org/hc/en-us/articles/360007059792-Signal-PIN#manage_registration_lock){:target="_blank"}.
-    - Find this feature in Signal Settings &rarr; Account &rarr; Registration Lock.
 
 ## Verifying your Signal Safety Number with clients you meet
 
