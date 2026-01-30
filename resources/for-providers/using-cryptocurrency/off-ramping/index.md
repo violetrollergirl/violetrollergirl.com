@@ -34,6 +34,7 @@ In the traditional financial system, spending money comes with a privacy trade-o
     1. [Booking hotel stays and air travel with cryptocurrency](#booking-hotel-stays-and-air-travel-with-cryptocurrency)
     1. [Buying VoIP phone services with cryptocurrency](#buying-voip-phone-services-with-cryptocurrency)
     1. [Buying VPN services with cryptocurrency](#buying-vpn-services-with-cryptocurrency)
+    1. [Paying for client screening services with cryptocurrency](#paying-for-client-screening-services-with-cryptocurrency)
 1. [Fund a traditional payment card using cryptocurrency](#fund-a-traditional-payment-card-using-cryptocurrency)
     1. [Apply for a Payy Card, a crypto-backed Visa payment card](#apply-for-a-payy-card-a-crypto-backed-visa-payment-card)
 1. [Join a digital employment cooperative that accepts cryptocurrency](#join-a-digital-employment-cooperative-that-accepts-cryptocurrency)
@@ -212,6 +213,20 @@ Another common service many of us have need for is a reliable VPN. I have a lot 
 - [MullvadVPN](https://mullvad.net/){:target="_blank"} - Based on a traditional VPN technology called Wireguard, [Mullvad also accepts payments in Bitcoin](https://mullvad.net/pricing){:target="_blank"}.
 - [NymVPN](https://nym.com/){:target="_blank"} - Nym is a novel VPN technology that requires a subscription to use, but not only is it reputable, you can [pay for Nym with shielded Zcash](https://support.nym.com/hc/articles/38626320242833-Paying-for-NymVPN-with-ZEC-Zcash){:target="_blank"}.
 - [ProtonVPN](https://protonvpn.com/support/vpn-bitcoin-payments){:target="_blank"} - Many providers know this company for their ProtonMail service, but [Proton also accepts Bitcoin for their VPN product](https://protonvpn.com/support/vpn-bitcoin-payments){:taret="_blank"}, which can implement either a Wireguard or SSL/TLS-based VPN.
+
+### Paying for client screening services with cryptocurrency
+
+Much like employers pay vendors to perform background checks on individuals before granting those people access to their systems, one widespread industry norm for providers who meet with clients in person is to assess their safety through screening procudures before we grant those clients access to our bodies.
+
+(Yes, [I require each new client to screen]({% link _faq/screening/screening-process.md %}) in some way, although I offer a few alternative screening methods.)
+
+While some providers do these checks ourselves, there are also specialized services that can perform such screenings for us. Here are ones that I can recommend and that will accept cryptocurrency as payment:
+
+- [Laura Cohen Precautionary Investigations](https://www.precautionaryinvestigation.com/){:target="_blank"} - Long-standing industry-specific screening service with a stellar reputation.
+    - **Please use me as a reference** by entering my email address (`{{ site.contact.email }}`) because I get referral credits and it will save me money:
+    ![Screenshot of the Laura Cohen Precautionary Investigations new prospect sign up form showing how to enter {{ site.title }} as a referral source.]({% link resources/for-providers/using-cryptocurrency/off-ramping/screenshot.laura-cohen-precautionary-investigations.referral.png %})
+
+Always remember that Bitcoin payments are *never* anonymous so, for your protection, I recommend [paying using Zashi's Crosspay feature](#paying-in-bitcoin-when-you-only-have-zcash), same as you would pay for your Tryst ad.
 
 ## Fund a traditional payment card using cryptocurrency
 
