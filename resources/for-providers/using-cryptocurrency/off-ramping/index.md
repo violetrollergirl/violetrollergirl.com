@@ -216,7 +216,7 @@ Another common service many of us have need for is a reliable VPN. I have a lot 
 
 ### Paying for client screening services with cryptocurrency
 
-Much like employers pay vendors to perform background checks on individuals before granting those people access to their systems, one widespread industry norm for providers who meet with clients in person is to assess their safety through screening procudures before we grant those clients access to our bodies.
+Much like employers pay vendors to perform background checks on individuals before granting those people access to their systems, one widespread industry norm for providers who meet with clients in person is to assess their safety through screening procedures before we grant those clients access to our bodies.
 
 (Yes, [I require each new client to screen]({% link _faq/screening/screening-process.md %}) in some way, although I offer a few alternative screening methods.)
 
