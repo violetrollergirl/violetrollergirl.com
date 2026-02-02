@@ -266,6 +266,8 @@ If you'd like to try Payy, using my invitation link will net me "Payy Points," w
 {:.align-center}
 {% include link-as-button.md anchor_text="Apply for Payy (via referral)" url=site.data.affiliates.payy target="_blank" %}
 
+Payy is also the same company that underpins the [MintStars Creator Card](https://mintstars.com/mintstars-card){:target="_blank"}.
+
 ## Join a digital employment cooperative that accepts cryptocurrency
 
 So far, the cryptocurrency off-ramping options I've described largely avoid unnecessary interaction with the fiat economy. Turning away from traditional financial and governmental systems is becoming increasingly important. However, it can also brand us illegitimate to individuals or institutions who do interact with that world and who, for whatever reason, we are also forced to interact with.

@@ -124,12 +124,16 @@ One newer option available specifically for online creators, including adult cre
 {:.align-center}
 {% include link-as-button.md anchor_text="Join MintStars (via Referral)" url=site.data.affiliates.mintstars target="_blank" %}
 
-Fans and customers can send you tips using their debit or credit card, and when you receive a tip on MintStars it arrives instantaneously to your MintPay balance. You can then withdraw that balance to either a traditional bank account, or a cryptocurrency wallet that supports the token MintStars pays out in. At the time of this writing, you can only withdraw USDC (on the Polygon network) when choosing the crypto withdrawal option.
+Fans and customers can send you tips using their debit or credit card. When you receive a tip on MintStars it arrives instantaneously to your MintPay balance. You can then withdraw that balance to either a traditional bank account, or a cryptocurrency wallet that supports the token MintStars pays out in.
 
 {:.align-center}
 [![Screenshot of the MintStars withdrawal chooser.]({% link resources/for-providers/using-cryptocurrency/on-ramping/screenshot.mintstars.mintpay.withdrawal-chooser.png %})]({{ mintpay.url }} "{{ mintpay.description }}")
 
-Withdrawing your MintPay balance to a [self-custodial crypto wallet such as Cake Wallet]({% link resources/for-providers/using-cryptocurrency/wallet-apps/index.md %}#cake-wallet-privacy-focused-monero-wallet-app) means you can avoid the need for a bank account, with the caveat that you need to have some Polygon (POL) coins so you can actually use your USDC tokens. But if you do, this makes MintStars an attractive on-ramping option for sex workers who are already de-banked or cannot otherwise access traditional banking services in their countries, including for me in the United States.
+The payment your fan or customer makes will show up on their statement as "[Coinflow Labs](https://coinflow.cash/){:target="_blank"}," a cryptocurrency payment infrastructure provider, *not* as MintStars. This means the payment remains discreet on their statement as it could concievably be a purchase for any site that uses Coinflow as its cryptocurrency payment processor.
+
+At the time of this writing, you can only withdraw USDC (on the Polygon network) when choosing the crypto withdrawal option. MintStars makes this particularly easy with their MintStars Creator Card, which is powered by [Payy, an off-ramping option]({% link resources/for-providers/using-cryptocurrency/off-ramping/index.md %}#apply-for-a-payy-card-a-crypto-backed-visa-payment-card). Withdrawing your MintPay balance to a [self-custodial crypto wallet such as Cake Wallet]({% link resources/for-providers/using-cryptocurrency/wallet-apps/index.md %}#cake-wallet-privacy-focused-monero-wallet-app) or a Payy card means you can avoid the need for a bank account.
+
+This crypto payout option makes MintStars an attractive on-ramping solution for sex workers who are already de-banked or cannot otherwise access traditional banking services in their countries, including for me in the United States.
 
 If you'd like to try the tipping experience out, consider sending me a tip [via my MintStars tip page]({{ mintpay.url }} "{{ mintpay.description }}"). To see what it looks like from the creator's side, see [MintStars Help: How to withdraw using crypto](https://mintstars.frontkb.com/en/articles/1967553). When or you want to sign up, I'd appreciate it greatly if you used my [MintStars creator referral link]({{ site.data.affiliates.mintstars }} "Sign up to MintStars via my referral link")!
 
