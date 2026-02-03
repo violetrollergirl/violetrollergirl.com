@@ -33,6 +33,9 @@ So here's a bit of technical information regarding how it all works. But, first&
     1. [Mad-lib style form prose](#mad-lib-style-form-prose)
     1. [HTML5 form features](#html5-form-features)
     1. [Privacy guarantees of first contact](#privacy-guarantees-of-first-contact)
+        1. [Why my booking form doesn't use a third-party service](#why-my-booking-form-doesnt-use-a-third-party-service)
+        1. [How my booking form avoids needing a third-party service](#how-my-booking-form-avoids-needing-a-third-party-service)
+    1. [Steal my booking form code](#steal-my-booking-form-code)
 1. [Targetable deep-links for every anchor](#targetable-deep-links-for-every-anchor)
 1. [Cryptocurrency tips and donation links](#cryptocurrency-tips-and-donation-links)
 
@@ -89,23 +92,49 @@ Beyond being designed to help clients structure a first message to me in natural
 
 Most uniquely, my booking form does not use a third-party service to send me emails when a client "submits" the form.
 
-I designed my booking form with the privacy of my clients and the protection of our correspondence as a top priority. Since a client's first inquiry can contain sensitive details such as screening or verification photos, and since this business requires a commitment to discretion, it is critical that my correspondence with potential clients remain confidential and secure.
+Yes, that brings up a few questions. One biggie is, "why?" The second is probably, "how?"
 
-Instead of using email relays or forwarding services, my booking form uses default URL protocol handlers to trigger one of a number of pre-installed applications that the visitor already has on their phone or computer, such as [Signal Private Messenger](https://signal.org/), [WhatsApp](https://www.whatsapp.com/), an email client (like GMail or ProtonMail), or an SMS/text messaging application. Every phone has at least one of these already installed in it (that's what phones are for) and is therefore already guaranteed to be able to send the message composed by filling in the booking form to me via the chosen communication method.
+#### Why my booking form doesn't use a third-party service
 
-For example, when a client expresses that they wish to communicate with me via email (by selecting the "email" option at that point in the form), the behavior activated by the form's submit button changes to cause the visitor's device to automatically compose an email already  addressed to me and whose body already contains a polite, informative email based on their answers when filling in the form. Likewise, should a client express that they prefer communicating via WhatsApp, the submit button's behavior changes to make use of WhatsApp's automated message composition feature and displays a similar message precomposed and addressed to my WhatsApp number. The same is true for the other communication methods (except Signal which requires one further action of pasting the pre-composed message from the
-clipboard).
+To answer the first question, it's because I designed my booking form with the privacy of my clients and the protection of our correspondence as its top priority.
 
-This works by having a bit of JavaScript swap out the form's `submit` action with a `click` action on another link in the page whose URL `href` attribute value is modified as the form is being filled out. Links whose destination is an SMS (text message) use [the `tel:` scheme](https://www.ietf.org/rfc/rfc3966.txt). Emails use [the `mailto:` scheme](https://en.wikipedia.org/wiki/Mailto). Jabber/XMPP instant messages use [the `xmpp:` scheme](https://xmpp.org/extensions/xep-0147.html). Signal and WhatsApp messages are registered to fully-qualified URLs at `signal.me` and `wa.me`, respectively, and will ordinarily be handled by the URL protocol handlers registered with the browser or Operating System upon installation of that app.
+Since a client's first inquiry can contain sensitive details such as [screening or verification]({% link _faq/screening/screening-process.md %}) information, every additional entity (person, service provider, third-party, whatever) who's privy to our correspondence represents an added risk. Minimizing this number is an effective way to reduce that risk. For obvious reasons, this business requires a commitment to discretion, so it's critical that my correspondence with potential clients remain absolutely confidential and secure.
 
-I believe that the benefits of this technique outweigh the cost of possible confusion or lack of familiarity: 
-by directly invoking a client application instead of submitting data to a third-party service, I am able to actually provide my clients exactly as much privacy as their chosen communication method implements because *only* their chosen communication method is party to their messages.
+Moreover, the one purpose of a booking form is to shape an introductory message and put it in a high-priority inbox so that clients are more likely to get a reply from me. That's something your phone or computer can already do on its own.
 
-This process circumvents every other middle man. My web hosting platform *never* receives the data entered in the form (the form merely composes some text), nor does any other service like Google Forms, TypeForm, Jot Form, and so on, which are so often used by booking forms across the industry. To be clear, none of those form submission services actually provide the level of privacy that some of them claim to. Hell, I'd be happy to prove this claim to you in person, perhaps while in my panties, if that thought appeals.
+#### How my booking form avoids needing a third-party service
 
-I don't mean to denigrate other providers in comparing my booking form to theirs. Rather, my intent is to share my method here in the hopes that other providers implement this technique themselves so we can collectively raise the standard of privacy protections offered to the clientele in our industry more broadly. It's clear that when we protect the communication with our clients, we protect ourselves. When our clients protect us, they are also protecting themselves, too.
+Most booking forms transmit the information typed into them to a remote server, which then relays that same data onwards to the form's addressee. Mine doesn't. Instead, it simply composes a message for you, and opens your chosen messaging app so you can send the pre-written message yourself.
 
-Please feel free to try my form out and experience how it works for yourself. If you do, I just ask that you please also let me know it's just a test, and not a real inquiry when you actually send me a message so I know you're simply enjoying trying out this tech. Unless&hellip;y'know. ;)
+This way, there's no additional relay service. It's just you and me, the way discreet messaging is supposed to be.
+
+My booking form accomplishes this using technology older than Web forms: standardized [URI schemes](https://en.wikipedia.org/wiki/List_of_URI_schemes){:target="_blank"}.
+
+I did it this way because I can safely assume your phone or computer already has the messaging app you want to use, such as [Signal Private Messenger, WhatsApp]({% link resources/for-clients/messaging-discreetly/index.md %} "Learn to use Violet's two favorite discreet messaging apps."), an email client (like GMail or ProtonMail), or an SMS/text messaging application. Every phone has at least one of these already installed in it (that's what phones are for) so every phone is already all but guaranteed to be technically capable of sending me a message. All the booking form has to do is format the text.
+
+For example, say a client prefers communicating via email so they choose the "email" option at [that point in the form]({% link resources/for-clients/booking-guide/index.md %}#booking-form-field-preferred-contact-method). When they do this, the form's `submit` button now becomes a button that launches their phone or computer's built-in email app or (web)mail client. The email app or mail client already knows how to handle being told to write a new message, and so a new message with a pre-drafted message is automatically composed. All that's needed now is to attach screening documents to the email and press the "Send" button.
+
+Likewise, should a client express that they prefer communicating via WhatsApp, my form's `submit` button changes to make use of WhatsApp's automated message composition feature. Just as with email, a precomposed message appears on their phone. That message is already addressed to my WhatsApp number. They now merely need to attach their screening documents, and then press the "Send" button.
+
+Most communication apps have this templating capability. An exception is Signal, which is why my form also has a "Copy Inquiry to Clipboard" button. That button does what it says on the tin: it puts the templated message into the user's clipboard, ready to be pasted into whatever text field they like, such as a Signal Private Messenger message.
+
+More technically, all of this works by having a bit of JavaScript swap out the form's `submit` [event](https://developer.mozilla.org/en-US/docs/Web/API/Event){:target="_blank"} with a `click` action on another link in the page whose URL `href` attribute value is modified as the form is being filled out. Links whose destination is an SMS (text message) use [the `sms:` scheme](https://www.ietf.org/rfc/rfc5724.html){:target="_blank"}. Emails use [the `mailto:` scheme](https://en.wikipedia.org/wiki/Mailto){:target="_blank"}. Jabber/XMPP instant messages use [the `xmpp:` scheme](https://xmpp.org/extensions/xep-0147.html){:target="_blank"}. Signal and WhatsApp messages are registered to fully-qualified URLs at `signal.me` and `wa.me`, respectively, and will ordinarily be handled by the URL protocol handlers registered with the browser or Operating System upon installation of that app.
+
+This process circumvents every other middle man. My web host *never* receives the data entered in the form (the form merely composes some text), nor does any other service like Google Forms, TypeForm, Jot Form, and so on. Such third and even fourth parties are often used by booking forms across the industry. To be clear, none of those form submission services actually provide the level of privacy that some of them claim to.
+
+Hell, I'd be happy to prove this claim to you in person, perhaps while in my panties, if that thought appeals. ;)
+
+I believe the boon to privacy I gain by using this technique outweighs the disadvantage of possible user confusion: by directly invoking a locally installed app instead of submitting data to a remote third-party service, I'm able to actually provide prospective clientele exactly as much privacy as their chosen communication method implements because *only* their chosen communication method is party to their messages.
+
+Of course, it takes two to tango. If someone chooses to send an insecure SMS/text message instead of a Signal Private Messenger message, the privacy of our correspondence will be subpar. But at least *my* actions are not the ones forcing us to downgrade our security, and I can still take inquiries via the method that specific prospect prefers.
+
+### Steal my booking form code
+
+I don't mean to denigrate other providers in comparing my booking form to theirs. Rather, my intent is to share my methods here in the hope that other providers implement these techniques for themselves. If more do so, we can collectively raise the standard of privacy protections offered to the clientele in our industry more broadly.
+
+Sex, pleasure, and companionship is a team sport. It's clear that when we protect the communication with our clients, we protect ourselves. When our clients protect us, they are also protecting themselves, too.
+
+Please feel free to try my form out and experience how it works for yourself. If you do, I just ask that you please also let me know it's just a test, and not a real inquiry when you actually send me a message so I know you're simply enjoying trying out this tech. Unless&hellip;. &lt;3
 
 ## Targetable deep-links for every anchor
 
