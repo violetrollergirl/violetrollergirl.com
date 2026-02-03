@@ -19,7 +19,16 @@ layout: none
         xsmall: '(max-width: 480px)'
     });
 
+    // This is equivalent to 'DOMContentLoaded' event.
     $(function () {
+
+        // Randomize the order of gallery images.
+        var gallery_container = $('#main');
+        var gallery_thumbs = gallery_container.children().get();
+        gallery_thumbs.sort(function () {
+            return Math.random() - 0.5;
+        });
+        $(gallery_thumbs).detach().appendTo(gallery_container);
 
         var $window = $(window),
             $body = $('body'),
