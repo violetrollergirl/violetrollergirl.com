@@ -47,6 +47,7 @@ The following is a series of articles I've written in the hopes of helping you g
 
     Numbers in a bank account or crypto wallet don't keep us alive, so this article teaches you how and where to safely and even anonymously spend your hard-earned funds.
 
+{% comment %}
 1. [How and why to convince clients and customers to pay us in cryptocurrency]({% link resources/for-providers/using-cryptocurrency/convincing-clients/index.md %})
 
     How to talk to your clients and customers about cryptocurrency, and what to say to help them help you.
@@ -54,6 +55,7 @@ The following is a series of articles I've written in the hopes of helping you g
 1. [Know your "Know Your Customer" rules]({% link resources/for-providers/using-cryptocurrency/kyc/index.md %})
 
     All about the pitfalls and gotchas of Know Your Customer (KYC) rules, when they help us, when they don't, and how to avoid getting caught in the middle.
+{% endcomment %}
 
 ## Feedback welcomed!
 
