@@ -3,6 +3,9 @@ title: "On-ramping: acquiring cryptocurrency funds (as a sex worker)"
 description: >
     Learn about various ways you can get crypto (as a sex worker).
     Getting paid in crypto is easiest, but there are other ways!
+featured_image:
+  alt:
+  url: images/gallery-originals/cutie-in-bay-windows.jpg
 prev: resources/for-providers/using-cryptocurrency/wallet-apps/
 next: resources/for-providers/using-cryptocurrency/off-ramping/
 last_modified: Wed Jan 14 09:02:10 EST 2026
