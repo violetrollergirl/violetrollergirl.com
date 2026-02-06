@@ -7,7 +7,7 @@ description: >
 featured_image:
   alt:
   url: images/gallery-originals/violet-in-beige-and-marble-booth.jpg
-last_modified: Sun Dec 28 15:35:13 EST 2025
+last_modified: Fri Feb  6 14:59:47 EST 2026
 ---
 
 # {{ site.title }}'s Website Colophon
@@ -155,3 +155,8 @@ I also accept deposits and full payment in these privacy-preserving cryptocurren
 I reuse the same technique of registering URL protocol handlers that my booking form uses for these cryptocurrency donation options. Both Zcash and Monero have standardized URL schemes for invoking various intended actions through links, and I have implemented those on my site. These are specifically [the `zcash:` scheme described by the Zcash Improvement Proposal (ZIP) 321](https://zips.z.cash/zip-0321), and [the `monero:` scheme described by the Monero Project's TX Scheme paper](https://github.com/monero-project/monero/wiki/URI-Formatting).
 
 I further provide QR codes that encode the same URI data into an image for easy access by wallet apps like [Zashi](https://electriccoin.co/zashi/) or [Cake Wallet](https://cakewallet.com/) that provide QR code scan functionality. You can click or scan the QR codes of my donation links on my site to send me Zcash or Monero denominated cryptocurrency conveniently as a tip, gift, donation, deposit, or full payment at any time. While I also accept Bitcoin and Ethereum, I do not prefer them as transactions on those ledgers are published publicly and with full payment details to the world, making them subpar options for private payments outside of personal correspondence.
+
+{:.button-container}
+[For Clients]({% link resources/for-clients/index.md %}){:.button}
+[<span class="fa-icon fa-solid fa-house-chimney"></span> Home]({% link index.html %}){:.button}
+[For Providers]({% link resources/for-providers/index.md %}){:.button}
