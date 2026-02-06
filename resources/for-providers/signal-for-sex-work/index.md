@@ -120,9 +120,9 @@ My recommendations:
 
 ## Enable the Registration Lock for your Signal account
 
-Registering a new Signal account simply requires an SMS verification code, which is not as secure as Signal messages themselves. This means someone who takes over your phone number can re-register your Signal account to their phone.
+Registering a new Signal account simply requires an SMS verification code, which is not as secure as Signal messages themselves. This means someone who hijacks your phone number (known as a [SIM swap attack](https://en.wikipedia.org/wiki/SIM_swap_attack){:target="_blank"}) can re-register your Signal account to their phone, resulting in an [account takeover, or ATO](https://www.cloudflare.com/learning/access-management/account-takeover/){:target="_blank"}.
 
-If someone does this to you, they will still not see any messages that were previously sent to you, but it does mean that new messages sent to your account will be routed to their phone instead of yours. If your contacts are not careful about [verifying Signal Safety Numbers](#verifying-your-signal-safety-number-with-clients-you-meet) with you, discussed next, they may not notice the hijacking. To prevent this, I strongly recommend you enable Signal's Registration Lock feature.
+If someone does this to you, they will still not see any messages that were previously sent to you, but it does mean that new messages sent to your account will be routed to their phone instead of yours. If your contacts are not careful about [verifying Signal Safety Numbers](#verifying-your-signal-safety-number-with-clients-you-meet) with you, they may not notice the hijacking. To prevent this, I strongly recommend you enable Signal's Registration Lock feature.
 
 The Registration Lock feature disallows Signal account transfers without entering a second, extra passcode called a Signal PIN. Treat this Signal PIN like a second password, and store it the same way you save any other password, such as in your password manager. (I like [Bitwarden](https://bitwarden.com/){:target="_blank"}.)
 
@@ -134,7 +134,7 @@ My recommendations:
 
 ## Setting additional Signal privacy protections
 
-Once you have created your Signal profile and determined your comfort with your phone number's discoverability, you should consider switching on these additional privacy protections offered by the Signal app. You can also learn more about [how to protect yourself on Signal](https://support.signal.org/hc/en-us/articles/9932632052378-How-to-protect-yourself-on-Signal){:target="_blank"} from their documentation itself.
+Once you have created your Signal profile and determined your comfort with your phone number's discoverability, you should consider switching on these additional privacy protections offered by the Signal app. You can also learn more about [how to protect yourself from scams on Signal](https://support.signal.org/hc/en-us/articles/9932632052378-How-to-protect-yourself-on-Signal){:target="_blank"} from their documentation itself.
 
 ### Always relay calls
 
