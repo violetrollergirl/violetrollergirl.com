@@ -9,20 +9,20 @@ redirect_from:
 last_modified: Wed Dec 31 18:15:18 EST 2025
 ---
 
-Here are payment methods I accept and whether you can use them for reservation deposit or my full fee:
+Here are payment methods I accept and whether you can use them for only the reservation's deposit or the remainder of my full fee:
 
 <div markdown="1" class="table-wrapper">
 
 {:#table-supported-payment-methods}
-| Method | Can use for [deposit]({% link _faq/booking/what-is-a-deposit.md %})? | Can use for remainder of fee? | Notes |
+| Method | For [deposit]({% link _faq/booking/what-is-a-deposit.md %})? | For remainder? | Notes |
 |-|-|-|-|
-| [Cryptocurrency]({% link resources/for-clients/using-cryptocurrency/index.md %}){:#cryptocurrency} | Yes | Yes | Most discreet, lowest transaction fees; see [crypto on-ramping reference]({% link resources/for-clients/using-cryptocurrency/on-ramping/index.html %}). |
-| Credit/debit card | Yes | No | Highest transaction fees, multiple processors available. |
-| Digital gift card | Yes | No | Rotating selection, ask before purchasing. |
-| Paper money, cash | No | Yes | Please check for counterfeit bills; I do. |
-| [CashApp]({% link resources/for-clients/using-cryptocurrency/cashapp/index.md %}){:#cashapp} | Only via crypto | Only via crypto | |
-| [PayPal]({% link resources/for-clients/using-cryptocurrency/paypal/index.md %}){:#paypal} | Only via crypto | Only via crypto | |
-| [Venmo]({% link resources/for-clients/using-cryptocurrency/venmo/index.md %}){:#venmo} | Only via crypto | Only via crypto | |
+| [<span class="icon fa-solid fa-bitcoin"></span> Cryptocurrency]({% link resources/for-clients/using-cryptocurrency/index.md %}){:#cryptocurrency} | <span class="icon fa-solid fa-check"></span> Yes | <span class="icon fa-solid fa-check"></span> Yes | Most discreet, lowest transaction fees; see [buying crypto cheat sheet]({% link resources/for-clients/using-cryptocurrency/on-ramping/index.html %}). |
+| <span class="icon fa-solid fa-credit-card"></span> Credit/debit card | <span class="icon fa-solid fa-check"></span> Yes | <span class="icon fa-solid fa-xmark"></span> No | Highest transaction fees, multiple processors available. |
+| <span class="icon fa-solid fa-gifts"></span> Digital gift card | <span class="icon fa-solid fa-check"></span> Yes | <span class="icon fa-solid fa-xmark"></span> No | Rotating selection, ask before purchasing. |
+| <span class="icon fa-solid fa-money-bills"></span> Paper money, cash | <span class="icon fa-solid fa-xmark"></span> No | <span class="icon fa-solid fa-check"></span> Yes | Please check for counterfeit bills; I do. |
+| [<span class="icon fa-brands fa-cash-app"></span> CashApp]({% link resources/for-clients/using-cryptocurrency/cashapp/index.md %}){:#cashapp} | Only via crypto | Only via crypto | <span class="icon fa-brands fa-btc"></span> Bitcoin |
+| [<span class="icon fa-brands fa-paypal"></span> PayPal]({% link resources/for-clients/using-cryptocurrency/paypal/index.md %}){:#paypal} | Only via crypto | Only via crypto | <span class="icon fa-brands fa-btc"></span> Bitcoin, <span class="icon fa-brands fa-ethereum"></span> Ethereum, <span class="icon fa-brands fa-litecoin-sign"></span> Litecoin |
+| [<span class="icon fa-brands fa-v"></span> Venmo]({% link resources/for-clients/using-cryptocurrency/venmo/index.md %}){:#venmo} | Only via crypto | Only via crypto | <span class="icon fa-brands fa-btc"></span> Bitcoin, <span class="icon fa-brands fa-ethereum"></span> Ethereum, <span class="icon fa-brands fa-litecoin-sign"></span> Litecoin |
 
 </div><!-- .table-wrapper -->
 
