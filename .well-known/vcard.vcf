@@ -1,0 +1,26 @@
+---
+layout: none
+redirect_from:
+  - /vcard.vcf
+---
+BEGIN:VCARD
+VERSION:4.0
+SOURCE:{{ site.url }}{% link .well-known/vcard.vcf %}
+KIND:individual
+FN:{{ site.author.name }}
+NICKNAME: Vi
+PHOTO:{{ site.url }}{% link images/gallery-originals/pool-table-orange-and-black.jpg %}
+GENDER:F;femmebot
+TEL;VALUE=uri;TYPE="text":tel:{{ site.contact.sms.tel }}
+TEL;VALUE=uri;PREF=1;TYPE="video":tel:{{ site.contact.whatsapp }}
+EMAIL;PREF=1;TYPE="work":{{ site.contact.email }}
+IMPP;VALUE=uri;PREF=1;TYPE="work":xmpp:{{ site.contact.xmpp.jid }}
+LANG;TYPE="work";PREF=1:en
+LANG;TYPE="work";PREF=2:he
+TITLE:{{ site.subtitle }}
+LOGO:{{ site.url }}{% link favicon-32x32.png %}
+NOTE:{{ site.description }}
+REV:{{ "now" | date: "%s" }}
+URL:{{ site.url }}{% link index.html %}
+CALURI;PREF=1;MEDIATYPE=text/calendar:{{ site.data.tours.google_calendar.ics_url }}
+END:VCARD
