@@ -6,7 +6,7 @@ featured_image:
 redirect_from:
   - /faq/booking/do-you-take-cashapp-paypal-venmo/
   - /faq/bookings/do-you-take-cashapp-paypal-venmo/
-last_modified: Wed Dec 31 18:15:18 EST 2025
+last_modified: Sun Feb  8 15:36:41 EST 2026
 ---
 
 Here are payment methods I accept and whether you can use them for only the reservation's deposit or the remainder of my full fee:
