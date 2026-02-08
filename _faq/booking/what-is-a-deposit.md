@@ -13,9 +13,9 @@ redirect_from:
 last_modified: Mon Jan  5 14:22:47 EST 2026
 ---
 
-A deposit is a portion of my consideration paid in advance to guarantee my time is reserved exclusively for you. It's just like other reservation-based systems.
+A deposit is a portion of my [consideration](#rates) paid in advance to guarantee my time is reserved exclusively for you. It's just like other reservation-based systems.
 
-**I require a deposit to confirm all dates.** Until I receive a deposit, our date is marked `tentative` in [my (very busy) calendar](#tours).
+**I require a deposit to confirm all dates.** Until I receive a deposit, dates are marked `tentative` in [my (very busy) calendar](#tours).
 
 My [deposit policy]({% link index.html %}#deposit-policy) is clearly published on the same page as my [rates](#rates), and is reprinted here:
 

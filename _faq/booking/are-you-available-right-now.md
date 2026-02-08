@@ -22,7 +22,7 @@ My short-notice availability largely depends on your ability to:
 
 in a timely and efficient manner.
 
-Asking me "are you available?" does none of these things. It does cause further delay while your window of opportunity to see me continues to close. In contrast, **filling out my booking form is the fastest way to book me.**
+Asking me "are you available?" does none of these things. It does cause further delay while your window of opportunity to see me continues to close. In contrast, **filling out my booking form is the fastest way to meet me.**
 
 {:.button-container}
 [<span class="icon fa-solid fa-pen-nib"></span> Click Here to Book Now]({% link resources/for-clients/booking-guide/index.md %}#booking-inquiry-form){:.button}
