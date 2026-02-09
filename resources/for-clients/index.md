@@ -13,7 +13,7 @@ next: resources/for-clients/booking-guide
 
 # {{ site.title}}'s Resources for Clients
 
-This page lists resources I've created to help clients.
+This page lists resources I've created to help clients. I also highly recommend the [Good Client Guide](https://goodclientguide.com/){:target="_blank"} and the [Satisfaction Project](https://www.satisfactionproject.com/){:target="_blank"}, two excellent client education websites.
 
 ## [Booking guide]({% link resources/for-clients/booking-guide/index.md %})
 

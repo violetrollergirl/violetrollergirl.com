@@ -81,12 +81,13 @@ This page is *not* for:
 - clients who are looking for proof of my legitimacy or need help avoiding scams.
 - clients who want assurance that I want to meet them. (The answer is always yes, [I absolutely do]({% link _faq/about-you/is-it-okay-if-i-am.md %}) want to meet you.)
 
-If the above describes you, I recommend the following blog posts on the Tryst Blog instead of this page:
+If the above describes you, I recommend the following blog posts on the Tryst Blog and elsewhere instead of this page:
 
 - [A First-time Client's Guide to Escort Booking Etiquette](https://tryst.link/blog/a-first-time-clients-guide-to-escort-booking-etiquette-tryst-sex-work-blog/){:target="_blank"}
 - ['What if it's a scam?' How to have a successful date with a pro, by doing your homework.](https://tryst.link/blog/what-if-its-a-scam-find-escort/){:target="_blank"}
+- ["How do I find a call girl near me?"](https://www.satisfactionproject.com/how-do-i-find-a-call-girl-near-me/){:target="_blank"}
 
-I also suggest spending a bit of time perusing the [Good Client Guide](https://goodclientguide.com/){:target="_blank"}, a companion website that has compiled much of the same information.
+I also suggest spending a bit of time perusing the [Good Client Guide](https://goodclientguide.com/){:target="_blank"} and the [Satisfaction Project](https://www.satisfactionproject.com/){:target="_blank"}, two client education websites that have compiled much of the same information.
 
 ## Start here: once you know you want to meet me
 
