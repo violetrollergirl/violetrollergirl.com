@@ -31,6 +31,7 @@ The point of this is not to ensure perfection, but rather to give you clarity du
 ## Table of contents
 
 1. [Who should read this page](#who-should-read-this-page)
+    1. [For general booking guides and etiquette](#for-general-booking-guides-and-etiquette)
 1. [Start here: once you know you want to meet me](#start-here-once-you-know-you-want-to-meet-me)
 1. [Fill in my mad-lib style booking form](#fill-in-my-mad-lib-style-booking-form)
     1. [Booking form field: your name](#booking-form-field-your-name)
@@ -70,6 +71,8 @@ This page is for:
 If you aren't yet sure whether I'm the girl for you, then you might want to have a look at the rest of my site before returning here. My [gallery](#gallery) shows you what I look like. (Yes, I really do look like that.) My ["tech specs" (about page)](#about) describe my vitals and my vibe. My [FAQ](#faq) has the answers to numerous questions about me and my offerings, and will point you at [reviews and testimonials about me]({% link _faq/about-me/do-you-have-any-reviews.md %}). My [rates page](#rates) provides a breakdown of considerations for my offerings. And my [tours and availability](#tours) page gives you details about where I'm traveling and when, along with some detail about how to bring me to your city for a special date. You can also learn about me from my prolific [social media posts and my softcore (and hardcore) content]({% link index.html %}#links-group-socials-amp-content).
 
 And if you're still not sure? You can schedule [a brief curiosity call]({% link index.html %}#rate-add-ons-and-online-curiosity-call-30-minutes) with me, the cost of which can be directly applied to your deposit if you choose to book. For that, however, you'll need to schedule some time with me. This page can help you with that!
+
+### For general booking guides and etiquette
 
 This page is *not* for:
 
