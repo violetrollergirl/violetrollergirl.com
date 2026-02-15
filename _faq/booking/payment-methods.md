@@ -30,7 +30,7 @@ If it's not on this list, sorry, the answer is *no*.
 
 ### Unsupported payment methods
 
-**I do not accept** Apple Pay, Google Pay, Stripe, WePay, or Zelle, but you can use many if not all of these methods to [buy cryptocurrency]({% link resources/for-clients/using-cryptocurrency/index.md %}), and then send that.
+**I do not accept** Apple Pay, Google Pay, Stripe, WePay, Wise, or Zelle, but you can use many if not all of these methods to [buy cryptocurrency]({% link resources/for-clients/using-cryptocurrency/index.md %}), and then send that.
 
 ### Paying with crypto in common apps
 

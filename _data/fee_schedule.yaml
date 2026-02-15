@@ -46,7 +46,7 @@
       location: a remote location
       duration_in_hours: 1
       details: |-
-        Virtual tryst over private video chat.
+        Virtual tryst over private video chat via <a href="https://signal.org/"><span class="icon fa-brands fa-signal-messenger"></span> Signal Private Messenger</a> or <a href="https://whatsapp.com/"><span class="icon fa-brands fa-whatsapp"></span> WhatsApp</a>.
 
         * Rate shown is per hour.
     - name: Custom photo/video
