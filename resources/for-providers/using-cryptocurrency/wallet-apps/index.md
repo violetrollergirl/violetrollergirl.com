@@ -26,7 +26,7 @@ A lot of people think getting started with cryptocurrency is hard. That might ha
     1. [Wallet app dealbreakers](#wallet-app-dealbreakers)
     1. [Wallet app nice-to-haves](#wallet-app-nice-to-haves)
 1. [Choose and install your wallet app](#choose-and-install-your-wallet-app)
-    1. [Zashi: Privacy-focused Zcash wallet app](#zashi-privacy-focused-zcash-wallet-app)
+    1. [Zodl (formerly Zashi): Privacy-focused Zcash wallet app](#zodl-formerly-zashi-privacy-focused-zcash-wallet-app)
     1. [Cake Wallet: Privacy-focused Monero wallet app](#cake-wallet-privacy-focused-monero-wallet-app)
     1. [Using multiple wallet apps](#using-multiple-wallet-apps)
 1. [Open your wallet app and you're good to go](#open-your-wallet-app-and-youre-good-to-go)
@@ -74,7 +74,7 @@ The best privacy-focused wallet apps also offer other protections from privacy v
 - **Permissionless swap deposits:** this feature makes it possible for me to unilaterally protect a client or customer's payment privacy even if they refuse to use a privacy-preserving technology themselves, enabling me to [*receive* Zcash even if my client or customer pays me in another currency]({% link resources/for-providers/using-cryptocurrency/on-ramping/index.md %}#getting-paid-in-zcash-when-your-client-or-customer-only-has-bitcoin) like Bitcoin.
 - **Built-in Tor protection:** keeping financial transactions private in the blockchain ledger system is great, but the best privacy-focused wallet apps also protect you from classic network surveillance via "set and forget" integration with [Tor Project](https://torproject.org/){:target="_blank"}'s anonymizing network proxy from within the app itself.
     - Using Tor makes it harder for anyone to know that you're even using a cryptocurrency network in the first place.
-    - I highly recommend enabling this feature if your wallet app supports it. For example, the Electric Coin Company's blog shows you [how to enable Tor within Zashi](https://electriccoin.co/blog/zashi-2-1-enhanced-privacy-with-tor-beta/){:target="_blank"}.
+    - I highly recommend enabling this feature if your wallet app supports it. For example, the Electric Coin Company's blog shows you [how to enable Tor within Zodl (formerly Zashi)](https://electriccoin.co/blog/zashi-2-1-enhanced-privacy-with-tor-beta/){:target="_blank"}.
 
 Both of the wallet apps I'll recommend next support all of these features!
 
@@ -82,30 +82,30 @@ Both of the wallet apps I'll recommend next support all of these features!
 
 The cryptocurrency ecosystem evolves quickly, but as of this writing there are two very clear winners. I'll show you both.
 
-### Zashi: Privacy-focused Zcash wallet app
+### Zodl (formerly Zashi): Privacy-focused Zcash wallet app
 
-[Zashi Wallet](https://electriccoin.co/zashi/){:target="_blank"} is the best beginner's privacy coin wallet app, period, full stop.
+[Zodl Wallet (formerly known as Zashi Wallet)](https://zodl.com/){:target="_blank"} is the best beginner's privacy coin wallet app, period, full stop.
 
-Its simple user interface may frustrate more experienced cryptocurrency users and there are some edge cases it can't account for on its own. However, this same simplicity is what novices will be blessedly relieved by. If you've never used a cryptocurrency wallet before, Zashi will delight you from the very first moment you open it.
+Its simple user interface may frustrate more experienced cryptocurrency users and there are some edge cases it can't account for on its own. However, this same simplicity is what novices will be blessedly relieved by. If you've never used a cryptocurrency wallet before, Zodl will delight you from the very first moment you open it.
 
-I like to say that Zashi is to money what Signal Private Messenger is to speech: an app so uncompromising about financial privacy and yet so easy to use that it's almost impossible to fuck up. If you're just starting out in sex work today and you want only one simple app to communicate bookings with clients or sales to customers, [make it Signal Private Messenger]({% link resources/for-providers/signal-for-sex-work/index.md %}). Likewise, if you've never tried cryptocurrency before and you only want to use one app to [get clients or customers to pay you in crypto]({% link resources/for-providers/using-cryptocurrency/on-ramping/index.md %}), make it Zashi.
+I like to say that Zodl is to money what Signal Private Messenger is to speech: an app so uncompromising about financial privacy and yet so easy to use that it's almost impossible to fuck up. If you're just starting out in sex work today and you want only one simple app to communicate bookings with clients or sales to customers, [make it Signal Private Messenger]({% link resources/for-providers/signal-for-sex-work/index.md %}). Likewise, if you've never tried cryptocurrency before and you only want to use one app to [get clients or customers to pay you in crypto]({% link resources/for-providers/using-cryptocurrency/on-ramping/index.md %}), make it Zodl.
 
-Zashi runs on Apple iOS or Android devices, including [GrapheneOS](https://grapheneos.org/){:target="_blank"}, the privacy-focused, de-Google-ified Android alternative:
+Zodl runs on Apple iOS or Android devices, including [GrapheneOS](https://grapheneos.org/){:target="_blank"}, the privacy-focused, de-Google-ified Android alternative:
 
 {:.align-center}
-{% include link-as-button.md anchor_text="Go install Zashi now" url="https://electriccoin.co/zashi/" target="_blank" %}
+{% include link-as-button.md anchor_text="Go install Zodl now" url="https://zodl.com/" target="_blank" %}
 
-Some other unique features that make Zashi particularly attractive to privacy coin novices are:
+Some other unique features that make Zodl particularly attractive to privacy coin novices are:
 
 - **Crosspay:** this feature is the easiest and most private way to make payments in Bitcoin or other cryptocurrencies directly out of your (shielded) Zcash balance without having to do any conversion or transaction fee math yourself! [More on this later]({% link resources/for-providers/using-cryptocurrency/off-ramping/index.md %}#paying-in-bitcoin-when-you-only-have-zcash).
 
-I think Zashi is fast becoming the killer app for anyone who's at risk of being de-banked from the traditional financial system. By holding shielded ZEC, your money stays entirely private. Since Zashi's Crosspay and swap features are built on a permissionless, decentralized exchange (DEX) protocol called [NEAR Intents](https://near-intents.org/){:target="_blank"}, you still have access to the broader crypto ecosystem in a way no one can ban you from.
+I think Zodl is fast becoming the killer app for anyone who's at risk of being de-banked from the traditional financial system. By holding shielded ZEC, your money stays entirely private. Since Zodl's Crosspay and swap features are built on a permissionless, decentralized exchange (DEX) protocol called [NEAR Intents](https://near-intents.org/){:target="_blank"}, you still have access to the broader crypto ecosystem in a way no one can ban you from.
 
 ### Cake Wallet: Privacy-focused Monero wallet app
 
 If you're already more experienced with cryptocurrency, or if you simply want a more elaborate wallet app, I suggest you look at [Cake Wallet](https://cakewallet.com/){:target="_blank"}.
 
-Unlike Zashi, Cake Wallet supports holding a whole slew of different cryptocurrencies, including Monero, (shielded) Zcash, and many other non-private cryptocurrencies like old school Bitcoin proper. This means that as long as you're comfortable with its slightly more complex user interface, you can consolidate all of your crypto needs into this one single wallet app.
+Unlike Zodl, Cake Wallet supports holding a whole slew of different cryptocurrencies, including Monero, (shielded) Zcash, and many other non-private cryptocurrencies like old school Bitcoin proper. This means that as long as you're comfortable with its slightly more complex user interface, you can consolidate all of your crypto needs into this one single wallet app.
 
 {:.align-center}
 {% include link-as-button.md anchor_text="Go install Cake Wallet now" url="https://docs.cakewallet.com/get-started/#installing-cake-wallet" target="_blank" %}
@@ -117,7 +117,7 @@ Some other unique features that make Cake Wallet particularly attractive to priv
 
 ### Using multiple wallet apps
 
-Although I find that the majority of my needs are met with just Zashi wallet, once you start learning about cryptocurrency you'll find it both easy and useful to at least dabble in other cryptocurrencies and wallet apps. There are multiple reasons for this:
+Although I find that the majority of my needs are met with just Zodl wallet, once you start learning about cryptocurrency you'll find it both easy and useful to at least dabble in other cryptocurrencies and wallet apps. There are multiple reasons for this:
 
 - Sometimes, it's easier to get paid if you can "meet clients where they are" by using a wallet app that more natively supports whatever currency theirs does, without going through a decentralized exchange that may delay receiving your funds from less cooperative clients.
 - Once you start amassing some wealth, you may want to mitigate some of your risk by spreading your holdings out across multiple wallet apps, cryptocurrencies, or both.
@@ -125,9 +125,9 @@ Although I find that the majority of my needs are met with just Zashi wallet, on
 
 As I write this, the cryptocurrency ecosystem is also still very fragmented. Different wallet apps work with different cryptocurrencies, and different "coins" are available on different "chains" (sometimes called "networks") as "tokens." It's all very confusing and can get annoying and rather jargon-filled quickly.
 
-This fragmentation itself may also push you to need more than one wallet. However, if you stick with Zashi for your Zcash and Cake Wallet for your Monero and your Bitcoin (or Ethereum or whatever other non-private cryptocurrency you're ultimately pushed to use), you'll cover what I estimate is 90-95% of your use cases.
+This fragmentation itself may also push you to need more than one wallet. However, if you stick with Zodl for your Zcash and Cake Wallet for your Monero and your Bitcoin (or Ethereum or whatever other non-private cryptocurrency you're ultimately pushed to use), you'll cover what I estimate is 90-95% of your use cases.
 
-I personally use Zashi most often. After that, I use Cake Wallet. For what it's worth, if you really want to explore wallets and feel comfortable getting a bit adventurous with your choices, I also like [Edge Wallet](https://edge.app/){:target="_blank"} and [Ywallet](https://ywallet.app/){:target="_blank"}.
+I personally use Zodl most often. After that, I use Cake Wallet. For what it's worth, if you really want to explore wallets and feel comfortable getting a bit adventurous with your choices, I also like [Edge Wallet](https://edge.app/){:target="_blank"} and [Ywallet](https://ywallet.app/){:target="_blank"}.
 
 ## Open your wallet app and you're good to go
 

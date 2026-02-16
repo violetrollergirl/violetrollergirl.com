@@ -78,9 +78,9 @@ A lot of people who have been in the cryptocurrency space for a while have a lot
 
 Most people who rag on Zcash will tell you that it's "not private by default." This is just not true anymore. They are saying this because Zcash actually supports both a private and a non-private mode. In Zcash parlance, we call this "shielded" (private) and "transparent" (non-private/public) addresses and transactions. Back in the day, most apps that supported Zcash's currency token, called *ZEC (the Zcash Electric Coin)*, didn't support the shielded functionality, but that's since changed.
 
-Good apps like [Zashi Wallet](https://electriccoin.co/zashi/){:target="_blank"} exist that not only fully support and default to Zcash's shielded mode, they also automatically convert non-private/public/transparent Zcash funds into their shielded/private equivalents. These apps also prevent you from spending unshielded funds, and some even go so far as to help protect your privacy from other deanonymization techniques by making it dead-simple to use the famous privacy-enhancing anonymizing proxy called [Tor](https://torproject.org/){:target="_blank"} from right within the app.
+Good apps like [Zodl Wallet (formerly Zashi Wallet)](https://zodl.com/){:target="_blank"} exist that not only fully support and default to Zcash's shielded mode, they also automatically convert non-private/public/transparent Zcash funds into their shielded/private equivalents. These apps also prevent you from spending unshielded funds, and some even go so far as to help protect your privacy from other deanonymization techniques by making it dead-simple to use the famous privacy-enhancing anonymizing proxy called [Tor](https://torproject.org/){:target="_blank"} from right within the app.
 
-Zashi in particular is made by the same team that built Zcash itself. It's [my favorite wallet app for Zcash]({% link resources/for-providers/using-cryptocurrency/wallet-apps/index.md %}#zashi-privacy-focused-zcash-wallet-app).
+Zodl in particular is made by the same team that built Zcash itself. It's [my favorite wallet app for Zcash]({% link resources/for-providers/using-cryptocurrency/wallet-apps/index.md %}#zodl-formerly-zashi-privacy-focused-zcash-wallet-app).
 
 ### Monero in a nutshell
 
@@ -112,7 +112,7 @@ That's why third-party custodial crypto apps are just as risky to use as a tradi
 
 Self-custodial wallet apps are the way to go. Using a third-party custodial wallet re-introduces most of the risks of the traditional financial system. Put another way, self-custodial wallets are the only sure-fire way to protect yourself from suffering chargebacks or getting doxed.
 
-Both of my favorite wallet apps mentioned above, Zashi (for Zcash) and Cake Wallet for (Monero and Bitcoin), are examples of self-custodial wallets.
+Both of my favorite wallet apps mentioned above, Zodl (for Zcash) and Cake Wallet for (Monero and Bitcoin), are examples of self-custodial wallets.
 
 ### Self-custody comes with responsibility
 

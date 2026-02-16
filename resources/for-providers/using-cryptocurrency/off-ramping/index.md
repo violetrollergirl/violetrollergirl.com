@@ -27,7 +27,7 @@ In the traditional financial system, spending money comes with a privacy trade-o
 1. [Paying directly in cryptocurrency](#paying-directly-in-cryptocurrency)
     1. [Paying in Bitcoin when you only have Zcash](#paying-in-bitcoin-when-you-only-have-zcash)
 1. [Piggyback on the gift card economy](#piggyback-on-the-gift-card-economy)
-    1. [Pay for stuff via Flexa in Zashi](#pay-for-stuff-via-flexa-in-zashi)
+    1. [Pay for stuff via Flexa in Zodl](#pay-for-stuff-via-flexa-in-zodl)
     1. [Pay for stuff via Cake Pay in Cake Wallet](#pay-for-stuff-via-cake-pay-in-cake-wallet)
     1. [Common cryptocurrency to gift card off-ramps (for sex workers)](#common-cryptocurrency-to-gift-card-off-ramps-for-sex-workers)
 1. [Use crypto-native service providers](#use-crypto-native-service-providers)
@@ -51,19 +51,19 @@ Community's always been important but it'll become more so very rapidly. If the 
 
 So if you're a sex worker with such skills, share that fact with friends you trust. Or maybe you've got a car, time, and need cash? Consider offering a [Homobiles](https://en.wikipedia.org/wiki/Homobiles){:target="_blank"}-style car service for your fellow workers and accept payments in ZEC or another privacy coin! Build a local economy, and stay surveillance-free by using Zcash to sustain it! The true revolutionary potential of this truly cannot be overstated.
 
-One way to think about this is: [Zcash](https://z.cash/){:target="_blank"} in [Zashi](https://electriccoin.co/zashi/){:target="_blank"} is to money what [Signal Private Messenger](https://signal.org/){:target="_blank"} is to speech. Vive la révolution!
+One way to think about this is: [Zcash](https://z.cash/){:target="_blank"} in [Zodl](https://zodl.com/){:target="_blank"} is to money what [Signal Private Messenger](https://signal.org/){:target="_blank"} is to speech. Vive la révolution!
 
 ### Paying in Bitcoin when you only have Zcash
 
 Although Zcash is a superior private currency, most of the crypto world still relies on other surveillable systems, like Bitcoin. Thankfully, cryptocurrencies can be easily converted from one to another so it's easy to pay in a vendor's cryptocurrency of choice even if you only keep a balance in Zcash. There are lots of ways to do this, but many are clunky and require you to be quite careful about exchange rates, conversion fees, and payment processing times.
 
-By far the easiest method is Zashi's "Crosspay" feature, so named because it can make "cross-chain payments" simple and safe. Let's work through a common use case I have one step at a time and show Crosspay at work.
+By far the easiest method is Zodl's "Crosspay" feature, so named because it can make "cross-chain payments" simple and safe. Let's work through a common use case I have one step at a time and show Crosspay at work.
 
 One very common need I have is to pay for my escort ads. Many escort directories and mall sites will accept payment in Bitcoin, but I'm aware of none who accept Zcash. (Obviously, if you know of one, please [contact](#contact) me to tell me about it!) This is where Crosspay shines.
 
 Suppose you have some ZEC and you want to [load up your Tryst TLC balance](https://help.tryst.link/en-gb/22-payments-accounts/86-managing-your-membership){:target="_blank"}. Here's what you can do.
 
-> &#128161; Remember that since you're starting from holding ZEC in Zashi, it's already shielded and private. This means no matter how you got it, the money we're about to spend has no digital link back to your legal identity. This is a much better place to start than any other Bitcoin address.
+> &#128161; Remember that since you're starting from holding ZEC in Zodl, it's already shielded and private. This means no matter how you got it, the money we're about to spend has no digital link back to your legal identity. This is a much better place to start than any other Bitcoin address.
 
 1. First, [log in to your Tryst account](https://app.tryst.link/log_in){:target="_blank"} and access their "[Add credits](https://app.tryst.link/members/orders/new){:target="_blank"}" screen.
 
@@ -79,19 +79,19 @@ Suppose you have some ZEC and you want to [load up your Tryst TLC balance](https
 
     ![Screenshot from Tryst's support knowledge base showing what their 'Pay Now' button looks like.](https://web.archive.org/web/20250905184347if_/https://help.tryst.link/api/v1/attachments/2879526)
 
-1. Tryst will show you a QR code that's similar to Zashi's "Request" screen, with an amount already embedded in it. That's nice, but we're not going to use it because that QR code is intended for Bitcoin wallet apps, and we're using a Zcash wallet app.
+1. Tryst will show you a QR code that's similar to Zodl's "Request" screen, with an amount already embedded in it. That's nice, but we're not going to use it because that QR code is intended for Bitcoin wallet apps, and we're using a Zcash wallet app.
 1. Click on the "Copy" tab to reveal just the Bitcoin address that Tryst wants you to send your payment to. It'll look like the *right* screenshot in the image below.
 
     ![Screenshot from Tryst's support knowledge base showing a side-by-side comparison of their two Bitcoin payment processing screens, the left with a QR code and the right with plain text Bitcoin addresses.](https://web.archive.org/web/20250905184624if_/https://help.tryst.link/api/v1/attachments/2095928)
 
 1. Click on the address itself (*not* the "payment link") to copy the Bitcoin address to your clipboard. Keep a note of this address somewhere, like a text window or just in your clipboard. We'll need it later. I like to use [Signal's "Note to self" feature](https://support.signal.org/hc/en-us/articles/360043272451-Note-to-Self){:target="_blank"}, which is also a secure way to send it to my other devices if I'm not already doing this all from one device.
-1. Now, open Zashi.
-1. Click on Zashi's "Pay" button to open the Crosspay screen.
+1. Now, open Zodl.
+1. Click on Zodl's "Pay" button to open the Crosspay screen.
 1. Next, in the "Send to" section, enter the payee's (Tryst's) information:
     1. You'll see a cryptocurrency selection drop-down menu for choosing the currency the payee wants to receive from us. Find Bitcoin (`BTC`) from the list of options; it will have a small Bitcoin logo on top of a larger, second, identical Bitcoin logo. This means we're using our shielded ZEC, but paying in Bitcoin.
     1. In the `Address` field, paste the Bitcoin payment address you copied from Tryst earlier.
-1. Now choose how much to pay by entering an amount in either Bitcoin units or, if you have enabled Zashi's currency conversion feature in its settings, in fiat units.
-1. Click "Review" at the bottom of the Zashi Crosspay screen. Zashi's "Pay Now" drawer will open.
+1. Now choose how much to pay by entering an amount in either Bitcoin units or, if you have enabled Zodl's currency conversion feature in its settings, in fiat units.
+1. Click "Review" at the bottom of the Zodl Crosspay screen. Zodl's "Pay Now" drawer will open.
 1. Review your payment and ensure that the fiat amount, if shown, will cover your Tryst TLC order.
 1. Click "Confirm" when you are ready to make your payment and send the transaction.
 
@@ -107,23 +107,23 @@ This is not a hypothetical example. This is in fact how I pay for [my Tryst memb
 
 Among the most common ways to spend your hard-earned cryptocurrency today is by piggybacking on the massive gift card economy for making various kinds of retail purchases. One thing that's nice about this for us as sex workers in particular is that many of us are already very familiar with gift cards and similar store credit services. We may even have regular business expenses such as a prepaid mobile phone (<acronym title="electronic subscriber identity module">eSIM</acronym>) line or hotel bookings we need to make to run our business.
 
-Since gift cards and store credit systems are already a certain kind of alternative digital local currency, cryptocurrency is a natural fit. As a result, an entire *crypto gift card marketplace* industry has emerged to support this particular kind of off-ramp. While different crypto-to-gift-card vendors support different currencies, [Zashi's built-in decentralized exchange](#paying-in-bitcoin-when-you-only-have-zcash) solves that problem, so the main considerations for those of us who want to use this method to spend our cryptocurrency funds are:
+Since gift cards and store credit systems are already a certain kind of alternative digital local currency, cryptocurrency is a natural fit. As a result, an entire *crypto gift card marketplace* industry has emerged to support this particular kind of off-ramp. While different crypto-to-gift-card vendors support different currencies, [Zodl's built-in decentralized exchange](#paying-in-bitcoin-when-you-only-have-zcash) solves that problem, so the main considerations for those of us who want to use this method to spend our cryptocurrency funds are:
 
 - finding a crypto to gift card exchange provider that partners with a brand we want to buy from, and
 - ensuring that the exchange provider's terms of use and their ["Know Your Customer" rules]({% link resources/for-providers/using-cryptocurrency/kyc/index.md %}) doesn't risk our privacy more than we are comfortable with.
 
 I strongly suggest talking to your friends and colleagues about what services they like and feel safe using, and why. But if you're just starting from scratch, read on to learn about my favorite vendors. Two of them conveniently, are built into the same self-custody wallets I've already recommended.
 
-### Pay for stuff via Flexa in Zashi
+### Pay for stuff via Flexa in Zodl
 
-The gift card vendor directly integrated with the Zcash wallet app I use is called [Flexa](https://flexa.co/){:target="_blank"}, which is basically a multi-store gift card manager mini-app inside the [Zashi]({% link resources/for-providers/using-cryptocurrency/wallet-apps/index.md %}#zashi-privacy-focused-zcash-wallet-app) wallet app itself. If you've installed the mainstream version of Zashi (i.e., from the Google Play Store or the Apple App Store, but *not* from the [F-Droid strictly free software app repository](https://f-droid.org/en/packages/co.electriccoin.zcash.foss/){:target="_blank"}), you'll have the option to spend your shielded ZEC at partnered Flexa brands from within your Zashi wallet.
+The gift card vendor directly integrated with the Zcash wallet app I use is called [Flexa](https://flexa.co/){:target="_blank"}, which is basically a multi-store gift card manager mini-app inside the [Zodl]({% link resources/for-providers/using-cryptocurrency/wallet-apps/index.md %}#zodl-formerly-zashi-privacy-focused-zcash-wallet-app) wallet app itself. If you've installed the mainstream version of Zodl (i.e., from the Google Play Store or the Apple App Store, but *not* from the [F-Droid strictly free software app repository](https://f-droid.org/en/packages/co.electriccoin.zcash.foss/){:target="_blank"}), you'll have the option to spend your shielded ZEC at partnered Flexa brands from within your Zodl wallet.
 
 As of this writing, some Flexa partners include [Ulta Beauty](https://www.ulta.com/){:target="_blank"} and [Kiehl's](https://www.kiehls.com/){:target="_blank"} (cosmetic and skincare product brands, useful for the obvious reasons), [Sheetz](https://www.sheetz.com/){:target="_blank"} (a convenience store and gas station chain, useful if you often drive yourself to outcalls), and [Chipotle](https://www.chipotle.com/){:target="_blank"}, which I guess is mostly noteworthy for personal reasons because one of my partners loves Mexican food, so I get to treat them here often. :)
 
-First, set up Zashi to work with Flexa as privately as possible by [enabling Zashi's built-in Tor network privacy features](https://electriccoin.co/blog/zashi-2-1-enhanced-privacy-with-tor-beta/){:target="_blank"}. Once that's set up **do this to use Flexa from within Zashi:**
+First, set up Zodl to work with Flexa as privately as possible by [enabling Zodl's built-in Tor network privacy features](https://electriccoin.co/blog/zashi-2-1-enhanced-privacy-with-tor-beta/){:target="_blank"}. Once that's set up **do this to use Flexa from within Zodl:**
 
-1. Open your Zashi wallet app. Make sure you have some ZEC in it, enough to cover the cost of the thing you're about to buy in the local fiat currency where you're buying it (such as in US Dollars if you're in the United States).
-1. Tap the "More&hellip;" button in the Zashi main screen.
+1. Open your Zodl wallet app. Make sure you have some ZEC in it, enough to cover the cost of the thing you're about to buy in the local fiat currency where you're buying it (such as in US Dollars if you're in the United States).
+1. Tap the "More&hellip;" button in the Zodl main screen.
 1. Tap the "Pay with Flexa" item in the resulting list.
 1. If this is the first time you've used Flexa, you'll be asked to complete a brief registration process where you are asked for your name and email address. At this point, there are a few things you should know:
     - While Flexa will have this information, none of it will end up on the Zcash blockchain network nor with the ultimate merchant from which you are buying something.
@@ -146,7 +146,7 @@ The gift card vendor directly integrated with the Monero wallet app I use is cal
 {:style="margin: auto; max-width: 500px;"}
 [![Screenshot of the CakePay.com checkout screen showing a Zcash option to pay for a gift card purchase.](http://web.archive.org/web/20251114221317if_/https://pbs.twimg.com/media/G5f-OFhaUAAT_SS?format=jpg&name=large)](https://x.com/cakewallet/status/1988338435879506011){:target="_blank"}
 
-> TK-TODO: This section is not yet written, but it functions almost identically to Flexa in Zashi: sign up with a KYC-lite email address, either on the Cake Pay website or in the Cake Wallet app itself, and then choose a giftcard, pay for it from a Cake Wallet's balance **using Monero, since Monero is the one private cryptocurrency Cake Wallet supports**, and then use the gift card as you normally would.
+> TK-TODO: This section is not yet written, but it functions almost identically to Flexa in Zodl: sign up with a KYC-lite email address, either on the Cake Pay website or in the Cake Wallet app itself, and then choose a giftcard, pay for it from a Cake Wallet's balance **using Monero, since Monero is the one private cryptocurrency Cake Wallet supports**, and then use the gift card as you normally would.
 >
 > Note that as of this writing, Cake Pay is not compatible with Tor; you must disable Tor from within Cake Wallet's settings to use Cake Pay.
 
@@ -165,7 +165,7 @@ Since there are so many purchases available at these sites, I've also compiled t
 
 - [Digital pre-paid Visa credit card (via Bitrefill)](https://www.bitrefill.com/us/en/gift-cards/virtual-prepaid-visa-usa/){:target="_blank"} - Perhaps the most generically useful crypto off-ramp via the gift card economy is simply a pre-paid credit card. You pay in crypto and get a legitimate digital pre-paid credit card number that has a fiat balance you paid for using your cryptocurrency balance. You can also get [physical pre-paid credit cards](https://www.bitrefill.com/us/en/gift-cards/physical-prepaid-visa-usa/){:target="_blank"} mailed to you.
 - [Amazon Gift Card (via Bitrefill)](https://www.bitrefill.com/us/en/gift-cards/amazon_com-usa/){:target="_blank"} - This gift card is good for anything sold at Amazon.com, not that I'm trying to encourage you to give Daddy Bezos more money, but, y'know&hellip;.
-- [Ulta Beauty Gift Card (via Bitrefill)](https://www.bitrefill.com/us/en/gift-cards/ulta-beauty-usa/){:target="_blank"} - Ever since I started using cryptocurrency more in my everyday life, this cosmetics retailer has become my go-to for makeup and simple skincare needs. [Flexa from within the Zashi wallet app](#pay-for-stuff-with-flexa-in-zashi) also supports filling Ulta Beauty gift cards.
+- [Ulta Beauty Gift Card (via Bitrefill)](https://www.bitrefill.com/us/en/gift-cards/ulta-beauty-usa/){:target="_blank"} - Ever since I started using cryptocurrency more in my everyday life, this cosmetics retailer has become my go-to for makeup and simple skincare needs. [Flexa from within the Zodl wallet app](#pay-for-stuff-with-flexa-in-zodl) also supports filling Ulta Beauty gift cards.
 - [Amtrak Gift Card (via Bitrefill)](https://www.bitrefill.com/us/en/gift-cards/amtrak-usa/){:target="_blank"} - Since I service clients in numerous cities clustered along Amtrak lines on the United States' East Coast, this is a particularly convenient off-ramp for me and I imagine other <abbr title="Train Me To You">TMTY</abbr> providers would want to know about it, too.
 - [Lyft Gift Card](https://www.bitrefill.com/us/en/gift-cards/lyft-usa/){:target="_blank"} or [Uber Gift Card](https://www.bitrefill.com/us/en/gift-cards/uber-usa/){:target="_blank"} (via Bitrefill) - For the obvious reasons.
 
@@ -184,7 +184,7 @@ Instead of gift cards, which is really just a roundabout way to help fiat econom
 
 Perhaps the fastest way to demonstrate how this service works is to just watch what happens at its payment screen.
 
-[Travala's payment options](https://www.travala.com/payment-options){:target="_blank"} includes direct cryptocurrency transfer with dozens upon dozens of different supported cryptocurrencies, including the popular ones. While Travala doesn't support Zcash directly, remember you can still [use Zashi's decentralized off-ramp to pay in Bitcoin](#paying-in-bitcoin-when-you-only-have-zcash) or whatever other cryptocurrency you like directly from your Zcash balance.
+[Travala's payment options](https://www.travala.com/payment-options){:target="_blank"} includes direct cryptocurrency transfer with dozens upon dozens of different supported cryptocurrencies, including the popular ones. While Travala doesn't support Zcash directly, remember you can still [use Zodl's decentralized off-ramp to pay in Bitcoin](#paying-in-bitcoin-when-you-only-have-zcash) or whatever other cryptocurrency you like directly from your Zcash balance.
 
 Here's a screenshot of a reservation made on their site about to get paid in Bitcoin.
 
@@ -226,7 +226,7 @@ While some providers do these checks ourselves, there are also specialized servi
     - **Please use me as a reference** by entering my email address (`{{ site.contact.email }}`) because I get referral credits and it will save me money:
     ![Screenshot of the Laura Cohen Precautionary Investigations new prospect sign up form showing how to enter {{ site.title }} as a referral source.]({% link resources/for-providers/using-cryptocurrency/off-ramping/screenshot.laura-cohen-precautionary-investigations.referral.png %})
 
-Always remember that Bitcoin payments are *never* anonymous so, for your protection, I recommend [paying using Zashi's Crosspay feature](#paying-in-bitcoin-when-you-only-have-zcash), same as you would pay for your Tryst ad.
+Always remember that Bitcoin payments are *never* anonymous so, for your protection, I recommend [paying using Zodl's Crosspay feature](#paying-in-bitcoin-when-you-only-have-zcash), same as you would pay for your Tryst ad.
 
 ## Fund a traditional payment card using cryptocurrency
 
@@ -257,9 +257,9 @@ Payy itself communicates what data is public and what data stays private when yo
 {:.align-center}
 ![Screenshot of the Payy Card privacy notice depicting what is and is not visible to other actors when you make payments with it.]({% link resources/for-providers/using-cryptocurrency/off-ramping/screenshot.payy.payy-card-privacy-infographic.png %})
 
-I would not recommend using your Payy Card or the Payy network for your sex worker needs if you can avoid it; do your best to stick with Zcash and Monero for that. However, if your friends are unwilling to adopt the stronger privacy protections offered by Zcash in Zashi, are scared of the volatility of actual privacy coins, or have otherwise succumbed to the propaganda that stablecoins are somehow superior (even though we know they're not), Payy can be a convincing half-step to at least get them using cryptocurrency with *you*.
+I would not recommend using your Payy Card or the Payy network for your sex worker needs if you can avoid it; do your best to stick with Zcash and Monero for that. However, if your friends are unwilling to adopt the stronger privacy protections offered by Zcash in Zodl, are scared of the volatility of actual privacy coins, or have otherwise succumbed to the propaganda that stablecoins are somehow superior (even though we know they're not), Payy can be a convincing half-step to at least get them using cryptocurrency with *you*.
 
-Your Payy Card can make you look more like a "normal" civilian in your personal life. And you can still keep your wealth private by having it in and moving it through the Zcash shielded pool (i.e., Zashi) at every opportunity.
+Your Payy Card can make you look more like a "normal" civilian in your personal life. And you can still keep your wealth private by having it in and moving it through the Zcash shielded pool (i.e., Zodl) at every opportunity.
 
 If you'd like to try Payy, using my invitation link will net me "Payy Points," which act a bit like a credit card loyalty program:
 
