@@ -247,9 +247,29 @@ You may leave this field blank if you like, but this is your chance to make a un
 {:.align-center}
 {% include link-as-button.md anchor_text="Return to Booking Form" url="/resources/for-clients/booking-guide/#contact" %}
 
+#### Booking form field: deposit method
+
+The seventh field in my booking form is a drop-down menu for choosing the method by which you will send your deposit.
+
+* The field's label is:
+    * &hellip;is ready to send via
+* The field's placeholder reads: `Choose deposit method.`
+* You are expected to chooseone from the following options:
+    * Choose `cryptocurrency` if you intend to [send your deposit via any of a number of cryptocurrencies]({% link resources/for-clients/using-cryptocurrency/index.md %}).
+        * This is my preferred payment mechanism, and the most discreet. If you have CashApp, PayPal, or Venmo, you can use these apps to send cryptocurrency and I will happily show you how.
+    * Choose `debit/credit card` if you intend to send your deposit by using a traditional Visa or MasterCard payment card.
+        * I accept payment cards via numerous processing backends; I will present the options to you once we are in contact.
+    * Choose `digital gift card` if you intend to send your deposit by purchasing a gift card and letting me redeem it myself.
+        * Please do not purchase the gift card until I direct you to a specific one.
+
+You may not leave this field blank because, as per [my deposit policy]({% link _faq/booking/what-is-a-deposit.md %}), a deposit is required to reserve my time. [These methods]({% link _faq/booking/payment-methods.md %}) are the only ways I accept deposit payments. Including this information in your initial inquiry helps us get to the fun part sooner!
+
+{:.align-center}
+{% include link-as-button.md anchor_text="Return to Booking Form" url="/resources/for-clients/booking-guide/#contact" %}
+
 #### Booking form field: booking type
 
-The seventh field in my booking form is a drop down menu for you to choose the category of booking we'll need to coordinate.
+The eighth field in my booking form is a drop down menu for you to choose the category of booking we'll need to coordinate.
 
 * The field's label is:
     * May I reserve your time for
@@ -272,7 +292,7 @@ You may not leave this field blank. I need to know what you're hoping to book my
 
 #### Booking form field: service type
 
-The eigth field in my booking form is a drop down menu for you to choose the service you're expecting of me during the booking.
+The ninth field in my booking form is a drop down menu for you to choose the service you're expecting of me during the booking.
 
 * The field's label is:
     * for your
@@ -289,7 +309,7 @@ You may not leave this field blank. It's okay if you're not sure which of these 
 
 #### Booking form field: duration
 
-The ninth field in my booking form is a numeric input box for you to choose the length of time you'd like to spend with me.
+The tenth field in my booking form is a numeric input box for you to choose the length of time you'd like to spend with me.
 
 * The field's label is:
     * for a duration of
@@ -303,7 +323,7 @@ You may not leave this field blank. If your Web browser supports it, you can use
 
 #### Booking form field: location
 
-The tenth field in my booking form is a text suggestion box for you to fill in the name of the place where you'd like to meet me. 
+The eleventh field in my booking form is a text suggestion box for you to fill in the name of the place where you'd like to meet me.
 
 * The field's label is:
     * when I will be in
@@ -320,7 +340,7 @@ You may not leave this field blank for bookings that require us to meet in perso
 
 #### Booking form field: preferred date and time
 
-The eleventh field in my booking form is a date and time entry widget for you to fill in a precise date and time that you most prefer to meet.
+The twelfth field in my booking form is a date and time entry widget for you to fill in a precise date and time that you most prefer to meet.
 
 * The field's label is:
     * on
@@ -337,7 +357,7 @@ You may not leave this field blank because all bookings must be performed at *so
 
 #### Booking form field: alternate date and time
 
-The twelfth field in my booking form is a date and time entry widget for you to fill in a precise date and time that you can also meet if your first choice is not one we can make work together.
+The thirteenth field in my booking form is a date and time entry widget for you to fill in a precise date and time that you can also meet if your first choice is not one we can make work together.
 
 * The field's label is:
     * or, alternatively, on
@@ -349,26 +369,6 @@ The twelfth field in my booking form is a date and time entry widget for you to 
     * Especially [short notice bookings]({% link index.html %}#short-notice-availability) (less than 24 hours) may incur a rush fee.
 
 You may not leave this field blank because all bookings must be performed at *some* time, and I need to know when you're availale to spend that time with me. By providing an alternative option as a backup to the first option, you help reduce the amount of back-and-forth we need to schedule something in case the first time doesn't work.
-
-{:.align-center}
-{% include link-as-button.md anchor_text="Return to Booking Form" url="/resources/for-clients/booking-guide/#contact" %}
-
-#### Booking form field: deposit method
-
-The thirteenth field in my booking form is a drop-down menu for choosing the method by which you will send your deposit.
-
-* The field's label is:
-    * &hellip;is ready to send via
-* The field's placeholder reads: `Choose deposit method.`
-* You are expected to chooseone from the following options:
-    * Choose `cryptocurrency` if you intend to [send your deposit via any of a number of cryptocurrencies]({% link resources/for-clients/using-cryptocurrency/index.md %}).
-        * This is my preferred payment mechanism, and the most discreet. If you have CashApp, PayPal, or Venmo, you can use these apps to send cryptocurrency and I will happily show you how.
-    * Choose `debit/credit card` if you intend to send your deposit by using a traditional Visa or MasterCard payment card.
-        * I accept payment cards via numerous processing backends; I will present the options to you once we are in contact.
-    * Choose `digital gift card` if you intend to send your deposit by purchasing a gift card and letting me redeem it myself.
-        * Please do not purchase the gift card until I direct you to a specific one.
-
-You may not leave this field blank because, as per [my deposit policy]({% link _faq/booking/what-is-a-deposit.md %}), a deposit is required to reserve my time. [These methods]({% link _faq/booking/payment-methods.md %}) are the only ways I accept deposit payments. Including this information in your initial inquiry helps us get to the fun part sooner!
 
 {:.align-center}
 {% include link-as-button.md anchor_text="Return to Booking Form" url="/resources/for-clients/booking-guide/#contact" %}
@@ -454,7 +454,7 @@ At this point, we're in contact, and the goal is simply to work out any remainin
 
 My reply will:
 
-* reiterate my understanding of your expectations and desires, so that we're both on the same page. 
+* reiterate my understanding of your expectations and desires, so that we're both on the same page.
 * propose that we act on one of the two date and time options you initially suggested.
 * maybe ask for follow-up information, such as any further screening information or logisitcal details, if necessary.
 * probably contain a lot of happy words and a fair number of heart emojis.

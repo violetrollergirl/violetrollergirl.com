@@ -96,7 +96,7 @@ along with a bunch of additional instruction.
                         </span><!-- .select-wrapper -->
                         <span id="contact-method-reliability-warning" style="display: none;">
                             <br />
-                            (<span class="fa-solid fa-triangle-exclamation"></span> SMS text messages are occasionally <em>very unreliable</em>, and always insecure. If you don&rsquo;t hear back from me, consider trying again <a href="{% link resources/for-clients/messaging-discreetly/index.md %}">using a more discreet messenger</a>.)
+                            (<span class="fa-solid fa-triangle-exclamation"></span> SMS text messages are occasionally <em>very unreliable</em>, and always insecure. Consider <a href="{% link resources/for-clients/messaging-discreetly/index.md %}">using a more discreet messenger</a>, especially if you don&rsquo;t hear back from me or if our correspondence is abruptly interrupted.)
                         </span>
                         <span id="contact-method-signal-discount" style="display: none;">
                             <br />
@@ -150,6 +150,31 @@ along with a bunch of additional instruction.
                             class="form-input"
                             minlength="20{% comment %}160{% endcomment %}"
                             placeholder="Use a professional, warm, cordial tone. Please avoid vulgarities."></textarea>
+                    </p>
+                </fieldset>
+
+                <fieldset><legend>My <a href="{% link _faq/booking/what-is-a-deposit.md %}">deposit</a>&hellip;</legend>
+                    <p>
+                        <label for="booking-inquiry-prospect-deposit-method" class="form-label">&hellip;is ready to send via</label>
+                        <sup>
+                            <small class="form-text">
+                                <a class="closer"
+                                    title="Read help for this field"
+                                    href="{% link resources/for-clients/booking-guide/index.md %}#booking-form-field-deposit-method">&#9432;</a>
+                            </small>
+                        </sup>
+                        <span class="select-wrapper">
+                            <select name="booking_inquiry_prospect_deposit_method" id="booking-inquiry-prospect-deposit-method"
+                                class="form-select"
+                                required="required"
+                                aria-label="Deposit method (crypto, payment card, digital gift card)"
+                            >
+                                <option value="" disabled="disabled" selected="selected" hidden="hidden">Choose deposit method.</option>
+                                <option>cryptocurrency</option>
+                                <option>debit/credit card</option>
+                                <option>digital gift card</option>
+                            </select>
+                        </span><!-- .select-wrapper -->
                     </p>
                 </fieldset>
 
@@ -300,30 +325,6 @@ along with a bunch of additional instruction.
                     </p>
                     <p>
                         Would either of these options allow us to meet?
-                    </p>
-                </fieldset>
-                <fieldset><legend>My <a href="{% link _faq/booking/what-is-a-deposit.md %}">deposit</a>&hellip;</legend>
-                    <p>
-                        <label for="booking-inquiry-prospect-deposit-method" class="form-label">&hellip;is ready to send via</label>
-                        <sup>
-                            <small class="form-text">
-                                <a class="closer"
-                                    title="Read help for this field"
-                                    href="{% link resources/for-clients/booking-guide/index.md %}#booking-form-field-deposit-method">&#9432;</a>
-                            </small>
-                        </sup>
-                        <span class="select-wrapper">
-                            <select name="booking_inquiry_prospect_deposit_method" id="booking-inquiry-prospect-deposit-method"
-                                class="form-select"
-                                required="required"
-                                aria-label="Deposit method (crypto, payment card, digital gift card)"
-                            >
-                                <option value="" disabled="disabled" selected="selected" hidden="hidden">Choose deposit method.</option>
-                                <option>cryptocurrency</option>
-                                <option>debit/credit card</option>
-                                <option>digital gift card</option>
-                            </select>
-                        </span><!-- .select-wrapper -->
                     </p>
                 </fieldset>
                 <fieldset><legend>I'm excited to hear from you!</legend>
