@@ -1,22 +1,20 @@
 #first-contact-instructions li p {
-	margin: 0;
+    margin: 0;
 }
 
 #booking-inquiry-form {
-	blockquote {
-		padding: .5em .5em 0 .25em;
-	}
+    blockquote {
+        padding: .5em .5em 0 .25em;
+    }
 
-	.form-label,
-	.form-input,
-	.form-select {
-		display: inline;
-		width: auto;
-	}
+    .form-label {
+      display: inline;
+      width: auto;
+    }
 
-	textarea.form-input {
-		width: 100%;
-	}
+    textarea.form-input {
+        width: 100%;
+    }
 }
 
 #contact-links-list {
@@ -41,19 +39,19 @@
     display: inline;
 }
 .dos-and-donts-DO::after {
-	content: " do ";
-	text-transform: uppercase;
+    content: " do ";
+    text-transform: uppercase;
 }
 .dos-and-donts-DONT::after {
-	content: " don't ";
-	text-transform: uppercase;
+    content: " don't ";
+    text-transform: uppercase;
 }
 
 #google-calendar-appointment-booking-form {
-	display: none;
-	padding-right: 10px;
+    display: none;
+    padding-right: 10px;
 
-	&:target {
-		display: block;
-	}
+    &:target {
+        display: block;
+    }
 }

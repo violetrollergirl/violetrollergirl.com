@@ -8,7 +8,7 @@ featured_image:
   url: images/gallery-originals/kneeling-in-clawfoot-bathtub.jpg
 prev: resources/for-clients/
 next: resources/for-clients/messaging-discreetly/
-last_modified: Tue Dec 16 14:02:55 EST 2025
+last_modified: Wed Mar  4 15:52:53 EST 2026
 ---
 
 # {{ site.title }}'s Booking Guide
@@ -46,6 +46,7 @@ The point of this is not to ensure perfection, but rather to give you clarity du
     1. [Booking form field: location](#booking-form-field-location)
     1. [Booking form field: preferred date and time](#booking-form-field-preferred-date-and-time)
     1. [Booking form field: alternate date and time](#booking-form-field-alternate-date-and-time)
+    1. [Booking form field: deposit method](#booking-form-field-deposit-method)
     1. [Booking form field: confirm policy agreement](#booking-form-field-confirm-policy-agreement)
     1. [Booking form field: confirm screening attachment](#booking-form-field-confirm-screening-attachment)
 1. [Submit my booking form to send your inquiry](#submit-my-booking-form-to-send-your-inquiry)
@@ -136,7 +137,7 @@ The first field in my booking form is a text box for your name.
 
 * The field's label is:
     * My name is
-* The field's placeholder reads: `Write your name here`
+* The field's placeholder reads: `Write your name here.`
 * You are expected to write your full name here. For example, `Joe Smith`.
 
 You may not leave this field blank, because I need to know how to address you.
@@ -150,7 +151,7 @@ The second field of my booking form is a drop-down menu for choosing the method 
 
 * The field's label is:
     * I read your [screening requirements]({% link index.html %}#screening-requirements) and am comfortable being screened by sending you
-* The field's placeholder reads: `How you'll screen`
+* The field's placeholder reads: `How you'll screen.`
 * You are expected to choose one from the following options:
     * Choose `my legal ID document` if you will send a selfie of yourself holding a driver's license or other government-issued photo ID document.
     * Choose `employment information` if you will send a link to your LinkedIn profile and are willing to verify your employment information via discreet email confirmation loop.
@@ -190,7 +191,7 @@ The fourth field in my booking form is a drop-down menu for you to choose how yo
 
 * The field's label is:
     * I prefer that we communicate using
-* The field's placeholder reads: `Choose contact method`
+* The field's placeholder reads: `Choose contact method.`
 * You are expected to choose one from the following options:
     * Choose `Signal Private Messenger` if you'd like the booking form to send your message to [my Signal Private Messenger account]({{ site.contact.signal.url }}){:target="_blank"}.
         * [Signal is far and away my most preferred contact method]({% link resources/for-providers/signal-for-sex-work/index.md %}), so you'll definitely earn some bonus points for messaging me this way!
@@ -218,7 +219,7 @@ The fifth field in my booking form is a text suggestion box for you to let me kn
 
 * The field's label is:
     * I found your Web site via
-* The field's placeholder reads: `Where you found me`
+* The field's placeholder reads: `Where you found me.`
 * You are expected to write a brief description of where you first encountered me.
     * You can write anything you like, but in some Web browsers a list of suggestions will appear as you start typing.
     * You can choose one of these suggestions, or write some other free-form entry.
@@ -230,15 +231,16 @@ You may not leave this field blank, but what you enter here has no bearing on th
 
 #### Booking form field: free-form notes
 
-The sixth field in my booking form is a multi-line text area where you can write anything you like, including nothing at all, that gives me more information about why you think we'd have fun together.
+The sixth field in my booking form is a multi-line text area where you can write anything you like about yourself, about why you're reaching out to me, or nothing at all. This is your chance to show off some of your personality and interests. It gives me more information about why you think we'd have fun together.
 
 * The field's label is:
-    * I like your&hellip;
-* The field's placeholder reads: `Photos? Vibe? Use a professional tone. Avoid vulgar language.`
+    * More about me:
+* The field's placeholder reads: `Use a professional, warm, cordial tone. Please avoid vulgarities.`
 * You are expected to write a brief description of why you want to see *me* and/or share any information about yourself that you think is relevant for our date.
     * You are encouraged to [express specific needs or desires in a respectful manner]({% link index.html %}#dos-and-donts-mention-needs-professionally).
     * If you are [booking as part of a couple or group]({% link index.html %}#dos-and-donts-speak-for-yourself), mention that here with enough detail for me to recognize which other half of the couple or members of the group you're referring to.
     * If you would like to book me and another provider together as a [duo](#friends), mention your interest in that here and name the other provider.
+    * It's okay to flirt a bit here, too, but please do so by crafting intelligent innuendo, double entendres, or showing off your impressive vocabulary.
 
 You may leave this field blank if you like, but this is your chance to make a unique first impression, so I encourage you to make the most of it.
 
@@ -351,9 +353,29 @@ You may not leave this field blank because all bookings must be performed at *so
 {:.align-center}
 {% include link-as-button.md anchor_text="Return to Booking Form" url="/resources/for-clients/booking-guide/#contact" %}
 
+#### Booking form field: deposit method
+
+The thirteenth field in my booking form is a drop-down menu for choosing the method by which you will send your deposit.
+
+* The field's label is:
+    * &hellip;is ready to send via
+* The field's placeholder reads: `Choose deposit method.`
+* You are expected to chooseone from the following options:
+    * Choose `cryptocurrency` if you intend to [send your deposit via any of a number of cryptocurrencies]({% link resources/for-clients/using-cryptocurrency/index.md %}).
+        * This is my preferred payment mechanism, and the most discreet. If you have CashApp, PayPal, or Venmo, you can use these apps to send cryptocurrency and I will happily show you how.
+    * Choose `debit/credit card` if you intend to send your deposit by using a traditional Visa or MasterCard payment card.
+        * I accept payment cards via numerous processing backends; I will present the options to you once we are in contact.
+    * Choose `digital gift card` if you intend to send your deposit by purchasing a gift card and letting me redeem it myself.
+        * Please do not purchase the gift card until I direct you to a specific one.
+
+You may not leave this field blank because, as per [my deposit policy]({% link _faq/booking/what-is-a-deposit.md %}), a deposit is required to reserve my time. [These methods]({% link _faq/booking/payment-methods.md %}) are the only ways I accept deposit payments. Including this information in your initial inquiry helps us get to the fun part sooner!
+
+{:.align-center}
+{% include link-as-button.md anchor_text="Return to Booking Form" url="/resources/for-clients/booking-guide/#contact" %}
+
 #### Booking form field: confirm policy agreement
 
-The thirteenth field in my booking form is a checkbox that you must check to confirm that you have read and agree to my published [policies]({% link index.html %}#policies).
+The fourteenth field in my booking form is a checkbox that you must check to confirm that you have read and agree to my published [policies]({% link index.html %}#policies).
 
 * The field's label is:
     * Yes, I have read, understood, and fully agree to abide by the information on your Web site, including your [rates](#rates), [policies]({% link index.html %}#policies), and [availability](#tours).
@@ -367,7 +389,7 @@ You must check this box to submit my booking form and continue to the next step.
 
 #### Booking form field: confirm screening attachment
 
-The fourteenth field in my booking form is a checkbox that you must check to confirm that you agree to send screening information if you have elected to use a remote screening option.
+The fifteenth field in my booking form is a checkbox that you must check to confirm that you agree to send screening information if you have elected to use a remote screening option.
 
 * The field's label is:
     * Yes, I will attach all relevant screening information. I understand that incomplete inquiries, such as those without screening information, may not receive a reply.
