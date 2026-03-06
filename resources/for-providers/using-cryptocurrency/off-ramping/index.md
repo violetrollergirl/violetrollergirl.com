@@ -32,6 +32,7 @@ In the traditional financial system, spending money comes with a privacy trade-o
     1. [Common cryptocurrency to gift card off-ramps (for sex workers)](#common-cryptocurrency-to-gift-card-off-ramps-for-sex-workers)
 1. [Use crypto-native service providers](#use-crypto-native-service-providers)
     1. [Booking hotel stays and air travel with cryptocurrency](#booking-hotel-stays-and-air-travel-with-cryptocurrency)
+    1. [Buying email services with cryptocurrency](#buying-email-services-with-cryptocurrency)
     1. [Buying VoIP phone services with cryptocurrency](#buying-voip-phone-services-with-cryptocurrency)
     1. [Buying VPN services with cryptocurrency](#buying-vpn-services-with-cryptocurrency)
     1. [Paying for client screening services with cryptocurrency](#paying-for-client-screening-services-with-cryptocurrency)
@@ -197,6 +198,10 @@ And here's what happens when you press the "Complete Reservation" button.
 Kinda looks like Tryst's payment screen, doesn't it?
 
 You can also [buy airline tickets on Travala](https://www.travala.com/?tab=flights){:target="_blank"} this same way.
+
+### Buying email services with cryptocurrency
+
+- [ProtonMail](https://protonmail.com/){:target="_blank"} - This popular managed email service provider [accepts payments for their premium services via Bitcoin](https://proton.me/support/pay-with-bitcoin){:target="_blank"}, so you can pay anonymously by [using Crosspay via your Zodl wallet app](#paying-in-bitcoin-when-you-only-have-zcash) just as you do for Tryst or other vendors.
 
 ### Buying VoIP phone services with cryptocurrency
 
