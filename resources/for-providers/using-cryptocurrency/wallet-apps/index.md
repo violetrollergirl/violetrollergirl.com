@@ -113,7 +113,7 @@ Unlike Zodl, Cake Wallet supports holding a whole slew of different cryptocurren
 Some other unique features that make Cake Wallet particularly attractive to privacy coin veterans are:
 
 - **Swap provider switcher**: this feature lets you choose the currency conversion/swap service you want to use when you want to exchange one kind of cryptocurrency into another. Most notably, in addition to the NEAR Intents decentralized exchange, they also support [Trocador](https://noscript.trocador.app){:target="_blank"}, a centralized exchange currency conversion service proxy site, which provides an additional layer of identity protection when making currency swaps. You can further use Trocador over Tor from within the app.
-    - For example, if you need to turn your Monero into Bitcoin, or your Bitcoin into Monero (a swap NEAR doesn't support), you can use Trocador's service from directly within the Cake Wallet app to do this easily. 
+    - For example, if you need to turn your Monero into Bitcoin, or your Bitcoin into Monero (a swap NEAR doesn't support), you can use Trocador's service directly within the Cake Wallet app to do this easily.
 
 ### Using multiple wallet apps
 
