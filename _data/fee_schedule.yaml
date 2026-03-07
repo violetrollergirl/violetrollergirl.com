@@ -15,6 +15,12 @@
     src: images/gallery-originals/lounging-poolside-in-bikini.jpg
     alt: Violet Rollergirl lounges in a bikini at the side of a pool in a tropical villa.
   items:
+    - name: Cuddle date
+      rate: 250
+      service_type: cuddling services
+      duration_in_hours: 1
+      details: |-
+        Big spoon, little spoon, or both? Clothing optional touch without expectation or pressure for more.
     - name: Social-only date
       rate: 200
       booking_type: a social-only date
@@ -26,20 +32,6 @@
         * Rate shown is per hour.
         * Meeting this way can also serve as your [(pre-)screening option](#screening-options).
         * Does not include transportation or activity cost.
-    - name: Cuddle date
-      rate: 250
-      service_type: cuddling services
-      duration_in_hours: 1
-      details: |-
-        Big spoon, little spoon, or both? Clothing optional touch without expectation or pressure for more.
-    - name: Curiosity call (30 minutes)
-      rate: 60
-      booking_type: a curiosity call
-      duration_in_hours: .5
-      details: |-
-        Friendly, casual audio call to help you decide whether you'd like to book an in-person session, prepare for our date by chatting, discussing any logistics, or simply to quell any concerns.
-
-        * Price of the call can be applied towards your deposit if you book within one (1) month.
     - name: Video date
       rate: 200
       booking_type: a virtual video date
@@ -49,6 +41,14 @@
         Virtual tryst over private video chat via <a href="https://signal.org/"><span class="icon fa-brands fa-signal-messenger"></span> Signal Private Messenger</a> or <a href="https://whatsapp.com/"><span class="icon fa-brands fa-whatsapp"></span> WhatsApp</a>.
 
         * Rate shown is per hour.
+    - name: Curiosity call (30 minutes)
+      rate: 60
+      booking_type: a curiosity call
+      duration_in_hours: .5
+      details: |-
+        Friendly, casual audio call to help you decide whether you'd like to book an in-person session, prepare for our date by chatting, discussing any logistics, or simply to quell any concerns.
+
+        * Price of the call can be applied towards your deposit if you book within one (1) month.
     - name: Custom photo/video
       rate: 50
       url: https://www.manyvids.com/Profile/1008389797/violetrollergirl/Store/Custom
@@ -59,11 +59,6 @@
         * Some of my favorite toys including handcuffs and collars can be added for free.
         * Price is subject to change based on production complexity and video length.
         * Rush production and delivery available for an additional fee.
-    - name: Fan site (monthly subscription)
-      rate: 15
-      url: "#links-group-socials-amp-content"
-      details: |-
-        Access to exclusive content on my 🌶️ sites.
     - name: Texting (30 minutes)
       rate: 40
       booking_type: a texting/sexting session
@@ -73,6 +68,11 @@
         Perfect for dipping one's toe into what our unique chemistry is like.
 
         I also offer longer texting packages for those who appreciate a good textual tease. Start here and inquire within. :)
+    - name: Fan site (monthly subscription)
+      rate: 15
+      url: "#links-group-socials-amp-content"
+      details: |-
+        Access to exclusive content on my 🌶️ sites.
 
 - name: GFE full service
   id: gfe-fs
@@ -80,6 +80,35 @@
     src: images/gallery-originals/red-lingerie-on-white-background.jpg
     alt:
   items:
+    - name: 6 hours
+      rate: "2,100"
+      duration_in_hours: 6
+      details: |-
+        * 30% off.
+        * Requires shared meal.
+    - name: 4 hours
+      rate: "1,500"
+      duration_in_hours: 4
+      details: |-
+        * 25% off.
+    - name: 3 hours
+      rate: "1,200"
+      duration_in_hours: 3
+      details: |-
+        * 20% off.
+        * Minimum required for travel outside [my home cities](#tech-spec-home-cities) when not touring.
+    - name: 2 hours
+      rate: 875
+      duration_in_hours: 2
+      details: |-
+        * 12.5% off.
+        * Most popular.
+    - name: 90 minutes
+      rate: 700
+      duration_in_hours: 1.5
+      details: |-
+        * 6.67% off.
+        * Recommended minimum.
     - name: 1 hour
       rate: 500
       duration_in_hours: 1
@@ -88,35 +117,6 @@
 
         * Discounted rates available for longer bookings as shown.
         * Does not include incall fee or transportation cost.
-    - name: 90 minutes
-      rate: 700
-      duration_in_hours: 1.5
-      details: |-
-        * 6.67% off.
-        * Recommended minimum.
-    - name: 2 hours
-      rate: 875
-      duration_in_hours: 2
-      details: |-
-        * 12.5% off.
-        * Most popular.
-    - name: 3 hours
-      rate: "1,200"
-      duration_in_hours: 3
-      details: |-
-        * 20% off.
-        * Minimum required for travel outside [my home cities](#tech-spec-home-cities) when not touring.
-    - name: 4 hours
-      rate: "1,500"
-      duration_in_hours: 4
-      details: |-
-        * 25% off.
-    - name: 6 hours
-      rate: "2,100"
-      duration_in_hours: 6
-      details: |-
-        * 30% off.
-        * Requires shared meal.
     - name: Overnight (~14 hours)
       rate: "3,500"
       details: |-
@@ -138,6 +138,18 @@
     src: images/gallery-originals/cyberpunk-kneeling-bondage-wall-Violet-Rollergirl-9108_124341~2.jpg
     alt: Violet Rollergirl kneels on a sectional in front of a walls of kinky toys including collars, cuffs, and gags. She is wearing a miniskirt and a fishnet top.
   items:
+    - name: 3 hours
+      duration_in_hours: 3
+      rate: "1,680"
+      details: |-
+        * 20% off
+        * Requires time for warmup and cool down/after care.
+    - name: 2 hours
+      duration_in_hours: 2
+      rate: "1,225"
+      details: |-
+        * 12.5% off
+        * Recommended minimum.
     - name: 1 hour
       duration_in_hours: 1
       rate: 700
@@ -148,15 +160,3 @@
         * Available only to returning friends after our first date.
         * Discounted rates available for longer bookings as shown.
         * Does not include incall fee or transportation cost.
-    - name: 2 hours
-      duration_in_hours: 2
-      rate: "1,225"
-      details: |-
-        * 12.5% off
-        * Recommended minimum.
-    - name: 3 hours
-      duration_in_hours: 3
-      rate: "1,680"
-      details: |-
-        * 20% off
-        * Requires time for warmup and cool down/after care.

@@ -9,7 +9,7 @@ featured_image:
   url: images/gallery-originals/lounging-poolside-in-bikini.jpg
 prev: resources/for-providers/using-cryptocurrency/on-ramping/
 next: resources/for-providers/using-cryptocurrency/convincing-clients/
-last_modified: Sun Oct 19 15:18:05 EDT 2025
+last_modified: Sat Mar  7 12:36:07 EST 2026
 ---
 
 # Off-ramping: where and how to spend your cryptocurrency
@@ -18,7 +18,7 @@ last_modified: Sun Oct 19 15:18:05 EDT 2025
 
 At the end of the day, cryptocurrency is just currency. You can't breathe it, you can't eat it, you can't drink it. It won't provide companionship, fulfillment, inspiration, or joy. A number in a bank account, or a cryptocurrency wallet, won't keep you alive. Sooner or later, you're going to have to spend it on something.
 
-The cryptocurrency world calls this "off-ramping," the complement to "on-ramping." In this case, it means turning your cryptocurrency assets into something else, whether digital or physical.
+The cryptocurrency world calls this "off-ramping," the complement to "[on-ramping]({% link resources/for-providers/using-cryptocurrency/on-ramping/index.md %})." In this case, it means turning your cryptocurrency assets into something else, whether digital or physical.
 
 In the traditional financial system, spending money comes with a privacy trade-off: your bank, credit card company, or payment processor knows what you're up to. Transparent (non-private) cryptocurrency systems suffer from the same problem, but worse, because everyone in the entire world can watch what you buy. This is one of the main safety benefits to using privacy coins: no one but you and the vendor you're buying from knows what you're up to.
 
@@ -33,8 +33,11 @@ In the traditional financial system, spending money comes with a privacy trade-o
 1. [Use crypto-native service providers](#use-crypto-native-service-providers)
     1. [Booking hotel stays and air travel with cryptocurrency](#booking-hotel-stays-and-air-travel-with-cryptocurrency)
     1. [Buying email services with cryptocurrency](#buying-email-services-with-cryptocurrency)
+    1. [Buying domain name services with cryptocurrency](#buying-domain-name-services-with-cryptocurrency)
+    1. [Buying secrets manager services with cryptocurrency](#buying-secrets-manager-services-with-cryptocurrency)
     1. [Buying VoIP phone services with cryptocurrency](#buying-voip-phone-services-with-cryptocurrency)
     1. [Buying VPN services with cryptocurrency](#buying-vpn-services-with-cryptocurrency)
+    1. [Buying server hosting (VPS) services with cryptocurrency](#buying-server-hosting-vps-services-with-cryptocurrency)
     1. [Paying for client screening services with cryptocurrency](#paying-for-client-screening-services-with-cryptocurrency)
 1. [Fund a traditional payment card using cryptocurrency](#fund-a-traditional-payment-card-using-cryptocurrency)
     1. [Apply for a Payy Card, a crypto-backed Visa payment card](#apply-for-a-payy-card-a-crypto-backed-visa-payment-card)
@@ -203,6 +206,14 @@ You can also [buy airline tickets on Travala](https://www.travala.com/?tab=fligh
 
 - [ProtonMail](https://protonmail.com/){:target="_blank"} - This popular managed email service provider [accepts payments for their premium services via Bitcoin](https://proton.me/support/pay-with-bitcoin){:target="_blank"}, so you can pay anonymously by [using Crosspay via your Zodl wallet app](#paying-in-bitcoin-when-you-only-have-zcash) just as you do for Tryst or other vendors.
 
+### Buying domain name services with cryptocurrency
+
+- [Njalla Domains](https://njal.la/domains/){:target="_blank"} - Founded by famous Internet "pirate" [Peter Sunde](https://en.wikipedia.org/wiki/Peter_Sunde){:target="_blank"}, who also co-founded [The Pirate Bay](https://en.wikipedia.org/wiki/The_Pirate_Bay){:target="_blank"}, this privacy-focused service offers a domain registrar service, as well as VPN and server hosting, and [accepts cryptocurrency payments](https://njal.la/pricing/#:~:text=Accepted%20payments){:target="_blank"}.
+
+### Buying secrets manager services with cryptocurrency
+
+- [Bitwarden](https://bitwarden.com/){:target="_blank"} - Secrets or password managers are an essential part of any digital security toolkit and my favorite easy-to-use secret manager is [Bitwarden, which also accepts Bitcoin for payments](https://bitwarden.com/help/billing-faqs/#q-can-i-pay-with-bitcoin){:target="_blank"} to its premium services.
+
 ### Buying VoIP phone services with cryptocurrency
 
 Earlier, I showed you how to [off-ramp using the gift card economy](#piggyback-on-the-gift-card-economy), which is one way you can buy prepaid phone and data plans. However, there are also some VoIP providers that will accept payment directly in crypto. Here's a short list:
@@ -216,8 +227,16 @@ Please [contact me](#contact) to let me know if you found any more quality VoIP 
 Another common service many of us have need for is a reliable VPN. I have a lot of thoughts on the topic of private network technologies, which can mostly be summed up by preference for using [Tor](https://TorProject.org/){:target="_blank"} over a VPN but with that said, if you're going to use a VPN, you should probably stick to a reputable one that you can pay for in cryptocurrency. Here are my favorite options for that:
 
 - [MullvadVPN](https://mullvad.net/){:target="_blank"} - Based on a traditional VPN technology called Wireguard, [Mullvad also accepts payments in Bitcoin](https://mullvad.net/pricing){:target="_blank"}.
+- [Njalla VPN](https://njal.la/vpn/){:target="_blank"} - Founded by famous Internet "pirate" [Peter Sunde](https://en.wikipedia.org/wiki/Peter_Sunde){:target="_blank"}, who also co-founded The Pirate Bay, this privacy-focused service offers a Wireguard or OpenVPN-based VPN service, as well as a domain registrar and server hosting, and [accepts cryptocurrency payments](https://njal.la/pricing/#:~:text=Accepted%20payments){:target="_blank"}.
 - [NymVPN](https://nym.com/){:target="_blank"} - Nym is a novel VPN technology that requires a subscription to use, but not only is it reputable, you can [pay for Nym with shielded Zcash](https://support.nym.com/hc/articles/38626320242833-Paying-for-NymVPN-with-ZEC-Zcash){:target="_blank"}.
 - [ProtonVPN](https://protonvpn.com/support/vpn-bitcoin-payments){:target="_blank"} - Many providers know this company for their ProtonMail service, but [Proton also accepts Bitcoin for their VPN product](https://protonvpn.com/support/vpn-bitcoin-payments){:taret="_blank"}, which can implement either a Wireguard or SSL/TLS-based VPN.
+
+### Buying server hosting (VPS) services with cryptocurrency
+
+For providers with more technical skill, running our own Web site or other Internet communications infrastructure can be a big win because it provides business continuity, disaster recovery, and other reliability planning benefits. [ServerHunter.com](https://serverhunter.com/){:target="_blank"} is a site that lets you browse many dozens of thousands of offerings and filter them for which cloud hosting, dedicated server, or virtual private server (VPS) companies will accept Bitcoin or "altcoin" (cryptocurrency) payments.
+
+{:.align-center}
+{% include link-as-button.md anchor_text="Find crypto-friendly server hosts" url="https://www.serverhunter.com/#query=payment_methods:%28altcoin+AND+bitcoin%29" %}
 
 ### Paying for client screening services with cryptocurrency
 
