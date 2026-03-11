@@ -193,10 +193,15 @@ along with a bunch of additional instruction.
                                 class="form-select"
                                 required="required"
                                 aria-label="Booking type (incall, outcall, or travel)"
+                                onchange="
+                                    ('an outcall' === this.value)
+                                    ? $('#booking-type-outcall-notes').css('display', 'block')
+                                    : $('#booking-type-outcall-notes').hide();
+                                "
                             >
                                 <option value="" disabled="disabled" selected="selected" hidden="hidden">Choose booking type</option>
-                                <option value="an incall">an incall (provider hosts)</option>
-                                <option value="an outcall">an outcall (client hosts)</option>
+                                <option value="an incall">an incall (I host you)</option>
+                                <option value="an outcall">an outcall (you host me)</option>
                                 <option value="a FMTY">a FMTY (travel with or to you)</option>
                                 <option value="a social-only date">a social date (platonic/screening only)</option>
                                 <option value="a virtual video date">a virtual video date (online)</option>
@@ -204,6 +209,10 @@ along with a bunch of additional instruction.
                                 <option value="a curiosity call">a curiosity call (phone)</option>
                             </select>
                         </span><!-- .select-wrapper -->
+                        <span id="booking-type-outcall-notes" style="display: none;">
+                            <br />
+                            (<span class="fa-solid fa-hotel"></span> As a reminder, <a href="{% link index.html %}#outcall-availability">I don't visit private residences when meeting new friends for the first time</a>. If that was your hope, consider <a href="{% link index.html %}#rate-add-ons-and-online-social-only-date">a social-only date</a> so we can enjoy a meet-cute first!)
+                        </span>
 
                         <label for="booking-inquiry-prospect-service-type" class="form-label">for your</label>
                         <sup>
