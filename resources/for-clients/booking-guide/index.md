@@ -139,6 +139,14 @@ The first field in my booking form is a text box for your name.
     * My name is
 * The field's placeholder reads: `Write your name here.`
 * You are expected to write your full name here. For example, `Joe Smith`.
+* Ensure you include the name you will screen with, i.e., your *legal* name.
+* If you have a preferred name different from your legal name, you can include that here!
+    * If your legal name is a deadname, please rest assured I will not call you that; it is used only for screening.
+
+| Good entry | Bad entry | Why? |
+|-|-|
+| Joe Smith | Joe | Please don't omit your last name. |
+| Joe Smith, but friends call me Jay | Jay | Please don't omit your legal name, it is required for screening. |
 
 You may not leave this field blank, because I need to know how to address you.
 

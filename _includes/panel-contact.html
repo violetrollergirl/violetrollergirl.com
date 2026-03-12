@@ -168,13 +168,21 @@ along with a bunch of additional instruction.
                                 class="form-select"
                                 required="required"
                                 aria-label="Deposit method (crypto, payment card, digital gift card)"
+                                onchange="
+                                    ('cryptocurrency' === this.value)
+                                    ? $('#deposit-method-cryptocurrency-notes').show()
+                                    : $('#deposit-method-cryptocurrency-notes').hide();
+                                "
                             >
                                 <option value="" disabled="disabled" selected="selected" hidden="hidden">Choose deposit method.</option>
-                                <option>cryptocurrency</option>
-                                <option>debit/credit card</option>
-                                <option>digital gift card</option>
+                                <option value="cryptocurrency">cryptocurrency, including via CashApp/PayPal/Venmo</option>
+                                <option value="debig/credit card">debit/credit card</option>
+                                <option value="digital gift card">digital gift card</option>
                             </select>
                         </span><!-- .select-wrapper -->
+                        <span id="deposit-method-cryptocurrency-notes" style="display: none;">
+                            (<span class="fa-brands fa-btc"></span><span class="fa-brands fa-ethereum"></span><span class="fa-solid fa-litecoin-sign"></span><span class="fa-brands fa-monero"></span> I do not have CashApp, PayPal, or Venmo, but each of <a href="{% link resources/for-clients/using-cryptocurrency/index.md %}#i-already-use-a-digital-payment-app">those apps can send crypto</a>.)
+                        </span>
                     </p>
                 </fieldset>
 
