@@ -9,7 +9,7 @@ featured_image:
 
 Before you screen, I simply cannot know who I may be speaking with. Since literally anyone with an electronic device might contact me, screening confirms that you are a consenting adult and is *unconditionally required* to interact with me in any meaningful way.
 
-If you don't tell me who you are, I cannot tell you literally anything about me that is not already published on my public website and ads, making our entire exchange redundant and pointless. Moreover, both my livelihood and my liberty depends on your screening information remaining confidential so I can assure you that I take great steps to ensure it always is.
+If you don't tell me who you are, I cannot tell you literally anything about me that is not already published on my public website and ads, making our entire exchange redundant and pointless. Moreover, both my livelihood and my liberty depends on your screening information remaining confidential so I can assure you that [I take great steps to ensure it always is]({% link colophon/index.md %}#privacy-guarantees-of-first-contact).
 
 On another note, I do understand why screening may make you feel anxious or even vulnerable. But the thought of spending time alone with me presumably doesn't.
 
