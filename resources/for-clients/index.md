@@ -26,15 +26,11 @@ I wrote this booking guide to help those of you who want a meticulously crafted 
 {:.align-center}
 [How to book me]({% link resources/for-clients/booking-guide/index.md %}){:.button}
 
-{% comment %}
 ## Discretion-maxxing, or How To Find, Book, and Pay Escorts Completely Secretly
 
-You might think that privacy is dead, but the truth is that it's never been easier for two people to learn about each other, communicate with one another, and even send money to one another, all without anyone else ever being aware of any of this.
+It's never been easier for two people to learn about each other, communicate with one another, and send money to one another, all without anyone else ever being aware they've done this. That has some absolutely wild, even revolutionary implications.
 
-That has some absolutely wild, even revolutionary implications.
-
-It also means that if you're looking to book an escort and want to ensure you do so without anyone on the Internet knowing you did that (except the companion you're going to meet, of course), you need to do it the way I show you in this guide.
-{% endcomment %}
+For our purposes, it means that if you're looking to book an escort and want to do so without anyone on the Internet knowing you did that (except the companion you're going to meet, of course), you need to do it the way I show you in this guide. ¡Viva la Revolución!
 
 {:.align-center}
 [Discretion-maxxing]({% link resources/for-clients/discretion-maxxing/index.md %}){:.button}
