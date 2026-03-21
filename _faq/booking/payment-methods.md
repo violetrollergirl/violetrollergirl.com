@@ -26,7 +26,7 @@ Here are payment methods I accept and whether you can use them for only the rese
 
 </div><!-- .table-wrapper -->
 
-If it's not on this list, sorry, the answer is *no*.
+If the method you'd like to use is not on this list, sorry, the answer is *no*. When I say that I accept "cryptocurrency," I mean that I accept more than 125 assets and more than 200 different tokens across 35 different blockchains. Just let me know which cryptocurrency (and on which network) you want to use, and I'll send you a deposit address for it.
 
 ### Unsupported payment methods
 
