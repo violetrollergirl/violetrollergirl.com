@@ -96,7 +96,7 @@ However, there's no reason you need to share that same information with the rest
 {:.align-center}
 {% include link-as-button.md anchor_text="<span class='icon fa-brands fa-signal-messenger'></span> Get Signal" url="https://signal.org/install" target="_blank" %}
 
-Basically, Signal Private Messenger creates a uniquely verifiable and mathematically impenetrable messaging channel in a way that not even the operators of Signal Private Messenger can open, nor divulge the contents or metadata of to others, including to [governments via subpoenas](https://signal.org/bigbrother/district-of-columbia/){:target="_blank"}.
+Basically, Signal Private Messenger creates a [uniquely verifiable]({% link resources/for-providers/signal-for-sex-work/index.md %}#verifying-your-signal-safety-number-with-clients-you-meet) and mathematically impenetrable messaging channel in a way that not even the operators of Signal Private Messenger can open, nor divulge the contents or metadata of to others, including to [governments via subpoenas](https://signal.org/bigbrother/district-of-columbia/){:target="_blank"}.
 
 What this means when you use Signal to contact an escort:
 
