@@ -7,7 +7,7 @@ featured_image:
   alt:
   url: images/gallery-originals/kneeling-in-clawfoot-bathtub.jpg
 prev: resources/for-clients/
-next: resources/for-clients/messaging-discreetly/
+next: resources/for-clients/discretion-maxxing/
 last_modified: Wed Mar  4 15:52:53 EST 2026
 ---
 
@@ -553,5 +553,5 @@ This step is the most fun: show up, and let me take care of the rest. ;)
 
 {:.button-container}
 {% include link-as-button.md anchor_text="Previous: Client Resources" url=page.prev %}
-{% include link-as-button.md anchor_text="Home" url="/" %}
-{% include link-as-button.md anchor_text="Next: Messaging Discreetly" url=page.next %}
+[<span class="fa-icon fa-solid fa-house-chimney"></span> Home]({% link index.html %}){:.button}
+{% include link-as-button.md anchor_text="Next: Booking Discreetly" url=page.next %}

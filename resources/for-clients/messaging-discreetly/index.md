@@ -7,7 +7,7 @@ description: >
 featured_image:
   alt:
   url: images/gallery-originals/black-dress-gold-jewelry-in-rainy-bar-patio.jpg
-prev: resources/for-clients/booking-guide/
+prev: resources/for-clients/discretion-maxxing/
 next: resources/for-clients/using-cryptocurrency/
 last_modified: Sun Jan  4 16:40:37 EST 2026
 ---
@@ -125,6 +125,6 @@ That's why [I designed my booking form with some unique privacy guarantees]({% l
 Have questions? As always, ask your provider, or [contact me](#contact) directly&mdash;and discreetly!
 
 {:.button-container}
-{% include link-as-button.md anchor_text="Previous: Booking Guide" url=page.prev %}
+{% include link-as-button.md anchor_text="Previous: Booking Discreetly" url=page.prev %}
 [<span class="fa-icon fa-solid fa-house-chimney"></span> Home]({% link index.html %}){:.button}
 {% include link-as-button.md anchor_text="Next: Using Cryptocurrency" url=page.next %}

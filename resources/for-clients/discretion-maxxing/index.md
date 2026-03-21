@@ -213,6 +213,6 @@ Congratulations, you now know how to find, book, and pay escorts (or other indep
 Have questions? Ask your provider, or [contact me]({% link resources/for-clients/booking-guide/index.md %}#connection-methods) directly! I'm genuinely happy to help you level up your privacy game and would only ask for [a tip or donation]({% link resources/for-clients/booking-guide/index.md %}#links-zcash) as a thank you!
 
 {:.button-container}
-{% include link-as-button.md anchor_text="Complete Booking Guide" url=page.prev %}
+{% include link-as-button.md anchor_text="Previous: Complete Booking Guide" url=page.prev %}
 [<span class="fa-icon fa-solid fa-house-chimney"></span> Home]({% link index.html %}){:.button}
-{% include link-as-button.md anchor_text="Messaging Discreetly" url=page.next %}
+{% include link-as-button.md anchor_text="Next: Messaging Discreetly" url=page.next %}
