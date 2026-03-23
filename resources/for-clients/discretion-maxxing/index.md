@@ -115,7 +115,7 @@ The final step in the booking process is usually sending a small advance payment
 
 Since this payment is required *before* you meet your worker, [paper money is not a suitable payment method for a deposit]({% link _faq/booking/payment-methods.md %}). But sending or receiving money via traditional electronic means is also problematic:
 
-* Paying electronically often immeiately exposes legal identities to the transacting parties.
+* Paying electronically often immediately exposes legal identities to the transacting parties.
 * Maybe the payment account is shared with a spouse or family member, so using it to pay a worker risks showing that fact on a financial statement.
 * In all cases, the payment processing network (Visa, MasterCard, CashApp, PayPal, Venmo, whoever) is always privy to all the transaction details; who's getting paid, who's buying, when they're buying it, and how much they're spending.
     * And don't even think about writing a memo with an eggplant emoji!
