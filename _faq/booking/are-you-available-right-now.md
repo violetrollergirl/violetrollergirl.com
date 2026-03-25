@@ -16,13 +16,13 @@ last_modified: Mon Jan  5 14:22:29 EST 2026
 My short-notice availability largely depends on your ability to:
 
 {:.fa-ul}
-- <span class="fa-li fa-solid fa-comment-dots"></span> communicate when, where, and for how long you'd like to see me for,
+- <span class="fa-li fa-solid fa-comment-dots"></span> communicate when, where, for what, and for how long you'd like to see me for,
 - <span class="fa-li fa-solid fa-id-card"></span> [complete screening]({%link _faq/screening/screening-process.md %}),
 - <span class="fa-li fa-solid fa-comment-dollar"></span> and send your [deposit]({% link _faq/booking/what-is-a-deposit.md %})
 
 in a timely and efficient manner.
 
-Asking me "are you available?" does none of these things. It does cause further delay while your window of opportunity to see me continues to close. In contrast, **filling out my booking form is the fastest way to meet me.**
+Asking me "are you available?" provides none of the information I need to answer, if only because we have bodies we must move in physical space and reasonable time. This question only delays us. In contrast, **filling out my booking form is the fastest way to meet me.**
 
 {:.button-container}
 [<span class="icon fa-solid fa-pen-nib"></span> Click Here to Book Now]({% link resources/for-clients/booking-guide/index.md %}#booking-inquiry-form){:.button}
