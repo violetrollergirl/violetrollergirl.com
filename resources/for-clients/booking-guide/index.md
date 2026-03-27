@@ -262,7 +262,7 @@ The seventh field in my booking form is a drop-down menu for choosing the method
 * The field's label is:
     * &hellip;is ready to send via
 * The field's placeholder reads: `Choose deposit method.`
-* You are expected to chooseone from the following options:
+* You are expected to choose one from the following options:
     * Choose `cryptocurrency` if you intend to [send your deposit via any of a number of cryptocurrencies]({% link resources/for-clients/using-cryptocurrency/index.md %}).
         * This is my preferred payment mechanism, and the most discreet. If you have CashApp, PayPal, or Venmo, you can use these apps to send cryptocurrency and I will happily show you how.
     * Choose `debit/credit card` if you intend to send your deposit by using a traditional Visa or MasterCard payment card.
