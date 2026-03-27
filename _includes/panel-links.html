@@ -5,6 +5,7 @@ Content for the "Links" Panel.
     {% for group in site.data.social_urls %}
     <div class="align-center" id="links-group-{{ group.group_name | slugify }}">
         <h2 id="links-{{ group.group_name | slugify }}">{{ group.group_name }}</h2>
+        {% if group.description %}<p>{{ group.description | markdownify }}</p>{% endif %}
         <ul class="icons">
             {% for item in group.items %}{% assign item_url_first_char = item.url | slice: 0, 1 %}
             <li id="links-{{ item.title | slugify }}">
@@ -13,13 +14,13 @@ Content for the "Links" Panel.
                     class="icon fa-2x fa-solid fa-{{ item.icon | downcase }}"
                     {% unless "/" == item_url_first_char %}target="_blank"{% endunless %}>
                 </a>
-                <div><a class="label icon fa-2x" href="{{ item.url }}">{{ item.label }}</a></div>
+                {% if item.label %}<div><a class="label icon fa-2x" href="{{ item.url }}">{{ item.label }}</a></div>{% endif %}
                 {% elsif item.svg %}
                 <a href="{{ item.url }}" title="{{ item.title }}"
                     class="icon fa-2x"
                     {% unless "/" == item_url_first_char %}target="_blank"{% endunless %}>
-                    <img src="{{ site.url }}{{ item.svg | relative_url }}" alt="{{ item.title }}"{% if item.style %} style="{{ item.style }}"{% endif%} />
-                    {% if item.show_label != false %}<span class="label">{{ item.label }}</span>{% endif %}
+                    <img src="{{ site.url }}{{ item.svg | relative_url }}" alt="{{ item.title }}" loading="lazy"{% if item.style %} style="{{ item.style }}"{% endif%} />
+                    {% if item.label %}<span class="label">{{ item.label }}</span>{% endif %}
                 </a>
                 {% endif %}
                 {% if item.description %}{{ item.description | markdownify }}{% endif %}

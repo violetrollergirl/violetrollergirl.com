@@ -1,15 +1,17 @@
 # Links and social URLs, for the "Links" panel.
 ---
 - group_name: Tip me
+  description: >
+    Ways to send a tip, donation, or to pay me. ([View all](/faq/booking/payment-methods/).)
   items:
-  - label: MintStars
-    title: MintStars
+  - title: MintPay
+    label: MintPay
     svg: images/logo.mintstars.transparent.400x400.png
     url: https://mintstars.com/tip/violetrollergirl
     description: >
-      Send me a tip or donation via MintStars.
-  - label: Zcash
-    title: Zcash
+      Send me a tip or donation via [MintStars](#links-mintstars) using your credit/debit card.
+  - title: Zcash
+    label: Zcash
     svg: images/logo.zcash.yellow.svg
     url: zcash:u1mhgwfzmjks8d2kgwh7nrrycljzzfuhl5fak6efvnqazxwu2f4ssftlf5snpgavfx649ztp5l2lzwzqsrhu5jf4x97jzu6a37qysjvjwq8ffcspd46dg99s4mctaagq73n823edhza3s8mxytur48lnuprad8j4avhvymsxv38u7t5rhdsc449fyk70d9zjjqvrln4lzaeghwcmxn2du
     description: |
@@ -18,8 +20,8 @@
       [![QR code for Zcash shielded address](/images/qr.zcash.violetrollergirl.gif)](zcash:u1mhgwfzmjks8d2kgwh7nrrycljzzfuhl5fak6efvnqazxwu2f4ssftlf5snpgavfx649ztp5l2lzwzqsrhu5jf4x97jzu6a37qysjvjwq8ffcspd46dg99s4mctaagq73n823edhza3s8mxytur48lnuprad8j4avhvymsxv38u7t5rhdsc449fyk70d9zjjqvrln4lzaeghwcmxn2du)
 
       [Learn more about Zcash](https://z.cash/learn/){: target="_blank"}.
-  - label: Monero
-    title: Monero
+  - title: Monero
+    label: Monero
     svg: images/logo.monero.transparent.480x480.png
     url: monero:8AtoQWkqUouCGuYVZm9XFaK2xXm36PAG7i9jD7hHojwwKnJc6tezsvojdak85jFBYfGdWuLYFEn8Mb9zTdeUWUQyBCiJctG?recipient_name=Violet%20Rollergirl
     description: |
@@ -34,39 +36,44 @@
   #    Send me a tip or donation via CashApp.
 
 - group_name: Socials &amp; Content
+  description: >
+    Places you can find, follow, or fap to me online.
   items:
-  - label: Bluesky
-    title: Bluesky
+  - title: Bluesky
+    label: Bluesky
     icon: bluesky
     url: https://bsky.app/profile/violetrollergirl.com
     description: >
       The freer X/Twitter alternative.
       (You'll want to [enable NSFW content](https://fedica.com/blog/bluesky-adult-content-nsfw/ "Learn how to disable adult and erotic content moderation on Bluesky."){:target="_blank"}, trust me.)
-  - label: OnlyFans
-    title: OnlyFans
+  - title: OnlyFans
+    label: OnlyFans
     svg: images/logo.onlyfans.svg
     url: https://onlyfans.com/violetrollergirl/c1
     description: >
       Subscribe for access to my archive of spicy content.
       (No <acronym title="Pay-Per-View">PPV</acronym>.)
-  - label: ManyVids
-    title: ManyVids
+  - title: OnlyBanned
+    label:
+    svg: images/logo.onlybanned.svg
+    url: https://onlybanned.com/profile/violetrollergirl
+    description: >
+      All my content banned from OnlyFans!
+      Solo, <abbr title="boy/girl">b/g</abbr>, <abbr title="girl/girl">g/g</abbr>, threesome, fetish, and bondage videos.
+  - title: ManyVids
+    label: ManyVids
     svg: images/logo.manyvids-heart.svg
     style: >
       filter: invert();
     url: https://violetrollergirl.manyvids.com/
     description:
       Buy my solo, <abbr title="boy/girl">b/g</abbr>, <abbr title="girl/girl">g/g</abbr>, threesome, fetish, and bondage videos.
-  - label: MintStars
-    title: MintStars (content)
+  - title: MintStars
+    label: MintStars
     svg: images/logo.mintstars.transparent.400x400.png
     url: https://mintstars.com/violetrollergirl
-    description: >
-      Subscribe for access to exclusive content and partner for
-      resale rights to some of my spicier photos and videos.
-  - label: QueerCrush
-    title: QueerCrush
-    show_label: false
+  - title: QueerCrush
+    label:
     svg: images/logo.queercrush.blue.png
     url: https://queercrush.com/models/violet-rollergirl-she
     description: >
@@ -84,65 +91,69 @@
   #  url: https://fansly.com/violetrollergirl
 
 - group_name: Ad listings
+  description: >
+    View my verified ads at independent escort malls.
   items:
-  - label: Tryst
-    title: Tryst
+  - title: Tryst
+    label:
     svg: images/logo.tryst.svg
     url: https://tryst.link/escort/violetrollergirl
-  - label: TS4Rent
-    title: TS4Rent
+  - title: TS4Rent
+    label:
     svg: images/logo.ts4r.svg
     url: https://ts4rent.eu/violetrollergirl
-  - label: "TER ID: 401195"
-    title: The Erotic Review
+  - title: The Erotic Review
+    label: "TER ID: 401195"
     svg: images/logo.the-erotic-review.svg
     style: >
       filter: invert();
     url: https://www.theeroticreview.com/reviews/show.asp?id=401195
-  - label: SaferChoice
-    title: SaferChoice
+  - title: SaferChoice
+    label: SaferChoice
     svg: images/logo.saferchoice.transparent.80x87.png
     style: >
       filter: invert();
     url: https://saferchoice.ch/explore/violet-rollergirl
-  - label: Slixa
-    title: Slixa
+  - title: Slixa
+    label:
     svg: images/logo.slixa.white.svg
     url: https://www.slixa.com/new-york/new-york/violet-rollergirl
-  - label: Velvet22
-    title: Velvet22
+  - title: Velvet22
+    label:
     svg: images/logo.velvet22.light-on-dark.transparent.726x197.png
     url: https://velvet22.com/trans/violet-rollergirl
-  - label: Hunqz
-    title: Hunqz
+  - title: Hunqz
+    label:
     svg: images/logo.hunqz.svg
     url: https://www.hunqz.com/hunq/violetrollergirl
 
 - group_name: Even more
+  description: >
+    All the rest that's fit to print.
+    I'm much more than meets the eye.
   items:
-  - label: Wishlist
-    title: Throne
+  - title: Throne
+    label: Wishlist
     icon: gift
     url: https://throne.com/violetrollergirl
     description: >
       Spoil me. :)
-  - label: Payment Guides
-    title: Payment Guides
+  - title: Payment Guides
+    label: Payment Guides
     icon: money-bill-transfer
     url: /resources/for-clients/using-cryptocurrency/
     description: >
-      Quick explainers that help you get started with cryptocurrency
-      and its privacy benefits as a client or customer.
-  - label: Resources
-    title: Resources
+      Get started with cryptocurrency and its
+      privacy benefits as a client or customer.
+  - title: Resources
+    label: Resources
     icon: scroll
     url: /resources/
     description: >
-      Complete booking guide, digital security information, and plenty
-      of additional privacy, discretion, and other resources for clients
-      and providers.
-  - label: Additional Health and Safety Guide
-    title: Additional Health and Safety Guide
+      Additional privacy, discretion, and other
+      resources for both clients and providers.
+  - title: Additional Health and Safety Guide
+    label: Additional Health and Safety Guide
     icon: shield-halved
     url: http://ylyznmvgswureorc3tzc555trtjdtzgvkfjba5xkkkqcun55q3ny3yqd.onion/
     description: >

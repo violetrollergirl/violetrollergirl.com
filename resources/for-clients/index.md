@@ -26,7 +26,7 @@ I wrote this booking guide to help those of you who want a meticulously crafted 
 {:.align-center}
 [How to book me]({% link resources/for-clients/booking-guide/index.md %}){:.button}
 
-## Discretion-maxxing, or How To Find, Book, and Pay Escorts Completely Secretly
+## [Discretion-maxxing, or How To Find, Book, and Pay Escorts Completely Secretly]({% link resources/for-clients/discretion-maxxing/index.md %})
 
 It's never been easier for two people to learn about each other, communicate with one another, and send money to one another, all without anyone else ever being aware they've done this. That has some absolutely wild, even revolutionary implications.
 
