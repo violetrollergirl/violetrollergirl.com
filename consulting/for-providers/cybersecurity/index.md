@@ -57,8 +57,8 @@ To start, tell me:
 - what your concerns are, as succinctly but clearly as you can. Many people ask about:
     - identity correlation, risk of being doxxed, or how they can keep their civ life separate from their spicy personas
     - how to mitigate the risks of phishing emails or more reliably catch scams from people claiming to be clients,
-    - using cryptocurrency, safer ways to handle receiving deposits, maintain financial independence, and avoid getting outed via payment systems,
-    - improving the security of their booking process, screening process, or website booking forms generally,
+    - [using cryptocurrency]({% link resources/for-providers/using-cryptocurrency/index.md %}), safer ways to handle receiving deposits, maintain financial independence, and avoid getting outed via payment systems,
+    - improving the security of their booking process, screening process, or [website booking forms]({% link colophon/index.md %}#client-side-booking-form) generally,
     - and much more. You tell me what's keeping you up at night! If I can help, I'll let you know.
 - when you can discuss the matter; I have a very flexible schedule, so it helps if you give me a couple different date/time options.
     - You can be as specific as you like; supplying a range is also okay.
