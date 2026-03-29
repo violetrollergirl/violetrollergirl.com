@@ -145,7 +145,7 @@ Thankfully, it's very easy to protect yourself from this kind of financial loss.
 
 #### Backups and recovery phrases
 
-When you install your wallet app of choice, it automatically generated what's called a wallet seed phrase, or recovery phrase, or BIP32/BIP39/BIP44 mnemonic code, or something to that effect. This is a fancy way of saying "the wallet app made up a secret passphrase that gives you control over your money." All of those terms mean the same thing.
+When you install your wallet app of choice, it automatically generates what's called a wallet seed phrase, or recovery phrase, or BIP32/BIP39/BIP44 mnemonic code, or something to that effect. This is a fancy way of saying "the wallet app made up a secret passphrase that gives you control over your money." All of those terms mean the same thing.
 
 Your wallet's seed phrase is usually a sequence of 12 to 24 words that, as soon as you start caring about your funds, you should probably write down somewhere safe. (I suggest using a password manager like [Bitwarden](https://bitwarden.com){:target="_blank"}.) Eventually, you may even want to memorize it. This secret recovery seed phrase or whatever you want to call it is your magic money spell, the incantation you can invoke to "magically" conjure your money using any wallet app that supports both your cryptocurrency and your recovery phrase algorithm. Almost all of the good, modern wallets support this cool feature.
 
