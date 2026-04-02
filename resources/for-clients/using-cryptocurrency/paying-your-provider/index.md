@@ -12,7 +12,7 @@ last_modified: Wed Dec 31 18:14:59 EST 2025
 
 # {{ site.title }}'s guide to paying your provider in crypto
 
-No matter what crypto app you use, you'll need your provider's wallet address to send (crypto) money to them. It turns out all you have to do is ask for it!
+No matter what crypto app you use, you'll need to know what address to send your payment to. It turns out all you have to do is ask for it!
 
 > **&#9432; This page is for clients or customers.** If you are a provider, seller, or vendor you should instead read [{{ site.title }}'s Resources for Providers Using Cryptocurrency (as a Sex Worker)]({% link resources/for-providers/using-cryptocurrency/index.md %}).
 
@@ -54,11 +54,11 @@ Do not use these specific addresses unless you intend to send *me, {{ site.title
 
 ## Send crypto to your provider
 
-Now that you have your provider's wallet address, send your crypto there. Sometimes, this is simply called a "withdrawal" or a "transfer." When you "withdraw" or "transfer" crypto to *your provider's wallet address* rather than your own, it is ultimately just a "payment."
+Now that you have a payment address, send your crypto there. Sometimes, this is simply called a "withdrawal" or a "transfer." When you "withdraw" or "transfer" crypto to *your provider's address* rather than your own, it is ultimately just a "payment."
 
 Exactly how you do this depends on the specific crypto app you're using but regardless of the app you use, here are some additional points for first-time senders:
 
-- Be certain you have entered the correct wallet address before you confirm your send!
+- Be certain you have entered the correct payment address before you confirm your send!
 - It's also usually acceptable to send your payment in two chunks:
     1. the first send can be a small test transaction to ensure that the address you entered is correct.
     1. the second send is the remainder.

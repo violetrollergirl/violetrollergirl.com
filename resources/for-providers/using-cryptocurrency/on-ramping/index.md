@@ -86,7 +86,7 @@ The way we do this is by initiating a currency swap trade, but we'll have the cl
     - You don't need to calculate transaction fees yourself; you'll get an automated estimate for this shortly.
 1. In the **To** section, choose a **slippage tolerance**, that is, how much *more* than the target price your client or customer is likely comfortable paying.
     - I tell clients that this covers "all transaction and payment processing fees, inclusive."
-    - I usually leave this at its default of `1%`. This is low enough that it's usually a much cheaper option than many fiat services such as wishlists or [tipping sites](#mintpay-fiat-income-with-cryptocurrency-withdrawals).
+    - I usually leave this at its default (which is `2%` as of this writing). This is low enough that it's usually a much cheaper option than many fiat services such as wishlists or [tipping sites](#mintpay-fiat-income-with-cryptocurrency-withdrawals).
     - You can set a custom slippage tolerance if you want to be extra sure the swap succeeds and you think your client or customer will not care much about the increase in total price.
 1. Tap the **Get a quote** button to generate a swap trade quote with a total estimate, including fees and any extra price slippage.
 1. Review the quote. It'll look something like what's shown in the screenshot below:

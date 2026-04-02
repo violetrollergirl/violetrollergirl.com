@@ -10,7 +10,7 @@ last_modified: Wed Oct 15 10:44:23 EDT 2025
 
 # {{ site.title }}'s guide to using cryptocurrency via CashApp
 
-As you may know, CashApp is a popular, US-based digital payment service popular for its easy "`$cashtag`" payment system. CashApp has since expanded to include a number of other financial services, including having its own payment card and now [CashApp also supports transacting with Bitcoin](https://cash.app/bitcoin){:target="_blank"}.
+As you may know, CashApp is a digital payment service often used in the United States popular for its easy "`$cashtag`" payment system. CashApp has since expanded to include a number of other financial services, including having its own payment card and also [supports transacting with Bitcoin](https://cash.app/bitcoin){:target="_blank"}.
 
 Since anyone with a ([verified](https://cash.app/help/gb/3122-verify-account){:target="_blank"}) CashApp account can use it to buy Bitcoin, it's a particularly convenient way to pay your provider *even if your provider doesn't have CashApp, themselves!* If your provider accepts cryptocurrency donations, tips, or considerations, then you can use your CashApp account to pay them. This page explains how.
 
@@ -25,7 +25,7 @@ Since anyone with a ([verified](https://cash.app/help/gb/3122-verify-account){:t
 
 ## Sign up for CashApp
 
-Just in case you don't already have a CashApp account, you can make one very easily. Either type of CashApp account (Personal or Business) will work, but if you're making an account anew, I suggest a Personal account because business accounts require extra eligibility criteria. Click the button below to sign up for CashApp using your platform:
+If you don't already have a CashApp account, you can make one easily. Either type of CashApp account (Personal or Business) will work, but if you're making a new account, I suggest a Personal account because Business accounts require extra eligibility criteria. Click the button below to sign up for CashApp using your platform:
 
 {:.button-container}
 {% include link-as-button.md anchor_text="CashApp (iPhone)" url="https://apps.apple.com/us/app/cash-app/id711923939" target="_blank "%}
@@ -38,9 +38,9 @@ Once your CashApp account is created and activated, you can proceed to adding a 
 
 With a CashApp account, you can use all their payment and exchange services but you still need to supply CashApp with payment information so that you can swap your existing US Dollars (or other local currency) into cryptocurrency. CashApp enforces different purchase limits on different payment methods, but in general any payment method you have like a debit or credit card, or a bank account will work. They also have good guides to help you add payment methods, so follow those instructions now:
 
-{:.align-center}
+{:.button-container}
 {% include link-as-button.md anchor_text="Link card to CashApp" url="https://cash.app/help/6567-problems-linking-a-credit-card" target="_blank" %}
-{% include link-as-button.md anchor_text="Link bank to CashApp" url="https://cash.app/help/3049-add-bank-account" %}
+{% include link-as-button.md anchor_text="Link bank to CashApp" url="https://cash.app/help/3049-add-bank-account" target="_blank" %}
 
 Depending on the payment method you chose and how you linked in, you may be able to buy crypto immediately or you may need to  validate the method with a confirmation loop of some kind. Either way, once linked and activated, you will see your purchase limits on CashApp increase and are ready to add money to your CashApp balance with which you can get your first crypto coins.
 
@@ -64,7 +64,7 @@ The first time you either buy or withdraw Bitcoin from CashApp, you may also nee
 1. Tap the Money tab on your CashApp home screen.
 1. Tap on the Bitcoin tile.
 1. Press **Buy**.
-1. Select an amount or press the elippses button (&hellip;) to enter an amount.
+1. Select an amount or press the ellipses button (&hellip;) to enter an amount.
 1. Enter your PIN or Touch ID and tap **Confirm**.
 
 At this point, CashApp will show you that have some amount of value in your Bitcoin "wallet" (which is really a bank account, not a true wallet). You can now use that Bitcoin to [pay your worker in crypto]({% link resources/for-clients/using-cryptocurrency/paying-your-provider/index.md %})!
