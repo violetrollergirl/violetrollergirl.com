@@ -6,7 +6,7 @@
   items:
   - title: MintPay
     label: MintPay
-    svg: images/logo.mintstars.transparent.400x400.png
+    svg: images/logo.mintstars.chrome-star.transparent.webp
     url: https://mintstars.com/tip/violetrollergirl
     description: >
       Send me a tip or donation via [MintStars](#links-mintstars) using your credit/debit card.
@@ -69,8 +69,10 @@
     description:
       Buy my solo, <abbr title="boy/girl">b/g</abbr>, <abbr title="girl/girl">g/g</abbr>, threesome, fetish, and bondage videos.
   - title: MintStars
-    label: MintStars
-    svg: images/logo.mintstars.transparent.400x400.png
+    label:
+    svg: images/logo.mintstars.chrome.black.png
+    style: >
+      filter: invert();
     url: https://mintstars.com/violetrollergirl
   - title: QueerCrush
     label:
@@ -100,7 +102,7 @@
     url: https://tryst.link/escort/violetrollergirl
   - title: TS4Rent
     label:
-    svg: images/logo.ts4r.svg
+    svg: images/logo.ts4rent.svg
     url: https://ts4rent.eu/violetrollergirl
   - title: The Erotic Review
     label: "TER ID: 401195"
