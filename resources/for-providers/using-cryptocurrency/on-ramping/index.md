@@ -8,7 +8,7 @@ featured_image:
   url: images/gallery-originals/cutie-in-bay-windows.jpg
 prev: resources/for-providers/using-cryptocurrency/wallet-apps/
 next: resources/for-providers/using-cryptocurrency/off-ramping/
-last_modified: Wed Jan 14 09:02:10 EST 2026
+last_modified: Sat Apr  4 15:33:29 CEST 2026
 ---
 
 # On-ramping: acquiring cryptocurrency funds (as a sex worker)
@@ -29,6 +29,8 @@ Now that you have a privacy-preserving [cryptocurrency wallet app]({% link resou
     1. [Buy ZEC via cryptocurrency exchanges](#buy-zec-via-cryptocurrency-exchanges)
         1. [Withdrawing funds privately](#withdrawing-funds-privately)
     1. [Buy Monero in Cake Wallet](#buy-monero-in-cake-wallet)
+1. [Accepting crypto payments non-interactively](#accepting-crypto-payments-non-interactively)
+    1. [CipherPay: a shielded Zcash e-commerce solution](#cipherpay-a-shielded-zcash-e-commerce-solution)
 
 ## Getting paid directly in crypto
 
@@ -176,6 +178,21 @@ The ultimate takeaway is that by choosing to hold a privacy coin, once you recei
 ### Buy Monero in Cake Wallet
 
 > I still need to write this section. It's basically the same as the above; go into Cake Wallet, hit the "Buy" button, and get some XMR into your wallet via whatever exchange they support.
+
+## Accepting crypto payments non-interactively
+
+So far, all of the on-ramping methods I've described are ones you can do on your own, or with a client or customer with whom you're speaking to in real-time. Interactive payments like these are easy to do because coordinating how to pay happens between two humans synchronously, such as by [chatting over a (preferably secure) messenger app]({% link resources/for-providers/signal-for-sex-work/index.md %}) or in person. But what if you need to accept crypto payments when you're offline?
+
+### CipherPay: a shielded Zcash e-commerce solution
+
+If you need to accept private cryptocurrency payments when you're not online, you need something like a shopping cart on your Web site. Perhaps you sell custom content via a Web store.
+
+The leading solution for this in the Zcash ecosystem is [CipherPay](https://www.cipherpay.app/){:target="_blank"}.
+
+{:.align-center}
+{% include link-as-button.md anchor_text="Explore CipherPay" url="https://www.cipherpay.app/" target="_blank" %}
+
+> I need to write more about this solution but for now I just want to highlight that this solution exists and is the best asynchronous/e-commerce on-ramp for shielded Zcash I've found so far. I'd love to make a little demo where I sell a custom vid or something as an example.
 
 {:.button-container}
 {% include link-as-button.md anchor_text="Previous: Wallet apps" url=page.prev %} {% include link-as-button.md anchor_text="Up" url="../" %} {% include link-as-button.md anchor_text="Next: Off-ramping" url=page.next %}
