@@ -12,13 +12,12 @@ baseurl: / # For a site in a domain's Web-accessible root directory.
 
 # Basic site and authorship information.
 title: Violet Rollergirl
-subtitle: Bubbly trans GFE companion
+subtitle: Exquisite trans courtesan
 author: &author
   name: Violet Rollergirl
 description: >-
-  Brilliant, bubbly, and beautifully nerdy, Violet is your confident,
-  kind, trans girlfriend experience where sophistication meets genuine
-  sparkle.
+  Brilliant, bubbly, and beautiful, Violet is your modern trans companion
+  and girlfriend experience whose sophistication meets genuine sparkle.
 
 include:
   - .well-known
