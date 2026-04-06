@@ -9,13 +9,13 @@ featured_image:
 
 # Testimonials about {{ site.title }}
 
+Perhaps you're wondering what spending some time with me is "really" like?
+
 > Every man is the sum total of his reactions to his experiences.
 >
 > <cite>&mdash;Hunter S. Thompson</cite>
 
-Each person is different. That alone makes each encounter unique. But, like a beautiful melody, there is an ostinato I repeat during every visit.
-
-See if you can hear it in the kind words from some of my darlings and sweethearts, below.
+Each person is different. That alone makes each encounter unique. But, like a beautiful melody, there is an ostinato I repeat during every visit. See if you can hear it in the kind words from some of my darlings and sweethearts, below.
 
 {% for t in site.testimonials %}
 {:style="margin-top: 3em;"}
