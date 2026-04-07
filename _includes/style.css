@@ -39,3 +39,13 @@
 .data-table tr:nth-child(2n + 1) {
     background-color: rgba(5,5,5,.85);
 }
+
+/**
+ * @group Newsletter subscription.
+ */
+[data-form="5cffbafc-3299-11f1-bb40-5906a544377b"] .emailoctopus-form input#field_0 {
+    height: 3em;
+}
+[data-form="5cffbafc-3299-11f1-bb40-5906a544377b"] .mastfoot {
+    display: none !important;
+}

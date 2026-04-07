@@ -45,7 +45,7 @@ The best thing you can do to snag a date, whether opportunistically or otherwise
 - <span class="fa-li fa-solid fa-calendar"></span> inquire ahead of time (check my [calendar](#tours)),
 - <span class="fa-li fa-solid fa-id-card"></span> [pre-screen]({% link _faq/screening/screening-process.md %}),
 - <span class="fa-li fa-solid fa-mobile"></span> keep a line of communication open, and
-- <span class="fa-li fa-brands fa-bluesky"></span> follow [me on Bluesky](https://bsky.app/profile/violetrollergirl.com){:target="_blank"} and/or other [social media]({% link index.html %}#links-group-socials-amp-content).
+- <span class="fa-li fa-brands fa-bluesky"></span> follow [me on Bluesky](https://bsky.app/profile/violetrollergirl.com){:target="_blank"}, other [social media]({% link index.html %}#links-group-socials-amp-content), or [subscribe to my newsletter]({% link index.html %}#newsletter-subscription).
 
 It's also okay to plan for a farther-future date and then [reschedule if necessary]({% link resources/for-clients/booking-guide/index.md %}#if-you-need-to-reschedule-or-cancel). It's generally easy to accommodate rescheduling with minimal fuss as long as you stay communicative and [provide sufficient notice]({% link index.html %}#cancellation-policy).
 
