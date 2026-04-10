@@ -9,7 +9,7 @@ featured_image:
   url: images/gallery-originals/privacy-professional-crypto-kitty-girl.jpg
 prev: resources/for-providers/
 next: colophon/
-last_modified: Thu Jan 15 12:51:09 EST 2026
+last_modified: Thu Apr  9 19:58:38 EDT 2026
 ---
 
 # {{ site.title }}'s Guide to Using Signal Private Messenger in Sex Work
@@ -35,6 +35,7 @@ This article is my attempt to convey why Signal Private Messenger is so useful a
     1. [Always relay calls](#always-relay-calls)
     1. [Allow sealed sender from anyone](#allow-sealed-sender-from-anyone)
     1. [Set a default disappearing message timer](#set-a-default-disappearing-message-timer)
+    1. [Omit message content from notifications](#omit-message-content-from-notifications)
     1. [Disable link previews](#disable-link-previews)
 1. [Publicizing your Signal profile to clients](#publicizing-your-signal-profile-to-clients)
 1. [Verifying your Signal Safety Number with clients you meet](#verifying-your-signal-safety-number-with-clients-you-meet)
@@ -185,6 +186,20 @@ My recommendations:
     - You can always adjust or remove this timer for future messages or other conversations.
 - Remember that this is a *request* and your recipient may still keep their own [chat backups](https://support.signal.org/hc/en-us/articles/360007059752-Backup-and-Restore-Messages){:target="_blank"}.
     - If you want to [further request that your recipient does not retain copies of your disappearing messages](https://signal.org/blog/introducing-secure-backups/#:~:text=excluding%20view-once%20messages%20and%20messages%20scheduled%20to%20disappear%20within%20the%20next%2024%20hours){:target="_blank"}, your disappearing message timer must be set to a duration shorter than 24 hours.
+
+### Omit message content from notifications
+
+Messaging applications like Signal include features that let you see a bit of information about the messages you're getting even if the app itself isn't open. This can be convenient because it may mean you don't have to unlock your phone to read the start of a long thread, but it also means a part of the message is no longer protected by the Signal app itself, since it's now on the lock screen.
+
+This feature works thanks to a service built into modern computer and phone operating systems generically called a *notification handler*. Apps can register with the notification handler provided by Apple or Google to receive information about activity that happens in the app even when the app itself is not currently running.
+
+Unfortunately, using this feature makes your messages less private because it requires sharing the previewed part of your formerly private message content with the notification service. Thankfully, the makers of Signal know this, so they have a setting to disable message content from being shared through notifications.
+
+My recommendations:
+
+- Set Signal to omit *at least* the content of messages from notifications by [setting the notification content option](https://support.signal.org/hc/en-us/articles/360043273491-In-App-Notification-Options) to `Name only`.
+    - Find this option in Signal Settings &rarr; Notifications &rarr; Show &rarr; Name only.
+    - You can further protect your privacy in the case of a device compromise by setting this option to `No name or message`, but at the cost of reading who it was that sent you a message until after you open the Signal app.
 
 ### Disable link previews
 
