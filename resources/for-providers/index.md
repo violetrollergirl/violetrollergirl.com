@@ -33,6 +33,15 @@ Simply using Signal over any other messenger massively improves the safety of yo
 {:.align-center}
 [Signal for Sex Work]({% link resources/for-providers/signal-for-sex-work/index.md %}){:.button}
 
+## [Defeating photo unblur and remaining face-in]({% link resources/for-providers/remaining-face-in/index.md %})
+
+A *face-in provider* is any sex worker who does not show their face on social media, in advertising photos, or in content they create. Despite being a face-out provider myself, many colleagues consider me one of the most cyber-secure sex workers in the world today, so I'm routinely asked about how to stay safe and pseudonymous online in this age of increasing state surveillance and advancements in facial recognition technology powered by AI.
+
+This article is an attempt at helping my face-in colleagues stay face-in as long as they want to.
+
+{:.align-center}
+[Remaining face-in]({% link resources/for-providers/remaining-face-in/index.md %}){:.button}
+
 ## [{{ site.title }}'s Website Colophon]({% link colophon/index.md %})
 
 I'm pretty proud of my Web site. Sometimes, other providers ask me how I made this site. Some clients have, too.
