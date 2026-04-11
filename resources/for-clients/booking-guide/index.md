@@ -158,11 +158,12 @@ You may not leave this field blank, because I need to know how to address you.
 The second field of my booking form is a drop-down menu for choosing the method you would like to use for screening.
 
 * The field's label is:
-    * I read your [screening requirements]({% link index.html %}#screening-requirements) and am comfortable being screened by sending you
+    * I read your [screening options]({% link index.html %}#screening-options) and am comfortable being screened by
 * The field's placeholder reads: `How you'll screen.`
 * You are expected to choose one from the following options:
     * Choose `my legal ID document` if you will send a selfie of yourself holding a driver's license or other government-issued photo ID document.
     * Choose `employment information` if you will send a link to your LinkedIn profile and are willing to verify your employment information via discreet email confirmation loop.
+    * Choose `a video vibe check` if you prefer to use a real-time secure video call as an alternative to my traditional screening methods.
     * Choose `a deposit for a social date at a public venue` if you will send a deposit to confirm a reservation with me in person at a public venue for a platonic date, sometimes also called a "meet and greet."
 
 You may not leave this field blank. If you have already screened with me, simply re-use the same value you chose earlier.

@@ -250,7 +250,7 @@ layout: none
             }, {} );
             var templateText = `Hi {{ site.author.name | split: " " | first }}. Please allow me to introduce myself.
 
-My name is ${inquiryData.booking_inquiry_prospect_name}. I read your screening requirements and am comfortable being screened by sending you ${inquiryData.booking_inquiry_prospect_preferred_screening_method}.
+My name is ${inquiryData.booking_inquiry_prospect_name}. I read your screening options and am comfortable being screened by ${inquiryData.booking_inquiry_prospect_preferred_screening_method}.
 
 My carrier phone number (for your screening purposes only) is ${inquiryData.booking_inquiry_prospect_carrier_phone}.
 

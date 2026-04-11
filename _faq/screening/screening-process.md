@@ -9,16 +9,13 @@ featured_image:
   url: images/gallery-originals/hot-tub-backshot.jpg
 ---
 
-My screening process is like many other providers&rsquo; and is required for our mutual safety and comfort. There are no exceptions. <em>Everyone must screen.</em> ([Why?]({% link _faq/screening/why-screen.md %}))
+You can complete my normal screening method or opt to use my alternative safety check processes. ([Why?]({% link _faq/screening/why-screen.md %}))
 
-The [Contact page](#contact) on my site offers a summary of your [screening options]({% link resources/for-clients/booking-guide/index.md %}#screening-options). Only <em>one (1)</em> of the listed items is required to successfully pass screening, <em>not</em> all of them. Two of your options are remote and one is in person.
+The [Contact page](#contact) on my site offers a summary of your [screening options]({% link resources/for-clients/booking-guide/index.md %}#screening-options). Only *one (1)* of the listed items is required to successfully pass screening, *not* all of them. Three of your options are remote and one is in person.
 
 Briefly once more, those options are:
 
-{:.fa-ul}
-* <span class="fa-li fa-solid fa-id-card"></span>Attaching a selfie of yourself holding a valid government-issued photo ID showing at least your full name, birthyear, and photo (the rest may be redacted) plus a carrier phone number (not a number from a texting app or burner phone) to your next message to me.
-* <span class="fa-li fa-solid fa-image-portrait"></span>Attaching a selfie plus a well-established LinkedIn profile link plus a carrier phone number (not a number from a texting app or burner phone) to your next message to me.
-* <span class="fa-li fa-solid fa-handshake"></span>[Booking me](#contact) for [a platonic, meet-and-greet/social-only date]({% link resources/for-clients/booking-guide/index.md %}#rate-add-ons-and-online-social-only-date). My usual deposit and cancellation [policies]({% link resources/for-clients/booking-guide/index.md %}#policies) will apply.
+{% include screening-options.md %}
 
 Again, screening is mandatory; the above listing describes a _minimum requirement_ to pass my screening process. At my sole discretion, I may require additional validation of the information you provide in order to feel comfortable seeing you. The more information you give me before I have to ask for it, the more likely we are to be fantastically compatible. Conversely, <strong>if you are not ready to be screened, please wait until you are before contacting me.</strong>
 

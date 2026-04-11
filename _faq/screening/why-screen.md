@@ -9,7 +9,10 @@ featured_image:
 
 I get it. You're just starting to get to know me and you don't want one bad decision to ruin your life.
 
-Well, babes, same. That means <strong>I must know who you are</strong>.
+Well, babes, same. That means <strong>I must know who you are</strong>. You can:
+
+- provide screening info via [my booking form](#contact), or
+- complete my [alternative safety check process]({% link _faq/screening/screening-process.md %}).
 
 ### Screening proves you are a consenting adult
 
@@ -43,6 +46,6 @@ The thing about balance is that it's very comfortable. After all, what is grace 
 
 And no one wants that. Right?
 
-### If you are too nervous to screen, we will never meet. 🥲
+### If you are too nervous to screen or pass my safety checks, we will never meet. 🥲
 
-[Screening is easy]({% link _faq/screening/screening-process.md %}) and you can be done with it after your very first message to me.
+To reiterate, [screening is easy]({% link _faq/screening/screening-process.md %}) and you can be done with it after your very first message to me.

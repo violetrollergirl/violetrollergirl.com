@@ -21,7 +21,7 @@
                 <tr id="rate-{{ menu.id | slugify }}-{{ item.name | slugify }}">
                     <th>
                         {{ item.name }}
-                        {% if item.url %}<a href="{{ item.url }}">Order now</a>
+                        {% if item.url %}<a href="{{ item.url }}">{{ item.anchor_text | default: "Inquire now" }}</a>
                         {% elsif item.duration_in_hours %}<a href="#booking-inquiry-prospect-name" class="booking-link"
                             data-booking-inquiry-prospect-preferred-screening-method="{{ item.screening_method }}"
                             data-booking-inquiry-prospect-booking-type="{{ item.booking_type }}"

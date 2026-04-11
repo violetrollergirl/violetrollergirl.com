@@ -49,9 +49,21 @@
         Friendly, casual audio call to help you decide whether you'd like to book an in-person session, prepare for our date by chatting, discussing any logistics, or simply to quell any concerns.
 
         * Price of the call can be applied towards your deposit if you book within one (1) month.
+    - name: Video vibe check (10 minutes)
+      rate: 50
+      booking_type: a video vibe check
+      screening_method: a video vibe check
+      duration_in_hours: .5
+      details: |-
+        Quick video call used as an alterantive to traditional screening methods.
+
+        * Only offered over Signal Private Messenger video call.
+        * You must show your photo ID during the call.
+        * Payment for the call must be received before time is reserved.
     - name: Custom photo/video
       rate: 50
       url: https://www.manyvids.com/Profile/1008389797/violetrollergirl/Store/Custom
+      anchor_text: Order now
       details: |-
         A photo or video made just the way you like it.
 
