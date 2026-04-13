@@ -124,8 +124,6 @@ For some of us, however, getting paid directly in crypto seems like a stretch. O
 {% assign x = site.data.social_urls | find: "group", "Tip me" | first %}
 {% assign mintpay = x.items | where: "label", "MintPay" | first %}
 
-{{ mintpay | inspect }}
-
 One newer option available specifically for online creators, including adult creators, is *MintPay*, or the "tip" feature available via [MintStars.com (referral link)]({{ site.data.affiliates.mintstars }}){:target="_blank"}. If you're familiar with content sites like OnlyFans, you can think of MintStars as a crypto-friendly alternative except, unlike OnlyFans, people who want to send you money don't need to make an account or subscribe to you before tipping you.
 
 {:.align-center}
