@@ -41,11 +41,11 @@ Cryptocurrency is becoming increasingly popular with both providers and our clie
 
 There are a lot of reasons you may want to pay your worker in crypto:
 
-- **Privacy and discretion:** Cryptocurrency can be made provably more private and discreet than payment apps meaning you needn't associate payments with personally identifying information.
-- **Reduced costs:** Once you have crypto, payments can be made directly to your provider, avoiding a payment processing intermediary, which can lower transaction fees.
-- **Cross-app interoperability**: If they take crypto, they take crypto, and you don't have to worry about which payment app your provider uses.
-- **Provider incentives:** Some providers, like me, offer incentives such as small discounts for using various kinds of privacy-preserving technology. [Ask me about this when you contact me]({% link resources/for-clients/booking-guide/index.md %}#contact)!
-- **Volatility can be a windfall**: You can take advantage of crypto's volatility to treat yourself and pay your worker when the price of crypto is high if you bought it when it was low.
+- **Privacy and discretion:** No more awkward line items on your financial statements. [Pay *completely* privately]({% link resources/for-clients/discretion-maxxing/index.md %}#shielded-zcash-encrypted-electronic-money), without associating any personally identifying information (PII) with your purchase.
+- **Reduced costs:** Credit cards and payment apps act as middlemen and charge hefty processing fees. Crypto payments can bypass those when funds are sent direct to the seller.
+- **Cross-app interoperability**: No need to worry about which apps you both have. You can use your existing app (e.g., [CashApp]({% link resources/for-clients/using-cryptocurrency/cashapp/index.md %}#buy-bitcoin-in-cashapp)) even if your provider doesn't have the same one.
+- **Provider incentives:** Some providers, like me, offer incentives such as small discounts for using various privacy-preserving technology with us. [Ask me about this when you contact me]({% link resources/for-clients/booking-guide/index.md %}#contact)!
+- **Volatility can be a windfall**: You can take advantage of crypto's volatility to treat yourself and pay your worker when the price of crypto is high if you got it when it was low.
 
 Some of these benefits require you to install what's called a self-custodial wallet app (I like [Zodl Wallet](https://zodl.com/){:target="_blank"} and [Cake Wallet](https://cakewallet.com/){:target="_blank"}) as opposed to using a third-party crypto payment service but, in general, you can just think of cryptocurrency like digital cash, or simply a different kind of foreign currency unit like the Euro or whatever.
 

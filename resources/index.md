@@ -18,6 +18,6 @@ I high-key love doing sex work. For me, sex work is a mix of the hospitality, se
 Now that I've been in this industry for a while, I thought I'd start writing down the things I've learned in an effort to make things better for everyone, clients and fellow providers alike.
 
 {:.button-container}
-[For Clients]({% link resources/for-clients/index.md %}){:.button}
+[<span class="fa-icon fa-solid fa-user-tie"></span> For Clients]({% link resources/for-clients/index.md %}){:.button}
 [<span class="fa-icon fa-solid fa-house-chimney"></span> Home]({% link index.html %}){:.button}
-[For Providers]({% link resources/for-providers/index.md %}){:.button}
+[<span class="fa-icon fa-solid fa-umbrella"></span> For Providers]({% link resources/for-providers/index.md %}){:.button}

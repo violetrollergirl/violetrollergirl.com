@@ -97,7 +97,7 @@ The way we do this is by initiating a currency swap trade, but we'll have the cl
 
 1. Tap **Confirm** to generate the swap trade's address, amount, and QR code.
 1. Show, share, or send this payment information to your client or customer.
-    - Tell your client or customer that they have about 1 hour to confirm the send. This is a very common grace period to hold a quoted price in cryptocurrency ecommerce systems such as [BTCPay Server](https://btcpayserver.org/){:target="_blank"}.
+    - Tell your client or customer that they have about an hour or two to confirm the send. This is a very common grace period to hold a quoted price in cryptocurrency ecommerce systems such as [BTCPay Server](https://btcpayserver.org/){:target="_blank"}. (In reality, they have [more grace time to send the swap deposit amount](https://support.zodl.com/article/11-checking-swap-status#Swap-validity-UN3RH){:target="_blank"} than this.)
     - The swap deposit's "payment" address shown here is *ephemeral* (temporary), much like other cryptocurrency shopping cart checkout pages. You cannot reuse it ever again.
     - (If you're using this technique to swap (i.e., "convert" or "exchange") your own non-private Bitcoin into private shielded Zcash, rather than using this technique to get a client or customer to pay you, this is when you go to your other Bitcoin wallet app or log in to your exchange service account and send your own cryptocurrency funds to the address Zodl showed you.)
 1. Tap the **I've sent the funds** button.
