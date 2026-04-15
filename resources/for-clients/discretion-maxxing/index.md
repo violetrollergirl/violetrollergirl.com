@@ -65,10 +65,10 @@ Many escorts, like me, [advertise on specialty Web sites]({% link index.html %}#
 
 You probably know that when you browse the Internet with a normal Web browser, most of your browsing activity is being tracked. Even if you switch your browser into a "private browsing" or "incognito" mode, your Internet service provider (your "ISP," like Verizon, Comcast, Rogers, Telstra, iiNet, or whoever) knows what sites you, specifically, are choosing to visit.
 
-**The safest way to browse the Web anonymously is to use [Tor Browser](https://torproject.org/){:target="_blank"}**, a specialty Web browser made for one purpose and one purpose only: shielding everything you do on the Web from prying eyes. Tor Browser is free, easy to use, and available on desktop, Android, and Apple iOS devices.
+**The safest way to browse the Web anonymously is to use [<span class="fa-icon fa-brands fa-tor-browser"></span> Tor Browser](https://torproject.org/){:target="_blank"}**, a specialty Web browser made for one purpose and one purpose only: shielding everything you do on the Web from prying eyes. Tor Browser is free, easy to use, and available on desktop, Android, and Apple iOS devices.
 
 {:.align-center}
-{% include link-as-button.md anchor_text="Get Tor Browser" url="https://torproject.org/" target="_blank" %}
+{% include link-as-button.md anchor_text="<span class='fa-icon fa-brands fa-tor-browser'></span> Get Tor Browser" url="https://torproject.org/" target="_blank" %}
 
 Basically, Tor Browser gives everyone who uses it the same non-descript disguise. As long as you don't voluntarily divulge personal details to a Web site you visit, no one knows that you (as opposed to any other similarly-disguised, non-descript Tor Browser user) are the one walking around the mall.
 
@@ -91,7 +91,7 @@ It's important to note that the plumber or [whoever you're contracting is not th
 
 However, there's no reason you need to share that same information with the rest of the Internet, or your communications provider, which is what sending personal information via emails or text messages does. That's why [privacy-conscious escorts like me make use of encrypted communications channels]({% link resources/for-providers/signal-for-sex-work/index.md %}) so that when you send us a message like this, [you can be confident it's for our eyes only]({% link colophon/index.md %}#privacy-guarantees-of-first-contact).
 
-**The best encrypted messaging platform is [Signal Private Messenger]({% link resources/for-clients/messaging-discreetly/index.md %}#ultimate-privacy-signal-private-messenger-with-screen-lock)**. Signal is free, globally available, solidly reliable, wildly performant, widely adopted, and has best-in-class encryption and metadata protection features.
+**The best encrypted messaging platform is [<span class="icon fa-brands fa-signal-messenger"></span> Signal Private Messenger]({% link resources/for-clients/messaging-discreetly/index.md %}#ultimate-privacy-signal-private-messenger-with-screen-lock)**. Signal is free, globally available, solidly reliable, wildly performant, widely adopted, and has best-in-class encryption and metadata protection features.
 
 {:.align-center}
 {% include link-as-button.md anchor_text="<span class='icon fa-brands fa-signal-messenger'></span> Get Signal" url="https://signal.org/install" target="_blank" %}
