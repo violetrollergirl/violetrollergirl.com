@@ -1,5 +1,8 @@
 ---
 name: Will you meet with someone much younger or older?
+featured_image:
+  alt:
+  url: images/gallery-originals/black-short-shorts-and-heeled-boots-on-hotel-bed.webp
 ---
 
 Yes, I'd be happy to meet you as long as you're legally an adult, whether you're 18 or 81!
