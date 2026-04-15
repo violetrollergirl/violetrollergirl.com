@@ -11,7 +11,9 @@ layout: default
         />
         {% endif %}
 
+        {% include breadcrumb-nav.html id="top-breadcrumb-nav" %}
         {{ content }}
+        {% include breadcrumb-nav.html id="bottom-breadcrumb-nav" show_label=true %}
     </div>
 
     <footer>

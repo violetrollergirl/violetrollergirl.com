@@ -41,6 +41,33 @@
 }
 
 /**
+ * @group Breadcrumb navigation.
+ */
+#bottom-breadcrumb-nav {
+    text-align: center;
+}
+.breadcrumb-nav {
+    font-size: small;
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        display: inline;
+        margin: 0;
+        padding: 0;
+
+        &:not(:last-child)::after {
+            content: "\2192";
+            padding: 0 .25em;
+        }
+    }
+
+}
+
+/**
  * @group Newsletter subscription.
  */
 [data-form="5cffbafc-3299-11f1-bb40-5906a544377b"] .emailoctopus-form input#field_0 {

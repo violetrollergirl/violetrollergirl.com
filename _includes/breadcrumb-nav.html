@@ -1,0 +1,21 @@
+{% comment %}
+Take the URL structure and linkify each folder part of the path
+in a list to show a hierarchical page structure.
+
+Based on https://jekyllcodex.org/without-plugin/breadcrumbs/
+{% endcomment %}
+
+{% assign crumbs = page.url | split: "/" %}
+
+<nav id="{{ include.id }}" class="breadcrumb-nav">
+    {% if include.show_label %}<span class="fa-icon fa-solid fa-map-location-dot"></span> You are here:{% endif %}
+    <ul>{% for crumb in crumbs %}
+    {% if forloop.first %}
+        <li><a href="{% link index.html %}"><span class="fa-icon fa-solid fa-home"></span> Home</a></li>
+    {% elsif forloop.last %}
+        <li>{{ page.title }}</li>
+    {% else %}
+    <li><a href="{% assign crumb_limit = forloop.index %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace: "-", " " | remove: ".html" | capitalize }}</a></li>
+    {% endif %}
+    {% endfor %}</ul>
+</nav>
