@@ -9,15 +9,15 @@ featured_image:
   url: images/gallery-originals/hot-tub-backshot.jpg
 ---
 
-You can complete my normal screening method or opt to use my alternative safety check processes. ([Why?]({% link _faq/screening/why-screen.md %}))
+Before I'll meet with you privately, you must pass my safety screening or opt to use an alternative safety check process. ([Why?]({% link _faq/screening/why-screen.md %}))
 
-The [Contact page](#contact) on my site offers a summary of your [screening options]({% link resources/for-clients/booking-guide/index.md %}#screening-options). Only *one (1)* of the listed items is required to successfully pass screening, *not* all of them. Three of your options are remote and one is in person.
-
-Briefly once more, those options are:
+You can successfully screen with me by fulfilling at least one (1) of these requirements. There's no need to complete all of them. Three of your options are remote and one is in person:
 
 {% include screening-options.md %}
 
-Again, screening is mandatory; the above listing describes a _minimum requirement_ to pass my screening process. At my sole discretion, I may require additional validation of the information you provide in order to feel comfortable seeing you. The more information you give me before I have to ask for it, the more likely we are to be fantastically compatible. Conversely, <strong>if you are not ready to be screened, please wait until you are before contacting me.</strong>
+The above listing describes different *minimum* requirements to pass my screening process.
+
+At my sole discretion, I may require additional validation of the information you provide in order to feel comfortable seeing you. The more information you give me before I have to ask for it, the more likely we are to be fantastically compatible. Conversely, <strong>if you are not ready to be screened, please wait until you are before contacting me.</strong>
 
 Keep these points in mind when screening:
 

@@ -44,10 +44,10 @@ along with a bunch of additional instruction.
                                 class="form-select"
                                 required="required"
                             >
-                                <option value="" disabled="disabled" selected="selected" hidden="hidden">How you&rsquo;ll screen.</option>
+                                <option value="" disabled="disabled" selected="selected" hidden="hidden">Choose safety check method.</option>
                                 <option>my legal ID document</option>
                                 <option>employment information</option>
-                                <option>a video vibe check</option>
+                                <option value="a video vibe check">a video vibe check (paid)</option>
                                 <option>a deposit for a social date at a public venue</option>
                             </select>
                         </span><!-- .select-wrapper -->
@@ -209,13 +209,13 @@ along with a bunch of additional instruction.
                                 "
                             >
                                 <option value="" disabled="disabled" selected="selected" hidden="hidden">Choose booking type</option>
-                                <option value="an incall">an incall (I host you)</option>
-                                <option value="an outcall">an outcall (you host me)</option>
+                                <option value="an incall">an incall (Violet hosts)</option>
+                                <option value="an outcall">an outcall (you host Violet)</option>
                                 <option value="a FMTY">a FMTY (travel with or to you)</option>
-                                <option value="a social-only date">a social date (platonic/screening only)</option>
+                                <option value="a social-only date">a social date (platonic/screening alternative)</option>
                                 <option value="a virtual video date">a virtual video date (online)</option>
                                 <option value="a texting/sexting session">a texting/sexting session (online)</option>
-                                <option value="a video vibe check">a video vibe check (Signal video call)</option>
+                                <option value="a video vibe check">a video vibe check (screening alternative)</option>
                                 <option value="a curiosity call">a curiosity call (phone)</option>
                             </select>
                         </span><!-- .select-wrapper -->
@@ -362,7 +362,7 @@ along with a bunch of additional instruction.
 
                     <p>
                         <input type="checkbox" class="form-check-input" name="booking_inquiry_confirmed_screening_attachment" id="booking-inquiry-confirmed-screening-attachment" value="yes" required="required" />
-                        <label for="booking-inquiry-confirmed-screening-attachment" class="form-label">Yes, I will attach all relevant screening information. I understand that incomplete inquiries, such as those without screening information, may not receive a reply.</label>
+                        <label for="booking-inquiry-confirmed-screening-attachment" class="form-label">Yes, I will attach all relevant screening information and/or immediately follow up to begin my chosen alternative safety check process. I understand that incomplete inquiries, such as those without screening information, may not receive a reply.</label>
                         <sup>
                             <small class="form-text">
                                 <a class="closer"
@@ -456,7 +456,7 @@ along with a bunch of additional instruction.
             <li><span class="fa-li fa-solid fa-calendar"></span>When you're hoping to see me; supply <em>both</em> a preferred and an alternate date and time.</li>
             <li><span class="fa-li fa-solid fa-hourglass"></span>How long you'd like to see me for. See my <a href="#rates">rates</a> for helpful guidance in selecting a duration.</li>
             <li><span class="fa-li fa-solid fa-map"></span>Where you want to meet: my place/"incall," your place/"outcall," or indicate a social date/meet and greet. Look up <a href="#tours">my travel dates</a> if you're not sure where I'll be.</li>
-            <li><span class="fa-li fa-solid fa-id-card"></span>If this is our first contact, choose a <a href="#screening-options">screening method</a> you're comfortable using. <a href="{% link _faq/screening/screening-process.md %}">Screening is easy and mandatory</a>.</li>
+            <li><span class="fa-li fa-solid fa-id-card"></span>If this is our first contact, choose a <a href="#screening-options">screening or safety check method</a> you're comfortable using. <a href="{% link _faq/screening/screening-process.md %}">Screening is easy and mandatory</a>.</li>
         </ul>
         <p class="align-center"><img loading="lazy" src="{% link images/gallery-originals/pool-table-orange-and-black.jpg %}" alt="" /></p>
     </div>
@@ -516,11 +516,11 @@ along with a bunch of additional instruction.
     </div>
     <div>
         <h2 id="screening-options">Screening options (<span class="icon fa-solid fa-question-circle"><a href="{% link _faq/screening/screening-process.md %}"></span> What's screening?</a>)</h2>
-        <p>If we're not yet acquainted, such as when you're <a href="#in-your-first-message">writing to me for the first time</a>, you'll need to attach safety screening info or complete my alternative safety check process. (<a href="{% link _faq/screening/why-screen.md %}">Why?</a>)</p>
+        <p>If we're not yet acquainted, such as when you're <a href="#in-your-first-message">writing to me for the first time</a>, you'll need to attach safety screening info or pass one of my alternative safety check processes. (<a href="{% link _faq/screening/why-screen.md %}">Why?</a>)</p>
         <p>I treat your information with the <a href="{% link colophon/index.md %}#privacy-guarantees-of-first-contact">utmost confidentiality</a>, as discretion and screening helps assure our mutual safety and comfort.</p>
-        <p>You can successfully screen by completing any <em>one (1)</em> of the following requirements:</p>
+        <p>To successfully screen, complete any <em>one (1)</em> of the following requirements:</p>
         {% include screening-options.md %}
-        <p>I consider messages that lack screening information to be incomplete. I may not reply to them. If you need help writing an inquiry, <a href="#booking-form">use my booking form</a> to draft a completed one. I'm looking forward to hearing from you!</p>
+        <p>Messages that lack screening information may not receive a reply. If you need help writing an inquiry, <a href="#booking-form">use my booking form</a> to draft a completed one. I'm looking forward to hearing from you!</p>
         <p class="align-center">
             <a href="#booking-inquiry-form" class="button"><span class="icon fa-solid fa-pen-nib"></span> Booking Form</a>
         </p>
