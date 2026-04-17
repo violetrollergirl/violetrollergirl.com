@@ -7,6 +7,7 @@ featured_image:
   alt:
   url: images/gallery-originals/back-arch-on-the-beach-in-bikini.jpg
 prev: resources/for-clients/using-cryptocurrency/
+next: resources/for-clients/using-cryptocurrency/off-ramping/
 last_modified: Wed Dec 31 18:14:59 EST 2025
 ---
 
@@ -89,3 +90,4 @@ When your provider receives confirmation of your send, they will let you know! I
 {:.button-container}
 {% include link-as-button.md anchor_text="Previous: Cryptocurrency Guide" url=page.prev %}
 [<span class="fa-icon fa-solid fa-house-chimney"></span> Home]({% link index.html %}){:.button}
+{% include link-as-button.md anchor_text="Next: Other off-ramps" url=page.next %}

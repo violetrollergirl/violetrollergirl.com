@@ -25,6 +25,7 @@ Now that you have a privacy-preserving [cryptocurrency wallet app]({% link resou
     1. [Receiving the same cryptocurrency being sent](#receiving-the-same-cryptocurrency-being-sent)
     1. [Getting paid in Zcash when your client or customer only has Bitcoin](#getting-paid-in-zcash-when-your-client-or-customer-only-has-bitcoin)
 1. [MintPay: Fiat income with cryptocurrency withdrawals](#mintpay-fiat-income-with-cryptocurrency-withdrawals)
+1. [YouPay: Wishlist with cryptocurrency withdrawals](#youpay-wishlist-with-cryptocurrency-withdrawals)
 1. [Converting fiat currency to cryptocurrency](#converting-fiat-currency-to-cryptocurrency)
     1. [Buy ZEC via cryptocurrency exchanges](#buy-zec-via-cryptocurrency-exchanges)
         1. [Withdrawing funds privately](#withdrawing-funds-privately)
@@ -141,6 +142,10 @@ At the time of this writing, you can only withdraw USDC (on the Polygon network)
 This crypto payout option makes MintStars an attractive on-ramping solution for sex workers who are already de-banked or cannot otherwise access traditional banking services in their countries, including for me in the United States.
 
 If you'd like to try the tipping experience out, consider sending me a tip [via my MintStars tip page]({{ mintpay.url }} "{{ mintpay.description }}"). To see what it looks like from the creator's side, see [MintStars Help: How to withdraw using crypto](https://mintstars.frontkb.com/en/articles/1967553). When or you want to sign up, I'd appreciate it greatly if you used my [MintStars creator referral link]({{ site.data.affiliates.mintstars }} "Sign up to MintStars via my referral link")!
+
+## YouPay: Wishlist with cryptocurrency withdrawals
+
+> TK-TODO: I need to write this section up. [YouPay's official docs are here](https://support.youpay.co/support/solutions/articles/51000413205-how-do-i-withdraw-to-a-crypto-wallet-){:target="_blank"}.
 
 ## Converting fiat currency to cryptocurrency
 

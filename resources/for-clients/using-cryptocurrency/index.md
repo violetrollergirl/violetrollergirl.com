@@ -35,6 +35,7 @@ Cryptocurrency is becoming increasingly popular with both providers and our clie
         - [Coinbase]({% link resources/for-clients/using-cryptocurrency/coinbase/index.md %}#complete-your-crypto-purchase-via-coinbase)
         - [Gemini]({% link resources/for-clients/using-cryptocurrency/gemini/index.md %}#complete-your-crypto-purchase-via-gemini)
 1. [Paying your provider](#paying-your-provider)
+1. [Other ways to spend crypto (on your provider)](#other-ways-to-spend-crypto-on-your-provider)
 1. [Have questions? I'm here for you!](#have-questions-im-here-for-you)
 
 ## Why use cryptocurrency?
@@ -43,8 +44,8 @@ There are a lot of reasons you may want to pay your worker in crypto:
 
 - **Privacy and discretion:** No more awkward line items on your financial statements. [Pay *completely* privately]({% link resources/for-clients/discretion-maxxing/index.md %}#shielded-zcash-encrypted-electronic-money), without associating any personally identifying information (PII) with your purchase.
 - **Reduced costs:** Credit cards and payment apps act as middlemen and charge hefty processing fees. Crypto payments can bypass those when funds are sent direct to the seller.
-- **Cross-app interoperability**: No need to worry about which apps you both have. You can use your existing app (e.g., [CashApp]({% link resources/for-clients/using-cryptocurrency/cashapp/index.md %}#buy-bitcoin-in-cashapp)) even if your provider doesn't have the same one.
 - **Provider incentives:** Some providers, like me, offer incentives such as small discounts for using various privacy-preserving technology with us. [Ask me about this when you contact me]({% link resources/for-clients/booking-guide/index.md %}#contact)!
+- **Cross-app interoperability**: No need to worry about which apps you both have. You can use your existing app (e.g., [CashApp]({% link resources/for-clients/using-cryptocurrency/cashapp/index.md %}#buy-bitcoin-in-cashapp)) even if your provider doesn't have the same one.
 - **Volatility can be a windfall**: You can take advantage of crypto's volatility to treat yourself and pay your worker when the price of crypto is high if you got it when it was low.
 
 Some of these benefits require you to install what's called a self-custodial wallet app (I like [Zodl Wallet](https://zodl.com/){:target="_blank"} and [Cake Wallet](https://cakewallet.com/){:target="_blank"}) as opposed to using a third-party crypto payment service but, in general, you can just think of cryptocurrency like digital cash, or simply a different kind of foreign currency unit like the Euro or whatever.
@@ -98,6 +99,15 @@ Exactly how you send cryptocurrency to other people will differ slightly from on
 
 {:.align-center}
 {% include link-as-button.md anchor_text="Paying your provider" url="/resources/for-clients/using-cryptocurrency/paying-your-provider/" %}
+
+## Other ways to spend crypto (on your provider)
+
+Having cryptocurrency is nice, in theory, but it doesn't do much for you until you spend it. Here are some suggestions for what to do with the cryptocurrency assets you have, beyond booking your favorite provider, of course.
+
+You can also use the suggestions on this page to practice the mechanics of actually spending crypto on something before you try to coordinate a real booking. Then, when you're comfortable using crypto to make payments, you can graduate to spending that crypto to set up your dream date.
+
+{:.align-center}
+[More ways to spend crypto]({% link resources/for-clients/using-cryptocurrency/off-ramping/index.md %}){:.button}
 
 ## Have questions? I'm here for you!
 
