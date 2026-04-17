@@ -74,3 +74,7 @@ What all of these methods have in common is that they completely overwrite the p
 ## Find and cover other identifying information in photos
 
 > TODO: Still need to write about this. For example, this includes tattoos, street signs, and so on.
+>
+> Have a peek at the following video as well for more info on this.
+>
+> <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/VaUsJvUMUgE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
