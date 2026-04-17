@@ -129,6 +129,8 @@ Especially savvy escorts like me can [privately accept any number of cryptocurre
 {:.align-center}
 {% include link-as-button.md anchor_text="Get Zodl Wallet" url="https://zodl.com/" target="_blank" %}
 
+[![ZODL: Zcash Open Development Lab]({% link images/logo.zodl.zcash-open-development-lab.png %})](https://zodl.com/ "Get Zodl Wallet"){:target="_blank"}
+
 Basically, using shielded Zcash with the Zodl wallet app does for money what Signal Private Messenger does for speech. And, after all, if we are to accept that money is speech ([Citizen's United](https://www.brennancenter.org/our-work/research-reports/citizens-united-explained){:target="_blank"}, anyone?), then why doesn't it deserve to be equally protected from prying eyes?
 
 When you use shielded Zcash to make a payment:
