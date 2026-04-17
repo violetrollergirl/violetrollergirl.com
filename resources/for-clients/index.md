@@ -56,4 +56,4 @@ My cryptocurrency explainers are designed to help you get set up and ready to se
 [How to pay in crypto]({% link resources/for-clients/using-cryptocurrency/index.md %}){:.button}
 
 {:.button-container}
-{% include link-as-button.md anchor_text="Up" url="../" %}
+{% include link-as-button.md anchor_text="<span class='fa-icon fa-solid fa-scroll'></span> All Resources" url="/resources/" %}

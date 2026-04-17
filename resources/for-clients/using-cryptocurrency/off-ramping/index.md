@@ -6,7 +6,8 @@ description: >
 featured_image:
   alt:
   url: images/gallery-originals/red-lingerie-on-white-background.jpg
-prev: resources/for-clients/using-cryptocurrency/paying-your-provider/
+prev: resources/for-clients/using-cryptocurrency/quick-start/
+next: resources/for-clients/using-cryptocurrency/paying-your-provider/
 last_modified: Thu Apr 16 22:46:26 EDT 2026
 ---
 
@@ -51,5 +52,6 @@ If the provider you have eyes for is also [creating content like yours truly]({%
 Do you know of more places to spend cryptocurrency on a sex worker? Please [write to let me know](#contact) and I'll add them here!
 
 {:.button-container}
-{% include link-as-button.md anchor_text="Previous: Resources for Clients Using Cryptocurrency" url=page.prev %}
-{% include link-as-button.md anchor_text="Home" url="/" %}
+{% include link-as-button.md anchor_text="Previous: Crypto Quick-Start" url=page.prev %}
+{% include link-as-button.md anchor_text="<span class='fa-icon fa-solid fa-user-tie'></span> Client Resources" url="/resources/for-clients/" %}
+{% include link-as-button.md anchor_text="Next: Paying your Provider" url=page.next %}

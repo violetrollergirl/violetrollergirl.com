@@ -157,6 +157,6 @@ I reuse the same technique of registering URL protocol handlers that my booking 
 I further provide QR codes that encode the same URI data into an image for easy access by wallet apps like [Zodl](https://zodl.com/) or [Cake Wallet](https://cakewallet.com/) that provide QR code scan functionality. You can click or scan the QR codes of my donation links on my site to send me Zcash or Monero denominated cryptocurrency conveniently as a tip, gift, donation, deposit, or full payment at any time. While I also accept Bitcoin and Ethereum, I do not prefer them as transactions on those ledgers are published publicly and with full payment details to the world, making them subpar options for private payments outside of personal correspondence.
 
 {:.button-container}
-[For Clients]({% link resources/for-clients/index.md %}){:.button}
+[<span class="fa-icon fa-solid fa-user-tie"></span> For Clients]({% link resources/for-clients/index.md %}){:.button}
 [<span class="fa-icon fa-solid fa-house-chimney"></span> Home]({% link index.html %}){:.button}
-[For Providers]({% link resources/for-providers/index.md %}){:.button}
+[<span class="fa-icon fa-solid fa-umbrella"></span> For Providers]({% link resources/for-providers/index.md %}){:.button}

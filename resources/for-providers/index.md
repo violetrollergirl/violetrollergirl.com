@@ -54,4 +54,4 @@ So here's a bit of technical information regarding how it all works, in case you
 [Site Colophon]({% link colophon/index.md %}){:.button}
 
 {:.button-container}
-{% include link-as-button.md anchor_text="Up" url="../" %}
+{% include link-as-button.md anchor_text="<span class='fa-icon fa-solid fa-scroll'></span> All Resources" url="/resources/" %}
