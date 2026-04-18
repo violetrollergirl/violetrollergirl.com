@@ -25,6 +25,9 @@ Buying your crush gifts using crypto is also good practice for the mechanics of 
 1. [Send gift cards](#send-gift-cards)
 1. [Gift consumables, not junk](#gift-consumables-not-junk)
 1. [Subscribe and become a fan](#subscribe-and-become-a-fan)
+1. [Support the causes and tools that support us](#support-the-causes-and-tools-that-support-us)
+    1. [Pay for our escort ads](#pay-for-our-escort-ads)
+    1. [Donate to Signal Private Messenger](#donate-to-signal-private-messenger)
 1. [Have suggestions? Get in touch!](#have-suggestions-get-in-touch)
 
 ## Just send money
@@ -67,6 +70,40 @@ Barring that, I suggest gifting your companion a consumable good, rather than so
 ## Subscribe and become a fan
 
 If the provider you have eyes for is also [creating content like yours truly]({% link index.html %}#links-group-socials-amp-content), you can [load up your OnlyFans account balance using crypto via PayWithMoon](https://paywithmoon.com/merchants/onlyfans){:target="_blank"}, and subscribe to her fan site! This is a fun way to treat yourself while supporting her, too.
+
+## Support the causes and tools that support us
+
+You can also show your appreciation in less direct ways that are still extremely valuable. I'd even wager that some providers would be *more* grateful for gifts of this nature because of the way they demonstrate true support of our profession and personal values, rather than mere tolerance or acceptance.
+
+### Pay for our escort ads
+
+These days, most reputable escort malls and advertising sites that require us to pay for a searchable listing accept cryptocurrency payments.
+
+In fact, since sex workers face so much financial discrimination from the traditional finance sector, paying for advertisements in cryptocurrency is often the *only* way we can get or keep our ads up. It's also often the first reason most providers learn how to use cryptocurrency in the first place!
+
+Simply ask your crush if you help them fund their ads. They'll be able to set that up easily and send you a cryptocurrency payment address to do so. Here are [ad sites I'm listed on]({% link index.html %}#links-group-ad-listings) and pay for that also accept cryptocurrency:
+
+- [Tryst.link](https://help.tryst.link/en-gb/22-payments-accounts/87-what-payment-methods-do-you-accept#:~:text=Bitcoin){:target="_blank"}
+- [TS4Rent.eu](https://ts4rent.eu/about/cryptocurrency/){:target="_blank"}
+
+There are probably others, so ask your crush if these are not relevant to the two of you.
+
+### Donate to Signal Private Messenger
+
+[My favorite messaging platform]({% link resources/for-providers/signal-for-sex-work/index.md %}) as an independent escort is [<span class="icon fa-brands fa-signal-messenger"></span> Signal Private Messenger](https://signal.org/){:target="_blank"}. It is quite simply the messenger with the best balance of being widely adopted, easy to use, and actually secure. It's also free of charge, solidly reliable, wildly performant, and globally available.
+
+Signal is created and maintained by a non-profit called the [Signal Foundation](https://signalfoundation.org/){:target="_blank"}, which can *always* use more support.
+
+When you [donate to Signal](https://signal.org/donate/), you're not only indirectly supporting me, you're also supporting freedom of speech and individual liberties and lowercase-d democratic movements worldwide. You can support Signal with a donation from within the app itself, but you can also [donate cryptocurrency to Signal](https://signal.org/donate/) on their website!
+
+{:.align-center}
+[![Screenshot of the donation screen on the Signal.org website.]({% link resources/for-clients/using-cryptocurrency/off-ramping/screenshot.signal.donate.png %})](https://signal.org/donate/ "Make a donation to Signal Private Messenger."){:target="_blank"}
+
+To learn more about why Signal is so important for you, too, read my other [client guides]({% link resources/for-clients/index.md %}):
+
+{:.align-center}
+[Messaging Discreetly]({% link resources/for-clients/messaging-discreetly/index.md %}){:.button}
+[Discretion-Maxxing]({% link resources/for-clients/discretion-maxxing/index.md %}){:.button}
 
 ## Have suggestions? Get in touch!
 
