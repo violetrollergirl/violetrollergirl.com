@@ -41,6 +41,7 @@ This article is my attempt to convey why Signal Private Messenger is so useful a
 1. [Verifying your Signal Safety Number with clients you meet](#verifying-your-signal-safety-number-with-clients-you-meet)
 1. [Using Signal to share photos and media](#using-signal-to-share-photos-and-media)
 1. [Using built-in Signal organization and productivity features](#using-built-in-signal-organization-and-productivity-features)
+1. [Feedback welcomed!](#feedback-welcomed)
 
 ## The problem with texting apps
 

@@ -6,6 +6,9 @@ description: >
 featured_image:
   alt:
   url: images/gallery-originals/upskirt-in-car-with-laptop-stickers.jpg
+redirect_from:
+  - /consulting
+  - /consulting/for-providers
 ---
 
 # Cybersecurity Consultations: Digital Safety and Online Privacy for Sex Workers
