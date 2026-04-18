@@ -81,6 +81,13 @@ You can cover your face in the original photo using a prop like a book, large fl
 
 It's also easy to cover your face after the fact, such as by using common image editing software often shipped with your phone to place an emoji, solid-color bar, or any number of other artifacts over your face. Many providers draw elegant strokes atop their faces that make it appear as though the photo itself was painted over with an acrylic brush:
 
+{% comment %}
+I don't really want to recommend these tools because they are pretty data-harvest-y, but I know of:
+
+- [PicsArt](https://picsart.com/){:target="_blank"}
+- [EPIK](https://apps.apple.com/us/app/epik-ai-photo-video-editor/id1577705074){:target="_blank"}
+{% endcomment %}
+
 {:.align-center}
 ![Face out: a picture of Violet kneeling on a beach looking up at the camera.]({% link images/gallery-originals/face-out.kneeling-on-the-beach-looking-at-camera.jpeg %}){:style="max-width: 40%; vertical-align: middle;"}
 <span class="fa-icon fa-solid fa-right-long fa-2xl"></span>
