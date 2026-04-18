@@ -151,7 +151,7 @@ The first field in my booking form is a text box for your name.
 You may not leave this field blank, because I need to know how to address you.
 
 {:.align-center}
-{% include link-as-button.md anchor_text="Return to Booking Form" url="/resources/for-clients/booking-guide/#contact" %}
+{% include link-as-button.md anchor_text="Continue in Form" url="/resources/for-clients/booking-guide/#contact" focus_on="booking-inquiry-prospect-name" %}
 
 #### Booking form field: screening method
 
@@ -173,7 +173,7 @@ I very rarely require re-screening; it's required if you change numbers or conta
 For more information about screening, see my [FAQ: Why must I screen?/Screening makes me nervous]({% link _faq/screening/why-screen.md %}).
 
 {:.align-center}
-{% include link-as-button.md anchor_text="Return to Booking Form" url="/resources/for-clients/booking-guide/#contact" %}
+{% include link-as-button.md anchor_text="Continue in Form" url="/resources/for-clients/booking-guide/#contact" focus_on="booking-inquiry-prospect-preferred-screening-method" %}
 
 #### Booking form field: phone number
 
@@ -192,7 +192,7 @@ You may not leave this field blank. I require it for each and every new friend w
 For more information about screening, see my [FAQ: How do I pass your screening process?]({% link _faq/screening/screening-process.md %}).
 
 {:.align-center}
-{% include link-as-button.md anchor_text="Return to Booking Form" url="/resources/for-clients/booking-guide/#contact" %}
+{% include link-as-button.md anchor_text="Continue in Form" url="/resources/for-clients/booking-guide/#contact" focus_on="booking-inquiry-prospect-carrier-phone" %}
 
 #### Booking form field: preferred contact method
 
@@ -220,7 +220,7 @@ You may not leave this field blank, because I can't reply to you if you do.
 This field also determines how I'll respond to your inquiry. For example, if you chose email, I'll reply from my email to the email address from which you messaged me. If you chose Signal, I'll reply via Signal to the Signal account from which you messaged me, etcetera.
 
 {:.align-center}
-{% include link-as-button.md anchor_text="Return to Booking Form" url="/resources/for-clients/booking-guide/#contact" %}
+{% include link-as-button.md anchor_text="Continue in Form" url="/resources/for-clients/booking-guide/#contact" focus_on="booking-inquiry-prospect-preferred-contact-method" %}
 
 #### Booking form field: source referral
 
@@ -236,7 +236,7 @@ The fifth field in my booking form is a text suggestion box for you to let me kn
 You may not leave this field blank, but what you enter here has no bearing on the rest of your inquiry and does not affect your booking in any way.
 
 {:.align-center}
-{% include link-as-button.md anchor_text="Return to Booking Form" url="/resources/for-clients/booking-guide/#contact" %}
+{% include link-as-button.md anchor_text="Continue in Form" url="/resources/for-clients/booking-guide/#contact" focus_on="booking-inquiry-prospect-source-referral" %}
 
 #### Booking form field: free-form notes
 
@@ -254,7 +254,7 @@ The sixth field in my booking form is a multi-line text area where you can write
 You may leave this field blank if you like, but this is your chance to make a unique first impression, so I encourage you to make the most of it.
 
 {:.align-center}
-{% include link-as-button.md anchor_text="Return to Booking Form" url="/resources/for-clients/booking-guide/#contact" %}
+{% include link-as-button.md anchor_text="Continue in Form" url="/resources/for-clients/booking-guide/#contact" focus_on="booking-inquiry-prospect-attraction" %}
 
 #### Booking form field: deposit method
 
@@ -274,7 +274,7 @@ The seventh field in my booking form is a drop-down menu for choosing the method
 You may not leave this field blank because, as per [my deposit policy]({% link _faq/booking/what-is-a-deposit.md %}), a deposit is required to reserve my time. [These methods]({% link _faq/booking/payment-methods.md %}) are the only ways I accept deposit payments. Including this information in your initial inquiry helps us get to the fun part sooner!
 
 {:.align-center}
-{% include link-as-button.md anchor_text="Return to Booking Form" url="/resources/for-clients/booking-guide/#contact" %}
+{% include link-as-button.md anchor_text="Continue in Form" url="/resources/for-clients/booking-guide/#contact" focus_on="booking-inquiry-prospect-deposit-method" %}
 
 #### Booking form field: booking type
 
@@ -297,7 +297,7 @@ The eighth field in my booking form is a drop down menu for you to choose the ca
 You may not leave this field blank. I need to know what you're hoping to book my time for so that we can plan accordingly.
 
 {:.align-center}
-{% include link-as-button.md anchor_text="Return to Booking Form" url="/resources/for-clients/booking-guide/#contact" %}
+{% include link-as-button.md anchor_text="Continue in Form" url="/resources/for-clients/booking-guide/#contact" focus_on="booking-inquiry-prospect-booking-type" %}
 
 #### Booking form field: service type
 
@@ -314,7 +314,7 @@ The ninth field in my booking form is a drop down menu for you to choose the ser
 You may not leave this field blank. It's okay if you're not sure which of these options to choose, we can talk about it at some detail once you complete screening.
 
 {:.align-center}
-{% include link-as-button.md anchor_text="Return to Booking Form" url="/resources/for-clients/booking-guide/#contact" %}
+{% include link-as-button.md anchor_text="Continue in Form" url="/resources/for-clients/booking-guide/#contact" focus_on="booking-inquiry-prospect-service-type" %}
 
 #### Booking form field: duration
 
@@ -328,7 +328,7 @@ The tenth field in my booking form is a numeric input box for you to choose the 
 You may not leave this field blank. If your Web browser supports it, you can use the arrow keys on your keyboard to increase or decrease the number in steps of `0.5`, indicating a half hour (30 minutes). Note that I prioritize longer bookings with more notice over shorter appointments requested last minute.
 
 {:.align-center}
-{% include link-as-button.md anchor_text="Return to Booking Form" url="/resources/for-clients/booking-guide/#contact" %}
+{% include link-as-button.md anchor_text="Continue in Form" url="/resources/for-clients/booking-guide/#contact" focus_on="booking-inquiry-prospect-duration" %}
 
 #### Booking form field: location
 
@@ -345,7 +345,7 @@ The eleventh field in my booking form is a text suggestion box for you to fill i
 You may not leave this field blank for bookings that require us to meet in person for what I hope are obvious reasons. I may ignore this field entirely if your inquiry is for a booking type that requests online, virtual, or remote services, but you still need to write *something* here, such as "online" to indicate this.
 
 {:.align-center}
-{% include link-as-button.md anchor_text="Return to Booking Form" url="/resources/for-clients/booking-guide/#contact" %}
+{% include link-as-button.md anchor_text="Continue in Form" url="/resources/for-clients/booking-guide/#contact" focus_on="booking-inquiry-prospect-location" %}
 
 #### Booking form field: preferred date and time
 
@@ -362,7 +362,7 @@ The twelfth field in my booking form is a date and time entry widget for you to 
 You may not leave this field blank because all bookings must be performed at *some* time, and I need to know when you're availale to spend that time with me.
 
 {:.align-center}
-{% include link-as-button.md anchor_text="Return to Booking Form" url="/resources/for-clients/booking-guide/#contact" %}
+{% include link-as-button.md anchor_text="Continue in Form" url="/resources/for-clients/booking-guide/#contact" focus_on="booking-inquiry-prospect-preferred-datetime" %}
 
 #### Booking form field: alternate date and time
 
@@ -380,7 +380,7 @@ The thirteenth field in my booking form is a date and time entry widget for you 
 You may not leave this field blank because all bookings must be performed at *some* time, and I need to know when you're availale to spend that time with me. By providing an alternative option as a backup to the first option, you help reduce the amount of back-and-forth we need to schedule something in case the first time doesn't work.
 
 {:.align-center}
-{% include link-as-button.md anchor_text="Return to Booking Form" url="/resources/for-clients/booking-guide/#contact" %}
+{% include link-as-button.md anchor_text="Continue in Form" url="/resources/for-clients/booking-guide/#contact" focus_on="booking-inquiry-prospect-alternate-datetime" %}
 
 #### Booking form field: confirm policy agreement
 
@@ -394,7 +394,7 @@ The fourteenth field in my booking form is a checkbox that you must check to con
 You must check this box to submit my booking form and continue to the next step. By checking this box, you acknowledge that you have read and understood and fully agree to abide by the information stated on my website. I know there's a lot of information on my site. Yes, I do expect you to read all of it before booking me.
 
 {:.align-center}
-{% include link-as-button.md anchor_text="Return to Booking Form" url="/resources/for-clients/booking-guide/#contact" %}
+{% include link-as-button.md anchor_text="Continue in Form" url="/resources/for-clients/booking-guide/#contact" focus_on="booking-inquiry-confirmed-fine-print" %}
 
 #### Booking form field: confirm screening attachment
 
@@ -408,7 +408,7 @@ The fifteenth field in my booking form is a checkbox that you must check to conf
 You must check this box to submit my booking form and continue to the next step. By checking this box, you acknowledge that you will go through my lightweight screening process. Note that nowhere did you actually provide the screening information yet. This means if you do not provide the screening information in the next step, your inquiry will likely not receive a reply.
 
 {:.align-center}
-{% include link-as-button.md anchor_text="Return to Booking Form" url="/resources/for-clients/booking-guide/#contact" %}
+{% include link-as-button.md anchor_text="Continue in Form" url="/resources/for-clients/booking-guide/#contact" focus_on="booking-inquiry-confirmed-screening-attachment" %}
 
 ## Submit my booking form to send your inquiry
 
@@ -423,7 +423,7 @@ Once you think you've completed filling in all the fields in the form, you can p
 When you press the `Send inquiry` button, your chosen communication method (email, Signal, WhatsApp, etcetera) will activate. Your browser might also show you a dialogue box informing you that another app will open to handle this action, so click **Ok** to open that other app.
 
 {:.align-center}
-{% include link-as-button.md anchor_text="Return to Booking Form" url="/resources/for-clients/booking-guide/#contact" %}
+{% include link-as-button.md anchor_text="Continue in Form" url="/resources/for-clients/booking-guide/#contact" focus_on="booking-inquiry-copy-button" %}
 
 ### Review and confirm your inquiry is as you desire
 
@@ -432,9 +432,6 @@ After you fill all the fields in my booking form and press the `Send inquiry` bu
 Now's a good time to review your inquiry to me before you commit to sending it. My booking form composed what I consider [an *ideal initial inquiry*]({% link index.html %}#in-your-first-message) for you. (In fact, if you ask around, I'm sure many other providers will largely agree that they'd find it hot to get a first message written like this, too!) Make sure it says what you want, and that you entered the information you intended to.
 
 Since the message you're about to send is just text, you can also extend any part of the inquiry by simply editing the drafted message at this point. Please feel free to get as creative as you like, but keep the tone professional and don't start asking highly explicit questions or using overtly sexualized language. Save that for after you screen.
-
-{:.align-center}
-{% include link-as-button.md anchor_text="Return to Booking Form" url="/resources/for-clients/booking-guide/#contact" %}
 
 ### Attach your screening information to the templated message
 
