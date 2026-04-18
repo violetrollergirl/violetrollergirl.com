@@ -74,6 +74,10 @@ What all of these methods have in common is that they completely overwrite the p
 ## Find and cover other identifying information in photos
 
 > TODO: Still need to write about this. For example, this includes tattoos, street signs, and so on.
+
+## How easy is it to find where a video was recorded?
+
+> TODO: Still need to write this, too, but [here's a good example](https://www.tiktok.com/@the_josemonkey/video/7243158161220209962){:target="_blank"}.
 >
 > Have a peek at the following video as well for more info on this.
 >
