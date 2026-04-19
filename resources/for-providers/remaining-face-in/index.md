@@ -13,9 +13,11 @@ last_modified: Sat Apr 18 00:31:44 EDT 2026
 
 # {{ site.title }}'s Guide to Defeating Photo Unblur and Remaining Face-In
 
-A *face-in provider* is any sex worker who does not show their face on social media, in advertising photos, or in content they create. There are many reasons why a provider may want to remain face-in. Most of them come down to feelings of safety or exclusivity of access.
+A *face-in provider* is any sex worker who does not show their face on social media, in advertising photos, or in content they create.
 
-Remaining face-in also helps some go unnoticed when on dates in public. Other providers either don't have this luxury, or choose not to hide this part of their identity. For example, for better or worse, I'm undeniably recognizable and memorable. Moreover, as a trans provider, obscuring my face could make too many potential clients shy away from [booking me]({% link resources/for-clients/booking-guide/index.md %}) for fear that my face isn't "womanly" enough.
+There are many reasons why a provider may want to remain face-in. Most of them come down to feelings of safety or exclusivity of access.  Remaining face-in also helps some go unnoticed when on dates in public.
+
+Other providers either don't have this luxury, or choose not to hide this part of their identity. For example, for better or worse, I'm undeniably recognizable and memorable. Moreover, as a trans provider, obscuring my face could make too many potential clients shy away from [booking me]({% link resources/for-clients/booking-guide/index.md %}) for fear that my face isn't "womanly" enough.
 
 Regardless of why we might show our faces, the fact that we do makes us *face-out* providers.
 
