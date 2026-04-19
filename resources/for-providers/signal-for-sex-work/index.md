@@ -9,7 +9,7 @@ featured_image:
   url: images/gallery-originals/privacy-professional-crypto-kitty-girl.jpg
 prev: resources/for-providers/
 next: colophon/
-last_modified: Thu Apr  9 19:58:38 EDT 2026
+last_modified: Sat Apr 18 21:44:57 EDT 2026
 ---
 
 # {{ site.title }}'s Guide to Using Signal Private Messenger in Sex Work
@@ -29,7 +29,7 @@ This article is my attempt to convey why Signal Private Messenger is so useful a
     1. [Getting multiple Signal profiles](#getting-multiple-signal-profiles)
 1. [Filling out your Signal profile](#filling-out-your-signal-profile)
 1. [Keeping your Signal phone number private](#keeping-your-signal-phone-number-private)
-1. [Setting your Signal username](#setting-your-signal-username)
+1. [Setting your Signal username and contact link](#setting-your-signal-username-and-contact-link)
 1. [Enable the Registration Lock for your Signal account](#enable-the-registration-lock-for-your-signal-account)
 1. [Setting additional Signal privacy protections](#setting-additional-signal-privacy-protections)
     1. [Always relay calls](#always-relay-calls)
@@ -103,9 +103,11 @@ My recommendations:
 - If your Signal phone number is a number associated with your legal identity, hide it from your Signal profile.
 - If your Signal phone number is a public work number you are comfortable sharing with clients, make it discoverable to ease a client's first contact.
 
-## Setting your Signal username
+## Setting your Signal username and contact link
 
-You will almost certainly want a Signal username. If you chose to keep your Signal phone number private, there will be no way for clients to contact you if you don't also choose a username. Even if you allow other users to find your Signal profile by your phone number, it's still a good idea for those of us using Signal to intake inquiries to set a Signal username.
+You will almost certainly want a Signal username and a Signal contact link.
+
+If you chose to keep your Signal phone number private, there will be no way for clients to contact you if you don't also at least choose a username. Even if you allow other users to find your Signal profile by your phone number, it's still a good idea for those of us using Signal to intake inquiries to set a Signal username. If you have a website or booking form, a contact link will make it possible to contact you in one click, which is [how mine works]({% link colophon/index.md %}#how-my-booking-form-avoids-needing-a-third-party-service).
 
 To [create or change your Signal username](https://support.signal.org/hc/en-us/articles/6712070553754-Phone-Number-Privacy-and-Usernames#username_create){:target="_blank"}, open Signal &rarr; tap your profile icon <span class="icon fa-solid fa-circle-user"></span> &rarr; Settings (iOS) &rarr; tap on your profile &rarr; tap by the `@` symbol:
 
@@ -220,7 +222,7 @@ My recommendations:
 
 Once you have Signal set up for work, it's time to gently lean on your clients to stop texting you and start messaging you on Signal.
 
-I would personally love to see Tryst and other escort mall ad sites provide a Signal contact field for us to fill in, but in lieu of that, I've written [my Tryst contact details section](https://tryst.link/escort/{{ site.title | replace: " ", "" | downcase }}#contact){:target="_blank"} like so:
+I would personally love to see Tryst and other escort mall ad sites provide a Signal contact field for us to fill in. As of this writing, only [22 Burlington](https://22burlington.com/){:target="_blank"} offers this contact option, it's a subpar implementation (they should be letting us paste our [Signal *contact links*](#setting-your-signal-username-and-contact-link) along with our usernames), and sadly few providers on it even publish their Signal contact info there, despite having accounts. In lieu of that, I've written [my Tryst contact details section](https://tryst.link/escort/{{ site.title | replace: " ", "" | downcase }}#contact){:target="_blank"} like so:
 
 ![Screenshot of the Contact section in {{ site.title }}'s Tryst ad.]({% link resources/for-providers/signal-for-sex-work/screenshot.tryst.violetrollergirl.contact.png %})
 
