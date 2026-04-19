@@ -81,7 +81,7 @@ These days, most reputable escort malls and advertising sites that require us to
 
 In fact, since sex workers face so much financial discrimination from the traditional finance sector, paying for advertisements in cryptocurrency is often the *only* way we can get or keep our ads up. It's also often the first reason most providers learn how to use cryptocurrency in the first place!
 
-Simply ask your crush if you help them fund their ads. They'll be able to set that up easily and send you a cryptocurrency payment address to do so. Here are [ad sites I'm listed on]({% link index.html %}#links-group-ad-listings) and pay for that also accept cryptocurrency:
+Simply ask your crush if they'd like you to help them fund their ads. (The answer will be yes.) They'll be able to set that up easily and send you a cryptocurrency payment address to do so. Here are [ad sites I'm listed on]({% link index.html %}#links-group-ad-listings) and pay for that also accept cryptocurrency:
 
 - [Tryst.link](https://help.tryst.link/en-gb/22-payments-accounts/87-what-payment-methods-do-you-accept#:~:text=Bitcoin){:target="_blank"}
 - [TS4Rent.eu](https://ts4rent.eu/about/cryptocurrency/){:target="_blank"}
