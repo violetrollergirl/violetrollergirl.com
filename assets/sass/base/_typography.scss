@@ -6,189 +6,194 @@
 
 /* Type */
 
-	body, input, select, textarea {
-		color: _palette(fg);
-		font-family: _font(family);
-		font-size: 15pt;
-		font-weight: _font(weight);
-		letter-spacing: _font(kerning);
-		line-height: 1.65;
+    body, input, select, textarea {
+        color: _palette(fg);
+        font-family: _font(family);
+        font-size: 15pt;
+        font-weight: _font(weight);
+        letter-spacing: _font(kerning);
+        line-height: 1.65;
 
-		@include breakpoint(xlarge) {
-			font-size: 14pt;
-		}
-	}
+        @include breakpoint(xlarge) {
+            font-size: 14pt;
+        }
+    }
 
-	a {
-		@include vendor('transition', (
-			'color #{_duration(transition)} ease-in-out',
-			'border-bottom-color #{_duration(transition)} ease-in-out'
-		));
-		border-bottom: dotted 1px;
-		color: _palette(accent1);
-		text-decoration: none;
+    a {
+        @include vendor('transition', (
+            'color #{_duration(transition)} ease-in-out',
+            'border-bottom-color #{_duration(transition)} ease-in-out'
+        ));
+        border-bottom: dotted 1px;
+        color: _palette(accent1);
+        text-decoration: none;
 
-		&:hover {
-			border-bottom-color: transparent;
-			color: _palette(accent1) !important;
-		}
+        &:hover {
+            border-bottom-color: transparent;
+            color: _palette(accent1) !important;
+        }
 
-		&:has(> img) {
-			border-bottom: 0;
-		}
-	}
+        &:has(> img) {
+            border-bottom: 0;
+        }
+    }
 
-	acronym,
-	abbr {
-		cursor: help;
-	}
+    acronym,
+    abbr {
+        cursor: help;
+    }
 
-	strong, b {
-		color: _palette(fg-bold);
-		font-weight: _font(weight-bold);
-	}
+    strong, b {
+        color: _palette(fg-bold);
+        font-weight: _font(weight-bold);
+    }
 
-	em, i {
-		font-style: italic;
-	}
+    em, i {
+        font-style: italic;
+    }
 
-	p {
-		margin: 0 0 _size(element-margin) 0;
-		text-align: justify;
-	}
+    p {
+        margin: 0 0 _size(element-margin) 0;
+    }
 
-	h1, h2, h3, h4, h5, h6 {
-		color: _palette(fg-bold);
-		font-weight: _font(weight-bold);
-		letter-spacing: _font(kerning-alt);
-		line-height: 1.5;
-		margin: 0 0 (_size(element-margin) * 0.5) 0;
-		text-transform: uppercase;
-		text-wrap: balance;
+    #main p:not(.align-center),
+    section.panel:not(#links) p:not(.align-center),
+    .fa-ul li {
+      text-align: justify;
+    }
 
-		a {
-			color: inherit;
-			text-decoration: none;
-		}
-	}
+    h1, h2, h3, h4, h5, h6 {
+        color: _palette(fg-bold);
+        font-weight: _font(weight-bold);
+        letter-spacing: _font(kerning-alt);
+        line-height: 1.5;
+        margin: 0 0 (_size(element-margin) * 0.5) 0;
+        text-transform: uppercase;
+        text-wrap: balance;
 
-	h1 {
-		font-size: 2em;
-	}
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+    }
 
-	h2 {
-		font-size: 1.25em;
-	}
+    h1 {
+        font-size: 2em;
+    }
 
-	h3 {
-		font-size: 1.1em;
-	}
+    h2 {
+        font-size: 1.25em;
+    }
 
-	h4 {
-		font-size: 1em;
-	}
+    h3 {
+        font-size: 1.1em;
+    }
 
-	h5 {
-		font-size: 0.9em;
-	}
+    h4 {
+        font-size: 1em;
+    }
 
-	h6 {
-		font-size: 0.7em;
-	}
+    h5 {
+        font-size: 0.9em;
+    }
 
-	#Hero h3 {
-		text-transform: initial;
-	}
+    h6 {
+        font-size: 0.7em;
+    }
 
-	@include breakpoint(small) {
-		h2 {
-			font-size: 1em;
-		}
+    #Hero h3 {
+        text-transform: initial;
+    }
 
-		h3 {
-			font-size: 0.9em;
-		}
+    @include breakpoint(small) {
+        h2 {
+            font-size: 1em;
+        }
 
-		h4 {
-			font-size: 0.8em;
-		}
+        h3 {
+            font-size: 0.9em;
+        }
 
-		h5 {
-			font-size: 0.7em;
-		}
+        h4 {
+            font-size: 0.8em;
+        }
 
-		h6 {
-			font-size: 0.7em;
-		}
-	}
+        h5 {
+            font-size: 0.7em;
+        }
 
-	sub {
-		font-size: 0.8em;
-		position: relative;
-		top: 0.5em;
-	}
+        h6 {
+            font-size: 0.7em;
+        }
+    }
 
-	sup {
-		font-size: 0.8em;
-		position: relative;
-		top: -0.5em;
-	}
+    sub {
+        font-size: 0.8em;
+        position: relative;
+        top: 0.5em;
+    }
 
-	blockquote {
-		border-left: 4px _palette(border);
-		font-style: italic;
-		margin: 0 0 _size(element-margin) 0;
-		padding: (calc(_size(element-margin) / 4)) 0 (calc(_size(element-margin) / 4)) _size(element-margin);
-	}
+    sup {
+        font-size: 0.8em;
+        position: relative;
+        top: -0.5em;
+    }
 
-	code {
-		background: _palette(border-bg);
-		border: solid 1px _palette(border);
-		font-family: _font(family-fixed);
-		font-size: 0.9em;
-		margin: 0 0.25em;
-		padding: 0.25em 0.65em;
-	}
+    blockquote {
+        border-left: 4px _palette(border);
+        font-style: italic;
+        margin: 0 0 _size(element-margin) 0;
+        padding: (calc(_size(element-margin) / 4)) 0 (calc(_size(element-margin) / 4)) _size(element-margin);
+    }
 
-	pre {
-		-webkit-overflow-scrolling: touch;
-		font-family: _font(family-fixed);
-		font-size: 0.9em;
-		margin: 0 0 _size(element-margin) 0;
+    code {
+        background: _palette(border-bg);
+        border: solid 1px _palette(border);
+        font-family: _font(family-fixed);
+        font-size: 0.9em;
+        margin: 0 0.25em;
+        padding: 0.25em 0.65em;
+    }
 
-		code {
-			display: block;
-			line-height: 1.75;
-			padding: 1em 1.5em;
-			overflow-x: auto;
-		}
-	}
+    pre {
+        -webkit-overflow-scrolling: touch;
+        font-family: _font(family-fixed);
+        font-size: 0.9em;
+        margin: 0 0 _size(element-margin) 0;
 
-	hr {
-		border: 0;
-		border-bottom: solid 1px _palette(border);
-		margin: _size(element-margin) 0;
+        code {
+            display: block;
+            line-height: 1.75;
+            padding: 1em 1.5em;
+            overflow-x: auto;
+        }
+    }
 
-		&.major {
-			margin: (_size(element-margin) * 1.5) 0;
-		}
-	}
+    hr {
+        border: 0;
+        border-bottom: solid 1px _palette(border);
+        margin: _size(element-margin) 0;
 
-	.align-left {
-		text-align: left;
-	}
+        &.major {
+            margin: (_size(element-margin) * 1.5) 0;
+        }
+    }
 
-	.align-center {
-		text-align: center;
-	}
+    .align-left {
+        text-align: left;
+    }
 
-	.align-right {
-		text-align: right;
-	}
+    .align-center {
+        text-align: center;
+    }
 
-	ul.icons.labels-list > li {
-		display: inline-block;
-		margin-right: 1em;
+    .align-right {
+        text-align: right;
+    }
+
+    ul.icons.labels-list > li {
+        display: inline-block;
+        margin-right: 1em;
 
         /* Custom "Font Awesome" icons. */
         .icon.masked-svg-icon::before {
@@ -202,61 +207,61 @@
         .icon.masked-svg-icon:hover::before {
             background-color: _palette(accent1);
         }
-	}
-	ul.icons.labels-list > li:last-child {
-		margin-right: 0;
-	}
-	.icons span.label.icon-label {
-		font-size: xx-small;
-		line-height: 25px;
-	}
+    }
+    ul.icons.labels-list > li:last-child {
+        margin-right: 0;
+    }
+    .icons span.label.icon-label {
+        font-size: xx-small;
+        line-height: 25px;
+    }
 
-	*:not(.panel, #wrapper):target {
-		border-radius: 10px;
-		box-shadow: 0px 0px 50px white;
-		padding: 0 10px 0;
-		transition: box-shadow 2s;
-	}
+    *:not(.panel, #wrapper):target {
+        border-radius: 10px;
+        box-shadow: 0px 0px 50px white;
+        padding: 0 10px 0;
+        transition: box-shadow 2s;
+    }
 
-	.fa-plus18 {
-		font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-		text-align: center;
-		font-size: 80%;
-		font-weight: bold;
-	}
-	.fa-plus18:before {
-			content: "18+";
-	}
-	.fa-minus18:before {
-			content: "\1F51E";
-	}
+    .fa-plus18 {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        text-align: center;
+        font-size: 80%;
+        font-weight: bold;
+    }
+    .fa-plus18:before {
+            content: "18+";
+    }
+    .fa-minus18:before {
+            content: "\1F51E";
+    }
 
-	header h2,
-	header:not(#Hero) h3,
-	header h4,
-	header:not(#Hero) h2 + h3::before,
-	header h3 + h4::before {
-		display: inline-block;
-		content: " - ";
-		margin-right: .25em;
-	}
+    header h2,
+    header:not(#Hero) h3,
+    header h4,
+    header:not(#Hero) h2 + h3::before,
+    header h3 + h4::before {
+        display: inline-block;
+        content: " - ";
+        margin-right: .25em;
+    }
 
-	img {
-		max-width: 100%;
-	}
+    img {
+        max-width: 100%;
+    }
 
-	ul.icons .icon.fa-2x img {
-		height: 1.5em;
-		margin-top: .5em;
-		border-radius: 0;
-		box-shadow: none;
-	}
+    ul.icons .icon.fa-2x img {
+        height: 1.5em;
+        margin-top: .5em;
+        border-radius: 0;
+        box-shadow: none;
+    }
 
-	section img {
-		border-radius: 10px;
-		transition: box-shadow 1s;
+    section img {
+        border-radius: 10px;
+        transition: box-shadow 1s;
 
-		&:hover {
-			box-shadow: _palette(bg-shadow) -5px 5px 25px;
-		}
-	}
+        &:hover {
+            box-shadow: _palette(bg-shadow) -5px 5px 25px;
+        }
+    }
