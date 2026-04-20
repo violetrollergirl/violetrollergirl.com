@@ -232,7 +232,9 @@ Please [contact me](#contact) to let me know if you found any more quality (VoIP
 
 ### Buying VPN services with cryptocurrency
 
-Another common service many of us have need for is a reliable VPN. I have a lot of thoughts on the topic of private network technologies, which can mostly be summed up by preference for using [Tor](https://TorProject.org/){:target="_blank"} over a VPN but with that said, if you're going to use a VPN, you should probably stick to a reputable one that you can pay for in cryptocurrency. Here are my favorite options for that:
+Another common service many of us have need for is a reliable VPN. I have many thoughts on the topic of private network technologies, which can mostly be summed up by preference for using [Tor](https://TorProject.org/){:target="_blank"} over a VPN. That said, if you're going to use a VPN, you should probably stick to a reputable one that you can pay for privately, in cryptocurrency.
+
+Here are my favorite options for that:
 
 - [MullvadVPN](https://mullvad.net/){:target="_blank"} - Based on a traditional VPN technology called Wireguard, [Mullvad also accepts payments in Bitcoin](https://mullvad.net/pricing){:target="_blank"}.
 - [Njalla VPN](https://njal.la/vpn/){:target="_blank"} - Founded by famous Internet "pirate" [Peter Sunde](https://en.wikipedia.org/wiki/Peter_Sunde){:target="_blank"}, who also co-founded The Pirate Bay, this privacy-focused service offers a Wireguard or OpenVPN-based VPN service, as well as a domain registrar and server hosting, and [accepts cryptocurrency payments](https://njal.la/pricing/#:~:text=Accepted%20payments){:target="_blank"}.
