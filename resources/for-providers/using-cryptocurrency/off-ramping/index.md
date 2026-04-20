@@ -35,7 +35,7 @@ In the traditional financial system, spending money comes with a privacy trade-o
     1. [Buying email services with cryptocurrency](#buying-email-services-with-cryptocurrency)
     1. [Buying domain name services with cryptocurrency](#buying-domain-name-services-with-cryptocurrency)
     1. [Buying secrets manager services with cryptocurrency](#buying-secrets-manager-services-with-cryptocurrency)
-    1. [Buying VoIP phone services with cryptocurrency](#buying-voip-phone-services-with-cryptocurrency)
+    1. [Buying phone services with cryptocurrency](#buying-phone-services-with-cryptocurrency)
     1. [Buying VPN services with cryptocurrency](#buying-vpn-services-with-cryptocurrency)
     1. [Buying server hosting (VPS) services with cryptocurrency](#buying-server-hosting-vps-services-with-cryptocurrency)
     1. [Paying for client screening services with cryptocurrency](#paying-for-client-screening-services-with-cryptocurrency)
@@ -206,6 +206,22 @@ You can also [buy airline tickets on Travala](https://www.travala.com/?tab=fligh
 
 - [ProtonMail](https://protonmail.com/){:target="_blank"} - This popular managed email service provider [accepts payments for their premium services via Bitcoin](https://proton.me/support/pay-with-bitcoin){:target="_blank"}, so you can pay anonymously by [using Crosspay via your Zodl wallet app](#paying-in-bitcoin-when-you-only-have-zcash) just as you do for Tryst or other vendors.
 
+### Buying phone services with cryptocurrency
+
+Earlier, I showed you how to [off-ramp using the gift card economy](#piggyback-on-the-gift-card-economy), which is one way you can buy prepaid phone and data plans. However, there are also some phone service providers that will accept payment directly in crypto.
+
+Phone services are particularly problematic for sex workers because so many service providers outright ban us, much like finance apps do. Making calls and sending texts are also wildly insecure. For these reasons and more, we really ought to push clients to [use more discreet messaging apps]({% link resources/for-clients/messaging-discreetly/index.md %}) when communicating with us.
+
+However, phone service is nevertheless often needed at least to bootstrap a business, and so I included this section here specifically for those scenarios. Once you have a phone number, though, **I strongly recommend [switching entirely to secured messaging apps, like Signal Private Messenger]({% link resources/for-providers/signal-for-sex-work/index.md %})**, especially for client correspondence.
+
+Here's my short list of recommended phone service providers. All of them accept cryptocurrency payments.
+
+- [JMP.chat](https://jmp.chat){:target="_blank"} - This is actually a hosted [Jabber/XMPP (instant messaging)](https://en.wikipedia.org/wiki/XMPP "Wikipedia article about XMPP"){:target="_blank"} service with a paid VoIP gateway. You give them Bitcoin, they give you a VoIP phone number that you make and receive calls and texts at through one of a number of compatible apps. You can even sign up and use the service over [the Tor network]({% link resources/for-clients/discretion-maxxing/index.md %}#tor-browser-safe-anonymous-web-browsing) for more privacy.
+- [Phreeli.com](https://phreeli.com/){:target="_blank"} - This privacy-centric phone provider offers non-VoIP numbers with an enhanced layer of privacy. Messaging content is no more secure than regular phone calls or texts, so you should still use Signal Private Messenger for calling and texting, but your payment and account information is not linked to your phone number or [call detail records (CDRs)](https://en.wikipedia.org/wiki/Call_detail_record "Wikipedia article about Call detail record"){:target="_blank"}.
+- [SMSPool.net](https://smspool.net){:target="_blank"} - Useful primarily for account sign-ups and bypassing phone-based SMS verification loops, this provider offers low-volume, non-VoIP SMS rental services so you can [sign up for services that won't allow you to register for them with a VoIP or burner phone number](https://www.smspool.net/article/what-is-smspool-and-what-do-they-do-bcf3497d4b), among other tricks.
+
+Please [contact me](#contact) to let me know if you found any more quality (VoIP or non-VoIP) phone providers that accept crypto payments!
+
 ### Buying domain name services with cryptocurrency
 
 - [Njalla Domains](https://njal.la/domains/){:target="_blank"} - Founded by famous Internet "pirate" [Peter Sunde](https://en.wikipedia.org/wiki/Peter_Sunde){:target="_blank"}, who also co-founded [The Pirate Bay](https://en.wikipedia.org/wiki/The_Pirate_Bay){:target="_blank"}, this privacy-focused service offers a domain registrar service, as well as VPN and server hosting, and [accepts cryptocurrency payments](https://njal.la/pricing/#:~:text=Accepted%20payments){:target="_blank"}.
@@ -213,14 +229,6 @@ You can also [buy airline tickets on Travala](https://www.travala.com/?tab=fligh
 ### Buying secrets manager services with cryptocurrency
 
 - [Bitwarden](https://bitwarden.com/){:target="_blank"} - Secrets or password managers are an essential part of any digital security toolkit and my favorite easy-to-use secret manager is [Bitwarden, which also accepts Bitcoin for payments](https://bitwarden.com/help/billing-faqs/#q-can-i-pay-with-bitcoin){:target="_blank"} to its premium services.
-
-### Buying VoIP phone services with cryptocurrency
-
-Earlier, I showed you how to [off-ramp using the gift card economy](#piggyback-on-the-gift-card-economy), which is one way you can buy prepaid phone and data plans. However, there are also some VoIP providers that will accept payment directly in crypto. Here's a short list:
-
-- [JMP.chat](https://jmp.chat){:target="_blank"} - This VoIP provider is really a hosted Jabber/XMPP (instant messaging) service with a paid VoIP gateway. You give them Bitcoin, they give you a phone number. You can even sign up and use the service over Tor for more privacy. JMP.chat deserves its own exposition, but for now, just know it's an option if you are comfortable getting through an unusual sign-up process.
-
-Please [contact me](#contact) to let me know if you found any more quality VoIP providers that accept crypto payments!
 
 ### Buying VPN services with cryptocurrency
 
