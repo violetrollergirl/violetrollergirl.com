@@ -227,8 +227,9 @@ layout: none
             });
         });
 
-        // Form help text should also close the Contact panel.
-        document.querySelectorAll('#booking-inquiry-form small.form-text a.closer').forEach(function (el) {
+        // Form help text and any `.panel-closer-link`
+        // should also close the Contact panel.
+        document.querySelectorAll('#booking-inquiry-form small.form-text a.closer, .panel-closer-link').forEach(function (el) {
             el.addEventListener('click', function (e) {
                 e.target.closest('section.panel').querySelector('div.closer').click();
             });

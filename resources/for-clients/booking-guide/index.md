@@ -24,15 +24,18 @@ The booking process can feel daunting, especially if you're "new to all this," b
 
 ## About this guide
 
-I wrote this page to help those of you who want a meticulously crafted step-by-step guide to walk through booking time with me. It explains how to start and what to do at every step of the way. Its extraordinary detail may be overkill for many of you, but provides a thorough reference regardless.
+I wrote this page to help those of you who want a meticulously crafted step-by-step guide to walk through booking time with me.
 
-The point of this is not to ensure perfection, but rather to give you clarity during the process should you seek it. While this guide is specific to booking *me*, you'll probably find it useful for booking any companion, as most of what I ask for is standard across the industry.
+Here, I explain how you can best get my attention. Its extraordinary detail may be overkill for many of you, but it provides a thorough reference regardless.
+
+The point of this is not to ensure perfection, but rather to give you clarity during the booking process should you seek it. While this guide is specific to booking *me*, you'll probably find it useful for booking any companion, as most of what I ask for is standard across the industry.
 
 ## Table of contents
 
 1. [Who should read this page](#who-should-read-this-page)
     1. [For general booking guides and etiquette](#for-general-booking-guides-and-etiquette)
 1. [Start here: once you know you want to meet me](#start-here-once-you-know-you-want-to-meet-me)
+    1. [Use the form, Luke](#use-the-form-luke)
 1. [Fill in my mad-lib style booking form](#fill-in-my-mad-lib-style-booking-form)
     1. [Booking form field: your name](#booking-form-field-your-name)
     1. [Booking form field: screening method](#booking-form-field-screening-method)
@@ -69,9 +72,20 @@ This page is for:
 - clients who already know they want to meet or speak with me privately.
 - clients looking for absolute clarity on how to book me.
 
-If you aren't yet sure whether I'm the girl for you, then you might want to have a look at the rest of my site before returning here. My [gallery](#gallery) shows you what I look like. (Yes, I really do look like that.) My ["tech specs" (about page)](#about) describe my vitals and my vibe. My [FAQ](#faq) has the answers to numerous questions about me and my offerings, and will point you at [reviews and testimonials about me]({% link _faq/about-me/do-you-have-any-reviews.md %}). My [rates page](#rates) provides a breakdown of considerations for my offerings. And my [tours and availability](#tours) page gives you details about where I'm traveling and when, along with some detail about how to bring me to your city for a special date. You can also learn about me from my prolific [social media posts and my softcore (and hardcore) content]({% link index.html %}#links-group-socials-amp-content).
+If you are not yet sure whether I'm the girl for you, then you might want to have a look at the rest of my site before returning here:
 
-And if you're still not sure? You can schedule [a brief curiosity call]({% link index.html %}#rate-add-ons-and-online-curiosity-call-30-minutes) with me, the cost of which can be directly applied to your deposit if you choose to book. For that, however, you'll need to schedule some time with me. This page can help you with that!
+- My [gallery]({% link index.html %}#gallery) shows you what I look like. Yes, I really do look like that.
+- My ["tech specs" (about page)](#about) describe my vitals and my vibe.
+- My [FAQ](#faq) has the answers to numerous questions about me and my offerings. It'll point you at [reviews and testimonials about me]({% link _faq/about-me/do-you-have-any-reviews.md %}).
+- My [rates page](#rates) provides a breakdown of considerations for my offerings.
+- My [tours and availability](#tours) page gives you details about where I'm traveling and when, along with some detail about how to bring me to your city for a special date.
+- You can also learn about me from my prolific [social media posts and my softcore (and hardcore) content]({% link index.html %}#links-group-socials-amp-content).
+
+And if you're still not sure?
+
+You can schedule [a brief curiosity call]({% link index.html %}#rate-add-ons-and-online-curiosity-call-30-minutes) with me, the cost of which can be directly applied to your deposit if you choose to book. For that, however, you'll need to schedule some time with me.
+
+This page can help you with that!
 
 ### For general booking guides and etiquette
 
@@ -92,9 +106,9 @@ I also suggest spending a bit of time perusing the [Good Client Guide](https://g
 
 ## Start here: once you know you want to meet me
 
-Everyone I meet begins at my [booking form](#contact). Additionally, my booking form offers some [rather novel privacy-preserving features]({% link colophon/index.md %}#privacy-guarantees-of-first-contact) that you may find valuable if you need extra levels of discretion, so it behooves you to use it.
+Everyone I meet begins at my [booking form](#contact). Additionally, my booking form offers some [rather novel privacy-preserving features]({% link colophon/index.md %}#privacy-guarantees-of-first-contact) that you may find valuable if you need [extra levels of discretion]({% link resources/for-clients/discretion-maxxing/index.md %}), so it behooves you to use it.
 
-To be clear:
+To be clear, **there is no way to meet me without providing the information that my booking form prompts you for.**
 
 - If you found me through [my ads or reviews on other sites]({% link index.html %}#links-group-ad-listings), I'm going to ask you to fill in my booking form.
 - If we are already communicating some other way, I'm going to ask you to fill in my booking form when it comes time to schedule a specific date.
@@ -106,7 +120,32 @@ To be clear:
 - If you merely want to see me for a quick visit such as for a half hour appointment, I will still ask you to fill in my booking form.
 - If you try to get my attention in any way in order to spend some time with you privately, but you didn't use my booking form to do it, I'll ask you to fill in my booking form.
 
-At this point I hope it's clear that there is no way around using my booking form. Quite simply, my booking form is there to make the booking process easier and faster for both of us. It reduces the need for back-and-forth messages by making sure all the information I need to start setting up a meeting with you is present and available.
+### Use the form, Luke
+
+My booking form is there to **make the booking process easier and faster** for both of us. It reduces the need for back-and-forth messages by making sure all the information I need to start setting up a meeting with you is present and available.
+
+<table>
+    <tr>
+        <th>Don't Be This Guy</th>
+        <th>Be This Guy</th>
+    </tr>
+    <tr>
+        <td>
+            <img loading="lazy"
+                alt="Screenshot showing example inquiry and the delay it causes when my booking form is not used."
+                src="{% link resources/for-clients/booking-guide/screenshot.no-booking-form.inquiry.jpeg %}"
+            />
+        </td>
+        <td>
+            <img loading="lazy"
+                alt="Screenshot showing a 1000% faster turnaround time when my booking form is used."
+                src="{% link resources/for-clients/booking-guide/screenshot.booking-form.inquiry.jpeg %}"
+            />
+        </td>
+    </tr>
+</table>
+
+The above example should also clarify exactly why using my booking form is doubly necessary for realizing [short-notice requests]({% link _faq/booking/are-you-available-right-now.md %}).
 
 Filling out my booking form is a bare minimum show of good faith you must complete that proves you're as serious about meeting me as making the form in the first place proves to you that I'm excited to meet you.
 
@@ -117,17 +156,17 @@ In case it wasn't obvious yet, you have to fill in my booking form in order to s
 {:.align-center}
 {% include link-as-button.md anchor_text="Open Booking Form" url="/resources/for-clients/booking-guide/#contact" %}
 
-My booking form is styled as a mad lib game that you fill out. Remember [mad libs](https://madlibs.com/){:target="_blank"}? They are those fun little story templates that have blank spots asking you to choose parts of speech like adjectives or verbs. By the end, you create a cute story or poem or something. My booking form works the same way.
+My booking form is styled as a mad lib game that you fill out.
 
-In place of a string of underscores, there's a form field, such as a text box or drop-down menu. Each field has a bit of placeholder text that explains what's expected there. For example, the first field is a text input box whose placeholder text reads, "Write your name here." So, if your name is Joe Smith, you would write, `Joe Smith` into that box.
+Remember [mad libs](https://madlibs.com/){:target="_blank"}? They are those fun little story templates that have blank spots asking you to choose parts of speech like adjectives or verbs. By the end, you create a cute story or poem or something. My booking form works the same way.
 
-When you fill in the field, it turns from red to neutral-toned, indicating that you've entered your information in a way I'll accept. Next, do the same with all the other fields.
+In place of a string of underscores, there's a form field. Each field has a bit of placeholder text that explains what's expected there.
 
-Remember:
+When you fill in the field, it turns from red to neutral-toned, indicating that you've entered acceptable information. Next, do the same with all the other fields.
 
-- If you don't know what to put into a field, it's okay to guess or be vague. The booking form is for *starting* your booking process, not ending it.
-- If you aren't willing to provide some of the information my form asks for, then you aren't ready to meet. Wait until you are ready and willing to provide that information before continuing. It's okay to not be ready. I'll (probably?) wait for you, too.
-- If you don't know where I'll be or where you'll be or when you want to meet, you need to at least make a best-effort guess to start the conversation with me. If you can't do that, you may just need to shore up your own itinerary before contacting me. I promise I'm more flexible than you and I want to make a meeting work out, but it takes two to tango.
+- It's okay to be a little vague. The booking form is for *starting* your booking process, not ending it.
+- You may need to shore up your own itinerary if you have absolutely no clue where or when you'd like to see one another. I promise I'm more flexible than you and I want to make a meeting work out, but it takes two to tango.
+- You aren't ready to meet if you aren't willing or able to provide the information that my form requires. It's okay to not be ready. I'll (probably?) wait for you, too.
 
 For your reference, here is a detailed breakdown of what I expect in each and every field of the form.
 
@@ -415,10 +454,10 @@ You must check this box to submit my booking form and continue to the next step.
 Once you think you've completed filling in all the fields in the form, you can press the buttons at the bottom to submit it. There are two buttons, numbered 1 and 2.
 
 1. Click or tap the first button, which reads "`Copy inquiry to clipboard`". The text of the button will change to "`Copied! (Click to copy again.)`"
-    * Pressing this button reads your entries in my booking form and places a copy of its text in your device's clipboard.
+    - Pressing this button reads your entries in my booking form and places a copy of its text in your device's clipboard.
 1. If the second button reads "`Check form fields`," it means you omitted a required field, or entered information I won't accept, such as a date or time in the past. Otherwise, the button will read "`Send inquiry`." Click or tap this second button to continue.
-    * If the button still said "`Check form fields`" when you pressed it, you'll be refocused on the first form field whose value needs correction.
-    * If the button read, "`Send inquiry`," pressing it will progress you to the next step.
+    - If the button still said "`Check form fields`" when you pressed it, you'll be refocused on the first form field whose value needs correction.
+    - If the button read, "`Send inquiry`," pressing it will progress you to the next step.
 
 When you press the `Send inquiry` button, your chosen communication method (email, Signal, WhatsApp, etcetera) will activate. Your browser might also show you a dialogue box informing you that another app will open to handle this action, so click **Ok** to open that other app.
 
@@ -439,10 +478,10 @@ The only thing missing from your message now is your screening information, whic
 
 [My booking form is designed to  carefully protect your privacy at this early stage]({% link colophon/index.md %}#privacy-guarantees-of-first-contact), which is why you're expected to directly attach it to this pre-written message rather than via the Web form. Regardless of which app you're now using to contact me (Signal, WhatsApp, email, or txt message), you have the option of attaching or sending images to screen yourself with:
 
-* If you chose Signal Private Messenger, [tap or click the plus (`+`) icon or the paperclip icon to attach a photo](https://support.signal.org/hc/en-us/articles/360007060212-Send-a-message#:~:text=to%20attach%20a%20photo){:target="_blank"}.
-* If you chose WhatsApp, [follow these instructions to attach a photo](https://faq.whatsapp.com/453914586839706/){:target="_blank"}.
-* If you chose email, use your email's built-in attachment feature as usual.
-* If you chose SMS/text message, you can also use your messenger's built-in attachment feature just like normal.
+- If you chose Signal Private Messenger, [tap or click the plus (`+`) icon or the paperclip icon to attach a photo](https://support.signal.org/hc/en-us/articles/360007060212-Send-a-message#:~:text=to%20attach%20a%20photo){:target="_blank"}.
+- If you chose WhatsApp, [follow these instructions to attach a photo](https://faq.whatsapp.com/453914586839706/){:target="_blank"}.
+- If you chose email, use your email's built-in attachment feature as usual.
+- If you chose SMS/text message, you can also use your messenger's built-in attachment feature just like normal.
 
 Make sure the screening photo you attach is clear, recent, and is high-quality enough to be read clearly. Sometimes, SMS/text messages downgrade the quality of photos, so be prepared to re-send it if I ask you to, possibly through a different communication channel. Once again, Signal Private Messenger is the most private and most reliable communiation mechanism. Please consider using it if you aren't already.
 
@@ -454,67 +493,82 @@ Voila! You've sent your inquiry. Take a break from the screen, put your phone do
 
 ### Patiently wait for my reply
 
-Please be patient awaiting my reply. Under normal circumstances, it can take me up to a day or two to reply to even the most tempting inquiries. If I'm currently traveling, it can take even longer. I can promise you that well-crafted inquiries, such as those composed by my booking form, are all but guanrateed to receive an excited reply in short order!
+Please be patient awaiting my reply.
+
+Under normal circumstances, **it can take me up to a day or two to reply** to even the most tempting inquiries. If I'm currently traveling, it can take even longer. I can promise you that well-crafted inquiries, such as those composed by my booking form, are all but guanrateed to receive an excited reply in short order!
 
 At this point, we're in contact, and the goal is simply to work out any remaining details.
-
-My reply will:
-
-* reiterate my understanding of your expectations and desires, so that we're both on the same page.
-* propose that we act on one of the two date and time options you initially suggested.
-* maybe ask for follow-up information, such as any further screening information or logisitcal details, if necessary.
-* probably contain a lot of happy words and a fair number of heart emojis.
 
 #### If you don't receive a reply
 
 If you don't receive a reply from me, it can be because of any of the following reasons:
 
-* You omitted screening information.
-* You requested a session on very short notice, or for the same day.
-    * While I can sometimes accomodate a same-day appointment, this is rare and I may not reply if I can't.
-    * You are still expected to screen, even for same-day requests.
-* You used sexually explicit language somewhere in your inquiry.
-* Your email was filtered to my spam folder. I do check my spam folder, but I maintain an extremely strict spam filter that will flag your message if:
-    * your email address looks like a bot's.
-    * your email was recently created.
-    * your email was sent from an anonymous mailing service.
-    * you attached a file type other than a single-frame image (JPEG, PNG, or non-animated WEBP). Any email with other types of attachments will get deleted instantly. (Attaching [OpenPGP](https://www.openpgp.org/){:target="_blank"} keys is also acceptable.)
-* You used txt/SMS, especially from a burner, texting app, or VoIP number.
-    * It's okay to communicate with me from these apps, but they are extremely unreliable and I may not have received it.
-    * Consider just using [Signal Private Messenger](https://signal.org/){:target="_blank"} on your burner phone, instead.
+- You omitted screening information.
+- You requested a session on very short notice, or for the same day.
+    - While I can sometimes accomodate a same-day appointment, this is rare and I may not reply if I can't.
+    - You are still expected to screen, even for same-day requests.
+- You used sexually explicit language somewhere in your inquiry.
+- Your email was filtered to my spam folder. I do check my spam folder, but I maintain an extremely strict spam filter that will flag your message if:
+    - your email address looks like a bot's.
+    - your email was recently created.
+    - your email was sent from an anonymous mailing service.
+    - you attached a file type other than a single-frame image (JPEG, PNG, or non-animated WEBP). Any email with other types of attachments will get deleted instantly. (Attaching [OpenPGP](https://www.openpgp.org/){:target="_blank"} keys is also acceptable.)
+- You used txt/SMS, especially from a burner, texting app, or VoIP number.
+    - It's okay to communicate with me from these apps, but they are extremely unreliable and I may not have received it.
+    - Consider just using [Signal Private Messenger](https://signal.org/){:target="_blank"} on your burner phone, instead.
 
 ### Confirm date details by sending a deposit
 
-When you receive my reply, read it closely!
+Sending your [deposit]({% link _faq/booking/what-is-a-deposit.md %}), which is a small portion of my consideration paid in advance, is what holds your reservation in my calendar. Deposits keep us both accountable to show up for one another.
 
-In the simplest case, I'll confirm my understanding of your expectations, pick one of the two date and time options you suggested in your initial inquiry, and supply you with instructions for how to send your deposit for our session. Sending your deposit is what holds your appointment in my calendar, so send it promptly to reserve our time together.
+When you receive my reply, read it closely! In it, I will:
 
-For more information, see my [deposit policy]({% link index.html %}#deposit-policy).
+1. reiterate my understanding of your expectations and desires, so that we're both on the same page.
+1. propose that we act on one of the two date and time options you initially suggested.
+1. maybe ask for follow-up information, such as any further screening information, payment preference, or logisitcal details, if necessary.
+1. probably use a lot of happy words and a fair number of heart emojis! 💜
+
+I will also supply you with instructions for sending your deposit. These instructions will differ depending on which [payment method]({% link _faq/booking/payment-methods.md %}) you said you prefer.
+
+{:.fa-ul}
+- <span class="fa-li fa-brands fa-bitcoin"></span> For cryptocurrency: I'll ask you which currency you want to pay in. I accept literally hundreds of different cryptocurrencies, but strongly prefer [shielded Zcash]({% link resources/for-clients/discretion-maxxing/index.md %}#shielded-zcash-encrypted-electronic-money).
+- <span class="fa-li fa-solid fa-credit-card"></span> For payment cards: I'll direct you to one of my payment card processors where you can send me a "tip" or buy me a "cash gift."
+- <span class="fa-li fa-solid fa-gifts"></span> For gift cards: I'll send you a direct link to a gift card I want you to buy from a [reputable gift card vendor]({% link resources/for-clients/using-cryptocurrency/off-ramping/index.md %}#send-gift-cards).
+
+For more information, read my [deposit policy]({% link index.html %}#deposit-policy).
 
 #### About extensive or synchronous correspondence
 
 It rarely takes more than three to five messages to inquire, confirm, and realize a date.
 
-1. Message one: you send your complete inquiry with screening information.
-1. Message two: I reply with a confirmation of your expectations, date details including the chosen date/time from your suggested options, and instructions for sending your deposit.
-1. Message three: you confirm these details and send your deposit to reserve time in my calendar.
+1. **Message one:** you send your complete inquiry with screening information.
+1. **Message two:** I reply with a confirmation of your expectations, date details including the chosen date/time from your suggested options, and instructions for sending your deposit.
+1. **Message three:** you confirm these details and send your deposit to reserve time in my calendar.
 
-Real life is often messier, and it's possible that I'll need to ask you about, say, food allergies or preferences if we're going out, or clarify something in your inquiry. There's no set number to how many messages we'll exchange, but you'll undoubtedly notice my attention to detail and thoroughness in each and every one that I send. My goal is to handle logistics quickly and with as few rounds of back-and-forth messaging as necessary so that we can get on to the really fun stuff equally quickly!
+Real life is often messier, and it's possible that I'll need to ask you about, say, food allergies or preferences if we're going out, or clarify something in your inquiry.
 
-If we find ourselves unable to plan for and set a specific date, time, or place for your appointment in more than five back-and-forth messages, it may mean you aren't quite ready to book, and I'll probably suggest you send a new inquiry when you are. It's no big deal, I just need to move on to other inquiries.
+There's no set number to how many messages we'll exchange, but you'll undoubtedly notice my attention to detail and thoroughness in each one I send. My goal is to handle logistics quickly and with as few round-trips as necessary so that we can get on to the really fun stuff equally quickly!
+
+If we find ourselves unable to plan for and set a specific date, time, or place for your appointment in more than five back-and-forth messages, it may mean you aren't quite ready to book. In that case, I'll probably suggest you send a new inquiry when you are. It's no big deal, I just need to move on to other inquiries.
 
 Otherwise, if you feel like you need more correspondence or a real-time conversation to iron out logistics, test our chemistry, or communicate and set expectations, you can:
 
-* schedule [a curiosity call]({% link index.html %}#rate-add-ons-and-online-curiosity-call-30-minutes) so we can get on the phone and talk things out or settle any pre-date nerves.
-* demonstrate good etiquette by [sending me a tip]({% link index.html %}#links-group-tip-me) or buying me a gift off [my wishlist]({% link index.html %}#links-throne) as a show of good faith recognition for the additional planning time.
+- schedule [a curiosity call]({% link index.html %}#rate-add-ons-and-online-curiosity-call-30-minutes) so we can get on the phone and talk things out or settle any pre-date nerves.
+- demonstrate good etiquette by [sending me a tip]({% link index.html %}#links-group-tip-me) or buying me a gift off [my wishlist]({% link index.html %}#links-throne) as a show of good faith recognition for the additional planning time.
 
 ## Enjoy the building anticipation of our upcoming date
 
 Once we've worked out logistical details, you can simply enjoy the building anticipation of our time together. Anticipation is an often overlooked part of foreplay, so this is frequently more fun than you may at first think!
 
-The two things to remember during this period of time are simply to remain patient and, especially as the date nears, to stay communicative. Even if we're not in touch every day, rest assured, I'm not forgetting about the date. I also welcome brief notes letting me know you're thinking of me, and I may send you some of the same. These short "heartbeat" messages simply ensure our line of communication is open and helps build up that spark of excitement before we see each other!
+The two things to remember during this period of time are simply to remain patient and, especially as the date nears, to stay communicative.
 
-If you find that you're craving more attention than that, it is respectful to send tips or gifts along with your messages! Another option is to simply inquire about a more ongoing texting arrangement, book a remote (online phone/video) date in the interim, or [engage parasocially on my socials or content sites]({% link index.html %}#links-group-socials-amp-content).
+Even if we're not in touch every day, rest assured, I'm not forgetting about the date. I also welcome brief notes letting me know you're thinking of me, and I may send you some of the same! These short "heartbeat" messages simply ensure our line of communication is open and helps build up that spark of excitement before we see each other!
+
+If you find that you're craving more attention than that, it's respectful to send tips or gifts along with your messages! Other options include:
+
+- inquiring about a more ongoing texting arrangement.
+- booking a [remote (online phone/video) date]({% link index.html %}#rate-add-ons-and-online-video-date) in the interim.
+- engaging parasocially on [my socials or content sites]({% link index.html %}#links-group-socials-amp-content).
 
 ### The day before our date
 
@@ -530,20 +584,29 @@ If you haven't met a companion before, this part can feel a bit like spycraft, b
 
 ### If you need to reschedule or cancel
 
-As the time for our date comes closer, it's important that you stay in touch with me if plans need to change. Rescheduling is perfectly acceptable, and normal, but you need to communicate this to me so we can make other arrangements without stressing.
+As the time for our date comes closer, it's important that you stay in touch with me if plans need to change.
+
+Rescheduling is perfectly acceptable, and normal, but you need to communicate this to me so we can make other arrangements without stressing.
 
 For more information, see my [cancellation policy]({% link _faq/booking/what-is-your-cancellation-policy.md %}).
 
 ## On the day of our date
 
-The day we're meeting is going to be exhilerating, and that excitement can make it easy to forget some important details. Here's a quick checklist you can refer to in order to make sure everything is in order!
+The day we're meeting is going to be exhilerating, and that excitement can make it easy to forget some important details.
+
+Here's a quick checklist you can refer to make sure everything is in order:
 
 - Be certain to acknowledge [my reminder message](#the-day-before-our-date) if you haven't already!
-- If you're offering your donation in cash, make sure you have counted it correctly and tucked it away discreetly inside an envelope, greeting card, or other small gift.
-- Wash your body thoroughly. Read [Grooming for a date with a sex worker](https://www.thedannygoldexperience.com/post/grooming-for-a-date-with-a-sw){:target="_blank"} for an excellent, short guide on this, specifically.
+- If you're offering your donation in cash, make sure you
+    - counted it correctly, and
+    - have it tucked away discreetly inside an envelope, greeting card, or other small gift.
+- Wash your body thoroughly.
+    - Read [Grooming for a date with a sex worker](https://www.thedannygoldexperience.com/post/grooming-for-a-date-with-a-sw){:target="_blank"} for an excellent, short guide on this, specifically.
 - Depart with plenty of time to account for travel, potential traffic, and other unexpected delays.
 
-Finally, don't sweat the small stuff. You're human. I'm human. Let's enjoy our life and our bodies together!
+Finally, don't sweat the small stuff! You're human. I'm human.
+
+Let's enjoy our life and our bodies together!
 
 ## Show up
 
