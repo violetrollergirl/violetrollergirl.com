@@ -9,7 +9,7 @@ featured_image:
   url: images/gallery-originals/lounging-poolside-in-bikini.jpg
 prev: resources/for-providers/using-cryptocurrency/on-ramping/
 next: resources/for-providers/using-cryptocurrency/convincing-clients/
-last_modified: Sat Mar  7 12:36:07 EST 2026
+last_modified: Tue Apr 21 14:42:07 EDT 2026
 ---
 
 # Off-ramping: where and how to spend your cryptocurrency
@@ -167,11 +167,11 @@ Both Bitrefill and Piggy.Cards sells gift cards to a plethora of well-known bran
 
 Since there are so many purchases available at these sites, I've also compiled the below list to help you get a sense of what's available and may be particularly useful for us as sex workers via this particular gift card off-ramping site.
 
-- [Digital pre-paid Visa credit card (via Bitrefill)](https://www.bitrefill.com/us/en/gift-cards/virtual-prepaid-visa-usa/){:target="_blank"} - Perhaps the most generically useful crypto off-ramp via the gift card economy is simply a pre-paid credit card. You pay in crypto and get a legitimate digital pre-paid credit card number that has a fiat balance you paid for using your cryptocurrency balance. You can also get [physical pre-paid credit cards](https://www.bitrefill.com/us/en/gift-cards/physical-prepaid-visa-usa/){:target="_blank"} mailed to you.
 - [Amazon Gift Card (via Bitrefill)](https://www.bitrefill.com/us/en/gift-cards/amazon_com-usa/){:target="_blank"} - This gift card is good for anything sold at Amazon.com, not that I'm trying to encourage you to give Daddy Bezos more money, but, y'know&hellip;.
 - [Ulta Beauty Gift Card (via Bitrefill)](https://www.bitrefill.com/us/en/gift-cards/ulta-beauty-usa/){:target="_blank"} - Ever since I started using cryptocurrency more in my everyday life, this cosmetics retailer has become my go-to for makeup and simple skincare needs. [Flexa from within the Zodl wallet app](#pay-for-stuff-with-flexa-in-zodl) also supports filling Ulta Beauty gift cards.
 - [Amtrak Gift Card (via Bitrefill)](https://www.bitrefill.com/us/en/gift-cards/amtrak-usa/){:target="_blank"} - Since I service clients in numerous cities clustered along Amtrak lines on the United States' East Coast, this is a particularly convenient off-ramp for me and I imagine other <abbr title="Train Me To You">TMTY</abbr> providers would want to know about it, too.
 - [Lyft Gift Card](https://www.bitrefill.com/us/en/gift-cards/lyft-usa/){:target="_blank"} or [Uber Gift Card](https://www.bitrefill.com/us/en/gift-cards/uber-usa/){:target="_blank"} (via Bitrefill) - For the obvious reasons.
+- [Digital pre-paid Visa credit card (via Bitrefill)](https://www.bitrefill.com/us/en/gift-cards/virtual-prepaid-visa-usa/){:target="_blank"} - Perhaps the most common crypto off-ramp via the gift card economy is simply a pre-paid credit card, but these are often difficult to use at many vendors so **you must ensure you know where to spend it** before you get it. The idea is you pay in crypto and get a legitimate digital pre-paid credit card number that has a fiat balance you paid for using your cryptocurrency balance. You can also get [physical pre-paid credit cards](https://www.bitrefill.com/us/en/gift-cards/physical-prepaid-visa-usa/){:target="_blank"} mailed to you.
 
 You can also find gift cards for other common sex worker needs, including airline and hotel bookings, at gift card off-ramping sites like these. However, remember that the gift card economy is still actually part of the fiat economy. When possible, it's best to avoid converting your cryptocurrency back to fiat currency, whether to avoid privacy incursions or simply due to the inconvenience. That's where [crypto-native services](#use-crypto-native-service-providers) come in.
 
