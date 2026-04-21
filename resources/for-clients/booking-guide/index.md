@@ -122,7 +122,7 @@ To be clear, **there is no way to meet me without providing the information that
 
 ### <span class="fa-icon fa-solid fa-jedi"></span>Use the form, Luke
 
-My booking form is there to **make the booking process easier and faster** for both of us. It reduces the need for back-and-forth messages by making sure all the information I need to start setting up a meeting with you is present and available.
+My booking form **makes booking easier and faster** for both of us. You *must* use it to book me.
 
 <table>
     <caption>How my booking form <em>helps</em> you book</caption>
