@@ -120,29 +120,36 @@ To be clear, **there is no way to meet me without providing the information that
 - If you merely want to see me for a quick visit such as for a half hour appointment, I will still ask you to fill in my booking form.
 - If you try to get my attention in any way in order to spend some time with you privately, but you didn't use my booking form to do it, I'll ask you to fill in my booking form.
 
-### Use the form, Luke
+### <span class="fa-icon fa-solid fa-jedi"></span>Use the form, Luke
 
 My booking form is there to **make the booking process easier and faster** for both of us. It reduces the need for back-and-forth messages by making sure all the information I need to start setting up a meeting with you is present and available.
 
 <table>
-    <tr>
-        <th>Don't Be This Guy</th>
-        <th>Be This Guy</th>
-    </tr>
-    <tr>
-        <td>
-            <img loading="lazy"
-                alt="Screenshot showing example inquiry and the delay it causes when my booking form is not used."
-                src="{% link resources/for-clients/booking-guide/screenshot.no-booking-form.inquiry.jpeg %}"
-            />
-        </td>
-        <td>
-            <img loading="lazy"
-                alt="Screenshot showing a 1000% faster turnaround time when my booking form is used."
-                src="{% link resources/for-clients/booking-guide/screenshot.booking-form.inquiry.jpeg %}"
-            />
-        </td>
-    </tr>
+    <caption>How my booking form <em>helps</em> you book</caption>
+    <thead>
+        <tr>
+            <th>Slower, gives me a headache</th>
+            <th>Faster, makes you sexier</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <p>This guy is 1000% slower and gave me a headache, compared to&hellip;</p>
+                <a href="{% link resources/for-clients/booking-guide/screenshot.no-booking-form.inquiry.jpeg %}" title="View full size image."><img loading="lazy"
+                    alt="Screenshot showing example inquiry and the delay it causes when my booking form is not used."
+                    src="{% link resources/for-clients/booking-guide/screenshot.no-booking-form.inquiry.jpeg %}"
+                /></a>
+            </td>
+            <td>
+                <p>&hellip;this guy, who did less work and ended up seeming sexier.</p>
+                <a href="{% link resources/for-clients/booking-guide/screenshot.booking-form.inquiry.jpeg %}" title="View full size image."><img loading="lazy"
+                    alt="Screenshot showing a 1000% faster turnaround time when my booking form is used."
+                    src="{% link resources/for-clients/booking-guide/screenshot.booking-form.inquiry.jpeg %}"
+                /></a>
+            </td>
+        </tr>
+    </tbody>
 </table>
 
 The above example should also clarify exactly why using my booking form is doubly necessary for realizing [short-notice requests]({% link _faq/booking/are-you-available-right-now.md %}).
