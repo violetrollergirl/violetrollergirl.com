@@ -122,7 +122,7 @@ To be clear, **there is no way to meet me without providing the information that
 
 ### <span class="fa-icon fa-solid fa-jedi"></span>Use the form, Luke
 
-My booking form **makes booking easier and faster** for both of us. You *must* use it to book me.
+My [booking form](#contact) **makes booking easier and faster** for both of us. You *must* use it to book me.
 
 <table>
     <caption>How my booking form <em>helps</em> you book</caption>
