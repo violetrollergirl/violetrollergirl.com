@@ -222,9 +222,9 @@ My recommendations:
 
 Once you have Signal set up for work, it's time to gently lean on your clients to stop texting you and start messaging you on Signal.
 
-I would personally love to see Tryst and other escort mall ad sites provide a Signal contact field for us to fill in. As of this writing, only [22 Burlington](https://22burlington.com/){:target="_blank"} offers this contact option, it's a subpar implementation (they should be letting us paste our [Signal *contact links*](#setting-your-signal-username-and-contact-link) along with our usernames), and sadly few providers on it even publish their Signal contact info there, despite having accounts. In lieu of that, I've written [my Tryst contact details section](https://tryst.link/escort/{{ site.title | replace: " ", "" | downcase }}#contact){:target="_blank"} like so:
+I would personally love to see Tryst and other escort mall ad sites provide a Signal contact field for us to fill in. As of this writing, only [22 Burlington](https://22burlington.com/){:target="_blank"} offers this contact option, it's a subpar implementation (they should be letting us paste our [Signal *contact links*](#setting-your-signal-username-and-contact-link) along with our usernames), and sadly few providers on it even publish their Signal contact info there, despite having accounts. In lieu of that, [my Tryst contact details section](https://tryst.link/escort/{{ site.title | replace: " ", "" | downcase }}#contact){:target="_blank"} looked like so for quite some time:
 
-![Screenshot of the Contact section in {{ site.title }}'s Tryst ad.]({% link resources/for-providers/signal-for-sex-work/screenshot.tryst.violetrollergirl.contact.png %})
+![Screenshot of the Contact section in {{ site.title }}'s Tryst ad in which she lists her Signal username near the top.]({% link resources/for-providers/signal-for-sex-work/screenshot.tryst.violetrollergirl.contact.png %})
 
 My recommendations:
 
