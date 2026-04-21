@@ -460,10 +460,10 @@ You must check this box to submit my booking form and continue to the next step.
 
 Once you think you've completed filling in all the fields in the form, you can press the buttons at the bottom to submit it. There are two buttons, numbered 1 and 2.
 
-1. Click or tap the first button, which reads "`Copy inquiry to clipboard`". The text of the button will change to "`Copied! (Click to copy again.)`"
+1. Click or tap the first button, which reads "`Copy text`". The text of the button will change to "`Copied!`"
     - Pressing this button reads your entries in my booking form and places a copy of its text in your device's clipboard.
-1. If the second button reads "`Check form fields`," it means you omitted a required field, or entered information I won't accept, such as a date or time in the past. Otherwise, the button will read "`Send inquiry`." Click or tap this second button to continue.
-    - If the button still said "`Check form fields`" when you pressed it, you'll be refocused on the first form field whose value needs correction.
+1. If the second button reads "`Check fields`," it means you omitted a required field, or entered information I won't accept, such as a date or time in the past. Otherwise, the button will read "`Send inquiry`." Click or tap this second button to continue.
+    - If the button still said "`Check fields`" when you pressed it, you'll be refocused on the first form field whose value needs correction.
     - If the button read, "`Send inquiry`," pressing it will progress you to the next step.
 
 When you press the `Send inquiry` button, your chosen communication method (email, Signal, WhatsApp, etcetera) will activate. Your browser might also show you a dialogue box informing you that another app will open to handle this action, so click **Ok** to open that other app.
