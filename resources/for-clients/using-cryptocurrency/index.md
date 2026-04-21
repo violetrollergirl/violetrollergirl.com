@@ -65,10 +65,10 @@ Otherwise, if you have a digital payment app or an account at a cryptocurrency e
 
 ## List of guides
 
-For more specific help, choose the option that best describes you from the set below.
+For more specific help, choose the option that best describes you from the set below, or refer to my [crypto quick-reference sheet]({% link resources/for-clients/using-cryptocurrency/on-ramping/index.html %}):
 
-{:.align-center}
-[Crypto Reference Sheet]({% link resources/for-clients/using-cryptocurrency/on-ramping/index.html %}){:.button}
+{:.button-container}
+[<span class="fa-icon fa-solid fa-clipboard-check"></span> Reference Sheet]({% link resources/for-clients/using-cryptocurrency/on-ramping/index.html %}){:.button}
 
 ### "I have never used digital payment apps before."
 
