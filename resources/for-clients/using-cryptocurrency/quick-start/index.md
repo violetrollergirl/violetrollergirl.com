@@ -8,12 +8,17 @@ next: resources/for-clients/using-cryptocurrency/gemini/
 featured_image:
   alt:
   url: images/gallery-originals/mansion-villa-at-night.jpg
-last_modified: Wed Jan 14 08:22:05 EST 2026
+last_modified: Tue Apr 21 15:23:23 EDT 2026
 ---
 
 # Violet Rollergirl's Cryptocurrency Quick(est) Start
 
-If you're reading this page, you're ready to pay in crypto. Awesome! Only one problem: you don't have any, and haven't done this before.
+Paying for things in crypto is *incredibly* simple and you probably don't even have to learn a new app. All you have to do is:
+
+{:.button-container}
+[1. Get crypto]({% link resources/for-clients/using-cryptocurrency/on-ramping/index.html %}){:.button}
+[2. Ask for a payment address]({% link resources/for-clients/using-cryptocurrency/paying-your-provider/index.md %}){:.button}
+[3. Send your payment]({% link resources/for-clients/using-cryptocurrency/paying-your-provider/index.md %}#send-crypto-to-your-provider){:.button}
 
 > **&#9432; This guide presumes you have no existing digital payment services at all.** If you already have a digital payment app that supports cryptocurrency and want to use that one (like [CashApp]({% link resources/for-clients/using-cryptocurrency/cashapp/index.md %}), [PayPal]({%  link resources/for-clients/using-cryptocurrency/paypal/index.md %}), or [Venmo](% link resources/for-clients/using-cryptocurrency/venmo/index.md %)), see my [list of cryptocurrency guides]({% link resources/for-clients/using-cryptocurrency/index.md %}#list-of-guides).
 
