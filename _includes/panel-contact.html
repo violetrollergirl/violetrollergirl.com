@@ -13,7 +13,9 @@ along with a bunch of additional instruction.
             <h2 id="booking-form">Booking Form (<a href="{% link resources/for-clients/booking-guide/index.md %}" title="A complete, step-by-step guide to booking me as your provider."><span class="icon fa-solid fa-question-circle"></span> Booking Guide</a>)</h2>
         </header>
         <p class="align-center" style="margin-bottom: 1em;"><img loading="lazy" src="{% link images/gallery-originals/red-lingerie-with-laptop-on-bed.jpg %}" alt=""/></p>
-        <p>I&rsquo;m driven by novelty and curiosity, so I&rsquo;m already eager to meet you. Yes, <em>you</em>. The <a href="{% link resources/for-clients/booking-guide/index.md %}#use-the-form-luke" class="panel-closer-link">fastest way to meet me</a> is to introduce yourself using my <a href="{% link colophon/index.md %}#privacy-guarantees-of-first-contact" title="Why my booking form is especially secure and private.">radically secure booking form</a>, below, to <a href="#first-contact-instructions">make a great first impression</a>! Don't like forms? <a href="#connection-methods">Send me a bespoke love note</a> instead.</p>
+        <p>I&rsquo;m driven by novelty and curiosity, so I&rsquo;m already eager to meet you. Yes, <em>you</em>.</p>
+        <p>The <a href="{% link resources/for-clients/booking-guide/index.md %}#use-the-form-luke" class="panel-closer-link">fastest way to meet me</a> is to introduce yourself using my <a href="{% link colophon/index.md %}#privacy-guarantees-of-first-contact" title="Why my booking form is especially secure and private.">radically secure booking form</a>, below, to <a href="#first-contact-instructions">make a great first impression</a>!</p>
+        <p>(Don't like forms? <a href="#connection-methods">Send me a bespoke love note</a> instead.)</p>
 
         <form name="booking_inquiry_form" id="booking-inquiry-form" action="#" method="GET" class="row row-cols-lg-auto g-3 align-items-center">
             <blockquote>
@@ -120,15 +122,23 @@ along with a bunch of additional instruction.
                             id="booking-inquiry-prospect-source-referral"
                             name="booking_inquiry_prospect_source_referral"
                             required="required"
+                            autocomplete="off"
                             maxlength="64"
                             placeholder="Where you found me." />
                         <datalist id="referral-source-list">
                             <option>Bluesky</option>
+                            <option>Hunqz</option>
                             <option>ManyVids</option>
+                            <option>MintStars</option>
+                            <option>OnlyBanned</option>
                             <option>OnlyFans</option>
+                            <option>QueerCrush</option>
+                            <option>SaferChoice</option>
+                            <option>Slixa</option>
                             <option>TER board/review</option>
                             <option>TS4Rent</option>
                             <option>Tryst</option>
+                            <option>Velvet22</option>
                             <option>X/Twitter</option>
                             <option>a content collaboration I saw you in</option>
                             <option>another provider</option>
@@ -376,12 +386,12 @@ along with a bunch of additional instruction.
                         <button id="booking-inquiry-copy-button" type="reset">1. Copy text</button>
                         <button id="booking-inquiry-send-button" type="submit">2. Check fields</button>
                     </p>
-                    <p class="align-center">
-                        <strong>(To send your inquiry, click the buttons above in turn!)<sup><small class="form-text"><a class="closer" title="Read help for this field" href="{% link resources/for-clients/booking-guide/index.md %}#submit-my-booking-form-to-send-your-inquiry">&#9432;</a></small></sup></strong>
-                    </p>
                     <p id="contact-method-step-3">
                         <span class="fa-solid fa-circle-exclamation fa-2x" style="float: left; margin-right: 10px"></span>
                         3. Paste your inquiry message text into the Signal chat!
+                    </p>
+                    <p class="align-center">
+                        <strong>(To send your inquiry, click the buttons above in turn!)<sup><small class="form-text"><a class="closer" title="Read help for this field" href="{% link resources/for-clients/booking-guide/index.md %}#submit-my-booking-form-to-send-your-inquiry">&#9432;</a></small></sup></strong>
                     </p>
                 </fieldset>
             </blockquote>
@@ -389,8 +399,9 @@ along with a bunch of additional instruction.
     </div>
     <div>
         <h2 id="connection-methods">Connection Methods (<a href="{% link resources/for-clients/messaging-discreetly/index.md %}" title="Learn how to message (your sex worker) discreetly."><span class="icon fa-solid fa-question-circle"></span> Which is most private?</a>)</h2>
-        <p>Please feel free to <a href="{% link .well-known/vcard.vcf %}">save my contact card</a> and write me anytime. I strongly prefer encrypted messaging via <a href="{% include signal-booking.url %}">Signal Private Messenger</a>. <small class="easter-egg">(You&rsquo;ll earn a $40 USD discount off our first date if you book entirely over Signal as a thank you for helping to protect your privacy and mine. Learn <a href="{% link colophon/index.md  %}#easter-eggs">how to earn more discounts&hellip;</a>.)</small></p>
-        <p>When reaching out to book, please <a href="#dos-and-donts-include-all-info">include <em>all</em> of the same information</a> that my <a href="#booking-inquiry-form">booking form</a> asks you to provide to receive a reply. If you don't hear back from me, that's likely why.</p>
+        <p>Please feel free to <a href="{% link .well-known/vcard.vcf %}">save my contact card</a> and write me anytime.</p>
+        <p>I strongly prefer encrypted messaging via <a href="{% include signal-booking.url %}">Signal Private Messenger</a>. <small class="easter-egg">(You&rsquo;ll earn a $40 USD discount off our first date if you book entirely over Signal as a thank you for helping to protect your privacy and mine. Learn <a href="{% link colophon/index.md  %}#easter-eggs">how to earn more discounts&hellip;</a>.)</small></p>
+        <p>When reaching out to book, please <a href="#dos-and-donts-include-all-info">include <em>all</em> of the same information</a> that my <a href="#booking-inquiry-form">booking form</a> asks you to provide to receive a reply. <a href="{% link resources/for-clients/booking-guide/index.md %}#if-you-dont-receive-a-reply" class="panel-closer-link">If you don't hear back from me</a>, that's likely why.</p>
         <ul id="contact-links-list"  class="icons labels-list">
             <li>
                 <a id="contact-link-signal" class="icon fa-brands fa-signal-messenger fa-4x" href="{% include signal-booking.url %}" title="Signal">
@@ -418,8 +429,8 @@ along with a bunch of additional instruction.
                 </a>
             </li>
         </ul>
-        <p>Otherwise, you may also contact me via <a href="{% include mailto-booking.url %}">email addressed to <code>{{ site.contact.email }}</code></a>, using <a href="{% include whatsapp-booking.url %}">WhatsApp</a>, over <a href="{% include xmpp-booking.url %}">Jabber/XMPP instant message</a>, and finally by <a href="{% include sms-booking.url %}">text/SMS to {{ site.contact.sms.vanity }}</a> if necessary.</p>
-        <p>Please be patient as <strong>it may take a day for me to reply.</strong></p>
+        <p>Otherwise, you may also contact me via <a href="{% include mailto-booking.url %}">email</a>, using <a href="{% include whatsapp-booking.url %}">WhatsApp</a>, over <a href="{% include xmpp-booking.url %}">Jabber/XMPP instant message</a>, and finally by <a href="{% include sms-booking.url %}">text/SMS</a> if necessary.</p>
+        <p><strong>Please <a href="{% link resources/for-clients/booking-guide/index.md %}#patiently-wait-for-my-reply" class="panel-closer-link">be patient</a> as it may take a day for me to reply.</strong></p>
         <p>In the meantime, explore the <a href="https://goodclientguide.com/" target="_blank">Good Client Guide</a> and the <a href="https://www.satisfactionproject.com/" target="_blank">Satisfaction Project</a> for more helpful advice about how to prepare for your date with a provider like me, or have a look at some of <a href="#friends">my hot friends</a>.</p>
         <p class="align-center"><img loading="lazy" src="{% link images/gallery-originals/balcony-view-as-voyeur-through-window.jpg %}" alt="" /></p>
         <h2 id="newsletter-subscription">Newsletter subscription</h2>

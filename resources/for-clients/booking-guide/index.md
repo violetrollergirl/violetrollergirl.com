@@ -510,11 +510,11 @@ At this point, we're in contact, and the goal is simply to work out any remainin
 
 If you don't receive a reply from me, it can be because of any of the following reasons:
 
-- You omitted screening information.
-- You requested a session on very short notice, or for the same day.
+- You omitted screening information, or sent an inquiry without [all the information I request]({% link index.html %}#in-your-first-message).
+- You requested a [session on very short notice]({% link _faq/booking/are-you-available-right-now.md %}), or for the same day.
     - While I can sometimes accomodate a same-day appointment, this is rare and I may not reply if I can't.
     - You are still expected to screen, even for same-day requests.
-- You used sexually explicit language somewhere in your inquiry.
+- You used [vulgar or sexually explicit language]({% link index.html %}#dos-and-donts-mention-needs-professionally) somewhere in your inquiry.
 - Your email was filtered to my spam folder. I do check my spam folder, but I maintain an extremely strict spam filter that will flag your message if:
     - your email address looks like a bot's.
     - your email was recently created.
