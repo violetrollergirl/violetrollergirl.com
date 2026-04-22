@@ -17,11 +17,11 @@ This page lists resources I've created to help clients. I also highly recommend 
 
 ## [Booking guide]({% link resources/for-clients/booking-guide/index.md %})
 
-One of my favorite things about being a trans provider is sharing in that moment of discovery with you, and relishing the joy, relief, and opening of possibility that comes with it.
+One of my favorite things about being a trans provider is sharing moments of discovery with you, and relishing the joy, relief, and possibilities that come with it.
 
 To experience that, of course, you must first book me.
 
-I wrote this booking guide to help those of you who want a meticulously crafted step-by-step walk through to follow for booking time with me. It explains how to start and what to do at every step of the way.
+Sadly, many people who try fumble their chance. Following the instructions in this guide makes sure that won't be how our story ends.
 
 {:.align-center}
 [How to book me]({% link resources/for-clients/booking-guide/index.md %}){:.button}

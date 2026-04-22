@@ -1,8 +1,8 @@
 ---
 title: Discretion-maxxing, or How To Find, Book, and Pay Escorts Completely Secretly
 description: >
-  If you're looking to book an escort without anyone knowing you did that
-  (except the companion you'll meet, of course), do it the way I show you in this guide.
+  Learn to book an escort without anyone knowing you did that.
+  Or, how to actually stay on the DL with a pro, like a pro.
 prev: resources/for-clients/booking-guide/
 next: resources/for-clients/messaging-discreetly/
 featured_image:
@@ -12,6 +12,8 @@ last_modified: Fri Mar 20 09:56:46 EDT 2026
 ---
 
 # {{ site.title }}'s Guide to Booking an Escort Completely Secretly
+
+Perhaps I should have titled this article, "how to *actually* stay on the <acronym title="down low">DL</acronym> with a pro, like a pro."
 
 > Reports of my death are greatly exaggerated.
 >

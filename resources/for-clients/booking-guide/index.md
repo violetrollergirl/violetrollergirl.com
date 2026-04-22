@@ -1,8 +1,8 @@
 ---
 title: Booking Guide
 description: >
-    Many people are attracted to trans women like me, but few get the chance to get intimate with us.
-    This page thoroughly (over-)explains the booking process to offer you clarity, should you seek it.
+    Many people attracted to trans women fumble their chance to get with us.
+    Following these instructions makes sure that won't include you.
 featured_image:
   alt:
   url: images/gallery-originals/kneeling-in-clawfoot-bathtub.jpg
@@ -13,9 +13,9 @@ last_modified: Wed Mar  4 15:52:53 EST 2026
 
 # {{ site.title }}'s Booking Guide
 
-Many people are attracted to trans women like me, but few get the chance to get intimate with us. One of my favorite things about being a trans provider is sharing in that moment of discovery with you, and relishing the joy, relief, and opening of possibility that comes with it.
+One of my favorite things about being a trans provider is sharing in moments of discovery with you, and relishing the joy, relief, and possibilities that come with it.
 
-To experience that, of course, you must first book me by filling out my booking form:
+To experience that, of course, you must first book me. Filling in my booking form makes that easy:
 
 {:.align-center}
 {% include link-as-button.md anchor_text="Open Booking Form" url="/resources/for-clients/booking-guide/#contact" %}
