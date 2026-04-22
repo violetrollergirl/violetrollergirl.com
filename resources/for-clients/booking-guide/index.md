@@ -187,7 +187,7 @@ The first field in my booking form is a text box for your name.
 * You are expected to write your full name here. For example, `Joe Smith`.
 * Ensure you include the name you will screen with, i.e., your *legal* name.
 * If you have a preferred name different from your legal name, you can include that here!
-    * If your legal name is a deadname, please rest assured I will not call you that; it is used only for screening.
+    * If your legal name is a deadname, rest assured I will not call you that; it is used only for screening.
 
 | Good entry | Bad entry | Why? |
 |-|-|
