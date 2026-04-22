@@ -272,7 +272,7 @@ Sincerely,
                     navigator.clipboard.writeText(templateText);
                     $(this)
                         .find('button[type="reset"]')
-                        .text('Copied! (Click to copy again.)');
+                        .text('Copied!');
                 } catch (err) {
                     console.error(err);
                 }
