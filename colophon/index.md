@@ -29,14 +29,18 @@ So here's a bit of technical information regarding how it all works. But, first&
 1. [Easter eggs](#easter-eggs)
 1. [Technology stack](#technology-stack)
     1. [No server required](#no-server-required)
+1. [Permalinks for intra-page UI elements](#permalinks-for-intra-page-ui-elements)
 1. [Client-side booking form](#client-side-booking-form)
     1. [Mad-lib style form prose](#mad-lib-style-form-prose)
-    1. [HTML5 form features](#html5-form-features)
+    1. [Integrated booking guide](#integrated-booking-guide)
+    1. [Fill while browsing](#fill-while-browsing)
+    1. [Fill from links](#fill-from-links)
+    1. [Data type-specific inputs](#data-type-specific-inputs)
+    1. [Data entry validation](#data-entry-validation)
     1. [Privacy guarantees of first contact](#privacy-guarantees-of-first-contact)
         1. [Why my booking form doesn't use a third-party service](#why-my-booking-form-doesnt-use-a-third-party-service)
         1. [How my booking form avoids needing a third-party service](#how-my-booking-form-avoids-needing-a-third-party-service)
     1. [Steal my booking form code](#steal-my-booking-form-code)
-1. [Targetable deep-links for every anchor](#targetable-deep-links-for-every-anchor)
 1. [Cryptocurrency tips and donation links](#cryptocurrency-tips-and-donation-links)
 
 {:.easter-egg}
@@ -62,7 +66,7 @@ Jekyll is a popular *static site generator* written in the [Ruby](https://ruby-l
 
 Since my site is entirely static (c.f., dynamic, such as with a WordPress, Squarespace, Wix, or other site technology whose templates are not pre-rendered), I require no server-side compute cycles to publish it. All I require is a Domain Name System (DNS) registration and a Web (HTTP) server. This makes my site easy for me to migrate from one server to another when I need to (or if, like most sex workers, I am eventually banned from one platform or another), and also makes it relatively inexpensive to host.
 
-This characteristic also forms the basis of some of the more novel and security-aware features I'm most proud of.
+This characteristic also forms the basis of some of the more [novel and security-aware features](#privacy-guarantees-of-first-contact) I'm most proud of.
 
 <!-- YOU'VE FOUND AN EASTER EGG!
 ## Typography
@@ -74,19 +78,80 @@ For $100 USD off your next 3 hours or longer booking, can you tell me the signif
 And for an additional $50 USD off booking me when I'm traveling on tour, what is the singular glyph's pictographical meaning?
 -->
 
+## Permalinks for intra-page UI elements
+
+As my site clearly showcases, I'm very detail-oriented. That means this site contains a lot of information about me and my offerings.
+
+Some pages are long. In order to make everything as easy to find as possible, I've ensured each element can be referenced with a [fragment](https://developer.mozilla.org/en-US/docs/Web/URI/Reference/Fragment){:target="_blank"} identifier by including an `id` attribute to the appropriate HTML element.
+
+Each individually ID'ed element therefore also functions like a permalink and, when accessed, [CSS rules `:target`ing that element](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:target){:target="_blank"} create a halo effect around it, highlighting it visually. Try it out:
+
+- read my [incall availability]({% link index.html %}#incall-availability)
+- book a [curiosity call]({% link index.html %}#rate-add-ons-and-online-curiosity-call-30-minutes)
+- view my [Signal contact link]({% link index.html %}#contact-link-signal)
+
+Note how the heading or page area glows in response.
+
+
 ## Client-side booking form
 
-My [contact page includes a booking form](#contact) that has some especially unique properties.
+My site's [Contact page](#contact) includes a [booking form]({% link index.html %}#booking-inquiry-form) that has some especially unique properties.
 
 ### Mad-lib style form prose
 
-Most obviously, my booking form is written from the perspective of a client's message to me in a "mad-lib style" block quotation with input fields embedded in the prose, rather than being presented as a traditional data entry task. The prose mimics an ideal client inquiry, and my intention in presenting my booking form this way was to help clients learn what a model inquiry reads like by literally writing such an inquiry and simply requiring them to fill in the blanks. The booking form itself is accompanied by a thorough [booking guide]({% link resources/for-clients/booking-guide/index.md %}), which details each field's purpose and walks through the complete booking process for anyone who desires such handholding.
+My booking form is written from the perspective of a client's message to me in a "mad-lib style" block quotation with input fields embedded in the prose, rather than being presented as a traditional data entry task. The prose mimics an ideal client inquiry.
 
-The form itself is special in several other ways, too.
+My intention in presenting my booking form this way was to help clients learn what a model inquiry reads like by literally writing such an inquiry and simply requiring them to fill in the blanks.
 
-### HTML5 form features
+Hey, a girl can dream.
 
-Beyond being designed to help clients structure a first message to me in natural language speech, it uses [HTML5 form input types such as `tel`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/tel), [`datetime-local`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/datetime-local), and [`number`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/number) to more precisely shape what can be entered while making the most use of the visitor's Web browser's built-in user interface elements. [HTML5 client-side form validation](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation) attributes such as `required` are also included to ensure the form data a visitor enters passes basic data entry validation checks performed by the browser itself before being "submitted."
+### Integrated booking guide
+
+I've also written a thorough [booking guide]({% link resources/for-clients/booking-guide/index.md %}), which details the entire process for booking me. The form itself is integrated deeply with its guide.
+
+Atop each field in the form are small information icons (<code>&#9432;</code>) that link directly to a thorough reference for that specific form field's purpose. When someone clicks on a field's information icon, they're taken directly to the part of the booking guide that provides guidance for what to enter in that specific field.
+
+Following each field's description in the guide is a "Continue in Form" button, which takes them back to the form field in question.
+
+### Fill while browsing
+
+You can partially fill in my [booking form]({% link index.html%}#booking-inquiry-form), then browse to another page on my site, then come back to the form again, all without being forced to start filling the form in from scratch every time.
+
+When you enter data into one of the fields in my booking form, my website will remember this entry and automatically fill it back in for you when you return to the form.
+
+For privacy's sake, this memory persists in [`sessionStorage`](https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage){:target="_blank"}. This means it is remembered only for as long as the browser tab or window in which my site is opened stays open.
+
+When you explicitly close that tab or window, the information in the form is deleted.
+
+### Fill from links
+
+My [Rates page](#rates) and my booking form work together.
+
+Clicking on any of the "Reserve now" links from my fee schedule will automatically fill in the appropriate data in the correct field in my booking form.
+
+For example, clicking the [2-hour GFE session menu item]({% link index.html %}#rate-gfe-fs-2-hours)'s booking link automatically fills in the value of `2` in the date duration field on my form, along with the `GFE services` selection for the service type.
+
+Go ahead. Try it. :)
+
+### Data type-specific inputs
+
+Where relevant, my form uses specific form `input` element attribute `type`s to more precisely shape the suggestions for what to enter into the specific field. These include the HTML5 input types of:
+
+- [`tel`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/tel), when I solicit a telephone number for screening
+- [`datetime-local`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/datetime-local), when I ask on what specific date and time a client wants to book
+- [`number`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/number), when I ask how long a session should be
+
+This makes it easier to enter requested information using built-in Web browser user interface elements.
+
+### Data entry validation
+
+[HTML5 client-side form validation](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation) attributes ensure the form data is at least somewhat sensible before it is sent to me.
+
+For example, the form will not allow itself to be `submit`ed unless a client enters data in `required` fields, ensuring no necessary information is omitted.
+
+These checks are handled natively, by the Web browser, and visitors get visual and textual feedback about the validity state for each field and the form as a whole.
+
+Individual fields change color when they move from an invalid to a valid state. The submission button changes text from "Check fields" to "Send inquiry" when the form is fully validated. In supporting browsers, pressing the "Check fields" button highlights the first invalid field and presents an informational tooltip describing how to fix the problem.
 
 ### Privacy guarantees of first contact
 
@@ -135,12 +200,6 @@ I don't mean to denigrate other providers in comparing my booking form to theirs
 Sex, pleasure, and companionship is a team sport. It's clear that when we protect the communication with our clients, we protect ourselves. When our clients protect us, they are also protecting themselves, too.
 
 Please feel free to try my form out and experience how it works for yourself. If you do, I just ask that you please also let me know it's just a test, and not a real inquiry when you actually send me a message so I know you're simply enjoying trying out this tech. Unless&hellip;. &lt;3
-
-## Targetable deep-links for every anchor
-
-My web site contains a lot of information about me and my offerings. In order to make every part as easy to find as possible, I've ensured each element can be referenced with a fragment identifier by including an `id` attribute to the appropriate HTML element. This means each individually ID'ed element also functions like a permalink and, when accessed, CSS rules create a halo effect around that element highlighting it visually.
-
-Try it out: see my [incall availability]({% link index.html %}#incall-availability) and note how the heading glows in response.
 
 ## Cryptocurrency tips and donation links
 
