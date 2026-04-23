@@ -212,11 +212,19 @@ The second field of my booking form is a drop-down menu for choosing the method 
     * Choose `a video vibe check` if you prefer to use a real-time secure video call as an alternative to my traditional screening methods.
     * Choose `a deposit for a social date at a public venue` if you will send a deposit to confirm a reservation with me in person at a public venue for a platonic date, sometimes also called a "meet and greet."
 
-You may not leave this field blank. If you have already screened with me, simply re-use the same value you chose earlier.
+You may not leave this field blank.
 
-I very rarely require re-screening; it's required if you change numbers or contact me through a channel we've previously not used, so that I can re-verify your contact information and confirm that I'm speaking with the person I expect to be speaking with. You may also need to re-screen if it's been a very long time since our last correspondence (like a year or so).
+If you've already screened with me, simply re-use the same value you chose earlier.
 
-For more information about screening, see my [FAQ: Why must I screen?/Screening makes me nervous]({% link _faq/screening/why-screen.md %}).
+I very rarely require re-screening; it's required if&hellip;
+
+- you get a new number that I'm not aware of
+- you contact me over a new channel we've not previously used
+- it's been a long time since our last correspondence (like a year or so)
+
+&hellip;so that I can re-confirm I'm speaking with the person I expect.
+
+For more information about screening, see my [FAQ: Why must I screen? / Screening makes me nervous]({% link _faq/screening/why-screen.md %}).
 
 {:.align-center}
 {% include link-as-button.md anchor_text="Continue in Form" url="/resources/for-clients/booking-guide/#contact" focus_on="booking-inquiry-prospect-preferred-screening-method" %}
