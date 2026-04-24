@@ -67,22 +67,26 @@ Exactly how you do this depends on the specific crypto app you're using but rega
 
 ### From payment apps
 
-If you're sending from a payment app, click the link corresponding to the payment app you're using to send from.
+If you're sending from a payment app, click the payment app you're using to send from.
 
-{:.fa-ul}
-- [<span class="fa-li fa-brands fa-cash-app"></span> CashApp](https://cash.app/help/3106-bitcoin-withdrawals){:target="_blank"}
-- [<span class="fa-li fa-brands fa-paypal"></span> PayPal](https://www.paypal.com/us/cshelp/article/how-do-i-transfer-my-crypto-help822){:target="_blank"}
-- [<span class="fa-li fa-brands fa-v"></span> Venmo](https://help.venmo.com/cs/articles/crypto-transfers-vhel232){:target="_blank"}
+{:.button-container}
+[<span class="fa-icon fa-brands fa-cash-app"></span> CashApp](https://cash.app/help/3106-bitcoin-withdrawals){:.button target="_blank"}
+[<span class="fa-icon fa-brands fa-paypal"></span> PayPal](https://www.paypal.com/us/cshelp/article/how-do-i-transfer-my-crypto-help822){:.button target="_blank"}
+[<span class="fa-icon fa-brands fa-v"></span> Venmo](https://help.venmo.com/cs/articles/crypto-transfers-vhel232){:.button target="_blank"}
 
 ### From cryptocurrency exchanges
 
-If you're sending from a cryptocurrency exchange, click the link corresponding to the cryptocurrency exchange you're using to send from.
+If you're sending from a cryptocurrency exchange, click the cryptocurrency exchange you're sending/withdrawing from.
 
-- [Binance](https://www.binance.com/en/support/faq/detail/329c82f07443410b99fc3683ebf07490){:target="_blank"}
-- [Coinbase](https://help.coinbase.com/en/coinbase/trading-and-funding/cryptocurrency-trading-pairs/steps-to-send-crypto){:target="_blank"}
-- [Gemini](https://support.gemini.com/hc/en-us/articles/115004710226-How-do-I-withdraw-crypto-from-my-Gemini-account){:target="_blank"}
-- [Kraken](https://support.kraken.com/articles/360000672763-how-to-withdraw-cryptocurrencies-from-your-kraken-account){:target="_blank"}
-- [Robinhood](https://robinhood.com/us/en/support/articles/send-receive-and-swap-crypto/#Sendcrypto){:target="_blank"}
+{:.button-container}
+[Binance](https://www.binance.com/en/support/faq/detail/329c82f07443410b99fc3683ebf07490){:.button target="_blank"}
+[Bitget](https://www.bitget.com/support/articles/12560603811575){:.button target="_blank"}
+[Bybit](https://www.bybit.com/en/help-center/article/How-to-Deposit-and-Withdraw-Tokens-using-Bybit-wallet#B){:.button target="_blank"}
+[Coinbase](https://help.coinbase.com/en/coinbase/trading-and-funding/cryptocurrency-trading-pairs/steps-to-send-crypto){:.button target="_blank"}
+[Crypto.com](https://help.crypto.com/en/articles/2500695-crypto-withdrawals-general-information#h_a36927c2d7){:.button target="_blank"}
+[Gemini](https://support.gemini.com/hc/en-us/articles/115004710226-How-do-I-withdraw-crypto-from-my-Gemini-account){:.button target="_blank"}
+[Kraken](https://support.kraken.com/articles/360000672763-how-to-withdraw-cryptocurrencies-from-your-kraken-account){:.button target="_blank"}
+[Robinhood](https://robinhood.com/us/en/support/articles/send-receive-and-swap-crypto/#Sendcrypto){:.button target="_blank"}
 
 ## Ask for confirmation of receipt
 
