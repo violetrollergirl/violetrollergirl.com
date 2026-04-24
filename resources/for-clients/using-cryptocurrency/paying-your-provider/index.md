@@ -67,7 +67,7 @@ Exactly how you do this depends on the specific crypto app you're using but rega
 
 ### From payment apps
 
-If you're sending from a payment app, click the payment app you're using to send from.
+If you're sending from a payment app, click the payment app you're using.
 
 {:.button-container}
 [<span class="fa-icon fa-brands fa-cash-app"></span> CashApp](https://cash.app/help/3106-bitcoin-withdrawals){:.button target="_blank"}
