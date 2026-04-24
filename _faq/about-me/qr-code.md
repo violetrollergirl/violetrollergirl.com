@@ -1,5 +1,8 @@
 ---
 name: What does your QR code tramp stamp go to?
+description: >
+  One of Violet's most distinctive features is a QR code tramp stamp.
+  She gets a lot of questions about it, but this one is most common.
 featured_image:
   alt:
   url: images/gallery-originals/lakeside-qr-code.jpg
