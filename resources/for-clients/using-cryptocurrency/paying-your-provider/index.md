@@ -8,7 +8,7 @@ featured_image:
   url: images/gallery-originals/back-arch-on-the-beach-in-bikini.jpg
 prev: resources/for-clients/using-cryptocurrency/
 next: resources/for-clients/using-cryptocurrency/off-ramping/
-last_modified: Wed Dec 31 18:14:59 EST 2025
+last_modified: Thu Apr 23 20:50:06 EDT 2026
 ---
 
 # {{ site.title }}'s guide to paying your provider in crypto
@@ -82,6 +82,7 @@ If you're sending from a cryptocurrency exchange, click the link corresponding t
 - [Coinbase](https://help.coinbase.com/en/coinbase/trading-and-funding/cryptocurrency-trading-pairs/steps-to-send-crypto){:target="_blank"}
 - [Gemini](https://support.gemini.com/hc/en-us/articles/115004710226-How-do-I-withdraw-crypto-from-my-Gemini-account){:target="_blank"}
 - [Kraken](https://support.kraken.com/articles/360000672763-how-to-withdraw-cryptocurrencies-from-your-kraken-account){:target="_blank"}
+- [Robinhood](https://robinhood.com/us/en/support/articles/send-receive-and-swap-crypto/#Sendcrypto){:target="_blank"}
 
 ## Ask for confirmation of receipt
 

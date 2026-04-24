@@ -90,6 +90,7 @@ No stress! Start at my ["Quick(est) Start"]({% link resources/for-clients/using-
 - [Gemini]({% link resources/for-clients/using-cryptocurrency/gemini/index.md %}#complete-your-crypto-purchase-via-gemini)
 - [Binance]({% link resources/for-clients/using-cryptocurrency/binance/index.md %}) - TODO
 - [Kraken]({% link resources/for-clients/using-cryptocurrency/kraken/index.md %}) - TODO
+- [Robinhood]({% link resources/for-clients/using-cryptocurrency/robinhood/index.md %}) - TODO
 
 ## Paying your provider
 
