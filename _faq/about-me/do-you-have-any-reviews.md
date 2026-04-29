@@ -1,5 +1,8 @@
 ---
 name: Do you have any reviews?
+description: >
+  Yeah, but reviews are crude and generally a poor facsimile of what
+  an actual representation of a date with me looks and feels like.
 featured_image:
   alt:
   url: images/gallery-originals/reaching-for-the-cue-ball.jpg
