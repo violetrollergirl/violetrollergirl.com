@@ -9,7 +9,7 @@ featured_image:
   url: images/gallery-originals/lounging-poolside-in-bikini.jpg
 prev: resources/for-providers/using-cryptocurrency/on-ramping/
 next: resources/for-providers/using-cryptocurrency/convincing-clients/
-last_modified: Tue Apr 21 14:42:07 EDT 2026
+last_modified: Thu Apr 30 19:19:50 EDT 2026
 ---
 
 # Off-ramping: where and how to spend your cryptocurrency
@@ -61,7 +61,7 @@ One way to think about this is: [Zcash](https://z.cash/){:target="_blank"} in [Z
 
 Although Zcash is a superior private currency, most of the crypto world still relies on other surveillable systems, like Bitcoin. Thankfully, cryptocurrencies can be easily converted from one to another so it's easy to pay in a vendor's cryptocurrency of choice even if you only keep a balance in Zcash. There are lots of ways to do this, but many are clunky and require you to be quite careful about exchange rates, conversion fees, and payment processing times.
 
-By far the easiest method is Zodl's "Crosspay" feature, so named because it can make "cross-chain payments" simple and safe. Let's work through a common use case I have one step at a time and show Crosspay at work.
+By far the easiest method is [Zodl's "Crosspay" feature](https://support.zodl.com/article/24-using-crosspay-to-spend-zec){:target="_blank"}, so named because it can make "cross-chain, cross-currency payments" simple and safe. Let's work through a common use case I have one step at a time and show Crosspay at work.
 
 One very common need I have is to pay for my escort ads. Many escort directories and mall sites will accept payment in Bitcoin, but I'm aware of none who accept Zcash. (Obviously, if you know of one, please [contact](#contact) me to tell me about it!) This is where Crosspay shines.
 
@@ -71,33 +71,44 @@ Suppose you have some ZEC and you want to [load up your Tryst TLC balance](https
 
 1. First, [log in to your Tryst account](https://app.tryst.link/log_in){:target="_blank"} and access their "[Add credits](https://app.tryst.link/members/orders/new){:target="_blank"}" screen.
 
-    ![Screenshot from Tryst's support knowledge base showing how to access the 'Add credits' screen from their navigation menu.](https://web.archive.org/web/20250830091358if_/https://help.tryst.link/api/v1/attachments/2879563)
+    ![Screenshot from Tryst's support knowledge base showing how to access the 'Add credits' screen from their navigation menu.](https://web.archive.org/web/20250830091358if_/https://help.tryst.link/api/v1/attachments/2879563){:loading="lazy"}
 
 1. Since this is your first time paying in ZEC, choose to purchase a small "Custom" amount of TLC, maybe `15` or so.
 1. Make sure you indicate that you want to pay in Bitcoin. You're actually going to be paying directly from your shielded Zcash, but Tryst will nevertheless receive Bitcoin anyway.
 
-    ![Screenshot from Tryst's support knowledge base showing their TLC credit purchase order screen.](https://web.archive.org/web/20250830091358if_/https://help.tryst.link/api/v1/attachments/2879564)
+    ![Screenshot from Tryst's support knowledge base showing their TLC credit purchase order screen.](https://web.archive.org/web/20250830091358if_/https://help.tryst.link/api/v1/attachments/2879564){:loading="lazy"}
 
 1. Click the "Next" button to proceed to [the Tryst order summary screen](https://help.tryst.link/en-gb/22/146){:target="_blank"}.
 1. Review your purchase order for correctness and press the "Pay Now" button to reveal the Bitcoin pay window.
 
-    ![Screenshot from Tryst's support knowledge base showing what their 'Pay Now' button looks like.](https://web.archive.org/web/20250905184347if_/https://help.tryst.link/api/v1/attachments/2879526)
+    ![Screenshot from Tryst's support knowledge base showing what their 'Pay Now' button looks like.](https://web.archive.org/web/20250905184347if_/https://help.tryst.link/api/v1/attachments/2879526){:loading="lazy"}
 
 1. Tryst will show you a QR code that's similar to Zodl's "Request" screen, with an amount already embedded in it. That's nice, but we're not going to use it because that QR code is intended for Bitcoin wallet apps, and we're using a Zcash wallet app.
 1. Click on the "Copy" tab to reveal just the Bitcoin address that Tryst wants you to send your payment to. It'll look like the *right* screenshot in the image below.
 
-    ![Screenshot from Tryst's support knowledge base showing a side-by-side comparison of their two Bitcoin payment processing screens, the left with a QR code and the right with plain text Bitcoin addresses.](https://web.archive.org/web/20250905184624if_/https://help.tryst.link/api/v1/attachments/2095928)
+    ![Screenshot from Tryst's support knowledge base showing a side-by-side comparison of their two Bitcoin payment processing screens, the left with a QR code and the right with plain text Bitcoin addresses.](https://web.archive.org/web/20250905184624if_/https://help.tryst.link/api/v1/attachments/2095928){:loading="lazy"}
 
 1. Click on the address itself (*not* the "payment link") to copy the Bitcoin address to your clipboard. Keep a note of this address somewhere, like a text window or just in your clipboard. We'll need it later. I like to use [Signal's "Note to self" feature](https://support.signal.org/hc/en-us/articles/360043272451-Note-to-Self){:target="_blank"}, which is also a secure way to send it to my other devices if I'm not already doing this all from one device.
 1. Now, open Zodl.
 1. Click on Zodl's "Pay" button to open the Crosspay screen.
+
+    ![Screenshot of the Zodl home screen.]({% link resources/for-providers/using-cryptocurrency/off-ramping/screenshot.com-zodl-support.home.png %}){:loading="lazy"}
+
 1. Next, in the "Send to" section, enter the payee's (Tryst's) information:
     1. You'll see a cryptocurrency selection drop-down menu for choosing the currency the payee wants to receive from us. Find Bitcoin (`BTC`) from the list of options; it will have a small Bitcoin logo on top of a larger, second, identical Bitcoin logo. This means we're using our shielded ZEC, but paying in Bitcoin.
+
+        ![Screenshot of the Zodl asset selection drawer.]({% link resources/for-providers/using-cryptocurrency/off-ramping/screenshot.com-zodl-support.select-asset.png %}){:loading="lazy"}
+
     1. In the `Address` field, paste the Bitcoin payment address you copied from Tryst earlier.
-1. Now choose how much to pay by entering an amount in either Bitcoin units or, if you have enabled Zodl's currency conversion feature in its settings, in fiat units.
+1. Now choose how much to pay by entering an amount in either Bitcoin units or, if you have [enabled Zodl's currency conversion](https://support.zodl.com/article/27-enabling-currency-conversion){:target="_blank"} feature in its settings, in fiat units.
+
+    ![Screenshot of the Zodl Crosspay screen filled with a payee and an amount.]({% link resources/for-providers/using-cryptocurrency/off-ramping/screenshot.com-zodl-support.payee-and-amount.png %}){:loading="lazy"}
+
 1. Click "Review" at the bottom of the Zodl Crosspay screen. Zodl's "Pay Now" drawer will open.
 1. Review your payment and ensure that the fiat amount, if shown, will cover your Tryst TLC order.
 1. Click "Confirm" when you are ready to make your payment and send the transaction.
+
+    ![Screenshot of the Zodl Crosspay review payment drawer.]({% link resources/for-providers/using-cryptocurrency/off-ramping/screenshot.com-zodl-support.review-crosspay-payment.jpg %}){:loading="lazy"}
 
 In my experience, it takes about 5 to 10 minutes for the transaction to complete, so make sure you also have at least that much time on the Tryst payment timer before you confirm your transaction, or you may not be able to get your account credited before your purchase order expires. If that does happen, you'll have to speak with a support representative about crediting your account.
 
@@ -148,7 +159,7 @@ If you need something from a store that doesn't have a Flexa partnership, you ca
 The gift card vendor directly integrated with the Monero wallet app I use is called [Cake Pay](https://cakepay.com/). If you use their Web site instead of the in-app wallet integration, you can also [use shielded Zcash to pay for the gift cards they offer](https://x.com/cakewallet/status/1988338435879506011){:target="_blank"}.
 
 {:style="margin: auto; max-width: 500px;"}
-[![Screenshot of the CakePay.com checkout screen showing a Zcash option to pay for a gift card purchase.](http://web.archive.org/web/20251114221317if_/https://pbs.twimg.com/media/G5f-OFhaUAAT_SS?format=jpg&name=large)](https://x.com/cakewallet/status/1988338435879506011){:target="_blank"}
+[![Screenshot of the CakePay.com checkout screen showing a Zcash option to pay for a gift card purchase.](http://web.archive.org/web/20251114221317if_/https://pbs.twimg.com/media/G5f-OFhaUAAT_SS?format=jpg&name=large)](https://x.com/cakewallet/status/1988338435879506011){:target="_blank" loading="lazy"}
 
 > TK-TODO: This section is not yet written, but it functions almost identically to Flexa in Zodl: sign up with a KYC-lite email address, either on the Cake Pay website or in the Cake Wallet app itself, and then choose a giftcard, pay for it from a Cake Wallet's balance **using Monero, since Monero is the one private cryptocurrency Cake Wallet supports**, and then use the gift card as you normally would.
 >
@@ -192,11 +203,11 @@ Perhaps the fastest way to demonstrate how this service works is to just watch w
 
 Here's a screenshot of a reservation made on their site about to get paid in Bitcoin.
 
-![Screenshot of the Travala hotel booking payment method selection screen.](screenshot.travala.hotel-booking.payment-method.png)
+![Screenshot of the Travala hotel booking payment method selection screen.](screenshot.travala.hotel-booking.payment-method.png){:loading="lazy"}
 
 And here's what happens when you press the "Complete Reservation" button.
 
-![Screenshot of the Travala hotel booking payment request screen.](screenshot.travala.hotel-booking.cryptocurrency-payment.png)
+![Screenshot of the Travala hotel booking payment request screen.](screenshot.travala.hotel-booking.cryptocurrency-payment.png){:loading="lazy"}
 
 Kinda looks like Tryst's payment screen, doesn't it?
 
@@ -258,7 +269,7 @@ While some providers do these checks ourselves, there are also specialized servi
 
 - [Laura Cohen Precautionary Investigations](https://www.precautionaryinvestigation.com/){:target="_blank"} - Long-standing industry-specific screening service with a stellar reputation.
     - **Please use me as a reference** by entering my email address (`{{ site.contact.email }}`) because I get referral credits and it will save me money:
-    ![Screenshot of the Laura Cohen Precautionary Investigations new prospect sign up form showing how to enter {{ site.title }} as a referral source.]({% link resources/for-providers/using-cryptocurrency/off-ramping/screenshot.laura-cohen-precautionary-investigations.referral.png %})
+    ![Screenshot of the Laura Cohen Precautionary Investigations new prospect sign up form showing how to enter {{ site.title }} as a referral source.]({% link resources/for-providers/using-cryptocurrency/off-ramping/screenshot.laura-cohen-precautionary-investigations.referral.png %}){:loading="lazy"}
 
 Always remember that Bitcoin payments are *never* anonymous so, for your protection, I recommend [paying using Zodl's Crosspay feature](#paying-in-bitcoin-when-you-only-have-zcash), same as you would pay for your Tryst ad.
 
@@ -289,7 +300,7 @@ It's important to remember that payments you make using a Payy Card *are* associ
 Payy itself communicates what data is public and what data stays private when you sign up for a Payy Card. Here's the infographic I was shown when I applied for my Payy Card:
 
 {:.align-center}
-![Screenshot of the Payy Card privacy notice depicting what is and is not visible to other actors when you make payments with it.]({% link resources/for-providers/using-cryptocurrency/off-ramping/screenshot.payy.payy-card-privacy-infographic.png %})
+![Screenshot of the Payy Card privacy notice depicting what is and is not visible to other actors when you make payments with it.]({% link resources/for-providers/using-cryptocurrency/off-ramping/screenshot.payy.payy-card-privacy-infographic.png %}){:loading="lazy"}
 
 I would not recommend using your Payy Card or the Payy network for your sex worker needs if you can avoid it; do your best to stick with Zcash and Monero for that. However, if your friends are unwilling to adopt the stronger privacy protections offered by Zcash in Zodl, are scared of the volatility of actual privacy coins, or have otherwise succumbed to the propaganda that stablecoins are somehow superior (even though we know they're not), Payy can be a convincing half-step to at least get them using cryptocurrency with *you*.
 

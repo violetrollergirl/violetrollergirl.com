@@ -8,7 +8,7 @@ prev: resources/for-providers/using-cryptocurrency/primer/
 featured_image:
   alt:
   url: images/gallery-originals/showered-in-fifty-dollar-bills.jpg
-last_modified: Wed Jan 21 15:44:02 EST 2026
+last_modified: Thu Apr 30 18:53:51 EDT 2026
 ---
 
 # Everything (and only) what you need to know about cryptocurrency wallets
@@ -74,7 +74,7 @@ The best privacy-focused wallet apps also offer other protections from privacy v
 - **Permissionless swap deposits:** this feature makes it possible for me to unilaterally protect a client or customer's payment privacy even if they refuse to use a privacy-preserving technology themselves, enabling me to [*receive* Zcash even if my client or customer pays me in another currency]({% link resources/for-providers/using-cryptocurrency/on-ramping/index.md %}#getting-paid-in-zcash-when-your-client-or-customer-only-has-bitcoin) like Bitcoin.
 - **Built-in Tor protection:** keeping financial transactions private in the blockchain ledger system is great, but the best privacy-focused wallet apps also protect you from classic network surveillance via "set and forget" integration with [Tor Project](https://torproject.org/){:target="_blank"}'s anonymizing network proxy from within the app itself.
     - Using Tor makes it harder for anyone to know that you're even using a cryptocurrency network in the first place.
-    - I highly recommend enabling this feature if your wallet app supports it. For example, the Electric Coin Company's blog shows you [how to enable Tor within Zodl (formerly Zashi)](https://electriccoin.co/blog/zashi-2-1-enhanced-privacy-with-tor-beta/){:target="_blank"}.
+    - I highly recommend enabling this feature if your wallet app supports it.
 
 Both of the wallet apps I'll recommend next support all of these features!
 
@@ -100,6 +100,11 @@ Some other unique features that make Zodl particularly attractive to privacy coi
 - **Crosspay:** this feature is the easiest and most private way to make payments in Bitcoin or other cryptocurrencies directly out of your (shielded) Zcash balance without having to do any conversion or transaction fee math yourself! [More on this later]({% link resources/for-providers/using-cryptocurrency/off-ramping/index.md %}#paying-in-bitcoin-when-you-only-have-zcash).
 
 I think Zodl is fast becoming the killer app for anyone who's at risk of being de-banked from the traditional financial system. By holding shielded ZEC, your money stays entirely private. Since Zodl's Crosspay and swap features are built on a permissionless, decentralized exchange (DEX) protocol called [NEAR Intents](https://near-intents.org/){:target="_blank"}, you still have access to the broader crypto ecosystem in a way no one can ban you from.
+
+After installing Zodl, consider enabling the following useful features, and in this order:
+
+1. [Enable Tor projection](https://support.zodl.com/article/17-enabling-tor-protection){:target="_blank"}
+1. [Enable currency conversion](https://support.zodl.com/article/27-enabling-currency-conversion){:target="_blank"}
 
 ### Cake Wallet: Privacy-focused Monero wallet app
 
