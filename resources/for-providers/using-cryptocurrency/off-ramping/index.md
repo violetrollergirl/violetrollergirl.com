@@ -59,9 +59,13 @@ One way to think about this is: [Zcash](https://z.cash/){:target="_blank"} in [Z
 
 ### Paying in Bitcoin when you only have Zcash
 
-Although Zcash is a superior private currency, most of the crypto world still relies on other surveillable systems, like Bitcoin. Thankfully, cryptocurrencies can be easily converted from one to another so it's easy to pay in a vendor's cryptocurrency of choice even if you only keep a balance in Zcash. There are lots of ways to do this, but many are clunky and require you to be quite careful about exchange rates, conversion fees, and payment processing times.
+Although Zcash is a superior private currency, most of the crypto world still relies on other surveillable systems, like Bitcoin.
 
-By far the easiest method is [Zodl's "Crosspay" feature](https://support.zodl.com/article/24-using-crosspay-to-spend-zec){:target="_blank"}, so named because it can make "cross-chain, cross-currency payments" simple and safe. Let's work through a common use case I have one step at a time and show Crosspay at work.
+In March of 2026, Square Inc., a popular point-of-sale system vendor, enabled their [Bitcoin support](https://squareup.com/us/en/bitcoin){:target="_blank"} for hundreds of thousands of small businesses by default. All of these businesses, including many brick-and-mortar stores, simultaneously [began accepting Bitcoin payments through their Square POS](https://www.coindesk.com/business/2026/03/30/jack-dorsey-s-square-auto-enables-bitcoin-payments-for-millions-of-u-s-businesses){:target="_blank"}.
+
+Thankfully, cryptocurrencies can be easily converted from one to another so it's easy to pay in a vendor's cryptocurrency of choice even if you only keep a balance in Zcash. There are lots of ways to do this, but many are clunky and require you to be quite careful about exchange rates, conversion fees, and payment processing times.
+
+By far the easiest method is [Zodl's "Crosspay" feature](https://support.zodl.com/article/24-using-crosspay-to-spend-zec){:target="_blank"}, so named because it makes "cross-chain, cross-currency payments" simple and safe. Let's work through a common use case I have one step at a time and show Crosspay at work.
 
 One very common need I have is to pay for my escort ads. Many escort directories and mall sites will accept payment in Bitcoin, but I'm aware of none who accept Zcash. (Obviously, if you know of one, please [contact](#contact) me to tell me about it!) This is where Crosspay shines.
 
