@@ -8,7 +8,7 @@ next: resources/for-clients/messaging-discreetly/
 featured_image:
   alt:
   url: images/gallery-originals/jungle-princess.jpg
-last_modified: Fri Mar 20 09:56:46 EDT 2026
+last_modified: Thu Apr 30 21:36:13 EDT 2026
 ---
 
 # {{ site.title }}'s Guide to Booking an Escort Completely Secretly
@@ -168,13 +168,27 @@ Yes, it's that easy.
 
 I know it can feel daunting to stare at an empty chat screen knowing your perfect provider is on the other side. That's one reason many professional companions also provide [booking forms](#contact) that help you make a good first impression.
 
-Some providers, like me, all but [*require* the use of a booking form]({% link resources/for-clients/booking-guide/index.md %}#fill-in-my-mad-lib-style-booking-form) to engage with new friends. Unfortuantely, [many booking forms are *not private*](https://bsky.app/profile/violetrollergirl.com/post/3mgbnpcorcc2u){:target="_blank"}. But mine is.
+Some providers, like me, all but [*require* the use of a booking form]({% link resources/for-clients/booking-guide/index.md %}#fill-in-my-mad-lib-style-booking-form) to engage with new friends.
 
-[My booking form is special because it doesn't use a third-party service]({% link colophon/index.md %}#privacy-guarantees-of-first-contact) like an email relay, but rather integrates directly with Signal. Just choose `Signal Private Messenger` in [my booking form's preferred contact method field]({% link resources/for-clients/booking-guide/index.md %}#booking-form-field-preferred-contact-method).
+[Booking forms have one purpose](https://bsky.app/profile/violetrollergirl.com/post/3mdxsouzq2k23){:target="_blank"}: to shape an introductory message and put it in a high-priority inbox so you're more likely to get a reply. If a companion has a booking form and you don't use it, you're sabotaging yourself.
 
-Filling in my booking form merely composes a plain text inquiry. Press the "Copy inquiry to clipboard" button and then the form's submit button to open the Signal app itself. Now you paste the inquiry text into a Signal message and send it after attaching or adding your screening information.
+Unfortuantely, [many booking forms are *not private*](https://bsky.app/profile/violetrollergirl.com/post/3mgbnpcorcc2u){:target="_blank"}, so when a companion lists a direct contact method like email or Signal Private Messenger, it's appropriate to use that in lieu of the form if *and only if* you mimic the form's structure in your message. It isn't hard; literally transcribe the form field labels and your answers into the body of a new message.
 
-I'm pleased to note that as of this writing a handful of other providers have implemented this same safer first contact mechanism. Using a booking form that integrates directly with the Signal app itself gives client and provider alike the benefits of a booking form's efficiency with the privacy of a bespoke inquiry!
+My booking form, however, *is* actually secure precisely because [it does not use a third-party service]({% link colophon/index.md %}#privacy-guarantees-of-first-contact) like so many insecure others. All it does is writes a plain text message and prompts you to send me that text yourself. My booking form even integrates directly with Signal, my highest-priority, most frequently-used inbox.
+
+Try it and see for yourself. When using my booking form:
+
+1. Choose `Signal Private Messenger` in the [preferred contact method field]({% link resources/for-clients/booking-guide/index.md %}#booking-form-field-preferred-contact-method).
+1. Fill in the remaining form fields.
+1. Press or tap the "Copy text" button.
+1. Press or tap the form's submit button. This will open the Signal app itself.
+1. Focus on the message body field and paste what's in your clipboard. You'll see the inquiry my form wrote on your behalf.
+1. Attach your screening information to the message just as you would any other image file.
+1. Press the *Send* button.
+
+I'm pleased to note that as of this writing a handful of other providers have implemented this same safer first contact mechanism.
+
+Using a booking form that integrates directly with the Signal app itself gives client and provider alike the benefits of a booking form's efficiency with the privacy of a bespoke inquiry!
 
 Leave it to a trans escort to popularize "the best of both worlds," eh? ;)
 
