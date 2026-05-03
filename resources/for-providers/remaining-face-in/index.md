@@ -8,20 +8,22 @@ featured_image:
   url: images/gallery-originals/floral-skater-mesh-top-dress-and-leather-jacket.jpeg
 prev: /resources/for-providers/signal-for-sex-work/
 next: /colophon/
-last_modified: Sat Apr 18 00:31:44 EDT 2026
+last_modified: Sun May  3 00:21:20 EDT 2026
 ---
 
 # {{ site.title }}'s Guide to Defeating Photo Unblur and Remaining Face-In
 
 A *face-in provider* is any sex worker who does not show their face on social media, in advertising photos, or in content they create.
 
-There are many reasons why a provider may want to remain face-in. Most of them come down to feelings of safety or exclusivity of access.  Remaining face-in also helps some go unnoticed when on dates in public.
+There are many reasons why a provider may want to remain face-in. Most of them come down to feelings of safety or exclusivity of access.  Remaining face-in also helps some providers go unnoticed when on dates in public.
 
-Other providers either don't have this luxury, or choose not to hide this part of their identity. For example, for better or worse, I'm undeniably recognizable and memorable. Moreover, as a trans provider, obscuring my face could make too many potential clients shy away from [booking me]({% link resources/for-clients/booking-guide/index.md %}) for fear that my face isn't "womanly" enough.
+Other providers either don't have this luxury, or choose not to hide this part of their identity. For example, for better or worse, I'm undeniably recognizable and memorable. Moreover, as a trans provider, obscuring my face could make potential clients shy away from [booking me]({% link resources/for-clients/booking-guide/index.md %}) for fear that my face isn't "womanly" enough.
 
 Regardless of why we might show our faces, the fact that we do makes us *face-out* providers.
 
-Despite being a face-out provider myself, many colleagues consider me one of the most cyber-secure sex workers in the world today. As a result, I routinely get asked numerous digital safety and online privacy questions from face-in providers about how to stay safe and pseudonymous online in this age of increasing state surveillance and advancements in facial recognition technology powered by AI.
+Despite being a face-out provider myself, many colleagues consider me one of the most cyber-secure sex workers in the world today. As a result, I routinely get asked numerous digital safety and online privacy questions about how to stay safe and pseudonymous online.
+
+Here's my advice for remaining face-in during this age of increasing state surveillance and advancements in facial recognition technology.
 
 ## In this article
 
@@ -103,11 +105,13 @@ What all of these methods have in common is that they completely overwrite the p
 
 Obscuring one's face is intuitively important because a face is arguably the most recognizable part of a given human's body. But someone determined to dox you will be paying attention to *every* detail in the photo.
 
-Tattoos, birthmarks, or freckles can also be used to identify you. Treat these like your face: remove or cover them in every photo before you post it. While it may stretch the term beyond comfort, we could argue that a "face-in" provider who nevertheless shows a very revealing tattoo is in practice more similar to a face-out provider!
+Tattoos, birthmarks, freckles, or even your [ears can also be used to identify you](https://www.latrobe.edu.au/news/articles/2023/release/ear-shape-as-accurate-as-fingerprints){:target="_blank"}. Treat these like your face: remove or cover them in every photo before you post it. While it may stretch the term beyond comfort, we could argue that a "face-in" provider who nevertheless shows a very revealing tattoo is in practice more similar to a face-out provider!
 
 Once you've ensured your media truly keeps you face-in, you should next consider what other identifying information is in your photo.
 
-While most people naturally focus on just the subject of a photo, others **will pick apart details in the background** of photos, as well. Some of these can directly dox you but even those that don't can still be combined to ultimately do so when they're taken together. Information security and privacy specialists call this phenomenon *linkability* and, again, the best defense is not to reveal this information in the first place.
+While most people naturally focus on just the subject of a photo, others will pick apart **details in the background** of photos, as well. Some of these can directly dox you but even those that don't can still be combined to ultimately do so when they're taken together.
+
+Information security and privacy specialists call this phenomenon *linkability* and, again, the best defense is not to reveal this information in the first place.
 
 ## Understanding data linkability, or, how easy it is to find where a photo or video was taken
 
