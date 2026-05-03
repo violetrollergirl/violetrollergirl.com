@@ -132,5 +132,5 @@ Have questions? As always, ask your provider, or [contact me](#contact) directly
 
 {:.button-container}
 {% include link-as-button.md anchor_text="Previous: Booking Discreetly" url=page.prev %}
-[<span class="fa-icon fa-solid fa-house-chimney"></span> Home]({% link index.html %}){:.button}
+[<span class="fa-icon fa-solid fa-user-tie"></span>Client Resources]({% link resources/for-clients/index.md %}){:.button}
 {% include link-as-button.md anchor_text="Next: Using Cryptocurrency" url=page.next %}
