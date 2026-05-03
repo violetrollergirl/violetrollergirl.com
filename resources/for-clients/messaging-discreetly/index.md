@@ -22,7 +22,11 @@ I hear it *all* the time:
 
 I'm not here to judge your need to keep what happens in Vegas, well, in Vegas. In fact, as a trans sex worker, I'm here for it. But whenever I hear statements like the ones above, I shake my head a little on the inside.
 
-If discretion is what you need, oh baby, let me show you better ways.
+If discretion is what you need, oh baby, let me show you better ways:
+
+{:.button-container}
+{% include link-as-button.md anchor_text="<span class='icon fa-brands fa-signal-messenger'></span> Get Signal" url="https://signal.org/install" target="_blank" %}
+{% include link-as-button.md anchor_text="<span class='icon fa-brands fa-whatsapp'></span> Get WhatsApp" url="https://www.whatsapp.com/download" target="_blank" %}
 
 ## In this article
 
@@ -75,7 +79,7 @@ All of these techniques obviously fail the plausible deniability test. But they 
 
 In contrast to burner numbers, extra apps or email addresses, or conspicuously switching between multiple physical phones, my favorite messaging systems, Signal and WhatsApp, offer both end-to-end encryption and plausible deniability in a lot of excellent ways. They are also both free of charge, cross-platform, and globally available.
 
-{:.align-center}
+{:.button-container}
 {% include link-as-button.md anchor_text="<span class='icon fa-brands fa-signal-messenger'></span> Get Signal" url="https://signal.org/install" target="_blank" %}
 {% include link-as-button.md anchor_text="<span class='icon fa-brands fa-whatsapp'></span> Get WhatsApp" url="https://www.whatsapp.com/download" target="_blank" %}
 
@@ -101,8 +105,8 @@ If you've been paying particularly close attention, you may notice that while th
 Read more about Chat Lock in the WhatsApp support pages for iPhone and Android, respectively:
 
 {:.align-center}
-{% include link-as-button.md anchor_text="<span class='icon fa-brands fa-apple'></span>Hide Locked Chats on iPhone" url="https://faq.whatsapp.com/764072925284841/?cms_platform=iphone#hide-locked-chats" target="_blank" %}
-{% include link-as-button.md anchor_text="<span class='icon fa-brands fa-android'></span>Hide Locked Chats on Android" url="https://faq.whatsapp.com/764072925284841/?cms_platform=android#view-your-locked-chats-folder" target="_blank" %}
+{% include link-as-button.md anchor_text="<span class='icon fa-brands fa-apple'></span>Hide Locked Chats (iPhone)" url="https://faq.whatsapp.com/764072925284841/?cms_platform=iphone#hide-locked-chats" target="_blank" %}
+{% include link-as-button.md anchor_text="<span class='icon fa-brands fa-android'></span>Hide Locked Chats (Android)" url="https://faq.whatsapp.com/764072925284841/?cms_platform=android#view-your-locked-chats-folder" target="_blank" %}
 
 It's hard to beat WhatsApp's Chat Lock feature for discretion. Its combination of ease of use, plausible deniability, and sufficiently strong encryption makes it an almost perfect choice for most clients.
 
