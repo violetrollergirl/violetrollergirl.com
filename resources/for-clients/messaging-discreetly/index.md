@@ -9,7 +9,7 @@ featured_image:
   url: images/gallery-originals/black-dress-gold-jewelry-in-rainy-bar-patio.jpg
 prev: resources/for-clients/discretion-maxxing/
 next: resources/for-clients/using-cryptocurrency/
-last_modified: Sun Jan  4 16:40:37 EST 2026
+last_modified: Sun May  3 00:50:49 EDT 2026
 ---
 
 # {{ site.title }}'s guide to messaging (your sex worker) discreetly
@@ -55,17 +55,19 @@ There are two techniques that make messaging discreetly easier: plausible deniab
 - **Plausible deniability** simply means either not doing things that would require explaining or, in the worst case, having alternative explanations if we're pressed for them.
 - **End-to-end encryption** means using messaging tools that technologically prevent anyone except you or I from reading the content of our messages or, in the best case, prevents anyone from even knowing that we've ever messaged one another in the first place.
 
-These two techniques work hand-in-glove to keep our remote interactions discreet, and the best messaging systems offer features that let us make use of both techniques.
+These two techniques work hand-in-glove to keep our remote interactions discreet. The best messaging systems offer features that let us make use of both techniques.
 
-For example, if you already have and use [WhatsApp](https://www.whatsapp.com/){:target="_blank"}, then please don't install a burner app to text a sex worker. Why? Because it's instantly more suspicious to any observer, leaves a much larger digital footprint on your phone, is more difficult to explain to a spouse or family member, and is less private because it allows one or more third-parties (e.g., the app developer) to read our texts.
+For example, if you already have and use [WhatsApp](https://www.whatsapp.com/){:target="_blank"}, then please don't install a burner app to text a sex worker who advertises a WhatsApp number, too. Why? Because it's instantly more suspicious to any observer, leaves a much larger digital footprint on your phone, is more difficult to explain to a spouse or family member, and is less private because it allows one or more third-parties (e.g., the app developer) to read our texts.
 
 ## Common mistakes: burner numbers, extra apps, or even multiple phones
 
 Unfortunately, many uninformed clients think using a burner number or an extra texting app is more discreet. Their rationale is that by keeping messages in a dedicated app and out of their main text message or email inbox, messages will be harder to spot.
 
-However, if someone is already looking at your phone's screen, which do you think is harder to explain: a bit of text with an innocent subject line buried in the torrent of your normal, personal email inbox, or a whole new app icon visible to anyone flipping across the pages of your home screen? Meanwhile, logging into "spicy" email accounts means risking being exposed by a plethora of auto-fill, account switcher, and history features; are you sure you've disabled *all* of that?
+However, if someone is already looking at your phone's screen, which do you think is harder to explain: a bit of text with an innocent subject line buried in the torrent of your normal, personal email inbox, or a whole new app icon visible to anyone flipping across the pages of your home screen?
 
-This is the same reason why having a second phone is also instantly suspicious; unless you're someone who *already* has a second phone for an alternative reason, getting caught switching between two phones is probably the least discreet thing you can do.
+Meanwhile, logging into "spicy" email accounts means risking being exposed by a plethora of auto-fill, account switcher, and history features. Are you sure you've disabled *all* of that?
+
+This is the same reason why having a second phone is also instantly suspicious. Unless you're someone who *already* has a second phone for an alternative reason, getting caught switching between two phones is probably the least discreet thing you can do.
 
 All of these techniques obviously fail the plausible deniability test. But they also fail the encryption test: most of these burner apps are actively selling your data, including your message content. This is doubly true for the "free" messaging apps or services.
 
@@ -118,9 +120,9 @@ However, to approximate the plausible deniability of WhatsApp's Chat Lock, use t
 
 ## Inquiring discreetly
 
-Now that you know how to message discreetly with a provider, only one question remains: how can you *inquire* equally discreetly? After all, the first step in seeing a provider is usually filling out their booking form.
+Now that you know how to message discreetly with a provider, only one question remains: how can you *inquire* equally discreetly? After all, the first step in seeing a provider like me is usually filling out our booking forms.
 
-That's why [I designed my booking form with some unique privacy guarantees]({% link colophon/index.md %}#privacy-guarantees-of-first-contact) and built it to work directly with WhatsApp and Signal. Instead of using email relays or forwarding services, when you submit my booking form, you're able to send your very first message as discreetly as every future message.
+That's why [I designed my booking form with exceptional privacy guarantees]({% link resources/for-clients/discretion-maxxing/index.md %}#what-about-booking-forms) and built it to work directly with WhatsApp and Signal. Instead of using email relays or forwarding services, when you submit my booking form, you're able to send your very first message as discreetly as every future message.
 
 Have questions? As always, ask your provider, or [contact me](#contact) directly&mdash;and discreetly!
 
