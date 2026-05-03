@@ -239,7 +239,7 @@ layout: none
             var submitButton = document.getElementById('booking-inquiry-send-button');
             submitButton.textContent = ( e.currentTarget.checkValidity() )
                 ? "2. Send inquiry"
-                : "2. Check form fields";
+                : "2. Check fields";
         });
 
         $('#booking-inquiry-form').on('submit reset', function (e) {
@@ -294,6 +294,20 @@ Sincerely,
                 case 'email':
                     // Avoid dealing with URLSearchParams interface
                     // because of encoding complexness.
+                    // Also give the booking form its own, custom "plus address"
+                    // by decoding and re-encoding the email address itself.
+                    var bookingEmail = encodeURIComponent(
+                        '{{ site.contact.email }}'.replace('@', '+booking@')
+                    );
+                    // DEV NOTE: For some reason, the `pathname` instance property
+                    //           for a URL object is not writable (even though it
+                    //           is documented as being so.) Instead, we change the
+                    //           underlying element's HTML value here, as a kludge.
+                    var bookingHref  = el.attr('href').replace(
+                        /^(mailto:).*\?(.*)$/
+                        , `$1${bookingEmail}?$2`
+                    );
+                    url = new URL(bookingHref);
                     url.search = `?subject=Booking%20inquiry%20from%20${inquiryData.booking_inquiry_prospect_name}&body=${encodeURIComponent(templateText)}`;
                     break;
                 case 'xmpp':
