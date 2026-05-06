@@ -12,12 +12,14 @@ Content for the "Links" Panel.
                 {% if item.icon %}
                 <a href="{{ item.url }}" title="{{ item.title }}"
                     class="icon fa-2x fa-solid fa-{{ item.icon | downcase }}"
+                    {% for attr in item.anchor_attributes %}{{ attr[0] }}="{{ attr[1] }}"{% endfor %}
                     {% unless "/" == item_url_first_char %}target="_blank"{% endunless %}>
                 </a>
                 {% if item.label %}<div><a class="label icon fa-2x" href="{{ item.url }}">{{ item.label }}</a></div>{% endif %}
                 {% elsif item.svg %}
                 <a href="{{ item.url }}" title="{{ item.title }}"
                     class="icon fa-2x"
+                    {% for attr in item.anchor_attributes %}{{ attr[0] }}="{{ attr[1] }}"{% endfor %}
                     {% unless "/" == item_url_first_char %}target="_blank"{% endunless %}>
                     <img src="{{ site.url }}{{ item.svg | relative_url }}" alt="{{ item.title }}" loading="lazy"{% if item.style %} style="{{ item.style }}"{% endif%} />
                     {% if item.label %}<span class="label">{{ item.label }}</span>{% endif %}

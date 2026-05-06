@@ -27,4 +27,9 @@ X-EASTER-EGG;VALUE=text:Li brx'uh qrw rqh wr vdb "wzr'v frpsdqb, exw wkuhh'v d f
 {% for partner in site.data.partners -%}
 RELATED;TYPE=co-worker;VALUE=uri:{{ partner.urls[0].url }}{{ '' }}
 {% endfor -%}
+{% for group in site.data.social_urls %}{% for item in group.items -%}
+{% if item.anchor_attributes and item.anchor_attributes.rel == 'me' -%}
+RELATED;TYPE=me;VALUE=uri:{{ item.url }}{{ '' }}
+{% endif -%}
+{% endfor %}{% endfor -%}
 END:VCARD

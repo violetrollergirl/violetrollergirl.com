@@ -100,34 +100,48 @@
     label:
     svg: images/logo.tryst.svg
     url: https://tryst.link/escort/violetrollergirl
+    anchor_attributes:
+      rel: me
   - title: TS4Rent
     label:
     svg: images/logo.ts4rent.svg
     url: https://ts4rent.eu/violetrollergirl
+    anchor_attributes:
+      rel: me
   - title: The Erotic Review
     label: "TER ID: 401195"
     svg: images/logo.the-erotic-review.svg
     style: >
       filter: invert();
     url: https://www.theeroticreview.com/reviews/show.asp?id=401195
+    anchor_attributes:
+      rel: me
   - title: SaferChoice
     label: SaferChoice
     svg: images/logo.saferchoice.transparent.80x87.png
     style: >
       filter: invert();
     url: https://saferchoice.ch/explore/violet-rollergirl
+    anchor_attributes:
+      rel: me
   - title: Slixa
     label:
     svg: images/logo.slixa.white.svg
     url: https://www.slixa.com/new-york/new-york/violet-rollergirl
+    anchor_attributes:
+      rel: me
   - title: Velvet22
     label:
     svg: images/logo.velvet22.light-on-dark.transparent.726x197.png
     url: https://velvet22.com/trans/violet-rollergirl
+    anchor_attributes:
+      rel: me
   - title: Hunqz
     label:
     svg: images/logo.hunqz.svg
     url: https://www.hunqz.com/hunq/violetrollergirl
+    anchor_attributes:
+      rel: me
 
 - group_name: Even more
   description: >
@@ -140,6 +154,8 @@
     url: https://throne.com/violetrollergirl
     description: >
       Spoil me. :)
+    anchor_attributes:
+      rel: me
   - title: Payment Guides
     label: Payment Guides
     icon: money-bill-transfer
@@ -158,6 +174,8 @@
     label: Additional Health and Safety Guide
     icon: shield-halved
     url: http://ylyznmvgswureorc3tzc555trtjdtzgvkfjba5xkkkqcun55q3ny3yqd.onion/
+    anchor_attributes:
+      rel: me
     description: >
       More information for in-person meets.
       Requires [Tor Browser](https://torproject.org/){: target="_blank"} to view.
