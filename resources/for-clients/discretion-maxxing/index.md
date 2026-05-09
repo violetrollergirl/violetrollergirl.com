@@ -168,7 +168,7 @@ Yes, it's that easy.
 
 I know it can feel daunting to stare at an empty chat screen knowing your perfect provider is on the other side. That's one reason many professional companions also provide [booking forms](#contact) that help you make a good first impression.
 
-Some providers, like me, all but [*require* the use of a booking form]({% link resources/for-clients/booking-guide/index.md %}#fill-in-my-mad-lib-style-booking-form) to engage with new friends.
+Some providers, like me, all but [*require* the use of a booking form]({% link resources/for-clients/booking-guide/index.md %}#start-here-once-you-know-you-want-to-meet-me) to engage with new friends.
 
 [Booking forms have one purpose](https://bsky.app/profile/violetrollergirl.com/post/3mdxsouzq2k23){:target="_blank"}: to shape an introductory message and put it in a high-priority inbox so you're more likely to get a reply. If a companion has a booking form and you don't use it, you're sabotaging yourself.
 
