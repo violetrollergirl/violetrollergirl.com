@@ -108,6 +108,14 @@
     url: https://ts4rent.eu/violetrollergirl
     anchor_attributes:
       rel: me
+  - title: Ivy Societe
+    label: Ivy Societe
+    svg: images/logo.ivysociete.svg
+    style: >
+      filter: invert();
+    url: https://ivysociete.com/escorts/profile/violet-rollergirl
+    anchor_attributes:
+      rel: me
   - title: The Erotic Review
     label: "TER ID: 401195"
     svg: images/logo.the-erotic-review.svg
