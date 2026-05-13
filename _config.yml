@@ -9,6 +9,7 @@
 url: https://violetrollergirl.com
 #url: https://localhost:4000 # Comment the above line and uncomment this to test the website locally
 baseurl: / # For a site in a domain's Web-accessible root directory.
+onion: 7leifmsll6syh3fdnx2wlyfg6e7hfvi4xt2l5hafovtm4gqtqosudbyd # Onion domain for this site.
 
 # Basic site and authorship information.
 title: Violet Rollergirl

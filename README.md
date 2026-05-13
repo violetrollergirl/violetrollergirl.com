@@ -15,3 +15,18 @@ A website for Vi, based on [Photography](https://github.com/rampatra/photography
         gm convert -resize 512 images/gallery/fulls/$file images/gallery/thumbs/$file
     done
     ```
+
+## Mirroring to an Onion site
+
+To mirror this site to an Onion domain, use GNU `wget`:
+
+```shell
+wget --mirror --page-requisites\
+  --convert-links \
+  --domains=violetrollergirl.com,SOMEONION.onion \
+  https://violetrollergirl.com
+```
+
+The `--domain` spanning in combination with `--convert-links` makes `wget` treat both domains as equivalent, allowing links to be converted into relative paths correctly.
+
+This will unfortunately not handle `<script>location=` redirections. Working on it....

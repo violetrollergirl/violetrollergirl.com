@@ -29,6 +29,7 @@ So here's a bit of technical information regarding how it all works. But, first&
 1. [Easter eggs](#easter-eggs)
 1. [Technology stack](#technology-stack)
     1. [No server required](#no-server-required)
+    1. [Onion location hint](#onion-location-hint)
 1. [Permalinks for intra-page UI elements](#permalinks-for-intra-page-ui-elements)
 1. [Client-side booking form](#client-side-booking-form)
     1. [Mad-lib style form prose](#mad-lib-style-form-prose)
@@ -67,6 +68,10 @@ Jekyll is a popular *static site generator* written in the [Ruby](https://ruby-l
 Since my site is entirely static (c.f., dynamic, such as with a WordPress, Squarespace, Wix, or other site technology whose templates are not pre-rendered), I require no server-side compute cycles to publish it. All I require is a Domain Name System (DNS) registration and a Web (HTTP) server. This makes my site easy for me to migrate from one server to another when I need to (or if, like most sex workers, I am eventually banned from one platform or another), and also makes it relatively inexpensive to host.
 
 This characteristic also forms the basis of some of the more [novel and security-aware features](#privacy-guarantees-of-first-contact) I'm most proud of.
+
+### Onion location hint
+
+My site exists simultaneously as a regular, "clearnet" Web site, as well as [a darknet Onion site](http://{{ site.onion }}.onion/index.html). Learn more [about how Onion sites protect your privacy]({% link resources/for-clients/discretion-maxxing/index.md %}#tor-browser-safe-anonymous-web-browsing).
 
 <!-- YOU'VE FOUND AN EASTER EGG!
 ## Typography
