@@ -54,7 +54,7 @@ The biggest issue with them is simply that messages often get dropped, or simply
 Signal Private Messenger is free and available for iOS via the App Store and Android via the Google Play Store. There is also a Desktop version of the app available for macOS, Windows, and most major GNU/Linux distributions, but it acts as an add-on to the app on your phone, so install the mobile app version first.
 
 {:.align-center}
-{% include link-as-button.md anchor_text="Get Signal" url="https://signal.org/download/" target="_blank" %}
+{% include link-as-button.md anchor_text="<span class='icon fa-brands fa-signal-messenger'></span> Get Signal" url="https://signal.org/download/" target="_blank" %}
 
 Once you have Signal installed, open the app on your phone and run through its straightforward [registration process](https://support.signal.org/hc/en-us/articles/360007318691-Register-a-phone-number){:target="_blank"}.
 
