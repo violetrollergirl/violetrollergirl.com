@@ -8,7 +8,7 @@ next: resources/for-clients/messaging-discreetly/
 featured_image:
   alt:
   url: images/gallery-originals/jungle-princess.jpg
-last_modified: Thu Apr 30 21:36:13 EDT 2026
+last_modified: Thu May 14 15:27:18 EDT 2026
 ---
 
 # {{ site.title }}'s Guide to Booking an Escort Completely Secretly
@@ -30,6 +30,7 @@ For our purposes, it means that if you're looking to book an escort and want to 
     1. [Signal Private Messenger: Actually private messaging](#signal-private-messenger-actually-private-messaging)
     1. [Shielded Zcash: Encrypted electronic money](#shielded-zcash-encrypted-electronic-money)
 1. [Use Tor Browser to visit only reputable escort malls and ad sites](#use-tor-browser-to-visit-only-reputable-escort-malls-and-ad-sites)
+    1. [Choose Onion domains over clearnet domains](#choose-onion-domains-over-clearnet-domains)
 1. [Use Signal Private Messenger to contact the companion you chose](#use-signal-private-messenger-to-contact-the-companion-you-chose)
     1. [What about booking forms?](#what-about-booking-forms)
     1. [What about ProtonMail?](#what-about-protonmail)
@@ -76,11 +77,13 @@ Basically, Tor Browser gives everyone who uses it the same non-descript disguise
 
 When you browse a website with Tor Browser:
 
-* Your <abbr title="Internet Service Provider">ISP</abbr> only knows you're using Tor, not which site you're actually browsing.
-    * For extreme levels of privacy, you can [connect to Tor via a Tor bridge](https://support.torproject.org/tor-browser/circumvention/using-bridges/) to hide the fact that you are even using Tor in the first place.
-    * When you're being censored by particularly fascistic networks, you may need to use a Tor bridge to connect to Tor in the first place.
-* The website you're visiting knows only that a Tor Browser user has connected, not which individual user you are.
-    * For extreme levels of protection from the website itself, [adjust Tor Browser's security level](https://support.torproject.org/tor-browser/features/security-levels/) to `Safest`.
+- Your <abbr title="Internet Service Provider">ISP</abbr> only knows you're using Tor, not which site you're actually browsing.
+    - For extreme levels of privacy, you can [connect to Tor via a Tor bridge](https://support.torproject.org/tor-browser/circumvention/using-bridges/) to hide the fact that you are even using Tor in the first place.
+    - When you're being censored by particularly fascistic networks, you may need to use a Tor bridge to connect to Tor in the first place.
+- The website you're visiting knows only that a Tor Browser user has connected, not which individual user you are.
+    - For extreme levels of protection from the website itself, [adjust Tor Browser's security level](https://support.torproject.org/tor-browser/features/security-levels/) to `Safest`.
+- Some sites, like [mine, offer a Tor-only version of themselves]({% link colophon/index.md %}#onion-location-hint) called Onion sites and are served from special `.onion` domain names.
+    - Browsing a site's Onion domain means both you and the site never leave the protections of the Tor network and  can further improve your privacy as you browse.
 
 ### Signal Private Messenger: Actually private messaging
 
@@ -152,9 +155,34 @@ Equipped with your digital privacy triforce, it's time to start your search for 
 
 This part is easy, and quite fun. Simply launch Tor Browser and use it like you would any other regular Web browser to visit search engines and escort malls that you know to be reputable.
 
-If you aren't familiar with any reputable sites for this purpose, consider starting at the [sites on which I maintain advertisements]({% link index.html %}#links-group-ad-listings). You may also want to peruse the [Good Client Guide](https://goodclientguide.com/){:target="_blank"} and [The Satisfaction Project](https://www.satisfactionproject.com/){:target="_blank"}, two websites devoted to learning about the paid companionship industry from a client's point of view. I also provide some [links to general booking guides and etiquette resources]({% link resources/for-clients/booking-guide/index.md %}#for-general-booking-guides-and-etiquette) for clients unfamiliar with the typical booking process.
+If you aren't familiar with any reputable sites for this purpose:
+
+- Consider starting at the [sites on which I maintain advertisements]({% link index.html %}#links-group-ad-listings).
+- Peruse two websites devoted to learning about the paid companionship industry from a client's point of view:
+    - [Good Client Guide](https://goodclientguide.com/){:target="_blank"}
+    - [The Satisfaction Project](https://www.satisfactionproject.com/){:target="_blank"}
+- I also provide some [links to general booking guides and etiquette resources]({% link resources/for-clients/booking-guide/index.md %}#for-general-booking-guides-and-etiquette) for clients unfamiliar with the typical booking process.
 
 By using Tor Browser, you ensure that neither your <abbr title="Internet Service Provider">ISP</abbr> nor the escort mall itself knows who you are, nor can they track you as you browse around the Web.
+
+### Choose Onion domains over clearnet domains
+
+Using Tor Browser helps you stay anonymous regardless of whether the Web site you're visiting accomodates your desire for privacy.
+
+Some websites, like mine, will go further and actually help you stay more private. These sites publish a Tor-only version of themselves that can only be accessed via Tor Browser. The sites are called "onions," a reference to Tor's famous analogy for how privacy-preserving [mixnets](https://en.wikipedia.org/wiki/Mix_network){:target="_blank"} work.
+
+{:.align-center}
+[![Simple diagram showing three nodes connecting two people communicating remotely, where each node is represented by the layer in a sliced onion.](https://web.archive.org/web/20260510003606if_/https://support.torproject.org/tor-browser/getting-started/about-tor-browser/how-tor-works.png)](https://support.torproject.org/tor-browser/getting-started/about-tor-browser/){:target="_blank"}
+
+You can browse my onion site if you're using Tor Browser by visiting its address like any other website:
+
+{:.align-center}
+[<span class="fa-icon fa-brands fa-tor-browser"></span> {{ site.title }}'s Onion site](http://{{ site.onion }}.onion{{ page.url | relative_url }}){:.button}
+
+This won't work if you're not already [browsing with Tor Browser](#tor-browser-safe-anonymous-web-browsing). In some versions of Tor Browser, you'll even see a pop-up that encourages you to automatically visit the `.onion` mirror of my site. It'll look something like this:
+
+{:.align-center}
+![Screenshot of Tor Browser's onion location hint.]({% link resources/for-clients/discretion-maxxing/screenshot.violetrollergirl-com.try-onion-sites.tor-browser.webp %}){:loading="lazy"}
 
 ## Use Signal Private Messenger to contact the companion you chose
 

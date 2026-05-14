@@ -7,7 +7,7 @@ description: >
 featured_image:
   alt:
   url: images/gallery-originals/violet-in-beige-and-marble-booth.jpg
-last_modified: Fri Feb  6 14:59:47 EST 2026
+last_modified: Thu May 14 15:52:42 EDT 2026
 ---
 
 # {{ site.title }}'s Website Colophon
@@ -63,15 +63,28 @@ My site is built on a very heavily customized rendition of a [Jekyll](https://je
 
 ### No server required
 
-Jekyll is a popular *static site generator* written in the [Ruby](https://ruby-lang.org/) programming language. There are many such [static site generators](https://jamstack.org/generators/), but I am personally most familiar with Jekyll. It uses a free templating language called [Liquid](https://shopify.github.io/liquid/) (originally developed by Shopify) to provide basic build-time logic and coalesce static HTML, CSS, and JavaScript page assets from individual reusable snippets.
+Jekyll is a popular *static site generator* written in the [Ruby](https://ruby-lang.org/) programming language. There are many such [static site generators](https://jamstack.org/generators/), but I am most familiar with Jekyll. It uses a free templating language called [Liquid](https://shopify.github.io/liquid/) (originally developed by Shopify) to provide basic build-time logic and coalesce static HTML, CSS, and JavaScript page assets from individual reusable snippets.
 
-Since my site is entirely static (c.f., dynamic, such as with a WordPress, Squarespace, Wix, or other site technology whose templates are not pre-rendered), I require no server-side compute cycles to publish it. All I require is a Domain Name System (DNS) registration and a Web (HTTP) server. This makes my site easy for me to migrate from one server to another when I need to (or if, like most sex workers, I am eventually banned from one platform or another), and also makes it relatively inexpensive to host.
+Since my site is entirely static (c.f., dynamic, such as with a WordPress, Squarespace, Wix, or other site technology whose templates are not pre-rendered), I require no server-side compute cycles to publish it. All I require is an Internet address and a Web (HTTP) server. This makes my site easy for me to migrate from one server to another when I need to or if, like most sex workers, I am eventually banned from one platform or another. This also makes it relatively inexpensive to host.
 
-This characteristic also forms the basis of some of the more [novel and security-aware features](#privacy-guarantees-of-first-contact) I'm most proud of.
+This characteristic also forms the basis of some of the more novel and security-aware features I'm most proud of.
 
 ### Onion location hint
 
-My site exists simultaneously as a regular, "clearnet" Web site, as well as [a darknet Onion site](http://{{ site.onion }}.onion/index.html). Learn more [about how Onion sites protect your privacy]({% link resources/for-clients/discretion-maxxing/index.md %}#tor-browser-safe-anonymous-web-browsing).
+Thanks to the ultimate simplicity of its implementation, my site exists simultaneously as a regular "clearnet" Web site and as [a darknet "Onion site"](http://{{ site.onion }}.onion{{ page.url | relative_url }}) accessible only to users of the [Tor network](https://torproject.org/){:target="_blank"}. I encourage everyone, but especially clients seeking maximum discretion, to [use that version of my website]({% link resources/for-clients/discretion-maxxing/index.md %}#choose-onion-domains-over-clearnet-domains).
+
+I proactively inform visitors who are using the special Tor Browser of the availability of my Onion site via an [Onion location hint](https://community.torproject.org/onion-services/advanced/onion-location/){:target="_blank"} in the `<head>` element on every page of my site. It looks something like this:
+
+```html
+<meta http-equiv="onion-location"
+      content="http://{{ site.onion }}.onion{{ page.url | relative_url }}"
+/>
+```
+
+In supporting browsers, such as some versions of Tor Browser, this creates a non-intrusive popup that visitors will see the first time they load a page on my clearnet site. The hint looks like this:
+
+{:.align-center}
+![Screenshot of Tor Browser's onion location hint.]({% link resources/for-clients/discretion-maxxing/screenshot.violetrollergirl-com.try-onion-sites.tor-browser.webp %}){:loading="lazy"}
 
 <!-- YOU'VE FOUND AN EASTER EGG!
 ## Typography
