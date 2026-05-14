@@ -180,10 +180,10 @@
       resources for both clients and providers.
   - title: Additional Health and Safety Guide
     label: Additional Health and Safety Guide
-    icon: shield-halved
+    icon: staff-snake
     url: http://ylyznmvgswureorc3tzc555trtjdtzgvkfjba5xkkkqcun55q3ny3yqd.onion/
     anchor_attributes:
       rel: me
     description: >
-      More information for in-person meets.
-      Requires [Tor Browser](https://torproject.org/){: target="_blank"} to view.
+      More health info for in-person meets.
+      Requires [<span class="fa-icon fa-brands fa-tor-browser"></span> Tor Browser](/resources/for-clients/discretion-maxxing/#tor-browser-safe-anonymous-web-browsing) to view.
