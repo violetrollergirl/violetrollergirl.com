@@ -164,20 +164,21 @@
       Spoil me. :)
     anchor_attributes:
       rel: me
-  - title: Payment Guides
-    label: Payment Guides
-    icon: money-bill-transfer
-    url: /resources/for-clients/using-cryptocurrency/
-    description: >
-      Get started with cryptocurrency and its
-      privacy benefits as a client or customer.
   - title: Resources
     label: Resources
     icon: scroll
     url: /resources/
     description: >
-      Additional privacy, discretion, and other
-      resources for both clients and providers.
+      Additional resources for both [clients](/resources/for-clients/) and [providers](/resources/for-providers/).
+  - title: Payment and Crypto Guides
+    label: Payment and Crypto Guides
+    icon: bitcoin
+    url: /faq/booking/payment-methods/
+    description: >
+      Quick-access to payment info including guides for getting started with
+      [cryptocurrency](/resources/for-clients/using-cryptocurrency/) and its
+      privacy benefits as a client or customer.
+      ([Provider crypto guides](/resources/for-providers/using-cryptocurrency/) also available!)
   - title: Additional Health and Safety Guide
     label: Additional Health and Safety Guide
     icon: staff-snake
