@@ -26,7 +26,9 @@ Let's talk about how to secure it, and how to keep yourself safe while you use i
 1. [Choosing hardware](#choosing-hardware)
     1. [What about iPhones?](#what-about-iphones)
 1. [Install GrapheneOS](#install-grapheneos)
+1. [Set up your user profiles in GrapheneOS](#set-up-your-user-profiles-in-grapheneos)
     1. [Set up your Owner profile in GrapheneOS](#set-up-your-owner-profile-in-grapheneos)
+    1. [Set up your secondary user profiles in GrapheneOS](#set-up-your-secondary-user-profiles-in-grapheneos)
 
 ## One phone or two?
 
@@ -107,9 +109,92 @@ The [GrapheneOS Web installer](https://grapheneos.org/install/web){:target="_bla
 {:.align-center}
 [Get GrapheneOS](https://grapheneos.org/install/web){:.button target="_blank"}
 
+## Set up your user profiles in GrapheneOS
+
+One of the most compelling reasons for sex workers to use GrapheneOS is [its support for Android's user profiles feature](https://grapheneos.org/features#improved-user-profiles){:target="_blank"}.
+
+User profiles make it easy to use one physical phone for more than one work persona or identity. As of this writing, multiple user profiles is also the only way to [get multiple Signal Private Messenger profiles]({% link resources/for-providers/signal-for-sex-work/index.md %}#getting-multiple-signal-profiles) short of having two physical phones.
+
+If you're a visual learner, watch Naomi Brockwell's quick introduction explaining GrapheneOS user profiles:
+
+{% include embed-youtube.html vid="YB01HHFitFA" %}
+
+As she also explains, each user profile on an Android-based operating system provides an isolated environment. You can install different apps in different user profiles, give each of those installations different privileges, or otherwise permit those apps different levels of access to the underlying system or your data. This feature really makes it feel like you have more than one phone, while providing the convenience of only carrying one around with you.
+
+There are two kinds of user profiles available to you on GrapheneOS:
+
+- Owner profile, sometimes also called an administrative user.
+- Secondary profiles, sometimes also called standard, unprivileged, or additional users.
+
+The owner profile is special. It has certain privileges that secondary profiles cannot be granted. The owner profile is the one you log into and set up first upon completing a GrapheneOS installation.
+
+After you unlock your phone's owner profile, you can create secondary profiles to serve a number of different purposes. You might use them to provide a workspace for a second work persona, experiment with unfamiliar apps, or further restsrict your use of apps that are especially annoying, addictive, or otherwise dangerous. Exactly how or if you set up any secondary profiles is up to you, but I think you'll find them useful.
+
+My recommendations for using GrapheneOS user profiles:
+
+- Use the Owner profile *solely* for administering the phone's system itself.
+    - Install most apps for other user profiles from this profile, but immediately disable them after installation.
+        - Disable an app on GrapheneOS by going to Settings &rarr; Apps &rarr; See all apps &rarr; tap the app &rarr; Disable.
+        - Exempt any app that you need for administering the phone, such as some baseband carrier apps.
+- Relegate *all* daily phone use to one of a number of secondary profiles.
+    - See [Set up your secondary user profiles in GrapheneOS](#set-up-your-secondary-user-profiles-in-grapheneos).
+- Set strong passcodes, not merely numeric PIN unlock codes, for *every* user profile.
+    - It's *okay*, albeit not great, to use the same passcode for secondary profiles of more-or-less equal sensitivity.
+
 ### Set up your Owner profile in GrapheneOS
 
-> TK-TODO
+As mentioned earlier, the owner profile in GrapheneOS is special. There are some things you can only do when working within this profile that you can't do when logged into secondary profiles. This is by design.
+
+When you first start up a new GrapheneOS phone, you must set up the Owner profile before you can do anything else. If you were not "paranoid," you could run through the new profile setup wizard and just begin using your phone like any other. Install whatever apps you want, set up your device settings as you see fit, and so on.
+
+However, doing things that way means you aren't taking advantage of the heightented compartmentalization features GrapheneOS offers. I recommend setting things up a little more intentionally.
+
+My recommendations for setting up your Owner profile in GrapheneOS:
+
+- Enable multiple user profiles, which can only be done from this profile.
+    - Find this toggle in Settings &rarr; System &rarr; Users &rarr; Allow multiple users.
+
+### Set up your secondary user profiles in GrapheneOS
+
+Think of a secondary user profile in GrapheneOS like a separate "virtual" phone.
+
+These profiles are granted broad yet limited privileges on the phone, and are isolated from other profiles. This makes a secondary profile perfect for compartmentalizing one of your personas or identities from another. It also means you can "turn off" the phone for a given persona while it's still turned on for another.
+
+As a sex worker, you probably have at least two personas:
+
+- Your legal, or government identity.
+- Your work, or public persona.
+
+I don't think most of you would be too surprised to learn that {{ site.title }} is not the name governments know me by. It *is* my "real" name, and I *do* go by this name in a great many social and personal contexts. But I don't want an app that knows my government name to know this name, too. Likewise, I don't want an app that knows me by this name to know my government name.
+
+That's a job for user profiles!
+
+Another nice perk of using profiles this way is that when you want to clock out of work from a certain persona, you just log out of that user profile. All the apps installed in that profile will close, and the profile's data will be put to rest. You won't receive any texts or alerts from any VoIP number, email account, or other app installed in that user profile until you log back in.
+
+As mentioned earlier, exactly how you set up secondary profiles is somewhat personal, but the point is that you set up at least some. Consider starting with a minimal set of profiles and adding more if you feel you outgrow them or want more separation.
+
+Secondary user profiles can only be created when you are logged into the Owner profile. To create a secondary profile:
+
+1. Log into the Owner profile on your GrapheneOS device if you are not already.
+1. Go to Settings &rarr; System &rarr; Users &rarr; Add user.
+1. Give your new user profile a name based on its *purpose* (like "Escorting"), not your persona's name.
+
+My recommendations for setting up your secondary user profiles in GrapheneOS:
+
+- Create a secondary user profile for your government identity.
+- Create another secondary user profile for each of your work personas.
+    - If you have an escort persona and a massage persona, this means you'll add two more personas, in addition to the profile for your government identity.
+    - To avoid doxing all your personas to anyone looking at your phone in person, name the profiles after the persona type, not your actual name.
+        - For example, you might name the profiles `Escorting` and `Massage`.
+        - Do *not* name profiles with your persona's actual names, as they will appear side-by-side on your screen.
+- Enable forwarding notifications to the current user.
+    - Find this option in Settings &rarr; System &rarr; Users &rarr; Send notifications to current user.
+- Disallow a secondary profile from running in the background unless it is a work persona or part of a set of profiles that you need to switch between to complete one larger task.
+    - Find this option in Settings &rarr; System &rarr; Users &rarr; tap the profile &rarr; Allow running in background.
+    - Your work personas should always be allowed to run in the background, as the larger task they are assigned to is, y'know, working.
+- Disallow a secondary profile from access to the phone and SMS/text message service unless it is one of your daily driver profiles. 
+    - Find this option in Settings &rarr; System &rarr; Users &rarr; tap the profile &rarr; Turn on phone calls &amp; SMS.
+    - Personas that use VoIP apps do *not* need to have this option enabled, so leave this disabled for those, too.
 
 {:.button-container}
 {% include link-as-button.md anchor_text="Previous: For Providers" url=page.prev %}

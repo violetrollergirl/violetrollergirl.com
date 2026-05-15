@@ -119,9 +119,7 @@ What information in a photo or video besides your face can tell people who or wh
 
 Street signs are obvious location markers, but clever sleuths can deduce your location by filtering on and then linking indirect details together, like the position of the sun in the sky, visible landmarks, and even the species of flora present in your media. I'll let fellow privacy educators [Naomi Brockwell](https://naomibrockwell.com/){:target="_blank"} and [Jose Monkey](https://josemonkey.com/){:target="_blank"} explain:
 
-<div class="align-center">
-<iframe style="max-width: 100%;" src="https://www.youtube-nocookie.com/embed/VaUsJvUMUgE?start=15" title="What Your Photos Reveal! by Naomi Brockwell TV" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
+{% include embed-youtube.html vid="VaUsJvUMUgE" start="15" %}
 
 If you want to get really good at this yourself, try playing a few rounds of [GeoGuessr](https://www.geoguessr.com/){:target="_blank"}. This game places you somewhere in the world and asks you to figure out where you are.
 
