@@ -55,21 +55,23 @@ Given infinite time, every defense can be defeated. Good defenders know this and
 - *detecting* attacks when they occur, and
 - *delaying* an attacker long enough for us to respond effectively.
 
-You're already very familiar with these tactics. For example, putting up a lawn sign that reads "this property is monitored by ADT security" is a deterrent because it discourages opportunistic burglars from robbing your home. Meanwhile, actually fitting your home with an alarm system is designed to detect a break in, should one occur. Finally, storing your valuables in a steel lockbox is a way to delay attackers from quickly accomplishing their mission.
+You're already very familiar with these tactics. For example, putting up a lawn sign that reads "this property is monitored by Acme security" is a deterrent because it discourages opportunistic burglars from robbing your home. Meanwhile, actually fitting your home with an alarm system is designed to detect a break in, should one occur. Finally, storing your valuables in a steel lockbox is a way to delay attackers from quickly accomplishing their mission.
 
-Taking your security to the next level means recognizing that while everything you do to protect yourself can be circumvented, doing anything that's effectively protecting you buys you more time to neuter an attack. And the paranoid defender wants all the time they can get.
+Taking your security to the next level means recognizing that while everything you do to protect yourself *can* be circumvented, doing anything that's effectively protecting you buys you more time in which to neutralize an attack. For example, if someone learns the password for one of your accounts but they don't log in to that account before you change it again, knowing your (now old) password doesn't help them much. This is why paranoid defenders want all the time we can get.
 
-That all said, I truly believe that there isn't an intelligence agency in the world who *really* cares about you doing sex work. They have bigger fish to fry. Not to mention many of the people in those agencies have&mdash;how shall I put this delicately&mdash;*conflicts of interest* with investigating sex workers for sex work.
+Another important thing to consider is who it is you can reasonably expect to be attacking you.
 
-So, you can relax.
+Frankly, I don't believe any intelligence agency in the world *really* cares about us doing sex work. They have bigger fish to fry. (Not to mention many of the people in those agencies have&mdash;how shall I put this delicately&mdash;*conflicts of interest* with investigating sex workers for sex work.) Your parents probably care way more, and if they disapprove of your line of work, they may also be in a position to bring quite a bit of anguish to your daily existence. (My sympathies if this is your situation. That's rough.)
 
-Most people, including sex workers, just don't need to concern themselves with anywhere near the level of cyber or operational security discussed in this subsection of my guides. However, there are real reasons to care about what you can do to make yourself safer. I'm assuming you're reading this because that's what you want to do, even if you don't really need it.
+So, you can (probably) relax. Most people, including sex workers, just don't need to concern themselves with anywhere near the level of cyber or operational security discussed in this subsection of my guides.
 
-Or not! My intent is to make this series of guides useful for everyone, even those who can't "just relax" about it all.
+Still, there are real reasons to care about strengthening the ways you protect your personal and your professional information. For one thing, we just don't know who might be out to get us, or why, or how resourced they really are. And for another, clients are *constantly* telling us they have to be careful, quiet, discreet, private, and all that. We all know most of these guys are fools projecting their own shame onto us, but I can say that others really do have good reasons to see providers who know how to be as safe digitally as we can be in person.
+
+I assume you're reading this because that's what you want to learn to do. My intent is to make this series useful for anyone who finds themselves in a position similar to ours, even if you (probably) don't *really* need it. Esepcially if you can't "just relax" about it at all.
 
 ## How to read these guides
 
-Since there's no one-size-fits-all approach to security, feel free to read this series of articles in whatever order you want.
+Since there's no one-size-fits-all approach to security, broadly speaking, feel free to read this series of articles in whatever order you want.
 
 As you're reading, you'll find references to other tools, techniques, or procedures that I mention elsewhere. Sometimes, the thing you're reading about won't even be possible unless you've already set yourself up with whatever other thing I discuss in some other article.
 
@@ -80,7 +82,9 @@ You didn't do anything wrong. You didn't go "out of order." You're just learning
 {:.align-center}
 ![Two charts, both labelled 'success.' The one on the left shows a linear path and is captioned, 'what people think it looks like.' The one on the right is squiggly, sometimes doubles back on itself, and is captioned, 'what it really looks like.']({% link resources/for-providers/who-are-paranoid/progress-is-not-linear-straight-line-consistency.jpeg %}){:loading="lazy"}
 
-I make my best effort to provide links between articles where relevant, and to call out prerequisites before getting too deeply into a given topic. But at the end of the day, I don't want anyone to treat these pages as scripture. Please treat them, instead, like a scroll of spells.
+I make my best effort to provide links between articles where relevant, and to call out prerequisites before getting too deeply into a given topic. The articles themselves are also constantly evolving. These aren't static, uneditable "posts," like snapshots in time published in a blog, but rather documents that grow with time like trees in an old growth forest.
+
+Most importantly, I don't want anyone to treat these pages as scripture. Please treat them, instead, like a scroll of spells. For if sex workers are to be so scorned as modern day witches, then [let us wield this apotropaic magic together]({% link consulting/for-providers/cybersecurity/index.md %}#a-protection-spell-not-a-checklist).
 
 ## List of paranoid security guides
 

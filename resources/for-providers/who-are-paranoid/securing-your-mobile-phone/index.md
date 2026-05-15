@@ -26,7 +26,7 @@ Let's talk about how to secure it, and how to keep yourself safe while you use i
 1. [Choosing hardware](#choosing-hardware)
     1. [What about iPhones?](#what-about-iphones)
 1. [Install GrapheneOS](#install-grapheneos)
-    1. [Set up your Owner profile](#set-up-your-owner-profile)
+    1. [Set up your Owner profile in GrapheneOS](#set-up-your-owner-profile-in-grapheneos)
 
 ## One phone or two?
 
@@ -96,18 +96,18 @@ That all said, here are my Apple-specific recommendations for how to use an iPho
 
 ## Install [GrapheneOS](https://grapheneos.org){:target="_blank"}
 
-Paranoia notwithstanding, [GrapheneOS strikes a fantastic balance](https://grapheneos.org/features){:target="_blank"} between usability, compatibility, and security. It's my recommended mobile phone operating system for any sex worker who needs serious protections without the desire to become a low-level free software expert, themselves.
+Paranoia notwithstanding, [GrapheneOS strikes a fantastic balance](https://grapheneos.org/features){:target="_blank"} between usability, compatibility, and security. It's my recommended mobile phone operating system for any sex worker who needs serious protections without the desire to become a code-level free software expert, themselves.
 
 Switching to GrapheneOS is not without pain points, but that's because switching from any operating system to another comes with a learning curve. If you're switching away from an Apple iOS device, you'll find a lot of things take some getting used to. If you're switching from Google's proprietary version of Android, you'll notice a lot is familiar but takes a bit more setting up.
 
 Regardless of where you're switching from, GrapheneOS has broad compatibility with apps and services that you probably depend on, so you can just start using it right away. But it also offers more private alternatives, making it easy to incrementally improve your security as you gain familiarity and confidence with its ecosystem.
 
-The [GrapheneOS Web installer](https://grapheneos.org/install/web){:target="_blank"} provides clear instructions that are easy to follow and is the recommended way to install GrapheneOS for most users:
+The [GrapheneOS Web installer](https://grapheneos.org/install/web){:target="_blank"} provides clear instructions that are easy to follow and is the recommended way to install GrapheneOS for most users. Once you have your Google Pixel in hand, you can immediately go get GrapheneOS and install it on your new phone.
 
 {:.align-center}
 [Get GrapheneOS](https://grapheneos.org/install/web){:.button target="_blank"}
 
-### Set up your Owner profile
+### Set up your Owner profile in GrapheneOS
 
 > TK-TODO
 
