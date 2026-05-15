@@ -7,7 +7,7 @@ featured_image:
   url: resources/for-providers/who-are-paranoid/business-card.your-favorite-hookers-favorite-hacker.webp
 prev: resources/for-providers/
 next: resources/for-providers/who-are-paranoid/securing-your-mobile-phone/
-last_modified: Thu May 14 16:56:11 EDT 2026
+last_modified: Fri May 15 16:53:31 EDT 2026
 ---
 
 # {{ site.title }}'s Security Guide for the Paranoid Sex Worker

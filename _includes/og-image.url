@@ -2,4 +2,16 @@
 This include is for the `<head>` of a page where the Open Graph
 Image URL is inserted dynamically.
 {% endcomment -%}
-{% if page.featured_image %}{{ page.featured_image.url | relative_url | prepend: site.url }}{% else %}{% link images/rollergirl-cyberpunk-banner.jpg %}{% endif -%}
+
+{%- capture url -%}
+{%- if page.featured_image -%}
+    {%- if page.featured_image.url contains "https://" -%}
+        {{- page.featured_image.url -}}
+    {%- else -%}
+        {{- page.featured_image.url | relative_url | prepend: site.url -}}
+    {%- endif -%}
+{%- else -%}
+    {%- link images/rollergirl-cyberpunk-banner.jpg -%}
+{%- endif -%}
+{%- endcapture -%}
+{{- url -}}
