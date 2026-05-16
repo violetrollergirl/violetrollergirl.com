@@ -149,10 +149,14 @@ When you first start up a new GrapheneOS phone, you must set up the Owner profil
 
 However, doing things that way means you aren't taking advantage of the heightented compartmentalization features GrapheneOS offers. I recommend setting things up a little more intentionally.
 
+Since the purpose of the Owner profile should solely be to administer the device, its content should remain sparse. All you need to do in the Owner profile is enable multiple user profiles, which can only be done from this profile. Find this toggle in Settings &rarr; System &rarr; Users &rarr; Allow multiple users.
+
+{% comment %}
 My recommendations for setting up your Owner profile in GrapheneOS:
 
 - Enable multiple user profiles, which can only be done from this profile.
     - Find this toggle in Settings &rarr; System &rarr; Users &rarr; Allow multiple users.
+{% endcomment %}
 
 ### Set up your secondary user profiles in GrapheneOS
 
