@@ -65,7 +65,7 @@ Frankly, I don't believe any intelligence agency in the world *really* cares abo
 
 So, you can (probably) relax. Most people, including sex workers, just don't need to concern themselves with anywhere near the level of cyber or operational security discussed in this subsection of my guides.
 
-Still, there are real reasons to care about strengthening the ways you protect your personal and your professional information. For one thing, we just don't know who might be out to get us, or why, or how resourced they really are. And for another, clients are *constantly* telling us they have to be careful, quiet, discreet, private, and all that. We all know most of these guys are fools projecting their own shame onto us, but I can say that others really do have good reasons to see providers who know how to be as safe digitally as we can be in person.
+Still, there are real reasons to care about strengthening the ways you protect your personal and your professional information. For one thing, we just don't know who might be out to get us, or why, or how resourced they really are. And for another, [clients are *constantly* telling us they have to be careful]({% link resources/for-clients/messaging-discreetly/index.md %}), quiet, discreet, private, and all that. We all know most of these guys are fools projecting their own shame onto us, but I can say that others really do have good reasons to see providers who know how to be as safe digitally as we can be in person.
 
 I assume you're reading this because that's what you want to learn to do. My intent is to make this series useful for anyone who finds themselves in a position similar to ours, even if you (probably) don't *really* need it. Esepcially if you can't "just relax" about it at all.
 
@@ -109,6 +109,6 @@ Found a typo? Have a better way to do something? I've done my best to thoroughly
 If you're a fellow provider and need help, have suggestions to improve this guide, or just want to talk cool privacy tech, please feel free to [contact me](#contact) or to [find me on any of my socials]({% link index.html %}#links-group-socials-amp-content)! I also offer [highly personalized, 1-on-1 consulting at sliding scale]({% link consulting/for-providers/cybersecurity/index.md %}) rates for fellow industry workers.
 
 {:.button-container}
-{% include link-as-button.md anchor_text="Previous: For Providers" url=page.prev %}
+{% include link-as-button.md anchor_text="<span class='fa-icon fa-solid fa-umbrella'></span> For Providers" url=page.prev %}
 [<span class="fa-icon fa-solid fa-house-chimney"></span> Home]({% link index.html %}){:.button}
 {% include link-as-button.md anchor_text="Next: Securing Your Mobile Phone" url=page.next %}

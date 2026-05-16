@@ -92,7 +92,7 @@ That all said, here are my Apple-specific recommendations for how to use an iPho
     - Find this option in Settings &rarr; Face ID &amp; Passcode &rarr; enter your passcode &rarr; Reset Face ID.
 - [Turn on Apple's Advanced Data Protection (ADP)](https://support.apple.com/en-us/108756){:target="_blank"}.
     - Find this option on iOS in Settings &rarr; tap your name &rarr; iCloud &rarr; Advanced Data Protection &rarr; Turn on Advanced Data Protection.
-    - Advanced Data Protection can and should also be enabled from your macOS laptop or desktop computer via:
+    - Advanced Data Protection can and should also be enabled from your macOS laptop or desktop computer, if you have one.
         - Find this option on macOS in  &rarr; System Settings &rarr; click your name &rarr; iCloud &rarr; Advanced Data Protection &rarr; Turn On.
     - Turning on Apple's ADP enables it for your entire Apple iCloud account and all compatible devices; you cannot enable it on a per-device basis.
 
