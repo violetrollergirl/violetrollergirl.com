@@ -149,14 +149,9 @@ When you first start up a new GrapheneOS phone, you must set up the Owner profil
 
 However, doing things that way means you aren't taking advantage of the heightented compartmentalization features GrapheneOS offers. I recommend setting things up a little more intentionally.
 
-Since the purpose of the Owner profile should solely be to administer the device, its content should remain sparse. All you need to do in the Owner profile is enable multiple user profiles, which can only be done from this profile. Find this toggle in Settings &rarr; System &rarr; Users &rarr; Allow multiple users.
+Since the purpose of the Owner profile should solely be to administer the device, its content should remain sparse. All you need to do in the Owner profile is enable multiple user profiles, which can only be done from this profile.
 
-{% comment %}
-My recommendations for setting up your Owner profile in GrapheneOS:
-
-- Enable multiple user profiles, which can only be done from this profile.
-    - Find this toggle in Settings &rarr; System &rarr; Users &rarr; Allow multiple users.
-{% endcomment %}
+Find this toggle in Settings &rarr; System &rarr; Users &rarr; Allow multiple users.
 
 ### Set up your secondary user profiles in GrapheneOS
 
@@ -187,7 +182,7 @@ My recommendations for setting up your secondary user profiles in GrapheneOS:
 
 - Create a secondary user profile for your government identity.
 - Create another secondary user profile for each of your work personas.
-    - If you have an escort persona and a massage persona, this means you'll add two more personas, in addition to the profile for your government identity.
+    - If you have an escort persona and a massage persona, this means you'll add two more profiles, in addition to the profile for your government identity.
     - To avoid doxing all your personas to anyone looking at your phone in person, name the profiles after the persona type, not your actual name.
         - For example, you might name the profiles `Escorting` and `Massage`.
         - Do *not* name profiles with your persona's actual names, as they will appear side-by-side on your screen.
@@ -201,5 +196,5 @@ My recommendations for setting up your secondary user profiles in GrapheneOS:
     - Personas that use VoIP apps do *not* need to have this option enabled, so leave this disabled for those, too.
 
 {:.button-container}
-{% include link-as-button.md anchor_text="Previous: For Providers" url=page.prev %}
+{% include link-as-button.md anchor_text="<span class='fa-icon fa-solid fa-umbrella'></span> For Providers" url=page.prev %}
 [<span class="fa-icon fa-solid fa-folder-tree"></span> Up](../){:.button}
