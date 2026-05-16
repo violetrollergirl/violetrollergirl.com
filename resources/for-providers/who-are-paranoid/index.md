@@ -67,7 +67,7 @@ So, you can (probably) relax. Most people, including sex workers, just don't nee
 
 Still, there are real reasons to care about strengthening the ways you protect your personal and your professional information. For one thing, we just don't know who might be out to get us, or why, or how resourced they really are. And for another, [clients are *constantly* telling us they have to be careful]({% link resources/for-clients/messaging-discreetly/index.md %}), quiet, discreet, private, and all that. We all know most of these guys are fools projecting their own shame onto us, but I can say that others really do have good reasons to see providers who know how to be as safe digitally as we can be in person.
 
-I assume you're reading this because that's what you want to learn to do. My intent is to make this series useful for anyone who finds themselves in a position similar to ours, even if you (probably) don't *really* need it. Esepcially if you can't "just relax" about it at all.
+I assume you're reading this because that's what you want to learn to do. My intent is to make this series useful for anyone who finds themselves in a position similar to ours, even if you (probably) don't *really* need it. Especially if you can't "just relax" about it at all.
 
 ## How to read these guides
 
