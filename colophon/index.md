@@ -41,6 +41,7 @@ So here's a bit of technical information regarding how it all works. But, first&
     1. [Privacy guarantees of first contact](#privacy-guarantees-of-first-contact)
         1. [Why my booking form doesn't use a third-party service](#why-my-booking-form-doesnt-use-a-third-party-service)
         1. [How my booking form avoids needing a third-party service](#how-my-booking-form-avoids-needing-a-third-party-service)
+    1. [Other benefits of avoiding a third-party service](#other-benefits-of-avoiding-a-third-party-service)
     1. [Steal my booking form code](#steal-my-booking-form-code)
 1. [Cryptocurrency tips and donation links](#cryptocurrency-tips-and-donation-links)
 
@@ -210,6 +211,13 @@ Hell, I'd be happy to prove this claim to you in person, perhaps while in my pan
 I believe the boon to privacy I gain by using this technique outweighs the disadvantage of possible user confusion: by directly invoking a locally installed app instead of submitting data to a remote third-party service, I'm able to actually provide prospective clientele exactly as much privacy as their chosen communication method implements because *only* their chosen communication method is party to their messages.
 
 Of course, it takes two to tango. If someone chooses to send an insecure SMS/text message instead of a Signal Private Messenger message, the privacy of our correspondence will be subpar. But at least *my* actions are not the ones forcing us to downgrade our security, and I can still take inquiries via the method that specific prospect prefers.
+
+### Other benefits of avoiding a third-party service
+
+Confidentiality and discretion was my driving motivation for designing a booking form this way. However, there are other benefits as well.
+
+- **Response assurance**: as inquiries are always sent from the client's app directly, there isn't any opportunity for them to accidentally mistype their return address, ensuring delivered messages are always ones I can reply to, should I choose to.
+- **Cost savings**: obviating the need for a third-party service means I don't spend any money to power my form, making this an additional way I keep booking costs lower than they would be otherwise.
 
 ### Steal my booking form code
 
