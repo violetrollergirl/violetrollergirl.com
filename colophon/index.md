@@ -218,6 +218,7 @@ Confidentiality and discretion was my driving motivation for designing a booking
 
 - **Response assurance**: as inquiries are always sent from the client's app directly, there isn't any opportunity for them to accidentally mistype their return address, ensuring delivered messages are always ones I can reply to, should I choose to.
 - **Cost savings**: obviating the need for a third-party service means I don't spend any money to power my form, making this an additional way I keep booking costs lower than they would be otherwise.
+- **Future proofing**: forms relying on a third-party service stop working when that service ships breaking changing or goes out of business, while my form will always work for as long as Web browsers support opening other apps.
 
 ### Steal my booking form code
 
