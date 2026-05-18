@@ -209,22 +209,6 @@ layout: none
                 default:
                     break
             }
-
-            // At the end of each fired `change` event, write the
-            // current values of all fields into sessionStorage so
-            // that they can be restored when opened.
-            document.querySelectorAll('#booking-inquiry-form [id^="booking-inquiry-prospect-"]').forEach(function (x) {
-                sessionStorage.setItem(x.id, x.value);
-            });
-        });
-
-        // When loading the window, make sure any info in the booking
-        // form saved in sessionStorage is restored.
-        $window.on('load', function (e) {
-            document.querySelectorAll('#booking-inquiry-form [id^="booking-inquiry-prospect-"]').forEach(function (x) {
-                var v = sessionStorage.getItem(x.id);
-                document.getElementById(x.id).value = (v) ? v : "";
-            });
         });
 
         // Form help text and any `.panel-closer-link`
@@ -242,89 +226,8 @@ layout: none
                 : "2. Check fields";
         });
 
-        $('#booking-inquiry-form').on('submit reset', function (e) {
-            e.preventDefault();
-            formData = $(this).serializeArray();
-            var inquiryData = formData.reduce(function (accumulator, currentValue) {
-                accumulator[currentValue.name] = currentValue.value;
-                return accumulator;
-            }, {} );
-            var templateText = `Hi {{ site.author.name | split: " " | first }}. Please allow me to introduce myself.
-
-My name is ${inquiryData.booking_inquiry_prospect_name}. I read your screening options and am comfortable being screened by ${inquiryData.booking_inquiry_prospect_preferred_screening_method}.
-
-My carrier phone number (for your screening purposes only) is ${inquiryData.booking_inquiry_prospect_carrier_phone}.
-
-I've been drawn to you since I found your Web site via ${inquiryData.booking_inquiry_prospect_source_referral}. More about me: ${inquiryData.booking_inquiry_prospect_attraction}
-
-My deposit is ready to send via ${inquiryData.booking_inquiry_prospect_deposit_method}.
-
-I'm ready to plan a date! May I reserve your time for ${inquiryData.booking_inquiry_prospect_booking_type} for your ${inquiryData.booking_inquiry_prospect_service_type} for a duration of ${inquiryData.booking_inquiry_prospect_duration} hours when I will be in ${inquiryData.booking_inquiry_prospect_location} on ${new Date(inquiryData.booking_inquiry_prospect_preferred_datetime)}, or alternatively, on ${new Date(inquiryData.booking_inquiry_prospect_alternate_datetime)}. Would either of these options allow us to meet?
-
-I'm excited to hear from you!
-
-Sincerely,
--${inquiryData.booking_inquiry_prospect_name}`;
-
-            // If the user just wants to copy to clipboard...
-            if ( 'reset' === e.type ) {
-                try {
-                    navigator.clipboard.writeText(templateText);
-                    $(this)
-                        .find('button[type="reset"]')
-                        .text('Copied!');
-                } catch (err) {
-                    console.error(err);
-                }
-                // ...end processing, don't rewrite links.
-                return false;
-            }
-
-            var method = inquiryData.booking_inquiry_prospect_preferred_contact_method;
-            var el     = $('#contact-link-' + method);
-            var oldUrl = el.attr('href'); // Read hyperlink.
-            var url    = new URL(oldUrl);
-            switch ( method ) {
-                case 'whatsapp':
-                    url.searchParams.set('text', templateText);
-                    break;
-                case 'sms':
-                    url.searchParams.set('body', templateText);
-                    break;
-                case 'email':
-                    // Avoid dealing with URLSearchParams interface
-                    // because of encoding complexness.
-                    // Also give the booking form its own, custom "plus address"
-                    // by decoding and re-encoding the email address itself.
-                    var bookingEmail = encodeURIComponent(
-                        '{{ site.contact.email }}'.replace('@', '+booking@')
-                    );
-                    // DEV NOTE: For some reason, the `pathname` instance property
-                    //           for a URL object is not writable (even though it
-                    //           is documented as being so.) Instead, we change the
-                    //           underlying element's HTML value here, as a kludge.
-                    var bookingHref  = el.attr('href').replace(
-                        /^(mailto:).*\?(.*)$/
-                        , `$1${bookingEmail}?$2`
-                    );
-                    url = new URL(bookingHref);
-                    url.search = `?subject=Booking%20inquiry%20from%20${inquiryData.booking_inquiry_prospect_name}&body=${encodeURIComponent(templateText)}`;
-                    break;
-                case 'xmpp':
-                    // According to XEP-0147, XMPP URI Scheme Query Components
-                    // require different parameter handling than normal URIs.
-                    var xmppAction = 'message';
-                    url.search = `?${xmppAction};subject=Booking%20inquiry%20from%20${inquiryData.booking_inquiry_prospect_name};body=${encodeURIComponent(templateText)}`;
-                    break;
-                default:
-                    break;
-            }
-            el.attr('href', url.toString()); // Rewrite hyperlink.
-            el[0].click(); // Click DOM element, not jQuery object.
-            el.attr('href', oldUrl); // Restore original.
-
-            // If we have any form field data saved in sessionStorage, clear it.
-            sessionStorage.clear(); // THIS CLEARS EVERYTHING. No one else is using it, right?
+        document.getElementById('booking-inquiry-copy-button').addEventListener('click', function (e) {
+            this.innerText = 'Copied!';
         });
 
         // Panels.
