@@ -13,6 +13,11 @@ layout: none
 (function () { // Start IIFE.
 
     /**
+     * The working name of the provider who will receive the inquiry.
+     */
+    const providerName = '{{ site.author.name | split: " " | first }}';
+
+    /**
      * This is the HTML ID of the booking form's `<form>` element.
      */
     const formId = 'booking-inquiry-form';
@@ -33,7 +38,7 @@ layout: none
      * We `return` this text so as to defer evaluation for later.
      */
     const inquiryText = function (inquiryData) {
-        return `Hi {{ site.author.name | split: " " | first }}. Please allow me to introduce myself.
+        return `Hi ${providerName}. Please allow me to introduce myself.
 
 My name is ${inquiryData.get('booking_inquiry_prospect_name')}. I read your screening options and am comfortable being screened by ${inquiryData.get('booking_inquiry_prospect_preferred_screening_method')}.
 

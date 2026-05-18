@@ -1,0 +1,49 @@
+---
+layout: none
+---
+
+<p>
+    You can reach me via
+    <a href="mailto:{{ site.contact.email }}" id="contact-link-email">email</a>
+    or
+    <a href="sms:{{ site.contact.sms.tel }}" id="contact-link-sms">text message</a>.
+</p>
+
+<form id="booking-inquiry-form">
+<p>
+    Your name:
+    <input
+        name="booking_inquiry_prospect_name"
+        required />
+</p>
+<p>
+    Your number (for screening):
+    <input
+        name="booking_inquiry_prospect_carrier_phone"
+        type="tel"
+        required />
+</p>
+<p>
+    Requested date:
+    <input
+        name="booking_inquiry_prospect_preferred_datetime"
+        type="datetime-local"
+        required />
+</p>
+<p>
+    Your preferred contact method:
+    <select name="booking_inquiry_prospect_preferred_contact_method">
+        <option>email</option>
+        <option value="sms">SMS/text message</option>
+    </select>
+</p>
+<p>
+    <button type="reset">
+        Copy
+    </button>
+    <button type="submit">
+        Send
+    </button>
+</p>
+</form>
+<script src="{% link assets/js/rollergirl-booking-form.js %}"></script>

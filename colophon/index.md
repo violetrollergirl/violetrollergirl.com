@@ -8,6 +8,8 @@ featured_image:
   alt:
   url: images/gallery-originals/violet-in-beige-and-marble-booth.jpg
 last_modified: Thu May 14 15:52:42 EDT 2026
+prev: /
+next: /colophon/booking-form-code/
 ---
 
 # {{ site.title }}'s Website Colophon
@@ -220,9 +222,11 @@ Confidentiality and discretion was my driving motivation for designing a booking
 - **Cost savings**: obviating the need for a third-party service means I don't spend any money to power my form, making this an additional way I keep booking costs lower than they would be otherwise.
 - **Future proofing**: forms relying on a third-party service stop working when that service ships breaking changing or goes out of business, while my form will always work for as long as Web browsers support opening other apps.
 
-### Steal my booking form code
+### Steal [my booking form code]({% link colophon/booking-form-code/index.md %})
 
 I don't mean to denigrate other providers in comparing my booking form to theirs. Rather, my intent is to share my methods here in the hope that other providers implement these techniques for themselves. If more do so, we can collectively raise the standard of privacy protections offered to the clientele in our industry more broadly.
+
+If you are an implementer, please find [further documentation and a minimal working example of my booking form code]({% link colophon/booking-form-code/index.md %}).
 
 Sex, pleasure, and companionship is a team sport. It's clear that when we protect the communication with our clients, we protect ourselves. When our clients protect us, they are also protecting themselves, too.
 
