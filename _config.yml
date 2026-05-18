@@ -24,12 +24,17 @@ include:
   - .well-known
   - .security-policy
 
-# Contact details and templates.
+###
+# Contact details and booking templates.
+###
 booking:
   subject: Booking inquiry
   template_txt: |-
     Hi Violet, my name is __. I found you via your website and would like to book an INCALL/OUTCALL on __ for __ hours in CITY. Thanks!
   template: "" # TODO: A more complete text template.
+  # Special booking email address.
+  email: violetrollergirl+booking@protonmail.com
+
 contact:
   email: violetrollergirl@protonmail.com
   signal:

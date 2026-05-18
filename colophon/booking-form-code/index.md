@@ -28,7 +28,7 @@ You will need:
 My script expects your booking form code to follow certain conventions but beyond what's documented here you're free to make your form look and feel however you want.
 
 1. Save a copy of [the booking form script]({% link assets/js/rollergirl-booking-form.js %}).
-1. At a minimum, replace my name with your name in the line that sets the `providerName` `const`ant in your copy of the script.
+1. At a minimum, replace my name and email address with your name and email address in the lines that set the `providerName` and `bookingEmail` `const`ants in your copy of the script.
 1. Copy the source code of the [minimal working example]({% link colophon/booking-form-code/example.html %}) to somewhere on your own website.
 
 That's it.
@@ -49,6 +49,12 @@ By default, my script will look for a `form` element whose `id` value is exactly
 ```
 
 If your booking form has a different `id` value, you can inform my script about this by changing its `formId` value.
+
+# Choosing a custom email address for delivery
+
+When sending email, the script will default to using whatever email address is in the email link it reads from your page. However, many providers (including me), use special email addresses such as "[plus addressing](https://proton.me/support/addresses-and-aliases#plus){:target="_blank"}" to filter email that comes from different sources more intelligently.
+
+To set a custom override email address used only when email is composed through the form, set a `bookingEmail` value near the top of the script. To disable this behavior, set this value to `false`.
 
 # Modifying the message that gets written
 

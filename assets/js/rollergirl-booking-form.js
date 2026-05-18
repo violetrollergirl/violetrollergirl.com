@@ -18,6 +18,18 @@ layout: none
     const providerName = '{{ site.author.name | split: " " | first }}';
 
     /**
+     * Set a custom email addres, e.g., to add "plus-addressing" if you
+     * want emails to go to a separate label.
+     *
+     * If you want to use the email address that is embedded in the link
+     * you use for contacting you, set this to a `false` or empty value.
+     *
+     * See:
+     *     https://proton.me/support/addresses-and-aliases#plus
+     */
+    const bookingEmail = '{{ site.booking.email }}';
+
+    /**
      * This is the HTML ID of the booking form's `<form>` element.
      */
     const formId = 'booking-inquiry-form';
@@ -73,7 +85,10 @@ Sincerely,
         var fieldData = sessionStorage.getItem(sessionStorageKey);
         var fields = (fieldData) ? JSON.parse(fieldData) : [];
         fields.forEach(function (x) {
-            document.querySelector(`#${formId} [name=${x[0]}]`).value = (x[1]) ? x[1] : "";
+            var el = document.querySelector(`#${formId} [name=${x[0]}]`);
+            if (el) {
+                el.value = (x[1]) ? x[1] : "";
+            }
         });
     });
 
@@ -108,29 +123,33 @@ Sincerely,
                     url.searchParams.set('body', templateText);
                     break;
                 case 'email':
+                    // Get address from the appropriate anchor element.
+                    var email = new URL(el.getAttribute('href')).pathname;
+
                     // Avoid dealing with URLSearchParams interface
                     // because of encoding complexness.
-                    // Also give the booking form its own, custom "plus address"
-                    // by decoding and re-encoding the email address itself.
-                    var bookingEmail = encodeURIComponent(
-                        '{{ site.contact.email }}'.replace('@', '+booking@')
-                    );
+                    // Also give the booking form an option to have its own
+                    // special email delivery address override, for
+                    // "plus addressing" or similar special email features.
+                    var to = (bookingEmail)
+                        ? encodeURIComponent(bookingEmail)
+                        : email;
                     // DEV NOTE: For some reason, the `pathname` instance property
                     //           for a URL object is not writable (even though it
                     //           is documented as being so.) Instead, we change the
                     //           underlying element's HTML value here, as a kludge.
                     var bookingHref  = el.getAttribute('href').replace(
-                        /^(mailto:).*\?(.*)$/
-                        , `$1${bookingEmail}?$2`
+                        /^(mailto:).*\??(.*)$/,
+                        `$1${to}$2`
                     );
                     url = new URL(bookingHref);
-                    url.search = `?subject=Booking%20inquiry%20from%20${inquiryData.booking_inquiry_prospect_name}&body=${encodeURIComponent(templateText)}`;
+                    url.search = `?subject=Booking%20inquiry%20from%20${inquiryData.get('booking_inquiry_prospect_name')}&body=${encodeURIComponent(templateText)}`;
                     break;
                 case 'xmpp':
                     // According to XEP-0147, XMPP URI Scheme Query Components
                     // require different parameter handling than normal URIs.
                     var xmppAction = 'message';
-                    url.search = `?${xmppAction};subject=Booking%20inquiry%20from%20${inquiryData.booking_inquiry_prospect_name};body=${encodeURIComponent(templateText)}`;
+                    url.search = `?${xmppAction};subject=Booking%20inquiry%20from%20${inquiryData.get('booking_inquiry_prospect_name')};body=${encodeURIComponent(templateText)}`;
                     break;
                 default:
                     break;
