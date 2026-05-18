@@ -8,7 +8,7 @@ layout: none
  *     https://violetrollergirl.com/colophon/#privacy-guarantees-of-first-contact
  *
  * Documentation:
- *     https://violetrollergirl.com/colophon/booking-form/code/
+ *     https://violetrollergirl.com/colophon/booking-form-code/
  */
 (function () { // Start IIFE.
 
