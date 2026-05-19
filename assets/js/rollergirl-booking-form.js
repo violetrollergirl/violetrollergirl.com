@@ -138,7 +138,7 @@ Sincerely,
                     //           for a URL object is not writable (even though it
                     //           is documented as being so.) Instead, we change the
                     //           underlying element's HTML value here, as a kludge.
-                    var bookingHref  = el.getAttribute('href').replace(
+                    var bookingHref = el.getAttribute('href').replace(
                         /^(mailto:).*\??(.*)$/,
                         `$1${to}$2`
                     );
