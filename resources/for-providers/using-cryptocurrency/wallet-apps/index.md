@@ -93,7 +93,7 @@ I like to say that Zodl is to money what Signal Private Messenger is to speech: 
 Zodl runs on Apple iOS or Android devices, including [GrapheneOS](https://grapheneos.org/){:target="_blank"}, the privacy-focused, de-Google-ified Android alternative:
 
 {:.align-center}
-{% include link-as-button.md anchor_text="Go install Zodl now" url="https://zodl.com/" target="_blank" %}
+{% include link-as-button.md anchor_text="Get Zodl now" url="https://zodl.com/" target="_blank" %}
 
 Some other unique features that make Zodl particularly attractive to privacy coin novices are:
 
