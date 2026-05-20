@@ -9,7 +9,7 @@ featured_image:
   url: images/gallery-originals/black-dress-gold-jewelry-in-rainy-bar-patio.jpg
 prev: resources/for-clients/discretion-maxxing/
 next: resources/for-clients/using-cryptocurrency/
-last_modified: Sun May  3 00:50:49 EDT 2026
+last_modified: Wed May 20 09:03:57 EDT 2026
 ---
 
 # {{ site.title }}'s guide to messaging (your sex worker) discreetly
@@ -33,9 +33,13 @@ If discretion is what you need, oh baby, let me show you better ways:
 1. [Discretion versus screening](#discretion-versus-screening)
 1. [Tradecraft for discretion: plausible deniability and encryption](#tradecraft-for-discretion-plausible-deniability-and-encryption)
 1. [Common mistakes: burner numbers, extra apps, or even multiple phones](#common-mistakes-burner-numbers-extra-apps-or-even-multiple-phones)
+    1. [Use a Private Space in Android](#use-a-private-space-in-android)
 1. [Recommended discreet messaging tools](#recommended-discreet-messaging-tools)
     1. [Using WhatsApp's Chat Lock feature](#using-whatsapps-chat-lock-feature)
     1. [Ultimate privacy: Signal Private Messenger with Screen Lock](#ultimate-privacy-signal-private-messenger-with-screen-lock)
+1. [Runners up](#runners-up)
+    1. [Encrypted email (not necessarily Proton Mail)](#encrypted-email-not-necessarily-proton-mail)
+    1. [Rich Communication Services (RCS)](#rich-communication-services-rcs)
 1. [Inquiring discreetly](#inquiring-discreetly)
 
 ## Discretion versus screening
@@ -65,7 +69,7 @@ For example, if you already have and use [WhatsApp](https://www.whatsapp.com/){:
 
 ## Common mistakes: burner numbers, extra apps, or even multiple phones
 
-Unfortunately, many uninformed clients think using a burner number or an extra texting app is more discreet. Their rationale is that by keeping messages in a dedicated app and out of their main text message or email inbox, messages will be harder to spot.
+Unfortunately, many uninformed clients think using a burner number or an extra texting app is more discreet. Their common yet misguided belief is that messages will be harder to spot by keeping our correspondence in a dedicated app and out of their main text message or email inbox.
 
 However, if someone is already looking at your phone's screen, which do you think is harder to explain: a bit of text with an innocent subject line buried in the torrent of your normal, personal email inbox, or a whole new app icon visible to anyone flipping across the pages of your home screen?
 
@@ -73,7 +77,11 @@ Meanwhile, logging into "spicy" email accounts means risking being exposed by a 
 
 This is the same reason why having a second phone is also instantly suspicious. Unless you're someone who *already* has a second phone for an alternative reason, getting caught switching between two phones is probably the least discreet thing you can do.
 
-All of these techniques obviously fail the plausible deniability test. But they also fail the encryption test: most of these burner apps are actively selling your data, including your message content. This is doubly true for the "free" messaging apps or services.
+All of these techniques obviously fail the plausible deniability test. But they *also* fail the encryption test: most of these burner apps are actively selling your data, including your message content. This is doubly true for the "free" messaging apps or services.
+
+### Use a Private Space in Android
+
+If you insist on using extra apps, and you have an Android phone, at least use the built-in [Private Space](https://support.google.com/android/answer/15341885){:target="_blank"} feature. When you create a Private Space, you can install apps that are not shown on your main launcher or home screen. You can even [hide the existence of the Private Space](https://support.google.com/android/answer/15341885?hl=en#zippy=%2Chide-your-private-space-in-all-apps){:target="_blank"}.
 
 ## Recommended discreet messaging tools
 
@@ -105,8 +113,8 @@ If you've been paying particularly close attention, you may notice that while th
 Read more about Chat Lock in the WhatsApp support pages for iPhone and Android, respectively:
 
 {:.align-center}
-{% include link-as-button.md anchor_text="<span class='icon fa-brands fa-apple'></span>Hide Locked Chats (iPhone)" url="https://faq.whatsapp.com/764072925284841/?cms_platform=iphone#hide-locked-chats" target="_blank" %}
-{% include link-as-button.md anchor_text="<span class='icon fa-brands fa-android'></span>Hide Locked Chats (Android)" url="https://faq.whatsapp.com/764072925284841/?cms_platform=android#view-your-locked-chats-folder" target="_blank" %}
+{% include link-as-button.md anchor_text="<span class='icon fa-brands fa-apple'></span> Hide on iOS" url="https://faq.whatsapp.com/764072925284841/?cms_platform=iphone#hide-locked-chats" target="_blank" %}
+{% include link-as-button.md anchor_text="<span class='icon fa-brands fa-android'></span> Hide on Android" url="https://faq.whatsapp.com/764072925284841/?cms_platform=android#view-your-locked-chats-folder" target="_blank" %}
 
 It's hard to beat WhatsApp's Chat Lock feature for discretion. Its combination of ease of use, plausible deniability, and sufficiently strong encryption makes it an almost perfect choice for most clients.
 
@@ -121,6 +129,45 @@ However, to approximate the plausible deniability of WhatsApp's Chat Lock, use t
 - [Set a disappearing message timer](https://support.signal.org/hc/en-us/articles/360007320771-Set-and-manage-disappearing-messages){:target="_blank"} so chat messages are automatically cleared when the timer runs down.
 - [Remember to *archive* the Signal chat thread](https://support.signal.org/hc/en-us/articles/360007321231-Archiving-or-unarchiving-chats){:target="_blank"} with your provider after chatting with them, not just mark it as read, so the thread doesn't show up in the main chat list.
 - [Disable Signal notifications](https://support.signal.org/hc/en-us/articles/360043273491-In-App-Notification-Options){:target="_blank"} from the sensitive chat so that notifications don't appear unexpectedly.
+
+If you need to keep the presence of Signal itself more discreet and you have an Android phone, [use it inside of a Private Space](#use-a-private-space-in-android).
+
+## Runners up
+
+To be clear: [Signal is my favorite]({% link resources/for-providers/signal-for-sex-work/index.md %}) messaging system because it is the most private. WhatsApp is a distant second, but potentially offers better plausible deniability for some clients.
+
+If you can use either of those messengers to contact the provider you want to reach out to, please do. Otherwise, if you absolutely must use a different channel, here are your options.
+
+### Encrypted email (not necessarily Proton Mail)
+
+Many escorts prefer communicating by email rather than a messaging app with a more chat-like experience. While email *cannot* be made as discreet as using the Signal Protocol that [Signal Private Messenger invented and WhatsApp later adopted](https://signal.org/blog/whatsapp-complete/){:target="_blank"}, you can dramatically increase your privacy by being aware of some basic email privacy facts.
+
+This is the golden rule of private email: if you haven't encrypted your email messages manually, then you haven't encrypted your email messages at all *unless* you're sending email to someone using the same service you are. In other words:
+
+- If they have a [Proton Mail](https://protonmail.com/){:target="_blank"} email inbox, send them messages from a Proton Mail address yourself.
+- If they have a [Tuta](https://tuta.com/){:target="_blank"} email inbox, send them messages from a Tuta address yourself.
+
+If you send email from Gmail to Proton Mail, it is *not* private or encrypted. If you send email from Proton Mail to Tuta Mail, it is also *not* private or encrypted, even though both those services are "encrypted" email providers.
+
+The only way to get cross-provider private email is to do the encryption yourself with a technology that humbly calls itself [Pretty Good Privacy](https://www.openpgp.org/){:target="_blank"}, or PGP. To make use of it, you'll need some additional software and the sharable encryption code for your recipient, called [their public key](https://proton.me/support/download-public-private-key#:~:text=You%20can%20also%20download%20your%20own%20public%20key%20or%20the%20key%20of%20a%20friend%20by%20using%20this%20link){:target="_blank"}.
+
+{:.fa-ul}
+- <span class="fa-li fa-solid fa-globe"></span> Use [Mailvelope](https://mailvelope.com/){:target="_blank"} if you access email in a desktop Web browser.
+- <span class="fa-li fa-brands fa-android"></span> Use [OpenKeychain](https://www.openkeychain.org/){:target="_blank"} paired with [Thunderbird Mobile](https://www.thunderbird.net/mobile/){:target="_blank"} if you access email on an Android phone.
+- <span class="fa-li fa-brands fa-apple"></span> Use [iPGMail](https://ipgmail.com/){:target="_blank"} if you access email on an Apple iOS device.
+
+Once you have the necessary software, find and import your contact's PGP key into it. Here's mine:
+
+{:.align-center}
+[<span class="fa-icon fa-solid fa-key"></span> Violet's PGP key](https://mail-api.proton.me/pks/lookup?op=get&search={{ site.contact.email }} "Download {{ site.contact.email }}'s OpenPGP Public Key"){:.button target="_blank"}
+
+Then, turn on the encryption features of your apps. Plenty of guides about how to do this exist online&mdash;[here's Proton Mail's guide to using PGP](https://proton.me/support/how-to-use-pgp){:target="_blank"}. But if all this email stuff seems like a hassle, then **just [use Signal](#recommended-discreet-messaging-tools), or at least WhatsApp.**
+
+### Rich Communication Services (RCS)
+
+While not widely supported yet, [Rich Communication Services, or RCS](https://en.wikipedia.org/wiki/Rich_Communication_Services){:target="_blank"} chats, aims to bring at least some level of privacy to otherwise plain SMS/text messaging. Unfortunately, all that's worth saying about it here is that it won't work with VoIP numbers or burner apps.
+
+To use the privacy features of RCS chats, you must be using a carrier number, and so must the provider you're reaching out to. And at that point, well, you might as well just use Signal for its superior privacy anyway.
 
 ## Inquiring discreetly
 

@@ -1,0 +1,6 @@
+{% comment %}
+URL of the location of my site's contact email's public key.
+
+This is Proton Mail's public key server for now.
+{% endcomment -%}
+https://mail-api.proton.me/pks/lookup?op=get&search={{ site.contact.email }}

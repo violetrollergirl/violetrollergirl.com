@@ -80,14 +80,6 @@ along with a bunch of additional instruction.
                             <select name="booking_inquiry_prospect_preferred_contact_method" id="booking-inquiry-prospect-preferred-contact-method"
                                 class="form-select"
                                 required="required"
-                                onchange="
-                                    ('sms' === this.value)
-                                    ? $('#contact-method-reliability-warning').show()
-                                    : $('#contact-method-reliability-warning').hide();
-                                    ('signal' === this.value)
-                                    ? $('#contact-method-step-3').show() && $('#contact-method-signal-discount').show()
-                                    : $('#contact-method-step-3').hide() && $('#contact-method-signal-discount').hide();
-                                "
                             >
                                 <option value="" disabled="disabled" selected="selected" hidden="hidden">Choose contact method.</option>
                                 <option value="signal">Signal Private Messenger</option>
@@ -99,11 +91,15 @@ along with a bunch of additional instruction.
                         </span><!-- .select-wrapper -->
                         <span id="contact-method-reliability-warning" style="display: none;">
                             <br />
-                            (<span class="fa-solid fa-triangle-exclamation"></span> SMS text messages are occasionally <em>very unreliable</em>, and always insecure. Consider <a href="{% link resources/for-clients/messaging-discreetly/index.md %}">using a more discreet messenger</a>, especially if you don&rsquo;t hear back from me or if our correspondence is abruptly interrupted.)
+                            (<span class="fa-icon fa-solid fa-triangle-exclamation"></span> SMS text messages are occasionally <em>very unreliable</em>, and always insecure. Consider <a href="{% link resources/for-clients/messaging-discreetly/index.md %}">using a more discreet messenger</a>, especially if you don&rsquo;t hear back from me or if our correspondence is abruptly interrupted.)
+                        </span>
+                        <span id="contact-method-email-public-key" style="display: none;">
+                            <br />
+                            (<span class="fa-icon fa-solid fa-key"></span> My email is provided by Proton Mail. If yours isn&rsquo;t, <a href="{% link resources/for-clients/messaging-discreetly/index.md %}#encrypted-email-not-necessarily-proton-mail">your message won't be discreet unless you encrypt it</a> using <a href="{% include contact-email-public-key.url %}" target="_blank">my encryption key</a>.)
                         </span>
                         <span id="contact-method-signal-discount" style="display: none;">
                             <br />
-                            (<span class="fa-solid fa-circle-check"></span> Signal is the safest and most reliable way to contact me, plus you earn $40 USD off your first booking if you reach out to me in this way!)
+                            (<span class="fa-icon fa-solid fa-circle-check"></span> Signal is the safest and most reliable way to contact me, plus you earn $40 USD off your first booking when you mention this discount reaching out to me in this way!)
                         </span>
                     </p>
                 </fieldset>

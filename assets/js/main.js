@@ -211,6 +211,35 @@ layout: none
             }
         });
 
+        // Show and hide the various contact method helper texts.
+        $('#booking-inquiry-prospect-preferred-contact-method').on('change', function (e) {
+            switch (this.value) {
+                case 'sms':
+                    $('#contact-method-email-public-key').hide();
+                    $('#contact-method-step-3').hide() && $('#contact-method-signal-discount').hide();
+
+                    $('#contact-method-reliability-warning').show();
+                    break;
+                case 'email':
+                    $('#contact-method-reliability-warning').hide();
+                    $('#contact-method-step-3').hide() && $('#contact-method-signal-discount').hide();
+
+                    $('#contact-method-email-public-key').show();
+                    break;
+                case 'signal':
+                    $('#contact-method-reliability-warning').hide();
+                    $('#contact-method-email-public-key').hide();
+
+                    $('#contact-method-step-3').show() && $('#contact-method-signal-discount').show();
+                    break;
+                default:
+                    $('#contact-method-reliability-warning').hide();
+                    $('#contact-method-email-public-key').hide();
+                    $('#contact-method-step-3').hide() && $('#contact-method-signal-discount').hide();
+                    break;
+            }
+        });
+
         // Form help text and any `.panel-closer-link`
         // should also close the Contact panel.
         document.querySelectorAll('#booking-inquiry-form small.form-text a.closer, .panel-closer-link').forEach(function (el) {
