@@ -149,7 +149,7 @@ This is the golden rule of private email: if you haven't encrypted your email me
 
 If you send email from Gmail to Proton Mail, it is *not* private or encrypted. If you send email from Proton Mail to Tuta Mail, it is also *not* private or encrypted, even though both those services are "encrypted" email providers.
 
-The only way to get cross-provider private email is to do the encryption yourself with a technology that humbly calls itself [Pretty Good Privacy](https://www.openpgp.org/){:target="_blank"}, or PGP. To make use of it, you'll need some additional software and the sharable encryption code for your recipient, called [their public key](https://proton.me/support/download-public-private-key#:~:text=You%20can%20also%20download%20your%20own%20public%20key%20or%20the%20key%20of%20a%20friend%20by%20using%20this%20link){:target="_blank"}.
+The only way to make email private across email services is to do the encryption yourself with a technology that humbly calls itself [Pretty Good Privacy](https://www.openpgp.org/){:target="_blank"}, or PGP. To make use of it, you'll need some additional software and the sharable encryption code for your recipient, called [their public key](https://proton.me/support/download-public-private-key#:~:text=You%20can%20also%20download%20your%20own%20public%20key%20or%20the%20key%20of%20a%20friend%20by%20using%20this%20link){:target="_blank"}.
 
 {:.fa-ul}
 - <span class="fa-li fa-solid fa-globe"></span> Use [Mailvelope](https://mailvelope.com/){:target="_blank"} if you access email in a desktop Web browser.
