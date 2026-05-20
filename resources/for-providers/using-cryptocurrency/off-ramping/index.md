@@ -243,7 +243,7 @@ Please [contact me](#contact) to let me know if you found any more quality (VoIP
 
 ### Buying secrets manager services with cryptocurrency
 
-- [Bitwarden](https://bitwarden.com/){:target="_blank"} - Secrets or password managers are an essential part of any digital security toolkit and my favorite easy-to-use secret manager is [Bitwarden, which also accepts Bitcoin for payments](https://bitwarden.com/help/billing-faqs/#q-can-i-pay-with-bitcoin){:target="_blank"} to its premium services.
+- [Bitwarden](https://bitwarden.com/){:target="_blank"} - Secrets or password managers are an essential part of any digital security toolkit and my favorite easy-to-use secret manager is [Bitwarden, which also accepts Bitcoin for payments](https://bitwarden.com/help/billing-faqs/#q-can-i-pay-with-bitcoin){:target="_blank"} to its premium services, but sadly only BitPay, which is for many reasons extremely awful. I would suggest instead that you simply avoid Bitpay entirely and pay with your [crpyto-backed payment card](#fund-a-traditional-payment-card-using-cryptocurrency).
 
 ### Buying VPN services with cryptocurrency
 
