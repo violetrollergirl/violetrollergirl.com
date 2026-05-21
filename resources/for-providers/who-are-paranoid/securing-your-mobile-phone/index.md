@@ -66,7 +66,7 @@ A lot of people are going to choose Apple iPhones for a variety of reasons, most
 - [LineageOS runs on a fair number of devices](https://wiki.lineageos.org/devices/){:target="_blank"}, including some rather inexpensive hardware, making it a good choice for the "paranoid" sex worker on a budget.
 - [GrapheneOS runs *only* on Google Pixel phones](https://grapheneos.org/faq#supported-devices){:target="_blank"}, although as of this writing Motorola support has been announced and is expected.
 
-If you can't afford a Google Pixel, consider LineageOS running on inexpensive hardware. Otherwise, you're buying a Google Pixel and installing GrapheneOS onto it.
+If you can't afford a Google Pixel, consider LineageOS running on inexpensive hardware. Be aware, however, that inexpensive hardware is generally speaking also much less securable than more expensive hardware because the hardware itself supports far fewer [hardware-level protections](https://innovation.consumerreports.org/apples-new-iphone-memory-protections-safeguards-devices-against-sophisticated-attacks/#:~:text=How%20Android%20Stacks%20Up){:target="_blank"}. Otherwise, you're buying a Google Pixel and installing GrapheneOS onto it.
 </li>
 </ul>
 
@@ -78,7 +78,9 @@ My favorite is GrapheneOS. So, yup, I bought a Google Pixel.
 
 I no longer use mobile devices made by Apple. They feel unbearably restrictive to me. This is *mostly* a personal opinion, not a comment about their security.
 
-iPhones and other Apple iOS devices like iPads can be used reasonably securely, and I have a lot of experience helping people secure them. They're generally very safe if you have good security habits, such as [setting and using strong unlock passcodes](https://support.apple.com/guide/iphone/set-a-passcode-iph14a867ae/ios){:target="_blank"} (not merely numeric PIN codes), [enabling automatic updates](https://support.apple.com/guide/iphone/update-ios-iph3e504502/ios){:target="_blank"}, and so on. However, since they're part of Apple's tightly controlled ecosystem, most people who use iPhones report that their life is made significantly more difficult when they fail to buy in to *every* Apple-provided convenience.
+iPhones and other Apple iOS devices like iPads *can* be used securely, and I have a lot of experience helping people secure them.
+
+If you have good security habits, such as [setting and using strong unlock passcodes](https://support.apple.com/guide/iphone/set-a-passcode-iph14a867ae/ios){:target="_blank"} (not merely numeric PIN codes), [enabling automatic updates](https://support.apple.com/guide/iphone/update-ios-iph3e504502/ios){:target="_blank"}, and so on, Apple's hardware is absolutely among the most securable devices available today. However, since they're part of Apple's tightly controlled ecosystem, most people who use iPhones report that their life is significantly less convenient when they fail to buy in to *every* Apple-provided convenience.
 
 The security problem with iPhones isn't the iPhone. It's that other Apple services are not as secure (or securable) as their extremely well-protected phones. And if you're *paranoid*, you want to use tools that give you the ability to not only *secure* everything at any part of the system, but to easily *abandon* the entire system if you one day need to.
 
