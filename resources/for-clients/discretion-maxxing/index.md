@@ -8,7 +8,7 @@ next: resources/for-clients/messaging-discreetly/
 featured_image:
   alt:
   url: images/gallery-originals/jungle-princess.jpg
-last_modified: Thu May 14 15:27:18 EDT 2026
+last_modified: Wed May 20 23:12:38 EDT 2026
 ---
 
 # {{ site.title }}'s Guide to Booking an Escort Completely Secretly
@@ -33,7 +33,7 @@ For our purposes, it means that if you're looking to book an escort and want to 
     1. [Choose Onion domains over clearnet domains](#choose-onion-domains-over-clearnet-domains)
 1. [Use Signal Private Messenger to contact the companion you chose](#use-signal-private-messenger-to-contact-the-companion-you-chose)
     1. [What about booking forms?](#what-about-booking-forms)
-    1. [What about ProtonMail?](#what-about-protonmail)
+    1. [What about Proton Mail?](#what-about-proton-mail)
 1. [Use shielded Zcash to pay your deposit](#use-shielded-zcash-to-pay-your-deposit)
     1. [What about other cryptocurrencies? Can't I just use CashApp/PayPal/Venmo?](#what-about-other-cryptocurrencies-cant-i-just-use-cashapppaypalvenmo)
 1. [Have questions? I'm here for you!](#have-questions-im-here-for-you)
@@ -202,7 +202,7 @@ Some providers, like me, all but [*require* the use of a booking form]({% link r
 
 Unfortuantely, [many booking forms are *not private*](https://bsky.app/profile/violetrollergirl.com/post/3mgbnpcorcc2u){:target="_blank"}, so when a companion lists a direct contact method like email or Signal Private Messenger, it's appropriate to use that in lieu of the form if *and only if* you mimic the form's structure in your message. It isn't hard; literally transcribe the form field labels and your answers into the body of a new message.
 
-My booking form, however, *is* actually secure precisely because [it does not use a third-party service]({% link colophon/index.md %}#privacy-guarantees-of-first-contact) like so many insecure others. All it does is writes a plain text message and prompts you to send me that text yourself. My booking form even integrates directly with Signal, my highest-priority, most frequently-used inbox.
+My booking form, however, *is* actually secure precisely because [it does not use a third-party service]({% link colophon/index.md %}#privacy-guarantees-of-first-contact) like so many others. All it does is writes a plain text message and prompts you to send me that text yourself. My booking form even integrates directly with Signal, my highest-priority, most frequently-used inbox.
 
 Try it and see for yourself. When using my booking form:
 
@@ -220,13 +220,15 @@ Using a booking form that integrates directly with the Signal app itself gives c
 
 Leave it to a trans escort to popularize "the best of both worlds," eh? ;)
 
-### What about ProtonMail?
+### What about Proton Mail?
 
-> TK-TODO: I haven't written this up yet but the short version is generally, no.
->
-> * ProtonMail is email. If you don't have a ProtonMail account yourself, but she does, then your email to her is NOT ENCRYPTED just because she has a ProtonMail account.
-> * The inverse is true, too. If she doesn't have a ProtonMail account and you do, sending her an email does not encrypt your message.
-> * Even ProtonMail-to-ProtonMail messages lack some of the metadata protection (namely sealed sender) that Signal Private Messenger offers, although this is better.
+Proton Mail is a popular hosted email service that supports but [does not in most cases default to actually using encryption]({% link resources/for-clients/messaging-discreetly/index.md %}#encrypted-email-not-necessarily-proton-mail). It's&hellip;fine. But, since it's email, it *cannot* be used as discreetly as Signal can be, even when encrypted.
+
+While I do have a Proton Mail inbox and I can receive encrypted emails there, these messages still lack some of the metadata protections (like sealed sender) that Signal Private Messenger offers. Plus, Signal is far easier to set up and use, not to mention less error-prone.
+
+Nevertheless, some escorts only communicate using email. Hopefully, they're at least using an email service that supports encryption. If they are, your best bet is to simply make yourself an account on the same service they're using and use that, too.
+
+Otherwise, **just use Signal.**
 
 ## Use shielded Zcash to pay your deposit
 

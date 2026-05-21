@@ -81,7 +81,7 @@ All of these techniques obviously fail the plausible deniability test. But they 
 
 ### Use a Private Space in Android
 
-If you insist on using extra apps, and you have an Android phone, at least use the built-in [Private Space](https://support.google.com/android/answer/15341885){:target="_blank"} feature. When you create a Private Space, you can install apps that are not shown on your main launcher or home screen. You can even [hide the existence of the Private Space](https://support.google.com/android/answer/15341885?hl=en#zippy=%2Chide-your-private-space-in-all-apps){:target="_blank"}.
+If you insist on using extra apps, and you have an Android phone, at least use the built-in [Private Space](https://support.google.com/android/answer/15341885){:target="_blank"} feature. When you create a Private Space, you can install apps that are not shown on your main launcher or home screen. You can even [hide the existence of the Private Space](https://support.google.com/android/answer/15341885?hl=en#zippy=%2Chide-your-private-space-in-all-apps){:target="_blank"} itself.
 
 ## Recommended discreet messaging tools
 

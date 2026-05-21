@@ -186,7 +186,9 @@ The ultimate takeaway is that by choosing to hold a privacy coin, once you recei
 
 ## Accepting crypto payments non-interactively
 
-So far, all of the on-ramping methods I've described are ones you can do on your own, or with a client or customer with whom you're speaking to in real-time. Interactive payments like these are easy to do because coordinating how to pay happens between two humans synchronously, such as by [chatting over a (preferably secure) messenger app]({% link resources/for-providers/signal-for-sex-work/index.md %}) or in person. But what if you need to accept crypto payments when you're offline?
+So far, all of the on-ramping methods I've described are ones you can do on your own, or with a client or customer with whom you're speaking to in real-time. Interactive payments like these are easy to do because coordinating how to pay happens between two humans synchronously, such as by [chatting over a (preferably secure) messenger app]({% link resources/for-providers/signal-for-sex-work/index.md %}) or in person.
+
+But what if you need to accept crypto payments when you're offline?
 
 ### CipherPay: a shielded Zcash e-commerce solution
 
