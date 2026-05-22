@@ -199,15 +199,30 @@ layout: none
         // Booking form.
         $('#booking-inquiry-form').on('change', function (e) {
             switch ( e.target.id ) {
+
+                // When the screening method is changed...
                 case 'booking-inquiry-prospect-preferred-screening-method':
-                    let select_booking_type = $('#booking-inquiry-prospect-booking-type');
-                    if ( 'a deposit for a social date at a public venue' === e.target.value ) {
-                        select_booking_type
-                            .val('a social-only date');
+
+                    switch ( e.target.value ) {
+                        case 'a video vibe check':
+                            $('#booking-inquiry-prospect-booking-type')
+                                .val('a video vibe check');
+                            // TODO: I should disable any other
+                            // booking type when this is selected.
+
+                            break;
+                        case 'a deposit for a social date at a public venue':
+                            $('#booking-inquiry-prospect-booking-type')
+                                .val('a social-only date');
+                            break;
+                        default:
+                            break;
                     }
+
                     break;
                 default:
                     break
+
             }
         });
 
