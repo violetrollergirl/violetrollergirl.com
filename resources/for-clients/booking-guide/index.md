@@ -15,20 +15,20 @@ last_modified: Wed Mar  4 15:52:53 EST 2026
 
 One of my favorite things about being a trans provider is sharing in moments of discovery with you, and relishing the joy, relief, and possibilities that come with it.
 
-To experience that, of course, you must first book me. Filling in my booking form makes that easy:
+To experience that, of course, you must first book me:
 
 {:.align-center}
-{% include link-as-button.md anchor_text="Open Booking Form" url="/resources/for-clients/booking-guide/#contact" %}
+{% include link-as-button.md anchor_text="<span class='fa-icon fa-solid fa-pen-nib'></span> Open Booking Form" url="/resources/for-clients/booking-guide/#contact" %}
 
-The booking process can feel daunting, especially if you're "new to all this," but **it really just boils down to being communicative.** The more information you give me about your situation, the more likely I will be able to align some stars for us.
+Sadly, many who try fumble their chance. Following the instructions in this guide makes sure a fumble won't be how our story ends.
 
 ## About this guide
 
-I wrote this page to help those of you who want a meticulously crafted step-by-step guide to walk through booking time with me.
+The booking process can feel daunting, especially if you're "new to all this," but **it really just boils down to being communicative.** The more information you give me about your situation, the more likely I'll be able to align the stars for us.
 
-Here, I explain how you can best get my attention. Its extraordinary detail may be overkill for many of you, but it provides a thorough reference regardless.
+I wrote this page to help those of you who want a meticulously crafted step-by-step guide to walk through booking time with me. It explains how you can best get my attention. Its extraordinary detail may be overkill for many of you, but it provides a thorough reference regardless.
 
-The point of this is not to ensure perfection, but rather to give you clarity during the booking process should you seek it. While this guide is specific to booking *me*, you'll probably find it useful for booking any companion, as most of what I ask for is standard across the industry.
+The point is *not* to ensure instant perfection, but rather to give you clarity during the booking process should you seek it. While this guide is specific to booking *me*, you'll probably find it useful for booking any companion, as most of this is a well-established standard across the industry.
 
 ## Table of contents
 
@@ -72,31 +72,31 @@ This page is for:
 - clients who already know they want to meet or speak with me privately.
 - clients looking for absolute clarity on how to book me.
 
-If you are not yet sure whether I'm the girl for you, then you might want to have a look at the rest of my site before returning here:
+If you're not yet sure whether I'm the girl for you, then you might want to have a look at the rest of my site before returning here:
 
 - My [gallery]({% link index.html %}#gallery) shows you what I look like. Yes, I really do look like that.
 - My ["tech specs" (about page)](#about) describe my vitals and my vibe.
-- My [FAQ](#faq) has the answers to numerous questions about me and my offerings. It'll point you at [reviews and testimonials about me]({% link _faq/about-me/do-you-have-any-reviews.md %}).
+- My [FAQ](#faq) has the answers to numerous questions about me and my offerings.
+- My [reviews and testimonials]({% link _faq/about-me/do-you-have-any-reviews.md %}) offer a peek at what time with me is like through others' eyes.
 - My [rates page](#rates) provides a breakdown of considerations for my offerings.
-- My [tours and availability](#tours) page gives you details about where I'm traveling and when, along with some detail about how to bring me to your city for a special date.
-- You can also learn about me from my prolific [social media posts and my softcore (and hardcore) content]({% link index.html %}#links-group-socials-amp-content).
+- My [tours and availability](#tours) page gives you details about where I'm traveling and when.
+- My [social media posts and my softcore (and hardcore) content]({% link index.html %}#links-group-socials-amp-content) give you the opportunity to see plenty more, and with quite a bunch of real-world texture.
 
 And if you're still not sure?
 
-You can schedule [a brief curiosity call]({% link index.html %}#rate-add-ons-and-online-curiosity-call-30-minutes) with me, the cost of which can be directly applied to your deposit if you choose to book. For that, however, you'll need to schedule some time with me.
+You can schedule [a brief curiosity call]({% link index.html %}#rate-add-ons-and-online-curiosity-call-30-minutes) with me, the cost of which can be directly applied to your deposit if you choose to book.
 
-This page can help you with that!
+For that, however, you'll need to schedule some time with me. And this page can help you with that!
 
 ### For general booking guides and etiquette
 
-This page is *not* for:
+On the other hand, if you:
 
-- clients who are looking for information on how to research escorts generally.
-- clients who need advice on general booking etiquette.
-- clients who are looking for proof of my legitimacy or need help avoiding scams.
-- clients who want assurance that I want to meet them. (The answer is always yes, [I absolutely do]({% link _faq/about-you/is-it-okay-if-i-am.md %}) want to meet you.)
+- are looking for information on how to research escorts generally,
+- need advice on general booking etiquette,
+- insist on proof of my legitimacy or need help avoiding scams,
 
-If the above describes you, I recommend the following blog posts on the Tryst Blog and elsewhere instead of this page:
+I recommend reading the following blog posts on the Tryst Blog and elsewhere instead of this page:
 
 - [A First-time Client's Guide to Escort Booking Etiquette](https://tryst.link/blog/a-first-time-clients-guide-to-escort-booking-etiquette-tryst-sex-work-blog/){:target="_blank"}
 - ['What if it's a scam?' How to have a successful date with a pro, by doing your homework.](https://tryst.link/blog/what-if-its-a-scam-find-escort/){:target="_blank"}
@@ -106,23 +106,13 @@ I also suggest spending a bit of time perusing the [Good Client Guide](https://g
 
 ## Start here: once you know you want to meet me
 
-Everyone I meet begins at my [booking form](#contact). Additionally, my booking form offers some [rather novel privacy-preserving features]({% link colophon/index.md %}#privacy-guarantees-of-first-contact) that you may find valuable if you need [extra levels of discretion]({% link resources/for-clients/discretion-maxxing/index.md %}), so it behooves you to use it.
+Everyone I meet begins at my [booking form](#contact). It offers some rather novel [privacy-preserving features]({% link colophon/index.md %}#privacy-guarantees-of-first-contact) that you may find valuable if you need [extra levels of discretion]({% link resources/for-clients/discretion-maxxing/index.md %}).
 
-To be clear, **there is no way to meet me without providing the information that my booking form prompts you for.**
-
-- If you found me through [my ads or reviews on other sites]({% link index.html %}#links-group-ad-listings), I'm going to ask you to fill in my booking form.
-- If we are already communicating some other way, I'm going to ask you to fill in my booking form when it comes time to schedule a specific date.
-- If you're not sure whether we can meet at a given time or place, use my booking form to find out.
-- If you don't know exactly when you want to meet, use my booking form to suggest some options.
-- If you want to know when I'm available, I'll direct you to [my calendar](#tours) and then I'll ask you to fill in my booking form.
-- If you're not sure whether or not I offer a service you want and need to speak with me about that, use my booking form to start the conversation about it.
-- If all you want to do is have [a short curiosity call]({% link index.html %}#rate-add-ons-and-online-curiosity-call-30-minutes), use my booking form to schedule time for it with me.
-- If you merely want to see me for a quick visit such as for a half hour appointment, I will still ask you to fill in my booking form.
-- If you try to get my attention in any way in order to spend some time with you privately, but you didn't use my booking form to do it, I'll ask you to fill in my booking form.
+Please use it. **There is no way to meet me without providing the information that my booking form prompts you for.** No matter how you found me, if you try to get my attention in any way in order to spend time with you privately, but you didn't use my booking form to do it, I'm going to ask you to fill in my booking form before we proceed.
 
 ### <span class="fa-icon fa-solid fa-jedi"></span>Use the form, Luke
 
-My [booking form](#contact) **makes booking easier and faster** for both of us. You *must* use it to book me.
+My [booking form](#contact) **makes booking easier and faster** for both of us. To be clear, you *must* use it to successfully reserve my time.
 
 <table>
     <caption>How my booking form <em>helps</em> you book</caption>
@@ -152,9 +142,7 @@ My [booking form](#contact) **makes booking easier and faster** for both of us. 
     </tbody>
 </table>
 
-The above example should also clarify exactly why using my booking form is doubly necessary for realizing [short-notice requests]({% link _faq/booking/are-you-available-right-now.md %}).
-
-Filling out my booking form is a bare minimum show of good faith you must complete that proves you're as serious about meeting me as making the form in the first place proves to you that I'm excited to meet you.
+As shown above, using my booking form is doubly necessary for realizing [short-notice requests]({% link _faq/booking/are-you-available-right-now.md %}). It's a bare minimum show of good faith to demonstrate that you're as serious about meeting me as making the form in the first place shows my excitement to meet you.
 
 ### Fill in my mad-lib style booking form
 
