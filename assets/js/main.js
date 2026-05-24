@@ -228,29 +228,26 @@ layout: none
 
         // Show and hide the various contact method helper texts.
         $('#booking-inquiry-prospect-preferred-contact-method').on('change', function (e) {
+
+            // Hide them all. 
+            $('#contact-method-reliability-warning').hide();
+            $('#contact-method-xmpp-primer').hide();
+            $('#contact-method-email-public-key').hide();
+            $('#contact-method-signal-discount').hide() && $('#contact-method-step-3').hide();
+
+            // Show the one that was selected.
             switch (this.value) {
                 case 'sms':
-                    $('#contact-method-email-public-key').hide();
-                    $('#contact-method-step-3').hide() && $('#contact-method-signal-discount').hide();
-
                     $('#contact-method-reliability-warning').show();
                     break;
                 case 'email':
-                    $('#contact-method-reliability-warning').hide();
-                    $('#contact-method-step-3').hide() && $('#contact-method-signal-discount').hide();
-
                     $('#contact-method-email-public-key').show();
                     break;
                 case 'signal':
-                    $('#contact-method-reliability-warning').hide();
-                    $('#contact-method-email-public-key').hide();
-
-                    $('#contact-method-step-3').show() && $('#contact-method-signal-discount').show();
+                    $('#contact-method-signal-discount').show() && $('#contact-method-step-3').show();
                     break;
-                default:
-                    $('#contact-method-reliability-warning').hide();
-                    $('#contact-method-email-public-key').hide();
-                    $('#contact-method-step-3').hide() && $('#contact-method-signal-discount').hide();
+                case 'xmpp':
+                    $('#contact-method-xmpp-primer').show();
                     break;
             }
         });

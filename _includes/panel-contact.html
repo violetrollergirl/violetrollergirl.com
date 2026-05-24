@@ -89,17 +89,21 @@ along with a bunch of additional instruction.
                                 <option value="xmpp">Jabber/XMPP instant message</option>
                             </select>
                         </span><!-- .select-wrapper -->
-                        <span id="contact-method-reliability-warning" style="display: none;">
+                        <span id="contact-method-signal-discount" style="display: none;">
                             <br />
-                            (<span class="fa-icon fa-solid fa-triangle-exclamation"></span> SMS text messages are occasionally <em>very unreliable</em>, and always insecure. Consider <a href="{% link resources/for-clients/messaging-discreetly/index.md %}">using a more discreet messenger</a>, especially if you don&rsquo;t hear back from me or if our correspondence is abruptly interrupted.)
+                            (<span class="fa-icon fa-solid fa-circle-check"></span> Signal is the safest and most reliable way to contact me, plus you earn $40 USD off your first booking when you mention this discount reaching out to me in this way!)
                         </span>
                         <span id="contact-method-email-public-key" style="display: none;">
                             <br />
                             (<span class="fa-icon fa-solid fa-key"></span> My email is provided by Proton Mail. If yours isn&rsquo;t, <a href="{% link resources/for-clients/messaging-discreetly/index.md %}#encrypted-email-not-necessarily-proton-mail">your message won't be discreet unless you encrypt it</a> using <a href="{% include contact-email-public-key.url %}" target="_blank">my encryption key</a>.)
                         </span>
-                        <span id="contact-method-signal-discount" style="display: none;">
+                        <span id="contact-method-xmpp-primer" style="display: none;">
                             <br />
-                            (<span class="fa-icon fa-solid fa-circle-check"></span> Signal is the safest and most reliable way to contact me, plus you earn $40 USD off your first booking when you mention this discount reaching out to me in this way!)
+                            (<span class="fa-icon fa-brands fa-xmpp"></span> Please use a Jabber/XMPP <a href="https://omemo.top/" target="_blank">app capable of OMEMO encryption</a> to <a href="{% link resources/for-clients/messaging-discreetly/index.md %}">keep our messages to one another discreet</a>.)
+                        </span>
+                        <span id="contact-method-reliability-warning" style="display: none;">
+                            <br />
+                            (<span class="fa-icon fa-solid fa-triangle-exclamation"></span> SMS text messages are occasionally <em>very unreliable</em>, and always insecure. Consider <a href="{% link resources/for-clients/messaging-discreetly/index.md %}">using a more discreet messenger</a>, especially if you don&rsquo;t hear back from me or if our correspondence is abruptly interrupted.)
                         </span>
                     </p>
                 </fieldset>

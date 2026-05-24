@@ -149,7 +149,7 @@ As shown above, using my booking form is doubly necessary for realizing [short-n
 In case it wasn't obvious yet, you have to fill in my booking form in order to spend time with me. :)
 
 {:.align-center}
-{% include link-as-button.md anchor_text="Open Booking Form" url="/resources/for-clients/booking-guide/#contact" %}
+{% include link-as-button.md anchor_text="<span class='fa-icon fa-solid fa-pen-nib'></span> Open Booking Form" url="/resources/for-clients/booking-guide/#contact" %}
 
 My booking form is styled as a mad lib game that you fill out.
 
