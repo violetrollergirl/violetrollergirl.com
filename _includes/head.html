@@ -1,6 +1,6 @@
 <meta charset="utf-8"/>
 <title>{% include title-text.html %}</title>
-<meta name="description" content="{{ page.description | default: site.description | xml_escape }}">
+<meta name="description" content="{{ page.description | default: site.description | xml_escape -}}">
 
 <meta http-equiv="onion-location" content="http://{{ site.onion }}.onion{{ page.url | relative_url }}" />
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>

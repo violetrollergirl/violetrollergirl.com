@@ -1,8 +1,8 @@
 ---
 title: Cybersecurity Consultations for Providers
 description: >
-  For fellow sex workers, Violet offers highly personalized, 1-on-1
-  cybersecurity consultations on a sliding scale basis.
+  For fellow sex workers, Violet offers specialized, 1-on-1
+  cybersecurity and financial privacy consultations at sliding scale rates.
 featured_image:
   alt:
   url: images/gallery-originals/upskirt-in-car-with-laptop-stickers.jpg
