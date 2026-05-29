@@ -16,19 +16,23 @@ Here are payment methods I accept and whether you can use them for only the rese
 {:#table-supported-payment-methods}
 | Method | For [deposit]({% link _faq/booking/what-is-a-deposit.md %})? | For remainder? | Notes |
 |-|-|-|-|
-| [<span class="icon fa-solid fa-bitcoin"></span> Cryptocurrency]({% link resources/for-clients/using-cryptocurrency/index.md %}){:#cryptocurrency} | <span class="icon fa-solid fa-check"></span> Yes | <span class="icon fa-solid fa-check"></span> Yes | Most discreet, lowest transaction fees; see [buying crypto cheat sheet]({% link resources/for-clients/using-cryptocurrency/on-ramping/index.html %}). |
+| [<span class="icon fa-solid fa-bitcoin"></span> Cryptocurrency]({% link resources/for-clients/using-cryptocurrency/index.md %}){:#cryptocurrency} | <span class="icon fa-solid fa-check-double"></span> Yes | <span class="icon fa-solid fa-check-double"></span> Yes | Most discreet, lowest transaction fees; see [buying crypto cheat sheet]({% link resources/for-clients/using-cryptocurrency/on-ramping/index.html %}). |
 | <span class="icon fa-solid fa-credit-card"></span> Credit/debit card | <span class="icon fa-solid fa-check"></span> Yes | <span class="icon fa-solid fa-xmark"></span> No | Highest transaction fees, multiple processors available. |
 | <span class="icon fa-solid fa-gifts"></span> Digital gift card | <span class="icon fa-solid fa-check"></span> Yes | <span class="icon fa-solid fa-xmark"></span> No | Rotating selection, ask before purchasing. |
 | <span class="icon fa-solid fa-money-bills"></span> Paper money, cash | <span class="icon fa-solid fa-xmark"></span> No | <span class="icon fa-solid fa-check"></span> Yes | Please check for counterfeit bills; I do. |
-| [<span class="icon fa-brands fa-cash-app"></span> CashApp]({% link resources/for-clients/using-cryptocurrency/cashapp/index.md %}){:#cashapp} | Only via crypto | Only via crypto | <span class="icon fa-brands fa-btc"></span> Bitcoin |
-| [<span class="icon fa-brands fa-paypal"></span> PayPal]({% link resources/for-clients/using-cryptocurrency/paypal/index.md %}){:#paypal} | Only via crypto | Only via crypto | <span class="icon fa-brands fa-btc"></span> Bitcoin, <span class="icon fa-brands fa-ethereum"></span> Ethereum, <span class="icon fa-brands fa-litecoin-sign"></span> Litecoin |
-| [<span class="icon fa-brands fa-v"></span> Venmo]({% link resources/for-clients/using-cryptocurrency/venmo/index.md %}){:#venmo} | Only via crypto | Only via crypto | <span class="icon fa-brands fa-btc"></span> Bitcoin, <span class="icon fa-brands fa-ethereum"></span> Ethereum, <span class="icon fa-brands fa-litecoin-sign"></span> Litecoin |
+| [<span class="icon fa-brands fa-cash-app"></span> CashApp]({% link resources/for-clients/using-cryptocurrency/cashapp/index.md %}){:#cashapp} | <span class="icon fa-solid fa-check"></span> Only <a href="{% link resources/for-clients/using-cryptocurrency/cashapp/index.md %}#send-usdc-from-cashapp">via crypto</a> | <span class="icon fa-solid fa-check"></span> Only <a href="{% link resources/for-clients/using-cryptocurrency/cashapp/index.md %}#send-usdc-from-cashapp">via crypto</a> | <span class="icon fa-brands fa-btc"></span> Bitcoin, <img style="height: 1.5em; vertical-align: center" src="{% link images/logo.usdc.svg %}" alt="" /> USDC |
+| [<span class="icon fa-brands fa-paypal"></span> PayPal]({% link resources/for-clients/using-cryptocurrency/paypal/index.md %}){:#paypal} | <span class="icon fa-solid fa-check"></span> Only via crypto | <span class="icon fa-solid fa-check"></span> Only via crypto | <span class="icon fa-brands fa-btc"></span> Bitcoin, <span class="icon fa-brands fa-ethereum"></span> Ethereum, <span class="icon fa-brands fa-litecoin-sign"></span> Litecoin |
+| [<span class="icon fa-brands fa-v"></span> Venmo]({% link resources/for-clients/using-cryptocurrency/venmo/index.md %}){:#venmo} | <span class="icon fa-solid fa-check"></span> Only via crypto | <span class="icon fa-solid fa-check"></span> Only via crypto | <span class="icon fa-brands fa-btc"></span> Bitcoin, <span class="icon fa-brands fa-ethereum"></span> Ethereum, <span class="icon fa-brands fa-litecoin-sign"></span> Litecoin |
 
 </div><!-- .table-wrapper -->
 
 If the method you'd like to use is not on this list, sorry, the answer is *no*, [I do not accept](#unsupported-payment-methods) it.
 
+### Which cryptocurrencies do you accept?
+
 When I say that I accept "cryptocurrency," I mean that I accept more than 125 assets and more than 200 different tokens across 35 different blockchains. Just let me know which cryptocurrency (and on which network) you want to use, and I'll send you a deposit address for it.
+
+I use secure, private, exceptionally discreet one-time payment addresses for most cryptocurrency transactions. Unless we negotiate otherwise, please request a new deposit address from me for each payment you make. Never re-use old addresses.
 
 ### Unsupported payment methods
 
