@@ -23,7 +23,7 @@ layout: none
     $(function () {
 
         // Randomize the order of gallery images.
-        var gallery_container = $('#main');
+        var gallery_container = $('#gallery');
         var gallery_thumbs = gallery_container.children().get();
         gallery_thumbs.sort(function () {
             return Math.random() - 0.5;
@@ -454,12 +454,12 @@ layout: none
 
         });
 
-        // Main.
-        var $main = $('#main'),
+        // Gallery.
+        var $gallery = $('#gallery'),
             exifDatas = {};
 
         // Thumbs.
-        $main.children('.thumb').each(function () {
+        $gallery.children('.thumb').each(function () {
 
             var $this = $(this),
                 $image = $this.find('.image'), $image_img = $image.children('img'),
@@ -502,8 +502,8 @@ layout: none
 
         });
 
-        // Poptrox.
-        $main.poptrox({
+        // Gallery initialization, using jQuery Poptrox.
+        $gallery.poptrox({
             baseZIndex: 20000,
             caption: function ($a) {
                 var $image_img = $a.children('img');
@@ -542,14 +542,14 @@ layout: none
         // Hack: Set margins to 0 when 'xsmall' activates.
         skel
             .on('-xsmall', function () {
-                $main[0]._poptrox.windowMargin = 50;
+                $gallery[0]._poptrox.windowMargin = 50;
             })
             .on('+xsmall', function () {
-                $main[0]._poptrox.windowMargin = 0;
+                $gallery[0]._poptrox.windowMargin = 0;
             });
 
         function getExifDataMarkup(img) {
-            var exif = $('#main').data('exif');
+            var exif = $gallery.data('exif');
             var template = '';
             for (var current in exif) {
                 var current_data = exif[current];

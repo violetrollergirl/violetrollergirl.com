@@ -9,14 +9,12 @@
 <head>
     {% include head.html %}
 </head>
-<body id="{% if page.id %}page-{{ page.id | slugify | xml_escape }}{% endif %}" class="collection-{% if page.collection %}{{ page.collection | xml_escape }}{% else %}none{% endif %}">
+<body id="page-{% if page.id %}{{ page.id | slugify | xml_escape }}{% else %}home{% endif %}" class="collection-{% if page.collection %}{{ page.collection | xml_escape }}{% else %}none{% endif %}">
 <div id="wrapper">
 {% include header.html %}
 
-{% comment %}EXIF data is for gallery only.{% endcomment %}
-<main id="main" data-exif='{{ site.exif }}'>
+<main id="main">
     {{ content }}
-    {% include gallery.html %}
 </main>
 
 <section id="navpanel" class="panel">
@@ -50,6 +48,13 @@
 <section id="friends" class="panel">
     {% include panel-friends.html %}
 </section>
+
+{% comment %}EXIF data is for gallery only.{% endcomment %}
+<div id="gallery-wrapper">
+<section id="gallery" data-exif='{{ site.exif }}'>
+    {% include gallery.html %}
+</section>
+</div><!-- #gallery-wrapper -->
 
 </div><!-- #wrapper -->
 {% include footer.html %}
