@@ -1,2 +1,5 @@
+---
+layout: none
+---
 User-agent: *
-Disallow: .security-policy/
+Disallow: {% link .security-policy/index.md %}
