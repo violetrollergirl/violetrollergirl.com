@@ -33,7 +33,7 @@
                         {% endif %}
                     </th>
                     <td>
-                        <p>{{ item.currency_symbol | default: "$" }}{{ item.rate }}{{ item.currency | default: "USD" | prepend: " " }}</p>
+                        {{ item.currency_symbol | default: "$" }}{{ item.rate }}{{ item.currency | default: "USD" | prepend: " " }}
                         <details name="rate-details">
                             <summary>Details</summary>
                             {{ item.details | markdownify }}
