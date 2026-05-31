@@ -6,7 +6,7 @@ layout: none
  html5up.net | @ajlkn
  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
- Added EXIF data and enhanced for Jekyll by Ram Patra
+ Enhanced for Jekyll by Ram Patra
  */
 
 (function ($) {
@@ -455,8 +455,7 @@ layout: none
         });
 
         // Gallery.
-        var $gallery = $('#gallery'),
-            exifDatas = {};
+        var $gallery = $('#gallery');
 
         // Thumbs.
         $gallery.children('.thumb').each(function () {
@@ -493,29 +492,11 @@ layout: none
                         $image.trigger('click');
                     });
 
-            // EXIF data
-            $image_img[0].addEventListener("load", function() {
-                EXIF.getData($image_img[0], function () {
-                    exifDatas[$image_img.data('name')] = getExifDataMarkup(this);
-                });
-            });
-
         });
 
         // Gallery initialization, using jQuery Poptrox.
         $gallery.poptrox({
             baseZIndex: 20000,
-            caption: function ($a) {
-                var $image_img = $a.children('img');
-                var data = exifDatas[$image_img.data('name')];
-                if (data === undefined) {
-                    // EXIF data					
-                    EXIF.getData($image_img[0], function () {
-                        data = exifDatas[$image_img.data('name')] = getExifDataMarkup(this);
-                    });
-                }
-                return data !== undefined ? '<p>' + data + '</p>' : ' ';
-            },
             fadeSpeed: 300,
             onPopupClose: function () {
                 $body.removeClass('modal-active');
@@ -530,7 +511,7 @@ layout: none
             popupSpeed: 300,
             popupWidth: 150,
             selector: '.thumb > a.image',
-            usePopupCaption: true,
+            usePopupCaption: false,
             usePopupCloser: true,
             usePopupDefaultStyling: false,
             usePopupForceClose: true,
@@ -547,19 +528,6 @@ layout: none
             .on('+xsmall', function () {
                 $gallery[0]._poptrox.windowMargin = 0;
             });
-
-        function getExifDataMarkup(img) {
-            var exif = $gallery.data('exif');
-            var template = '';
-            for (var current in exif) {
-                var current_data = exif[current];
-                var exif_data = EXIF.getTag(img, current_data['tag']);
-                if (typeof exif_data !== "undefined") {
-                    template += '<i class="fa fa-' + current_data['icon'] + '" aria-hidden="true"></i> ' + exif_data + '&nbsp;&nbsp;';
-                }
-            }
-            return template;
-        }
 
         // Tour events features.
         customElements.define(

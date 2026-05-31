@@ -49,10 +49,9 @@
     {% include panel-friends.html %}
 </section>
 
-{% comment %}EXIF data is for gallery only.{% endcomment %}
 <div id="gallery-wrapper">
-<section id="gallery" data-exif='{{ site.exif }}'>
-    {% include gallery.html %}
+<section id="gallery">
+{% include gallery.html %}
 </section>
 </div><!-- #gallery-wrapper -->
 
