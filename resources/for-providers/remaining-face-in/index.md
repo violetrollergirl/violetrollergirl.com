@@ -93,9 +93,9 @@ I don't really want to recommend these tools because they are pretty data-harves
 {% endcomment %}
 
 {:.align-center}
-![Face out: a picture of Violet kneeling on a beach looking up at the camera.]({% link images/gallery-originals/face-out.kneeling-on-the-beach-looking-at-camera.jpeg %}){:style="max-width: 40%; vertical-align: middle;"}
+![Face out: a picture of Violet kneeling on a beach looking up at the camera.]({% link images/gallery-resized/face-out.kneeling-on-the-beach-looking-at-camera.jpeg %}){:style="max-width: 40%; vertical-align: middle;"}
 <span class="fa-icon fa-solid fa-right-long fa-2xl"></span>
-![Face in: the same picture, but with a brushstroke artifact covering her face.]({% link images/gallery-originals/face-in.kneeling-on-the-beach-looking-at-camera.png %}){:style="max-width: 40%; vertical-align: middle;"}
+![Face in: the same picture, but with a brushstroke artifact covering her face.]({% link images/gallery-resized/face-in.kneeling-on-the-beach-looking-at-camera.png %}){:style="max-width: 40%; vertical-align: middle;"}
 
 What all of these methods have in common is that they completely overwrite the pixel data in the original photo, ensuring the new output is entirely unrelated to the original input.
 
