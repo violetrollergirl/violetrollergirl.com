@@ -9,7 +9,7 @@
 <head>
     {% include head.html %}
 </head>
-<body id="page-{% if page.id %}{{ page.id | slugify | xml_escape }}{% else %}home{% endif %}" class="collection-{% if page.collection %}{{ page.collection | xml_escape }}{% else %}none{% endif %}">
+<body id="{% if page.dir == "/"  %}page-home{% endif %}{% if page.id %}page-{{ page.id | slugify | xml_escape }}{% endif %}" class="collection-{% if page.collection %}{{ page.collection | xml_escape }}{% else %}none{% endif %}">
 <div id="wrapper">
 {% include header.html %}
 
