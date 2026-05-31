@@ -63,7 +63,7 @@
 			}
 		}
 
-		img {
+		&:not(#links) img {
 			width: 100%;
 		}
 
