@@ -1,38 +1,40 @@
 /* Main Content Wrapper */
 
 #main-content-wrapper {
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 999;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
 
-	padding: 2em;
-	width: 100%;
-	min-height: 100vh;
-	background: _palette(bg-overlay-alt-min);
+  padding: 2em;
+  width: 100%;
+  min-height: 100vh;
+  background: _palette(bg-overlay-alt-min);
 
-    @include breakpoint(medium) {
-      padding: 1em;
+  overflow-x: clip;
+
+  @include breakpoint(medium) {
+    padding: 1em;
+  }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    scroll-margin-top: 100px;
+  }
+
+  footer:last-child {
+    padding-top: 1em;
+    margin-bottom: 4em;
+    text-align: center;
+
+    p {
+      font-size: smaller;
+      text-align: inherit; /* Override cascade. */
     }
-
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        scroll-margin-top: 100px;
-    }
-
-    footer:last-child {
-        padding-top: 1em;
-        margin-bottom: 4em;
-        text-align: center;
-
-        p {
-          font-size: smaller;
-          text-align: inherit; /* Override cascade. */
-        }
-    }
+  }
 
 }
 
@@ -41,22 +43,22 @@
 }
 
 #main-content-wrapper > div:first-child {
-    max-width: 1280px;
-    width: 60%;
-    margin: 0;
-    padding: 2em;
-    background-color: rgba(5, 5, 5, 0.85);
+  max-width: 1280px;
+  width: 60%;
+  margin: 0;
+  padding: 2em;
+  background-color: rgba(5, 5, 5, 0.85);
 
-    @include breakpoint(medium) {
-      margin: 0 auto;
-      padding: 1em;
-      width: 100%;
-    }
+  @include breakpoint(medium) {
+    margin: 0 auto;
+    padding: 1em;
+    width: 100%;
+  }
 
-    &.no-featured-image {
-      max-width: 680px;
-      margin: 0 auto;
-    }
+  &.no-featured-image {
+    max-width: 680px;
+    margin: 0 auto;
+  }
 }
 
 #page-featured-image {
