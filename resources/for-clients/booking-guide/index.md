@@ -36,6 +36,7 @@ The point is *not* to ensure instant perfection, but rather to give you clarity 
     1. [For general booking guides and etiquette](#for-general-booking-guides-and-etiquette)
 1. [Start here: once you know you want to meet me](#start-here-once-you-know-you-want-to-meet-me)
     1. [Use the form, Luke](#use-the-form-luke)
+1. [Booking via {{ site.booking.ai_concierge.name }}, my personal assistant](#booking-via-{{ site.booking.ai_concierge.name | slugify }}-my-personal-assistant)
 1. [Fill in my mad-lib style booking form](#fill-in-my-mad-lib-style-booking-form)
     1. [Booking form field: your name](#booking-form-field-your-name)
     1. [Booking form field: screening method](#booking-form-field-screening-method)
@@ -143,6 +144,25 @@ My [booking form](#contact) **makes booking easier and faster** for both of us. 
 </table>
 
 As shown above, using my booking form is doubly necessary for realizing [short-notice requests]({% link _faq/booking/are-you-available-right-now.md %}). It's a bare minimum show of good faith to demonstrate that you're as serious about meeting me as making the form in the first place shows my excitement to meet you.
+
+### Booking via {{ site.booking.ai_concierge.name }}, my personal assistant
+
+{{ site.booking.ai_concierge.name }} is my personal assistant. She's an Artificial Intelligence (AI) trained specifically on my business and my *meticulously* crafted website.
+
+Her job is to make it easy for you to find available appointment times in my (otherwise very busy) calendar and to give you fast answers to any questions you may have.
+
+You can book me with {{ site.booking.ai_concierge.name }}'s help via:
+
+{:.fa-ul}
+- [<span class="fa-li fa-solid fa-globe"></span> Web chat](#contact) (requires valid email)
+- [<span class="fa-li fa-solid fa-envelope"></span> Email](mailto:{{ site.booking.ai_concierge.email }})
+- [<span class="fa-li fa-brands fa-telegram"></span> Telegram chat]({{ site.booking.ai_concierge.telegram }})
+- <span class="fa-li fa-brands fa-whatsapp"></span> WhatsApp chat (coming soon)
+- <span class="fa-li fa-solid fa-comment-sms"></span> Text/SMS messages (coming soon)
+
+Currently, {{ site.booking.ai_concierge.name }} is in a trial phase. If you like booking with her, please let me know. If you run into problems, please tell me about them.
+
+You can always reach out to me directly if you [fill in my mad-lib style booking form](#fill-in-my-mad-lib-style-booking-form), which sends messages directly to me, not to {{ site.booking.ai_concierge.name }}.
 
 ### Fill in my mad-lib style booking form
 

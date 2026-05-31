@@ -28,8 +28,10 @@ include:
 # Contact details and booking templates.
 ###
 booking:
-  assistant:
+  ai_concierge:
     name: Rose
+    telegram: https://t.me/blushdeskbot?start=d5590dc9236ddb2e
+    email: violetrollergirl@blushdesk.ch
   subject: Booking inquiry
   template_txt: |-
     Hi Violet, my name is __. I found you via your website and would like to book an INCALL/OUTCALL on __ for __ hours in CITY. Thanks!
@@ -48,8 +50,6 @@ contact:
   whatsapp: "+19174407408"
   xmpp:
     jid: violet@violetrollergirl.snikket.chat
-  telegram:
-    ai_concierge: https://t.me/blushdeskbot?start=d5590dc9236ddb2e
 
 defaults:
   # Set layout to `page` by default.

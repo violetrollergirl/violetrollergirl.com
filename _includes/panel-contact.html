@@ -10,14 +10,34 @@ along with a bunch of additional instruction.
 <div class="inner split">
     <div>
         <header>
-            <h2 id="booking-form">Booking Form (<a href="{% link resources/for-clients/booking-guide/index.md %}" title="A complete, step-by-step guide to booking me as your provider."><span class="icon fa-solid fa-question-circle"></span> Booking Guide</a>)</h2>
+            <h2 id="booking-form">Meet Me (<a href="{% link resources/for-clients/booking-guide/index.md %}" title="A complete, step-by-step guide to booking me as your provider."><span class="icon fa-solid fa-question-circle"></span> Booking Guide</a>)</h2>
         </header>
+        <p>I&rsquo;m driven by novelty and curiosity, so I&rsquo;m already eager to meet you. Yes, <em>you</em>. To start, please introduce yourself to <a class="panel-closer-link" href="{% link resources/for-clients/booking-guide/index.md %}#booking-via-{{ site.booking.ai_concierge.name | slugify }}-my-personal-assistant">my personal assistant, {{ site.booking.ai_concierge.name }}</a>, either by <a href="{{ site.booking.ai_concierge.telegram }}">chatting on <span class="fa-icon fa-brands fa-telegram"></span> Telegram</a>, <a href="mailto:{{ site.booking.ai_concierge.email }}">sending her an <span class="fa-icon fa-solid fa-envelope"></span> email</a>, or in the web chat below:</p>
+        <div id="booking-inquiry-form-blushdesk">
+            <iframe id="blushdesk-form-violet-rollergirl" title="Request to Meet Violet"
+                src="https://blushdesk.ch/f/violet-rollergirl"
+                width="100%"
+                frameborder="0"
+                style="border: none; border-radius: 8px;">
+                <a href="https://blushdesk.ch/f/violet-rollergirl">Chat with {{ site.booking.ai_concierge.name }}</a>, my personal assistant.
+            </iframe>
+            <script>
+                window.addEventListener('message', function(e) {
+                    try {
+                        var data = typeof e.data === 'string' ? JSON.parse(e.data) : e.data;
+                        if (data && data.type === 'blushdesk-resize' && data.height) {
+                            var f = document.getElementById('blushdesk-form-violet-rollergirl');
+                            if (f) f.style.height = data.height + 'px';
+                        }
+                    } catch (_) {}
+                });
+            </script>
+        </div>
         <p class="align-center" style="margin-bottom: 1em;"><img loading="lazy" src="{% link images/gallery-resized/red-lingerie-with-laptop-on-bed.jpg %}" alt=""/></p>
-        <p>I&rsquo;m driven by novelty and curiosity, so I&rsquo;m already eager to meet you. Yes, <em>you</em>.</p>
-        <p>The <a href="{% link resources/for-clients/booking-guide/index.md %}#use-the-form-luke" class="panel-closer-link">fastest way to meet me</a> is to introduce yourself using my <a href="{% link colophon/index.md %}#privacy-guarantees-of-first-contact" title="Why my booking form is especially secure and private.">radically secure booking form</a>, below, to <a href="#first-contact-instructions">make a great first impression</a>!</p>
-        <p>(Don't like forms? <a href="#connection-methods">Send me a bespoke love note</a> instead.)</p>
-
-        <form name="booking_inquiry_form" id="booking-inquiry-form" action="#" method="GET" class="row row-cols-lg-auto g-3 align-items-center">
+        <p>If you need an <a href="{% link resources/for-clients/discretion-maxxing/index.md %}#what-about-booking-forms">even more discreet</a> touch, <a href="#booking-inquiry-form">reach out to me directly</a> using the form below. Please <a href="{% link resources/for-clients/booking-guide/index.md %}#patiently-wait-for-my-reply">be patient</a> as it may take me a day or so to reply.</p>
+        <form name="booking_inquiry_form" id="booking-inquiry-form"
+            class="row row-cols-lg-auto g-3 align-items-center"
+            action="#" method="GET">
             <blockquote>
                 <fieldset class="form-group"><legend>Hi, {{ site.author.name | split: " " | first }}. Please allow me to introduce myself.</legend>
                     <p>
@@ -429,8 +449,8 @@ along with a bunch of additional instruction.
                 </a>
             </li>
             <li>
-                <a id="contact-link-telegram" class="icon fa-brands fa-telegram fa-4x" href="{{ site.contact.telegram.ai_concierge }}" title="Telegram">
-                    <span class="label icon-label">Telegram<br />(Bookings Only)</span>
+                <a id="contact-link-telegram" class="icon fa-brands fa-telegram fa-4x" href="{{ site.booking.ai_concierge.telegram }}" title="Telegram">
+                    <span class="label icon-label">Telegram<br />(my assistant {{ site.booking.ai_concierge.name }})</span>
                 </a>
             </li>
         </ul>
