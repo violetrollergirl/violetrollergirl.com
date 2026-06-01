@@ -64,7 +64,7 @@ All of these are important to have installed before you need to use them so, in 
 
 ### Tor Browser: Safe, anonymous Web browsing
 
-Many escorts, like me, [advertise on specialty Web sites]({% link index.html %}#links-group-ad-listings), called *escort malls*. The analogy is obvious! Browsing an escort site is the online equivalent of window shopping.
+Many escorts, like me, [advertise on specialty Web sites]({% link links-group/ad-listings/index.md %}), called *escort malls*. The analogy is obvious! Browsing an escort site is the online equivalent of window shopping.
 
 You probably know that when you browse the Internet with a normal Web browser, most of your browsing activity is being tracked. Even if you switch your browser into a "private browsing" or "incognito" mode, your Internet service provider (your "ISP," like Verizon, Comcast, Rogers, Telstra, iiNet, or whoever) knows what sites you, specifically, are choosing to visit.
 
@@ -157,7 +157,7 @@ This part is easy, and quite fun. Simply launch Tor Browser and use it like you 
 
 If you aren't familiar with any reputable sites for this purpose:
 
-- Consider starting at the [sites on which I maintain advertisements]({% link index.html %}#links-group-ad-listings).
+- Consider starting at the [sites on which I maintain advertisements]({% link links-group/ad-listings/index.md %}).
 - Peruse two websites devoted to learning about the paid companionship industry from a client's point of view:
     - [Good Client Guide](https://goodclientguide.com/){:target="_blank"}
     - [The Satisfaction Project](https://www.satisfactionproject.com/){:target="_blank"}
@@ -186,9 +186,9 @@ This won't work if you're not already [browsing with Tor Browser](#tor-browser-s
 
 ## Use Signal Private Messenger to contact the companion you chose
 
-When you've found the extraordinary escort that's right for you, you'll eventually need to get in touch. Many of us maintain numerous [contact methods]({% link index.html %}#connection-methods) to make it easy for clients to reach us, but only Signal Private Messenger is truly private.
+When you've found the extraordinary escort that's right for you, you'll eventually need to get in touch. Many of us maintain numerous [contact methods]({% link contact/connection-methods/index.md %}) to make it easy for clients to reach us, but only Signal Private Messenger is truly private.
 
-If your chosen escort is secrecy-savvy, they'll have [publicized their Signal number and/or username]({% link resources/for-providers/signal-for-sex-work/index.md %}#publicizing-your-signal-profile-to-clients) somewhere obvious. I've [published my Signal contact link on my Contact page]({% link index.html %}#contact-link-signal). Simply click on it to start composing a message to me via Signal.
+If your chosen escort is secrecy-savvy, they'll have [publicized their Signal number and/or username]({% link resources/for-providers/signal-for-sex-work/index.md %}#publicizing-your-signal-profile-to-clients) somewhere obvious. I've [published my Signal contact link on my Contact page]({% link contact/link/signal/index.md %}). Simply click on it to start composing a message to me via Signal.
 
 Yes, it's that easy.
 
@@ -232,7 +232,7 @@ Otherwise, **just use Signal.**
 
 ## Use shielded Zcash to pay your deposit
 
-With your appointment details finalized, the last step is to confirm your reservation by sending your deposit. While each escort has their own [deposit policy]({% link index.html %}#deposit-policy) and may accept different [payment methods]({% link _faq/booking/payment-methods.md %}), the thing to remember is that payment methods are just like contact methods, except for sending money instead of sending messages.
+With your appointment details finalized, the last step is to confirm your reservation by sending your deposit. While each escort has their own [deposit policy]({% link policies/deposit/index.md %}) and may accept different [payment methods]({% link _faq/booking/payment-methods.md %}), the thing to remember is that payment methods are just like contact methods, except for sending money instead of sending messages.
 
 **The only way to make sure no one knows *you* are paying is to send your payment in a privacy-preserving cryptocurrency like shielded Zcash.**
 
@@ -258,7 +258,7 @@ This means you are welcome to stick with familiar crypto-capable payment apps li
 
 Congratulations, you now know how to find, book, and pay escorts (or other independent workers), completely secretly.
 
-Have questions? Ask your provider, or [contact me]({% link resources/for-clients/booking-guide/index.md %}#connection-methods) directly! I'm genuinely happy to help you level up your privacy game and would only ask for [a tip or donation]({% link resources/for-clients/booking-guide/index.md %}#links-zcash) as a thank you!
+Have questions? Ask your provider, or [contact me]({% link contact/connection-methods/index.md %}) directly! I'm genuinely happy to help you level up your privacy game and would only ask for [a tip or donation]({% link links/zcash/index.md %}) as a thank you!
 
 {:.button-container}
 {% include link-as-button.md anchor_text="Previous: Complete Booking Guide" url=page.prev %}
