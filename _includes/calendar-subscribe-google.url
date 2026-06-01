@@ -1,0 +1,3 @@
+{%- comment -%}
+{%- endcomment -%}
+https://calendar.google.com/calendar/u/0/r?cid={{ include.calendar_id }}{{ '' -}}

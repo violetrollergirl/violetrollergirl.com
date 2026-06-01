@@ -1,0 +1,6 @@
+{%- comment -%}
+{%- endcomment -%}
+{%- capture url -%}
+{%- include calendar-google-ics.url scheme="webcal" calendar_id=include.calendar_id -%}
+{%- endcapture -%}
+https://outlook.office.com/calendar/0/addfromweb?url={{ url | uri_encode }}{{ '' -}}

@@ -1,0 +1,3 @@
+{%- comment -%}
+{%- endcomment -%}
+{{ include.scheme | default: "https" }}://calendar.google.com/calendar/ical/{{ include.calendar_id }}/public/basic.ics{{ '' -}}

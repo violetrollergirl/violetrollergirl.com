@@ -8,7 +8,7 @@ import gCalendarFetcher from 'https://cdn.jsdelivr.net/npm/g-calendar-fetcher@0.
 
 const corsBaseUrl = 'https://cors.anarchism.nyc/';
 const parser = new gCalendarFetcher({
-    url: `${corsBaseUrl}{{ site.data.tours.google_calendar.ics_url | uri_escape }}`,
+    url: `${corsBaseUrl}{% include calendar-google-ics.url calendar_id=site.data.tours.gcal_id %}`,
     amountOfPastEvents: 0,
 });
 
@@ -17,7 +17,7 @@ parser.fetchEvents().then( ( events ) => {
     globalThis.toursUpcomingEvents = events;
 } ).catch( (error) => {
     console.error(
-        'Error fetching or parsing calendar events from {{ site.data.tours.google_calendar.ics_url | uri_escape }}',
+        'Error fetching or parsing calendar events from {% include calendar-google-ics.url calendar_id=site.data.tours.gcal_id %}',
         error
     );
 });
