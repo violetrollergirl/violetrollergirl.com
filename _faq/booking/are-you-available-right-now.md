@@ -25,7 +25,7 @@ in a timely and efficient manner.
 Asking me "are you available?" provides none of the information I need to answer, if only because we have bodies we must move in physical space and reasonable time. This question only delays us. In contrast, **filling out my booking form is the fastest way to meet me.**
 
 {:.button-container}
-[<span class="icon fa-solid fa-pen-nib"></span> Click Here to Book Now]({% link resources/for-clients/booking-guide/index.md %}#booking-inquiry-form){:.button}
+[<span class="icon fa-solid fa-pen-nib"></span> Click Here to Book Now]({% link contact/index.md %}){:.button}
 
 ### Longer answer
 
