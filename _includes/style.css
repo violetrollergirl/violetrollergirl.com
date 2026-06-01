@@ -20,22 +20,26 @@
 
 .data-table {
     border-collapse: separate;
-}
-.data-table caption {
-    padding: 2em;
-    text-align: center;
-}
-.data-table th,
-.data-table td {
-    vertical-align: middle;
-    text-align: center;
-}
-.data-table tbody th,
-.data-table tbody td {
-    border: 1px dotted white;
-}
-.data-table tr:nth-child(2n + 1) {
-    background-color: rgba(5,5,5,.85);
+
+    caption {
+        padding: 2em;
+        text-align: center;
+    }
+
+    th,
+    td {
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    tbody th,
+    tbody td {
+        border: 1px dotted white;
+    }
+
+    tr:nth-child(2n + 1) {
+        background-color: rgba(5,5,5,.85);
+    }
 }
 
 /**
@@ -66,11 +70,20 @@
 }
 
 /**
- * @group Newsletter subscription.
+ * Newsletter subscription.
  */
-[data-form="5cffbafc-3299-11f1-bb40-5906a544377b"] .emailoctopus-form input#field_0 {
-    height: 3em;
-}
-[data-form="5cffbafc-3299-11f1-bb40-5906a544377b"] .mastfoot {
-    display: none !important;
+[data-form="5cffbafc-3299-11f1-bb40-5906a544377b"] {
+
+    .emailoctopus-form input#field_0 {
+        height: 3em;
+    }
+
+    .mastfoot {
+        display: none !important;
+    }
+
+    .grecaptcha-badge {
+        right: 0 !important;
+    }
+
 }
