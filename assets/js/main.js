@@ -260,14 +260,14 @@ layout: none
             });
         });
 
-        document.getElementById('booking-inquiry-form').addEventListener('input', function (e) {
+        document.querySelector('#booking-inquiry-form')?.addEventListener('input', function (e) {
             var submitButton = document.getElementById('booking-inquiry-send-button');
             submitButton.textContent = ( e.currentTarget.checkValidity() )
                 ? "2. Send inquiry"
                 : "2. Check fields";
         });
 
-        document.getElementById('booking-inquiry-copy-button').addEventListener('click', function (e) {
+        document.querySelector('#booking-inquiry-copy-button')?.addEventListener('click', function (e) {
             this.innerText = 'Copied!';
         });
 

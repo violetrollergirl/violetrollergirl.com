@@ -69,7 +69,7 @@ Sincerely,
     };
 
     // Form-wide `change` event.
-    document.getElementById(formId).addEventListener('change', function (e) {
+    document.getElementById(formId)?.addEventListener('change', function (e) {
         var formData = new FormData(this);
         sessionStorage.setItem(
             sessionStorageKey,
@@ -94,7 +94,7 @@ Sincerely,
 
     // Form-wide `submit` and `reset` event.
     ['submit', 'reset'].forEach(function (eventType) {
-        document.getElementById(formId).addEventListener(eventType, function (e) {
+        document.getElementById(formId)?.addEventListener(eventType, function (e) {
             e.preventDefault();
             var inquiryData = new FormData(this);
             var templateText = inquiryText(inquiryData);
