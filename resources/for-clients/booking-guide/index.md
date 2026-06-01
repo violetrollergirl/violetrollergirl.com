@@ -75,17 +75,17 @@ This page is for:
 
 If you're not yet sure whether I'm the girl for you, then you might want to have a look at the rest of my site before returning here:
 
-- My [gallery]({% link index.html %}#gallery) shows you what I look like. Yes, I really do look like that.
-- My ["tech specs" (about page)](#about) describe my vitals and my vibe.
-- My [FAQ](#faq) has the answers to numerous questions about me and my offerings.
+- My [gallery]({% link gallery/index.md %}) shows you what I look like. Yes, I really do look like that.
+- My ["tech specs"]({% link about/tech-specs/index.md %}) describe my vitals and [my vibe]({% link about/index.md %}).
+- My [FAQ]({% link faq/index.md %}) has the answers to numerous questions about me and my offerings.
 - My [reviews and testimonials]({% link _faq/about-me/do-you-have-any-reviews.md %}) offer a peek at what time with me is like through others' eyes.
-- My [rates page](#rates) provides a breakdown of considerations for my offerings.
-- My [tours and availability](#tours) page gives you details about where I'm traveling and when.
-- My [social media posts and my softcore (and hardcore) content]({% link index.html %}#links-group-socials-amp-content) give you the opportunity to see plenty more, and with quite a bunch of real-world texture.
+- My [rates page]({% link rates/index.md %}) provides a breakdown of considerations for my offerings.
+- My [tours]({% link tours/index.md %}) page gives you details about where I'm traveling and [when I'm available]({% link availability/index.md %}).
+- My [social media posts]({% link links-group/socials/index.md %}), [softcore]({% link links/onlyfans/index.md %}), and [hardcore content]({% link links/onlybanned/index.md %}) give you the opportunity to see plenty more, and with some real-world texture.
 
 And if you're still not sure?
 
-You can schedule [a brief curiosity call]({% link index.html %}#rate-add-ons-and-online-curiosity-call-30-minutes) with me, the cost of which can be directly applied to your deposit if you choose to book.
+You can schedule [a brief curiosity call]({% link rate/online/curiosity-call/index.md %}) with me, the cost of which can be directly applied to your deposit if you choose to book.
 
 For that, however, you'll need to schedule some time with me. And this page can help you with that!
 
@@ -212,7 +212,7 @@ You may not leave this field blank, because I need to know how to address you.
 The second field of my booking form is a drop-down menu for choosing the method you would like to use for screening.
 
 * The field's label is:
-    * I read your [screening options]({% link index.html %}#screening-options) and am comfortable being screened by
+    * I read your [screening options]({% link screening/options/index.md %}) and am comfortable being screened by
 * The field's placeholder reads: `How you'll screen.`
 * You are expected to choose one from the following options:
     * Choose `my legal ID document` if you will send a selfie of yourself holding a driver's license or other government-issued photo ID document.
@@ -308,8 +308,8 @@ The sixth field in my booking form is a multi-line text area where you can write
     * More about me:
 * The field's placeholder reads: `Use a professional, warm, cordial tone. Please avoid vulgarities.`
 * You are expected to write a brief description of why you want to see *me* and/or share any information about yourself that you think is relevant for our date.
-    * You are encouraged to [express specific needs or desires in a respectful manner]({% link index.html %}#dos-and-donts-mention-needs-professionally).
-    * If you are [booking as part of a couple or group]({% link index.html %}#dos-and-donts-speak-for-yourself), mention that here with enough detail for me to recognize which other half of the couple or members of the group you're referring to.
+    * You are encouraged to [express specific needs or desires in a respectful manner]({% link contact/dos-and-donts/mention-needs-professionally/index.md %}).
+    * If you are [booking as part of a couple or group]({% link contact/dos-and-donts/speak-for-yourself/index.md %}), mention that here with enough detail for me to recognize which other half of the couple or members of the group you're referring to.
     * If you would like to book me and another provider together as a [duo](#friends), mention your interest in that here and name the other provider.
     * It's okay to flirt a bit here, too, but please do so by crafting intelligent innuendo, double entendres, or showing off your impressive vocabulary.
 
@@ -346,15 +346,15 @@ The eighth field in my booking form is a drop down menu for you to choose the ca
     * May I reserve your time for
 * The field's placeholder reads: `Choose booking type`
 * You are expected to choose one from the following options:
-    * Choose `an incall (provider hosts)` if you'd like to visit me at one of [my incall spaces]({% link index.html %}#incall-availability) or have me make [hotel arrangements]({% link index.html %}#hotel-arrangements) for us.
+    * Choose `an incall (provider hosts)` if you'd like to visit me at one of [my incall spaces]({% link availability/incall/index.md %}) or have me make [hotel arrangements]({% link availability/hotel/index.md %}) for us.
     * Choose `an outcall (client hosts)` if you'd like me to visit you at a hotel room, residence, or other venue you will arrange yourself.
     * Choose `a FMTY (travel with or to you)` if you'd like me to travel to a destination outside of my posted [tours](#tours) or home cities.
         * This is the option you want if you need to meet me in a place I don't normally go, or don't currently have any plans to visit.
     * Choose `a social date (platonic/screening only)` if you just want to meet for a vibe check, to test our compatibility in person, or if you want to screen by meeting in person.
-        * This is not a free meeting; [deposit and cancellation policies]({% link index.html %}#policies) will apply as normal at my [social-only rate]({% link index.html %}#rate-add-ons-and-online-social-only-date).
+        * This is not a free meeting; [deposit and cancellation policies]({% link policies/index.md %}) will apply as normal at my [social-only rate]({% link rate/add-on/social-only/index.md %}).
     * Choose `a virtual video date (online)` to reserve my time for a (possibly rather steamy) video call.
     * Choose `a texting/sexting session (online)` to reserve my time and attention for us to engage in some luxurious literary libations together.
-    * Choose `a curiosity call (phone)` to schedule [an exploratory curiosity call]({% link index.html %}#rate-add-ons-and-online-curiosity-call-30-minutes) at a time that's convenient for us both.
+    * Choose `a curiosity call (phone)` to schedule [an exploratory curiosity call]({% link rate/online/curiosity-call/index.md %}) at a time that's convenient for us both.
 
 You may not leave this field blank. I need to know what you're hoping to book my time for so that we can plan accordingly.
 
@@ -419,7 +419,7 @@ The twelfth field in my booking form is a date and time entry widget for you to 
 * You are expected to enter a date and time in the future.
     * You can enter any time you are available, but remember that planning our date in advance will give us the best experience together.
     * The more notice you give me, the more time we have to build anticipation and set up a lovely time together.
-    * Especially [short notice bookings]({% link index.html %}#short-notice-availability) (less than 24 hours) may incur a rush fee.
+    * Especially [short notice bookings]({% link availability/short-notice/index.md %}) (less than 24 hours) may incur a rush fee.
 
 You may not leave this field blank because all bookings must be performed at *some* time, and I need to know when you're availale to spend that time with me.
 
@@ -437,7 +437,7 @@ The thirteenth field in my booking form is a date and time entry widget for you 
     * You can enter any time you are available, but remember that planning our date in advance will give us the best experience together.
     * You probably shouldn't enter the same date and time as the first one, because that defeats the point of providing alternatives.
     * The more notice you give me, the more time we have to build anticipation and set up a lovely time together.
-    * Especially [short notice bookings]({% link index.html %}#short-notice-availability) (less than 24 hours) may incur a rush fee.
+    * Especially [short notice bookings]({% link availability/short-notice/index.md %}) (less than 24 hours) may incur a rush fee.
 
 You may not leave this field blank because all bookings must be performed at *some* time, and I need to know when you're availale to spend that time with me. By providing an alternative option as a backup to the first option, you help reduce the amount of back-and-forth we need to schedule something in case the first time doesn't work.
 
@@ -446,10 +446,10 @@ You may not leave this field blank because all bookings must be performed at *so
 
 #### Booking form field: confirm policy agreement
 
-The fourteenth field in my booking form is a checkbox that you must check to confirm that you have read and agree to my published [policies]({% link index.html %}#policies).
+The fourteenth field in my booking form is a checkbox that you must check to confirm that you have read and agree to my published [policies]({% link policies/index.md %}).
 
 * The field's label is:
-    * Yes, I have read, understood, and fully agree to abide by the information on your Web site, including your [rates](#rates), [policies]({% link index.html %}#policies), and [availability](#tours).
+    * Yes, I have read, understood, and fully agree to abide by the information on your Web site, including your [rates]({% link rates/index.md %}), [policies]({% link policies/index.md %}), and [availability]({% link availability/index.md %}).
 * The field's default value is *unchecked*.
 * You are expected to check the box.
 
@@ -491,7 +491,7 @@ When you press the `Send inquiry` button, your chosen communication method (emai
 
 After you fill all the fields in my booking form and press the `Send inquiry` button on my booking form, the corresponding app for the contact method you chose earlier will open directly to a conversation thead or draft message with all the information you entered in my booking form written out for you. The exception to this is if you chose Signal Private Messenger. In this case, use the clip/pasteboard feature (such as by pressing Control-V on your keyboard), to paste the form's message into the Signal conversation that was opened with me.
 
-Now's a good time to review your inquiry to me before you commit to sending it. My booking form composed what I consider [an *ideal initial inquiry*]({% link index.html %}#in-your-first-message) for you. (In fact, if you ask around, I'm sure many other providers will largely agree that they'd find it hot to get a first message written like this, too!) Make sure it says what you want, and that you entered the information you intended to.
+Now's a good time to review your inquiry to me before you commit to sending it. My booking form composed what I consider [an *ideal initial inquiry*]({% link contact/first-message/index.md %}) for you. (In fact, if you ask around, I'm sure many other providers will largely agree that they'd find it hot to get a first message written like this, too!) Make sure it says what you want, and that you entered the information you intended to.
 
 Since the message you're about to send is just text, you can also extend any part of the inquiry by simply editing the drafted message at this point. Please feel free to get as creative as you like, but keep the tone professional and don't start asking highly explicit questions or using overtly sexualized language. Save that for after you screen.
 
@@ -526,11 +526,11 @@ At this point, we're in contact, and the goal is simply to work out any remainin
 
 If you don't receive a reply from me, it can be because of any of the following reasons:
 
-- You omitted screening information, or sent an inquiry without [all the information I request]({% link index.html %}#in-your-first-message).
+- You [didn't include information I request]({% link contact/dos-and-donts/omit-requested-info/index.md %}), like [screening]({% link _faq/screening/screening-process.md %}) information.
 - You requested a [session on very short notice]({% link _faq/booking/are-you-available-right-now.md %}), or for the same day.
     - While I can sometimes accomodate a same-day appointment, this is rare and I may not reply if I can't.
     - You are still expected to screen, even for same-day requests.
-- You used [vulgar or sexually explicit language]({% link index.html %}#dos-and-donts-mention-needs-professionally) somewhere in your inquiry.
+- You used [vulgar or sexually explicit language]({% link contact/dos-and-donts/use-vulgar-language/index.md %}) somewhere in your inquiry.
 - Your email was filtered to my spam folder. I do check my spam folder, but I maintain an extremely strict spam filter that will flag your message if:
     - your email address looks like a bot's.
     - your email was recently created.
@@ -558,7 +558,7 @@ I will also supply you with instructions for sending your deposit. These instruc
 - <span class="fa-li fa-solid fa-credit-card"></span> For payment cards: I'll direct you to one of my payment card processors where you can send me a "tip" or buy me a "cash gift."
 - <span class="fa-li fa-solid fa-gifts"></span> For gift cards: I'll send you a direct link to a gift card I want you to buy from a [reputable gift card vendor]({% link resources/for-clients/using-cryptocurrency/off-ramping/index.md %}#send-gift-cards).
 
-For more information, read my [deposit policy]({% link index.html %}#deposit-policy).
+For more information, read my [deposit policy]({% link policies/deposit/index.md %}).
 
 #### About extensive or synchronous correspondence
 
@@ -576,8 +576,8 @@ If we find ourselves unable to plan for and set a specific date, time, or place 
 
 Otherwise, if you feel like you need more correspondence or a real-time conversation to iron out logistics, test our chemistry, or communicate and set expectations, you can:
 
-- schedule [a curiosity call]({% link index.html %}#rate-add-ons-and-online-curiosity-call-30-minutes) so we can get on the phone and talk things out or settle any pre-date nerves.
-- demonstrate good etiquette by [sending me a tip]({% link index.html %}#links-group-tip-me) or buying me a gift off [my wishlist]({% link index.html %}#links-throne) as a show of good faith recognition for the additional planning time.
+- schedule a [curiosity call]({% link rate/online/curiosity-call/index.md %}) so we can get on the phone and talk things out or settle any pre-date nerves.
+- demonstrate good etiquette by [sending me a tip]({% link links-group/tip-me/index.md %}) or buying me a gift off [my wishlist]({% link links/wishlist/index.md %}) as a show of good faith recognition for the additional planning time.
 
 ## Enjoy the building anticipation of our upcoming date
 
@@ -590,8 +590,8 @@ Even if we're not in touch every day, rest assured, I'm not forgetting about the
 If you find that you're craving more attention than that, it's respectful to send tips or gifts along with your messages! Other options include:
 
 - inquiring about a more ongoing texting arrangement.
-- booking a [remote (online phone/video) date]({% link index.html %}#rate-add-ons-and-online-video-date) in the interim.
-- engaging parasocially on [my socials or content sites]({% link index.html %}#links-group-socials-amp-content).
+- booking a [remote (online phone/video) date]({% link rate/online/video-date/index.md %}) in the interim.
+- engaging parasocially on [my socials]({% link links-group/socials/index.md %}) or content sites.
 
 ### The day before our date
 

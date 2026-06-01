@@ -9,7 +9,7 @@ redirect_from:
   - /faq/meetings/when-will-you-be-in-my-city/
 ---
 
-I often *tour*, or make myself available for dates while away from my [home cities]({% link index.html %}#tech-spec-home-cities). My [public travel calendar](#tours) will show you where I'm planning to be and when:
+I often *tour*, or make myself available for dates while away from my [home cities]({% link about/tech-spec/home-cities/index.md %}). My [public travel calendar](#tours) will show you where I'm planning to be and when:
 
 {:.button-container}
 [<span class="icon fa-solid fa-calendar-check"></span> Check availability](#tours){:.button}
@@ -19,9 +19,9 @@ I often *tour*, or make myself available for dates while away from my [home citi
 It's okay if you're not ready to commit to a longer/travel date with me. We can explore our desires and get to know each other:
 
 {:.fa-ul}
-- <span class="fa-li fa-solid fa-video"></span> [in video dates]({% link index.html %}#rate-add-ons-and-online-video-date)
-- <span class="fa-li fa-solid fa-phone"></span> [with a curiosity call]({% link index.html %}#rate-add-ons-and-online-curiosity-call-30-minutes)
+- <span class="fa-li fa-solid fa-video"></span> in [video dates]({% link rate/online/video-date/index.md %})
+- <span class="fa-li fa-solid fa-phone"></span> with a [curiosity call]({% link rate/online/curiosity-call/index.md %})
 
 {% include availability-minimums.html %}
 
-Meanwhile, you can [subscribe to my newsletter]({% link index.html %}#newsletter-subscription) or [subscribe to my travel calendar]({{ site.data.tours.google_calendar.subscribe_url }}) in your Google Calendar. This way, you can get notifications of when I'll be in a new city.
+Meanwhile, you can [subscribe to my newsletter]({% link contact/newsletter/index.md %}) or [subscribe to my travel calendar]({{ site.data.tours.google_calendar.subscribe_url }}) in your Google Calendar. This way, you can get notifications of when I'll be in a new city.

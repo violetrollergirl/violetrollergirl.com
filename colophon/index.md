@@ -22,7 +22,7 @@ next: /colophon/booking-form-code/
 
 I'm pretty proud of my Web site. Sometimes, other providers ask me how I made this site. Some clients have, too.
 
-There are some novel things about it that I'd like to highlight, like my unique mad-lib style [booking form](#contact), [cryptocurrency payment integrations]({% link index.html %}#links-group-tip-me), and deep-linkable anchors.
+There are some novel things about it that I'd like to highlight, like my unique mad-lib style [booking form](#contact), [cryptocurrency payment integrations]({% link links-group/tip-me/index.md %}), and deep-linkable anchors.
 
 So here's a bit of technical information regarding how it all works. But, first&hellip;shall we play a game?
 
@@ -107,9 +107,9 @@ Some pages are long. In order to make everything as easy to find as possible, I'
 
 Each individually ID'ed element therefore also functions like a permalink and, when accessed, [CSS rules `:target`ing that element](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:target){:target="_blank"} create a halo effect around it, highlighting it visually. Try it out:
 
-- read my [incall availability]({% link index.html %}#incall-availability)
+- read my [incall availability]({% link availability/incall/index.md %})
 - book a [curiosity call]({% link index.html %}#rate-add-ons-and-online-curiosity-call-30-minutes)
-- view my [Signal contact link]({% link index.html %}#contact-link-signal)
+- view my [Signal contact link]({% link contact/link/signal/index.md %})
 
 Note how the heading or page area glows in response.
 
@@ -234,7 +234,7 @@ Please feel free to try my form out and experience how it works for yourself. If
 
 ## Cryptocurrency tips and donation links
 
-In keeping with my commitment to privacy, on my [links page is a section listing options for tipping me]({% link index.html %}#links-group-tip-me) using privacy-preserving digital money known as [Zcash](https://z.cash/) and [Monero](https://getmonero.org/). For both of our safety and discretion, I strongly prefer cryptocurrency over fiat payments and have devoted significant time to helping you [learn to use crypto]({% link resources/for-clients/using-cryptocurrency/index.md %}) if doing so is something you haven't done before.
+In keeping with my commitment to privacy, on my [links page is a section listing options for tipping me]({% link links-group/tip-me/index.md %}) using privacy-preserving digital money known as [Zcash](https://z.cash/) and [Monero](https://getmonero.org/). For both of our safety and discretion, I strongly prefer cryptocurrency over fiat payments and have devoted significant time to helping you [learn to use crypto]({% link resources/for-clients/using-cryptocurrency/index.md %}) if doing so is something you haven't done before.
 
 The "z" in Zcash stands for "zero knowledge," which is a branch of cryptography that makes it possible to assert mathematical proofs without having full visibility into the arguments of the proof itself. Practically, this makes it possible to devise electronic payment systems that share some of the beneficial properties of cryptocurrency systems like Bitcoin but without being subjected to its most undesirable requirement of one's financial transactions being fully publicly published on its transparent ledger for all the world to see.
 

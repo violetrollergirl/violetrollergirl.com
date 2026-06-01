@@ -24,7 +24,7 @@ Keep these points in mind when screening:
 {:id="faq-screening-notes"}
 * Both remote screening options require a selfie and a carrier (non-burner) phone number; it's not either/or, it's both/and.
 * Your selfie must be current, must match your LinkedIn profile pic or ID document photo, and must _not_ be the same pic as your profile or ID document photo itself.
-* When sending an ID document, you may redact all information printed on it _except_ your full name, photo, and date of birth (or birth year if that is enough to [prove you are not a minor]({% link resources/for-clients/booking-guide/index.md %}#dos-and-donts-be-of-majority-age)).
+* When sending an ID document, you may redact all information printed on it _except_ your full name, photo, and date of birth (or birth year if that is enough to [prove you are not a minor]({% link contact/dos-and-donts/be-of-majority-age/index.md %})).
 * Ensure the text on your ID is readable. Sending images via SMS/txt often degrades them; I recommend [messaging via Signal Private Messenger]({% include signal-booking.url %}).
 * To make a stellar first impression, consider providing any verification information you feel comfortable offering, whether or not it is listed above.
 

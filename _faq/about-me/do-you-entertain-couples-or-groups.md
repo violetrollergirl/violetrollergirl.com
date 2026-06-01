@@ -18,6 +18,6 @@ Yes, and happily! I am *enthusiastically* bisexual and love joining fun-loving c
 
 Labels like straight, gay, lesbian, bisexual, or pansexual don't matter all that much to me, because at the end of the day what matters is having fun together.
 
-In any case, I'll simply need each individual participant to [screen]({% link resources/for-clients/booking-guide/index.md %}#screening-options) and take a moment to [reach out to me individually]({% link resources/for-clients/booking-guide/index.md %}#dos-and-donts-speak-for-yourself) (even super briefly, just once) so I can confirm everyone involved is on the same page and consenting. For everyone's safety, I can't accept bookings when communicating solely through a proxy.
+In any case, I'll simply need each individual participant to [screen]({% link _faq/screening/screening-process.md %}) and take a moment to [reach out to me individually]({% link contact/dos-and-donts/speak-for-yourself/index.md %}) (even super briefly, just once) so I can confirm everyone involved is on the same page and consenting. For everyone's safety, I can't accept bookings when communicating solely through a proxy.
 
 To book me for a group event, simply ask everyone in your party to fill in my [booking form]({% link resources/for-clients/booking-guide/index.md %}#booking-inquiry-prospect-attraction) and tell them to clearly note that they are part of your group.

@@ -35,7 +35,7 @@ Asking me "are you available?" provides none of the information I need to answer
 
 **I usually book between 2 days to 2 weeks in advance.** While I can sometimes make myself available for dates on shorter notice than that, doing so requires ample cooperation from you.
 
-Famously, I do enjoy spontaneous adventures, but I'm much more likely to be able to see you ["right now," on short notice, or same-day]({% link index.html %}#short-notice-availability) if we are already acquainted. This is because it takes time to intake all session details, [complete screening]({% link _faq/screening/screening-process.md %}), send and confirm a [deposit]({% link _faq/booking/what-is-a-deposit.md %}), and actually move our bodies to the same physical place to meet one another. This is to say nothing about possibly needing to also prepare my incall, or at least prepare my body, for your arrival.
+Famously, I do enjoy spontaneous adventures, but I'm much more likely to be able to see you ["right now," on short notice, or same-day]({% link availability/short-notice/index.md %}) if we are already acquainted. This is because it takes time to intake all session details, [complete screening]({% link _faq/screening/screening-process.md %}), send and confirm a [deposit]({% link _faq/booking/what-is-a-deposit.md %}), and actually move our bodies to the same physical place to meet one another. This is to say nothing about possibly needing to also prepare my incall, or at least prepare my body, for your arrival.
 
 Even in a rare perfect case, it usually takes no less than ~3 hours to set up a "last minute" date. When I'm traveling ("[touring]({% link _faq/meeting/when-will-you-be-in-my-city.md %})"), last-minute sessions are also sometimes infeasible precisely because if I'm in your area it's likely for a pre-booked date and am thus focused on my existing commitment with someone else.
 
@@ -45,8 +45,8 @@ The best thing you can do to snag a date, whether opportunistically or otherwise
 - <span class="fa-li fa-solid fa-calendar"></span> inquire ahead of time (check my [calendar](#tours)),
 - <span class="fa-li fa-solid fa-id-card"></span> [pre-screen]({% link _faq/screening/screening-process.md %}),
 - <span class="fa-li fa-solid fa-mobile"></span> keep a line of communication open, and
-- <span class="fa-li fa-brands fa-bluesky"></span> follow [me on Bluesky](https://bsky.app/profile/violetrollergirl.com){:target="_blank"}, other [social media]({% link index.html %}#links-group-socials-amp-content), or [subscribe to my newsletter]({% link index.html %}#newsletter-subscription).
+- <span class="fa-li fa-brands fa-bluesky"></span> follow [me on Bluesky](https://bsky.app/profile/violetrollergirl.com){:target="_blank"}, other [social media]({% link links-group/socials/index.md %}), or [subscribe to my newsletter]({% link contact/newsletter/index.md %}).
 
-It's also okay to plan for a farther-future date and then [reschedule if necessary]({% link resources/for-clients/booking-guide/index.md %}#if-you-need-to-reschedule-or-cancel). It's generally easy to accommodate rescheduling with minimal fuss as long as you stay communicative and [provide sufficient notice]({% link index.html %}#cancellation-policy).
+It's also okay to plan for a farther-future date and then [reschedule if necessary]({% link resources/for-clients/booking-guide/index.md %}#if-you-need-to-reschedule-or-cancel). It's generally easy to accommodate rescheduling with minimal fuss as long as you stay communicative and [provide sufficient notice]({% link _faq/booking/what-is-your-cancellation-policy.md %}).
 
 Put simply, give your life more time, and your life will be more full of pleasure.
