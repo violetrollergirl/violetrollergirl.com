@@ -31,7 +31,9 @@ booking:
   ai_concierge:
     name: Rose
     telegram: https://t.me/blushdeskbot?start=d5590dc9236ddb2e
+    whatsapp: "+13472488440"
     email: violetrollergirl@blushdesk.ch
+    web: https://blushdesk.ch/f/violet-rollergirl
   subject: Booking inquiry
   template_txt: |-
     Hi Violet, my name is __. I found you via your website and would like to book an INCALL/OUTCALL on __ for __ hours in CITY. Thanks!

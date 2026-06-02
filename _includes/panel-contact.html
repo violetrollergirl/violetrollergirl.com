@@ -7,15 +7,41 @@ along with a bunch of additional instruction.
 {% assign datetime_default_value = site.time | date: "%s" | minus: 120 %}
 
 {% comment %}{% include google-calendar-appointment-booking-form.html %}{% endcomment %}
+<div class="inner">
+    <div>
+        <h2 id="bookings-and-concierge">Bookings and Concierge (<a href="{% link resources/for-clients/booking-guide/index.md %}#booking-via-{{ site.booking.ai_concierge.name | slugify }}-my-personal-assistant" class="panel-closer-link"><span class="fa-icon fa-solid fa-bell-concierge"></span> My assistant</a>)</h2>
+        <p>I&rsquo;m driven by novelty and curiosity, so I&rsquo;m already eager to meet you. Yes, <em>you</em>. Booking is fastest through my assistant, {{ site.booking.ai_concierge.name }}. If you need extreme discretion, you can <a href="#meet-me">reach me directly</a>.</p>
+        <ul id="concierge-contact-links-list" class="contact-links-list icons labels-list">
+            <li id="contact-info-concierge-web">
+                <a id="contact-concierge-web" class="icon fa-brands fa-globe fa-4x" href="{{ site.booking.ai_concierge.web }}" title="Web">
+                    <span class="label icon-label">Web</span>
+                </a>
+            </li>
+            <li id="contact-info-concierge-email">
+                <a id="contact-concierge-email" class="icon fa-brands fa-envelope fa-4x" href="{% include mailto-booking.url address=site.booking.ai_concierge.email %}" title="Email">
+                    <span class="label icon-label">Email<br />({{ site.booking.ai_concierge.email }})</span>
+                </a>
+            </li>
+            <li id="contact-info-concierge-whatsapp">
+                <a id="contact-concierge-whatsapp" class="icon fa-brands fa-square-whatsapp fa-4x" href="{% include whatsapp-booking.url address=site.booking.ai_concierge.whatsapp %}">
+                    <span class="label icon-label">WhatsApp<br />({{ site.booking.ai_concierge.whatsapp }})</span>
+                </a>
+            </li>
+            <li id="contact-info-concierge-telegram">
+                <a id="contact-concierge-telegram" class="icon fa-brands fa-telegram fa-4x" href="{{ site.booking.ai_concierge.telegram }}" title="Telegram">
+                    <span class="label icon-label">Telegram</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
 <div class="inner split">
     <div>
-        <header>
-            <h2 id="booking-form">Meet Me (<a href="{% link resources/for-clients/booking-guide/index.md %}" title="A complete, step-by-step guide to booking me as your provider."><span class="icon fa-solid fa-question-circle"></span> Booking Guide</a>)</h2>
-        </header>
-        <p>I&rsquo;m driven by novelty and curiosity, so I&rsquo;m already eager to meet you. Yes, <em>you</em>. To start, please introduce yourself to <a class="panel-closer-link" href="{% link resources/for-clients/booking-guide/index.md %}#booking-via-{{ site.booking.ai_concierge.name | slugify }}-my-personal-assistant">my personal assistant, {{ site.booking.ai_concierge.name }}</a>, either by <a href="{{ site.booking.ai_concierge.telegram }}">chatting on <span class="fa-icon fa-brands fa-telegram"></span> Telegram</a>, <a href="mailto:{{ site.booking.ai_concierge.email }}">sending her an <span class="fa-icon fa-solid fa-envelope"></span> email</a>, or in the web chat below:</p>
+        <h2 id="meet-me">Meet Me (<a href="{% link resources/for-clients/booking-guide/index.md %}" title="A complete, step-by-step guide to booking me as your provider."><span class="icon fa-solid fa-question-circle"></span> Booking Guide</a>)</h2>
+        {% comment %}
         <div id="booking-inquiry-form-blushdesk">
             <iframe id="blushdesk-form-violet-rollergirl" title="Request to Meet Violet"
-                src="https://blushdesk.ch/f/violet-rollergirl"
+                src="{{ site.booking.ai_concierge.web }}"
                 width="100%"
                 frameborder="0"
                 style="border: none; border-radius: 8px;">
@@ -33,6 +59,7 @@ along with a bunch of additional instruction.
                 });
             </script>
         </div>
+        {% endcomment %}
         <p class="align-center" style="margin-bottom: 1em;"><img loading="lazy" src="{% link images/gallery-resized/red-lingerie-with-laptop-on-bed.jpg %}" alt=""/></p>
         <p>If you need an <a href="{% link resources/for-clients/discretion-maxxing/index.md %}#what-about-booking-forms">even more discreet</a> touch, <a href="#booking-inquiry-form">reach out to me directly</a> using the form below. Please <a href="{% link resources/for-clients/booking-guide/index.md %}#patiently-wait-for-my-reply">be patient</a> as it may take me a day or so to reply.</p>
         <form name="booking_inquiry_form" id="booking-inquiry-form"
@@ -177,7 +204,6 @@ along with a bunch of additional instruction.
                             </small>
                         </sup>
                         <textarea name="booking_inquiry_prospect_attraction" id="booking-inquiry-prospect-attraction"
-
                             class="form-input"
                             minlength="20"
                             placeholder="Use a professional, warm, cordial tone. Please avoid vulgarities."></textarea>
@@ -421,8 +447,9 @@ along with a bunch of additional instruction.
         <h2 id="connection-methods">Connection Methods (<a href="{% link resources/for-clients/discretion-maxxing/index.md %}" title="How to book completely secretly."><span class="icon fa-solid fa-question-circle"></span> Booking on the <acronym title="down low">DL</acronym></a>)</h2>
         <p>Please feel free to <a href="{% link .well-known/vcard.vcf %}">save my contact card</a> and write me anytime.</p>
         <p>I strongly prefer encrypted messaging via <a href="{% include signal-booking.url %}">Signal Private Messenger</a>. <small class="easter-egg">(You&rsquo;ll earn a $40 USD discount off our first date if you book entirely over Signal as a thank you for helping to protect your privacy and mine. Learn <a href="{% link colophon/index.md  %}#easter-eggs">how to earn more discounts&hellip;</a>.)</small></p>
-        <p>When reaching out to book, please <a href="#dos-and-donts-include-all-info">include <em>all</em> of the same information</a> that my <a href="#booking-inquiry-form">booking form</a> asks you to provide to receive a reply. <a href="{% link resources/for-clients/booking-guide/index.md %}#if-you-dont-receive-a-reply" class="panel-closer-link">If you don't hear back from me</a>, that's likely why.</p>
-        <ul id="contact-links-list"  class="icons labels-list">
+        <p><strong>Please <a href="{% link resources/for-clients/booking-guide/index.md %}#patiently-wait-for-my-reply" class="panel-closer-link">be patient</a> as it may take a day for me to reply.</strong></p>
+        <p>In the meantime, explore the <a href="https://goodclientguide.com/" target="_blank">Good Client Guide</a> and the <a href="https://www.satisfactionproject.com/" target="_blank">Satisfaction Project</a> for more helpful advice about how to prepare for your date with a provider like me, or have a look at some of <a href="#friends">my hot friends</a>.</p>
+        <ul id="direct-contact-links-list"  class="contact-links-list icons labels-list">
             <li>
                 <a id="contact-link-signal" class="icon fa-brands fa-signal-messenger fa-4x" href="{% include signal-booking.url %}" title="Signal">
                     <span class="label icon-label">Signal Private Messenger<br />({{ site.contact.signal.username }})</span>
@@ -433,8 +460,8 @@ along with a bunch of additional instruction.
                     <span class="label icon-label">Email<br />({{ site.contact.email }})</span>
                 </a>
             </li>
-            <li>
-                <a id="contact-link-whatsapp" class="icon fa-brands fa-whatsapp fa-4x" href="{% include whatsapp-booking.url %}" title="WhatsApp">
+            <li id="contact-info-whatsapp">
+                <a id="contact-link-whatsapp" class="icon fa-brands fa-whatsapp fa-4x" href="{% include whatsapp-booking.url address=site.contact.whatsapp %}" title="WhatsApp">
                     <span class="label icon-label">WhatsApp<br />({{ site.contact.whatsapp }})</span>
                 </a>
             </li>
@@ -448,15 +475,8 @@ along with a bunch of additional instruction.
                     <span class="label icon-label">Jabber/XMPP<br />({{ site.contact.xmpp.jid }})</span>
                 </a>
             </li>
-            <li>
-                <a id="contact-link-telegram" class="icon fa-brands fa-telegram fa-4x" href="{{ site.booking.ai_concierge.telegram }}" title="Telegram">
-                    <span class="label icon-label">Telegram<br />(my assistant, {{ site.booking.ai_concierge.name }})</span>
-                </a>
-            </li>
         </ul>
-        <p>Otherwise, you may also contact me via <a href="{% include mailto-booking.url %}">email</a>, using <a href="{% include whatsapp-booking.url %}">WhatsApp</a>, over <a href="{% include xmpp-booking.url %}">Jabber/XMPP instant message</a>, and finally by <a href="{% include sms-booking.url %}">text/SMS</a> if necessary.</p>
-        <p><strong>Please <a href="{% link resources/for-clients/booking-guide/index.md %}#patiently-wait-for-my-reply" class="panel-closer-link">be patient</a> as it may take a day for me to reply.</strong></p>
-        <p>In the meantime, explore the <a href="https://goodclientguide.com/" target="_blank">Good Client Guide</a> and the <a href="https://www.satisfactionproject.com/" target="_blank">Satisfaction Project</a> for more helpful advice about how to prepare for your date with a provider like me, or have a look at some of <a href="#friends">my hot friends</a>.</p>
+        <p>When reaching out to me directly to book, please <a href="#dos-and-donts-include-all-info">include <em>all</em> of the same information</a> that my <a href="#booking-inquiry-form">booking form</a> asks you to provide to receive a reply. <a href="{% link resources/for-clients/booking-guide/index.md %}#if-you-dont-receive-a-reply" class="panel-closer-link">If you don't hear back from me</a>, or if I direct you back to <a href="#bookings-and-concierge">my assistant</a>, it's probably because you didn't include the information I need to book you.</p>
         <p class="align-center"><img loading="lazy" src="{% link images/gallery-resized/balcony-view-as-voyeur-through-window.jpg %}" alt="" /></p>
         <h2 id="newsletter-subscription">Newsletter subscription</h2>
         <p>Occasionally, I send cute updates and neat announcements to friends and lovers via my newsletter. This includes information about upcoming <a href="{% link _faq/meeting/when-will-you-be-in-my-city.md %}">tours</a>, a range of special social and industry-adjacent events, and even the rare special discount or deal. Subscribing is optional, free, never X-rated, and you can unsubscribe at any time.</p>

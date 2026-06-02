@@ -1,1 +1,3 @@
-https://wa.me/{{ site.contact.whatsapp | url_encode }}?text={{ site.booking.template_txt | url_encode -}}
+{%- comment -%}
+{%- endcomment -%}
+https://wa.me/{{ include.address | url_encode }}?text={{ site.booking.template_txt | url_encode -}}
