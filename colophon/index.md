@@ -108,7 +108,7 @@ Some pages are long. In order to make everything as easy to find as possible, I'
 Each individually ID'ed element therefore also functions like a permalink and, when accessed, [CSS rules `:target`ing that element](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:target){:target="_blank"} create a halo effect around it, highlighting it visually. Try it out:
 
 - read my [incall availability]({% link availability/incall/index.md %})
-- book a [curiosity call]({% link index.html %}#rate-add-ons-and-online-curiosity-call-30-minutes)
+- book a [curiosity call]({% link rate/online/curiosity-call/index.md %})
 - view my [Signal contact link]({% link contact/link/signal/index.md %})
 
 Note how the heading or page area glows in response.
@@ -116,7 +116,7 @@ Note how the heading or page area glows in response.
 
 ## Client-side booking form
 
-My site's [Contact page](#contact) includes a [booking form]({% link index.html %}#booking-inquiry-form) that has some especially unique properties.
+My site's [Contact page]({% link contact/index.md %}) includes a [booking form]({% link contact/booking/inquiry-form/index.md %}) that has some especially unique properties.
 
 ### Mad-lib style form prose
 
@@ -136,7 +136,7 @@ Following each field's description in the guide is a "Continue in Form" button, 
 
 ### Fill while browsing
 
-You can partially fill in my [booking form]({% link index.html%}#booking-inquiry-form), then browse to another page on my site, then come back to the form again, all without being forced to start filling the form in from scratch every time.
+You can partially fill in my [booking form]({% link contact/booking/inquiry-form/index.md%}), then browse to another page on my site, then come back to the form again, all without being forced to start filling the form in from scratch every time.
 
 When you enter data into one of the fields in my booking form, my website will remember this entry and automatically fill it back in for you when you return to the form.
 
@@ -150,7 +150,7 @@ My [Rates page](#rates) and my booking form work together.
 
 Clicking on any of the "Reserve now" links from my fee schedule will automatically fill in the appropriate data in the correct field in my booking form.
 
-For example, clicking the [2-hour GFE session menu item]({% link index.html %}#rate-gfe-fs-2-hours)'s booking link automatically fills in the value of `2` in the date duration field on my form, along with the `GFE services` selection for the service type.
+For example, clicking the [2-hour GFE session menu item]({% link rate/gfe-fs/2-hours/index.md %})'s booking link automatically fills in the value of `2` in the date duration field on my form, along with the `GFE services` selection for the service type.
 
 Go ahead. Try it. :)
 
