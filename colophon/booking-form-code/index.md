@@ -11,7 +11,7 @@ prev: /colophon/
 
 # Steal {{ site.title }}'s Booking Form Code
 
-As [described on my colophon]({% link colophon/index.md %}#client-side-booking-form), my booking form technique offers a number of advantages over form services such as Google Forms, JotForm, TypeForm, BlushDesk, and any other server-side form solution. This page offers some help for how to make your booking form work like mine.
+As [described on my colophon]({% link colophon/index.md %}#client-side-booking-form), my booking form technique offers a number of advantages over form services such as Google Forms, JotForm, TypeForm, BlushDesk, and any other server-side form solution. This page offers some help for how to make your booking form work like [mine]({% link contact/booking/inquiry-form/index.md %}).
 
 My form code works through "[convention over configuration](https://en.wikipedia.org/wiki/Convention_over_configuration){:target="_blank"}." That just means you have to use some sensible names for your booking form fields and then the code will pick up on the rest.
 
