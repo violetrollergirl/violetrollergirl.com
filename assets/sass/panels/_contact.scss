@@ -19,13 +19,14 @@
 
 .contact-links-list {
     display: flex;
+    gap: 1em;
     flex-wrap: wrap;
     justify-content: center;
 
-    li {
+    > li {
         flex: 1;
         text-align: center;
-        margin: 0 .5em;
+        margin: 0;
     }
 
     a {
