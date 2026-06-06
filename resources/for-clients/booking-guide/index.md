@@ -157,7 +157,7 @@ You can book me with {{ site.booking.ai_concierge.name }}'s help via:
 - [<span class="fa-li fa-solid fa-globe"></span> Web chat]({{ site.booking.ai_concierge.web }}) (requires valid email)
 - [<span class="fa-li fa-solid fa-envelope"></span> Email](mailto:{{ site.booking.ai_concierge.email }})
 - [<span class="fa-li fa-brands fa-telegram"></span> Telegram chat]({{ site.booking.ai_concierge.telegram }})
-- [<span class="fa-li fa-brands fa-square-whatsapp"></span> WhatsApp]({{ site.booking.ai_concierge.whatsapp }})
+- [<span class="fa-li fa-brands fa-square-whatsapp"></span> WhatsApp]({% include whatsapp-booking.url address=site.booking.ai_concierge.whatsapp %})
 - <span class="fa-li fa-solid fa-comment-sms"></span> Text/SMS messages (coming soon)
 
 Currently, {{ site.booking.ai_concierge.name }} is in a trial phase. If you like booking with her, please let me know. If you run into problems, please tell me about them.
