@@ -18,7 +18,7 @@ One of my favorite things about being a trans provider is sharing in moments of 
 To experience that, of course, you must first book me:
 
 {:.align-center}
-{% include link-as-button.md anchor_text="<span class='fa-icon fa-solid fa-pen-nib'></span> Open Booking Form" url="/resources/for-clients/booking-guide/#contact" %}
+{% include link-as-button.md anchor_text="<span class='fa-icon fa-solid fa-pen-nib'></span> Book Me" url="/resources/for-clients/booking-guide/#contact" %}
 
 Sadly, many who try fumble their chance. Following the instructions in this guide makes sure a fumble won't be how our story ends.
 
