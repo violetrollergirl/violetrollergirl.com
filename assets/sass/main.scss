@@ -58,7 +58,6 @@
 
 	@import 'layout/wrapper';
 	@import 'layout/header';
-	@import 'layout/navpanel';
 	@import 'layout/tours-ticker';
 	@import 'layout/main';
 	@import 'layout/main-content-wrapper';
@@ -67,6 +66,7 @@
 
 // Panels.
 
+	@import 'panels/navpanel';
 	@import 'panels/rates';
 	@import 'panels/contact';
 	@import 'panels/links';

@@ -4,7 +4,8 @@
 
 layout: none
 ---
-import gCalendarFetcher from 'https://cdn.jsdelivr.net/npm/g-calendar-fetcher@0.7.0/+esm'
+import gCalendarFetcher from 'g-calendar-fetcher';
+import linkifyStr from 'linkify-string';
 
 const corsBaseUrl = 'https://cors.anarchism.nyc/';
 const parser = new gCalendarFetcher({
@@ -13,6 +14,13 @@ const parser = new gCalendarFetcher({
 });
 
 parser.fetchEvents().then( ( events ) => {
+    events.forEach(function (x) {
+        if (x.description) {
+            x.description = linkifyStr(x.description, {
+                target: '_blank'
+            });
+        }
+    });
     // Explicit export to global scope. Intentional.
     globalThis.toursUpcomingEvents = events;
 } ).catch( (error) => {

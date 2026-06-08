@@ -413,14 +413,14 @@ layout: none
                         .find('span').text('Close');
                     if ( skel.breakpoint('small').active ) {
                         var ticker = $('#tour-ticker').detach();
-                        ticker.insertBefore($('#navpanel > nav'));
+                        ticker.insertAfter($('#navpanel > nav'));
                     }
                 } else {
                     $t.removeClass('fa-x')
                         .addClass('fa-bars')
                         .find('span').text('Menu');
                     var ticker = $('#tour-ticker').detach();
-                    ticker.insertBefore($('#header > nav'));
+                    ticker.insertAfter($('#header > nav'));
                 }
             });
         });
@@ -568,7 +568,7 @@ layout: none
 
                 var description = document.createElement('span');
                 description.setAttribute('slot', 'tour-event-description');
-                description.innerText = event.description?.split("\n", 1).join('') || '';
+                description.innerHTML = event.description?.split("\n", 1).join('') || '';
                 el.appendChild(description);
 
                 ticker.appendChild(el);
