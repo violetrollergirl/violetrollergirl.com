@@ -96,7 +96,7 @@ My recommendations:
 
 If you are using a dedicated phone for work and you want clients to be able to find your Signal profile from your publicly listed work phone number, you can ignore this section. However, if you have a personal Signal profile or you simply desire to keep your Signal phone number secret, as I do, then you should [ensure your phone number is never shared with your Signal contacts](https://support.signal.org/hc/en-us/articles/6712070553754-Phone-Number-Privacy-and-Usernames#pnp_settings){:target="_blank"}.
 
-When you do this, you also must [create a Signal username](#setting-your-signal-username) (described next) so that other Signal users can start a conversation with you. This is how I've set up my work Signal profile, so that clients who read my [Contact](#contact) page have [a Signal link they can click]({% link index.html %}#contact-link-signal) to connect with me, via my Signal username.
+When you do this, you also must [create a Signal username](#setting-your-signal-username) (described next) so that other Signal users can start a conversation with you. This is how I've set up my work Signal profile, so that clients who read my [Contact](#contact) page have [a Signal link they can click]({% link contact/link/signal/index.md %}) to connect with me, via my Signal username.
 
 My recommendations:
 
@@ -229,7 +229,7 @@ I would personally love to see Tryst and other escort mall ad sites provide a Si
 My recommendations:
 
 - Display your Signal username anywhere that makes sense to encourage more clients to reach out via Signal.
-- Publish your Signal contact link on your website's contact page. See [how I've done mine]({% link index.html %}#contact-link-signal).
+- Publish your Signal contact link on your website's contact page. See [how I've done mine]({% link contact/link/signal/index.md %}).
   - This is also [how my booking form integrates with Signal directly]({% link colophon/index.md %}#privacy-guarantees-of-first-contact)!
 
 ## Verifying your Signal Safety Number with clients you meet
@@ -294,7 +294,7 @@ In addition to some of its state of the art privacy and security guarantees, Sig
 
 Found a typo? Have a better way to do something? I've done my best to thoroughly research and test everything in these articles. But this space moves quickly, and there's a lot to know.
 
-If you're a fellow provider and need help, have suggestions to improve this guide, or just want to talk cool privacy tech, please feel free to [contact me](#contact) or to [find me on any of my socials]({% link index.html %}#links-group-socials-amp-content)!
+If you're a fellow provider and need help, have suggestions to improve this guide, or just want to talk cool privacy tech, please feel free to [contact me](#contact) or to [find me on any of my socials]({% link links-group/socials/index.md %})!
 
 {:.button-container}
 {% include link-as-button.md anchor_text="Previous: For Providers" url=page.prev %}
