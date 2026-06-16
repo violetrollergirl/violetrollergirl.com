@@ -46,6 +46,7 @@ So here's a bit of technical information regarding how it all works. But, first&
     1. [Other benefits of avoiding a third-party service](#other-benefits-of-avoiding-a-third-party-service)
     1. [Steal my booking form code](#steal-my-booking-form-code)
 1. [Cryptocurrency tips and donation links](#cryptocurrency-tips-and-donation-links)
+1. [Subscribable tours calendar](#subscribable-tours-calendar)
 
 {:.easter-egg}
 ## Easter eggs
@@ -245,6 +246,35 @@ I also accept deposits and full payment in these privacy-preserving cryptocurren
 I reuse the same technique of registering URL protocol handlers that my booking form uses for these cryptocurrency donation options. Both Zcash and Monero have standardized URL schemes for invoking various intended actions through links, and I have implemented those on my site. These are specifically [the `zcash:` scheme described by the Zcash Improvement Proposal (ZIP) 321](https://zips.z.cash/zip-0321), and [the `monero:` scheme described by the Monero Project's TX Scheme paper](https://github.com/monero-project/monero/wiki/URI-Formatting).
 
 I further provide QR codes that encode the same URI data into an image for easy access by wallet apps like [Zodl](https://zodl.com/) or [Cake Wallet](https://cakewallet.com/) that provide QR code scan functionality. You can click or scan the QR codes of my donation links on my site to send me Zcash or Monero denominated cryptocurrency conveniently as a tip, gift, donation, deposit, or full payment at any time. While I also accept Bitcoin and Ethereum, I do not prefer them as transactions on those ledgers are published publicly and with full payment details to the world, making them subpar options for private payments outside of personal correspondence.
+
+## Subscribable tours calendar
+
+My handy [travel calendar]({% link tours/calendar/index.md %}) always shows you the most up-to-date information about my whereabouts and my availability. This information is repeated in numerous parts throughout my website, including a horizontally scrollable marquee in the menu bar at the bottom of my website's desktop view and the main navigation menu panel when in mobile view.
+
+I made it to answer some of the most frequent questions I get, like "where are you" (look at my calendar), "[are you available]({% link _faq/booking/are-you-available-right-now.md %})" (look at my calendar), "[when will you be in [some city]]({% link _faq/meeting/when-will-you-be-in-my-city.md %})" (look at my calendar), and so on.
+
+The subscribable part of this calendar is deceptively simple: it is just [a dedicated Google Calendar](https://support.google.com/calendar/answer/37095?hl=en){:target="_blank"}. However, as the Google Calendar software and service is based on the standard [iCalendar](https://en.wikipedia.org/wiki/ICalendar){:target="_blank"} specification, it can be used to describe more than just tour listings.
+
+Indeed, my personal workflow uses this calendar's data as one part of a fully fledged, private availability and appointment scheduling system that publicly discloses information merely at day-level time and city-level location granularity for obvious discretionary and personal safety reasons.
+
+On the calendar visible to the public:
+
+- An event's [`LOCATION` property](https://icalendar.org/iCalendar-RFC-5545/3-8-1-7-location.html){:target="_blank"} publicly discloses a tour destination.
+    - When no `LOCATION` is present, my website displays the text "`(Undisclosed)`."
+- An event's [`SUMMARY` property](https://icalendar.org/iCalendar-RFC-5545/3-8-1-12-summary.html){:target="_blank"} describes a tour succinctly.
+    - Since every event must have a `SUMMARY`, I usually duplicate the `LOCATION`'s value when one is missing.
+- An event's [`TRANSP` ("time transparency") property](https://icalendar.org/iCalendar-RFC-5545/3-8-2-7-time-transparency.html){:target="_blank"} describes whether an appointment can be booked on a given day.
+    - Events that have no `LOCATION` but do have a `SUMMARY` usually also correspond to a blocked-off time period when I cannot be booked, such as an exclusive arrangement as part of FMTY/TMTY or other types of extended dates.
+    - Technically, blocked dates are those events whose `TRANSP` property have the `OPAQUE` value while bookable dates are marked with the `TRANSPARENT` value.
+- An event's [`DESCRIPTION` property](https://icalendar.org/New-Properties-for-iCalendar-RFC-7986/5-2-description-property.html){:target="_blank"} provides additional relevant details when appropriate, which can include:
+    - Neighborhood-level location granularity, if relevant.
+    - Special offer or discount deals related to the event.
+    - A note about why I'm in the area, like a pointer to a related event relevant to my work as a provider.
+- An event's [`VALARM` component](https://icalendar.org/iCalendar-RFC-5545/3-6-6-alarm-component.html){:target="_blank"} provides optional notifications ahead of the tour's commencement.
+    - You won't notice these unless you actually [subscribe to my calendar]({% link tours/calendar/subscribe/index.md %}) in your iCalendar-supporting calendar app.
+    - You can silence these in most apps when subscribing if you don't want notifications of when I'm in a new city.
+
+My website displays this information in a number of different ways, but all of this is available to you in whatever calendaring application you prefer to use via [subscription buttons at the bottom of my Tours page]({% link tours/calendar/subscribe/index.md %}).
 
 {:.button-container}
 [<span class="fa-icon fa-solid fa-user-tie"></span> For Clients]({% link resources/for-clients/index.md %}){:.button}
