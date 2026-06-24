@@ -233,7 +233,8 @@ layout: none
             $('#contact-method-reliability-warning').hide();
             $('#contact-method-xmpp-primer').hide();
             $('#contact-method-email-public-key').hide();
-            $('#contact-method-signal-discount').hide() && $('#contact-method-step-3').hide();
+            $('#contact-method-signal-discount').hide();
+            $('#contact-method-step-3').hide();
 
             // Show the one that was selected.
             switch (this.value) {
@@ -248,6 +249,9 @@ layout: none
                     break;
                 case 'xmpp':
                     $('#contact-method-xmpp-primer').show();
+                    break;
+                case 'simplex':
+                    $('#contact-method-step-3').show();
                     break;
             }
         });

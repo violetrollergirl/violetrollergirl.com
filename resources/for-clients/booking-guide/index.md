@@ -271,6 +271,8 @@ The fourth field in my booking form is a drop-down menu for you to choose how yo
         * Even from a phone, this option is not always reliable, and a warning to this effect will show up on the booking form when you select this option.
     * Choose `Jabber/XMPP instant message` if you'd like the booking form to send your message to my Jabber/XMPP identity (`{{ site.contact.xmpp.jid }}`).
         * You will need an [XMPP client app](https://xmpp.org/software/?platform=all-platforms){:target="_blank"} installed on the device you are filling out the form from.
+    * Choose `SimpleX` if you'd like to use [SimpleX](https://simplex.chat/){:target="_blank"} to send me your message.
+        * You will need to have installed the SimpleX mobile phone app on the device with which you are filling out the form.
 
 You may not leave this field blank, because I can't reply to you if you do.
 

@@ -1,0 +1,7 @@
+{% comment %}
+This is a SimpleX contact address link intended for integration with
+the SimpleX mobile phone app.
+See also:
+https://simplex.chat/docs/guide/app-settings.html#your-simplex-contact-address
+{% endcomment -%}
+{{ site.contact.simplex.url }}{{ "" -}}

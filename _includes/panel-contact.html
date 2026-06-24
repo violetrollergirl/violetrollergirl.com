@@ -135,6 +135,7 @@ along with a bunch of additional instruction.
                                 <option value="email">email</option>
                                 <option value="sms">SMS/text message</option>
                                 <option value="xmpp">Jabber/XMPP instant message</option>
+                                <option value="simplex">SimpleX</option>
                             </select>
                         </span><!-- .select-wrapper -->
                         <span id="contact-method-signal-discount" style="display: none;">
@@ -435,7 +436,7 @@ along with a bunch of additional instruction.
                     </p>
                     <p id="contact-method-step-3">
                         <span class="fa-solid fa-circle-exclamation fa-2x" style="float: left; margin-right: 10px"></span>
-                        3. Paste your inquiry message text into the Signal chat!
+                        3. Paste your copied message into the chat!
                     </p>
                     <p class="align-center">
                         <strong>(To send your inquiry, click the buttons above in turn!)<sup><small class="form-text"><a class="closer" title="Read help for this field" href="{% link resources/for-clients/booking-guide/index.md %}#submit-my-booking-form-to-send-your-inquiry">&#9432;</a></small></sup></strong>
@@ -472,8 +473,15 @@ along with a bunch of additional instruction.
                 </a>
             </li>
             <li>
-                <a id="contact-link-xmpp" class="icon masked-svg-icon fa-brands fa-xmpp fa-4x" href="{% include xmpp-booking.url %}" title="Jabber/XMPP">
+                <a id="contact-link-xmpp" class="icon fa-brands fa-xmpp fa-4x" href="{% include xmpp-booking.url %}" title="Jabber/XMPP">
                     <span class="label icon-label">Jabber/XMPP<br />({{ site.contact.xmpp.jid }})</span>
+                </a>
+            </li>
+            <li>
+                <a id="contact-link-simplex" class="icon fa-brands fa-4x" href="{% include simplex-booking.url %}" title="Jabber/XMPP"
+                   style="width: 100px;">
+                    <img src="{% link images/logo.simplex.svg %}" alt="" style="filter: brightness(0) invert(1);" />
+                    <span class="label icon-label">SimpleX</span>
                 </a>
             </li>
         </ul>
