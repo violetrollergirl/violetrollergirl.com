@@ -117,6 +117,7 @@ The following are contact methods that my script supports out-of-the-box:
 
 - `email` - To send a message via email using the registered `mailto:` handler.
 - `signal` - To send a message to the given Signal Private Messenger account via [its contact link]({% link resources/for-providers/signal-for-sex-work/index.md %}#setting-your-signal-username-and-contact-link).
+- `simplex` - To send a message via [SimpleX](https://simplex.chat/){:target="_blank"} contact request, similar to the way Signal works.
 - `sms` - To send a message via plain SMS/text message.
 - `whatsapp` - To send a message via the [slightly better discreet messenger called WhatsApp]({% link resources/for-clients/messaging-discreetly/index.md %}).
 - `xmpp` - To send a message via a [Jabber/XMPP client](https://jabber.at/clients/){:target="_blank"}, which ideally has [OMEMO encryption](https://en.wikipedia.org/wiki/OMEMO){:target="_blank"} enabled.

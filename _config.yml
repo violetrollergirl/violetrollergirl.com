@@ -47,6 +47,8 @@ contact:
     url: https://signal.me/#eu/RCtktNL-BhGZOIAreVGUjL-yPDXBI-8Sabaajs8wxpHS1Xl9UmZDJKiXQtw3EwEm
     username: VioletRollergirl.69
   simplex:
+    # Could also be something like:
+    # simplex:/a#tRTBN6BBSET6Or-hlRHD4RmwnJgOePJNcCZBZvrhYkc?h=smp9.simplex.im
     url: https://smp9.simplex.im/a#tRTBN6BBSET6Or-hlRHD4RmwnJgOePJNcCZBZvrhYkc
   sms:
     tel: "+19295547784"

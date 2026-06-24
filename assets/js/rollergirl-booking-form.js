@@ -151,6 +151,11 @@ Sincerely,
                     var xmppAction = 'message';
                     url.search = `?${xmppAction};subject=Booking%20inquiry%20from%20${inquiryData.get('booking_inquiry_prospect_name')};body=${encodeURIComponent(templateText)}`;
                     break;
+                case 'simplex':
+                    var oldhref = new URL(el.getAttribute('href'));
+                    var newhref = `simplex:${oldhref.pathname}${oldhref.hash}?h=${oldhref.hostname}`;
+                    url = new URL(newhref);
+                    break;
                 default:
                     break;
             }
