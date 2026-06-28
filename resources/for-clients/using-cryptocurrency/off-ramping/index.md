@@ -38,7 +38,7 @@ Nothing will make her happier than money. I promise. [Just send money](https://b
 
 You don't need to get clever nor even put a lot of thought into it. You need to promise less and follow through more. You need to stop fantasizing about her and start fulfilling her actual needs.
 
-And if you're spending money on a gift anyway, you could just [send a tip]({% link index.html %}#links-zcash) of that amount in crypto instead.
+And if you're spending money on a gift anyway, you could just [send a tip]({% link links/zcash/index.md %}) of that amount in crypto instead.
 
 ## Send gift cards
 
@@ -46,7 +46,7 @@ If you want to gift a *thing* but don't know exactly what to get, gift cards are
 
 You can buy gift cards for generic retailers like Amazon.com or Etsy from cryptocurrency-supporting gift card vendors, like the ones listed below. These are so generally useful that I also accept some of them as one of [my deposit payment options]({% link _faq/booking/payment-methods.md %}).
 
-A gift card lets you say something nice with a bit more context than sending crypto directly. Those of us [on social media]({% link index.html %}#links-bluesky) are rarely shy about dropping hints for ways you can delight us with gifts like these! Show your crush that you pay attention to them, and already know what they like.
+A gift card lets you say something nice with a bit more context than sending crypto directly. Those of us [on social media]({% link links/bluesky/index.md %}) are rarely shy about dropping hints for ways you can delight us with gifts like these! Show your crush that you pay attention to them, and already know what they like.
 
 I recommend these sites:
 
@@ -60,7 +60,7 @@ You don't need to know a companion's email address or other personal information
 
 ## Gift consumables, not junk
 
-Maybe you want your gift to be a little more festive and fun. In that case, see if you can find anything on [her wishlist]({% link index.html %}#links-throne) that you can buy with cryptocurrency [using a gift card](#send-gift-cards).
+Maybe you want your gift to be a little more festive and fun. In that case, see if you can find anything on [her wishlist]({% link links/wishlist/index.md %}) that you can buy with cryptocurrency [using a gift card](#send-gift-cards).
 
 Barring that, I suggest gifting your companion a consumable good, rather than something permanent.
 
@@ -69,7 +69,7 @@ Barring that, I suggest gifting your companion a consumable good, rather than so
 
 ## Subscribe and become a fan
 
-If the provider you have eyes for is also [creating content like yours truly]({% link index.html %}#links-group-socials-amp-content), you can [load up your OnlyFans account balance using crypto via PayWithMoon](https://paywithmoon.com/merchants/onlyfans){:target="_blank"}, and subscribe to her fan site! This is a fun way to treat yourself while supporting her, too.
+If the provider you have eyes for is also [creating content like yours truly]({% link links-group/content/index.md %}), you can [load up your OnlyFans account balance using crypto via PayWithMoon](https://paywithmoon.com/merchants/onlyfans){:target="_blank"}, and subscribe to her fan site! This is a fun way to treat yourself while supporting her, too.
 
 ## Support the causes and tools that support us
 
@@ -81,7 +81,7 @@ These days, most reputable escort malls and advertising sites that require us to
 
 In fact, since sex workers face so much financial discrimination from the traditional finance sector, paying for advertisements in cryptocurrency is often the *only* way we can get or keep our ads up. It's also often the first reason most providers learn how to use cryptocurrency in the first place!
 
-Simply ask your crush if they'd like you to help them fund their ads. (The answer will be yes.) They'll be able to set that up easily and send you a cryptocurrency payment address to do so. Here are [ad sites I'm listed on]({% link index.html %}#links-group-ad-listings) and pay for that also accept cryptocurrency:
+Simply ask your crush if they'd like you to help them fund their ads. (The answer will be yes.) They'll be able to set that up easily and send you a cryptocurrency payment address to do so. Here are [ad sites I'm listed on]({% link links-group/ad-listings/index.md %}) and pay for that also accept cryptocurrency:
 
 - [Tryst.link](https://help.tryst.link/en-gb/22-payments-accounts/87-what-payment-methods-do-you-accept#:~:text=Bitcoin){:target="_blank"}
 - [TS4Rent.eu](https://ts4rent.eu/about/cryptocurrency/){:target="_blank"}
