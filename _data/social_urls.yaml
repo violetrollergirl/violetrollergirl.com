@@ -9,13 +9,13 @@
     svg: images/logo.mintstars.chrome-star.transparent.webp
     url: https://mintstars.com/tip/violetrollergirl
     description: >
-      Send me a tip or donation via [MintStars](#links-mintstars) using your credit/debit card.
+      Tip or donate via [MintStars](#links-mintstars) using your credit/debit card.
   - title: Zcash
     label: Zcash
     svg: images/logo.zcash.yellow.svg
     url: zcash:u1mhgwfzmjks8d2kgwh7nrrycljzzfuhl5fak6efvnqazxwu2f4ssftlf5snpgavfx649ztp5l2lzwzqsrhu5jf4x97jzu6a37qysjvjwq8ffcspd46dg99s4mctaagq73n823edhza3s8mxytur48lnuprad8j4avhvymsxv38u7t5rhdsc449fyk70d9zjjqvrln4lzaeghwcmxn2du
     description: |
-      Send me a tip or donation with privacy-enhanced cryptocurrency.
+      Tip or donate with privacy-enhanced cryptocurrency.
 
       [![QR code for Zcash shielded address](/images/qr.zcash.violetrollergirl.gif)](zcash:u1mhgwfzmjks8d2kgwh7nrrycljzzfuhl5fak6efvnqazxwu2f4ssftlf5snpgavfx649ztp5l2lzwzqsrhu5jf4x97jzu6a37qysjvjwq8ffcspd46dg99s4mctaagq73n823edhza3s8mxytur48lnuprad8j4avhvymsxv38u7t5rhdsc449fyk70d9zjjqvrln4lzaeghwcmxn2du)
 
@@ -33,7 +33,7 @@
   #  icon: dollar-sign
   #  url: https://cash.app/$VioletRollergirl
   #  description: >
-  #    Send me a tip or donation via CashApp.
+  #    Tip or donate via CashApp.
 
 - group_name: Socials &amp; Content
   description: >
