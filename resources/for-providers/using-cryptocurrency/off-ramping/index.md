@@ -9,7 +9,7 @@ featured_image:
   url: images/gallery-originals/lounging-poolside-in-bikini.jpg
 prev: resources/for-providers/using-cryptocurrency/on-ramping/
 next: resources/for-providers/using-cryptocurrency/convincing-clients/
-last_modified: Thu Apr 30 19:19:50 EDT 2026
+last_modified: Wed Jul  1 12:29:03 EDT 2026
 ---
 
 # Off-ramping: where and how to spend your cryptocurrency
@@ -39,6 +39,7 @@ In the traditional financial system, spending money comes with a privacy trade-o
     1. [Buying VPN services with cryptocurrency](#buying-vpn-services-with-cryptocurrency)
     1. [Buying server hosting (VPS) services with cryptocurrency](#buying-server-hosting-vps-services-with-cryptocurrency)
     1. [Paying for client screening services with cryptocurrency](#paying-for-client-screening-services-with-cryptocurrency)
+    1. [ZECMap: a global Zcash business directory](#zecmap-a-global-zcash-business-directory)
 1. [Fund a traditional payment card using cryptocurrency](#fund-a-traditional-payment-card-using-cryptocurrency)
     1. [Apply for a Payy Card, a crypto-backed Visa payment card](#apply-for-a-payy-card-a-crypto-backed-visa-payment-card)
 1. [Join a digital employment cooperative that accepts cryptocurrency](#join-a-digital-employment-cooperative-that-accepts-cryptocurrency)
@@ -276,6 +277,13 @@ While some providers do these checks ourselves, there are also specialized servi
     ![Screenshot of the Laura Cohen Precautionary Investigations new prospect sign up form showing how to enter {{ site.title }} as a referral source.]({% link resources/for-providers/using-cryptocurrency/off-ramping/screenshot.laura-cohen-precautionary-investigations.referral.png %}){:loading="lazy"}
 
 Always remember that Bitcoin payments are *never* anonymous so, for your protection, I recommend [paying using Zodl's Crosspay feature](#paying-in-bitcoin-when-you-only-have-zcash), same as you would pay for your Tryst ad.
+
+### [ZECMap](https://zecmap.com/){:target="_blank"}: a global Zcash business directory
+
+There are new business, vendors, merchants, and service providers who are starting to accept shielded ZEC as payments alongside credit/debit cards and other electronic payment systems. Many of them are also beginning to list themselves in a global directory of Zcash-accepting businesses called [ZECMap](https://zecmap.com/){:target="_blank"}. These include brick-and-mortar shops along with online stores.
+
+{:.align-center}
+{% include link-as-button.md anchor_text="Visit ZECMap.com" url="https://zecmap.com/" target="_blank" %}
 
 ## Fund a traditional payment card using cryptocurrency
 
