@@ -8,7 +8,7 @@ prev: resources/for-providers/using-cryptocurrency/primer/
 featured_image:
   alt:
   url: images/gallery-originals/showered-in-fifty-dollar-bills.jpg
-last_modified: Thu Apr 30 18:53:51 EDT 2026
+last_modified: Wed Jul  1 12:22:59 EDT 2026
 ---
 
 # Everything (and only) what you need to know about cryptocurrency wallets
@@ -132,7 +132,7 @@ As I write this, the cryptocurrency ecosystem is also still very fragmented. Dif
 
 This fragmentation itself may also push you to need more than one wallet. However, if you stick with Zodl for your Zcash and Cake Wallet for your Monero and your Bitcoin (or Ethereum or whatever other non-private cryptocurrency you're ultimately pushed to use), you'll cover what I estimate is 90-95% of your use cases.
 
-I personally use Zodl most often. After that, I use Cake Wallet. For what it's worth, if you really want to explore wallets and feel comfortable getting a bit adventurous with your choices, I also like [Edge Wallet](https://edge.app/){:target="_blank"} and [Ywallet](https://ywallet.app/){:target="_blank"}.
+I personally use Zodl most often. After that, I use Cake Wallet. For what it's worth, if you really want to explore wallets and feel comfortable getting a bit adventurous with your choices, I also like [Edge Wallet](https://edge.app/){:target="_blank"}. Even more reputable options, including desktop wallet apps, are listed at [OpenZcash.org/wallets](https://openzcash.org/wallets){:target="_blank"}.
 
 ## Open your wallet app and you're good to go
 
