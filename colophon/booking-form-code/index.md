@@ -5,7 +5,7 @@ description: >
 featured_image:
   alt:
   url: images/gallery-originals/hacker-terminal-Violet-Rollergirl-9095_124315~2.jpg
-last_modified: Mon May 18 10:40:23 EDT 2026
+last_modified: Wed Jul  1 22:22:36 EDT 2026
 prev: /colophon/
 ---
 
@@ -25,6 +25,7 @@ My form code works through "[convention over configuration](https://en.wikipedia
 1. [Recognized form field `name`s](#recognized-form-field-names)
 1. [Choosing contact links to use](#choosing-contact-links-to-use)
     1. [Supported contact methods](#supported-contact-methods)
+1. [In the wild](#in-the-wild)
 
 ## Before you begin
 
@@ -121,3 +122,9 @@ The following are contact methods that my script supports out-of-the-box:
 - `sms` - To send a message via plain SMS/text message.
 - `whatsapp` - To send a message via the [slightly better discreet messenger called WhatsApp]({% link resources/for-clients/messaging-discreetly/index.md %}).
 - `xmpp` - To send a message via a [Jabber/XMPP client](https://jabber.at/clients/){:target="_blank"}, which ideally has [OMEMO encryption](https://en.wikipedia.org/wiki/OMEMO){:target="_blank"} enabled.
+
+## In the wild
+
+Here are other providers whose booking forms implemented this same technique:
+
+- [Domina Darja](https://www.dominadarja.com/contact){:target="_blank"}

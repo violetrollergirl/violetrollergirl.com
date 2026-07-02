@@ -225,7 +225,7 @@ Confidentiality and discretion was my driving motivation for designing a booking
 
 ### Steal [my booking form code]({% link colophon/booking-form-code/index.md %})
 
-I don't mean to denigrate other providers in comparing my booking form to theirs. Rather, my intent is to share my methods here in the hope that other providers implement these techniques for themselves. If more do so, we can collectively raise the standard of privacy protections offered to the clientele in our industry more broadly.
+I don't mean to denigrate other providers in comparing my booking form to theirs. Rather, my intent is to share my methods here in the hope that [other providers implement these techniques]({% link colophon/booking-form-code/index.md %}#in-the-wild) for themselves. If more do so, we can collectively raise the standard of privacy protections offered to the clientele in our industry more broadly.
 
 If you are an implementer, please find [further documentation and a minimal working example of my booking form code]({% link colophon/booking-form-code/index.md %}).
 
