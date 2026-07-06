@@ -9,7 +9,7 @@ featured_image:
   url: images/gallery-originals/privacy-professional-crypto-kitty-girl.jpg
 prev: resources/for-providers/
 next: colophon/
-last_modified: Sat Apr 18 21:44:57 EDT 2026
+last_modified: Sun Jul  5 23:32:56 EDT 2026
 ---
 
 # {{ site.title }}'s Guide to Using Signal Private Messenger in Sex Work
@@ -73,8 +73,10 @@ Crypto is not required, though, as any such service, whether VoIP app or baseban
 My recommendations:
 
 - If you have a dedicated phone for your work persona, install Signal there and use your work phone's number as your work Signal number. Easy.
-- If you have an Android phone, [create a new Android operating system user account](https://support.google.com/android/answer/2865483?hl=en){:target="_blank"} for each of your work personas and install Signal independently for each user on your phone.
 - If you only have an iPhone and you need a second Signal profile, get a new phone and make it an Android phone!
+- If you have an Android phone, you have two options:
+    - get [Molly.im](https://molly.im/){:target="_blank"}, a security-hardened fork of Signal for Android that can be run side-by-side with the official Signal app on your Android device. Use Molly for one of your Signal profiles, and the official Signal app for the other.
+    - [create a new Android operating system user account](https://support.google.com/android/answer/2865483?hl=en){:target="_blank"} for each of your work personas and install Signal independently for each user on your phone.
 
 ## Filling out your Signal profile
 
