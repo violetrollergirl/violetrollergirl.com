@@ -454,7 +454,12 @@ along with a bunch of additional instruction.
         <ul id="direct-contact-links-list"  class="contact-links-list icons">
             <li>
                 <a id="contact-link-signal" class="icon fa-brands fa-signal-messenger fa-4x" href="{% include signal-booking.url %}" title="Signal">
-                    <span class="label icon-label">Signal Private Messenger<br />({{ site.contact.signal.username }})</span>
+                    <span class="label icon-label">Signal (Bookings Only)<br />({{ site.booking.signal.username }})</span>
+                </a>
+            </li>
+            <li>
+                <a id="contact-link-signal-other" class="icon fa-brands fa-signal-messenger fa-4x" href="{{ site.contact.signal.url }}" title="Signal">
+                    <span class="label icon-label">Signal (All Other)<br />({{ site.contact.signal.username }})</span>
                 </a>
             </li>
             <li>

@@ -12,7 +12,7 @@ NICKNAME: Vi
 PHOTO:{{ site.url }}{% link images/gallery-originals/pool-table-orange-and-black.jpg %}
 GENDER:F;femmebot
 TEL;VALUE=uri;TYPE="text":tel:{{ site.contact.sms.tel }}
-TEL;VALUE=uri;PREF=1;TYPE="video":tel:{{ site.contact.whatsapp }}
+TEL;VALUE=uri;PREF=1;TYPE="video":tel:{{ site.booking.signal.phonenum }}
 EMAIL;PREF=1;TYPE="work":{{ site.contact.email }}
 IMPP;VALUE=uri;PREF=1;TYPE="work":xmpp:{{ site.contact.xmpp.jid }}
 LANG;TYPE="work";PREF=1:en

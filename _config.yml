@@ -40,12 +40,18 @@ booking:
   template: "" # TODO: A more complete text template.
   # Special booking email address.
   email: violetrollergirl+booking@protonmail.com
+  # Dedicated Signal account for booking.
+  signal:
+    url: https://signal.me/#eu/Ue8ioUhw2-Fu7KN01CSjllMNe02UVV5fzkV8DXULOL_O0C6437JJ8a7jKACORLIq
+    username: VioletRollergirl.42
+    phonenum: "+13472488440"
 
 contact:
   email: violetrollergirl@protonmail.com
   signal:
     url: https://signal.me/#eu/RCtktNL-BhGZOIAreVGUjL-yPDXBI-8Sabaajs8wxpHS1Xl9UmZDJKiXQtw3EwEm
     username: VioletRollergirl.69
+    #phonenum: # NO PUBLIC NUMBER
   simplex:
     # Could also be something like:
     # simplex:/a#tRTBN6BBSET6Or-hlRHD4RmwnJgOePJNcCZBZvrhYkc?h=smp9.simplex.im
