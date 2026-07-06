@@ -8,7 +8,7 @@ featured_image:
   url: images/gallery-originals/cutie-in-bay-windows.jpg
 prev: resources/for-providers/using-cryptocurrency/wallet-apps/
 next: resources/for-providers/using-cryptocurrency/off-ramping/
-last_modified: Sat Apr  4 15:33:29 CEST 2026
+last_modified: Mon Jul  6 16:23:42 EDT 2026
 ---
 
 # On-ramping: acquiring cryptocurrency funds (as a sex worker)
@@ -65,7 +65,7 @@ As swap deposits require entering a "refund" address for cases where the currenc
 - The simpler option, if your only means of accessing cryptocurrency is the Zodl wallet app itself, causes failed swaps to get refunded to the client's address. I'd only recommend this in situations where you trust your client to try again, and where your client is not likely to become fatigued by trouble ensuring you have been paid.
 - The second option requires you to have another cryptocurrency wallet app that supports holding the same cryptocurrency that your client is sending you, such as using Zodl and Cake Wallet together. This way you can ensure all the funds from failed swaps are still sent to *you*, not back to your client, just not have your money immediately show up in Zodl as shielded ZEC.
 
-This second method is one of the main reasons why I use a combination of Zodl with Cake Wallet.
+This second method is one of the main reasons why I use [multiple wallet apps]({% link resources/for-providers/using-cryptocurrency/wallet-apps/index.md %}#using-multiple-wallet-apps).
 
 In the example below, let's assume your client wants to pay in Bitcoin, but you want to receive the most private currency you can as quickly as you can, which is shielded Zcash in Zodl.
 

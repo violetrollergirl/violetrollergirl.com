@@ -8,7 +8,7 @@ prev: resources/for-providers/using-cryptocurrency/primer/
 featured_image:
   alt:
   url: images/gallery-originals/showered-in-fifty-dollar-bills.jpg
-last_modified: Wed Jul  1 12:22:59 EDT 2026
+last_modified: Mon Jul  6 16:23:57 EDT 2026
 ---
 
 # Everything (and only) what you need to know about cryptocurrency wallets
@@ -127,6 +127,7 @@ Although I find that the majority of my needs are met with just Zodl wallet, onc
 - Sometimes, it's easier to get paid if you can "meet clients where they are" by using a wallet app that more natively supports whatever currency theirs does, without going through a decentralized exchange that may delay receiving your funds from less cooperative clients.
 - Once you start amassing some wealth, you may want to mitigate some of your risk by spreading your holdings out across multiple wallet apps, cryptocurrencies, or both.
 - Occasionally, you may run into a technical limitation that requires you to use another wallet app to get something done. This is becoming much rarer, but does still happen.
+- Some people may not even know they're sending you cryptocurrency when they do it! This is common when a client or customer [sends USDC from CashApp]({% link resources/for-clients/using-cryptocurrency/cashapp/index.md %}#send-usdc-from-cashapp), which means you may need to perform an advanced technique requiring multiple wallet apps, called a [swap deposit]({% link resources/for-providers/using-cryptocurrency/on-ramping/index.md %}#getting-paid-in-zcash-when-your-client-or-customer-only-has-bitcoin), to make the payment experience feel completely smooth and simple for them.
 
 As I write this, the cryptocurrency ecosystem is also still very fragmented. Different wallet apps work with different cryptocurrencies, and different "coins" are available on different "chains" (sometimes called "networks") as "tokens." It's all very confusing and can get annoying and rather jargon-filled quickly.
 
