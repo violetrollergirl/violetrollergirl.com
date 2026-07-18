@@ -5,7 +5,7 @@ description: >
     cryptocurrency to pay your provider, companion, or favorite creator.
 prev: resources/for-clients/
 next: resources/for-clients/using-cryptocurrency/paying-your-provider/
-last_modified: Fri May 29 14:02:42 EDT 2026
+last_modified: Sat Jul 18 11:21:24 MDT 2026
 ---
 
 # {{ site.title }}'s guide to using cryptocurrency via CashApp
@@ -24,6 +24,7 @@ Since anyone with a ([verified](https://cash.app/help/gb/3122-verify-account){:t
 1. [Ways to pay using CashApp](#ways-to-pay-using-cashapp)
     1. [Send USDC from CashApp](#send-usdc-from-cashapp)
     1. [Buy Bitcoin in CashApp](#buy-bitcoin-in-cashapp)
+    1. [Send with a fast withdrawal speed](#send-with-a-fast-withdrawal-speed)
 
 ## Sign up for CashApp
 
@@ -85,7 +86,7 @@ Sending USDC from CashApp is the easiest way to pay your provider from your Cash
 1. In the **Pay to** field, paste the address you got from your provider.
 1. Choose the correct network to pay on.
     - Sending via the wrong network will *not* work, and your funds will be irrevocably lost, so make sure you get this right.
-1. Review the transaction details (amount, recipient, and network)
+1. Review the transaction details (amount, recipient, and network).
 1. If the transaction details are correct, tap the **Send** button.
 
 Note that some providers use one-time deposit addresses, so you should repeat this process for *every* payment you need to make. Never assume an address will still work for future payments.
@@ -105,6 +106,15 @@ The first time you either buy or withdraw Bitcoin from CashApp, you may also nee
 1. Enter your PIN or Touch ID and tap **Confirm**.
 
 At this point, CashApp will show you that have some amount of value in your Bitcoin "wallet" (which is really a bank account, not a true wallet). You can now use that Bitcoin to [pay your worker in crypto]({% link resources/for-clients/using-cryptocurrency/paying-your-provider/index.md %})!
+
+### Send with a fast withdrawal speed
+
+Once you have Bitcoin in your CashApp and are ready to send it, please use a "`Rush`" (~2 hour) or a "`Priorty`" (~10 minutes) withdrawal speed. Choosing the "`Standard`" (~24 hour) withdrawal speed is far too slow for your deposit to arrive at most providers' deposit addresses in an acceptable timeframe.
+
+{:.align-center}
+![Screenshot of the CashApp selection screen for Bitcoin withdrawal speeds, with the 'Rush' option selected.]({% link resources/for-clients/using-cryptocurrency/cashapp/cashapp-bitcoin-select-your-withdrawal-speed.webp %})
+
+The above screenshot shows the Bitcoin withdrawal speed options in CashApp.
 
 {:.button-container}
 {% include link-as-button.md anchor_text="Previous: Resources for Clients" url=page.prev %} {% include link-as-button.md anchor_text="Up" url="../" %} {% include link-as-button.md anchor_text="Next: Paying your Provider" url=page.next %}
