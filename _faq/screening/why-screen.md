@@ -20,7 +20,7 @@ Before you screen, I simply cannot know who I may be speaking with. Since anyone
 
 If you don't tell me who you are, I cannot safely tell you anything about me not already published on my public website and ads, making our entire exchange redundant and pointless.
 
-### Screening is secure, discreet, and no threat to you
+### Screening is secure, discreet, and safe
 
 I did not build my business by posting detailed indiscretions on Twitter or TikTok. Like, come on. I have no incentive to blow up your spot with your spouse, partner, boss, or friends.
 
