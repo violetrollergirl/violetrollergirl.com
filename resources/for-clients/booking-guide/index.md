@@ -97,6 +97,7 @@ If you're looking for information on how to research escorts generally, need eti
 - ["How do I find a call girl near me?"](https://www.satisfactionproject.com/how-do-i-find-a-call-girl-near-me/){:target="_blank"}
 - ['What if it's a scam?' How to have a successful date with a pro, by doing your homework.](https://tryst.link/blog/what-if-its-a-scam-find-escort/){:target="_blank"}
 - [A Client's Guide to Navigating Sex Industry Scams](https://tryst.link/blog/a-clients-guide-to-navigating-sex-industry-scams/){:target="_blank"}
+- [How To Be A Favorite Client](https://tryst.link/blog/how-to-be-a-favorite-client/){:target="_blank"}
 
 I also suggest spending a bit of time perusing the [Good Client Guide](https://goodclientguide.com/){:target="_blank"} and the [Satisfaction Project](https://www.satisfactionproject.com/){:target="_blank"}, two client education websites that have compiled much of the same information.
 
