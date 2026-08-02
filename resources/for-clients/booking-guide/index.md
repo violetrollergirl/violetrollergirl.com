@@ -93,7 +93,7 @@ For that, however, you'll need to schedule some time with me. And this page can 
 
 If you're looking for information on how to research escorts generally, need etiquette advice, want help assessing legitimacy, or advice for avoiding scams, I recommend reading the following blog posts on the Tryst Blog and elsewhere:
 
-- [A First-time Client's Guide to Escort Booking Etiquette](https://tryst.link/blog/a-first-time-clients-guide-to-escort-booking-etiquette-tryst-sex-work-blog/){:target="_blank"}
+- [A First-time Client's Guide to Escort Booking Etiquette](https://tryst.link/blog/an-escorts-guide-to-client-booking-etiquette/){:target="_blank"}
 - ["How do I find a call girl near me?"](https://www.satisfactionproject.com/how-do-i-find-a-call-girl-near-me/){:target="_blank"}
 - ['What if it's a scam?' How to have a successful date with a pro, by doing your homework.](https://tryst.link/blog/what-if-its-a-scam-find-escort/){:target="_blank"}
 - [A Client's Guide to Navigating Sex Industry Scams](https://tryst.link/blog/a-clients-guide-to-navigating-sex-industry-scams/){:target="_blank"}
