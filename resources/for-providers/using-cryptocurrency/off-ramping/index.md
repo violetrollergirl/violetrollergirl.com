@@ -9,7 +9,7 @@ featured_image:
   url: images/gallery-originals/lounging-poolside-in-bikini.jpg
 prev: resources/for-providers/using-cryptocurrency/on-ramping/
 next: resources/for-providers/using-cryptocurrency/convincing-clients/
-last_modified: Wed Jul  1 12:29:03 EDT 2026
+last_modified: Mon Aug  3 09:27:18 EDT 2026
 ---
 
 # Off-ramping: where and how to spend your cryptocurrency
@@ -197,7 +197,7 @@ Instead of gift cards, which is really just a roundabout way to help fiat econom
 
 ### Booking hotel stays and air travel with cryptocurrency
 
-[When I'm on tour](#tours), I often need to buy airline tickets to travel or make [hotel arrangements]({% link index.html %}#hotel-arrangements) to coordinate an incall. This is where [Travala (referral link)]({{ site.data.affiliates.travala }}){:target="_blank"} comes in clutch. It works like you'd expect any other flight and hotel booking platform to work, but you can pay directly in cryptocurrency. They also have a loyalty program, so you can earn extra rewards, and help me do the same if you sign up via my referral link.
+[When I'm on tour]({% link tours/index.md %}), I often need to buy airline tickets to travel or make [hotel arrangements]({% link index.html %}#hotel-arrangements) to coordinate an incall. This is where [Travala (referral link)]({{ site.data.affiliates.travala }}){:target="_blank"} comes in clutch. It works like you'd expect any other flight and hotel booking platform to work, but you can pay directly in cryptocurrency. They also have a loyalty program, so you can earn extra rewards, and help me do the same if you sign up via my referral link.
 
 {:.align-center}
 {% include link-as-button.md anchor_text="Join Travala (via referral)" url=site.data.affiliates.travala target="_blank" %}
@@ -216,7 +216,7 @@ And here's what happens when you press the "Complete Reservation" button.
 
 Kinda looks like Tryst's payment screen, doesn't it?
 
-You can also [buy airline tickets on Travala](https://www.travala.com/?tab=flights){:target="_blank"} this same way.
+You can also [buy airline tickets on Travala](https://www.travala.com/?tab=flights){:target="_blank"} this same way. Another site where you can [buy airline tickets is AlternativeAirlines.com, which accepts Zcash directly](https://www.alternativeairlines.com/buy-flights-with-zcash){:target="_blank"}.
 
 ### Buying email services with cryptocurrency
 
