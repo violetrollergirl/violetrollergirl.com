@@ -84,7 +84,7 @@ In fact, since sex workers face so much financial discrimination from the tradit
 Simply ask your crush if they'd like you to help them fund their ads. (The answer will be yes.) They'll be able to set that up easily and send you a cryptocurrency payment address to do so. Here are [ad sites I'm listed on]({% link links-group/ad-listings/index.md %}) and pay for that also accept cryptocurrency:
 
 - [Tryst.link](https://help.tryst.link/en-gb/22-payments-accounts/87-what-payment-methods-do-you-accept#:~:text=Bitcoin){:target="_blank"}
-- [TS4Rent.eu](https://ts4rent.eu/about/cryptocurrency/){:target="_blank"}
+- [TS4.Rent](https://ts4.rent/about/cryptocurrency){:target="_blank"}
 
 There are probably others, so ask your crush if these are not relevant to the two of you.
 
