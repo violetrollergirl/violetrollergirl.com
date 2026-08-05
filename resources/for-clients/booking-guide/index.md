@@ -1,19 +1,19 @@
 ---
 title: Booking Guide
 description: >
-    Many people attracted to trans women fumble their chance to get with us.
-    Following these instructions makes sure that won't include you.
+    Many who try people fumble their chance to spend time with trans women.
+    Following these instructions makes sure a fumble won't be how our story ends.
 featured_image:
   alt:
   url: images/gallery-originals/kneeling-in-clawfoot-bathtub.jpg
 prev: resources/for-clients/
 next: resources/for-clients/discretion-maxxing/
-last_modified: Wed Mar  4 15:52:53 EST 2026
+last_modified: Wed Aug  5 10:31:12 EDT 2026
 ---
 
 # {{ site.title }}'s Booking Guide
 
-One of my favorite things about being a trans provider is sharing in moments of discovery with you, and relishing the joy, relief, and possibilities that come with it.
+One of my favorite things about being a trans provider is sharing in moments of discovery with you, and relishing the joy, relief, and possibilities that come with and from our time together.
 
 To experience that, of course, you must first book me:
 
@@ -26,9 +26,11 @@ Sadly, many who try fumble their chance. Following the instructions in this guid
 
 The booking process can feel daunting, especially if you're "new to all this," but **it really just boils down to being communicative.** The more information you give me about your situation, the more likely I'll be able to align the stars for us.
 
-I wrote this page to help those of you who want a meticulously crafted step-by-step guide to walk through booking time with me. It explains how you can best get my attention. Its extraordinary detail may be overkill for many of you, but it provides a thorough reference regardless.
+I wrote this page to guide those who want a meticulously crafted walkthrough of the booking process. It explains how to best get my attention, and then secure a booking. Its extraordinary detail may be overkill for many of you, but it provides a thorough reference regardless.
 
-The point is *not* to ensure instant perfection, but rather to give you clarity during the booking process should you seek it. While this guide is specific to booking *me*, you'll probably find it useful for booking any companion, as most of this is a well-established standard across the industry.
+The point of this guide is *not* to ensure your instant perfection, but rather to give you clarity while booking, should you seek it.
+
+While this guide is specific to booking *me*, you'll probably find it useful for booking any companion, as most of this is a well-established standard across the industry.
 
 ## Table of contents
 
@@ -64,6 +66,7 @@ The point is *not* to ensure instant perfection, but rather to give you clarity 
 1. [Enjoy the building anticipation of our upcoming date](#enjoy-the-building-anticipation-of-our-upcoming-date)
     1. [The day before our date](#the-day-before-our-date)
     1. [If you need to reschedule or cancel](#if-you-need-to-reschedule-or-cancel)
+1. [On the day of our date](#on-the-day-of-our-date)
 1. [Show up](#show-up)
 
 ## Who should read this page
@@ -615,7 +618,7 @@ For more information, see my [cancellation policy]({% link _faq/booking/what-is-
 
 The day we're meeting is going to be exhilerating, and that excitement can make it easy to forget some important details.
 
-Here's a quick checklist you can refer to make sure everything is in order:
+Here's a quick checklist you can reference to make sure everything is in order:
 
 - Be certain to acknowledge [my reminder message](#the-day-before-our-date) if you haven't already!
 - If you're offering your donation in cash, make sure you
@@ -623,6 +626,7 @@ Here's a quick checklist you can refer to make sure everything is in order:
     - have it tucked away discreetly inside an envelope, greeting card, or other small gift.
 - Wash your body thoroughly.
     - Read [Grooming for a date with a sex worker](https://www.thedannygoldexperience.com/post/grooming-for-a-date-with-a-sw){:target="_blank"} for an excellent, short guide on this, specifically.
+    - Read [How To Clean Your Ass Before Anal Sex](https://howtocleanyourass.wordpress.com/){:target="_blank"}, if that's somewhere you'd like to go.
 - Depart with plenty of time to account for travel, potential traffic, and other unexpected delays.
 
 Finally, don't sweat the small stuff! You're human. I'm human.
