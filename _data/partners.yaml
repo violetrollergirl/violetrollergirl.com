@@ -2,6 +2,11 @@
 - name: Avery Angel
   tagline: A flirty and dirty angelic trans adventure
   photo: images/partner.icon.avery-angel.webp
+  images:
+    - url: images/resized/partner.duo.avery-angel.wine-glass.jpg
+      alt: >-
+        Avery (right) and Violet (left) grin at the camera while in their dungeon
+        as Vi sips a red beverage from a stemmed wine glass. (It's probbably wine.)
   urls:
     - url: https://awaywithavery.com/
       icon: globe
@@ -54,6 +59,14 @@
 - name: Velma Palmer
   tagline: Patient top and giggly bottom
   photo: images/partner.icon.velma-palmer.jpg
+  images:
+    - url: images/resized/partner.duo.velma-palmer.cocktails.jpg
+      alt: >-
+        Violet (left) and Velma (right) enjoy cocktails together.
+    - url: images/resized/partner.duo.velma-palmer.filmstrip.jpg
+      alt: >-
+        A film strip printed from a photo booth showing Violet
+        and Velma kissing and snuggling together.
   urls:
     - url: https://tryst.link/escort/ts-velma
       icon: rectangle-ad
