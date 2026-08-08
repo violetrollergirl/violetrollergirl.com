@@ -1,0 +1,129 @@
+# A basic list of known providers, for now.
+---
+- name: Violet Rollergirl
+  url: https://VioletRollergirl.com/
+  photo: images/gallery-originals/001-easy-breezy-beautiful-country-girl.jpg
+  deposit_methods:
+    zcash:
+      accepted: true
+      proof_url: https://VioletRollergirl.com/links/zcash
+      proof_img:
+    cash:
+      accepted: false
+  payment_methods:
+    zcash:
+      accepted: true
+    cash:
+      accepted: true
+- name: Ava Lovelace
+  url: https://bsky.app/profile/Comelydelights.bsky.social
+  photo:
+  deposit_methods:
+    zcash:
+      accepted: true
+      proof_url: https://tryst.link/escort/comelydelights#policies
+      proof_img: resources/for-clients/using-cryptocurrency/finding-providers/zcash-proof-images/tryst.link.escort.comelydelights.png
+- name: Avery Angel
+  url: https://AWayWithAvery.com/
+  photo:
+  deposit_methods:
+    zcash:
+      accepted: true
+      proof_url: https://tryst.link/escort/averyangel
+      proof_img: resources/for-clients/using-cryptocurrency/finding-providers/zcash-proof-images/tryst.link.escort.averyangel.png
+- name: Bianca Deluca
+  url: https://bsky.app/profile/biancadeluca.bsky.social
+  photo:
+  deposit_methods:
+    zcash:
+      accepted: true
+      proof_url: https://tryst.link/escort/biancadeluca#policies
+      proof_img: resources/for-clients/using-cryptocurrency/finding-providers/zcash-proof-images/tryst.link.escort.biancadeluca.png
+- name: Bianca Stone
+  url: https://BiancaStone.xyz/
+  photo:
+  deposit_methods:
+    zcash:
+      accepted: true
+      proof_url: https://BiancaStone.xyz/info
+      proof_img: resources/for-clients/using-cryptocurrency/finding-providers/zcash-proof-images/biancastone.xyz.png
+- name: Creator X
+  url: https://bsky.app/profile/xcreatorx.bsky.social
+  photo:
+  deposit_methods:
+    zcash:
+      accepted: true
+      proof_url: https://tryst.link/bdsm/creatorx#policies
+      proof_img: resources/for-clients/using-cryptocurrency/finding-providers/zcash-proof-images/tryst.link.bdsm.creatorx.png
+- name: Doll Aki
+  url: https://DollAki.com/
+  photo:
+  deposit_methods:
+    zcash:
+      accepted: true
+      proof_url: https://DollAki.com/booking-1
+      proof_img: resources/for-clients/using-cryptocurrency/finding-providers/zcash-proof-images/dollaki.com.png
+- name: Heather Rioux
+  url: https://HeatherRioux.bz/
+  photo:
+  deposit_methods:
+    zcash:
+      accepted: true
+      proof_url: https://HeatherRioux.bz/#gratuity
+      proof_img: resources/for-clients/using-cryptocurrency/finding-providers/zcash-proof-images/heatherrioux.bz.png
+- name: Christina Blair
+  url: https://MeetChristinaBlair.com/
+  photo:
+  deposit_methods:
+    zcash:
+      accepted: true
+      proof_url: https://MeetChristinaBlair.com/faq
+      proof_img: resources/for-clients/using-cryptocurrency/finding-providers/zcash-proof-images/meetchristinablair.com.png
+- name: Evie NYC
+  url: https://MeetEvieNYC.com/
+  photo:
+  deposit_methods:
+    zcash:
+      accepted: true
+      proof_url: https://MeetEvieNYC.com/faq
+      proof_img: resources/for-clients/using-cryptocurrency/finding-providers/zcash-proof-images/meetevienyc.com.png
+- name: Jade Skye
+  url: https://hi-jade-skye.com/
+  photo:
+  deposit_methods:
+    zcash:
+      accepted: true
+      proof_url: https://tryst.link/escort/jade-skye#policies
+      proof_img: resources/for-clients/using-cryptocurrency/finding-providers/zcash-proof-images/tryst.link.escort.jade-skye.png
+- name: Sylvia Glade
+  url: https://SylviaGlade.com/
+  photo:
+  deposit_methods:
+    zcash:
+      accepted: true
+      proof_url: https://SylviaGlade.com/rates/
+      proof_img: resources/for-clients/using-cryptocurrency/finding-providers/zcash-proof-images/sylviaglade.com.png
+- name: Eve Vel
+  url: https://EveVel.love/
+  photo:
+  deposit_methods:
+    zcash:
+      accepted: true
+      proof_url: https://tryst.link/escort/evevel#policies
+      proof_img: resources/for-clients/using-cryptocurrency/finding-providers/zcash-proof-images/tryst.link.escort.evevel.png
+- name: Imogen
+  url: https://OnlyImogen.com/
+  photo:
+  deposit_methods:
+    zcash:
+      accepted: true
+      proof_url: https://tryst.link/escort/imogen#policies
+      proof_img: resources/for-clients/using-cryptocurrency/finding-providers/zcash-proof-images/tryst.link.escort.imogen.png
+- name: Winter Leigh
+  url: https://WinterLeigh.net/
+  photo:
+  deposit_methods:
+    zcash:
+      accepted: true
+      proof_url: https://tryst.link/escort/winterleighxxx#policies
+      proof_img: resources/for-clients/using-cryptocurrency/finding-providers/zcash-proof-images/tryst.link.escort.winterleighxxx.png

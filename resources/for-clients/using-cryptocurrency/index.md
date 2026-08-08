@@ -8,7 +8,7 @@ featured_image:
   url: images/gallery-originals/kneeling-on-the-beach-in-bikini.jpg
 prev: resources/for-clients/
 next: resources/for-clients/using-cryptocurrency/quick-start/
-last_modified: Wed Dec 31 21:47:29 EST 2025
+last_modified: Fri Aug  7 23:23:44 EDT 2026
 ---
 
 # {{ site.title }}'s guide to paying your provider in crypto
@@ -36,6 +36,7 @@ Cryptocurrency is becoming increasingly popular with both providers and our clie
         - [Gemini]({% link resources/for-clients/using-cryptocurrency/gemini/index.md %}#complete-your-crypto-purchase-via-gemini)
 1. [Paying your provider](#paying-your-provider)
 1. [Other ways to spend crypto (on your provider)](#other-ways-to-spend-crypto-on-your-provider)
+1. [Finding providers who take cryptocurrency](#finding-providers-who-take-cryptocurrency)
 1. [Have questions? I'm here for you!](#have-questions-im-here-for-you)
 
 ## Why use cryptocurrency?
@@ -109,6 +110,13 @@ You can also use the suggestions on this page to practice the mechanics of actua
 
 {:.align-center}
 [More ways to spend crypto]({% link resources/for-clients/using-cryptocurrency/off-ramping/index.md %}){:.button}
+
+## Finding providers who take cryptocurrency
+
+There are a growing number of providers and creators who accept cryptocurrency for their services.
+
+{:.align-center}
+[Finding providers]({% link resources/for-clients/using-cryptocurrency/finding-providers/index.md %}){:.button}
 
 ## Have questions? I'm here for you!
 
