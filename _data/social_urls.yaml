@@ -144,6 +144,12 @@
     url: https://velvet22.com/trans/violet-rollergirl
     anchor_attributes:
       rel: me
+  - title: Ur Little Secret
+    label:
+    svg: images/logo.ur-little-secret.white.svg
+    url: https://www.urlittlesecret.com/violetrollergirl
+    anchor_attributes:
+      rel: me
   - title: Hunqz
     label:
     svg: images/logo.hunqz.svg
