@@ -1,7 +1,7 @@
 ---
 title: Booking Guide
 description: >
-    Many who try people fumble their chance to spend time with trans women.
+    Many who try fumble their chance to spend time with trans women.
     Following these instructions makes sure a fumble won't be how our story ends.
 featured_image:
   alt:
