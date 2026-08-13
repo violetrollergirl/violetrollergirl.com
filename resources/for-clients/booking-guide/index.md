@@ -8,7 +8,7 @@ featured_image:
   url: images/gallery-originals/kneeling-in-clawfoot-bathtub.jpg
 prev: resources/for-clients/
 next: resources/for-clients/discretion-maxxing/
-last_modified: Wed Aug  5 10:31:12 EDT 2026
+last_modified: Wed Aug 12 20:46:39 EDT 2026
 ---
 
 # {{ site.title }}'s Booking Guide
@@ -94,15 +94,18 @@ For that, however, you'll need to schedule some time with me. And this page can 
 
 ### For general booking guides and etiquette
 
-If you're looking for information on how to research escorts generally, need etiquette advice, want help assessing legitimacy, or advice for avoiding scams, I recommend reading the following blog posts on the Tryst Blog and elsewhere:
+If you're looking for information on how to research escorts generally, need etiquette advice, want help assessing legitimacy, or advice for avoiding scams, I recommend reading the following blog posts on the Tryst Blog and elsewhere.
 
-- [A First-time Client's Guide to Escort Booking Etiquette](https://tryst.link/blog/an-escorts-guide-to-client-booking-etiquette/){:target="_blank"}
-- ["How do I find a call girl near me?"](https://www.satisfactionproject.com/how-do-i-find-a-call-girl-near-me/){:target="_blank"}
-- ['What if it's a scam?' How to have a successful date with a pro, by doing your homework.](https://tryst.link/blog/what-if-its-a-scam-find-escort/){:target="_blank"}
-- [A Client's Guide to Navigating Sex Industry Scams](https://tryst.link/blog/a-clients-guide-to-navigating-sex-industry-scams/){:target="_blank"}
-- [How To Be A Favorite Client](https://tryst.link/blog/how-to-be-a-favorite-client/){:target="_blank"}
+- Tips for a successful booking:
+    - [A First-time Client's Guide to Escort Booking Etiquette](https://tryst.link/blog/an-escorts-guide-to-client-booking-etiquette/){:target="_blank"}
+- To learn how to spot scams:
+    - ['What if it's a scam?' How to have a successful date with a pro, by doing your homework.](https://tryst.link/blog/what-if-its-a-scam-find-escort/){:target="_blank"}
+    - [A Client's Guide to Navigating Sex Industry Scams](https://tryst.link/blog/a-clients-guide-to-navigating-sex-industry-scams/){:target="_blank"}
+- For more scenario-specific etiquette:
+    - [How To Be A Favorite Client](https://tryst.link/blog/how-to-be-a-favorite-client/){:target="_blank"}
+    - [Public Date Etiquette: How to Behave With Escorts and Other Providers](https://tryst.link/blog/public-date-etiquette-how-to-behave-with-escorts-and-other-providers/){:target="_blank"}
 
-I also suggest spending a bit of time perusing the [Good Client Guide](https://goodclientguide.com/){:target="_blank"} and the [Satisfaction Project](https://www.satisfactionproject.com/){:target="_blank"}, two client education websites that have compiled much of the same information.
+I also suggest spending a bit of time perusing the [Good Client Guide](https://goodclientguide.com/){:target="_blank"}, an excellent client education resource.
 
 ## Start here: once you know you want to meet me
 
