@@ -64,7 +64,7 @@ document.getElementById('search-input').addEventListener('input', function (e) {
         <p>${doc.excerpt}</p>
     </blockquote>
     <p class="button-container">
-        <a href="${doc.url}" class="button">Go to "${doc.title}" result</a>
+        <a href="${doc.url}" class="button">Go to this result <span class="fa-icon fa-solid fa-magnifying-glass-arrow-right"></span></a>
     </p>
 </div>`;
     }).join('');
