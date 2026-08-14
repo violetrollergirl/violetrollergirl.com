@@ -7,9 +7,9 @@ description: >
 featured_image:
   alt:
   url: images/gallery-originals/violet-in-beige-and-marble-booth.jpg
-last_modified: Thu May 14 15:52:42 EDT 2026
 prev: /
 next: /colophon/booking-form-code/
+last_modified: Fri Aug 14 00:44:57 EDT 2026
 ---
 
 # {{ site.title }}'s Website Colophon
@@ -32,6 +32,7 @@ So here's a bit of technical information regarding how it all works. But, first&
 1. [Technology stack](#technology-stack)
     1. [No server required](#no-server-required)
     1. [Onion location hint](#onion-location-hint)
+    1. [Local full-text search](#local-full-text-search)
 1. [Permalinks for intra-page UI elements](#permalinks-for-intra-page-ui-elements)
 1. [Client-side booking form](#client-side-booking-form)
     1. [Mad-lib style form prose](#mad-lib-style-form-prose)
@@ -89,6 +90,12 @@ In supporting browsers, such as some versions of Tor Browser, this creates a non
 
 {:.align-center}
 ![Screenshot of Tor Browser's onion location hint.]({% link resources/for-clients/discretion-maxxing/screenshot.violetrollergirl-com.try-onion-sites.tor-browser.webp %}){:loading="lazy"}
+
+### Local full-text search
+
+As my site has grown to include many [resources]({% link resources/index.md %}) and I've found myself writing more and more, I decided that I needed some kind of search functionality.
+
+My site's [search page]({% link search/index.md %}) provides a keyword search powered by [Lunr.js](https://lunrjs.com){:target="_blank"}. This is also provided in my customized [404 Not Found]({% link 404.md %}) page to try helping someone who may have lost their way.
 
 <!-- YOU'VE FOUND AN EASTER EGG!
 ## Typography
