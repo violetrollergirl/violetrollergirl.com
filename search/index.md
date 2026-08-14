@@ -12,7 +12,7 @@ featured_image:
 Type your search query in the field below.
 
 <form id="search-form" action="{% link search/index.md %}" method="GET">
-    <input type="search" id="search-input" placeholder="Search all of this site&hellip;" autofocus="autofocus" />
+    <input type="search" id="search-input" name="q" placeholder="Search all of this site&hellip;" autofocus="autofocus" />
 </form>
 <div id="search-results"></div>
 
