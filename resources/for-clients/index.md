@@ -57,3 +57,4 @@ My cryptocurrency explainers are designed to help you get set up and ready to se
 
 {:.button-container}
 {% include link-as-button.md anchor_text="<span class='fa-icon fa-solid fa-scroll'></span> All Resources" url="/resources/" %}
+[<span class="fa-icon fa-solid fa-magnifying-glass"></span> Search]({% link search/index.md %}){:.button}

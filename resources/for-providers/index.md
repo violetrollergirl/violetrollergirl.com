@@ -55,3 +55,4 @@ So here's a bit of technical information regarding how it all works, in case you
 
 {:.button-container}
 {% include link-as-button.md anchor_text="<span class='fa-icon fa-solid fa-scroll'></span> All Resources" url="/resources/" %}
+[<span class="fa-icon fa-solid fa-magnifying-glass"></span> Search]({% link search/index.md %}){:.button}

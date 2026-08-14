@@ -21,3 +21,6 @@ Now that I've been in this industry for a while, I thought I'd start writing dow
 [<span class="fa-icon fa-solid fa-user-tie"></span> For Clients]({% link resources/for-clients/index.md %}){:.button}
 [<span class="fa-icon fa-solid fa-house-chimney"></span> Home]({% link index.html %}){:.button}
 [<span class="fa-icon fa-solid fa-umbrella"></span> For Providers]({% link resources/for-providers/index.md %}){:.button}
+
+{:.button-container}
+[<span class="fa-icon fa-solid fa-magnifying-glass"></span> Search]({% link search/index.md %}){:.button}
