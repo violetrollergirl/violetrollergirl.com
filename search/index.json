@@ -1,0 +1,28 @@
+---
+# This document is the Lunr.js search index database providing a full
+# text search of the page.
+#
+# See https://lunrjs.com/
+layout: null
+---
+[
+{% for post in site.posts %}
+{
+"title": {{ post.title | jsonify }},
+"url": {{ post.url | absolute_url | jsonify }},
+"date": {{ post.date | date: "%B %d, %Y" | jsonify }},
+"excerpt": {{ post.excerpt | strip_html | truncatewords: 50 | jsonify }},
+"content": {{ post.content | strip_html | truncatewords: 300 | jsonify }},
+"tags": {{ post.tags | jsonify }},
+"categories": {{ post.categories | jsonify }}
+},
+{% endfor %}
+{% for page in site.pages %}
+{
+"title": {{ page.title | jsonify }},
+"url": {{ page.url | absolute_url | jsonify }},
+"excerpt": {{ page.content | strip_html | truncatewords: 50 | jsonify }},
+"content": {{ page.content | strip_html | truncatewords: 300 | jsonify }}
+}{% unless forloop.last %},{% endunless %}
+{% endfor %}
+]
