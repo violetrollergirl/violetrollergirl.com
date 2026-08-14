@@ -35,6 +35,8 @@ document.getElementById('search-input').addEventListener('input', function (e) {
         return;
     }
 
+    // Do the search,
+    // See: https://lunrjs.com/guides/searching.html
     const results = searchIndex.search(`${query}`);
 
     if ( 0 === results.length ) {

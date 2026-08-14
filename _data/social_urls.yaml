@@ -194,3 +194,13 @@
     description: >
       More health info for in-person meets.
       Requires [<span class="fa-icon fa-brands fa-tor-browser"></span> Tor Browser](/resources/for-clients/discretion-maxxing/#tor-browser-safe-anonymous-web-browsing) to view.
+  - title: Search
+    label: Search
+    icon: magnifying-glass
+    url: /search/
+    description: >
+      Search this site.
+    html: |
+      <form action="/search/" method="GET">
+        <input type="search" class="form-input" name="q" placeholder="deposit policy" />
+      </form>

@@ -26,6 +26,7 @@ Content for the "Links" Panel.
                 </a>
                 {% endif %}
                 {% if item.description %}{{ item.description | markdownify }}{% endif %}
+                {% if item.html %}{{ item.html }}{% endif %}
             </li>
             {% endfor %}
         </ul>
