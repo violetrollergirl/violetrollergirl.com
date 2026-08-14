@@ -17,7 +17,7 @@ Type your search query in the field below.
 <div id="search-results"></div>
 
 <!-- Load the Lunr.js library. -->
-<script src="https://cdn.jsdelivr.net/npm/lunr@2.3/lunr.min.js" integrity="sha256-DFDZACuFeAqEKv/7Vnu1Tt5ALa58bcWZegGGFNgET8g=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js" integrity="sha256-DFDZACuFeAqEKv/7Vnu1Tt5ALa58bcWZegGGFNgET8g=" crossorigin="anonymous"></script>
 
 <script>
 let searchIndex;    // Search index database, a JSON file.
