@@ -23,6 +23,7 @@ layout: null
 
 {% assign pages = site.pages | where_exp: "item", "item.layout == 'page'" %}
 {% assign pages = pages | where_exp: "item", "item.title != null" %}
+{% assign pages = pages | where_exp: "item", "item.searchable != false" %}
 {% for page in pages %}
 {
 "title": {{ page.title | jsonify }},

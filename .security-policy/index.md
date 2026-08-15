@@ -1,5 +1,6 @@
 ---
 title: Security policy
+searchable: false # Exclude this page from Lunr.js search index.
 ---
 
 # Security policy
