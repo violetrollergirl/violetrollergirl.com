@@ -1,0 +1,26 @@
+{% comment %}
+This file is used to create content that is safe for inclusion in the
+site's Lunr.js static search index.
+{% endcomment %}
+
+{% capture startDelim %}{% raw %}{% comment %}{% endraw %}{% endcapture %}
+{% capture endDelim %}{% raw %}{% endcomment %}{% endraw %}{% endcapture %}
+
+{% capture str %}
+{{ include.content | markdownify | strip_html }}
+{% endcapture %}
+
+{% assign arr = str | split: startDelim %}
+
+{% for chunk in arr %}
+{% if chunk contains endDelim %}
+{% comment %}
+This chunk does contain the end delimeter, so the text before that delimeter
+is not safe to print, it must be removed first.
+{% endcomment %}
+{{ chunk | split: endDelim | slice: 1 | join: "" }}
+{% else %}
+{% comment %}This chunk does not contain the end delimeter, so it is printable.{% endcomment %}
+{{ chunk }}
+{% endif %}
+{% endfor %}
