@@ -50,10 +50,10 @@ document.getElementById('search-input').addEventListener('input', function (e) {
 <div class="search-result">
     <h3><a href="${doc.url}">${doc.title}</a></h3>
     <blockquote>
-        <p>${doc.excerpt}</p>
+        <p>${doc.excerpt} (<a href="${doc.url}" title="Continue reading ${doc.title}">read more</a>)</p>
     </blockquote>
     <p class="button-container">
-        <a href="${doc.url}" class="button">Go to this result <span class="fa-icon fa-solid fa-magnifying-glass-arrow-right"></span></a>
+        <a href="${doc.url}" class="button" title="Continue reading ${doc.title}">Go to this result <span class="fa-icon fa-solid fa-magnifying-glass-arrow-right"></span></a>
     </p>
 </div>`;
     } ).join('');
