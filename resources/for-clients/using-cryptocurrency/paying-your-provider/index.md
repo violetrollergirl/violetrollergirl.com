@@ -35,19 +35,15 @@ Ask your provider:
 
 > What's the (Bitcoin, Ethereum, Zcash, Monero, etc.) address for this payment?
 
-{% assign links_group_donations = site.data.social_urls | find: "group_name", "Tip me" | first %}
-{% assign zcash_donation_data = links_group_donations.items | where: "label", "Zcash" | first %}
-{% assign zcash_donation_addr = zcash_donation_data.url | split: ":" %}
-
 Your provider will send you back one of several things. It will either be:
 
 - a long string of text that you can copy into your clipboard:
 
-      {{ zcash_donation_addr[1]}}
+      {{ site.contact.zcash.address }}
 
 - an image of a QR code that you can save to your phone's gallery:
 
-    ![QR code showing Violet Rollergirl's Zcash donation address]({% link images/qr.zcash.violetrollergirl.gif %})
+    <div class="qrcode-container" data-qrdata="zcash:{{ site.contact.zcash.address }}" style="max-width: 400px;" />
 
 The above are examples of my own [Zcash donation addresses]({% link colophon/index.md %}#cryptocurrency-tips-and-donation-links).
 
