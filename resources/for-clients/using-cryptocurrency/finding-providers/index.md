@@ -8,7 +8,7 @@ featured_image:
   url: images/gallery-originals/bed-grinning-in-blue-lingerie.jpg
 prev: resources/for-clients/using-cryptocurrency/
 next: resources/for-clients/using-cryptocurrency/paying-your-provider/
-last_modified: Fri Aug  7 22:17:42 EDT 2026
+last_modified: Tue Aug 18 12:40:46 EDT 2026
 ---
 
 # {{ site.title }}'s guide to finding providers who accept cryptocurrency
@@ -22,28 +22,32 @@ This page offers guidance for how to find a provider who accepts [privacy-preser
 ## In this guide
 
 1. [Searching for providers by keyword](#searching-for-providers-by-keyword)
-1. [List of providers who say they take Zcash](#list-of-providers-who-take-zcash)
+1. [List of providers who say they take Zcash](#list-of-providers-who-say-they-take-zcash)
     1. [Are you a provider who takes Zcash?](#are-you-a-provider-who-takes-zcash)
 
 ## Searching for providers by keyword
 
-Many good escort mall ad sites allow you to search for providers by specific keywords. Here are keywords you should consider searching for to find providers that accept cryptocurrency:
+Many good escort mall ad sites allow you to search for providers by specific keywords. Here are keywords you should consider searching for to find providers that accept cryptocurrency. See for yourself; press the buttons to search on Tryst.
+
+- Search literally for the terms `crypto` or `cryptocurrency`.
+
+    {:.button-container}
+    [Search Tryst for `crypto`](https://tryst.link/search?loc=%3AAnywhere&q=crypto){:.button target="_blank"}
+    [Search Tryst for `cryptocurrency`](https://tryst.link/search?loc=%3AAnywhere&q=crypto){:.button target="_blank"}
 
 - Search for the currency symbol or full name of the cryptocurrency. For example:
-    - `Zcash` or `ZEC`
-    - `Monero` or `XMR`
 
-See for yourself. Search Tryst for:
-
-{:.button-container}
-[`Zcash`](https://tryst.link/search?loc=%3AAnywhere&q=zcash){:.button target="_blank"}
-[`ZEC`](https://tryst.link/search?loc=%3AAnywhere&q=zec){:.button target="_blank"}
-[`Monero`](https://tryst.link/search?loc=%3AAnywhere&q=monero){:.button target="_blank"}
-[`XMR`](https://tryst.link/search?loc=%3AAnywhere&q=xmr){:.button target="_blank"}
+    {:.button-container}
+    [`Bitcoin`](https://tryst.link/search?loc=%3AAnywhere&q=bitcoin){:.button target="_blank"}
+    [`BTC`](https://tryst.link/search?loc=%3AAnywhere&q=btc){:.button target="_blank"}
+    [`Zcash`](https://tryst.link/search?loc=%3AAnywhere&q=zcash){:.button target="_blank"}
+    [`ZEC`](https://tryst.link/search?loc=%3AAnywhere&q=zec){:.button target="_blank"}
+    [`Monero`](https://tryst.link/search?loc=%3AAnywhere&q=monero){:.button target="_blank"}
+    [`XMR`](https://tryst.link/search?loc=%3AAnywhere&q=xmr){:.button target="_blank"}
 
 ## List of providers who say they take Zcash
 
-The following is an alphabetized list of providers who advertise the fact that they accept Zcash directly.
+The following is an alphabetized list of providers who advertise the fact that they accept specifically Zcash directly, not just through swaps. This means these are the providers offering you the highest level of payment privacy and financial discretion.
 
 **I do not intend inclusion on this list to imply anything about the professionalism, discretion, or reliability of the named provider.**
 
