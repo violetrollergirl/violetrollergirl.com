@@ -120,7 +120,7 @@ There are a growing number of providers and creators who accept cryptocurrency f
 
 ## Have questions? I'm here for you!
 
-Have questions? Ask your provider, or [contact me]({% link resources/for-clients/booking-guide/index.md %}#connection-methods) directly! I'm genuinely happy to help you get started using cryptocurrency and would only ask for [a tip or donation]({% link resources/for-clients/booking-guide/index.md %}#links-zcash) as a thank you!
+Have questions? Ask your provider, or [contact me]({% link contact/connection-methods/index.md %}) directly! I'm genuinely happy to help you get started using cryptocurrency and would only ask for [a tip or donation]({% link links/zcash/index.md %}) as a thank you!
 
 {:.button-container}
 {% include link-as-button.md anchor_text="Previous: Resources for Clients" url=page.prev %}
