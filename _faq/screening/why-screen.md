@@ -46,6 +46,8 @@ The thing about balance is that it's very comfortable. After all, what is grace 
 
 And no one wants that. Right?
 
+[Put another way](https://bsky.app/profile/violetrollergirl.com/post/3mthb4dhmys2u){:target="_blank"}: there are men who will instantly switch to using an escort's new name after she rebrands, and who profusely apologize to pet owners after misgendering their dog or cat, but who refuse to extend the same courtesy to a trans woman they actually meet. These men are why I must screen you, too.
+
 ### If you are too nervous to screen or pass my safety checks, we will never meet. 🥲
 
 To reiterate, [screening is easy]({% link _faq/screening/screening-process.md %}) and you can be done with it after your very first message to me.
