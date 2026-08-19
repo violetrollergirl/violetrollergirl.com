@@ -10,7 +10,7 @@ featured_image:
     Violet takes a mirror selfie of herself wearing a t-shirt with a
     cryptocurrency slogan, "Come and take it!"
   url: images/gallery-originals/come-and-take-it-t-shirt-in-all-black.jpg
-last_modified: Sun Dec 28 17:08:25 EST 2025
+last_modified: Wed Aug 19 17:41:36 EDT 2026
 redirect_from:
   - /crypto
   - /crypto/
@@ -29,6 +29,15 @@ redirect_from:
 Cryptocurrency gets a bad rap and, in many situations, it's deserved. Most of the "crypto" sector is just not relevant, not helpful, and not intended for us as sex workers. However, there is a sliver of really powerful stuff in there, and I want to normalize that slice of it because I truly believe that doing so is vital to protecting ourselves, our clients, and our financial futures.
 
 I hope these short, stand alone articles help you better understand why there are real benefits to using the good parts of what cryptocurrency makes possible, what those benefits are, and how to capitalize on them in your day-to-day dealings as a sex worker.
+
+## In this series
+
+1. [Start using cryptocurrency today, as a sex worker](#start-using-cryptocurrency-today-as-a-sex-worker)
+1. [{{ site.title }}'s cryptocurrency primer for providers]({% link resources/for-providers/using-cryptocurrency/primer/index.md %})
+1. [Choose and install your wallet app]({% link resources/for-providers/using-cryptocurrency/wallet-apps/index.md %})
+1. [On-ramping: acquiring cryptocurrency funds]({% link resources/for-providers/using-cryptocurrency/on-ramping/index.md %})
+1. [Off-ramping: where and how to spend your funds]({% link resources/for-providers/using-cryptocurrency/off-ramping/index.md %})
+1. [Convincing clients: how to talk about cryptocurrency]({% link resources/for-providers/using-cryptocurrency/convincing-clients/index.md %})
 
 ## Start using cryptocurrency today, as a sex worker
 
@@ -52,11 +61,11 @@ The following is a series of articles I've written in the hopes of helping you g
 
     Numbers in a bank account or crypto wallet don't keep us alive, so this article teaches you how and where to safely and even anonymously spend your hard-earned funds.
 
+1. [Convincing clients: how to talk about cryptocurrency]({% link resources/for-providers/using-cryptocurrency/convincing-clients/index.md %})
+
+    While cryptocurrency offers real benefits even if your clients never adopt it themselves, the real power is in getting our clients and customers to pay us with it. This article helps you get them on board.
+
 {% comment %}
-1. [How and why to convince clients and customers to pay us in cryptocurrency]({% link resources/for-providers/using-cryptocurrency/convincing-clients/index.md %})
-
-    How to talk to your clients and customers about cryptocurrency, and what to say to help them help you.
-
 1. [Know your "Know Your Customer" rules]({% link resources/for-providers/using-cryptocurrency/kyc/index.md %})
 
     All about the pitfalls and gotchas of Know Your Customer (KYC) rules, when they help us, when they don't, and how to avoid getting caught in the middle.

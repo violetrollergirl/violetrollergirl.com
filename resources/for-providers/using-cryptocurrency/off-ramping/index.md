@@ -377,4 +377,6 @@ I'd love to hear about your experience if you try something like this so please 
 > I need to write this up, too. Basically it's just going back to an exchange where you are okay KYC'ing to your fiat identity.
 
 {:.button-container}
-{% include link-as-button.md anchor_text="Previous: On-ramping" url=page.prev %} {% include link-as-button.md anchor_text="Up" url="../" %} {% include link-as-button.md anchor_text="Next: Convincing clients" url=page.next %}
+{% include link-as-button.md anchor_text="Previous: On-ramping" url=page.prev %}
+{% include link-as-button.md anchor_text="Up" url="../" %}
+{% include link-as-button.md anchor_text="Next: Convincing clients" url=page.next %}
