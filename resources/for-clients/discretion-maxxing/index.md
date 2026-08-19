@@ -2,7 +2,7 @@
 title: Discretion-maxxing, or How To Find, Book, and Pay Escorts Completely Secretly
 description: >
   Learn to book an escort without anyone knowing you did that.
-  Or, how to actually stay on the DL with a pro, like a pro.
+  Or, how to actually stay down low with a pro, like a pro.
 prev: resources/for-clients/booking-guide/
 next: resources/for-clients/messaging-discreetly/
 featured_image:
@@ -116,7 +116,7 @@ What this means when you use Signal to contact an escort:
 
 ### Shielded Zcash: Encrypted electronic money
 
-The final step in the booking process is usually sending a small advance payment called a [deposit]({% link _faq/booking/what-is-a-deposit.md %}) as a means of confirming and holding your reservation on their calendar.
+The final step in the booking process is usually sending a small advance payment called a [deposit]({% link _faq/booking/what-is-a-deposit.md %}) as a means of confirming and holding your reservation on your escort's calendar.
 
 Since this payment is required *before* you meet your worker, [paper money is not a suitable payment method for a deposit]({% link _faq/booking/payment-methods.md %}). But sending or receiving money via traditional electronic means is also problematic:
 

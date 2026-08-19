@@ -15,7 +15,7 @@
     svg: images/logo.zcash.yellow.svg
     url: https://z.cash/
     description: |
-      Tip or donate with privacy-enhanced cryptocurrency.
+      Tip or donate with [privacy-enhanced cryptocurrency](/resources/for-clients/discretion-maxxing/#shielded-zcash-encrypted-electronic-money).
 
       <div id="links-zcash-qrcode" class="qrcode-container" data-qrdata="zcash:u1mhgwfzmjks8d2kgwh7nrrycljzzfuhl5fak6efvnqazxwu2f4ssftlf5snpgavfx649ztp5l2lzwzqsrhu5jf4x97jzu6a37qysjvjwq8ffcspd46dg99s4mctaagq73n823edhza3s8mxytur48lnuprad8j4avhvymsxv38u7t5rhdsc449fyk70d9zjjqvrln4lzaeghwcmxn2du"></div>
 
