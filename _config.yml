@@ -13,12 +13,12 @@ onion: 7leifmsll6syh3fdnx2wlyfg6e7hfvi4xt2l5hafovtm4gqtqosudbyd # Onion domain f
 
 # Basic site and authorship information.
 title: Violet Rollergirl
-subtitle: Exquisite trans courtesan
+subtitle: Hacker chic companion
 author: &author
   name: Violet Rollergirl
 description: >-
-  Brilliant, bubbly, and beautiful, Violet is your modern trans companion
-  and girlfriend experience whose sophistication meets genuine sparkle.
+  A courtesan for the information age, Violet is your brilliant, bubbly, and
+  beautiful girlfriend experience whose sophistication meets genuine sparkle.
 
 include:
   - .well-known
