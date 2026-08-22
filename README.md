@@ -22,9 +22,16 @@ To mirror this site to an Onion domain, use the following short script that make
 
 ```shell
 #!/bin/sh
+
+# Directory where the mirror should be written.
+write_directory="/var/www"
+
 # Define domain equivalents.
 clearnet_domain="violetrollergirl.com"
 toronion_domain="7leifmsll6syh3fdnx2wlyfg6e7hfvi4xt2l5hafovtm4gqtqosudbyd.onion"
+
+# Go to the output directory.
+cd "${write_directory}"
 
 # Use GNU wget to download a static mirror.
 wget --quiet --mirror --page-requisites\
@@ -39,6 +46,9 @@ files_to_rewrite="$(grep -r "<script>location=\"https://${clearnet_domain}" ${cl
 sed -i \
     -e "s/<script>location=\"https:\/\/${clearnet_domain}/<script>location=\"/" \
     ${files_to_rewrite}
+
+# Return to prior directory.
+cd -
 ```
 
 The `--domains` option  makes `wget` treat both domains as equivalent, allowing `--convert-links` to treat both domains as the same relative path correctly. This will unfortunately not handle `<script>location=` redirections, which are created by the `redirect_to` directive implemented by Jekyll's `jekyll-redirect-from` plugin.
