@@ -605,7 +605,13 @@ On the day before our date, I'll send you a reminder message. The reminder will 
 
 If you ghost, I can't be confident we're still on and will consider the date cancelled. (This is another reason I strongly suggest [booking via Signal Private Messenger](#booking-form-field-preferred-contact-method), as it is the most reliable and [discreet messaging]({% link resources/for-clients/messaging-discreetly/index.md %}) channel.)
 
-In this reminder message, I'll also provide more specific instructions for exactly how to meet, including things like where to park if you're driving, which intersection to meet at, a specific address with instructions on how to use the buzzer, and so on.
+In this reminder message, I'll also provide more specific instructions for exactly how to meet, including things like:
+
+- where to park if you're driving,
+- which intersection to meet at if we're meeting outside,
+- a specific address with instructions on how to use the buzzer, if directing you to one of my incall locations,
+- how to navigate the hotel and arrive at my room, if I'm hosting from a [hotel arrangement]({% link availability/hotel/index.md %}),
+- and so on.
 
 If you haven't met a companion before, this part can feel a bit like spycraft, but don't worry. That's just pre-date jitters and butterflies. Once we see one another, everything will start to feel much more comfortable!
 
