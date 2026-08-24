@@ -11,6 +11,7 @@ redirect_from:
   - /consulting/
   - /consulting/for-providers
   - /consulting/for-providers/
+last_modified: Mon Aug 24 02:38:44 EDT 2026
 ---
 
 # Cybersecurity Consultations: Digital Safety and Online Privacy for Sex Workers
@@ -36,7 +37,9 @@ Before I started doing sex work, I was a very stubborn advocate for gender justi
 
 Thankfully, I also had the support from a technically savvy community that helped me practice and perfect the techniques needed to stay relatively safe online and off. Through good old fashioned scrappy resourcefulness and perseverance, I learned an extraordinary amount about digital defenses in a trial by fire environment that forged a unique blend of compassion and conviction for the power and promise of what digital tooling can do for (or against) marginalized communities.
 
-In so many ways, I was very lucky. I got a peek at the gatekept holy books from the metaphorical priests of High Tech. But I am not a loyal disciple. I was and will always be a slutty sinner. Now, I want to help you learn what you need to know to keep yourself and your loved ones safer in an age where technology has become both the pen and the sword.
+In so many ways, I was very lucky. I got a peek at the gatekept holy books from the metaphorical priests of High Tech. But I am not a loyal disciple. I was and will always be a slutty sinner.
+
+Now, I want to help you learn what you need to know to keep yourself and your loved ones safer in an age where technology has become both the pen and the sword.
 
 ## A protection spell, not a checklist
 
