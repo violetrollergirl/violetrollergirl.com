@@ -24,6 +24,7 @@ Ultimately, crypto is an undeniable win for me in my life and my work, so this s
 1. [Two kinds of cryptocurrencies: private and not private](#two-kinds-of-cryptocurrencies-private-and-not-private)
     1. [Zcash in a nutshell](#zcash-in-a-nutshell)
     1. [Monero in a nutshell](#monero-in-a-nutshell)
+    {% comment %}1. [Dash in a nutshell](#dash-in-a-nutshell){% endcomment %}
 1. [Self-custody or bust](#self-custody-or-bust)
     1. [Self-custody comes with responsibility](#self-custody-comes-with-responsibility)
 1. [What's next?](#whats-next)
@@ -93,6 +94,20 @@ There's a famous saying in the cybersecurity world that goes, "security through 
 Another famous saying in cybersecurity is that all good security measures have "defense in depth." This pattern is sometimes called "layered security," and in this case it means there's an upside to using both Monero and Zcash together, if you want to, specifically because Monero's technology is fundamentally different than Zcash's. I think this is overkill for everyone except the most dedicated or at-risk individuals, but using two technologies that are different from one another means that if disaster strikes and one of the two is later broken, you're still protected because you used the other, too.
 
 My [favorite app for Monero is Cake Wallet]({% link resources/for-providers/using-cryptocurrency/wallet-apps/index.md %}#cake-wallet-privacy-focused-monero-wallet-app).
+
+{% comment %}
+### Dash in a nutshell
+
+The last reputable privacy-preserving cryptocurrency I'll introduce is [Dash](https://www.dash.org/){:target="_blank"}. While the usability ("user experience") of Dash's crypto ecosystem is still rough around the edges and they are not very well known, Dash represents what I feel is the most promising newcomer to the privacy-preserving cryptocurrency space.
+
+Dash is short for "digital cash," and this name reflects their philosophy that transactions are more important than investments. This is the same philosophy that propelled Zcash's relentless focus on privacy and is inarguably the only viable approach to take for making money usable as a currency. In [August of 2026, Dash (finally) implemented the same underlying zero-knowledge proof cryptography that Zcash created](https://www.dash.org/news/shielded-transactions-are-live-on-the-dash-evolution-mainnet/){:target="_blank"}, marking the first time that I can comfortably-enough recommend (shielded) Dash as a usable private cryptocurrency.
+
+Technically speaking, the major distinction between Dash and Zcash or Monero is that Dash's strong privacy guarantee is implemented as a second-layer (Layer 2), whereas both Monero provide this privacy at the base layer.
+
+While you can convert Dash to Zcash easily through the same exchanges, there are currently many more pitfalls and gotchas to using Dash privately if you are not experienced with cryptocurrency, which is the main reason I currently recommend that crypto-curious newcomers stick to using shielded Zcash instead. As the Dash ecosystem evolves, I'm excited to see more usable options appear and will of course update these guides to reflect new recommendations.
+
+Currently, the only way to use shielded Dash is through [an unofficial desktop app](https://github.com/pshenmic/dash-desktop){:target="_blank"}. To the best of my knowledge, no official or mobile app currently exists.
+{% endcomment %}
 
 ## Self-custody or bust
 
