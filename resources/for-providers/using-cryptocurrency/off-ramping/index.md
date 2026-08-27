@@ -9,7 +9,7 @@ featured_image:
   url: images/gallery-originals/lounging-poolside-in-bikini.jpg
 prev: resources/for-providers/using-cryptocurrency/on-ramping/
 next: resources/for-providers/using-cryptocurrency/convincing-clients/
-last_modified: Mon Aug  3 09:27:18 EDT 2026
+last_modified: Thu Aug 27 17:15:47 EDT 2026
 ---
 
 # Off-ramping: where and how to spend your cryptocurrency
@@ -41,7 +41,7 @@ In the traditional financial system, spending money comes with a privacy trade-o
     1. [Paying for client screening services with cryptocurrency](#paying-for-client-screening-services-with-cryptocurrency)
     1. [ZECMap: a global Zcash business directory](#zecmap-a-global-zcash-business-directory)
 1. [Fund a traditional payment card using cryptocurrency](#fund-a-traditional-payment-card-using-cryptocurrency)
-    1. [Apply for a Payy Card, a crypto-backed Visa payment card](#apply-for-a-payy-card-a-crypto-backed-visa-payment-card)
+    1. [Apply for crypto-backed payment cards](#apply-for-crypto-backed-payment-cards)
 1. [Join a digital employment cooperative that accepts cryptocurrency](#join-a-digital-employment-cooperative-that-accepts-cryptocurrency)
     1. [Opolis: a crypto-native independent employment platform](#opolis-a-crypto-native-independent-employment-platform)
 1. [Convert crypto back to fiat currency](#convert-crypto-back-to-fiat-currency)
@@ -287,43 +287,33 @@ There are new business, vendors, merchants, and service providers who are starti
 
 ## Fund a traditional payment card using cryptocurrency
 
-If you don't need the more complete privacy guarantees of off-ramps available via KYC-lite options such as gift cards, you can also apply for (and hopefully receive) a refillable, cryptocurrency-backed, payment card with a major traditional card issuer.
+If you don't need the more complete privacy guarantees of off-ramps available via KYC-lite options such as gift cards, you can also apply for (and hopefully receive) a refillable, cryptocurrency-backed, payment card with a major traditional card issuer, such as Visa or MasterCard.
 
-Since these are the equivalent of physical credit cards, you will have to upload your legal identity documents during the application process, meaning this off-ramp only provides partial privacy. Still, its convenience may be useful for workers who only need privacy from individual clients, rather than also from corporate or government institutions, or who simply need an off-ramp to spend their more private cryptocurrency earnings.
+You can think of these as debit cards linked to your cryptocurrency wallet app, rather than a bank account. You experience the card as a reloadable pre-paid (debit) card; there's no line of credit to apply for, and so you don't need a good credit score. Nevertheless, you use them to pay for stuff at brick-and-mortar or online retailers exactly the same way as you would use a traditional credit card; you tap-to-pay, and the seller experiences your payment as a normal Visa or MasterCard credit transaction.
+
+Since these are digital equivalents of physical payment (debit/credit) cards, you will have to upload your legal identity documents during the application process. As a result, this off-ramp only provides partial privacy. Still, its convenience may be useful for workers who only need privacy from individual clients, rather than also from corporate or government institutions, or who simply need an off-ramp to spend their more private cryptocurrency earnings.
 
 The biggest advantage of these cards is:
 
-- they can be used for anything a normal credit card can be used for, like rent and utilities payments, which are situations in which even prepaid Visa gift cards may not always work.
-- they don't require a bank account to pay off, making this option especially attractive for sex workers who have already suffered banking discrimination and are having trouble using or opening a traditional checking or savings account.
+- they can be used for anything a normal debit or credit card can be used for, like rent and utilities payments, which are situations in which many prepaid cards aren't accepted, even if they bear the Visa or MasterCard logos.
+- they don't require a bank account to pay off since they are funded through existing cryptocurrency wallet app balances, making this option especially attractive for sex workers who have already suffered banking discrimination and are having trouble using or opening a traditional checking or savings account.
 
-By [on-ramping directly in crypto]({% link resources/for-providers/using-cryptocurrency/on-ramping/index.md %}) and then funding a payment card like this, you simply don't need to deposit your earnings into a bank account before you can fund the balance of your crypto-backed payment card.
+By [on-ramping directly in crypto]({% link resources/for-providers/using-cryptocurrency/on-ramping/index.md %}) and then funding a payment card like this, you simply don't need to deposit your earnings into a bank account before you can spend the balance of your crypto-backed payment card, completely bypassing the need to open a traditional bank account.
 
-### Apply for a Payy Card, a crypto-backed Visa payment card
+### Apply for crypto-backed payment cards
 
-[Payy (referral link)]({{ site.data.affiliates.payy }}){:target="_blank"} is a self-custodial, privacy-centered cryptocurrency wallet *and* payment gateway able to interface with Visa's payment processing network. This makes Payy two things at the same time:
+Here are cryptocurrency-backed payment cards that I am familiar with.
 
-- a digital payment app, much like a cryptocurrency version of CashApp, Venmo, or PayPal, which makes it easy to do the kinds of things you might currently be using those apps for in your civilian life (pay back friends for dinner, for example).
-- a Visa payment card paid for with cryptocurrency, but usable anywhere traditional Visa credit cards are accepted.
+- [KAST Card (Visa)](https://www.kast.xyz/){:target="_blank"}
+- [MetaMask Card (MasterCard)](https://metamask.io/card){:target="_blank"}
 
-What's appealing about Payy is that you can fund your Payy Card's balance using either fiat currencies, such as from traditional bank accounts, or cryptocurrency sources, such as other crypto wallets or exchanges, by converting whatever cryptocurrency you have into USDC on Polygon (the same currency that [MintPay]({% link resources/for-providers/using-cryptocurrency/on-ramping/index.md %}#mintpay-fiat-income-with-cryptocurrency-withdrawals) lets you withdraw). This makes it feasible for de-banked individuals to buy things the way most of the banked population does, without needing to get a bank account, which is no small feat.
+> N.B.: An earlier version of this guide recommended [Payy (referral link)]({{ site.data.affiliates.payy }}){:target="_blank"}. They have since discontinued their card program, and so I can no longer recommend them for this aspect of off-ramping. They are still a good place to privately transact in stablecoin balances, but only within Payy-to-Payy wallet transactions, severely limiting the case for their utility.
 
-It's important to remember that payments you make using a Payy Card *are* associated with your legal identity. From that perspective, it's not more private than a regular credit card. However, it is a lot more private than just using Bitcoin, Ethereum, or other transparent-ledger cryptocurrency systems directly, because your payments aren't published publicly for the entire Internet to see.
+It's important to remember that payments you make using any cryptocurrency-backed payment card over traditional card payment networks *are* associated with your legal identity. From that perspective, these are no more private than regular credit cards. However, it is still a lot more private than just using Bitcoin, Ethereum, or other transparent-ledger cryptocurrency systems directly, because your payments aren't published publicly for the entire Internet to see.
 
-Payy itself communicates what data is public and what data stays private when you sign up for a Payy Card. Here's the infographic I was shown when I applied for my Payy Card:
+I strongly advise against using any payment card for your sex worker needs if you can avoid it; do your best to stick with privacy-preserving cryptocurrencies suchas Zcash, Monero, or (newly available as of August 2026) shielded Dash for that. However, if your friends are unwilling to adopt the stronger privacy protections offered by Zcash in Zodl, are scared of the volatility of actual privacy coins, or have otherwise succumbed to the propaganda that stablecoins are somehow superior (even though we know they're not), one of these payment cards can be a convincing half-step to at least get them using cryptocurrency with *you*.
 
-{:.align-center}
-![Screenshot of the Payy Card privacy notice depicting what is and is not visible to other actors when you make payments with it.]({% link resources/for-providers/using-cryptocurrency/off-ramping/screenshot.payy.payy-card-privacy-infographic.png %}){:loading="lazy"}
-
-I would not recommend using your Payy Card or the Payy network for your sex worker needs if you can avoid it; do your best to stick with Zcash and Monero for that. However, if your friends are unwilling to adopt the stronger privacy protections offered by Zcash in Zodl, are scared of the volatility of actual privacy coins, or have otherwise succumbed to the propaganda that stablecoins are somehow superior (even though we know they're not), Payy can be a convincing half-step to at least get them using cryptocurrency with *you*.
-
-Your Payy Card can make you look more like a "normal" civilian in your personal life. And you can still keep your wealth private by having it in and moving it through the Zcash shielded pool (i.e., Zodl) at every opportunity.
-
-If you'd like to try Payy, using my invitation link will net me "Payy Points," which act a bit like a credit card loyalty program:
-
-{:.align-center}
-{% include link-as-button.md anchor_text="Apply for Payy (via referral)" url=site.data.affiliates.payy target="_blank" %}
-
-Payy is also the same company that underpins the [MintStars Creator Card](https://mintstars.com/mintstars-card){:target="_blank"}.
+Moreover, using a cryptocurrency-backed payment card can make you look more like a "normal" civilian in your personal life. And you can still keep your wealth private by holding most of it inside the Zcash shielded pool (in a good [wallet app]({% link resources/for-providers/using-cryptocurrency/wallet-apps/index.md %}) like Zodl) at every opportunity.
 
 ## Join a digital employment cooperative that accepts cryptocurrency
 
