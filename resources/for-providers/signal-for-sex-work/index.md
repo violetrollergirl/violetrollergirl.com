@@ -9,7 +9,7 @@ featured_image:
   url: images/gallery-originals/privacy-professional-crypto-kitty-girl.jpg
 prev: resources/for-providers/
 next: colophon/
-last_modified: Mon Aug  3 09:27:02 EDT 2026
+last_modified: Tue Sep  8 14:54:42 CEST 2026
 ---
 
 # {{ site.title }}'s Guide to Using Signal Private Messenger in Sex Work
@@ -37,6 +37,8 @@ This article is my attempt to convey why Signal Private Messenger is so useful a
     1. [Set a default disappearing message timer](#set-a-default-disappearing-message-timer)
     1. [Omit message content from notifications](#omit-message-content-from-notifications)
     1. [Disable link previews](#disable-link-previews)
+    1. [Enable the Screen Lock](#enable-the-screen-lock)
+    1. [Change the Signal app's home screen icon](#change-the-signal-apps-home-screen-icon)
 1. [Publicizing your Signal profile to clients](#publicizing-your-signal-profile-to-clients)
 1. [Verifying your Signal Safety Number with clients you meet](#verifying-your-signal-safety-number-with-clients-you-meet)
 1. [Using Signal to share photos and media](#using-signal-to-share-photos-and-media)
@@ -219,6 +221,28 @@ My recommendations:
 - Unless you know that you need link previews, and I'd argue no one really *needs* them, turn this feature off.
     - Find this option in Signal Settings &rarr; Chats &rarr; Generate link previews, and disable them.
 - If you really like link previews, you can leave them enabled. If you're worried about link security, though, just turn them off.
+
+### Enable the Screen Lock
+
+Enabling the Screen Lock feature in Signal helps ensure only you can interact with your messages. When enabled, Signal's Screen Lock locks the screen of your phone when you open the app, revealing the app screens themselves only after you re-enter your phone's passcode, passphrase, or other unlocking method.
+
+My recommendations:
+
+- Always [enable Screen Lock](https://support.signal.org/hc/en-us/articles/360007059572-Screen-Lock){:target="_blank"}. There is no reason Signal should be available to anyone who picks up your phone if they are not you.
+- Set a reasonable Screen Lock Timeout. The shorter the timeout, the more often you will need to enter your passphrase.
+    - You can safely set a longer Screen Lock Timeout if you enable your phone's immediate Lock feature; iPhones and Android phones can lock their screens when you press the power or another button once. Lock the phone, and you also lock access to all the apps on it, including Signal.
+
+### Change the Signal app's home screen icon
+
+There is nothing illegal or inherently suspicious about having Signal installed on your phone in most places around the world. However, if this is not true where you live or work, or if you'd just like Signal to remain a little more discreet on your home screen, you can change the appearance of its app icon.
+
+Bear in mind that changing the appearance of Signal's app icon doesn't change anything about the way the app works. It is a form of visual camouflage to hide from a human using their eyes, not a way to hide the installation from an electronic surveillance or forensics tool. When used as a safety measure, this feature is arguably most important for people experiencing intimate partner violence, whose abusive spouse, relative, or boss may periodically visually inspect their phone.
+
+My recommendations:
+
+- Don't stress. You have a right to use Signal, and the more you use it for mundane, everyday communications, the more normal having Signal is.
+- Feel free to [change the app icon](https://support.signal.org/hc/en-us/articles/6325632279834-Change-the-Signal-app-icon-on-your-phone){:target="_blank"} if you want to, for safety or even for fun decorative reasons.
+    - If you are experiencing close physical surveillance from an abusive partner and you have an Android phone, consider installing Signal into your phone's Private Space instead. [Using the Android Private Space](https://support.google.com/android/answer/15341885?hl=en){:target="_blank"} is a far more secure way to protect sensitive data and apps than using a camouflaged app icon.
 
 ## Publicizing your Signal profile to clients
 
