@@ -79,30 +79,6 @@
       accepted: true
       proof_url: https://MeetChristinaBlair.com/faq
       proof_img: resources/for-clients/using-cryptocurrency/finding-providers/zcash-proof-images/meetchristinablair.com.png
-- name: Evie NYC
-  url: https://MeetEvieNYC.com/
-  photo:
-  deposit_methods:
-    zcash:
-      accepted: true
-      proof_url: https://MeetEvieNYC.com/faq
-      proof_img: resources/for-clients/using-cryptocurrency/finding-providers/zcash-proof-images/meetevienyc.com.png
-- name: Jade Skye
-  url: https://hi-jade-skye.com/
-  photo:
-  deposit_methods:
-    zcash:
-      accepted: true
-      proof_url: https://tryst.link/escort/jade-skye#policies
-      proof_img: resources/for-clients/using-cryptocurrency/finding-providers/zcash-proof-images/tryst.link.escort.jade-skye.png
-- name: Sylvia Glade
-  url: https://SylviaGlade.com/
-  photo:
-  deposit_methods:
-    zcash:
-      accepted: true
-      proof_url: https://SylviaGlade.com/rates/
-      proof_img: resources/for-clients/using-cryptocurrency/finding-providers/zcash-proof-images/sylviaglade.com.png
 - name: Eve Vel
   url: https://EveVel.love/
   photo:
@@ -111,6 +87,14 @@
       accepted: true
       proof_url: https://tryst.link/escort/evevel#policies
       proof_img: resources/for-clients/using-cryptocurrency/finding-providers/zcash-proof-images/tryst.link.escort.evevel.png
+- name: Evie NYC
+  url: https://MeetEvieNYC.com/
+  photo:
+  deposit_methods:
+    zcash:
+      accepted: true
+      proof_url: https://MeetEvieNYC.com/faq
+      proof_img: resources/for-clients/using-cryptocurrency/finding-providers/zcash-proof-images/meetevienyc.com.png
 - name: Imogen
   url: https://OnlyImogen.com/
   photo:
@@ -119,6 +103,30 @@
       accepted: true
       proof_url: https://tryst.link/escort/imogen#policies
       proof_img: resources/for-clients/using-cryptocurrency/finding-providers/zcash-proof-images/tryst.link.escort.imogen.png
+- name: Jade Skye
+  url: https://hi-jade-skye.com/
+  photo:
+  deposit_methods:
+    zcash:
+      accepted: true
+      proof_url: https://tryst.link/escort/jade-skye#policies
+      proof_img: resources/for-clients/using-cryptocurrency/finding-providers/zcash-proof-images/tryst.link.escort.jade-skye.png
+- name: Priestess Epiphany
+  url: https://www.priestessepiphany.com/
+  photo:
+  deposit_methods:
+    zcash:
+      accepted: true
+      proof_url: https://tryst.link/bdsm/priestessepiphany#contact
+      proof_img: resources/for-clients/using-cryptocurrency/finding-providers/zcash-proof-images/tryst.link.bdsm.priestessepiphany.png
+- name: Sylvia Glade
+  url: https://SylviaGlade.com/
+  photo:
+  deposit_methods:
+    zcash:
+      accepted: true
+      proof_url: https://SylviaGlade.com/rates/
+      proof_img: resources/for-clients/using-cryptocurrency/finding-providers/zcash-proof-images/sylviaglade.com.png
 - name: Winter Leigh
   url: https://WinterLeigh.net/
   photo:
