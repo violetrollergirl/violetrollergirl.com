@@ -36,7 +36,7 @@ I use secure, private, exceptionally discreet one-time payment addresses for mos
 
 ### Unsupported payment methods
 
-**I do not accept** Apple Pay, Google Pay, Stripe, WePay, Wise, or Zelle, but you can use many if not all of these methods to [buy cryptocurrency]({% link resources/for-clients/using-cryptocurrency/index.md %}), and then send that.
+**I do not accept** Apple Pay, Google Pay, Revolut, Stripe, WePay, Wise, or Zelle, but you can use many if not all of these methods to [buy cryptocurrency]({% link resources/for-clients/using-cryptocurrency/index.md %}), and then send that.
 
 ### Paying with crypto in common apps
 
