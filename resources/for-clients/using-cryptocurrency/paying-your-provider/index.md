@@ -80,6 +80,7 @@ If you're sending from a cryptocurrency exchange, click the cryptocurrency excha
 [Bybit](https://www.bybit.com/en/help-center/article/How-to-Deposit-and-Withdraw-Tokens-using-Bybit-wallet#B){:.button target="_blank"}
 [Coinbase](https://help.coinbase.com/en/coinbase/trading-and-funding/cryptocurrency-trading-pairs/steps-to-send-crypto){:.button target="_blank"}
 [Crypto.com](https://help.crypto.com/en/articles/2500695-crypto-withdrawals-general-information#h_a36927c2d7){:.button target="_blank"}
+[Fidelity Crypto](https://www.fidelity.com/learning-center/trading-investing/how-to-transfer-bitcoin){:.button target="_blank"}
 [Gemini](https://support.gemini.com/hc/en-us/articles/115004710226-How-do-I-withdraw-crypto-from-my-Gemini-account){:.button target="_blank"}
 [Kraken](https://support.kraken.com/articles/360000672763-how-to-withdraw-cryptocurrencies-from-your-kraken-account){:.button target="_blank"}
 [Robinhood](https://robinhood.com/us/en/support/articles/send-receive-and-swap-crypto/#Sendcrypto){:.button target="_blank"}
