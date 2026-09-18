@@ -61,6 +61,7 @@ The *only* thing being listed here means is that they say they accept Zcash. To 
         <th>Name</th>
         <th>Photo</th>
         <th>URL</th>
+        <th>Home city</th>
         <th>Deposit methods</th>
         <th>Payment methods</th>
     </tr>
@@ -76,6 +77,9 @@ The *only* thing being listed here means is that they say they accept Zcash. To 
         </td>
         <td>
             <a href="{{ provider.url }}" target="_blank">{{ provider.url | replace: "https://", "" }}</a>
+        </td>
+        <td>
+            {{ provider.home_city }}
         </td>
         <td>
             <ul>
