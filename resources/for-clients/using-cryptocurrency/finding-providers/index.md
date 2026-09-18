@@ -53,14 +53,52 @@ The following is an alphabetized list of providers who advertise the fact that t
 
 The *only* thing being listed here means is that they say they accept Zcash. To find providers I personally work with, see my [friends and duos page]({% link friends/index.md %}).
 
-{% assign providers = site.data.providers | where_exp: "item", "item.deposit_methods.zcash.accepted == true" | sort: "name" %}
+{% assign providers = site.data.providers | where_exp: "item", "item.deposit_methods.ZEC.accepted == true" | sort: "name" %}
+<table id="table-providers-zec">
+<caption>Providers who accept Zcash (ZEC) deposits</caption>
+<thead>
+    <tr>
+        <th>Name</th>
+        <th>Photo</th>
+        <th>URL</th>
+        <th>Deposit methods</th>
+        <th>Payment methods</th>
+    </tr>
+</thead>
+<tbody>
 {% for provider in providers %}
-- [{{ provider.name }}]({{ provider.url }}){:target="_blank"} (Proof: [page]({{ provider.deposit_methods.zcash.proof_url }}){:target="_blank"}{% if provider.deposit_methods.zcash.proof_img %}, [screenshot]({{ provider.deposit_methods.zcash.proof_img | absolute_url }}){% endif %})
+    <tr>
+        <td>{{ provider.name }}</td>
+        <td>
+            {% if provider.photo %}
+            <img src="{{ provider.photo | relative_url }}" alt="Photo of {{ provider.name }}" loading="lazy" />
+            {% endif %}
+        </td>
+        <td>
+            <a href="{{ provider.url }}" target="_blank">{{ provider.url | replace: "https://", "" }}</a>
+        </td>
+        <td>
+            <ul>
+            {% for method in provider.deposit_methods %}
+            {% include provider-data-cell-item.html method=method %}
+            {% endfor %}
+            </ul>
+        </td>
+        <td>
+            <ul>
+            {% for method in provider.payment_methods %}
+            {% include provider-data-cell-item.html method=method %}
+            {% endfor %}
+            </ul>
+        </td>
+    </tr>
 {% endfor %}
+</tbody>
+</table>
 
 ### Are you a provider who takes Zcash?
 
-If you are a companion or creator who accepts Zcash, [get in touch with me directly]({% link contact/connection-methods/index.md %}) to let me know and ask to be added to this list.
+If you are a companion or creator who accepts Zcash, [get in touch with me directly]({% link contact/connection-methods/index.md %}) to let me know and ask to be added to this list. (If you'd like a more detailed listing, please plainly and clearly communicate those details to me, as well.)
 
 My inclusion criteria is lax:
 

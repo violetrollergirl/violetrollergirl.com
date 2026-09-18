@@ -605,4 +605,14 @@ the club in this nostalgia-filled Hollywood movie.
         console.groupEnd();
     });
 
+    document.addEventListener('DOMContentLoaded', function () {
+        // For options and instructions, see:
+        // https://DataTables.net
+        let table = new DataTable('#table-providers-zec', {
+            fixedHeader: true,
+            pageLength: 25,
+            scrollX: true
+        });
+    });
+
 })(jQuery);

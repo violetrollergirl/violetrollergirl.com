@@ -1,0 +1,19 @@
+{% comment %}
+Prints the contents of an individual list item.
+{% endcomment %}
+
+{% assign method = include.method %}
+
+{% assign key = method[0] %}
+{% assign data = method[1] %}
+{% if data.accepted %}
+<li>
+{{ key }}
+{% if data.proof_url %}
+<a href="{{ data.proof_url }}" title="Show proof page" target="_blank"><span class="icon fa-solid fa-receipt"></span></a>
+{% endif %}
+{% if data.proof_img %}
+<a href="{{ data.proof_img | relative_url }}" title="Show proof screenshot" target="_blank"><span class="icon fa-solid fa-image"></span></a>
+{% endif %}
+</li>
+{% endif %}
