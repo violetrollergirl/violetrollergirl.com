@@ -28,6 +28,8 @@ It's okay if you're not ready to commit to a longer or travel date with me. We c
 - <span class="fa-li fa-solid fa-video"></span> in [video dates]({% link rate/online/video-date/index.md %})
 - <span class="fa-li fa-solid fa-phone"></span> with a [curiosity call]({% link rate/online/curiosity-call/index.md %})
 
+### Travel minimums
+
 {% include availability-minimums.html %}
 
 Meanwhile, you can [subscribe to my newsletter]({% link contact/newsletter/index.md %}) or [subscribe to my travel calendar]({% include calendar-subscribe-google.url calendar_id=site.data.tours.gcal_id %}) in your Google Calendar. This way, you can get notifications of when I'll be in a new city.
