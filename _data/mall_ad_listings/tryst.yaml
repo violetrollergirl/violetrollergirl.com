@@ -67,23 +67,25 @@ profile_base_hourly_rate: 500
 
 # Policies
 profile_deposit_policy: |
-  Your non-refundable deposit holds your place on my calendar. A deposit for your first booking also entitles you to an optional, free curiosity call enjoyed a minimum of 48 hours before our scheduled date. See:
-    https://VioletRollergirl.com/faq/booking/what-is-a-deposit/
+  Your non-refundable deposit holds your place on my calendar.
 
-    I prefer cryptocurrency and accept many dozens of options, including Bitcoin (BTC), Ethereum (ETH), Zcash (ZEC), Monero (XMR), and more. Serious enquirers are always welcome to ask for more help with this.
+  A deposit for your first booking also entitles you to an optional, free curiosity call enjoyed a minimum of 48 hours before our scheduled date. See:
+  https://VioletRollergirl.com/faq/booking/what-is-a-deposit/
+
+  I prefer cryptocurrency and accept many dozens of options, including Bitcoin (BTC), Ethereum (ETH), Zcash (ZEC), Monero (XMR), and more. I truly enjoy teaching serious enquirers how to keep our financial relationship discreet!
 
   I can also accept major debit or credit cards or a rotating selection of gift cards, as described on my website:
-    https://VioletRollergirl.com/faq/booking/payment-methods/
+  https://VioletRollergirl.com/faq/booking/payment-methods/
 profile_cancellation_policy: |
-  You may always cancel or reschedule a date for any reason, no questions asked.
+  You may always reschedule a date for any reason.
 
-  Canceling on the same day as your date (i.e., with less than 24 hours notice), forfeits your deposit. If you cancel with notice, you can apply a portion of your deposit to another date in the near future. If you ghost, I will also consider this a cancellation.
+  If you provide notice, you may apply a portion of your deposit to another date in the near future. See my website for details. Failing to communicate with me forfeits your deposit, and I'll expect you to pay your outstanding balance before we resume our relationship.
 
   In the rare event I'm forced to cancel our date, I will offer to promptly return your full deposit to you and will make every effort to give us another opportunity to meet.
 
 # Availability
 profile_availability_text: |
-  Anticipation is foreplay, so please book in advance.
+  Anticipation is foreplay, so please book in advance. Being "🟢 Available Now" means I can receive your screening info and deposit if you send it now.
 
   My schedule usually accommodates dates 2 days to 2 weeks in advance. While rare, shorter-notice sessions can happen if you're able to…
 
