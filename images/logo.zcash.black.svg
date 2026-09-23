@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Layer_1"
+   data-name="Layer 1"
+   width="1080"
+   height="1080"
+   viewBox="0 0 1080 1080"
+   version="1.1"
+   sodipodi:docname="logo.zcash.black.svg"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.45"
+     inkscape:cx="520"
+     inkscape:cy="504.44444"
+     inkscape:window-width="1480"
+     inkscape:window-height="833"
+     inkscape:window-x="291"
+     inkscape:window-y="1240"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="Layer_1" />
+  <path
+     d="M 3.3333331,542.22222 C 3.3333331,245.03498 245.03498,3.3333331 542.22222,3.3333331 c 297.18724,0 538.88888,241.7016469 538.88888,538.8888869 0,297.18724 -241.70164,538.88888 -538.88888,538.88888 -297.18724,0 -538.8888869,-241.70164 -538.8888869,-538.88888 z M 734.44588,292.13786 v 82.01091 l -228.0897,309.36214 h 228.0897 V 792.28662 H 587.40905 v 90.13417 H 497.03539 V 792.28662 H 349.99855 v -82.0109 L 577.84877,400.91358 H 349.99855 V 292.13786 h 147.03684 v -90.37367 h 90.37366 v 90.37367 z"
+     style="fill-rule:evenodd;stroke-width:1.99588"
+     id="path1" />
+</svg>
