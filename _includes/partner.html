@@ -4,14 +4,14 @@ This template renders a single duo partner's (Microformat'ed) h-card.
 <article id="partner-{{ include.partner.name | slugify }}" class="partner h-card">
     <header>
         <h3>
-            <a href="{{ include.partner.urls[0].url }}" class="p-name u-url">{{ include.partner.name }}</a>
+            <a href="{{ include.partner.urls[0].url }}" class="p-name u-url" target="_blank">{{ include.partner.name }}</a>
         </h3>
         <h4>
             {{- include.partner.tagline -}}
         </h4>
     </header>
     {% if include.partner.photo %}
-    <a href="{{ include.partner.urls[0].url }}"><img class="p-photo"
+    <a href="{{ include.partner.urls[0].url }}" target="_blank"><img class="p-photo"
         src="{{ site.url }}{{ include.partner.photo | relative_url }}"
         alt="Profile photo of {{ include.partner.name }}"
         /></a>
@@ -22,7 +22,9 @@ This template renders a single duo partner's (Microformat'ed) h-card.
     <p class="button-container">
     {% for url in include.partner.urls %}
         <a href="{{ url.url }}" class="button"
-            title="{{ include.partner.name }}&rsquo;s {{ url.anchor_text }}">
+            title="{{ include.partner.name }}&rsquo;s {{ url.anchor_text }}"
+            target="_blank"
+        >
             <span class="fa-solid fa-{{ url.icon | default: "globe" }}"></span> {{ url.anchor_text | default: "Website" }}
         </a>
     {% endfor %}
