@@ -33,7 +33,7 @@ Many good escort mall ad sites allow you to search for providers by specific key
 
     {:.button-container}
     [Search Tryst for `crypto`](https://tryst.link/search?loc=%3AAnywhere&q=crypto){:.button target="_blank"}
-    [Search Tryst for `cryptocurrency`](https://tryst.link/search?loc=%3AAnywhere&q=crypto){:.button target="_blank"}
+    [Search Tryst for `cryptocurrency`](https://tryst.link/search?loc=%3AAnywhere&q=cryptocurrency){:.button target="_blank"}
 
 - Search for the currency symbol or full name of the cryptocurrency. For example:
 
