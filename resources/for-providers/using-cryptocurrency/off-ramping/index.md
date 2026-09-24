@@ -9,7 +9,7 @@ featured_image:
   url: images/gallery-originals/lounging-poolside-in-bikini.jpg
 prev: resources/for-providers/using-cryptocurrency/on-ramping/
 next: resources/for-providers/using-cryptocurrency/convincing-clients/
-last_modified: Thu Aug 27 17:15:47 EDT 2026
+last_modified: Wed Sep 23 20:10:53 EDT 2026
 ---
 
 # Off-ramping: where and how to spend your cryptocurrency
@@ -302,10 +302,13 @@ By [on-ramping directly in crypto]({% link resources/for-providers/using-cryptoc
 
 ### Apply for crypto-backed payment cards
 
-Here are cryptocurrency-backed payment cards that I am familiar with.
+Here are cryptocurrency-backed payment cards I'm familiar with.
 
-- [KAST Card (Visa)](https://www.kast.xyz/){:target="_blank"}
-- [MetaMask Card (MasterCard)](https://metamask.io/card){:target="_blank"}
+| Name | Network | <abbr title="Know Your Customer">KYC</abbr>? | Notes |
+| - | - | - | - |
+| [KAST Card (referral link)]({{ site.data.affiliates.kast }}){:target="_blank"} | Visa | Yes | Easiest, but not at all private. When signing up via referral link, Kast reveals your legal first name to your referrer. [Sign up here](https://kast.xyz/ "Sign up to KAST without using a referral link."){:target="_blank"} to avoid this. |
+| [MetaMask Card](https://metamask.io/card){:target="_blank"} | MasterCard | Yes | |
+| [Zebec](https://zebec.io/){:target="_blank"} | Visa | Lite | Can be relatively private/anonymous, but complex and confusing. |
 
 > N.B.: An earlier version of this guide recommended [Payy (referral link)]({{ site.data.affiliates.payy }}){:target="_blank"}. They have since discontinued their card program, and so I can no longer recommend them for this aspect of off-ramping. They are still a good place to privately transact in stablecoin balances, but only within Payy-to-Payy wallet transactions, severely limiting the case for their utility.
 
