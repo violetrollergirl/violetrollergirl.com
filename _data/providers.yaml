@@ -111,6 +111,7 @@
 - name: Heather Rioux
   url: https://HeatherRioux.bz
   photo:
+  home_city: Portland, OR, USA
   deposit_methods:
     ZEC:
       accepted: true
@@ -135,7 +136,7 @@
       proof_img: resources/for-clients/using-cryptocurrency/finding-providers/zcash-proof-images/tryst.link.escort.jade-skye.png
 - name: Maddy Foxglove
   url: https://campsite.bio/maddyfoxglove
-  home_city: San Francisco
+  home_city: San Francisco, CA, USA
   deposit_methods:
     ZEC:
       accepted: true
