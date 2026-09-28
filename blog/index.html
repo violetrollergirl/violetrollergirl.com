@@ -1,0 +1,42 @@
+---
+title: The Hacking Hooker
+description: >
+  Reflections on hacking and hooking, tradecraft and skincraft, by touring trans courtesan Violet Rollergirl.
+featured_image:
+  alt:
+  url: images/gallery-originals/rollergirl-1.jpg
+last_modified: Mon Sep 28 15:43:40 EDT 2026
+---
+
+<h1>The Hacking Hooker</h1>
+<p>{{ page.description }} The girl with the <a href="{% link _faq/about-me/qr-code.md %}">QR code</a> tattoo.</p>
+<h2>Recent posts (<a href="{% link blog/feed.xml %}" title="Subscribe to Atom (RSS) feed for blog posts"><span class="icon fa-solid fa-square-rss"></span> <acronym title="Really Simple Syndication">RSS</acronym> feed</a>)</h2>
+<ol>
+{% for post in paginator.posts %}
+<li><a href="{{ post.url }}">{{ post.title }}</a> (published on {{ post.date | date_to_long_string }}): {{ post.excerpt }}</li>
+{% endfor %}
+</ol>
+
+<div class="pagination">
+    <p class="page_number align-center">
+        Page {{ paginator.page }} of {{ paginator.total_pages }}
+    </p>
+    <p class="pagination button-container">
+        {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}" class="previous button">
+            &larr; Previous
+        </a>
+        {% endif %}
+        {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}" class="next button">
+            Next &rarr;
+        </a>
+        {% endif %}
+    </p>
+</div>
+
+<h2>Elsewhere</h2>
+<p>Other places you can find my writing.</p>
+<ul>
+    <li><a href="https://tryst.link/blog/author/violet-rollergirl" rel="me">Tryst.link Blog</a></li>
+</ul>

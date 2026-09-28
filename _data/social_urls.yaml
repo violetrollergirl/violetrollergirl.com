@@ -37,6 +37,13 @@
   description: >
     Places you can find, follow, or fap to me online.
   items:
+  - title: Blog
+    label: Blog
+    icon: blog
+    url: /blog/
+    description: >
+      Read my blog, "The Hacking Hooker."
+      Reflections on hacking and hooking, tradecraft and skincraft.
   - title: Bluesky
     label: Bluesky
     icon: bluesky

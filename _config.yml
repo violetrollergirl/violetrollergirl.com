@@ -133,16 +133,27 @@ collections:
     output: true
     permalink: /:collection/:path/
   posts:
-    permalink: /blog/:year/:month/:day/:title/
+    permalink: /blog/:year/:month/:title/
   testimonials:
     # Output via loop on `testimonials/index.md` for now.
 
+# Blog post pagination.
+paginate: 5
+paginate_path: /blog/page/:num/
+
+feed:
+  path: /blog/feed.xml
+
 plugins:
   - jekyll-redirect-from
+  - jekyll-paginate
+  - jekyll-feed
 
 # For Jekyll in Safe Mode.
 whitelist:
-    - jekyll-redirect-from
+  - jekyll-redirect-from
+  - jekyll-paginate
+  - jekyll-feed
 
 # Gallery.
 # Configure which exif data to display
