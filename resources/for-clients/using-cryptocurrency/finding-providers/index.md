@@ -8,7 +8,7 @@ featured_image:
   url: images/gallery-originals/bed-grinning-in-blue-lingerie.jpg
 prev: resources/for-clients/using-cryptocurrency/
 next: resources/for-clients/using-cryptocurrency/paying-your-provider/
-last_modified: Tue Aug 18 12:40:46 EDT 2026
+last_modified: Mon Sep 28 13:35:33 EDT 2026
 ---
 
 # {{ site.title }}'s guide to finding providers who accept cryptocurrency
@@ -99,6 +99,8 @@ The *only* thing being listed here means is that they say they accept Zcash. To 
 {% endfor %}
 </tbody>
 </table>
+
+Please [message me via Signal]({% link contact/link/signal-other/index.md %}) to inform me of any inaccuracies or to update a listing.
 
 ### Are you a provider who takes Zcash?
 
