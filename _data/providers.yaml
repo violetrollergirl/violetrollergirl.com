@@ -16,6 +16,15 @@
       accepted: true
     cash:
       accepted: true
+- name: Alex Harlowe
+  url: https://linktr.ee/alexharlowe
+  photo:
+  home_city: Seattle, WA, USA
+  deposit_methods:
+    ZEC:
+      accepted: true
+      proof_url: https://tryst.link/escort/alexsurfergirl#policies
+      proof_img: resources/for-clients/using-cryptocurrency/finding-providers/zcash-proof-images/tryst.link.escort.alexsurfergirl.png
 - name: Ava Lovelace
   url: https://bsky.app/profile/Comelydelights.bsky.social
   photo:
@@ -56,6 +65,14 @@
       accepted: true
       proof_url: https://BiancaStone.xyz/info
       proof_img: resources/for-clients/using-cryptocurrency/finding-providers/zcash-proof-images/biancastone.xyz.png
+- name: Christina Blair
+  url: https://MeetChristinaBlair.com
+  photo:
+  deposit_methods:
+    ZEC:
+      accepted: true
+      proof_url: https://MeetChristinaBlair.com/faq
+      proof_img: resources/for-clients/using-cryptocurrency/finding-providers/zcash-proof-images/meetchristinablair.com.png
 - name: Creator X
   url: https://bsky.app/profile/xcreatorx.bsky.social
   photo:
@@ -73,22 +90,6 @@
       accepted: true
       proof_url: https://DollAki.com/booking-1
       proof_img: resources/for-clients/using-cryptocurrency/finding-providers/zcash-proof-images/dollaki.com.png
-- name: Heather Rioux
-  url: https://HeatherRioux.bz
-  photo:
-  deposit_methods:
-    ZEC:
-      accepted: true
-      proof_url: https://HeatherRioux.bz/#gratuity
-      proof_img: resources/for-clients/using-cryptocurrency/finding-providers/zcash-proof-images/heatherrioux.bz.png
-- name: Christina Blair
-  url: https://MeetChristinaBlair.com
-  photo:
-  deposit_methods:
-    ZEC:
-      accepted: true
-      proof_url: https://MeetChristinaBlair.com/faq
-      proof_img: resources/for-clients/using-cryptocurrency/finding-providers/zcash-proof-images/meetchristinablair.com.png
 - name: Eve Vel
   url: https://EveVel.love
   photo:
@@ -107,6 +108,14 @@
       accepted: true
       proof_url: https://MeetEvieNYC.com/faq
       proof_img: resources/for-clients/using-cryptocurrency/finding-providers/zcash-proof-images/meetevienyc.com.png
+- name: Heather Rioux
+  url: https://HeatherRioux.bz
+  photo:
+  deposit_methods:
+    ZEC:
+      accepted: true
+      proof_url: https://HeatherRioux.bz/#gratuity
+      proof_img: resources/for-clients/using-cryptocurrency/finding-providers/zcash-proof-images/heatherrioux.bz.png
 - name: Imogen
   url: https://OnlyImogen.com
   photo:
@@ -124,6 +133,14 @@
       accepted: true
       proof_url: https://tryst.link/escort/jade-skye#policies
       proof_img: resources/for-clients/using-cryptocurrency/finding-providers/zcash-proof-images/tryst.link.escort.jade-skye.png
+- name: Maddy Foxglove
+  url: https://campsite.bio/maddyfoxglove
+  home_city: San Francisco
+  deposit_methods:
+    ZEC:
+      accepted: true
+      proof_url: https://tryst.link/escort/maddy-foxglove
+      proof_img: resources/for-clients/using-cryptocurrency/finding-providers/zcash-proof-images/tryst.link.escort.maddy-foxglove.png
 - name: Mystie Bliss
   url: https://tryst.link/escort/mystie-bliss
   home_city: Olympia, WA, USA
@@ -150,6 +167,15 @@
       accepted: true
       proof_url: https://SylviaGlade.com/rates/
       proof_img: resources/for-clients/using-cryptocurrency/finding-providers/zcash-proof-images/sylviaglade.com.png
+- name: Vanessa Rose
+  url: https://VanessaRoseNYC.com
+  photo:
+  home_city: New York, NY, USA
+  deposit_methods:
+    ZEC:
+      accepted: true
+      proof_url: https://VanessaRoseNYC.com
+      proof_img: resources/for-clients/using-cryptocurrency/finding-providers/zcash-proof-images/vanessarosenyc.com.png
 - name: Winter Leigh
   url: https://WinterLeigh.net
   photo:
