@@ -21,9 +21,12 @@ This template is inserted at the bottom of every page.
 <!-- jQuery libraries. -->
 <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 
+{% comment %}Load network-heavy assets only on the pages that require them.{% endcomment %}
+{% if page.conditionally_load and page.conditionally_load.datatables %}
 <!-- DataTables.net libraries. -->
 <script src="https://cdn.datatables.net/3.0.4/js/dataTables.js"></script>
 <script src="https://cdn.datatables.net/fixedheader/5.0.0/js/dataTables.fixedHeader.min.js"></script>
+{% endif %}
 
 <!-- Theme stuff. -->
 <script src="{% link assets/js/jquery.poptrox.js %}"></script>

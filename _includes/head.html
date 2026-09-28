@@ -37,8 +37,11 @@
 <!--
     Yes, baby, tell me how much you love my style. ;)
 -->
+{% comment %}Load network-heavy assets only on the pages that require them.{% endcomment %}
+{% if page.conditionally_load and page.conditionally_load.datatables %}
 <link rel="stylesheet" href="https://cdn.datatables.net/3.0.4/css/dataTables.dataTables.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/5.0.0/css/fixedHeader.dataTables.min.css" />
+{% endif %}
 <link rel="stylesheet" href="{% link assets/css/main.min.css %}"/>
 <link rel="stylesheet" href="{% link assets/css/cyberpunk.min.css %}" title="Cyberpunk Hentai Succubus" />
 <link rel="alternate stylesheet" href="{% link assets/css/sweet.min.css %}" title="Sweet Trans Kitten" />

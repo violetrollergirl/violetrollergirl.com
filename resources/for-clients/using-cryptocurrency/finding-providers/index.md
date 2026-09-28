@@ -9,6 +9,8 @@ featured_image:
 prev: resources/for-clients/using-cryptocurrency/
 next: resources/for-clients/using-cryptocurrency/paying-your-provider/
 last_modified: Mon Sep 28 13:35:33 EDT 2026
+conditionally_load:
+  datatables: true
 ---
 
 # {{ site.title }}'s guide to finding providers who accept cryptocurrency
