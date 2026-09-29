@@ -42,8 +42,8 @@
     icon: blog
     url: /blog/
     description: >
-      Read my blog, "The Hacking Hooker."
-      Reflections on hacking and hooking, tradecraft and skincraft.
+      Read my blog, *The Hacking Hooker*, for my long-form
+      reflections on hacking, hooking, tradecraft, and skincraft.
   - title: Bluesky
     label: Bluesky
     icon: bluesky

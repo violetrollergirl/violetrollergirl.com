@@ -5,7 +5,7 @@ layout: page
 <article id="post-content" class="h-entry">
     <header>
         <h1 class="p-name">{{ page.title }}</h1>
-        <p style="font-size: smaller; text-align: center;">Published by <span class="p-author">{{ page.author.name | default: site.author.name }}</span> on <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: site.now |  date_to_long_string }}</time>.</p>
+        <p style="font-size: smaller; text-align: center;">Published by <span class="p-author">{{ page.author.name | default: site.author.name }}</span> on <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: site.now |  date_to_string: "ordinal", "US" }}</time>.</p>
     </header>
 
     <div class="e-content">
