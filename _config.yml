@@ -92,6 +92,10 @@ defaults:
     values:
       position: top
   - scope:
+      path: "images/gallery/fulls/peaches-n-cream-bra-and-panties.jpg"
+    values:
+      position: bottom
+  - scope:
       type: posts
     values:
       author: *author
