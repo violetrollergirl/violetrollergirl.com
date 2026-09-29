@@ -8,7 +8,7 @@ next: resources/for-clients/messaging-discreetly/
 featured_image:
   alt:
   url: images/gallery-originals/jungle-princess.jpg
-last_modified: Wed May 20 23:12:38 EDT 2026
+last_modified: Tue Sep 29 04:33:00 EDT 2026
 ---
 
 # {{ site.title }}'s Guide to Booking an Escort Completely Secretly
@@ -158,9 +158,7 @@ This part is easy, and quite fun. Simply launch Tor Browser and use it like you 
 If you aren't familiar with any reputable sites for this purpose:
 
 - Consider starting at the [sites on which I maintain advertisements]({% link links-group/ad-listings/index.md %}).
-- Peruse two websites devoted to learning about the paid companionship industry from a client's point of view:
-    - [Good Client Guide](https://goodclientguide.com/){:target="_blank"}
-    - [The Satisfaction Project](https://www.satisfactionproject.com/){:target="_blank"}
+- Peruse the [Good Client Guide](https://goodclientguide.com/){:target="_blank"}, a website devoted to learning about the paid companionship industry.
 - I also provide some [links to general booking guides and etiquette resources]({% link resources/for-clients/booking-guide/index.md %}#for-general-booking-guides-and-etiquette) for clients unfamiliar with the typical booking process.
 
 By using Tor Browser, you ensure that neither your <abbr title="Internet Service Provider">ISP</abbr> nor the escort mall itself knows who you are, nor can they track you as you browse around the Web.
