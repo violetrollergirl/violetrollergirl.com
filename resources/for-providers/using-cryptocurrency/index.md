@@ -10,7 +10,7 @@ featured_image:
     Violet takes a mirror selfie of herself wearing a t-shirt with a
     cryptocurrency slogan, "Come and take it!"
   url: images/gallery-originals/come-and-take-it-t-shirt-in-all-black.jpg
-last_modified: Wed Aug 19 17:41:36 EDT 2026
+last_modified: Wed Sep 30 17:40:19 EDT 2026
 redirect_from:
   - /crypto
   - /crypto/
@@ -44,6 +44,10 @@ I hope these articles help you better understand why there are real benefits to 
 If you, like me, participate in any part of the economy that risks your ability to safely engage with traditional banking systems&mdash;even legal sex work like modeling on OnlyFans can get your bank account flagged or shut down&mdash;you might want to explore more independent financial options like those available with privacy-preserving cryptocurrencies.
 
 The following is a series of articles I've written in the hopes of helping you gradually move more and more of your financial life towards safe and private cryptocurrencies and away from (often discriminatory) traditional banking institutions and the implicit surveillance they subject you and all the people you transact with to.
+
+1. [{{ site.title }}'s cryptocurrency FAQ for providers]({% link resources/for-providers/using-cryptocurrency/faq/index.md %})
+
+    This page offers extremely succinct answers to the most common questions providers new to using cryptocurrency often ask me. It has links to the other articles, but if you find those overwhelming or just want an extremely basic overview, read this instead.
 
 1. [{{ site.title }}'s cryptocurrency primer for providers]({% link resources/for-providers/using-cryptocurrency/primer/index.md %})
 
