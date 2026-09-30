@@ -5,7 +5,7 @@ description: >
     cryptocurrency to pay your provider, companion, or favorite creator.
 prev: resources/for-clients/
 next: resources/for-clients/using-cryptocurrency/paying-your-provider/
-last_modified: Sat Jul 18 11:21:24 MDT 2026
+last_modified: Wed Sep 30 15:56:28 EDT 2026
 ---
 
 # {{ site.title }}'s guide to using cryptocurrency via CashApp
@@ -28,7 +28,7 @@ Since anyone with a ([verified](https://cash.app/help/gb/3122-verify-account){:t
 
 ## Sign up for CashApp
 
-If you don't already have a CashApp account, you can make one easily. Either type of CashApp account (Personal or Business) will work, but if you're making a new account, I suggest a Personal account because Business accounts require extra eligibility criteria. Click the button below to sign up for CashApp using your platform:
+If you don't already have a CashApp account, you can make one easily. Only a Personal CashApp account will work because CashApp limits its cryptocurrency features to verified personal accounts. Business accounts are ineligible for cryptocurrency features on CashApp. Click the button below to sign up for CashApp using your platform:
 
 {:.button-container}
 {% include link-as-button.md anchor_text="CashApp (iPhone)" url="https://apps.apple.com/us/app/cash-app/id711923939" target="_blank "%}
