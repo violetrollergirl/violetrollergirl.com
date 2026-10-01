@@ -27,9 +27,11 @@ I hear some questions from providers new to using cryptocurrency many times. Thi
 1. [Getting cryptocurrency](#getting-cryptocurrency)
     1. [How do I receive cryptocurrency when someone wants to send me some?](#how-do-i-receive-cryptocurrency-when-someone-wants-to-send-me-some)
     1. [Where should I buy cryptocurrency from?](#where-should-i-buy-cryptocurrency-from)
+    1. [How do I get a client to pay me in crypto?](#how-do-i-get-a-client-to-pay-me-in-crypto)
 1. [Making payments](#making-payments)
     1. [What can I spend cryptocurrency on?](#what-can-i-spend-cryptocurrency-on)
-    1. [What if the seller I want to buy from doesn't take crypto?](#what-if-the-seller-i-want-to-buy-from-doesnt-take-crypto)
+    1. [What if the seller doesn't accept Zcash?](#what-if-the-seller-doesnt-accept-zcash)
+    1. [What if the seller I want to buy from doesn't take any crypto?](#what-if-the-seller-i-want-to-buy-from-doesnt-take-any-crypto)
     1. [How do I pay for my ads with crypto?](#how-do-i-pay-for-my-ads-with-crypto)
 1. [Have a question not yet answered here?](#have-a-question-not-yet-answered-here)
 
@@ -57,7 +59,7 @@ This page, along with the rest of [my resource guides]({% link resources/for-pro
 
 ### What's this I hear about crypto being volatile?
 
-When people discuss the price of token or coin rising or falling quickly, they're talking about *volatility*.
+When people discuss the price of a token or coin rising or falling quickly, they're talking about *volatility*.
 
 All currencies, assets, kinds of property, and other valuables are at least somewhat volatile relative to one another. You can compare the price of the Euro against that of the US Dollar on any given day and find that their value in relation to one another change constantly. This is also true of cryptocurrencies.
 
@@ -83,7 +85,7 @@ The same is true with cryptocurrency. Most people will use a famous and well-kno
 
 I believe strongly in and often advocate for [Zcash](https://z.cash/) (ZEC) because it has all of the technical *and* financial characteristics that a good, safe currency needs. It also has some additional affordances that make it ideal for sex workers.
 
-On a technical level, Zcash is the cryptocurrency whose technical ecosystem most strongly protects individual privacy. When used with its flagship wallet app, Zodl, you can think of Zcash in Zodl the same as you might think of your chats in Signal Private Messenger. Private by default, easy to use, and increasingly widely adopted.
+On a technical level, Zcash is the cryptocurrency whose technical ecosystem most strongly protects individual privacy. When used with its flagship wallet app, Zodl, you can think of Zcash in Zodl the same as you might think of [your chats in Signal Private Messenger]({% link resources/for-providers/signal-for-sex-work/index.md %}). Private by default, easy to use, and increasingly widely adopted.
 
 I also regularly use other cryptocurrencies, but I do so cautiously, since *only* Zcash protects my privacy sufficiently to be safe to use for the purposes of sex work.
 
@@ -99,7 +101,7 @@ A wallet (app) makes it possible for you to use digital money. Without a wallet 
 
 Any app that lets you interact with cryptocurrency is also a wallet app. Unlike a physical wallet where you can stick any denomation of paper money into its pouch, a cryptocurrency wallet app must explicitly support the kind of cryptocurrency you want to use.
 
-Although every app that supports cryptocurrency calls itself a "wallet," most of the more familiar apps are actually tiny ATMs or bank teller windows on your phone, not true wallets. 
+Although every app that supports cryptocurrency calls itself a "wallet," most of the more mainstream apps are actually tiny ATMs or bank teller windows on your phone, not true wallets.
 
 Take CashApp, for example. If you have CashApp on your phone, what you've installed is the CashApp *ATM app*. Even though it calls itself a "wallet," in reality the money in your CashApp account is stored in CashApp's vaults, *not* on your phone the way it would be with a true *wallet* app.
 
@@ -126,13 +128,13 @@ Every wallet app has at least one "receive" or "deposit" button. If the wallet a
 - your wallet's address
 - the name of the network on which that address is reachable
 
-Simply share this address along with the name of the network the address is for with the person who wants to send you crypto.
+Simply share this address along with the name of the network the address is for with the person who wants to send you crypto. Read my complementary client guide, [Paying Your Provider]({% link resources/for-clients/using-cryptocurrency/paying-your-provider/index.md %}), to learn what it's like from the buyer's perspective.
 
-The address is like an account number (for a bank account or username, like a CashApp `$cashtag`). The crypto network, or "chain," is like a payment processor (like Visa, MasterCard, or Discover).
+The address is like an account number (for a bank account), or a username (like a CashApp `$cashtag`). The crypto network, or "chain," is like a payment processor (like Visa, MasterCard, or Discover).
 
 The person you shared your address with can now use this address to send you money directly. Read [receiving the same cryptocurrency being sent]({% link resources/for-providers/using-cryptocurrency/on-ramping/index.md%}#receiving-the-same-cryptocurrency-being-sent) for more.
 
-If the person sending you money does not already have the same kind of currency you are requesting, they will need to exchange what they do have for some of what you want to receive. Instead of making them do this, you can prepare a conversion like this on their behalf so that they can just send what they already have. This technique is called a [swap deposit]({% link resources/for-providers/using-cryptocurrency/on-ramping/index.md %}#getting-paid-in-zcash-when-your-client-or-customer-only-has-bitcoin).
+If the buyer does not already have the same kind of currency you are requesting, they will need to exchange what they do have for some of what you are expecting to receive from them. Instead of making them do this, you can prepare a conversion like this on their behalf so that they can just send what they already have. This technique is called a [swap deposit]({% link resources/for-providers/using-cryptocurrency/on-ramping/index.md %}#getting-paid-in-zcash-when-your-client-or-customer-only-has-bitcoin).
 
 ### Where should I buy cryptocurrency from?
 
@@ -144,17 +146,38 @@ You will find that there are restrictions on which exchanges will serve you base
 
 Once you buy some cryptocurrency, the most important thing to do is to send it out of the exchange and into a true wallet app, such as Zodl or Cake Wallet. This process, in which non-crypto currency is exchanged for cryptocurrency, is also called "[on-ramping]({% link resources/for-providers/using-cryptocurrency/on-ramping/index.md %})."
 
+### How do I get a client to pay me in crypto?
+
+If your client is already familiar with crypto, just ask them to pay that way. Many clients simply never think to pay you in crypto because they assume *you* don't know anything about it, even though *they* do.
+
+Consider also that it's easier to start getting paid in crypto if you advertise that you accept crypto deposits and/or payments (you attract what you project), so make it easy for those clients to find you. I maintain lists of [providers who publicize their acceptance of crypto]({% link resources/for-clients/using-cryptocurrency/finding-providers/index.md %}) deposits on my site and on [my Bluesky](https://bsky.app/starter-pack/violetrollergirl.com/3lyxjq2ah7w2m){:target="_blank"}. Feel free to ask to be added, but be sure to read my lax [inclusion criteria]({% link resources/for-clients/using-cryptocurrency/finding-providers/index.md %}#are-you-a-provider-who-takes-zcash)!
+
+If you need to convince a client to pay you in crypto for the first time, you'll have to do more. Here are some suggestions to make it easier for those clients to at least try:
+
+- Avoid mentioning crypto altogether. Use [the CashApp USDC &rarr; swap deposit]({% link resources/for-clients/using-cryptocurrency/cashapp/index.md %}#send-usdc-from-cashapp) method if you can, and treat your deposit address like a one-time use CashApp `$cashtag`. (This is the easiest way for most clients to pay in crypto.)
+- Write a short page on your site with step-by-step instructions that you can link to, like [Bianca Stone's excellent crypto explainer](https://www.biancastone.xyz/crypto){:target="_blank"}.
+- Highlight the benefits in terms of increased discretion (privacy), lower costs (transaction/processing fees), and cross-app interoperability (the client can use any app they want even if you were banned from that same app).
+- Fallback to gift cards from sites like [Bitrefill (referral link)]({{ site.data.affiliates.bitrefill }}){:target="_blank"} to offer an alternative that nevertheless exposes them to crypto's massive and growing ecosystem, one step at a time.
+
+Read [convincing clients to pay in crypto]({% link resources/for-providers/using-cryptocurrency/convincing-clients/index.md %}) for more of my advice.
+
 ## Making payments
 
 Spending cryptocurrency by exchanging it for goods, services, or other non-crypto currency is also called "[off-ramping]({% link resources/for-providers/using-cryptocurrency/off-ramping/index.md %})."
 
 ### What can I spend cryptocurrency on?
 
-Theoretically, anything. In practice, to spend cryptocurrency directly you must find a vendor or merchant who accepts the cryptocurrency you have as a form of payment.
+Theoretically, anything. In practice, to spend cryptocurrency directly you must find a vendor or merchant who accepts the cryptocurrency you have as a form of payment. Good news: there are more of them than you may think!
 
-Some apps, like Zodl, can act like a global cryptocurrency debit card because they provide easy ways for you to instantly convert the currency you have in them to many other kinds of currency on the fly.
+For example, [Travala (referral link)]({{ site.data.affiliates.travala }}) offers hotel and airline bookings payable directly in crypto. Read [use crypto-native service providers]({% link resources/for-providers/using-cryptocurrency/off-ramping/index.md %}#use-crypto-native-service-providers) for more.
 
-### What if the seller I want to buy from doesn't take crypto?
+### What if the seller doesn't accept Zcash?
+
+As with any purchase, you must offer the seller payment in a form they will accept.
+
+Some apps, like Zodl, can act like a global cryptocurrency debit card because they provide easy ways for you to instantly convert the currency you have in them to many other kinds of currency on the fly. This [Zodl wallet app feature is called Crosspay](https://support.zodl.com/article/24-using-crosspay-to-spend-zec){:target="_blank"}.
+
+### What if the seller I want to buy from doesn't take any crypto?
 
 If the vendor or merchant you want to buy from doesn't accept cryptocurrency at all, you may have to first buy a gift card or load up a cryptocurrency-backed traditional payment card, such as a prepaid Visa or MasterCard. These options can be extremely convenient *and* extremely private, but they are always at least one more step than simply paying directly in crypto.
 
