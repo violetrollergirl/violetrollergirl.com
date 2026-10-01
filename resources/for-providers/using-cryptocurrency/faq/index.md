@@ -22,7 +22,7 @@ I hear some questions from providers new to using cryptocurrency many times. Thi
     1. [Why are there so many cryptocurrencies?](#why-are-there-so-many-cryptocurrencies)
     1. [Which currency do you use?](#which-currency-do-you-use)
 1. [Motivations](#motivations)
-    1. [I work in person, so do I really need electronic money at all?](#i-work-in-person-so-do-i-really-need-money-at-all)
+    1. [I work in person, so do I really need electronic money at all?](#i-work-in-person-so-do-i-really-need-electronic-money-at-all)
     1. [Can I really put an end to chargebacks if I use crypto?](#can-i-really-put-an-end-to-chargebacks-if-i-use-crypto)
     1. [I don't really need to keep my finances private, do I?](#i-dont-really-need-to-keep-my-finances-private-do-i)
 1. [Apps (wallets)](#apps-wallets)
@@ -103,7 +103,7 @@ Alternatively titled, "why would I want to use cryptocurrency when cash works ju
 
 I also do the majority of my sex work in person, but I still found cryptocurrency useful for various parts of my business.
 
-- Accepting [deposits]({% link _faq/booking/what-is-a-deposit.md %}) without needing to do cash meets. In fact, this was the forcing function that [finally made me take cryptocurrency seriously]({% link _posts/2029-09-28-genesis-block.md %}).
+- Accepting [deposits]({% link _faq/booking/what-is-a-deposit.md %}) without needing to do cash meets. In fact, this was the forcing function that [finally made me take cryptocurrency seriously]({% post_url 2026-09-28-genesis-block %}).
 - Accepting [tips and donations]({% link links/zcash/index.md %}) from anonymous admirers in untracable ways.
 - Offering clients [superior payment discretion]({% link resources/for-clients/discretion-maxxing/index.md %}) when they are nervous about line items on financial statements or receipts.
 - Making in-session extensions easy, [avoiding the need for an ATM visit](https://bsky.app/profile/violetrollergirl.com/post/3mlmshuqtqk2c){:target="_blank"} for guys who didn't bring enough cash.
