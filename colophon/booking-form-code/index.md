@@ -128,3 +128,4 @@ The following are contact methods that my script supports out-of-the-box:
 Here are other providers whose booking forms implemented this same technique:
 
 - [Domina Darja](https://www.dominadarja.com/contact){:target="_blank"}
+- [Juliet Jae](https://julietjae.ch/inquire/){:target="_blank"}

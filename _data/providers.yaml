@@ -134,6 +134,20 @@
       accepted: true
       proof_url: https://tryst.link/escort/jade-skye#policies
       proof_img: resources/for-clients/using-cryptocurrency/finding-providers/zcash-proof-images/tryst.link.escort.jade-skye.png
+- name: Juliet Jae
+  url: https://JulietJae.ch
+  photo:
+  home_city: New York, NY, USA
+  deposit_methods:
+    ZEC:
+      accepted: true
+      proof_url: https://JulietJae.ch/inquire/
+      proof_img: resources/for-clients/using-cryptocurrency/finding-providers/zcash-proof-images/julietjae.ch.png
+  payment_methods:
+    cash:
+      accepted: true
+    ZEC:
+      accepted: false
 - name: Maddy Foxglove
   url: https://campsite.bio/maddyfoxglove
   home_city: San Francisco, CA, USA
