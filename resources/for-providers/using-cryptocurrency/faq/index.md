@@ -20,7 +20,6 @@ I hear some questions from providers new to using cryptocurrency many times. Thi
     1. [Why do I need a wallet?](#why-do-i-need-a-wallet)
     1. [Which wallet should I use?](#which-wallet-should-i-use)
 1. [Getting cryptocurrency](#getting-cryptocurrency)
-    1. [How do I get cryptocurrency?](#how-do-i-get-cryptocurrency)
     1. [How do I receive cryptocurrency when someone wants to send me some?](#how-do-i-receive-cryptocurrency-when-someone-wants-to-send-me-some)
     1. [Where should I buy cryptocurrency from?](#where-should-i-buy-cryptocurrency-from)
 1. [Making payments](#making-payments)
@@ -31,7 +30,7 @@ I hear some questions from providers new to using cryptocurrency many times. Thi
 
 ### Why do I need a wallet?
 
-A wallet makes it possible for you to use digital money. Without a wallet app installed on one of your personal devices, you cannot receive or send cryptocurrency.
+A wallet (app) makes it possible for you to use digital money. Without a wallet app installed on one of your personal devices, you cannot receive or send cryptocurrency.
 
 Any app that lets you interact with cryptocurrency is also a wallet app. Unlike a physical wallet where you can stick any denomation of paper money into its pouch, a cryptocurrency wallet app must explicitly support the kind of cryptocurrency you want to use.
 
@@ -48,8 +47,6 @@ At a minimum, you should install [Zodl](https://zodl.com/){:target="_blank"}. Yo
 Read [cryptocurrency wallet apps for sex workers]({% link resources/for-providers/using-cryptocurrency/wallet-apps/index.md %}) to learn why.
 
 ## Getting cryptocurrency
-
-### How do I get cryptocurrency?
 
 There are only three ways to get cryptocurrency:
 
