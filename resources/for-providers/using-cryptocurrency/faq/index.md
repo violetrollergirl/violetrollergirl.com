@@ -7,7 +7,7 @@ featured_image:
   alt:
   url: images/gallery-originals/polkadot-outfit-over-a-railing.jpg
 next: resources/for-providers/using-cryptocurrency/primer/
-last_modified: Wed Sep 30 16:35:14 EDT 2026
+last_modified: Thu Oct  1 15:22:35 EDT 2026
 ---
 
 # {{ site.title }}'s cryptocurrency FAQ for providers
@@ -111,7 +111,7 @@ I also do the majority of my sex work in person, but I still found cryptocurrenc
 - Accepting payments or gifts from international senders.
 - Actually spending my money even at businesses that don't accept cash.
 
-You can absolutely use cryptocurrency for a part, but not all, of your business process. Many people start by using cryptocurrency to receive deposits, but then require the rest of a consideration be paid in cash. How you run your business is up to you. Crypto is just another tool for your toolbox.
+You don't need to use cryptocurrency for every part of your business, although you certainly can. Many people start by using cryptocurrency to receive deposits, but then require the rest of a consideration be paid in cash. How you run your business is up to you. Crypto is just another tool for your toolbox.
 
 Meanwhile, for online creators or e-commerce vendors, artists, and anyone else who wants to accept money without needing a payment processor's or a government's permission to do so, cryptocurrency is de rigueur.
 
@@ -119,7 +119,7 @@ Meanwhile, for online creators or e-commerce vendors, artists, and anyone else w
 
 As cryptocurrency is a push-only financial system (i.e., buyers must pro-actively *give* funds to sellers, instead of sellers being allowed to *take* funds out of a buyer's accounts), chargebacks are not technically possible for a buyer to initiate against a seller. Any and all refunds must be proactively confirmed by the seller before funds can be returned to a disgruntled or regretful buyer.
 
-So, yes. However, you must beaware of these two important caveats:
+So, yes. However, you must be aware of these two important caveats:
 
 - you must use a *true* cryptocurrency, such as Bitcoin or Zcash, not a "stablecoin" such as USDC or USDT.
 - you must use a self-custodial wallet app like Zodl or Cake Wallet, not a mainstream exchange platform such as Coinbase or CashApp.
@@ -132,7 +132,7 @@ I think you do. Consider:
 
 - [FinCEN, the Financial Crimes Enforcement Network](https://en.wikipedia.org/wiki/Financial_Crimes_Enforcement_Network){:target="_blank"}, is a US government agency that offers over 25,000 federal, state, and local agencies including police departments warrantless search capabilities for every single electronic financial transaction ever made. There is no digital purchase you can ever make with your bank, wire,  payment card, or payment app (like PayPal or Venmo) that is not seen by this agency. Read [my guest post at the Ludlow Institute's media arm, NBTV](https://nbtv.substack.com/p/how-to-actually-spend-crypto-in-real){:target="_blank"}, to learn more.
 - The [Department of Homeland Security has a secretive "predictive policing" unit](https://www.npr.org/2026/09/16/nx-s1-5968736/a-look-at-the-secretive-unit-inside-department-of-homeland-security){:target="_blank"} that uses financial transactions as pretexts for making arrests.
-- According to the [latest Free Speech Coalition report on Financial Discrimination](https://www.freespeechcoalition.com/banks){:target="_blank"}, Nearly 2 out of 3 adult industry workers (63%) have experienced financial discrimination. For almost half of these workers, 40%, have had a bank account closed, an experience we call *debanking*. This notably includes legal adult industry workers, such as OnlyFans models.
+- According to the [latest Free Speech Coalition report on Financial Discrimination](https://www.freespeechcoalition.com/banks){:target="_blank"}, nearly 2 out of 3 adult industry workers (63%) have experienced financial discrimination. For almost half of these workers, 40%, have had a bank account closed, an experience we call *debanking*. This notably includes legal adult industry workers, such as OnlyFans models.
 - Anecdotally, I can tell you that the two most common ways fellow sex workers hear about me and [my consulting services]({% link consulting/for-providers/cybersecurity/index.md %}) is:
     - after their CashApp or other financial services app bans them.
     - after a client begins stalking them when a traditional electronic financial transaction leaks their civilian identity to said client.
@@ -188,11 +188,11 @@ If the buyer does not already have the same kind of currency you are requesting,
 
 It doesn't really matter.
 
-If you're buying crypto from an online service, anywhere you can buy crypto is largely the same as anywhere else you can buy crypto. All of the places you can buy cryptocurrency are called exchanges, because they exchange one kind of currency (like US Dollars) with another (like Bitcoin or Zcash).
+If you're buying crypto from an online service, anywhere you can buy crypto is largely the same as anywhere else you can buy crypto. All of the places you can buy cryptocurrency are called exchanges, because they exchange one kind of currency (like US Dollars) with another (like Bitcoin or Zcash). This process, in which non-crypto currency is exchanged for cryptocurrency, is also called "[on-ramping]({% link resources/for-providers/using-cryptocurrency/on-ramping/index.md %})."
 
 You will find that there are restrictions on which exchanges will serve you based on things like where you live, what accounts you have already had blocked, banned, or suspended (if any), your citizenship status, and more. I maintain [a list of cryptocurrency exchanges]({% link resources/for-clients/using-cryptocurrency/paying-your-provider/index.md %}#from-cryptocurrency-exchanges) where I suggest clients buy cryptocurrency, and you can safely use the same exchanges so long as you use an account associated with your civilian identity and keep a strict separation between it and any sex work use for those funds.
 
-Once you buy some cryptocurrency, the most important thing to do is to send it out of the exchange and into a true wallet app, such as Zodl or Cake Wallet. This process, in which non-crypto currency is exchanged for cryptocurrency, is also called "[on-ramping]({% link resources/for-providers/using-cryptocurrency/on-ramping/index.md %})."
+Once you buy some cryptocurrency, the most important thing to do is to send it out of the exchange and into a true wallet app, such as Zodl or Cake Wallet.
 
 ### How do I get a client to pay me in crypto?
 
