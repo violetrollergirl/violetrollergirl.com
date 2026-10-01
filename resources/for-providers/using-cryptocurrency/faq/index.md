@@ -16,6 +16,10 @@ I hear some questions from providers new to using cryptocurrency many times. Thi
 
 ## On this page
 
+1. [What is cryptocurrency?](#what-is-cryptocurrency)
+    1. [Isn't cryptocurrency a scam?](#isnt-cryptocurrency-a-scam)
+    1. [Why are there so many cryptocurrencies?](#why-are-there-so-many-cryptocurrencies)
+    1. [Which currency do you use?](#which-currency-do-you-use)
 1. [Apps (wallets)](#apps-wallets)
     1. [Why do I need a wallet?](#why-do-i-need-a-wallet)
     1. [Which wallet should I use?](#which-wallet-should-i-use)
@@ -23,10 +27,53 @@ I hear some questions from providers new to using cryptocurrency many times. Thi
     1. [How do I receive cryptocurrency when someone wants to send me some?](#how-do-i-receive-cryptocurrency-when-someone-wants-to-send-me-some)
     1. [Where should I buy cryptocurrency from?](#where-should-i-buy-cryptocurrency-from)
 1. [Making payments](#making-payments)
+    1. [What can I spend cryptocurrency on?](#what-can-i-spend-cryptocurrency-on)
     1. [How do I pay for my ads with crypto?](#how-do-i-pay-for-my-ads-with-crypto)
 1. [Have a question not yet answered here?](#have-a-question-not-yet-answered-here)
 
+## What is cryptocurrency?
+
+Cryptocurrency is electronic cash; cryptographic currency. Cryptography is a discipline that applies the rules of mathematics onto information, and cryptocurrency applies cryptography to systems of money.
+
+This means anything you can do with money can be done with cryptocurrency, no more and no less.
+
+If you are already familiar with the way physical cash works, then you know enough to start using cryptocurrency as you would physical cash. Likewise, if you already know how bank accounts work, then you know enough about cryptocurrency to start using it the way you might use a bank.
+
+As a sex worker, you probably have a healthy skepticism about the motivations of banks and other institutions that hold on to your money for you. Perhaps this is why you currently prefer dealing with physical cash.
+
+Using cryptocurrency correctly gives you the benefits, conveniences, and rewards of electronic transactions while *also* keeping the safety, privacy, and financial protections of physical cash. That is why it is such a power-up to get good with it if you are a worker in this industry.
+
+Cryptocurrency is rare in that it can literally be the best of both physical and electronic finance.
+
+### Isn't cryptocurrency a scam?
+
+No. Cryptocurrency is cryptography applied to money. Therefore, cryptocurrency is no more a scam than any other form of currency is. (Isn't all money kind of a mass delusion, anyway?)
+
+Certainly, fraud is plentiful, including in financial realms that have nothing to do with cryptocurrency. You can and probably will encounter many different scammers attempting to defraud you out of your valuables, whether that be your money, time, or extortable information. That does not make *cryptocurrency* itself a scam.
+
+This page, and the rest of [my guides]({% link resources/for-providers/index.md %}), are an attempt to ensure you know enough about cryptocurrency to avoid scams and to constrain yourself to the cryptocurrency technologies, apps, and services that are reputable and secure.
+
+### Why are there so many cryptocurrencies?
+
+For the same reason there are so many non-crypto currencies: people have different beliefs and alleigences.
+
+In practice, most people simply use two currencies, though: a local one, and an international denominator. The local one may be something like an Argentinian Peso, a Rupee, or a Yen. The international denominator is more formally known as a "world reserve currency," which is a more "powerful" currency, such as the US Dollar or the Euro.
+
+The same is true with cryptocurrency. Most people will use a famous and well-known one, such as Bitcoin (BTC) or Ethereum (ETH).
+
+### Which currency do you use?
+
+I believe strongly in and often advocate for [Zcash](https://z.cash/) (ZEC) because it has all of the technical *and* financial characteristics that a good, safe currency needs. It also has some additional affordances that make it ideal for sex workers.
+
+On a technical level, Zcash is the cryptocurrency whose technical ecosystem most strongly protects individual privacy. When used with its flagship wallet app, Zodl, you can think of Zcash in Zodl the same as you might think of your chats in Signal Private Messenger. Private by default, easy to use, and increasingly widely adopted.
+
+I also regularly use other cryptocurrencies, but I do so cautiously, since *only* Zcash protects my privacy sufficiently to be safe to use for the purposes of sex work.
+
+Read [two kinds of cryptocurrencies (private and not private)]({% link resources/for-providers/using-cryptocurrency/primer/index.md %}#two-kinds-of-cryptocurrencies-private-and-not-private) to learn more.
+
 ## Apps (wallets)
+
+Cryptocurrency is not physical, but digital. This means you need a digital tool in order to handle it.
 
 ### Why do I need a wallet?
 
@@ -36,9 +83,9 @@ Any app that lets you interact with cryptocurrency is also a wallet app. Unlike 
 
 Although every app that supports cryptocurrency calls itself a "wallet," most of the more familiar apps are actually tiny ATMs or bank teller windows on your phone, not true wallets. 
 
-If you have a personal CashApp account and have CashApp installed on your phone, then you have really installed the CashApp ATM app on your phone, even though it calls itself a wallet, because in reality the money in your CashApp account is stored in CashApp's vaults, not on your phone the way it would be with a true wallet app.
+Take CashApp, for example. If you have CashApp on your phone, what you've installed is the CashApp *ATM app*. Even though it calls itself a "wallet," in reality the money in your CashApp account is stored in CashApp's vaults, *not* on your phone the way it would be with a true *wallet* app.
 
-Read [cryptocurrency primer for sex workers]({% link resources/for-providers/using-cryptocurrency/primer/index.md %}) to learn more.
+Read [self-custody or bust]({% link resources/for-providers/using-cryptocurrency/primer/index.md %}#self-custody-or-bust) to learn more.
 
 ### Which wallet should I use?
 
@@ -75,11 +122,23 @@ It doesn't really matter.
 
 If you're buying crypto from an online service, anywhere you can buy crypto is largely the same as anywhere else you can buy crypto. All of the places you can buy cryptocurrency are called exchanges, because they exchange one kind of currency (like US Dollars) with another (like Bitcoin or Zcash).
 
-You will find that there are restrictions based on where you live, what accounts you have already had blocked, banned, or suspended (if any), and more. I maintain [a list of cryptocurrency exchanges]({% link resources/for-clients/using-cryptocurrency/paying-your-provider/index.md %}#from-cryptocurrency-exchanges) where I suggest clients buy cryptocurrency, and you can safely use the same exchanges so long as you use an account associated with your civilian identity and keep a strict separation between it and any sex work use for those funds.
+You will find that there are restrictions on which exchanges will serve you based on things like where you live, what accounts you have already had blocked, banned, or suspended (if any), your citizenship status, and more. I maintain [a list of cryptocurrency exchanges]({% link resources/for-clients/using-cryptocurrency/paying-your-provider/index.md %}#from-cryptocurrency-exchanges) where I suggest clients buy cryptocurrency, and you can safely use the same exchanges so long as you use an account associated with your civilian identity and keep a strict separation between it and any sex work use for those funds.
 
-Once you buy some cryptocurrency, the most important thing to do is to send it out of the exchange and into a true wallet app, such as Zodl or Cake Wallet.
+Once you buy some cryptocurrency, the most important thing to do is to send it out of the exchange and into a true wallet app, such as Zodl or Cake Wallet. This process, in which non-crypto currency is exchanged for cryptocurrency, is also also called "[on-ramping]({% link resources/for-providers/using-cryptocurrency/on-ramping/index.md %})."
 
 ## Making payments
+
+Spending cryptocurrency by exchanging it for goods, services, or other non-crypto currency is also called "[off-ramping]({% link resources/for-providers/using-cryptocurrency/off-ramping/index.md %})."
+
+### What can I spend cryptocurrency on?
+
+Theoretically, anything. In practice, to spend cryptocurrency directly you must find a vendor or merchant who accepts the cryptocurrency you have as a form of payment.
+
+Some apps, like Zodl, can act like a global cryptocurrency debit card because they provide easy ways for you to instantly convert the currency you have in them to many other kinds of currency on the fly.
+
+If the vendor or merchant you want to buy from doesn't accept cryptocurrency at all, you may have to first buy a gift card or load up a cryptocurrency-backed traditional payment card, such as a prepaid Visa or MasterCard. These options can be extremely convenient *and* extremely private, but they are always at least one more step than simply paying directly in crypto.
+
+Have a peek at [Bitrefill (referral link)]({{ site.data.afilliates.bitrefill }}){:target="_blank"} to see the many thousands upon thousands of brands of gift cards that you can buy directly with cryptocurrency. Similarly, have a look at the [crypto-backed debit cards]({% link resources/for-providers/using-cryptocurrency/off-ramping/index.md %}#fund-a-traditional-payment-card-using-cryptocurrency) I'm familiar with if you'd like to use cryptocurrency in tap-to-pay transactions at retail stores or e-commerce stores that don't (yet) accept crypto directly.
 
 ### How do I pay for my ads with crypto?
 
