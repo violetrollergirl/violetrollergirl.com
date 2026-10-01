@@ -75,7 +75,7 @@ Three good ways to avoid wild price volatility are:
 
 - Spend what you earn as soon as you earn it.
 - Exchange the more volatile currency for a different one currently experiencing a slower rate of change in its price.
-- Keep your money in a so-called "stable" currency, which simply means a currency whose monetary policy pegs its value to the value of something else you care about, such as the US Dollar (like the USDC or USDT cryptocurrencies), or the price of gold metals (like the PAX cryptocurrency), although this comes with numerous other risks.
+- Keep your money in a so-called "stable" currency, which simply means a currency whose monetary policy pegs its value to the value of something else you care about, such as the US Dollar (like the USDC or USDT cryptocurrencies), or the price of gold metals (like the PAXG cryptocurrency), although this comes with numerous other risks.
 
 ### Why are there so many cryptocurrencies?
 
