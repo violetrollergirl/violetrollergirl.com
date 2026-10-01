@@ -32,6 +32,7 @@ I hear some questions from providers new to using cryptocurrency many times. Thi
     1. [How do I receive cryptocurrency when someone wants to send me some?](#how-do-i-receive-cryptocurrency-when-someone-wants-to-send-me-some)
     1. [Where should I buy cryptocurrency from?](#where-should-i-buy-cryptocurrency-from)
     1. [How do I get a client to pay me in crypto?](#how-do-i-get-a-client-to-pay-me-in-crypto)
+    1. [Can I accept crypto payments for my online content?](#can-i-accept-crypto-payments-for-my-online-content)
 1. [Making payments](#making-payments)
     1. [What can I spend cryptocurrency on?](#what-can-i-spend-cryptocurrency-on)
     1. [What if the seller doesn't accept Zcash?](#what-if-the-seller-doesnt-accept-zcash)
@@ -208,6 +209,13 @@ If you need to convince a client to pay you in crypto for the first time, you'll
 - Fallback to gift cards from sites like [Bitrefill (referral link)]({{ site.data.affiliates.bitrefill }}){:target="_blank"} to offer an alternative that nevertheless exposes them to crypto's massive and growing ecosystem, one step at a time.
 
 Read [convincing clients to pay in crypto]({% link resources/for-providers/using-cryptocurrency/convincing-clients/index.md %}) for more of my advice.
+
+### Can I accept crypto payments for my online content?
+
+Yes. There are two ways to do this. Which one you should use depends on how you make the sale.
+
+- If you are selling *interactively*, i.e., you are [communicating with your buyer in real time]({% link resources/for-providers/signal-for-sex-work/index.md %}#using-signal-to-share-photos-and-media) such as via text, voice, or video chat, simply use your existing wallet app the same way you would to [receive any other person-to-person payment](#how-do-i-receive-cryptocurrency-when-someone-wants-to-send-me-some).
+- If you are selling *non-interactively*, i.e., you have published a web store with products in a catalog such as with Shopify or WordPress WooCommerce and want or need your website to handle the checkout process for you, you'll need to use cryptocurrency payment processors such as [BTCPayServer](https://btcpayserver.org/){:target="_blank"} or [CipherPay.app](https://cipherpay.app){:target="_blank"}.
 
 ## Making payments
 
