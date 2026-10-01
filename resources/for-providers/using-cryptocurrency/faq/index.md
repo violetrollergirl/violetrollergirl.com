@@ -18,6 +18,7 @@ I hear some questions from providers new to using cryptocurrency many times. Thi
 
 1. [What is cryptocurrency?](#what-is-cryptocurrency)
     1. [Isn't cryptocurrency a scam?](#isnt-cryptocurrency-a-scam)
+    1. [What's this I hear about crypto being volatile?](#whats-this-i-hear-about-crypto-being-volatile)
     1. [Why are there so many cryptocurrencies?](#why-are-there-so-many-cryptocurrencies)
     1. [Which currency do you use?](#which-currency-do-you-use)
 1. [Apps (wallets)](#apps-wallets)
@@ -28,6 +29,7 @@ I hear some questions from providers new to using cryptocurrency many times. Thi
     1. [Where should I buy cryptocurrency from?](#where-should-i-buy-cryptocurrency-from)
 1. [Making payments](#making-payments)
     1. [What can I spend cryptocurrency on?](#what-can-i-spend-cryptocurrency-on)
+    1. [What if the seller I want to buy from doesn't take crypto?](#what-if-the-seller-i-want-to-buy-from-doesnt-take-crypto)
     1. [How do I pay for my ads with crypto?](#how-do-i-pay-for-my-ads-with-crypto)
 1. [Have a question not yet answered here?](#have-a-question-not-yet-answered-here)
 
@@ -51,7 +53,23 @@ No. Cryptocurrency is cryptography applied to money. Therefore, cryptocurrency i
 
 Certainly, fraud is plentiful, including in financial realms that have nothing to do with cryptocurrency. You can and probably will encounter many different scammers attempting to defraud you out of your valuables, whether that be your money, time, or extortable information. That does not make *cryptocurrency* itself a scam.
 
-This page, and the rest of [my guides]({% link resources/for-providers/index.md %}), are an attempt to ensure you know enough about cryptocurrency to avoid scams and to constrain yourself to the cryptocurrency technologies, apps, and services that are reputable and secure.
+This page, along with the rest of [my resource guides]({% link resources/for-providers/index.md %}), is my attempt to ensure you know enough about cryptocurrency to avoid scams and to constrain yourself to the cryptocurrency technologies, apps, and services that are reputable and secure.
+
+### What's this I hear about crypto being volatile?
+
+When people discuss the price of token or coin rising or falling quickly, they're talking about *volatility*.
+
+All currencies, assets, kinds of property, and other valuables are at least somewhat volatile relative to one another. You can compare the price of the Euro against that of the US Dollar on any given day and find that their value in relation to one another change constantly. This is also true of cryptocurrencies.
+
+There are times when the value of a certain currency (crypto or otherwise) may change very fast. This happens to government-backed money when there is political strife, and it happens to cryptocurrency when market conditions change. This is not something unique to crypto nor is it something you are immune from by simply holding onto large sums of paper money.
+
+Moreover, as cryptocurrency is merely a form of money, you can absolutely make "bets" on whether a certain cryptocurrency asset (often called a "token") will rise or fall, treating it like a casino or stock market. But there are also many ways for you to use cryptocurrency that don't engage in this kind of activity.
+
+Three good ways to avoid wild price volatility are:
+
+- Spend what you earn as soon as you earn it.
+- Exchange the more volatile currency for a different one currently experiencing a slower rate of change in its price.
+- Keep your money in a so-called "stable" currency, which simply means a currency whose monetary policy pegs its value to the value of something else you care about, such as the US Dollar (like the USDC or USDT cryptocurrencies), or the price of gold metals (like the PAX cryptocurrency), although this comes with numerous other risks.
 
 ### Why are there so many cryptocurrencies?
 
@@ -136,9 +154,11 @@ Theoretically, anything. In practice, to spend cryptocurrency directly you must 
 
 Some apps, like Zodl, can act like a global cryptocurrency debit card because they provide easy ways for you to instantly convert the currency you have in them to many other kinds of currency on the fly.
 
+### What if the seller I want to buy from doesn't take crypto?
+
 If the vendor or merchant you want to buy from doesn't accept cryptocurrency at all, you may have to first buy a gift card or load up a cryptocurrency-backed traditional payment card, such as a prepaid Visa or MasterCard. These options can be extremely convenient *and* extremely private, but they are always at least one more step than simply paying directly in crypto.
 
-Have a peek at [Bitrefill (referral link)]({{ site.data.affiliates.bitrefill }}){:target="_blank"} to see the many thousands upon thousands of brands of gift cards that you can buy directly with cryptocurrency. Similarly, have a look at the [crypto-backed debit cards]({% link resources/for-providers/using-cryptocurrency/off-ramping/index.md %}#fund-a-traditional-payment-card-using-cryptocurrency) I'm familiar with if you'd like to use cryptocurrency in tap-to-pay transactions at retail stores or e-commerce stores that don't (yet) accept crypto directly.
+Have a peek at [Bitrefill (referral link)]({{ site.data.affiliates.bitrefill }}){:target="_blank"} to see the many thousands upon thousands of brands of gift cards that you can buy directly with cryptocurrency. Similarly, have a look at the [crypto-backed debit cards]({% link resources/for-providers/using-cryptocurrency/off-ramping/index.md %}#fund-a-traditional-payment-card-using-cryptocurrency) I'm familiar with&mdash;the easiest one to use is called [Kast (referral link)]({{ site.data.affiliates.kast }})&mdash;if you'd like to use cryptocurrency in tap-to-pay transactions at retail stores or e-commerce stores that don't (yet) accept crypto directly.
 
 ### How do I pay for my ads with crypto?
 
