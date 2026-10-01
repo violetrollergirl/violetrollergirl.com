@@ -21,6 +21,10 @@ I hear some questions from providers new to using cryptocurrency many times. Thi
     1. [What's this I hear about crypto being volatile?](#whats-this-i-hear-about-crypto-being-volatile)
     1. [Why are there so many cryptocurrencies?](#why-are-there-so-many-cryptocurrencies)
     1. [Which currency do you use?](#which-currency-do-you-use)
+1. [Motivations](#motivations)
+    1. [I work in person, so do I really need electronic money at all?](#i-work-in-person-so-do-i-really-need-money-at-all)
+    1. [Can I really put an end to chargebacks if I use crypto?](#can-i-really-put-an-end-to-chargebacks-if-i-use-crypto)
+    1. [I don't really need to keep my finances private, do I?](#i-dont-really-need-to-keep-my-finances-private-do-i)
 1. [Apps (wallets)](#apps-wallets)
     1. [Why do I need a wallet?](#why-do-i-need-a-wallet)
     1. [Which wallet should I use?](#which-wallet-should-i-use)
@@ -90,6 +94,50 @@ On a technical level, Zcash is the cryptocurrency whose technical ecosystem most
 I also regularly use other cryptocurrencies, but I do so cautiously, since *only* Zcash protects my privacy sufficiently to be safe to use for the purposes of sex work.
 
 Read [two kinds of cryptocurrencies (private and not private)]({% link resources/for-providers/using-cryptocurrency/primer/index.md %}#two-kinds-of-cryptocurrencies-private-and-not-private) to learn more.
+
+## Motivations
+
+Alternatively titled, "why would I want to use cryptocurrency when cash works just fine?"
+
+### I work in person, so do I really need electronic money at all?
+
+I also do the majority of my sex work in person, but I still found cryptocurrency useful for various parts of my business.
+
+- Accepting [deposits]({% link _faq/booking/what-is-a-deposit.md %}) without needing to do cash meets. In fact, this was the forcing function that [finally made me take cryptocurrency seriously]({% link _posts/2029-09-28-genesis-block.md %}).
+- Accepting [tips and donations]({% link links/zcash/index.md %}) from anonymous admirers in untracable ways.
+- Offering clients [superior payment discretion]({% link resources/for-clients/discretion-maxxing/index.md %}) when they are nervous about line items on financial statements or receipts.
+- Making in-session extensions easy, [avoiding the need for an ATM visit](https://bsky.app/profile/violetrollergirl.com/post/3mlmshuqtqk2c){:target="_blank"} for guys who didn't bring enough cash.
+- Accepting larger sums of money in single transactions where permissioned networks would require multiple smaller sends.
+- Accepting payments or gifts from international senders.
+- Actually spending my money even at businesses that don't accept cash.
+
+You can absolutely use cryptocurrency for a part, but not all, of your business process. Many people start by using cryptocurrency to receive deposits, but then require the rest of a consideration be paid in cash. How you run your business is up to you. Crypto is just another tool for your toolbox.
+
+Meanwhile, for online creators or e-commerce vendors, artists, and anyone else who wants to accept money without needing a payment processor's or a government's permission to do so, cryptocurrency is de rigueur.
+
+### Can I really put an end to chargebacks if I use crypto?
+
+As cryptocurrency is a push-only financial system (i.e., buyers must pro-actively *give* funds to sellers, instead of sellers being allowed to *take* funds out of a buyer's accounts), chargebacks are not technically possible for a buyer to initiate against a seller. Any and all refunds must be proactively confirmed by the seller before funds can be returned to a disgruntled or regretful buyer.
+
+So, yes. However, you must beaware of these two important caveats:
+
+- you must use a *true* cryptocurrency, such as Bitcoin or Zcash, not a "stablecoin" such as USDC or USDT.
+- you must use a self-custodial wallet app like Zodl or Cake Wallet, not a mainstream exchange platform such as Coinbase or CashApp.
+
+Read my [cryptocurrency primer for sex workers]({% link resources/for-providers/using-cryptocurrency/primer/index.md %}) to learn more.
+
+### I don't really need to keep my finances private, do I?
+
+I think you do. Consider:
+
+- [FinCEN, the Financial Crimes Enforcement Network](https://en.wikipedia.org/wiki/Financial_Crimes_Enforcement_Network){:target="_blank"}, is a US government agency that offers over 25,000 federal, state, and local agencies including police departments warrantless search capabilities for every single electronic financial transaction ever made. There is no digital purchase you can ever make with your bank, wire,  payment card, or payment app (like PayPal or Venmo) that is not seen by this agency. Read [my guest post at the Ludlow Institute's media arm, NBTV](https://nbtv.substack.com/p/how-to-actually-spend-crypto-in-real){:target="_blank"}, to learn more.
+- The [Department of Homeland Security has a secretive "predictive policing" unit](https://www.npr.org/2026/09/16/nx-s1-5968736/a-look-at-the-secretive-unit-inside-department-of-homeland-security){:target="_blank"} that uses financial transactions as pretexts for making arrests.
+- According to the [latest Free Speech Coalition report on Financial Discrimination](https://www.freespeechcoalition.com/banks){:target="_blank"}, Nearly 2 out of 3 adult industry workers (63%) have experienced financial discrimination. For almost half of these workers, 40%, have had a bank account closed, an experience we call *debanking*. This notably includes legal adult industry workers, such as OnlyFans models.
+- Anecdotally, I can tell you that the two most common ways fellow sex workers hear about me and [my consulting services]({% link consulting/for-providers/cybersecurity/index.md %}) is:
+    - after their CashApp or other financial services app bans them.
+    - after a client begins stalking them when a traditional electronic financial transaction leaks their civilian identity to said client.
+
+Why wait to take advantage of the benefits cryptocurrency offers until after this happens to you, too?
 
 ## Apps (wallets)
 
