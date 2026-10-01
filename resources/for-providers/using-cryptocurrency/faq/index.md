@@ -55,7 +55,7 @@ This page, and the rest of [my guides]({% link resources/for-providers/index.md 
 
 ### Why are there so many cryptocurrencies?
 
-For the same reason there are so many non-crypto currencies: people have different beliefs and alleigences.
+For the same reason there are so many non-crypto currencies: people have different beliefs and allegiances.
 
 In practice, most people simply use two currencies, though: a local one, and an international denominator. The local one may be something like an Argentinian Peso, a Rupee, or a Yen. The international denominator is more formally known as a "world reserve currency," which is a more "powerful" currency, such as the US Dollar or the Euro.
 
@@ -124,7 +124,7 @@ If you're buying crypto from an online service, anywhere you can buy crypto is l
 
 You will find that there are restrictions on which exchanges will serve you based on things like where you live, what accounts you have already had blocked, banned, or suspended (if any), your citizenship status, and more. I maintain [a list of cryptocurrency exchanges]({% link resources/for-clients/using-cryptocurrency/paying-your-provider/index.md %}#from-cryptocurrency-exchanges) where I suggest clients buy cryptocurrency, and you can safely use the same exchanges so long as you use an account associated with your civilian identity and keep a strict separation between it and any sex work use for those funds.
 
-Once you buy some cryptocurrency, the most important thing to do is to send it out of the exchange and into a true wallet app, such as Zodl or Cake Wallet. This process, in which non-crypto currency is exchanged for cryptocurrency, is also also called "[on-ramping]({% link resources/for-providers/using-cryptocurrency/on-ramping/index.md %})."
+Once you buy some cryptocurrency, the most important thing to do is to send it out of the exchange and into a true wallet app, such as Zodl or Cake Wallet. This process, in which non-crypto currency is exchanged for cryptocurrency, is also called "[on-ramping]({% link resources/for-providers/using-cryptocurrency/on-ramping/index.md %})."
 
 ## Making payments
 
@@ -138,7 +138,7 @@ Some apps, like Zodl, can act like a global cryptocurrency debit card because th
 
 If the vendor or merchant you want to buy from doesn't accept cryptocurrency at all, you may have to first buy a gift card or load up a cryptocurrency-backed traditional payment card, such as a prepaid Visa or MasterCard. These options can be extremely convenient *and* extremely private, but they are always at least one more step than simply paying directly in crypto.
 
-Have a peek at [Bitrefill (referral link)]({{ site.data.afilliates.bitrefill }}){:target="_blank"} to see the many thousands upon thousands of brands of gift cards that you can buy directly with cryptocurrency. Similarly, have a look at the [crypto-backed debit cards]({% link resources/for-providers/using-cryptocurrency/off-ramping/index.md %}#fund-a-traditional-payment-card-using-cryptocurrency) I'm familiar with if you'd like to use cryptocurrency in tap-to-pay transactions at retail stores or e-commerce stores that don't (yet) accept crypto directly.
+Have a peek at [Bitrefill (referral link)]({{ site.data.affiliates.bitrefill }}){:target="_blank"} to see the many thousands upon thousands of brands of gift cards that you can buy directly with cryptocurrency. Similarly, have a look at the [crypto-backed debit cards]({% link resources/for-providers/using-cryptocurrency/off-ramping/index.md %}#fund-a-traditional-payment-card-using-cryptocurrency) I'm familiar with if you'd like to use cryptocurrency in tap-to-pay transactions at retail stores or e-commerce stores that don't (yet) accept crypto directly.
 
 ### How do I pay for my ads with crypto?
 
