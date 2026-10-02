@@ -17,6 +17,7 @@ I hear some questions from providers new to using cryptocurrency many times. Thi
 ## On this page
 
 1. [What is cryptocurrency?](#what-is-cryptocurrency)
+    1. [Why is cryptocurrency better for sex workers than payment apps, credit cards, or bank accounts?](#why-is-cryptocurrency-better-for-sex-workers-than-payment-apps-credit-cards-or-bank-accounts)
     1. [Isn't cryptocurrency a scam?](#isnt-cryptocurrency-a-scam)
     1. [What's this I hear about crypto being volatile?](#whats-this-i-hear-about-crypto-being-volatile)
     1. [Why are there so many cryptocurrencies?](#why-are-there-so-many-cryptocurrencies)
@@ -48,9 +49,11 @@ This means anything you can do with money can be done with cryptocurrency, no mo
 
 If you are already familiar with the way physical cash works, then you know enough to start using cryptocurrency as you would physical cash. Likewise, if you already know how bank accounts work, then you know enough about cryptocurrency to start using it the way you might use a bank.
 
-As a sex worker, you probably have a healthy skepticism about the motivations of banks and other institutions that hold on to your money for you. Perhaps this is why you currently prefer dealing with physical cash.
+### Why is cryptocurrency better for sex workers than payment apps, credit cards, or bank accounts?
 
-Using cryptocurrency correctly gives you the benefits, conveniences, and rewards of electronic transactions while *also* keeping the safety, privacy, and financial protections of physical cash. That is why it is such a power-up to get good with it if you are a worker in this industry.
+Using cryptocurrency *correctly* gives you the benefits, conveniences, and rewards of electronic transactions while *also* keeping the same safety, privacy, and financial protections of using physical cash. That's why cryptocurrency can be such a powerful tool for your business and livelihood when you get good with it as a worker in this industry.
+
+If you're a veteran sex worker, you probably have a healthy skepticism about the motivations of banks and other institutions that hold on to your money for you. If you're newer, you may have heard stories from others who have [experiened financial discrimination or been outright debanked](#i-dont-really-need-to-keep-my-finances-private-do-i). Perhaps this is why you currently prefer dealing with physical cash.
 
 Cryptocurrency is rare in that it can literally be the best of both physical and electronic finance.
 
