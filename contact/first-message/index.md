@@ -1,3 +1,3 @@
 ---
-redirect_to: /#in-your-first-message
+redirect_to: /contact/#in-your-first-message
 ---

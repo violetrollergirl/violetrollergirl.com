@@ -1,3 +1,3 @@
 ---
-redirect_to: /#do-speak-for-yourself
+redirect_to: /contact/#do-speak-for-yourself
 ---

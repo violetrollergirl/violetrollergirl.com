@@ -1,4 +1,4 @@
 ---
-redirect_to: /#links-tryst
+redirect_to: /links/#links-tryst
 ---
 

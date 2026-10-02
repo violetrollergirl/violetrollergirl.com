@@ -1,3 +1,170 @@
 ---
-redirect_to: /#about
+layout: panel-page
+title: About
 ---
+
+<header id="Hero">
+    <h2>Hello, friend! I'm Violet.</h2>
+    <h3>If you're curious, yes, I live on my rollerblades&hellip;but <a href="#{{ site.title | slugify }}">I do know when to take them off</a>. ;)</h3>
+    <p class="align-center">
+        <a href="#{{ site.title | slugify }}" title="Enter my Web site">
+            <img loading="lazy" src="{% link images/rollergirl-cyberpunk-banner.jpg %}" alt="" />
+        </a>
+    </p>
+</header><!-- #Hero -->
+<div class="inner split">
+    <div>
+        <h2 id="{{ site.title | slugify }}">{{  site.title }}</h2>
+        <p>Tired of wondering what your fantasies feel like and longing for a companion equally excited about exploring them? I was formally trained as a boy, but I might actually be the girl of your dreams!</p>
+        <p>Brilliant, bubbly, and beautiful, I don't wait to be entertained; I'll make the first move, get you laughing, and invite you into the moment with grace and without pressure.</p>
+        <p>It's okay if I'm your "first" because, don't worry, you wouldn't be mine!</p>
+        <p>Whether seeking companionship is new to you, or companionship with a trans woman specifically, I create a space where exploring our unique chemistry unfolds at your pace.</p>
+        <p>I love connection&mdash;the kind where you feel seen and heard, and deeply. The sort of genuine coupling where our affection lingers in your mind long after we say goodnight.</p>
+
+        <p class="align-center"><a class="button" href="{% link testimonials/index.md %}"><span class="icon fa-solid fa-ranking-star"></span> What were dates like?</a></p>
+        <p class="align-center">
+            <img loading="lazy" src="{% link images/gallery-resized/hot-tub-in-bikini-relax-refresh-renew.jpg %}" alt="" />
+        </p>
+
+        <h2 id="experienced-enthusiastic-confident-confidant">Earnest, enthusiastic, confident confidant</h2>
+        <p>For me, intimacy is the practice of trust, timing, and tension. Every shared look, touch felt, and word spoken is a deliberate choice, a dance in spaces between confidence and curiosity.</p>
+        <p>I believe pleasure is most profound when wrapped in the comfort of safety, yet without sacrificing the thrill of adventure. Our connection will be compassionate and cuddly, not chaotic. </p>
+        <p>I'm bubbly, witty, playful, kind, and unapologetically curious about everything, especially you. Make me yearn for you by being as uninhibited and free-spirited in my presence as I am in yours.</p>
+        <p>Meet me at my well-equipped private spaces in NYC, or bring me to you for a rendezvous as limitless as our imaginations.</p>
+
+        <p class="align-center"><a class="button" href="{% link availability/index.md %}"><span class="icon fa-solid fa-hotel"></span> Explore Availability</a></p>
+        <p class="align-center">
+            <img loading="lazy" src="{% link images/gallery-resized/black-and-red-lingerie-on-white-linen-sheets.jpg %}" alt="" />
+        </p>
+
+        <h2 id="more-about-your-companion">More about your companion</h2>
+        <p>I'm fit, freckled, and fascinated by the way technology, touch, and emotion intersect. I have skin softer than silk and equally soft hair in curly red ringlets, with a mind sharper than a diamond's edge.</p>
+        <p>Maybe you've guessed: science fiction (Star Trek or Star Wars—I'm not religious!), cyberpunk retro tech, techno beats, and vintage video games are my happy places. There are depths to discover about how I've become "<a href="{% link _faq/about-me/qr-code.md %}">the girl with the QR code tattoo</a>."</p>
+        <p>I'm obsessed with projects that keep my brain spinning as fast as my wheels. My current fixation? Navigating cryptocurrency charts and blockchain rabbit holes. I'm the rare girl who appreciates both a perfectly executed <acronym title="Application Programming Interface">API</acronym> <em>and</em> a perfectly paired wine. </p>
+        <p>Nerdy? Perhaps. But decoding patterns whets my appetite for discovery&hellip;in all its forms.</p>
+
+        <p class="align-center"><a class="button" href="#tech-specs"><span class="icon fa-solid fa-heart-pulse"></span> Vitals and specs</a></p>
+        <p class="align-center">
+            <img loading="lazy" src="{% link images/gallery-resized/kneeling-in-clawfoot-bathtub.jpg %}" alt="" />
+        </p>
+
+        <h2 id="sweet-or-spicy">Sweet <span class="icon fa-solid fa-candy-cane"></span> or spicy? <span class="icon fa-solid fa-pepper-hot"></span></h2>
+        <p>My candy coating comes in a couple flavors, but poise and courage season them all.</p>
+        <p>Catch me running the pool table in my skirt&mdash;and my skates! Feel how I shift between rooftop cocktails and dive bar mischief.</p>
+        <p>I'm not new to power exchange. I've studied it, lived it, brought it to life in clubs from Brooklyn to Berlin.</p>
+        <p>Want to explore your dominant side? I get kinkier than my curls. Years in leather and BDSM circles taught me control and surrender are a language—one I'm fluent in.</p>
+        <p>Whether you're looking for an oasis of affection, something deliciously darker, or a unique mix of sweetness and spice, I'm your perfect power princess, not a passive pillow princess.</p>
+
+        <p class="align-center"><a class="button" href="{% link rates/index.md %}"><span class="icon fa-solid fa-candy-cane"></span> Tell me what you crave <span class="icon fa-solid fa-pepper-hot"></span></a></p>
+        <p class="align-center">
+            <img loading="lazy" src="{% link images/gallery-resized/smirk-in-handcuffs.jpg %}" alt="" />
+        </p>
+
+        <h2 id="if-youre-the-type">If you're the type&hellip;</h2>
+        <p>&hellip;who thinks as much as you feel, who laughs before they lean in, who appreciates genuine connection over pretense? Maybe it's time you met Brooklyn's Power Princess.</p>
+
+        <p class="align-center"><a class="button" href="{% link contact/index.html %}"><span class="icon fa-solid fa-pen-nib"></span> Introduce yourself</a></p>
+
+        <p class="align-center"><em><strong>I've gone to great lengths to ensure our relationship remains completely confidential</strong> by prioritizing encrypted communications at every opportunity. <a href="{% link resources/for-clients/discretion-maxxing/index.md %}">Learn more about my privacy and discretion guarantees</a>.</em></p>
+
+        <p class="align-center">
+            <img loading="lazy" src="{% link images/gallery-resized/handcuffed-to-the-rail.jpg %}" alt="" />
+        </p>
+    </div>
+    <div>
+        <h2 id="tech-specs">Tech specs</h2>
+        <table>
+            <tbody>
+                <tr id="tech-spec-height">
+                    <th>
+                        Height
+                    </th>
+                    <td>
+                        5 feet, 7 inches (169cm)
+                    </td>
+                </tr>
+                <tr id="tech-spec-body-type">
+                    <th>Body type</th>
+                    <td>Athletic, toned</td>
+                </tr>
+                <tr id="tech-spec-bra-size">
+                    <th>Bra size</th>
+                    <td>38B (or 36C)</td>
+                </tr>
+                <tr id="tech-spec-enhancements">
+                    <th>Enhancements</th>
+                    <td>None (all natural)</td>
+                </tr>
+                <tr id="tech-spec-penile-functionality">
+                    <th>Penile appearance</th>
+                    <td>
+                        <p>Circumcised</p>
+                        <p>(Full nudity visible in <a href="{% link links-group/socials/index.md %}">many videos and other content</a>.)</p>
+                    </td>
+                </tr>
+                <tr id="tech-spec-sexual-orientation">
+                    <th>Sexual orientation</th>
+                    <td>Enthusiastically bisexual</td>
+                </tr>
+                <tr id="tech-spec-tattoos">
+                    <th>Tattoos</th>
+                    <td><span class="icon fa-solid fa-qrcode"></span> One (<a href="{% link _faq/about-me/qr-code.md %}">learn more</a>)</td>
+                </tr>
+                <tr id="tech-spec-piercings">
+                    <th>Piercings</th>
+                    <td>Ears, nipples</td>
+                </tr>
+                <tr id="tech-spec-languages">
+                    <th>Languages</th>
+                    <td>
+                        <ul>
+                            <li>Fluent: English, JavaScript, Shell 👩🏻‍💻</li>
+                            <li>Conversational: Hebrew</li>
+                            <li>Basic: Spanish, Japanese</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr id="tech-spec-home-cities">
+                    <th>Home city</th>
+                    <td>
+                        <ul class="fa-ul">
+                            <li><span class="fa-li fa-solid fa-city"></span>New York, NY, USA</li>
+                        </ul>
+                        <a href="{% link tours/index.html %}" title="Check my calendar and availability."><span class="icon fa-solid fa-calendar-check"></span> See where I am today</a>.
+                    </td>
+                </tr>
+                <tr id="tech-spec-passport-ready">
+                    <th>Travel/Passport-ready</th>
+                    <td>
+                        <ul class="fa-ul">
+                            <li><span class="fa-li fa-solid fa-plane"></span> <acronym title="Fly-Me-To-You">FMTY</acronym>: 6+ hours</li>
+                            <li><span class="fa-li fa-solid fa-train"></span> <acronym title="Train-Me-To-You">TMTY</acronym>: 3+ hours</li>
+                        </ul>
+                        <a href="{% link _faq/meeting/when-will-you-be-in-my-city.md %}"><span class="icon fa-solid fa-globe"></span> Learn more about travel arrangements</a>.
+                    </td>
+                </tr>
+                <tr id="tech-spec-nda-ready">
+                    <th>NDA-ready</th>
+                    <td>Yes</td>
+                </tr>
+            </tbody>
+            <tfoot></tfoot>
+        </table>
+
+        <div>
+            <h2 id="all-my-links"><a href="{% link links/index.md %}">All My Links</a></h2>
+            <p>Want to see more of me? Find and follow me online via <a href="{% link links/index.md %}">my Links page</a>.</p>
+            <p class="button-container">
+                <a href="{% link .well-known/vcard.vcf %}" class="button"><span class="icon fa-solid fa-address-book"></span> Save my digital business card</a>
+                <a href="{% link links/index.md %}" class="button"><span class="icon fa-solid fa-chain"></span> All my links</a>
+            </p>
+        </div>
+
+        <div>
+            <p class="align-center"><img loading="lazy" src="{% link images/gallery-resized/butt-in-bikini-over-pool-table.jpg %}" alt="" /></p>
+            <p class="copyright">
+                Copyright &copy; by {{ site.author.name }}, {{ "now" | date: "%Y" }}. All rights reserved.
+            </p>
+        </div>
+    </div>
+</div><!-- .inner.split -->

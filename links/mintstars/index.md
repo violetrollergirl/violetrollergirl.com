@@ -1,4 +1,4 @@
 ---
-redirect_to: /#links-mintstars
+redirect_to: /links/#links-mintstars
 ---
 

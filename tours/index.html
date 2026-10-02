@@ -1,5 +1,8 @@
-{% comment%}
-{% endcomment %}
+---
+layout: panel-page
+title: Tours
+---
+
 <div class="inner split">
     <div>
         <h2 id="tour-destinations">Tour Destinations (<a href="{% link _faq/meeting/when-will-you-be-in-my-city.md %}"><span class="icon fa-solid fa-circle-question"></span> What&rsquo;s a tour?</a>)</h2>
@@ -18,9 +21,9 @@
             });
         </script>
         <p class="button-container">
-            <a href="#rates" class="button"><span class="icon fa-solid fa-coins"></span> Rates</a>
-            <a href="#policies" class="button"><span class="icon fa-solid fa-file-contract"></span> Policies</a>
-            <a href="#faq" class="button"><span class="icon fa-solid fa-circle-question"></span> FAQs</a>
+            <a href="{% link rates/index.md %}" class="button"><span class="icon fa-solid fa-coins"></span> Rates</a>
+            <a href="{% link policies/index.md %}" class="button"><span class="icon fa-solid fa-file-contract"></span> Policies</a>
+            <a href="{% link faq/index.md %}" class="button"><span class="icon fa-solid fa-circle-question"></span> FAQs</a>
         </p>
         <p class="align-center"><img src="{% link images/gallery-resized/topless-in-peach-colored-room.jpg %}" alt="" /></p>
         {% include availability-minimums.html %}
@@ -42,7 +45,7 @@
         <h3 id="outcall-availability">Outcall Availability</h3>
         <p>If you would like to host:
         <ul>
-            <li>Please add round-trip fare for car service (including 20% tip for drivers), in addition to my usual <a href="#rates">rate</a>.</li>
+            <li>Please add round-trip fare for car service (including 20% tip for drivers), in addition to my usual <a href="{% link rates/index.md %}">rate</a>.</li>
             <li>When meeting one another for the first time, I may decline to see you at a personal residence. If that's what you had in mind, consider scheduling a <a href="{% link rate/online/curiosity-call/index.md %}">curiosity call</a> or <a href="{% link rate/online/video-date/index.md %}">video date</a> with me beforehand.</li>
         </ul>
         <h3 id="hotel-arrangements">Hotel arrangements</h3>
@@ -52,13 +55,13 @@
         <p>My affinity for spontaneity makes same-day trysts occasionally possible <acronym title="If and only if">IFF</acronym> seeing one another is convenient for me. When booking with short notice (less than 24 hours), please keep in mind:
         <ul>
             <li>lack of foreplanning may incur a rush fee to cover last-minute higher lodging or travel costs.</li>
-            <li>new friends are still <a href="#screening-options">required to screen</a>, which may take time, so I encourage you to get pre-screened if you often need this kind of spontaneous appointment.</li>
+            <li>new friends are still <a href="{% link _faq/screening/screening-process.md %}">required to screen</a>, which may take time, so I encourage you to get pre-screened if you often need this kind of spontaneous appointment.</li>
         </ul>
-        <p>Occasionally, I publish last-minute availability on social media; my <a href="#links-socials-amp-content">Links page</a> shows you where you can find and follow me online.</p>
+        <p>Occasionally, I publish last-minute availability on social media; my <a href="{% link links-group/socials/index.md %}">Links page</a> shows you where you can find and follow me online.</p>
         <p class="button-container">
-            <a href="#rates" class="button"><span class="icon fa-solid fa-coins"></span> Rates</a>
-            <a href="#policies" class="button"><span class="icon fa-solid fa-file-contract"></span> Policies</a>
-            <a href="#contact" class="button"><span class="icon fa-solid fa-pen-nib"></span> Booking Form</a>
+            <a href="{% link rates/index.md %}" class="button"><span class="icon fa-solid fa-coins"></span> Rates</a>
+            <a href="{% link policies/index.md %}" class="button"><span class="icon fa-solid fa-file-contract"></span> Policies</a>
+            <a href="{% link contact/index.html %}" class="button"><span class="icon fa-solid fa-pen-nib"></span> Booking Form</a>
         </p>
     </div>
 </div><!-- .inner.split -->

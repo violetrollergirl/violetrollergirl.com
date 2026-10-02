@@ -1,4 +1,4 @@
 ---
-redirect_to: /#rate-pro-sub-kinky-3-hours
+redirect_to: /rates/#rate-pro-sub-kinky-3-hours
 ---
 

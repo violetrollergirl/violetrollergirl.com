@@ -1,3 +1,3 @@
 ---
-redirect_to: /#faq-about-me
+redirect_to: /faq/#about-me
 ---

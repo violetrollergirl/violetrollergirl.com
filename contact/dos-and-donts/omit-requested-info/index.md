@@ -1,3 +1,3 @@
 ---
-redirect_to: /#dont-omit-requested-info
+redirect_to: /contact/#dont-omit-requested-info
 ---

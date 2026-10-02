@@ -1,3 +1,3 @@
 ---
-redirect_to: /#rate-add-ons-and-online-curiosity-call-30-minutes
+redirect_to: /rates/#rate-add-ons-and-online-curiosity-call-30-minutes
 ---

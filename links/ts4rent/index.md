@@ -1,4 +1,4 @@
 ---
-redirect_to: /#links-ts4rent
+redirect_to: /links/#links-ts4rent
 ---
 

@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<script>
+// Mimic the effect of a "panel" being opened.
+document.addEventListener('DOMContentLoaded', function () {
+    document.body.classList.add('content-active');
+});
+</script>
+<section id="{{ page.title | slugify }}" class="panel-page active">
+    {{ content }}
+</section>

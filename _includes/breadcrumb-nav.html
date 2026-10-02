@@ -11,7 +11,7 @@ Based on https://jekyllcodex.org/without-plugin/breadcrumbs/
     {% if include.show_label %}<span class="fa-icon fa-solid fa-map-location-dot"></span> You are here:{% endif %}
     <ul>{% for crumb in crumbs %}
     {% if forloop.first %}
-        <li><a href="{% link index.html %}"><span class="fa-icon fa-solid fa-home"></span> Home</a></li>
+        <li><a href="{% link index.html %}"><span class="fa-icon fa-solid fa-home"></span> {{ site.title }}</a></li>
     {% elsif forloop.last %}
         <li>{{ page.title }}</li>
     {% else %}

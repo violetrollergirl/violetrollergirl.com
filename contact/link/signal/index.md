@@ -1,3 +1,3 @@
 ---
-redirect_to: /#contact-link-signal
+redirect_to: /resources/for-clients/booking-guide/#contact-link-signal
 ---

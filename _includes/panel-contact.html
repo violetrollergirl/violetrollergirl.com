@@ -1,7 +1,5 @@
 {% comment %}
-The "Contact" panel contains the booking form
-in both mad-lib and Google Calendar style,
-along with a bunch of additional instruction.
+The "contact" page, as a panel.
 {% endcomment %}
 
 {% assign datetime_default_value = site.time | date: "%s" | minus: 120 %}
@@ -415,7 +413,7 @@ along with a bunch of additional instruction.
                 <fieldset><legend>I'm excited to hear from you!</legend>
                     <p>
                         <input type="checkbox" class="form-check-input" name="booking_inquiry_confirmed_fine_print" id="booking-inquiry-confirmed-fine-print" value="yes" required="required" />
-                        <label for="booking-inquiry-confirmed-fine-print" class="form-label">Yes, I have read, understood, and fully agree to abide by the information on your Web site, including your <a href="#rates">rates</a>, <a href="#policies">policies</a>, and <a href="#tours">availability</a>.</label>
+                        <label for="booking-inquiry-confirmed-fine-print" class="form-label">Yes, I have read, understood, and fully agree to abide by the information on your Web site, including your <a href="{% link rates/index.md %}">rates</a>, <a href="{% link policies/index.md %}">policies</a>, and <a href="{% link tours/index.html %}">availability</a>.</label>
                         <sup>
                             <small class="form-text">
                                 <a class="closer"
@@ -457,7 +455,7 @@ along with a bunch of additional instruction.
         <p>Please feel free to <a href="{% link .well-known/vcard.vcf %}">save my contact card</a> and write me anytime.</p>
         <p>I strongly prefer encrypted messaging via <a href="{% include signal-booking.url %}">Signal Private Messenger</a>. <small class="easter-egg">(You&rsquo;ll earn a $40 USD discount off our first date if you book entirely over Signal as a thank you for helping to <a href="{% link resources/for-clients/discretion-maxxing/index.md %}" title="Learn how to book me completely secretly.">protect your privacy</a> and mine. Learn <a href="{% link colophon/index.md  %}#easter-eggs">how to earn more discounts&hellip;</a>.)</small></p>
         <p><strong>Please <a href="{% link resources/for-clients/booking-guide/index.md %}#patiently-wait-for-my-reply" class="panel-closer-link">be patient</a> as it may take a day for me to reply.</strong></p>
-        <p>In the meantime, explore the <a href="https://goodclientguide.com/" target="_blank">Good Client Guide</a> for more helpful advice about how to prepare for your date with a provider like me, or have a look at some of <a href="#friends">my hot friends</a>.</p>
+        <p>In the meantime, explore the <a href="https://goodclientguide.com/" target="_blank">Good Client Guide</a> for more helpful advice about how to prepare for your date with a provider like me, or have a look at some of <a href="{% link friends/index.md %}">my hot friends</a>.</p>
         <ul id="direct-contact-links-list"  class="contact-links-list icons">
             <li>
                 <a id="contact-link-signal" class="icon fa-brands fa-signal-messenger fa-4x" href="{% include signal-booking.url %}" title="Signal">
@@ -509,7 +507,7 @@ along with a bunch of additional instruction.
         <h2 id="newsletter-subscription">Newsletter subscription</h2>
         <p>Occasionally, I send cute updates and neat announcements to friends and lovers via my newsletter. This includes information about upcoming <a href="{% link _faq/meeting/when-will-you-be-in-my-city.md %}">tours</a>, a range of special social and industry-adjacent events, and even the rare special discount or deal. Subscribing is optional, free, never X-rated, and you can unsubscribe at any time.</p>
         <script async src="https://eocampaign1.com/form/5cffbafc-3299-11f1-bb40-5906a544377b.js" data-form="5cffbafc-3299-11f1-bb40-5906a544377b"></script>
-        <p><small>(Subscribing to my newsletter requires a double opt-in confirmation. When subscribed, you agree to provide some light telemetry as part of industry-standard analytics. If you want to receive tour information more discreetly, please view or subscribe to <a href="#tours">my tour calendar</a>, instead.)</small></p>
+        <p><small>(Subscribing to my newsletter requires a double opt-in confirmation. When subscribed, you agree to provide some light telemetry as part of industry-standard analytics. If you want to receive tour information more discreetly, please view or subscribe to <a href="{% link tours/calendar/index.md %}">my tour calendar</a>, instead.)</small></p>
     </div>
 </div><!-- .inner.split -->
 
@@ -517,10 +515,10 @@ along with a bunch of additional instruction.
     <h2 id="first-contact">First Contact</h2>
     <ul>
         <li>
-            <p>Please read my <a href="#policies">etiquette policies</a> and be sure you understand my <a href="#tours">availability</a> and <a href="#rates">rates</a> before writing.</p>
+            <p>Please read my <a href="{% link policies/index.md %}">etiquette policies</a> and be sure you understand my <a href="{% link tours/index.html %}">availability</a> and <a href="{% link rates/index.md %}">rates</a> before writing.</p>
         </li>
         <li>
-            <p>You may also want to review <a href="#contact-dos-and-donts">my &ldquo;do&rsquo;s and don&rsquo;ts&rdquo;</a> for making first contact. My <a href="#faq">FAQ page</a> can also allay any concerns you may have.</p>
+            <p>You may also want to review <a href="#contact-dos-and-donts">my &ldquo;do&rsquo;s and don&rsquo;ts&rdquo;</a> for making first contact. My <a href="{% link faq/index.md %}">FAQ page</a> can also allay any concerns you may have.</p>
         </li>
         <li>
             <p>Especially generic messages are likely to trigger my spam filter or auto-responder; I may not see them.</p>
@@ -543,8 +541,8 @@ along with a bunch of additional instruction.
         <ul class="fa-ul">
             <li><span class="fa-li fa-solid fa-signature"></span>Your preferred name.</li>
             <li><span class="fa-li fa-solid fa-calendar"></span>When you're hoping to see me; supply <em>both</em> a preferred and an alternate date and time.</li>
-            <li><span class="fa-li fa-solid fa-hourglass"></span>How long you'd like to see me for. See my <a href="#rates">rates</a> for helpful guidance in selecting a duration.</li>
-            <li><span class="fa-li fa-solid fa-map"></span>Where you want to meet: my place/"incall," your place/"outcall," or indicate a social date/meet and greet. Look up <a href="#tours">my travel dates</a> if you're not sure where I'll be.</li>
+            <li><span class="fa-li fa-solid fa-hourglass"></span>How long you'd like to see me for. See my <a href="{% link rates/index.md %}">rates</a> for helpful guidance in selecting a duration.</li>
+            <li><span class="fa-li fa-solid fa-map"></span>Where you want to meet: my place/"incall," your place/"outcall," or indicate a social date/meet and greet. Look up <a href="{% link tours/calendar/index.md %}">my travel dates</a> if you're not sure where I'll be.</li>
             <li><span class="fa-li fa-solid fa-id-card"></span>If this is our first contact, choose a <a href="#screening-options">screening or safety check method</a> you're comfortable using. <a href="{% link _faq/screening/screening-process.md %}">Screening is easy and mandatory</a>.</li>
         </ul>
         <p class="align-center"><img loading="lazy" src="{% link images/gallery-resized/pool-table-orange-and-black.jpg %}" alt="" /></p>

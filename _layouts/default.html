@@ -17,42 +17,24 @@
     {{ content }}
 </main>
 
+{% comment %}
+Very special case: the contact page with my booking form should be
+made available as a real panel inside the client booking guide.
+{% endcomment %}
+{% if page.url == "/resources/for-clients/booking-guide/" %}
+<section id="contact" class="panel">
+    {% include panel-contact.html %}
+</section>
+{% endif %}
+
 <section id="navpanel" class="panel">
     {% include main-navpanel.html %}
 </section>
 
-<section id="about" class="panel">
-    {% include panel-about.html %}
-</section>
-
-<section id="rates" class="panel">
-    {% include panel-rates.html %}
-</section>
-
-<section id="contact" class="panel">
-    {% include panel-contact.html %}
-</section>
-
-<section id="tours" class="panel">
-    {% include panel-tours.html %}
-</section>
-
-<section id="links" class="panel">
-    {% include panel-links.html %}
-</section>
-
-<section id="faq" class="panel">
-    {% include panel-faq.html %}
-</section>
-
-<section id="friends" class="panel">
-    {% include panel-friends.html %}
-</section>
-
 <div id="gallery-wrapper">
-<section id="gallery">
-{% include gallery.html %}
-</section>
+    <section id="gallery">
+    {% include gallery.html %}
+    </section>
 </div><!-- #gallery-wrapper -->
 
 </div><!-- #wrapper -->

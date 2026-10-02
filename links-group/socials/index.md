@@ -1,4 +1,4 @@
 ---
-redirect_to: /#links-group-socials-amp-content
+redirect_to: /links/#links-group-socials-amp-content
 ---
 

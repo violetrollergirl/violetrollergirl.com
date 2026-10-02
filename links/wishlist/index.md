@@ -1,3 +1,3 @@
 ---
-redirect_to: /#links-throne
+redirect_to: /links/#links-throne
 ---

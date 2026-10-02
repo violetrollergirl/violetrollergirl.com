@@ -1,3 +1,3 @@
 ---
-redirect_to: /#do-be-of-majority-age
+redirect_to: /contact/#do-be-of-majority-age
 ---

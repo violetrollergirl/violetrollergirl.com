@@ -1,4 +1,4 @@
 ---
-redirect_to: /#links-slixa
+redirect_to: /links/#links-slixa
 ---
 

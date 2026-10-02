@@ -37,4 +37,6 @@ This template is inserted at the bottom of every page.
 <script type="module" src="{% link assets/js/qrcodes.mjs %}"></script>
 <script type="module" src="{% link assets/js/tours-ticker.mjs %}"></script>
 <script src="{% link assets/js/main.js %}"></script>
+{% if page.conditionally_load and page.conditionally_load.rollergirl_booking_form %}
 <script src="{% link assets/js/rollergirl-booking-form.js %}"></script>
+{% endif %}

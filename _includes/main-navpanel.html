@@ -3,16 +3,18 @@ Main Navigation Panel for the default layout.
 {% endcomment %}
 <nav>
     <ul class="fa-ul">
-        <li><a href="#about" title="Tech Specs"><span class="icon fa-solid fa-circle-info"></span>About Me</a></li>
+        <li><a href="{% link about/index.md %}" title="Tech Specs"><span class="icon fa-solid fa-circle-info"></span>About Me</a></li>
         <li><a href="{% link gallery/index.md %}" title="Unboxing Photos"><span class="icon fa-solid fa-images"></span>Gallery</a></li>
-        <li><a href="#rates" title="Product Line &amp; Fine Print"><span class="icon fa-solid fa-coins"></span>Rates &amp; Policies</a></li>
-        <li><a href="#contact" title="Booking Form &amp; Newsletter"><span class="icon fa-solid fa-pen-nib"></span>Contact/Book</a></li>
-        <li><a href="#tours" title="Tours &amp; Travel Calendar"><span class="icon fa-solid fa-calendar"></span>Availability</a></li>
-        <li style="display: flex; justify-content: center;">
-            <a href="#links" title="Tips, Socials, more"><span class="icon fa-solid fa-chain"></span>Links</a>
-            <a href="{% link search/index.md %}" title="Search My Site"><span class="icon fa-solid fa-magnifying-glass"></span>Search</a>
-        </li>
-        <li><a href="#faq" title="Frequently Asked Questions"><span class="icon fa-solid fa-circle-question"></span><acronym title="Frequently Asked Questions">FAQ</acronym></a></li>
-        <li><a href="#friends" title="Expansion Packs"><span class="icon fa-solid fa-people-group"></span>Duos &amp; More-o's</a></li>
+        <li><a href="{% link rates/index.md %}" title="Product Line &amp; Fine Print"><span class="icon fa-solid fa-coins"></span>Rates &amp; Policies</a></li>
+        <li><a href="{% link contact/index.html %}" title="Booking Form &amp; Newsletter"><span class="icon fa-solid fa-pen-nib"></span>Contact/Book</a></li>
+        <li><a href="{% link tours/index.html %}" title="Tours &amp; Travel Calendar"><span class="icon fa-solid fa-calendar"></span>Availability</a></li>
+        <li><a href="{% link links/index.md %}" title="Tips, Socials, more"><span class="icon fa-solid fa-chain"></span>Links</a></li>
+        <li><a href="{% link faq/index.md %}" title="Frequently Asked Questions and Search">
+                <span class="icon">
+                    <span class="icon fa-solid fa-circle-question"></span>
+                    <span class="icon fa-solid fa-magnifying-glass"></span>
+                </span>
+                <acronym title="Frequently Asked Questions">FAQs</acronym> &amp; Search</a></li>
+        <li><a href="{% link friends/index.md %}" title="Expansion Packs"><span class="icon fa-solid fa-people-group"></span>Duos &amp; More-o's</a></li>
     </ul>
 </nav>

@@ -1,3 +1,3 @@
 ---
-redirect_to: /#links-monero
+redirect_to: /links/#links-monero
 ---

@@ -1,3 +1,3 @@
 ---
-redirect_to: /#newsletter-subscription
+redirect_to: /contact/#newsletter-subscription
 ---

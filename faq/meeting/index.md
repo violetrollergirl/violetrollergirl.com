@@ -1,3 +1,3 @@
 ---
-redirect_to: /#faq-meeting
+redirect_to: /faq/#meeting
 ---

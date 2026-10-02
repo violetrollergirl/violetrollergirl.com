@@ -1,3 +1,3 @@
 ---
-redirect_to: /#booking-inquiry-form
+redirect_to: /resources/for-clients/booking-guide/#booking-inquiry-form
 ---

@@ -1,3 +1,3 @@
 ---
-redirect_to: /#subscribe-to-my-travel-calendar
+redirect_to: /tours/#subscribe-to-my-travel-calendar
 ---

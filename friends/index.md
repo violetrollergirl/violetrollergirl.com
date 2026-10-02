@@ -1,3 +1,27 @@
 ---
-redirect_to: /resources/for-clients/booking-guide/#friends
+layout: panel-page
+title: Friends
 ---
+
+<div class="inner">
+    <div>
+        <header>
+            <h2 id="duo-partners">Duo Partners</h2>
+            <h3>Plug and Play</h3>
+        </header>
+        <p>Spending quality time together one-on-one is lovely, but I'd be remiss not to introduce you to some of my stunning friends. So if you're looking for even more <em>plug and play</em> fun, I can coordinate threesomes (or moresomes) in a range of configurations with the extraordinary providers I list here. And please <a href="{% link contact/index.html %}">let me know</a> if you'd like to see me with a provider who isn't listed. We could develop an expansion pack together&hellip;.</p>
+    </div>
+</div>
+
+{% for partner in site.data.partners %}
+{% assign modulo = forloop.index | modulo: 3 %}
+{% if modulo == 1 %}
+<div class="inner split">
+{% endif %}
+    <div>
+        {% include partner.html partner=partner %}
+    </div>
+{% if modulo == 0 or forloop.last %}
+</div><!-- .inner.split -->
+{% endif %}
+{% endfor %}

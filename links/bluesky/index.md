@@ -1,3 +1,3 @@
 ---
-redirect_to: /#links-bluesky
+redirect_to: /links/#links-bluesky
 ---

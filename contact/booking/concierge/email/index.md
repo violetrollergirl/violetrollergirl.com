@@ -1,3 +1,3 @@
 ---
-redirect_to: /#contact-concierge-email
+redirect_to: /contact/concierge/email/
 ---

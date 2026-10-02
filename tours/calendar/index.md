@@ -1,3 +1,3 @@
 ---
-redirect_to: /#tours-and-travel-calendar
+redirect_to: /tours/#tours-and-travel-calendar
 ---

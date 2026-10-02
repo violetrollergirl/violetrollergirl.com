@@ -1,3 +1,3 @@
 ---
-redirect_to: /#contact-concierge-whatsapp
+redirect_to: /contact/concierge/whatsapp/
 ---

@@ -1,3 +1,3 @@
 ---
-redirect_to: /#faq-booking
+redirect_to: /faq/#booking
 ---

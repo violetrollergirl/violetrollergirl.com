@@ -15,10 +15,10 @@ last_modified: Mon Aug 17 12:22:11 EDT 2026
 
 I'll be there when you book me there. I won't be when you don't. To see me in your city, bring me to it.
 
-I also *tour*, or make myself available for dates while away from my [home cities]({% link about/tech-spec/home-cities/index.md %}). My [public travel calendar](#tours) will show you where I'm planning to be and when. You're always welcome to incentivize a change to my plans.
+I also *tour*, or make myself available for dates while away from my [home cities]({% link about/tech-spec/home-cities/index.md %}). My [public travel calendar]({% link tours/index.html %}) will show you where I'm planning to be and when. You're always welcome to incentivize a change to my plans.
 
 {:.button-container}
-[<span class="icon fa-solid fa-calendar-check"></span> View calendar](#tours){:.button}
+[<span class="icon fa-solid fa-calendar-check"></span> View calendar]({% link tours/index.html %}){:.button}
 
 **I only travel where I'm booked and want to go.** If I'm coming to your city and you haven't pre-booked a date with me, it either means someone else has booked me, I'm there for a personal reason, or both.
 

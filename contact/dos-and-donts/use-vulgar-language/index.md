@@ -1,3 +1,3 @@
 ---
-redirect_to: /#dont-use-vulgar-language
+redirect_to: /contact/#dont-use-vulgar-language
 ---

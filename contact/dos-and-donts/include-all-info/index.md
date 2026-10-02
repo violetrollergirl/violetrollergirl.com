@@ -1,3 +1,3 @@
 ---
-redirect_to: /#do-include-all-info
+redirect_to: /contact/#do-include-all-info
 ---

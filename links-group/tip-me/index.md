@@ -1,3 +1,3 @@
 ---
-redirect_to: /#links-group-tip-me
+redirect_to: /links/#links-group-tip-me
 ---

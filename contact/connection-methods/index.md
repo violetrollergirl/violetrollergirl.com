@@ -1,3 +1,3 @@
 ---
-redirect_to: /#connection-methods
+redirect_to: /contact/#connection-methods
 ---

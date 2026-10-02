@@ -1,3 +1,3 @@
 ---
-redirect_to: /#faq-screening
+redirect_to: /faq/#screening
 ---

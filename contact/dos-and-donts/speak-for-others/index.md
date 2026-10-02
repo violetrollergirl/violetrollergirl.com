@@ -1,3 +1,3 @@
 ---
-redirect_to: /#dont-speak-for-others
+redirect_to: /contact/#dont-speak-for-others
 ---

@@ -1,4 +1,4 @@
 ---
-redirect_to: /#links-manyvids
+redirect_to: /links/#links-manyvids
 ---
 

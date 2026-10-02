@@ -1,4 +1,4 @@
 ---
-redirect_to: /#rate-gfe-fs-1-hour
+redirect_to: /rates/#rate-gfe-fs-1-hour
 ---
 

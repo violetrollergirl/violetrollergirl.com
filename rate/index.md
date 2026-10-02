@@ -1,3 +1,3 @@
 ---
-redirect_to: /#rates
+redirect_to: /rates/
 ---

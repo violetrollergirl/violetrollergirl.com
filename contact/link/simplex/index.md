@@ -1,3 +1,3 @@
 ---
-redirect_to: /#contact-link-simplex
+redirect_to: /resources/for-clients/booking-guide/#contact-link-simplex
 ---

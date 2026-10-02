@@ -1,4 +1,4 @@
 ---
-redirect_to: /#links-group-ad-listings
+redirect_to: /links/#links-group-ad-listings
 ---
 

@@ -1,4 +1,4 @@
 ---
-redirect_to: /#links-the-erotic-review
+redirect_to: /links/#links-the-erotic-review
 ---
 

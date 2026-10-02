@@ -1,3 +1,3 @@
 ---
-redirect_to: /#contact-link-signal
+redirect_to: /contact/#contact-link-signal
 ---

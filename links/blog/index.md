@@ -1,3 +1,3 @@
 ---
-redirect_to: /#links-blog
+redirect_to: /links/#links-blog
 ---

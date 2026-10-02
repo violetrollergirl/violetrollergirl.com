@@ -1,3 +1,3 @@
 ---
-redirect_to: /#dont-be-a-minor
+redirect_to: /contact/#dont-be-a-minor
 ---

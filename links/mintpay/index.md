@@ -1,4 +1,4 @@
 ---
-redirect_to: /#links-mintpay
+redirect_to: /links/#links-mintpay
 ---
 

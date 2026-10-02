@@ -124,7 +124,7 @@ Note how the heading or page area glows in response.
 
 ## Client-side booking form
 
-My site's [Contact page]({% link contact/index.md %}) includes a [booking form]({% link contact/booking/inquiry-form/index.md %}) that has some especially unique properties.
+My site's [Contact page]({% link contact/index.html %}) includes a [booking form]({% link contact/booking/inquiry-form/index.md %}) that has some especially unique properties.
 
 ### Mad-lib style form prose
 

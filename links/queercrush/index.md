@@ -1,4 +1,4 @@
 ---
-redirect_to: /#links-queercrush
+redirect_to: /links/#links-queercrush
 ---
 

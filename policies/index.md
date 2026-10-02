@@ -1,3 +1,3 @@
 ---
-redirect_to: /#policies
+redirect_to: /rates/#policies
 ---

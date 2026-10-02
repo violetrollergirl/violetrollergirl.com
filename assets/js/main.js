@@ -177,26 +177,58 @@ layout: none
         // Fix: Placeholder polyfill.
         $('form').placeholder();
 
-        // Links from Rates page auto-populate some fields in the booking form.
+        // Links from Rates page create dynamic URLs that are read
+        // by the contact form when loaded.
         $('a.booking-link').on('click', function (e) {
-            $('#booking-inquiry-prospect-preferred-screening-method').val(
+            var inquiryParams = new URLSearchParams();
+            inquiryParams.set(
+                'booking-inquiry-prospect-preferred-screening-method',
                 $(this).data('booking-inquiry-prospect-preferred-screening-method')
             );
-            $('#booking-inquiry-prospect-booking-type').val(
+            inquiryParams.set(
+                'booking-inquiry-prospect-booking-type',
                 $(this).data('booking-inquiry-prospect-booking-type')
             );
-            $('#booking-inquiry-prospect-service-type').val(
+            inquiryParams.set(
+                'booking-inquiry-prospect-service-type',
                 $(this).data('booking-inquiry-prospect-service-type')
             );
-            $('#booking-inquiry-prospect-duration').val(
+            inquiryParams.set(
+                'booking-inquiry-prospect-duration',
                 $(this).data('booking-inquiry-prospect-duration')
             );
-            $('#booking-inquiry-prospect-location').val(
+            inquiryParams.set(
+                'booking-inquiry-prospect-location',
                 $(this).data('booking-inquiry-prospect-location')
             );
+            var oldUrl = this.href; // Not jQuery.
+            var url = new URL(oldUrl);
+            url.search = inquiryParams.toString();
+            window.location = url;
         });
 
         // Booking form.
+        // Read URL search parameters to see if they apply to the booking form.
+        window.addEventListener('load', function (e) {
+            new URL(window.location).searchParams.forEach(function (v, k) {
+                var el = document.querySelector(`#${k}`);
+                if (el && v) {
+                    $(el).val(`${v}`);
+                }
+            });
+            // Then save them to sessionStorage.
+            var form = document.getElementById('booking-inquiry-form');
+            if (form) {
+                var formData = new FormData(form);
+                sessionStorage.setItem(
+                    'rollergirl-booking-formdata',
+                    JSON.stringify(
+                        formData.entries().toArray()
+                    )
+                );
+            }
+        });
+
         $('#booking-inquiry-form').on('change', function (e) {
             switch ( e.target.id ) {
 
@@ -608,11 +640,13 @@ the club in this nostalgia-filled Hollywood movie.
     document.addEventListener('DOMContentLoaded', function () {
         // For options and instructions, see:
         // https://DataTables.net
-        let table = new DataTable('#table-providers-zec', {
-            fixedHeader: true,
-            pageLength: 25,
-            scrollX: true
-        });
+        if (typeof DataTable !== 'undefined') {
+            let table = new DataTable('#table-providers-zec', {
+                fixedHeader: true,
+                pageLength: 25,
+                scrollX: true
+            });
+        }
     });
 
 })(jQuery);

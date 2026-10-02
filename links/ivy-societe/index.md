@@ -1,4 +1,4 @@
 ---
-redirect_to: /#links-ivy-societe
+redirect_to: /links/#links-ivy-societe
 ---
 

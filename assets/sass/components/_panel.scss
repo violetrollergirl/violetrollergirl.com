@@ -6,7 +6,8 @@
 
 /* Panel */
 
-.panel {
+.panel,
+.panel-page {
   @include padding(4em, 4em);
   transform: translateY(100vh);
   @include vendor('transition', 'transform #{_duration(panel)} ease');

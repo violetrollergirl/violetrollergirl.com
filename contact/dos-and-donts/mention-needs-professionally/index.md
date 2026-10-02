@@ -1,3 +1,3 @@
 ---
-redirect_to: /#do-mention-needs-professionally
+redirect_to: /contact/#do-mention-needs-professionally
 ---

@@ -1,4 +1,4 @@
 ---
-redirect_to: /#links-onlyfans
+redirect_to: /links/#links-onlyfans
 ---
 

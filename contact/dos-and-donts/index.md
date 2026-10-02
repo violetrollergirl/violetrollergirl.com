@@ -1,3 +1,3 @@
 ---
-redirect_to: /#contact-dos-and-donts
+redirect_to: /contact/#contact-dos-and-donts
 ---

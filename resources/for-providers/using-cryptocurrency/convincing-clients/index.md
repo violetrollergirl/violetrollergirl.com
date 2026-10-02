@@ -57,7 +57,7 @@ So, what do we do in the mean time?
 
 The more confident and prepared you sound, the less troubling, scary, and uncertain this will seem to your client. Practice with friends so you know every step and don't even have to look at the screen to direct your client where to click or tap.
 
-If we ever meet in person, I'll walk you through this myself. (Check [my travel calendar]({% link tours/index.md %}) for opportunities to meet; I'm very frequently going to a lot of events to talk about this exact stuff.) You can also [book me for a 1:1 or small group consultation]({% link consulting/for-providers/cybersecurity/index.md %}).
+If we ever meet in person, I'll walk you through this myself. (Check [my travel calendar]({% link tours/index.html %}) for opportunities to meet; I'm very frequently going to a lot of events to talk about this exact stuff.) You can also [book me for a 1:1 or small group consultation]({% link consulting/for-providers/cybersecurity/index.md %}).
 
 ## Use psychological priming: preempt concerns, casually
 

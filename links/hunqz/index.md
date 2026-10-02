@@ -1,4 +1,4 @@
 ---
-redirect_to: /#links-hunqz
+redirect_to: /links/#links-hunqz
 ---
 

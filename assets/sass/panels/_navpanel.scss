@@ -26,10 +26,12 @@
       content: "(" attr(title) ")";
       font-size: x-small;
     }
+
+    > span.icon {
+      display: block;
+      margin: 0 auto;
+    }
+
   }
 
-  span.icon {
-    display: block;
-    margin: 0 auto;
-  }
 }

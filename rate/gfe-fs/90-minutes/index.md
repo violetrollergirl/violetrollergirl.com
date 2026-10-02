@@ -1,3 +1,3 @@
 ---
-redirect_to: /#rate-gfe-fs-90-minutes
+redirect_to: /rates/#rate-gfe-fs-90-minutes
 ---

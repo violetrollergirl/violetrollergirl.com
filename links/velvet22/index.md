@@ -1,4 +1,4 @@
 ---
-redirect_to: /#links-velvet22
+redirect_to: /links/#links-velvet22
 ---
 

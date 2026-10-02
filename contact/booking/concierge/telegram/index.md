@@ -1,3 +1,3 @@
 ---
-redirect_to: /#contact-concierge-telegram
+redirect_to: /contact/concierge/telegram/
 ---

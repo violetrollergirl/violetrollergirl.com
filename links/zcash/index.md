@@ -1,3 +1,3 @@
 ---
-redirect_to: /#links-zcash
+redirect_to: /links/#links-zcash
 ---

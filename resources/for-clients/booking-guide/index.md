@@ -9,6 +9,8 @@ featured_image:
 prev: resources/for-clients/
 next: resources/for-clients/discretion-maxxing/
 last_modified: Wed Aug 12 20:46:39 EDT 2026
+conditionally_load:
+    rollergirl_booking_form: true
 ---
 
 # {{ site.title }}'s Booking Guide
@@ -83,8 +85,8 @@ If you're not yet sure whether I'm the girl for you, then you might want to have
 - My [FAQ]({% link faq/index.md %}) has the answers to numerous questions about me and my offerings.
 - My [reviews and testimonials]({% link _faq/about-me/do-you-have-any-reviews.md %}) offer a peek at what time with me is like through others' eyes.
 - My [rates page]({% link rates/index.md %}) provides a breakdown of considerations for my offerings.
-- My [tours]({% link tours/index.md %}) page gives you details about where I'm traveling and [when I'm available]({% link availability/index.md %}).
-- My [social media posts]({% link links-group/socials/index.md %}), [softcore]({% link links/onlyfans/index.md %}), and [hardcore content]({% link links/onlybanned/index.md %}) give you the opportunity to see plenty more, and with some real-world texture.
+- My [tours]({% link tours/index.html %}) page gives you details about where I'm traveling and [when I'm available]({% link availability/index.md %}).
+- My [social media posts]({% link links-group/socials/index.md %}), [softcore]({% link links/onlyfans/index.md %}), and [hardcore content]({% link links/manyvids/index.md %}) give you the opportunity to see plenty more, and with some real-world texture.
 
 And if you're still not sure?
 
