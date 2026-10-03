@@ -45,7 +45,7 @@ I hear some questions from providers new to using cryptocurrency many times. Thi
 
 Cryptocurrency is electronic cash; cryptographic currency. Cryptography is a discipline that applies the rules of mathematics onto information, and cryptocurrency applies cryptography to systems of money.
 
-This means anything you can do with money can be done with cryptocurrency, no more and no less.
+This means **anything you can do with money can be done with cryptocurrency, no more and no less.**
 
 If you are already familiar with the way physical cash works, then you know enough to start using cryptocurrency as you would physical cash. Likewise, if you already know how bank accounts work, then you know enough about cryptocurrency to start using it the way you might use a bank.
 
@@ -85,9 +85,9 @@ Three good ways to avoid wild price volatility are:
 
 For the same reason there are so many non-crypto currencies: people have different beliefs and allegiances.
 
-In practice, most people simply use two currencies, though: a local one, and an international denominator. The local one may be something like an Argentinian Peso, a Rupee, or a Yen. The international denominator is more formally known as a "world reserve currency," which is a more "powerful" currency, such as the US Dollar or the Euro.
+In practice, though, most people simply use two currencies: a local one, and an international denominator. The local currency may be something like a Peso, Rupee, or Yen. The international or "reference" currency is more formally known as a "world reserve currency," and is typically one controlled by more "powerful" influences, such as the US Dollar or the Euro.
 
-The same is true with cryptocurrency. Most people will use a famous and well-known one, such as Bitcoin (BTC) or Ethereum (ETH).
+The same is true with cryptocurrency. Most people will use the famous, well-known ones, such as Bitcoin (BTC) or Ethereum (ETH), but often have another "local" cryptocurrenccy that they favor for some reason or another.
 
 ### Which currency do you use?
 
