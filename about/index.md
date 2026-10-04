@@ -1,6 +1,13 @@
 ---
 layout: panel-page
 title: About
+description: >
+  I was formally trained as a boy, but I might actually be the girl
+  of your dreams! I'll make the first move, get you laughing, and invite
+  you into the moment with grace and without pressure.
+featured_image:
+  alt:
+  url: images/gallery-originals/handcuffed-to-the-rail.jpg
 ---
 
 <header id="Hero">
