@@ -1,6 +1,10 @@
 ---
 layout: panel-page
 title: Rates
+#description:
+featured_image:
+  alt:
+  url: images/gallery-originals/red-lingerie-on-white-background.jpg
 ---
 
 <header>
