@@ -386,8 +386,10 @@ layout: none
 
                 if ($body.hasClass('content-active')) {
 
-                    event.preventDefault();
-                    event.stopPropagation();
+                    if (!$body.hasClass('propagate-event')) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
 
                     $panels.trigger('---hide');
 

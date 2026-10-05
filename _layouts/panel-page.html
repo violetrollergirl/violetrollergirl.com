@@ -6,6 +6,7 @@ layout: default
 // Mimic the effect of a "panel" being opened.
 document.addEventListener('DOMContentLoaded', function () {
     document.body.classList.add('content-active');
+    document.body.classList.add('propagate-event');
 });
 </script>
 <section id="{{ page.title | slugify }}" class="panel-page active">
