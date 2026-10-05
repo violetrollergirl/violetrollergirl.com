@@ -580,35 +580,42 @@ layout: none
             },
         );
         $window.on('load', function (e) {
-            const events = toursUpcomingEvents; // From global scope.
-            var ticker = document.getElementById('tour-ticker');
-            events.forEach( function ( event ) {
-                var el = document.createElement('tour-event');
+            // Execute until global object is ready.
+            var intervalId = setInterval(function () {
+                if (typeof toursUpcomingEvents === 'undefined') {
+                    return;
+                }
+                const events = toursUpcomingEvents; // From global scope.
+                var ticker = document.getElementById('tour-ticker');
+                events.forEach( function ( event ) {
+                    var el = document.createElement('tour-event');
 
-                var location = document.createElement('span');
-                location.setAttribute('slot', 'tour-event-location');
-                location.innerText = event.location || '(Undisclosed)';
-                el.appendChild(location);
+                    var location = document.createElement('span');
+                    location.setAttribute('slot', 'tour-event-location');
+                    location.innerText = event.location || '(Undisclosed)';
+                    el.appendChild(location);
 
-                var startDate = document.createElement('time');
-                startDate.setAttribute('slot', 'tour-event-startdate');
-                startDate.setAttribute('datetime', new Date(event.startDate).toISOString());
-                startDate.innerText = new Date(event.startDate).toLocaleDateString();
-                el.appendChild(startDate);
+                    var startDate = document.createElement('time');
+                    startDate.setAttribute('slot', 'tour-event-startdate');
+                    startDate.setAttribute('datetime', new Date(event.startDate).toISOString());
+                    startDate.innerText = new Date(event.startDate).toLocaleDateString();
+                    el.appendChild(startDate);
 
-                var endDate = document.createElement('time');
-                endDate.setAttribute('slot', 'tour-event-enddate');
-                endDate.setAttribute('datetime', new Date(event.endDate).toISOString());
-                endDate.innerText = new Date(event.endDate).toLocaleDateString();
-                el.appendChild(endDate);
+                    var endDate = document.createElement('time');
+                    endDate.setAttribute('slot', 'tour-event-enddate');
+                    endDate.setAttribute('datetime', new Date(event.endDate).toISOString());
+                    endDate.innerText = new Date(event.endDate).toLocaleDateString();
+                    el.appendChild(endDate);
 
-                var description = document.createElement('span');
-                description.setAttribute('slot', 'tour-event-description');
-                description.innerHTML = event.description?.split("\n", 1).join('') || '';
-                el.appendChild(description);
+                    var description = document.createElement('span');
+                    description.setAttribute('slot', 'tour-event-description');
+                    description.innerHTML = event.description?.split("\n", 1).join('') || '';
+                    el.appendChild(description);
 
-                ticker.appendChild(el);
-            });
+                    ticker.appendChild(el);
+                });
+                clearInterval(intervalId);
+            }, 500); // Repeat each half second.
         });
 
     });
