@@ -1,4 +1,4 @@
 ---
-redirect_to: /#tech-spec-sexual-orientation
+redirect_to: /about/#tech-spec-sexual-orientation
 ---
 

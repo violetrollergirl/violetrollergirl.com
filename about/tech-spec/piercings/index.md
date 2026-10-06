@@ -1,4 +1,4 @@
 ---
-redirect_to: /#tech-spec-piercings
+redirect_to: /about/#tech-spec-piercings
 ---
 

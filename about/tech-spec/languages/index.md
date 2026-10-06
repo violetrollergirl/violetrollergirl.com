@@ -1,4 +1,4 @@
 ---
-redirect_to: /#tech-spec-languages
+redirect_to: /about/#tech-spec-languages
 ---
 

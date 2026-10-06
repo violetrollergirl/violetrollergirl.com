@@ -1,4 +1,4 @@
 ---
-redirect_to: /#tech-spec-nda-ready
+redirect_to: /about/#tech-spec-nda-ready
 ---
 

@@ -1,3 +1,3 @@
 ---
-redirect_to: /#tech-spec-body-type
+redirect_to: /about/#tech-spec-body-type
 ---

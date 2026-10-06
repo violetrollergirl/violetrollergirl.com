@@ -1,4 +1,4 @@
 ---
-redirect_to: /#tech-spec-passport-ready
+redirect_to: /about/#tech-spec-passport-ready
 ---
 

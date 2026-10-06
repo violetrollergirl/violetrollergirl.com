@@ -1,4 +1,4 @@
 ---
-redirect_to: /#tech-spec-bra-size
+redirect_to: /about/#tech-spec-bra-size
 ---
 

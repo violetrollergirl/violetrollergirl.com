@@ -1,3 +1,3 @@
 ---
-redirect_to: /#tech-specs
+redirect_to: /about/#tech-specs
 ---

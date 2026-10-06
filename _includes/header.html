@@ -4,9 +4,10 @@
             <strong>{{ site.title }}</strong>
             <span class="subtitle">{{ site.subtitle }}</span>
         </a>
-        <a href="{% link tours/index.html %}" title="View travel availability.">
-            <span class="subtitle" style="font-size: x-small;">{{ site.extended_subtitle }}</span>
-        </a>
+        <span class="subtitle" style="font-size: x-small;">
+            <a href="{% link about/tech-spec/home-cities/index.md %}" title="View location specs.">NYC</a> +
+            <a href="{% link tours/index.html %}" title="View travel availability.">touring</a>
+        </span>
     </h1>
     <aside id="tour-ticker">
         <h2>

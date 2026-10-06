@@ -1,4 +1,4 @@
 ---
-redirect_to: /#tech-spec-tattoos
+redirect_to: /about/#tech-spec-tattoos
 ---
 

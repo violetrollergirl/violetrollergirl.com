@@ -1,4 +1,4 @@
 ---
-redirect_to: /#tech-spec-penile-functionality
+redirect_to: /about/#tech-spec-penile-functionality
 ---
 

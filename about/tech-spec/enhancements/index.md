@@ -1,4 +1,4 @@
 ---
-redirect_to: /#tech-spec-enhancements
+redirect_to: /about/#tech-spec-enhancements
 ---
 

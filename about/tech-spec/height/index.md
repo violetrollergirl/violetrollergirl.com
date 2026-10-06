@@ -1,4 +1,4 @@
 ---
-redirect_to: /#tech-spec-height
+redirect_to: /about/#tech-spec-height
 ---
 
