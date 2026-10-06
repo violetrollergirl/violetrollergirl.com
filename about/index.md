@@ -79,7 +79,7 @@ featured_image:
         </p>
     </div>
     <div>
-        <h2 id="tech-specs">Tech specs</h2>
+        <h2 id="tech-specs">Tech specs (Vitals &amp; Vibe)</h2>
         <table>
             <tbody>
                 <tr id="tech-spec-height">
@@ -111,11 +111,18 @@ featured_image:
                 </tr>
                 <tr id="tech-spec-sexual-orientation">
                     <th>Sexual orientation</th>
-                    <td>Enthusiastically bisexual</td>
+                    <td>
+                        <p>
+                            Enthusiastically bisexual
+                            <span class="icon fa-solid fa-mars-double"></span>
+                            <span class="icon fa-solid fa-heart-circle-plus"></span>
+                            <span class="icon fa-solid fa-venus-double"></span>
+                        </p>
+                    </td>
                 </tr>
                 <tr id="tech-spec-tattoos">
                     <th>Tattoos</th>
-                    <td><span class="icon fa-solid fa-qrcode"></span> One (<a href="{% link _faq/about-me/qr-code.md %}">learn more</a>)</td>
+                    <td><span class="icon fa-solid fa-qrcode"></span> One (and <a href="{% link _faq/about-me/qr-code.md %}">famously</a>)</td>
                 </tr>
                 <tr id="tech-spec-piercings">
                     <th>Piercings</th>
@@ -124,10 +131,10 @@ featured_image:
                 <tr id="tech-spec-languages">
                     <th>Languages</th>
                     <td>
-                        <ul>
-                            <li>Fluent: English, JavaScript, Shell 👩🏻‍💻</li>
-                            <li>Conversational: Hebrew</li>
-                            <li>Basic: Spanish, Japanese</li>
+                        <ul class="fa-ul">
+                            <li><span class="fa-li fa-solid fa-language"></span> <strong>Fluent:</strong> English, JavaScript, Shell 👩🏻‍💻</li>
+                            <li><span class="fa-li fa-solid fa-star-of-david"></span> <strong>Conversational:</strong> Hebrew</li>
+                            <li><span class="fa-li fa-solid fa-school"></span> <strong>Beginner:</strong> Spanish, Japanese</li>
                         </ul>
                     </td>
                 </tr>
@@ -143,16 +150,22 @@ featured_image:
                 <tr id="tech-spec-passport-ready">
                     <th>Travel/Passport-ready</th>
                     <td>
+                        <p>Yes! I love travel invitations with these (occasionally flexible) minimums:</p>
                         <ul class="fa-ul">
                             <li><span class="fa-li fa-solid fa-plane"></span> <acronym title="Fly-Me-To-You">FMTY</acronym>: 6+ hours</li>
                             <li><span class="fa-li fa-solid fa-train"></span> <acronym title="Train-Me-To-You">TMTY</acronym>: 3+ hours</li>
+                            <li><span class="fa-li fa-solid fa-passport"></span> Inquire about international locales and extended stays.</li>
                         </ul>
-                        <a href="{% link _faq/meeting/when-will-you-be-in-my-city.md %}"><span class="icon fa-solid fa-globe"></span> Learn more about travel arrangements</a>.
+                        <p><a href="{% link _faq/meeting/when-will-you-be-in-my-city.md %}"><span class="icon fa-solid fa-globe"></span> Learn more about travel arrangements</a>.</p>
                     </td>
                 </tr>
                 <tr id="tech-spec-nda-ready">
                     <th>NDA-ready</th>
-                    <td>Yes</td>
+                    <td>
+                        <ul class="fa-ul">
+                            <li><span class="fa-li fa-solid fa-gavel"></span> Yes</li>
+                        </ul>
+                    </td>
                 </tr>
                 <tr id="tech-spec-personality-snapshot">
                     <th>Personality snapshot</th>
