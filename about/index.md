@@ -159,11 +159,14 @@ featured_image:
                     <td>
                         <p>(These are a few of my favorite things.)</p>
                         <ul class="fa-ul">
+                            <li id="tech-spec-animal"><span class="fa-li fa-solid fa-cat"></span> <strong>Animal:</strong> Kittens! Especially ginger or orange tabby cats. =^_^=</li>
                             <li id="tech-spec-board-game"><span class="fa-li fa-solid fa-chess-board"></span> <strong>Board game:</strong> Go (Weiqi), Chess</li>
                             <li id="tech-spec-video-game"><span class="fa-li fa-solid fa-gamepad"></span> <strong>Video game:</strong> Legend of Zelda, Mrs. Pacman</li>
                             <li id="tech-spec-coffee-and-tea"><span class="fa-li fa-solid fa-mug-hot"></span> <strong>Coffee and tea:</strong> Dark roast coffee with cream and sugar (always yes to cream!), peach and other fruit teas or lemon ginger blends</li>
+                            <li id="tech-spec-hot-pepper"><span class="fa-li fa-solid fa-pepper-hot"></span> <strong>Hot pepper/hot sauce:</strong> Serranos are underrated. Tabasco's versatility means it's always in my pantry.</li>
                             <li id="tech-spec-music"><span class="fa-li fa-solid fa-music"></span> <strong>Music genre:</strong> Hard techno, bubblegum rave, synthwave, alternative rock, haunting classical and, my favorite genre: "try me!"</li>
                             <li id="tech-spec-tv-and-movies"><span class="fa-li fa-solid fa-tv"></span> <strong>TV &amp; movie genre:</strong> Hard science or feel-good sci-fi (The Martian, Star Wars, Star Trek, For All Mankind), but never let it be said I don't appreciate a good romcom or heartwarming tearjerker!</li>
+                            <li id="tech-spec-seafood"><span class="fa-li fa-solid fa-fish"></span> <strong>Seafood:</strong> Salmon, in almost any or all preparations!</li>
                             <li id="tech-spec-season"><span class="fa-li fa-solid fa-cloud-sun"></span> <strong>Season:</strong> Spring or Fall, but I'll always appreciate an adventure in Summer or Winter, too!</li>
                             <li id="tech-spec-wine"><span class="fa-li fa-solid fa-wine-glass"></span> <strong>Wine:</strong> Dry white, especially a quality Viognier</li>
                             {% comment %}
