@@ -157,22 +157,31 @@ featured_image:
                 <tr id="tech-spec-personality-snapshot">
                     <th>Personality snapshot</th>
                     <td>
-                        <p>(These are a few of my favorite things.)</p>
+                        <p>These are a few of my favorite things.</p>
                         <ul class="fa-ul">
                             <li id="tech-spec-animal"><span class="fa-li fa-solid fa-cat"></span> <strong>Animal:</strong> Kittens! Especially ginger or orange tabby cats. =^_^=</li>
                             <li id="tech-spec-board-game"><span class="fa-li fa-solid fa-chess-board"></span> <strong>Board game:</strong> Go (Weiqi), Chess</li>
                             <li id="tech-spec-video-game"><span class="fa-li fa-solid fa-gamepad"></span> <strong>Video game:</strong> Legend of Zelda, Mrs. Pacman</li>
+                            <li id="tech-spec-"><span class="fa-li fa-solid fa-book"></span> <strong>Books:</strong> Memoirs, anthologies, biographies, political essays, and magical realism are my standbys, because I love good characters and stories about people. Almost always digital. I have over 5,000 <acronym title="Digital Rights Management">DRM</acronym>-free ebooks in my personal library!</li>
+                            <li id="tech-spec-cheese"><span class="fa-li fa-solid fa-cheese"></span> <strong>Cheese:</strong> Roquefort blue is the kind of pungently delicious I always enjoy!</li>
+                            <li id="tech-spec-cuisine"><span class="fa-li fa-solid fa-bowl-food"></span> <strong>Cuisine:</strong> Asian fusions (Japanese and Vietnamese especially), but with a soft spot for the entire Mediterranean region, Indian, and Mexican (not Tex-Mex!) as well.</li>
                             <li id="tech-spec-coffee-and-tea"><span class="fa-li fa-solid fa-mug-hot"></span> <strong>Coffee and tea:</strong> Dark roast pour-over coffee with cream and sugar (always yes to cream!), or a skillfully crafted cappuccino. Peach and other sweet fruit teas or lemon ginger blends, please.</li>
+                            <li id="tech-spec-dessert"><span class="fa-li fa-solid fa-ice-cream"></span> <strong>Dessert:</strong> Key lime pie, or some vanilla ice cream with chocolate chips.</li>
+                            <li id="tech-spec-drink"><span class="fa-li fa-solid fa-martini-glass-citrus"></span> <strong>Drink/liquer:</strong> Spicy margarita, potentially with a mezcal &ldquo;upgrade.&rdquo; Addictivo Reposado when I'm being particular yet &ldquo;not &lsquo;too&rsquo; fancy.&rdquo;</li>
+                            <li id="tech-spec-gemstone"><span class="fa-li fa-solid fa-gem"></span> <strong>Gemstone:</strong> Opal, blue sapphires, and emeralds. Also tiger's eyes and lighter red stones such as Mozambique rubies.</li>
                             <li id="tech-spec-hot-pepper"><span class="fa-li fa-solid fa-pepper-hot"></span> <strong>Hot pepper/hot sauce:</strong> Serranos are underrated. Tabasco's versatility means it's always in my pantry.</li>
-                            <li id="tech-spec-music"><span class="fa-li fa-solid fa-music"></span> <strong>Music genre:</strong> Hard techno, bubblegum rave, synthwave, alternative rock, haunting classical and, my favorite genre: "try me!"</li>
+                            <li id="tech-spec-music"><span class="fa-li fa-solid fa-music"></span> <strong>Music genre:</strong> Hard techno, bubblegum rave, synthwave, alternative rock, haunting classical and, my favorite genre: &ldquo;try me!&rdquo;</li>
                             <li id="tech-spec-tv-and-movies"><span class="fa-li fa-solid fa-tv"></span> <strong>TV &amp; movie genre:</strong> Hard science or feel-good sci-fi (The Martian, Star Wars, Star Trek, For All Mankind), but never let it be said I don't appreciate a good romcom or heartwarming tearjerker!</li>
+                            <li id="tech-spec-text-editor"><span class="fa-li fa-solid fa-file-code"></span> <strong>Text editor:</strong> Vim, <a href="{% link _faq/booking/redeeming-easter-eggs.md %}" title="Can you find the secrets in my source code?">obviously</a>! ;)</li>
                             <li id="tech-spec-seafood"><span class="fa-li fa-solid fa-fish"></span> <strong>Seafood:</strong> Salmon, in almost any or all preparations!</li>
                             <li id="tech-spec-season"><span class="fa-li fa-solid fa-cloud-sun"></span> <strong>Season:</strong> Spring or Fall, but I'll always appreciate an adventure in Summer or Winter, too!</li>
+                            <li id="tech-spec-snack"><span class="fa-li fa-solid fa-cookie-bite"></span> <strong>Snack/treat:</strong> Anything that goes into a nice charcuterie board, including nuts (macadamias, omg!), cheeses, dried fruits, and sliced, cured meats.</li>
                             <li id="tech-spec-wine"><span class="fa-li fa-solid fa-wine-glass"></span> <strong>Wine:</strong> Dry white, especially a quality Viognier</li>
                             {% comment %}
                             <li id="tech-spec-"><span class="fa-li fa-solid fa-"></span> <strong></strong> </li>
                             {% endcomment %}
                         </ul>
+                        <p>Peep <a href="{% link links/wishlist/index.md %}">my wishlist</a> for more specifics or if you'd like to spoil me!</p>
                     </td>
                 </tr>
             </tbody>
