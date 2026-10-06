@@ -4,9 +4,17 @@
             <strong>{{ site.title }}</strong>
             <span class="subtitle">{{ site.subtitle }}</span>
         </a>
+        <a href="{% link tours/index.html %}" title="View travel availability.">
+            <span class="subtitle" style="font-size: x-small;">{{ site.extended_subtitle }}</span>
+        </a>
     </h1>
     <aside id="tour-ticker">
-        <h2><a href="{% link tours/index.html %}"><span class="icon fa-solid fa-calendar"></span> Tours</a>:</h2>
+        <h2>
+            <a href="{% link tours/index.html %}" title="View travel availability.">
+                <span class="icon fa-solid fa-calendar"></span>
+                Tours
+            </a>:
+        </h2>
         {% include template-tour-event.html %}
     </aside>
     <nav>
