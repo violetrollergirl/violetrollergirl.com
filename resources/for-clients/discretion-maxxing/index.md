@@ -136,7 +136,7 @@ Especially savvy escorts like me can [privately accept any number of cryptocurre
 
 [![ZODL: Zcash Open Development Lab]({% link images/logo.zodl.zcash-open-development-lab.png %})](https://zodl.com/ "Get Zodl Wallet"){:target="_blank"}
 
-Basically, using shielded Zcash with the Zodl wallet app does for money what Signal Private Messenger does for speech. And, after all, if we are to accept that money is speech ([Citizen's United](https://www.brennancenter.org/our-work/research-reports/citizens-united-explained){:target="_blank"}, anyone?), then why doesn't it deserve to be equally protected from prying eyes?
+Basically, using shielded Zcash with the Zodl wallet app does for money what Signal Private Messenger does for speech. And, after all, if we are to accept that money is speech ([Citizen's United](https://www.brennancenter.org/our-work/research-reports/citizens-united-explained){:target="_blank"}, anyone?), then why doesn't it deserve to be equally protected from [prying eyes]({% link resources/for-providers/using-cryptocurrency/faq/index.md %}#i-dont-really-need-to-keep-my-finances-private-do-i)?
 
 When you use shielded Zcash to make a payment:
 
@@ -212,7 +212,7 @@ Try it and see for yourself. When using my booking form:
 1. Attach your screening information to the message just as you would any other image file.
 1. Press the *Send* button.
 
-I'm pleased to note that as of this writing a handful of other providers have implemented this same safer first contact mechanism.
+I'm pleased to note that as of this writing a handful of [other providers have implemented this]({% link colophon/booking-form-code/index.md %}#in-the-wild) same safer first contact mechanism.
 
 Using a booking form that integrates directly with the Signal app itself gives client and provider alike the benefits of a booking form's efficiency with the privacy of a bespoke inquiry!
 
@@ -241,9 +241,10 @@ If you've never bought cryptocurrency before, [my cryptocurrency quick start gui
 {:.align-center}
 {% include link-as-button.md anchor_text="Read Crypto Quick(est) Start" url="/resources/for-clients/using-cryptocurrency/quick-start/" %}
 
-Once you have a balance of shielded Zcash in your Zodl wallet, you can use this to [pay any provider]({% link resources/for-clients/using-cryptocurrency/paying-your-provider/index.md %}) who accepts ZEC as payment. If they don't, consider informing them of the benefits and sending them to my [provider's cryptocurrency guide]({% link resources/for-providers/using-cryptocurrency/index.md %}) to help get them up to speed.
+Once you have a balance of shielded Zcash in your Zodl wallet, you can use this to [pay any provider]({% link resources/for-clients/using-cryptocurrency/paying-your-provider/index.md %}) who accepts ZEC as payment; see my [list of Zcash/ZEC-accepting providers]({% link resources/for-clients/using-cryptocurrency/finding-providers/index.md %}). If they don't, consider informing them of the benefits and sending them to my [provider's cryptocurrency guide]({% link resources/for-providers/using-cryptocurrency/index.md %}) to help get them up to speed.
 
-{:.align-center}
+{:.button-container}
+{% include link-as-button.md anchor_text="ZEC-accepting Providers" url="/resources/for-clients/using-cryptocurrency/finding-providers/" %}
 {% include link-as-button.md anchor_text="Paying in Crypto" url="/resources/for-clients/using-cryptocurrency/paying-your-provider/" %}
 
 ### What about other cryptocurrencies? Can't I just use CashApp/PayPal/Venmo?
