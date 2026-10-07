@@ -8,6 +8,9 @@ featured_image:
   url: images/gallery-originals/polkadot-outfit-over-a-railing.jpg
 next: resources/for-providers/using-cryptocurrency/primer/
 last_modified: Thu Oct  1 15:22:35 EDT 2026
+redirect_from:
+  - /crypto/faq
+  - /crypto/faq/
 ---
 
 # {{ site.title }}'s cryptocurrency FAQ for providers
