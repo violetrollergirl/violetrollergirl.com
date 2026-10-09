@@ -9,6 +9,9 @@ featured_image:
   url: images/gallery-originals/easy-breezy-beautiful-country-girl.jpg
 prev: resources/
 last_modified: Tue Dec 30 20:23:18 EST 2025
+redirect_from:
+  - resources/providers
+  - resources/providers/
 ---
 
 # {{ site.title}}'s Resources for Providers

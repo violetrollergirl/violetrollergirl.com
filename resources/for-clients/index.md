@@ -9,6 +9,9 @@ featured_image:
   url: images/gallery-originals/hello-kitty-panties.jpg
 prev: resources/
 next: resources/for-clients/booking-guide
+redirect_from:
+  - /resources/clients
+  - /resources/clients/
 ---
 
 # {{ site.title}}'s Resources for Clients
