@@ -1,5 +1,8 @@
 ---
 name: Why must I screen? / Screening makes me nervous.
+description: >
+  I get it. You're just starting to get to know me and you don't want
+  one bad decision to ruin your life. Well, babes, same.
 weight: 10
 featured_image:
   alt: >
