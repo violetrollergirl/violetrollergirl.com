@@ -96,7 +96,7 @@ featured_image:
                 </tr>
                 <tr id="tech-spec-bra-size">
                     <th>Bra size</th>
-                    <td>38B (or 36C)</td>
+                    <td>36C (or 38B)</td>
                 </tr>
                 <tr id="tech-spec-enhancements">
                     <th>Enhancements</th>
