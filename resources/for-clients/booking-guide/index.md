@@ -539,9 +539,9 @@ If you don't receive a reply from me, it can be because of any of the following 
 - You used [vulgar or sexually explicit language]({% link contact/dos-and-donts/use-vulgar-language/index.md %}) somewhere in your inquiry.
 - Your email was filtered to my spam folder. I do check my spam folder, but I maintain an extremely strict spam filter that will flag your message if:
     - your email address looks like a bot's.
-    - your email was recently created.
+    - your email account was created very recently.
     - your email was sent from an anonymous mailing service.
-    - you attached a file type other than a single-frame image (JPEG, PNG, or non-animated WEBP). Any email with other types of attachments will get deleted instantly. (Attaching [OpenPGP](https://www.openpgp.org/){:target="_blank"} keys is also acceptable.)
+    - you attached a file type other than a single-frame image (JPEG, PNG, or non-animated WEBP). Any email with other types of attachments will get deleted instantly. (Attaching [OpenPGP keys so I can reply privately]({% link resources/for-clients/messaging-discreetly/index.md %}#encrypted-email-not-necessarily-proton-mail){:target="_blank"} is also acceptable.)
 - You used txt/SMS, especially from a burner, texting app, or VoIP number.
     - It's okay to communicate with me from these apps, but they are extremely unreliable and I may not have received it.
     - Consider just using [Signal Private Messenger](https://signal.org/){:target="_blank"} on your burner phone, instead.
