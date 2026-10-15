@@ -524,7 +524,7 @@ Voila! You've sent your inquiry. Take a break from the screen, put your phone do
 
 Please be patient awaiting my reply.
 
-Under normal circumstances, **it can take me up to a day or two to reply** to even the most tempting inquiries. If I'm currently traveling, it can take even longer. I can promise you that well-crafted inquiries, such as those composed by my booking form, are all but guanrateed to receive an excited reply in short order!
+Under normal circumstances, **it can take me up to a day or two to reply** to even the most tempting inquiries. If I'm currently traveling, it can take even longer. I can promise you that well-crafted inquiries, such as those composed by my booking form, are all but guaranteed to receive an excited reply in short order!
 
 At this point, we're in contact, and the goal is simply to work out any remaining details.
 
