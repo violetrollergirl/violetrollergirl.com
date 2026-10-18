@@ -9,7 +9,7 @@ featured_image:
   url: images/gallery-originals/privacy-professional-crypto-kitty-girl.jpg
 prev: resources/for-providers/
 next: colophon/
-last_modified: Tue Sep  8 14:54:42 CEST 2026
+last_modified: Sun Oct 18 05:29:37 EDT 2026
 ---
 
 # {{ site.title }}'s Guide to Using Signal Private Messenger in Sex Work
@@ -58,15 +58,15 @@ Signal Private Messenger is free and available for iOS via the App Store and And
 {:.align-center}
 {% include link-as-button.md anchor_text="<span class='icon fa-brands fa-signal-messenger'></span> Get Signal" url="https://signal.org/download/" target="_blank" %}
 
-Once you have Signal installed, open the app on your phone and run through its straightforward [registration process](https://support.signal.org/hc/en-us/articles/360007318691-Register-a-phone-number){:target="_blank"}.
+Once you have Signal installed, open the app on your phone. You can then run through its straightforward [phone number registration process](https://support.signal.org/hc/en-us/articles/360007318691-Register-a-phone-number){:target="_blank"} or, if you don't have or don't want to register a phone number, you can [register a Signal account without a phone number](https://support.signal.org/hc/en-us/articles/11197884108826-Phone-Numberless-Registration-for-Android-beta){:target="_blank"}.
 
 ### Getting multiple Signal profiles
 
-When using Signal, each distinct installation of the app gets associated with a single registered number and its own Signal profile. This means your Signal account must refer to a single work persona.
+When using Signal, each distinct installation of the app gets its own Signal profile. This means your Signal account must refer to a single work persona.
 
-If you only have one work persona and only use Signal for work, this isn't a problem. But if you have, say, a GFE persona and a pro-domme or massage persona, or you want to maintain separate personal and work Signal profiles, you may need multiple Signal installations. You'll also need multiple SMS-capable phone numbers.
+If you only have one work persona and only use Signal for work, this isn't a problem. But if you have, say, a GFE persona and a pro-domme or massage persona, or you want to maintain separate personal and work Signal profiles, you may need multiple Signal installations.
 
-You can use any number for Signal, including numbers obtained via burner, VoIP, or free texting apps, so long as the number you're using isn't already associated with a Signal account. You can also choose to keep this number hidden from other Signal users so that no one contacting you via Signal knows your number. That said, allowing clients to find your Signal account via your work phone number may actually be useful for you as a provider.
+Each Signal account can also optionally be associated with a single phone number. That means you'll need multiple SMS-capable phone numbers if you want multiple accounts associated with phone numbers. You can use any number for Signal, including numbers obtained via burner, VoIP, or free texting apps, so long as the number you're using isn't already associated with a Signal account. You can also choose to keep this number hidden from other Signal users so that no one contacting you via Signal knows your number. That said, allowing clients to find your Signal account via your work phone number may actually be useful for you as a provider.
 
 It doesn't particularly matter how you acquire a second SMS/texting number, as long as you can retain access to it for the lifetime of your second Signal account. I like [JMP.chat](https://jmp.chat/){:target="_blank"} and [Phreeli.com](https://phreeli.com/){:target="_blank"} because both of these options allow me to [pay for another phone line in cryptocurrency]({% link resources/for-providers/using-cryptocurrency/off-ramping/index.md %}#buying-voip-phone-services-with-cryptocurrency).
 
@@ -98,9 +98,9 @@ My recommendations:
 
 ## Keeping your Signal phone number private
 
-If you are using a dedicated phone for work and you want clients to be able to find your Signal profile from your publicly listed work phone number, you can ignore this section. However, if you have a personal Signal profile or you simply desire to keep your Signal phone number secret, as I do, then you should [ensure your phone number is never shared with your Signal contacts](https://support.signal.org/hc/en-us/articles/6712070553754-Phone-Number-Privacy-and-Usernames#pnp_settings){:target="_blank"}.
+If you are using a dedicated phone for work and you want clients to be able to find your Signal profile from your publicly listed work phone number, you can ignore this section. However, if you have a personal Signal profile or you simply desire to keep your account's Signal phone number secret, as I do with my personal Signal accounts, then you should [ensure your phone number is never shared with your Signal contacts](https://support.signal.org/hc/en-us/articles/6712070553754-Phone-Number-Privacy-and-Usernames#pnp_settings){:target="_blank"}.
 
-When you do this, you also must [create a Signal username](#setting-your-signal-username) (described next) so that other Signal users can start a conversation with you. This is how I've set up my work Signal profile, so that clients who read my [Contact](#contact) page have [a Signal link they can click]({% link contact/link/signal/index.md %}) to connect with me, via my Signal username.
+When you do this, you should also [create a Signal username](#setting-your-signal-username) (described next) so that other Signal users can start a conversation with you. (Otherwise, only you can start new conversations, as no one else can reach out to you without you reaching out to them, first.) This is how I've set up my work Signal profile, so that clients who read my [Contact](#contact) page have [a Signal link they can click]({% link contact/link/signal/index.md %}) to connect with me, via my Signal username.
 
 My recommendations:
 
