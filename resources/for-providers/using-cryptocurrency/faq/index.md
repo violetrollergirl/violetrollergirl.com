@@ -56,7 +56,7 @@ If you are already familiar with the way physical cash works, then you know enou
 
 Using cryptocurrency *correctly* gives you the benefits, conveniences, and rewards of electronic transactions while *also* keeping the same safety, privacy, and financial protections of using physical cash. That's why cryptocurrency can be such a powerful tool for your business and livelihood when you get good with it as a worker in this industry.
 
-If you're a veteran sex worker, you probably have a healthy skepticism about the motivations of banks and other institutions that hold on to your money for you. If you're newer, you may have heard stories from others who have [experiened financial discrimination or been outright debanked](#i-dont-really-need-to-keep-my-finances-private-do-i). Perhaps this is why you currently prefer dealing with physical cash.
+If you're a veteran sex worker, you probably have a healthy skepticism about the motivations of banks and other institutions that hold on to your money for you. If you're newer, you may have heard stories from others who have [experienced financial discrimination or been outright debanked](#i-dont-really-need-to-keep-my-finances-private-do-i). Perhaps this is why you currently prefer dealing with physical cash.
 
 Cryptocurrency is rare in that it can literally be the best of both physical and electronic finance.
 
