@@ -32,4 +32,4 @@ It's okay if you're not ready to commit to a longer or travel date with me. We c
 
 {% include availability-minimums.html %}
 
-Meanwhile, you can [subscribe to my newsletter]({% link contact/newsletter/index.md %}) or [subscribe to my travel calendar]({% include calendar-subscribe-google.url calendar_id=site.data.tours.gcal_id %}) in your Google Calendar. This way, you can get notifications of when I'll be in a new city.
+Meanwhile, you can [subscribe to my newsletter]({% link contact/newsletter/index.md %}) or [subscribe to my travel calendar]({% link tours/calendar/subscribe/index.md %}) in your calendar software. This way, you can get notifications of when I'll be in a new city.
