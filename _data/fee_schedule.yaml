@@ -83,6 +83,19 @@
     src: images/gallery-resized/red-lingerie-on-white-background.jpg
     alt:
   items:
+    - name: Overnight (~14 hours)
+      rate: "3,500"
+      details: |-
+        Perfect for wake-up snuggles, with an evening full of cuddles or sprinkled with light fetishes like spanking and modest restraints the night before.
+
+        * 50% discount off my hourly rate.
+        * Requires shared meal, and beauty sleep.
+    - name: 8 hours
+      rate: "2,800"
+      duration_in_hours: 8
+      details: |-
+        * 30% off.
+        * Requires an outing and a shared meal.
     - name: 6 hours
       rate: "2,100"
       duration_in_hours: 6
@@ -120,13 +133,6 @@
 
         * Discounted rates available for longer bookings as shown.
         * Does not include incall fee or transportation cost.
-    - name: Overnight (~14 hours)
-      rate: "3,500"
-      details: |-
-        Perfect for an evening full of cuddles, or sprinkled with light fetishes like spanking and modest restraints.
-
-        * 50% discount off my hourly rate.
-        * Requires shared meal, and beauty sleep.
     - name: Multi-day Getaways
       rate: Request a quote
       currency: " "
