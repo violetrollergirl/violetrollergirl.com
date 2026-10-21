@@ -295,30 +295,42 @@ My recommendations:
 
 ### Third-party Signal Safety Number verification
 
-One very advanced but very slick thing you can do with Signal Safety Numbers is called a *third-party verification*.
+There are a number of situations where you want to ensure that you're talking to the same Signal account someone else is before you actually meet them yourself.
 
-There are a number of situations where you want to ensure that you're talking to the same Signal account someone else is before you actually meet them yourself. For example, you and a client are setting up a [duo or double date with another provider]({% link friends/index.md %}) who also uses Signal, but only your client has actually met the other provider. Signal Safety Numbers make it possible for you to positively identify the other party when they message you with as much trust as you have for your mutual client.
+For example, you and a client are setting up a [duo or double date with another provider]({% link friends/index.md %}) who also uses Signal, but only your client has actually met the other provider. Signal Safety Numbers make it possible for you to positively identify the other provider when they message you, and with as much trust as you have for your mutual client.
 
-While Signal Safety Numbers are unique for every one-to-one conversation, they are not conventional fingerprinting codes. Instead, they are simply concatenations of your Signal account ID and the other party's Signal account ID. This means exactly one-half of *every* Signal Safety Number you see will be the same as every other. That half is actually your Signal account's fingerprint! The other half of each of those Safety Numbers is the other party's Signal account's fingerprint.
+This is a very slick thing you can do with Signal Safety Numbers and it's called a *third-party verification*.
 
-For example, when you send me a Signal message to [my (non-booking) Signal account]({% link contact/link/signal-other/index.md %}), exactly half of the Signal Safety Number of our conversation will be:
+While Signal Safety Numbers are unique for every one-to-one conversation, they are not conventional fingerprinting codes (called "hashes," in cryptography parlance). Instead, they are simply concatenations of your Signal account ID and the other party's Signal account ID. This means exactly one-half of *every* Signal Safety Number you see will be the same as every other. That half is actually your Signal account's fingerprint! The other half of each of those Safety Numbers is the other party's Signal account's fingerprint.
+
+For example, when you send me a Signal message to [my (general purpose) Signal account]({% link contact/link/signal-other/index.md %}), exactly half of the Signal Safety Number of our conversation will be:
 
     {{ site.contact.signal.safetyid }}
 
-It doesn't matter whether that'll be the first half or second half of our Safety Number. As long as *exactly half* of our conversation's Safety Number matches that number, you know you've reached my Signal account.
+Meanwhile, if you do the same to [my dedicated booking inquiry/client intake Signal account]({% link contact/link/signal/index.md %}), exactly half of the Signal Safety Number of our conversation will be:
+
+    {{ site.booking.signal.safetyid }}
+
+This means the Signal Safety Number that I see when I send messages from one of my Signal accounts to the other is:
+
+    {{ site.contact.signal.safetyid }} {{ site.booking.signal.safetyid }}
+
+It doesn't matter which account's fingerprint is positioned in the first half or second half of the conversation's Safety Number. The point is simply that it's there, and matches with exactly one half.
+
+Try this yourself by sending me a message or submitting my [booking form]({% link contact/booking/inquiry-form/index.md %}). (I really won't mind. Just make sure you clearly identify your purpose as a Safety Number test and not a real inquiry when sending your message, please!) As long as *exactly half* of the conversation's Safety Number matches, you know you've reached my Signal account.
 
 Now that you know this, you can compare the Safety Number of anyone's conversation with anyone else to see whether or not you are also talking to one of those same accounts.
 
-For example, say your client is setting up a duo with you and another provider who uses Signal. Ask your client to share with you the Safety Number of their conversation with the other provider, and your Signal contact info with the other provider. Eventually, you'll receive a message claiming to be another provider. Since you have previously noted the Safety Number of the other provider's conversation with your client, you simply need to confirm that exactly half of the Safety Number of *your* conversation with the person who messaged you matches exactly half of the Safety Number your client sent you.
+For example, say your client is setting up a duo with you and another provider who uses Signal. Ask your client to share with you the Safety Number of their conversation with the other provider, and your Signal contact info with the other provider. Eventually, you'll receive a message claiming to be from the other provider. Since you have previously noted the Safety Number of the other provider's conversation with your client, you simply need to confirm that exactly half of the Safety Number of *your* conversation with the person who messaged you matches exactly half of the Safety Number your client sent you.
 
 If they match, even if the match is not in the same position (first half or second half), then you know you and your client are speaking with the same second provider.
 
 My recommendations:
 
-- If it's socially appropriate, an easier way to do this is to just make a Signal group chat and invite all the relevant parties to the group.
-  - Once you are in person, verify your Safety Number with the new-to-you person as described above.
-- Otherwise, always ask for the Signal Safety Number of the other person's conversation with the new person and use that to verify that incoming messages you receive claiming to be that person match the account messages should be coming from.
+- If it's socially appropriate, an easier way to do this is to just make a [Signal group chat](https://support.signal.org/hc/en-us/articles/360007319331-Group-chats){:target="_blank"} and invite all the relevant parties to the group.
+- Otherwise, always ask for the Signal Safety Number of the other person's conversation with the new person and use that to verify incoming messages you receive claiming to be that person match the account the messages should be coming from.
   - Never blindly trust that an incoming message is from the person they claim to be; verify your communication through your mutual contact, first.
+- Once you are in person, [verify your Safety Number](#verifying-your-signal-safety-number-with-clients-you-meet) with the new-to-you person as described above because physical proximity is always more trustworthy than third-party verification.
 
 ## Using Signal to share photos and media
 
