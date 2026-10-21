@@ -29,6 +29,9 @@ include:
 # Contact details and booking templates.
 ###
 booking:
+  rates:
+    currency: USD
+    currency_symbol: $
   ai_concierge:
     name: Rose
     telegram: https://t.me/blushdeskbot?start=d5590dc9236ddb2e

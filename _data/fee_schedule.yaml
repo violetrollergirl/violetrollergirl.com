@@ -127,13 +127,15 @@
 
         * 50% discount off my hourly rate.
         * Requires shared meal, and beauty sleep.
-    - name: Getaway weekend
-      rate: "5,000"
+    - name: Multi-day Getaways
+      rate: Request a quote
+      currency: " "
+      currency_symbol: " "
       details: |-
-        Party hard, play harder! I'll be all yours for two full days (except for some solo moments to let us freshen up for one another in our mysterious ways), so you can enjoy a weekend escape with me.
+        Party hard, play harder! I'll be all yours for consecutive full days (except for some solo moments to let us freshen up for one another in our mysterious ways), so we can enjoy weekend escapes, travel adventures, or extended stays together.
 
         * Requires outings for some fresh air.
-        * Ask about fly-me-to-you options!
+        * Ask about international or domestic vacations!
 
 - name: Pro-submissive/kinky GFE full service
   id: pro-sub-kinky

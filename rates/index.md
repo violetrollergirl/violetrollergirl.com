@@ -40,7 +40,7 @@ featured_image:
                         {% endif %}
                     </th>
                     <td>
-                        {{ item.currency_symbol | default: "$" }}{{ item.rate }}{{ item.currency | default: "USD" | prepend: " " }}
+                        {{ item.currency_symbol | default: site.booking.rates.currency_symbol }}{{ item.rate }}{{ item.currency | default: site.booking.rates.currency | prepend: " " }}
                         <details name="rate-details">
                             <summary>Details</summary>
                             {{ item.details | markdownify }}

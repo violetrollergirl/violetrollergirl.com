@@ -1,3 +1,3 @@
 ---
-redirect_to: /rates/#rate-gfe-fs-getaway-weekend
+redirect_to: /rates/#rate-gfe-fs-multi-day-getaways
 ---
