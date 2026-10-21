@@ -7,7 +7,7 @@ featured_image:
   alt:
   url: images/gallery-originals/polkadot-outfit-over-a-railing.jpg
 next: resources/for-providers/using-cryptocurrency/primer/
-last_modified: Tue Oct 20 01:27:11 EDT 2026
+last_modified: Wed Oct 21 18:28:50 EDT 2026
 redirect_from:
   - /crypto/faq
   - /crypto/faq/
@@ -221,7 +221,7 @@ Read [convincing clients to pay in crypto]({% link resources/for-providers/using
 Yes. There are two ways to do this. Which one you should use depends on how you make the sale.
 
 - If you are selling *interactively*, i.e., you are [communicating with your buyer in real time]({% link resources/for-providers/signal-for-sex-work/index.md %}#using-signal-to-share-photos-and-media) such as via text, voice, or video chat, simply use your existing wallet app the same way you would to [receive any other person-to-person payment](#how-do-i-receive-cryptocurrency-when-someone-wants-to-send-me-some).
-- If you are selling *non-interactively*, i.e., you have published a web store with products in a catalog such as with Shopify or WordPress WooCommerce and want or need your website to handle the checkout process for you, you'll need to use cryptocurrency "payment processors" such as [BTCPayServer](https://btcpayserver.org/){:target="_blank"} or [CipherPay.app](https://cipherpay.app){:target="_blank"}.
+- If you are selling *non-interactively*, i.e., you have published a web store with products in a catalog such as with Shopify or WordPress WooCommerce and want or need your website to handle the checkout process for you, you'll need to use cryptocurrency "payment processors" such as [BTCPayServer](https://btcpayserver.org/){:target="_blank"} or, preferably, [CipherPay.app](https://cipherpay.app){:target="_blank"}, which settles transactions into shielded Zcash regardless of which cryptocurrency your client chooses to pay you in.
 
 There are also format-specific solutions, such as [LiveZEC](https://zec.live/){:target="_blank"} for streamers.
 
