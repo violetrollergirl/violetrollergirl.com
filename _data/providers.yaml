@@ -148,6 +148,14 @@
       accepted: true
     ZEC:
       accepted: false
+- name: Lozenge
+  url: https://DateLozenge.com
+  home_city: San Francisco, CA, USA
+  deposit_methods:
+    ZEC:
+      accepted: true
+      proof_url: https://DateLozenge.com/etiquette
+      proof_img: resources/for-clients/using-cryptocurrency/finding-providers/zcash-proof-images/datelozenge.com.png
 - name: Maddy Foxglove
   url: https://campsite.bio/maddyfoxglove
   home_city: San Francisco, CA, USA
