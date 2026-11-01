@@ -16,6 +16,15 @@
       accepted: true
     cash:
       accepted: true
+- name: Aiko Chimera
+  url: https://AikoChimera.com
+  photo:
+  home_city: Chicago, IL, USA
+  deposit_methods:
+    ZEC:
+      accepted: true
+      proof_url: https://aikochimera.com/rates
+      proof_img: resources/for-clients/using-cryptocurrency/finding-providers/zcash-proof-images/aikochimera.com.png
 - name: Alex Harlowe
   url: https://linktr.ee/alexharlowe
   photo:
