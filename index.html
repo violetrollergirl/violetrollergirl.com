@@ -5,3 +5,21 @@ layout: default
 {% comment %}
 The main index/homepage is actually the gallery content.
 {% endcomment %}
+
+<div style="
+	position: fixed;
+	top: 6em;
+	left: 50%;
+    transform: translateX(-50%);
+	width: 85vw;
+	z-index: 9999;
+	background: rgba(5,5,5,.5);
+	padding: 20px;
+	border-radius: 30px;
+">
+    <p class="button-container" style="margin-bottom: 0;">
+        <a href="{% link about/index.md %}" class="button">About</a>
+        <a href="{% link rates/index.md  %}" class="button">Rates</a>
+        <a href="#navpanel" class="button">More&hellip;</a>
+    </p>
+</div>
