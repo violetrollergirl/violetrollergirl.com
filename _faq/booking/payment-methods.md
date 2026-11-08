@@ -22,6 +22,7 @@ Here are payment methods I accept and whether you can use them for only the rese
 | <span class="icon fa-solid fa-money-bills"></span> Paper money, cash | <span class="icon fa-solid fa-xmark"></span> No | <span class="icon fa-solid fa-check"></span> Yes | Please check for counterfeit bills; I do. |
 | [<span class="icon fa-brands fa-cash-app"></span> CashApp]({% link resources/for-clients/using-cryptocurrency/cashapp/index.md %}){:#cashapp} | <span class="icon fa-solid fa-check"></span> Only <a href="{% link resources/for-clients/using-cryptocurrency/cashapp/index.md %}#send-usdc-from-cashapp">via crypto</a> | <span class="icon fa-solid fa-check"></span> Only <a href="{% link resources/for-clients/using-cryptocurrency/cashapp/index.md %}#send-usdc-from-cashapp">via crypto</a> | <span class="icon fa-brands fa-btc"></span> Bitcoin, <img style="height: 1.5em; vertical-align: center" src="{% link images/logo.usdc.svg %}" alt="" /> USDC |
 | [<span class="icon fa-brands fa-paypal"></span> PayPal]({% link resources/for-clients/using-cryptocurrency/paypal/index.md %}){:#paypal} | <span class="icon fa-solid fa-check"></span> Only via crypto | <span class="icon fa-solid fa-check"></span> Only via crypto | <span class="icon fa-brands fa-btc"></span> Bitcoin, <span class="icon fa-brands fa-ethereum"></span> Ethereum, <span class="icon fa-brands fa-litecoin-sign"></span> Litecoin |
+| [![]({% link images/logo.peanut.favicon.ico %}){:style="width:1em;"} Peanut]({% link resources/for-clients/using-cryptocurrency/peanut/index.md %}){:#peanut} | <span class="icon fa-solid fa-check-double"></span> Yes | <span class="icon fa-solid fa-check"></span> Only [via crypto]({% link resources/for-clients/using-cryptocurrency/peanut/index.md %}#send-crypto-via-peanut) | <span class="icon fa-brands fa-ethereum"></span> Ethereum, <img style="height: 1.5em; vertical-align: center" src="{% link images/logo.usdc.svg %}" alt="" /> USDC |
 | [<span class="icon fa-brands fa-v"></span> Venmo]({% link resources/for-clients/using-cryptocurrency/venmo/index.md %}){:#venmo} | <span class="icon fa-solid fa-check"></span> Only via crypto | <span class="icon fa-solid fa-check"></span> Only via crypto | <span class="icon fa-brands fa-btc"></span> Bitcoin, <span class="icon fa-brands fa-ethereum"></span> Ethereum, <span class="icon fa-brands fa-litecoin-sign"></span> Litecoin |
 
 </div><!-- .table-wrapper -->
@@ -47,6 +48,7 @@ To make that easy for you, I've published detailed [cryptocurrency payment guide
 {:.fa-ul}
 - [<span class="fa-li fa-brands fa-cash-app"></span> CashApp]({% link resources/for-clients/using-cryptocurrency/cashapp/index.md %})
 - [<span class="fa-li fa-brands fa-paypal"></span> PayPal]({% link resources/for-clients/using-cryptocurrency/paypal/index.md %})
+- [![]({% link images/logo.peanut.favicon.ico %}){:style="width:1em;"} Peanut]({% link resources/for-clients/using-cryptocurrency/peanut/index.md %})
 - [<span class="fa-li fa-brands fa-v"></span> Venmo]({% link resources/for-clients/using-cryptocurrency/venmo/index.md %})
 
 If for some reason you cannot use these app's crypto options, I also accept:

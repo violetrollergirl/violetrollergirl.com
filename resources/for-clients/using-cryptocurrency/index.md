@@ -30,6 +30,7 @@ Cryptocurrency is becoming increasingly popular with both providers and our clie
     1. ["I already use a digital payment app."](#i-already-use-a-digital-payment-app)
         - [<span class="icon fa-brands fa-cash-app"></span> CashApp]({% link resources/for-clients/using-cryptocurrency/cashapp/index.md %}#send-usdc-from-cashapp)
         - [<span class="icon fa-brands fa-paypal"></span> PayPal]({% link resources/for-clients/using-cryptocurrency/paypal/index.md %}#complete-your-crypto-purchase-via-paypal)
+        - [![]({% link images/logo.peanut.favicon.ico %}){:style="width:1em;"} Peanut]({% link resources/for-clients/using-cryptocurrency/peanut/index.md %})
         - [<span class="icon fa-brands fa-v"></span> Venmo]({% link resources/for-clients/using-cryptocurrency/venmo/index.md %}#complete-your-crypto-purchase-via-venmo)
     1. ["I have an account at a cryptocurrency exchange."](#i-have-an-account-at-a-cryptocurrency-exchange)
         - [Coinbase]({% link resources/for-clients/using-cryptocurrency/coinbase/index.md %}#complete-your-crypto-purchase-via-coinbase)
@@ -83,6 +84,7 @@ No stress! Start at my ["Quick(est) Start"]({% link resources/for-clients/using-
 {:.fa-ul}
 - [<span class="fa-li fa-brands fa-cash-app"></span> CashApp]({% link resources/for-clients/using-cryptocurrency/cashapp/index.md %}#send-usdc-from-cashapp)
 - [<span class="fa-li fa-brands fa-paypal"></span> PayPal]({% link resources/for-clients/using-cryptocurrency/paypal/index.md %}#complete-your-crypto-purchase-via-paypal)
+- [![]({% link images/logo.peanut.favicon.ico %}){:style="width:1em;"} Peanut]({% link resources/for-clients/using-cryptocurrency/peanut/index.md %})
 - [<span class="fa-li fa-brands fa-v"></span> Venmo]({% link resources/for-clients/using-cryptocurrency/venmo/index.md %}#complete-your-crypto-purchase-via-venmo)
 
 ### "I have an account at a cryptocurrency exchange."

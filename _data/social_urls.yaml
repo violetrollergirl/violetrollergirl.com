@@ -26,6 +26,12 @@
     url: https://www.getmonero.org/get-started/what-is-monero/
     description: |
       <div id="links-monero-qrcode" class="qrcode-container" data-qrdata="monero:8AtoQWkqUouCGuYVZm9XFaK2xXm36PAG7i9jD7hHojwwKnJc6tezsvojdak85jFBYfGdWuLYFEn8Mb9zTdeUWUQyBCiJctG?recipient_name=Violet%20Rollergirl" />
+  - label: Peanut
+    title: Peanut
+    svg: images/logo.peanut.jpg
+    url: https://peanut.me/pay/rollergirlvi
+    description: |
+      <div id="links-peanut-qrcode" class="qrcode-container" data-qrdata="https://peanut.me/pay/rollergirlvi" />
   #- label: CashApp
   #  title: CashApp
   #  icon: dollar-sign
