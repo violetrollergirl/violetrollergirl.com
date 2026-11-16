@@ -64,7 +64,10 @@ featured_image:
     <a href="{% link gallery/index.md %}" class="button"><span class="icon fa-solid fa-images"></span> View Gallery</a>
 </p>
 <div class="inner split">
-    <h2 id="policies">Policies</h2>
+    <div>
+        <h2 id="policies">Policies</h2>
+        <img src="{% link images/gallery-originals/at-window-sill-in-panties-looking-at-chicago-skyline.webp %}" alt="" />
+    </div>
     <div>
         <h3 id="deposit-policy">Deposit Policy (<a href="{% link _faq/booking/what-is-a-deposit.md %}"><span class="icon fa-solid fa-circle-question"></span> What's a deposit?</a>)</h3>
         {% include policy-deposit.html %}

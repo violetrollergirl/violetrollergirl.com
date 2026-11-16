@@ -7,7 +7,7 @@ prev: resources/for-clients/booking-guide/
 next: resources/for-clients/messaging-discreetly/
 featured_image:
   alt:
-  url: images/gallery-originals/jungle-princess.jpg
+  url: images/gallery-originals/poolside-lounging-in-mumbai-wearing-bikini.webp
 last_modified: Tue Sep 29 04:33:00 EDT 2026
 ---
 
