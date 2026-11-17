@@ -16,13 +16,13 @@
     alt: Violet Rollergirl lounges in a bikini at the side of a pool in a tropical villa.
   items:
     - name: Cuddle date
-      rate: 250
+      rate: 300
       service_type: cuddling services
       duration_in_hours: 1
       details: |-
         Big spoon, little spoon, or both? Clothing optional touch without expectation or pressure for more.
     - name: Social-only date
-      rate: 200
+      rate: 250
       booking_type: a social-only date
       screening_method: a deposit for a social date at a public venue
       duration_in_hours: 1
@@ -33,7 +33,7 @@
         * Meeting this way can also serve as your [(pre-)screening option](#screening-options).
         * Does not include transportation or activity cost.
     - name: Video date
-      rate: 200
+      rate: 250
       booking_type: a virtual video date
       location: a remote location
       duration_in_hours: 1
@@ -41,12 +41,12 @@
         Virtual tryst over private video chat via <a href="https://signal.org/"><span class="icon fa-brands fa-signal-messenger"></span> Signal Private Messenger</a> or <a href="https://whatsapp.com/"><span class="icon fa-brands fa-whatsapp"></span> WhatsApp</a>.
 
         * Rate shown is per hour.
-    - name: Curiosity call (30 minutes)
+    - name: Curiosity call (15 minutes)
       rate: 60
       booking_type: a curiosity call
       duration_in_hours: .5
       details: |-
-        Friendly, casual audio call to help you decide whether you'd like to book an in-person session, prepare for our date by chatting, discussing any logistics, or simply to quell any concerns.
+        Friendly, casual video or audio call to help you decide whether you'd like to book an in-person session, prepare for our date by chatting, discussing any logistics, or simply to quell any concerns.
 
         * For first-time clients, the price of this call can be applied towards your deposit if you book within one (1) month.
     - name: Video vibe check (10 minutes)
@@ -84,49 +84,49 @@
     alt:
   items:
     - name: Overnight (~14 hours)
-      rate: "3,500"
+      rate: "4,900"
       details: |-
         Perfect for wake-up snuggles, with an evening full of cuddles or sprinkled with light fetishes like spanking and modest restraints the night before.
 
         * 50% discount off my hourly rate.
         * Requires shared meal, and beauty sleep.
     - name: 8 hours
-      rate: "2,800"
+      rate: "3,920"
       duration_in_hours: 8
       details: |-
         * 30% off.
         * Requires an outing and a shared meal.
     - name: 6 hours
-      rate: "2,100"
+      rate: "2,940"
       duration_in_hours: 6
       details: |-
         * 30% off.
         * Requires shared meal.
     - name: 4 hours
-      rate: "1,500"
+      rate: "2,100"
       duration_in_hours: 4
       details: |-
         * 25% off.
     - name: 3 hours
-      rate: "1,200"
+      rate: "1,680"
       duration_in_hours: 3
       details: |-
         * 20% off.
         * Minimum required for travel outside [my home cities](#tech-spec-home-cities) when not touring.
     - name: 2 hours
-      rate: 875
+      rate: "1,225"
       duration_in_hours: 2
       details: |-
         * 12.5% off.
         * Most popular.
     - name: 90 minutes
-      rate: 700
+      rate: 950
       duration_in_hours: 1.5
       details: |-
         * 6.67% off.
         * Recommended minimum.
     - name: 1 hour
-      rate: 500
+      rate: 700
       duration_in_hours: 1
       details: |-
         Dedicated playdate.
@@ -151,7 +151,7 @@
   items:
     - name: 3 hours
       duration_in_hours: 3
-      rate: "1,680"
+      rate: "2,160"
       details: |-
         Dive deep into your darkest dominant indulgences and see me at my most submissive.
 
@@ -159,7 +159,7 @@
         * Requires time for warmup and cool down/after care.
     - name: 2 hours
       duration_in_hours: 2
-      rate: "1,225"
+      rate: "1,584"
       details: |-
         Explore your dominant desires.
 
@@ -167,7 +167,7 @@
         * Recommended minimum.
     - name: 1 hour
       duration_in_hours: 1
-      rate: 700
+      rate: 900
       details: |-
         Taste test my submissive side.
 
