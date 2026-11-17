@@ -94,7 +94,7 @@ There are probably others, so ask your crush if these are not relevant to the tw
 
 Signal is created and maintained by a non-profit called the [Signal Foundation](https://signalfoundation.org/){:target="_blank"}, which can *always* use more support.
 
-When you [donate to Signal](https://signal.org/donate/), you're not only indirectly supporting me, you're also supporting freedom of speech and individual liberties and lowercase-d democratic movements worldwide. You can support Signal with a donation from within the app itself, but you can also [donate cryptocurrency to Signal](https://signal.org/donate/) on their website!
+When you [donate to Signal](https://signal.org/donate/){:target="_blank"}, you're not only indirectly supporting me, you're also supporting freedom of speech and individual liberties and lowercase-d democratic movements worldwide. You can support Signal with a donation from within the app itself, but you can also [donate cryptocurrency to Signal](https://signal.org/donate/){:target="_blank"} on their website!
 
 {:.align-center}
 [![Screenshot of the donation screen on the Signal.org website.]({% link resources/for-clients/using-cryptocurrency/off-ramping/screenshot.signal.donate.png %})](https://signal.org/donate/ "Make a donation to Signal Private Messenger."){:target="_blank"}
