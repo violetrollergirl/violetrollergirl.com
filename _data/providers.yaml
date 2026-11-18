@@ -94,11 +94,21 @@
 - name: Doll Aki
   url: https://DollAki.com
   photo:
+  home_city: Vancouver, BC, Canada
   deposit_methods:
     ZEC:
       accepted: true
       proof_url: https://DollAki.com/booking-1
       proof_img: resources/for-clients/using-cryptocurrency/finding-providers/zcash-proof-images/dollaki.com.png
+- name: Elena Marchetti
+  url: https://MeetElenaMarchetti.com
+  photo:
+  home_city: Chicago, IL, USA
+  deposit_methods:
+    ZEC:
+      accepted: true
+      proof_url: https://meetelenamarchetti.com/how-to-use-cryptocurrency-to-pay-your-escort
+      proof_img: resources/for-clients/using-cryptocurrency/finding-providers/zcash-proof-images/meetelenemarchetti.com.png
 - name: Eve Vel
   url: https://EveVel.love
   photo:
