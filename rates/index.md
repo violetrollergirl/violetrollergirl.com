@@ -11,7 +11,7 @@ featured_image:
     <h2 id="rates-and-policies">Rates and <a href="#policies">Policies</a></h2>
     <h3>Customize your order</h3>
 </header>
-<p>I offer <a href="#rates-add-ons-and-online">social-only or virtual (online)</a>, <a href="#rates-gfe-fs"><abbr title="Girlfriend Experience">GFE</abbr></a>, and <a href="#rates-pro-sub-kinky">pro-submissive/kinky GFE</a> companionship.</p>
+<p>I offer <a href="#rates-add-ons-and-online">social-only or virtual (online)</a>, <a href="#rates-gfe-fs"><abbr title="Girlfriend Experience">GFE</abbr></a>, and <a href="#rates-pro-sub-kinky">pro-submissive/kinky GFE</a> companionship. I also sometimes offer Cost-of-Living (COL) rate matching while on tour; please ask for this adjustment when inquiring and be ready to show proof of residency.</p>
 <p class="button-container">
     <a href="#rates-add-ons-and-online" class="button"><span class="icon fa-solid fa-coffee"></span> Social &amp; Virtual rates</a>
     <a href="#rates-gfe-fs" class="button"><span class="icon fa-solid fa-venus"></span> GFE FS rates</a>
