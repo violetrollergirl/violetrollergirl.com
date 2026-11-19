@@ -11,7 +11,7 @@ featured_image:
     <h2 id="rates-and-policies">Rates and <a href="#policies">Policies</a></h2>
     <h3>Customize your order</h3>
 </header>
-<p>I offer <a href="#rates-add-ons-and-online">social-only or virtual (online)</a>, <a href="#rates-gfe-fs"><abbr title="Girlfriend Experience">GFE</abbr></a>, and <a href="#rates-pro-sub-kinky">pro-submissive/kinky GFE</a> companionship. I also sometimes offer Cost-of-Living (COL) rate matching while on tour; please ask for this adjustment when inquiring and be ready to show proof of residency.</p>
+<p>I offer <a href="#rates-add-ons-and-online">social-only or virtual (online)</a>, <a href="#rates-gfe-fs">traditional <abbr title="Girlfriend Experience">GFE</abbr></a>, and <a href="#rates-pro-sub-kinky">pro-submissive/kinky GFE</a> companionship. Rates shown here are for my <a href="{% link about/tech-spec/home-cities/index.md %}">home city</a>. I may offer Cost-of-Living (COL) rate adjustments while <a href="{% link tours/index.html %}">touring</a>; please ask about this when inquiring, and be ready to show me proof of residency during <a href="{% link _faq/screening/screening-process.md %}" title="Learn about {{ site.title }}'s safety screening process.">safety screening</a>.</p>
 <p class="button-container">
     <a href="#rates-add-ons-and-online" class="button"><span class="icon fa-solid fa-coffee"></span> Social &amp; Virtual rates</a>
     <a href="#rates-gfe-fs" class="button"><span class="icon fa-solid fa-venus"></span> GFE FS rates</a>
@@ -59,7 +59,7 @@ featured_image:
 <p>My rates for <a href="#incall-availability">incalls</a> and <a href="#outcall-availability">outcalls</a> are the same. An additional incall fee <em>may</em> apply at some of my incall locations or to cover <a href="#hotel-arrangements">hotel arrangements</a>. As transportation costs for outcalls vary greatly, they are also not included in the fee schedule.</p>
 <p>Each in-date extension equals my base hourly rate for the booked service (e.g., <a href="#rate-gfe-fs-1-hour">1 hour</a>). Please <a href="{% link contact/index.html %}">inquire</a> about rates for <a href="#links-group-socials-amp-content">content shoots or collaborations</a>, longer multi-day dates, travel to/with you (&ldquo;<acronym title="Train-Me-To-You">TMTY</acronym>/<acronym title="Fly-Me-To-You">FMTY</acronym>&rdquo;) bookings, or ongoing arrangements. I accept numerous <a href="{% link _faq/booking/payment-methods.md %}">payment methods</a>.</p>
 <p class="button-container">
-    <a href="#tours" class="button"><span class="icon fa-solid fa-calendar-check"></span> Check Availability</a>
+    <a href="{% link tours/index.html %}" class="button"><span class="icon fa-solid fa-calendar-check"></span> Check Availability</a>
     <a href="{% link contact/index.html %}" class="button"><span class="icon fa-solid fa-pen-nib"></span> Ready to book?</a>
     <a href="{% link gallery/index.md %}" class="button"><span class="icon fa-solid fa-images"></span> View Gallery</a>
 </p>
