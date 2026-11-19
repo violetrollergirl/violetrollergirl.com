@@ -43,13 +43,6 @@
   description: >
     Places you can find, follow, or fap to me online.
   items:
-  - title: Blog
-    label: Blog
-    icon: blog
-    url: /blog/
-    description: >
-      Read my blog, *The Hacking Hooker*, for my long-form
-      reflections on hacking, hooking, tradecraft, and skincraft.
   - title: Bluesky
     label: Bluesky
     icon: bluesky
@@ -57,6 +50,13 @@
     description: >
       The freer X/Twitter alternative.
       (You'll want to [enable NSFW content](https://fedica.com/blog/bluesky-adult-content-nsfw/ "Learn how to disable adult and erotic content moderation on Bluesky."){:target="_blank"}, trust me.)
+  - title: Blog
+    label: Blog
+    icon: blog
+    url: /blog/
+    description: >
+      Read my blog, *The Hacking Hooker*, for my long-form
+      reflections on hacking, hooking, tradecraft, and skincraft.
   - title: OnlyFans
     label: OnlyFans
     svg: images/logo.onlyfans.svg
