@@ -36,7 +36,7 @@ featured_image:
                             data-booking-inquiry-prospect-duration="{{ item.duration_in_hours }}"
                             data-booking-inquiry-prospect-location="{{ item.location }}">Reserve now</a>
                         {% else %}
-                        <a href="#contact">Inquire now</a>
+                        <a href="{% link resources/for-clients/booking-guide/index.md %}#meet-me">Inquire now</a>
                         {% endif %}
                     </th>
                     <td>
