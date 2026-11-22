@@ -25,7 +25,7 @@ This template renders a single duo partner's (Microformat'ed) h-card.
             title="{{ include.partner.name }}&rsquo;s {{ url.anchor_text }}"
             target="_blank"
         >
-            <span class="fa-solid fa-{{ url.icon | default: "globe" }}"></span> {{ url.anchor_text | default: "Website" }}
+            <span class="fa-solid{% for class in url.classes %} {{ class }}{% endfor %} fa-{{ url.icon | default: "globe" }}"></span> {{ url.anchor_text | default: "Website" }}
         </a>
     {% endfor %}
     </p>
