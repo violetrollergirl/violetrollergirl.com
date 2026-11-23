@@ -1,8 +1,9 @@
 ---
 title: Cybersecurity Consultations for Providers
 description: >
-  For fellow sex workers, Violet offers specialized, 1-on-1
-  cybersecurity and financial privacy consultations at sliding scale rates.
+  Don't ask a tech bro about digital security. Ask a hooker.
+  Violet offers specialized, 1-on-1 cybersecurity and
+  financial privacy consultations for fellow sex workers.
 featured_image:
   alt:
   url: images/gallery-originals/upskirt-in-car-with-laptop-stickers.jpg
@@ -11,16 +12,14 @@ redirect_from:
   - /consulting/
   - /consulting/for-providers
   - /consulting/for-providers/
-last_modified: Mon Aug 24 02:38:44 EDT 2026
+last_modified: Mon Nov 23 12:46:02 EST 2026
 ---
 
 # Cybersecurity Consultations: Digital Safety and Online Privacy for Sex Workers
 
-> [Don't ask a tech bro about digital security. Ask a hooker.](https://bsky.app/profile/violetrollergirl.com/post/3ldbm5hhtis2f){:target="_blank"}
+> <big style="font-size: 125%;">[Don't ask a tech bro about digital security. Ask a hooker.](https://bsky.app/profile/violetrollergirl.com/post/3ldbm5hhtis2f){:target="_blank"}</big>
 
-Hi there! If you're reading this page, you've probably been steered here by a friend, colleague, or directly by me to learn more about my highly personalized cybersecurity consultations for fellow sex workers.
-
-I offer this service as an extension of my [free articles, guides, and other resources for providers]({% link resources/for-providers/index.md %}) and am happy to do so at a sliding scale rate for colleagues in the industry. As a result, this part of my website is a little bit hidden, but not secret.
+Hi there! Maybe you've been steered here by a friend, colleague, or directly by me to learn more about my highly personalized cybersecurity consultations for fellow sex workers. I offer this service as an extension of my [free articles, guides, and other resources for providers]({% link resources/for-providers/index.md %}) and am happy to do so at a sliding scale rate for colleagues in the industry.
 
 ## On this page
 
