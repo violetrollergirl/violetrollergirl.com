@@ -11,11 +11,6 @@ featured_image:
     cryptocurrency slogan, "Come and take it!"
   url: images/gallery-originals/come-and-take-it-t-shirt-in-all-black.jpg
 last_modified: Wed Sep 30 17:40:19 EDT 2026
-redirect_from:
-  - /crypto
-  - /crypto/
-  - /zcash
-  - /zcash/
 ---
 
 # {{ site.title }}'s Resources for Providers Using Cryptocurrency
