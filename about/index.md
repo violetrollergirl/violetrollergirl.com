@@ -11,7 +11,7 @@ featured_image:
 ---
 
 <header id="Hero">
-    <h2>Hello, friend (with benefits)! I'm Violet.</h2>
+    <h2>Hello, friend (with <a href="{% link rates/index.md %}">benefit$</a>)! I'm Violet.</h2>
     <h3>If you're curious, yes, I live on my rollerblades&hellip;but <a href="#{{ site.title | slugify }}">I do know when to take them off</a>. ;)</h3>
     <p class="align-center">
         <a href="#{{ site.title | slugify }}" title="Enter my Web site">
