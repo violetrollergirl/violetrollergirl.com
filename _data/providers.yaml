@@ -167,6 +167,14 @@
       accepted: true
     ZEC:
       accepted: false
+- name: Lauren Love
+  url: https://tryst.link/escort/laurennyc
+  home_city: New York, NY, USA
+  deposit_methods:
+    ZEC:
+      accepted: true
+      proof_url: https://tryst.link/escort/laurennyc#policies
+      proof_img: resources/for-clients/using-cryptocurrency/finding-providers/zcash-proof-images/tryst.link.escort.laurennyc.png
 - name: Lilac
   url: https://tryst.link/escort/lilachoney
   home_city: New York, NY, USA
