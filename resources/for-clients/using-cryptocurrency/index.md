@@ -8,7 +8,7 @@ featured_image:
   url: images/gallery-originals/kneeling-on-the-beach-in-bikini.jpg
 prev: resources/for-clients/
 next: resources/for-clients/using-cryptocurrency/quick-start/
-last_modified: Fri Aug  7 23:23:44 EDT 2026
+last_modified: Wed Nov 25 23:46:59 EST 2026
 ---
 
 # {{ site.title }}'s guide to paying your provider in crypto
@@ -23,6 +23,7 @@ Cryptocurrency is becoming increasingly popular with both providers and our clie
 
 ## In this article
 
+1. [A ZECsy Overview](#a-zecsy-overview)
 1. [Why use cryptocurrency?](#why-use-cryptocurrency)
 1. [Quick(est) Start: No experience required](#quickest-start-no-experience-required)
 1. [List of guides](#list-of-guides)
@@ -39,6 +40,14 @@ Cryptocurrency is becoming increasingly popular with both providers and our clie
 1. [Other ways to spend crypto (on your provider)](#other-ways-to-spend-crypto-on-your-provider)
 1. [Finding providers who take cryptocurrency](#finding-providers-who-take-cryptocurrency)
 1. [Have questions? I'm here for you!](#have-questions-im-here-for-you)
+
+## A ZECsy Overview
+
+Here's an <a href="https://zecsy.com/guides/for-buyers/quick-start/" target="_blank">interactive explainer for buyers from my education initiative, ZECsy.com</a>.
+
+<iframe src="https://zecsy.com/guides/for-buyers/quick-start/" width="100%" height="720"></iframe>
+
+Curious to learn more? Read on.
 
 ## Why use cryptocurrency?
 
